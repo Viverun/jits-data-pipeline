@@ -65,7 +65,7 @@ def aggregate_basis(cluster_nodes, edge_data):
 
 def main():
     if not os.path.exists(EDGE_FILE):
-        print(f"❌ EDGE_FILE not found: {EDGE_FILE}")
+        print(f"[ERROR] EDGE_FILE not found: {EDGE_FILE}")
         return
 
     edges = []
@@ -74,7 +74,7 @@ def main():
             if line.strip():
                 edges.append(json.loads(line))
 
-    print(f"✔ Loaded {len(edges)} similarity edges")
+    print(f"[OK] Loaded {len(edges)} similarity edges")
 
     cluster_nodes_list, edge_data = find_clusters(edges)
     
@@ -92,8 +92,8 @@ def main():
     with open(CLUSTER_FILE, "w", encoding="utf-8") as f:
         json.dump(final_clusters, f, indent=2, ensure_ascii=False)
 
-    print(f"✔ Identified {len(final_clusters)} clusters")
-    print(f"✔ {CLUSTER_FILE} written")
+    print(f"[OK] Identified {len(final_clusters)} clusters")
+    print(f"[OK] {CLUSTER_FILE} written")
 
 if __name__ == "__main__":
     main()

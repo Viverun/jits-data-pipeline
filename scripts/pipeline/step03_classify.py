@@ -60,12 +60,12 @@ def classify(signals):
 
 def main():
     if not os.path.exists(INPUT_DIR):
-        print(f"❌ INPUT_DIR not found: {INPUT_DIR}")
+        print(f"[ERROR] INPUT_DIR not found: {INPUT_DIR}")
         return
 
     files = list(Path(INPUT_DIR).glob("*.json"))
     if not files:
-        print(f"⚠️ No .json files found in {INPUT_DIR}")
+        print(f"[WARNING] No .json files found in {INPUT_DIR}")
         return
 
     count = 0
@@ -88,10 +88,10 @@ def main():
         with open(out_path, "w", encoding="utf-8") as out:
             json.dump(data, out, indent=2, ensure_ascii=False)
 
-        print(f"✔ Classified {file.name} → {domain} ({confidence})")
+        print(f"[OK] Classified {file.name} -> {domain} ({confidence})")
         count += 1
 
-    print(f"\n✅ Step03 complete — classified {count} files")
+    print(f"\n[OK] Step03 complete — classified {count} files")
 
 if __name__ == "__main__":
     main()

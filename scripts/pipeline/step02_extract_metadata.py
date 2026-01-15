@@ -59,12 +59,12 @@ def extract_header_metadata(text: str):
 
 def main():
     if not os.path.exists(IN_DIR):
-        print(f"❌ IN_DIR not found: {IN_DIR}")
+        print(f"[ERROR] IN_DIR not found: {IN_DIR}")
         return
 
     files = [f for f in os.listdir(IN_DIR) if f.endswith(".json")]
     if not files:
-        print(f"⚠️ No .json files found in {IN_DIR}. Did you run Step 01?")
+        print(f"[WARNING] No .json files found in {IN_DIR}. Did you run Step 01?")
         return
 
     for file in files:
@@ -82,7 +82,7 @@ def main():
         with open(out_path, "w", encoding="utf-8") as out:
             json.dump(data, out, indent=2, ensure_ascii=False)
 
-        print(f"✅ Metadata extracted: {data['judgment_id']}")
+        print(f"[OK] Metadata extracted: {data['judgment_id']}")
 
 if __name__ == "__main__":
     main()

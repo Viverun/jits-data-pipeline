@@ -13,12 +13,12 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 def main():
     if not os.path.exists(INPUT_DIR):
-        print(f"❌ INPUT_DIR not found: {INPUT_DIR}")
+        print(f"[ERROR] INPUT_DIR not found: {INPUT_DIR}")
         return
 
     files = list(Path(INPUT_DIR).glob("*.json"))
     if not files:
-        print(f"⚠️ No .json files found in {INPUT_DIR}")
+        print(f"[WARNING] No .json files found in {INPUT_DIR}")
         return
 
     for file in files:
@@ -38,9 +38,9 @@ def main():
         with open(out_path, "w", encoding="utf-8") as out:
             json.dump(data, out, indent=2, ensure_ascii=False)
 
-        print(f"✔ Citations extracted: {file.name} ({len(citations)} citations found)")
+        print(f"[OK] Citations extracted: {file.name} ({len(citations)} citations found)")
 
-    print(f"\n✅ Step 06 complete — citations extracted across files.")
+    print(f"\n[OK] Step 06 complete — citations extracted across files.")
 
 if __name__ == "__main__":
     main()

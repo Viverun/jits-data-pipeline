@@ -68,12 +68,12 @@ def calculate_similarity(sig1, sig2):
 
 def main():
     if not os.path.exists(INPUT_DIR):
-        print(f"❌ INPUT_DIR not found: {INPUT_DIR}")
+        print(f"[ERROR] INPUT_DIR not found: {INPUT_DIR}")
         return
 
     files = list(Path(INPUT_DIR).glob("*.json"))
     if not files:
-        print(f"⚠️ No .json files found in {INPUT_DIR}")
+        print(f"[WARNING] No .json files found in {INPUT_DIR}")
         return
 
     all_signals = []
@@ -89,7 +89,7 @@ def main():
         with open(signal_path, "w", encoding="utf-8") as out:
             json.dump(signals, out, indent=2, ensure_ascii=False)
 
-    print(f"✔ Signals extracted: {len(all_signals)} judgments")
+    print(f"[OK] Signals extracted: {len(all_signals)} judgments")
 
     # Generate pairwise edges
     edge_count = 0
@@ -100,7 +100,7 @@ def main():
                 ef.write(json.dumps(edge, ensure_ascii=False) + "\n")
                 edge_count += 1
 
-    print(f"✔ Similarity edges created: {edge_count}")
+    print(f"[OK] Similarity edges created: {edge_count}")
 
 if __name__ == "__main__":
     main()
