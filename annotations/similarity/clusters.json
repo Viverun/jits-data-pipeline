@@ -1,17 +1,13 @@
 [
   {
     "cluster_id": "CLUSTER-0001",
+    "centroid": "IN-UNK-UNK-2026-CV-585958",
     "judgments": [
       "IN-UNK-UNK-2026-CV-0AD334",
-      "IN-UNK-UNK-2026-CV-100791",
       "IN-UNK-UNK-2026-CV-186C6F",
-      "IN-UNK-UNK-2026-CV-1930FA",
       "IN-UNK-UNK-2026-CV-1FB64B",
-      "IN-UNK-UNK-2026-CV-24171E",
-      "IN-UNK-UNK-2026-CV-28CA8C",
       "IN-UNK-UNK-2026-CV-3223BD",
       "IN-UNK-UNK-2026-CV-4428D5",
-      "IN-UNK-UNK-2026-CV-486AB8",
       "IN-UNK-UNK-2026-CV-4BB313",
       "IN-UNK-UNK-2026-CV-501E32",
       "IN-UNK-UNK-2026-CV-585958",
@@ -19,22 +15,18 @@
       "IN-UNK-UNK-2026-CV-6103CD",
       "IN-UNK-UNK-2026-CV-6155F7",
       "IN-UNK-UNK-2026-CV-6241D7",
-      "IN-UNK-UNK-2026-CV-6C3AA8",
       "IN-UNK-UNK-2026-CV-70A026",
       "IN-UNK-UNK-2026-CV-7381CF",
-      "IN-UNK-UNK-2026-CV-79C25E",
       "IN-UNK-UNK-2026-CV-7D66F0",
       "IN-UNK-UNK-2026-CV-805BFE",
       "IN-UNK-UNK-2026-CV-831E02",
       "IN-UNK-UNK-2026-CV-8B8447",
       "IN-UNK-UNK-2026-CV-8F4917",
-      "IN-UNK-UNK-2026-CV-95DD4D",
       "IN-UNK-UNK-2026-CV-9684B7",
       "IN-UNK-UNK-2026-CV-9C4194",
       "IN-UNK-UNK-2026-CV-9DFEC7",
       "IN-UNK-UNK-2026-CV-9E8234",
       "IN-UNK-UNK-2026-CV-B91D17",
-      "IN-UNK-UNK-2026-CV-BB3FCC",
       "IN-UNK-UNK-2026-CV-C33C91",
       "IN-UNK-UNK-2026-CV-C8B99D",
       "IN-UNK-UNK-2026-CV-CA542A",
@@ -42,14 +34,12 @@
       "IN-UNK-UNK-2026-CV-CF566A",
       "IN-UNK-UNK-2026-CV-E3E6DF",
       "IN-UNK-UNK-2026-CV-E8DB41",
-      "IN-UNK-UNK-2026-CV-E912C0",
-      "IN-UNK-UNK-2026-CV-E9ED60",
       "IN-UNK-UNK-2026-CV-EE6DDB",
       "IN-UNK-UNK-2026-CV-EF4EDA",
       "IN-UNK-UNK-2026-CV-F2ED2B",
-      "IN-UNK-UNK-2026-CV-F75F84",
-      "IN-UNK-UNK-2026-CV-FAABD8"
+      "IN-UNK-UNK-2026-CV-F75F84"
     ],
+    "count": 35,
     "basis": {
       "issues": [
         "arbitration",
@@ -70,24 +60,14 @@
         "BNS 351",
         "BNS 64",
         "BNS 86",
-        "IPC 04",
-        "IPC 1",
         "IPC 10",
-        "IPC 107",
-        "IPC 109",
-        "IPC 11",
-        "IPC 12",
         "IPC 120",
         "IPC 120B",
         "IPC 13",
         "IPC 138",
-        "IPC 14",
-        "IPC 145",
         "IPC 147",
         "IPC 148",
         "IPC 149",
-        "IPC 15",
-        "IPC 151",
         "IPC 154",
         "IPC 155",
         "IPC 156",
@@ -97,40 +77,25 @@
         "IPC 164",
         "IPC 167",
         "IPC 169",
-        "IPC 17",
         "IPC 173",
-        "IPC 174",
         "IPC 18",
         "IPC 1860",
-        "IPC 1872",
         "IPC 190",
-        "IPC 1959",
-        "IPC 1961",
         "IPC 1973",
         "IPC 198",
-        "IPC 1983",
-        "IPC 198A",
         "IPC 2",
         "IPC 20",
-        "IPC 200",
         "IPC 201",
         "IPC 2019",
-        "IPC 202",
         "IPC 2023",
         "IPC 21",
-        "IPC 215",
         "IPC 22",
-        "IPC 220",
         "IPC 221",
         "IPC 222",
-        "IPC 227",
-        "IPC 23",
         "IPC 232",
-        "IPC 239",
         "IPC 25",
         "IPC 26",
         "IPC 2696",
-        "IPC 27",
         "IPC 279",
         "IPC 299",
         "IPC 3",
@@ -141,7 +106,6 @@
         "IPC 304B",
         "IPC 306",
         "IPC 307",
-        "IPC 309",
         "IPC 313",
         "IPC 32",
         "IPC 320",
@@ -175,13 +139,9 @@
         "IPC 420",
         "IPC 427",
         "IPC 437",
-        "IPC 438",
-        "IPC 439",
         "IPC 447",
         "IPC 452",
-        "IPC 46",
         "IPC 464",
-        "IPC 465",
         "IPC 467",
         "IPC 468",
         "IPC 471",
@@ -199,9 +159,7 @@
         "IPC 6",
         "IPC 7",
         "IPC 72",
-        "IPC 73",
         "IPC 788",
-        "IPC 8",
         "IPC 9"
       ],
       "citations": [
@@ -209,13 +167,8 @@
         "(1984) 4 SCC 116",
         "(1993) 1 SCC 435",
         "(1993) 3 SCC 32",
-        "(1994) 1 SCC 73",
         "(1996) 5 SCC 591",
         "(1999) 5 SCC 238",
-        "(2001) 10 SCC 736",
-        "(2001) 6 SCC 407",
-        "(2001) 9 SCC 618",
-        "(2003) 12 SCC 395",
         "(2003) 4 SCC 675",
         "(2008) 16 SCC 1",
         "(2012) 1 SCC 40",
@@ -226,17 +179,13 @@
         "(2014)\n 6 SCC 466",
         "(2014) 15 SCC 29",
         "(2014) 5 SCC 880",
-        "(2014) 6 SCC 466",
         "(2014) 9 SCC 772",
         "(2016) 1 SCC 376",
         "(2016) 1 SCC 389",
         "(2018) 11 SCC 1",
-        "(2019) 11 SCC 706",
         "(2022) 10 SCC 51",
         "AIR 1955 SC 274",
         "AIR 1955 SC 419",
-        "AIR 1960 SC 866",
-        "Arvind Singh v. State of Bihar\n\n",
         "Further this Court in \nSanjay\n Chandra v. CBI ",
         "George vs State Of Kerala on ",
         "Gian Singh versus State of Punjab and\n\n another\n ",
@@ -247,14 +196,109 @@
         "Nikesh Tarachand\n Shah v. Union of India",
         "Others vs State Of U",
         "Sanjay Chandra\n v. CBI",
-        "State of Haryana v. Bhajan Lal",
-        "Supreme Court in \nAluri Venkata Ramana vs. Aluri\n\nThirupathi Rao and Ors",
         "Supreme Court in \nSushila\n Aggarwal v. State ",
-        "Suvetha v. State\n ",
         "The larger Bench in \nGian Singh v. State of Punjab\n ",
         "This Court in Nikesh\n Tarachand Shah v. Union of India "
       ]
     },
-    "confidence": "medium"
+    "confidence": "high"
+  },
+  {
+    "cluster_id": "CLUSTER-0002",
+    "centroid": "IN-UNK-UNK-2026-CV-79C25E",
+    "judgments": [
+      "IN-UNK-UNK-2026-CV-1930FA",
+      "IN-UNK-UNK-2026-CV-79C25E"
+    ],
+    "count": 2,
+    "basis": {
+      "issues": [
+        "arbitration",
+        "jurisdiction",
+        "limitation",
+        "maintainability",
+        "quashing",
+        "specific_performance"
+      ],
+      "sections": [
+        "IPC 320",
+        "IPC 323",
+        "IPC 379",
+        "IPC 482",
+        "IPC 504"
+      ],
+      "citations": [
+        "(2012) 10 SCC 303",
+        "Others vs State Of U"
+      ]
+    },
+    "confidence": "high"
+  },
+  {
+    "cluster_id": "CLUSTER-0003",
+    "centroid": "IN-UNK-UNK-2026-CV-BB3FCC",
+    "judgments": [
+      "IN-UNK-UNK-2026-CV-100791",
+      "IN-UNK-UNK-2026-CV-BB3FCC"
+    ],
+    "count": 2,
+    "basis": {
+      "issues": [
+        "arbitration",
+        "evidence_admissibility",
+        "jurisdiction",
+        "limitation",
+        "maintainability",
+        "sentencing",
+        "specific_performance"
+      ],
+      "sections": [
+        "BNS 86",
+        "IPC 174",
+        "IPC 306",
+        "IPC 498",
+        "IPC 498A"
+      ],
+      "citations": [
+        "(1994) 1 SCC 73"
+      ]
+    },
+    "confidence": "high"
+  },
+  {
+    "cluster_id": "CLUSTER-0004",
+    "centroid": "IN-UNK-UNK-2026-CV-6C3AA8",
+    "judgments": [
+      "IN-UNK-UNK-2026-CV-28CA8C",
+      "IN-UNK-UNK-2026-CV-6C3AA8"
+    ],
+    "count": 2,
+    "basis": {
+      "issues": [
+        "arbitration",
+        "evidence_admissibility",
+        "injunction",
+        "jurisdiction",
+        "limitation",
+        "maintainability",
+        "quashing",
+        "sentencing",
+        "specific_performance"
+      ],
+      "sections": [
+        "BNS 86",
+        "IPC 1983",
+        "IPC 313",
+        "IPC 498",
+        "IPC 498A"
+      ],
+      "citations": [
+        "(2001) 6 SCC 407",
+        "Arvind Singh v. State of Bihar\n\n",
+        "Supreme Court in \nAluri Venkata Ramana vs. Aluri\n\nThirupathi Rao and Ors",
+        "Suvetha v. State\n "
+      ]
+    },
+    "confidence": "high"
   }
 ]

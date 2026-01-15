@@ -5,49 +5,64 @@ from collections import defaultdict
 EDGE_FILE = "annotations/similarity/edges.jsonl"
 CLUSTER_FILE = "annotations/similarity/clusters.json"
 
-def find_clusters(edges):
-    """Finds connected components using BFS."""
-    adj = defaultdict(list)
-    edge_data = {}
+# v0.2.3: Expanded noise filters
+UNIVERSAL_ISSUES = {"jurisdiction", "maintainability", "limitation"}
+UNIVERSAL_SECTIONS = {
+    "IPC 1", "IPC 2", "IPC 3", "IPC 4", "IPC 5", "IPC 6", "IPC 7", "IPC 8", "IPC 9", "IPC 10",
+    "IPC 34", "IPC 120B", "IPC 149", "IPC 1860", "IPC 1973", "IPC 2023", "IPC 2019", "IPC 1959"
+}
 
+def find_clusters_centroid(edges):
+    adj = defaultdict(dict)
+    edge_data = {}
+    
     for edge in edges:
         u, v = edge["from"], edge["to"]
-        adj[u].append(v)
-        adj[v].append(u)
-        # Store edge signals for basis aggregation
-        edge_data[tuple(sorted((u, v)))] = edge["signals"]
+        
+        # Filter signals
+        shared_specific_issues = set(edge["signals"].get("shared_issues", [])) - UNIVERSAL_ISSUES
+        shared_sections = set(edge["signals"].get("shared_sections", [])) - UNIVERSAL_SECTIONS
+        shared_citations = set(edge["signals"].get("shared_citations", []))
+        
+        # Calculate clean weight
+        weight = len(shared_specific_issues) + len(shared_sections) + len(shared_citations)
+        
+        # v0.2.3: High threshold (10+) for direct clustering
+        if edge["strength"] == "high" and weight >= 10:
+            adj[u][v] = weight
+            adj[v][u] = weight
+            edge_data[tuple(sorted((u, v)))] = edge["signals"]
 
-    visited = set()
+    node_degrees = {node: len(neighbors) for node, neighbors in adj.items()}
+    sorted_nodes = sorted(node_degrees.keys(), key=lambda x: node_degrees[x], reverse=True)
+
     clusters = []
+    assigned = set()
 
-    for node in list(adj.keys()):
-        if node not in visited:
-            # New cluster found
-            component = []
-            queue = [node]
-            visited.add(node)
+    for centroid in sorted_nodes:
+        if centroid in assigned:
+            continue
             
-            while queue:
-                curr = queue.pop(0)
-                component.append(curr)
-                for neighbor in adj[curr]:
-                    if neighbor not in visited:
-                        visited.add(neighbor)
-                        queue.append(neighbor)
-            
-            clusters.append(component)
+        current_cluster = [centroid]
+        assigned.add(centroid)
+        
+        neighbors = adj[centroid]
+        sorted_neighbors = sorted(neighbors.keys(), key=lambda x: neighbors[x], reverse=True)
+        
+        for n in sorted_neighbors:
+            if n not in assigned:
+                current_cluster.append(n)
+                assigned.add(n)
+        
+        if len(current_cluster) > 1:
+            clusters.append(current_cluster)
             
     return clusters, edge_data
 
 def aggregate_basis(cluster_nodes, edge_data):
     """Aggregates shared signals across all edges in a cluster."""
-    basis = {
-        "issues": set(),
-        "sections": set(),
-        "citations": set()
-    }
+    basis = {"issues": set(), "sections": set(), "citations": set()}
     
-    # Look at all pairs in the cluster and collect shared signals if an edge exists
     for i in range(len(cluster_nodes)):
         for j in range(i + 1, len(cluster_nodes)):
             pair = tuple(sorted((cluster_nodes[i], cluster_nodes[j])))
@@ -76,7 +91,7 @@ def main():
 
     print(f"[OK] Loaded {len(edges)} similarity edges")
 
-    cluster_nodes_list, edge_data = find_clusters(edges)
+    cluster_nodes_list, edge_data = find_clusters_centroid(edges)
     
     final_clusters = []
     for i, nodes in enumerate(cluster_nodes_list, start=1):
@@ -84,15 +99,17 @@ def main():
         
         final_clusters.append({
             "cluster_id": f"CLUSTER-{i:04d}",
+            "centroid": nodes[0],
             "judgments": sorted(nodes),
+            "count": len(nodes),
             "basis": basis,
-            "confidence": "medium" # Defaulting to medium as per our edge strength
+            "confidence": "high"
         })
 
     with open(CLUSTER_FILE, "w", encoding="utf-8") as f:
         json.dump(final_clusters, f, indent=2, ensure_ascii=False)
 
-    print(f"[OK] Identified {len(final_clusters)} clusters")
+    print(f"[OK] Identified {len(final_clusters)} high-precision clusters with shared basis")
     print(f"[OK] {CLUSTER_FILE} written")
 
 if __name__ == "__main__":
