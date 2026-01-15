@@ -1,0 +1,22 @@
+[
+  {
+    "cluster_id": "CLUSTER-0001",
+    "judgments": [
+      "IN-UNK-UNK-2026-CV-24171E",
+      "IN-UNK-UNK-2026-CV-8B8447"
+    ],
+    "basis": {
+      "issues": [
+        "arbitration",
+        "evidence_admissibility",
+        "jurisdiction",
+        "limitation",
+        "maintainability",
+        "specific_performance"
+      ],
+      "sections": [],
+      "citations": []
+    },
+    "confidence": "medium"
+  }
+]

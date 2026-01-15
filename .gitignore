@@ -1,0 +1,33 @@
+# JITS Data Pipeline - Git Ignore
+
+# Data directories (Keep structure, ignore content)
+raw/*
+!raw/sample/
+interim/*
+processed/judgments/*
+!processed/judgments/sample_output.json
+
+# Logs and temporary files
+logs/*.log
+*.tmp
+*.bak
+
+# Python environment
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# IDE settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
