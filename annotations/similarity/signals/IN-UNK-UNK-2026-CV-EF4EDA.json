@@ -1,38 +1,34 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-EF4EDA",
   "issues": [
-    "sentencing",
-    "evidence_admissibility",
-    "limitation",
-    "specific_performance",
     "arbitration",
-    "jurisdiction",
-    "maintainability"
+    "sentencing",
+    "specific_performance"
   ],
   "sections": [
-    "IPC 1860",
-    "IPC 302",
-    "IPC 26",
-    "IPC 163",
-    "IPC 25",
-    "IPC 34",
-    "BNS 103",
-    "IPC 379",
     "IPC 1872",
-    "IPC 164",
+    "IPC 302",
+    "IPC 201",
+    "IPC 27",
+    "IPC 25",
     "IPC 162",
     "IPC 161",
-    "IPC 27",
-    "IPC 201",
-    "IPC 364"
+    "IPC 164",
+    "IPC 364",
+    "BNS 103",
+    "IPC 1860",
+    "IPC 379",
+    "IPC 26",
+    "IPC 163"
   ],
   "citations": [
-    "(2010) 7 SCC 263",
-    "(2012) 2 SCC 399",
-    "Others vs. The State of\n\nWest Bengal\n ",
     "In \nMadhu vs. State of Kerala\n ",
-    "The law regarding circumstantial evidence was aptly\n\ndealt with by this Court in \nPadala Veera Reddy vs. State of\n\nAndhra Pradesh and Others\n ",
     "Court in \nSelvi and\n\nOthers vs. State of Karnataka\n ",
-    "Supreme Court of India\n\nNavaneethakrishnan vs The State By Inspector Of Police on "
-  ]
+    "Supreme Court of India\n\nNavaneethakrishnan vs The State By Inspector Of Police on ",
+    "(2010) 7 SCC 263",
+    "The law regarding circumstantial evidence was aptly\n\ndealt with by this Court in \nPadala Veera Reddy vs. State of\n\nAndhra Pradesh and Others\n ",
+    "Others vs. The State of\n\nWest Bengal\n ",
+    "(2012) 2 SCC 399"
+  ],
+  "domain": "criminal"
 }

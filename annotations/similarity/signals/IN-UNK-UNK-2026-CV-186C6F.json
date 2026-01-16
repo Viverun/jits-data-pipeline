@@ -1,25 +1,22 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-186C6F",
   "issues": [
-    "quashing",
-    "limitation",
     "specific_performance",
-    "jurisdiction",
-    "maintainability"
+    "quashing"
   ],
   "sections": [
-    "IPC 307",
-    "IPC 148",
-    "IPC 337",
-    "IPC 504",
     "IPC 1973",
+    "IPC 307",
+    "IPC 504",
     "BNS 351",
-    "IPC 149",
-    "IPC 323",
     "IPC 147",
-    "IPC 324",
+    "IPC 506",
     "IPC 482",
-    "IPC 506"
+    "IPC 337",
+    "IPC 323",
+    "IPC 324",
+    "IPC 148"
   ],
-  "citations": []
+  "citations": [],
+  "domain": "criminal"
 }

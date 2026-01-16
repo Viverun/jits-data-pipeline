@@ -1,40 +1,34 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-4BB313",
   "issues": [
-    "quashing",
-    "evidence_admissibility",
-    "limitation",
-    "specific_performance",
     "arbitration",
-    "jurisdiction",
-    "maintainability"
+    "specific_performance",
+    "quashing"
   ],
   "sections": [
+    "IPC 173",
+    "IPC 427",
+    "IPC 147",
+    "IPC 341",
+    "IPC 506",
+    "BNS 351",
     "IPC 325",
+    "IPC 482",
     "IPC 205",
-    "IPC 3",
+    "IPC 323",
     "IPC 320",
     "IPC 307",
-    "IPC 148",
-    "IPC 341",
-    "BNS 351",
-    "IPC 34",
-    "IPC 149",
-    "IPC 323",
-    "IPC 147",
-    "IPC 427",
-    "IPC 482",
     "IPC 452",
-    "IPC 173",
-    "IPC 506"
+    "IPC 148"
   ],
   "citations": [
     "(2012) 10 SCC\n 303",
+    "The larger Bench in \nGian Singh v. State of Punjab\n ",
+    "Himachal Pradesh High Court\n\nJagjit Singh And Others vs State Of Himachal Pradesh And Others on ",
+    "Vivek Gujral and others versus Union Territory\n\n through Administrator",
     "(2012) 10 SCC 303",
     "Gian Singh versus State of Punjab and\n\n another\n ",
-    "(2013) 11 SCC 497",
-    "Vivek Gujral and others versus Union Territory\n\n through Administrator",
-    "Himachal Pradesh High Court\n\nJagjit Singh And Others vs State Of Himachal Pradesh And Others on ",
-    "The larger Bench in \nGian Singh v. State of Punjab\n "
-  ]
+    "(2013) 11 SCC 497"
+  ],
+  "domain": "criminal"
 }

@@ -183,39 +183,13 @@
   ],
   "annotations": {
     "issues": {
-      "evidence_admissibility": {
-        "statute": "IEA / BSA",
-        "keywords": [],
-        "sections": [
-          "24",
-          "45"
-        ],
-        "confidence": "medium"
-      },
-      "limitation": {
-        "statute": "Limitation Act",
-        "keywords": [],
-        "sections": [
-          "3",
-          "5"
-        ],
-        "confidence": "medium"
-      },
-      "injunction": {
-        "statute": "Specific Relief Act",
-        "keywords": [],
-        "sections": [
-          "36",
-          "37"
-        ],
-        "confidence": "medium"
-      },
       "specific_performance": {
         "statute": "Specific Relief Act",
         "keywords": [],
         "sections": [
           "10",
-          "16"
+          "16",
+          "20"
         ],
         "confidence": "medium"
       },
@@ -244,16 +218,14 @@
         ],
         "confidence": "high"
       },
-      "maintainability": {
-        "statute": "CPC",
-        "keywords": [
-          "cause of action"
-        ],
+      "limitation": {
+        "statute": "Limitation Act",
+        "keywords": [],
         "sections": [
-          "9",
-          "11"
+          "3",
+          "5"
         ],
-        "confidence": "high"
+        "confidence": "medium"
       }
     },
     "citations": [
@@ -261,83 +233,154 @@
         "reporter": "AIR",
         "year": "2005",
         "page": "2071",
-        "raw": "AIR 2005 SC 2071"
+        "raw": "AIR 2005 SC 2071",
+        "is_landmark": false
       },
       {
         "reporter": "SCC",
         "year": "2005",
         "page": "678",
-        "raw": "(2005) 6 SCC 678"
+        "raw": "(2005) 6 SCC 678",
+        "is_landmark": false
       },
       {
         "reporter": "SCC",
         "year": "2007",
         "page": "720",
-        "raw": "(2007) 2 SCC 720"
+        "raw": "(2007) 2 SCC 720",
+        "is_landmark": false
       },
       {
         "reporter": "SCC",
         "year": "2006",
         "page": "181",
-        "raw": "(2006) 11 SCC 181"
+        "raw": "(2006) 11 SCC 181",
+        "is_landmark": true,
+        "precedent_id": "UMADEVI"
       },
       {
         "reporter": "SCC",
         "year": "2015",
         "page": "189",
-        "raw": "(2015) 2 SCC 189"
+        "raw": "(2015) 2 SCC 189",
+        "is_landmark": false
       },
       {
         "reporter": "SCC",
         "year": "2001",
         "page": "721",
-        "raw": "(2001) 2 SCC 721"
+        "raw": "(2001) 2 SCC 721",
+        "is_landmark": false
       },
       {
         "reporter": "SCC",
         "year": "1992",
         "page": "508",
-        "raw": "(1992) 1 SCC 508"
+        "raw": "(1992) 1 SCC 508",
+        "is_landmark": false
       },
       {
         "reporter": "SCC",
         "year": "1992",
         "page": "217",
-        "raw": "(1992) 4 SCC 217"
+        "raw": "(1992) 4 SCC 217",
+        "is_landmark": false
       },
       {
         "reporter": "SCC",
         "year": "2005",
         "page": "462",
-        "raw": "(2005) 6 SCC 462"
+        "raw": "(2005) 6 SCC 462",
+        "is_landmark": false
       },
       {
         "reporter": "SCC",
         "year": "2003",
         "page": "593",
-        "raw": "(2003) 8 SCC 593"
+        "raw": "(2003) 8 SCC 593",
+        "is_landmark": false
       },
       {
         "reporter": "SCC",
         "year": "2006",
         "page": "383",
-        "raw": "(2006) 9 SCC 383"
+        "raw": "(2006) 9 SCC 383",
+        "is_landmark": true,
+        "precedent_id": "UMADEVI"
       },
       {
         "reporter": "SCALE",
         "year": "2006",
         "page": "453",
-        "raw": "(2006) 4 Scale 453"
+        "raw": "(2006) 4 Scale 453",
+        "is_landmark": false
       },
       {
         "case_name": "Limited v. Governor",
-        "raw": "Limited v. Governor"
+        "raw": "Limited v. Governor",
+        "is_landmark": false
       },
       {
         "case_name": "Delhi Airport Metro Express Private Limited v. Delhi Metro Rail Corporation",
-        "raw": "Delhi Airport Metro Express Private Limited v. Delhi Metro Rail Corporation"
+        "raw": "Delhi Airport Metro Express Private Limited v. Delhi Metro Rail Corporation",
+        "is_landmark": false
       }
-    ]
+    ],
+    "matched_landmarks": [
+      {
+        "precedent_id": "UMADEVI",
+        "full_citation": "Secretary, State of Karnataka v. Umadevi, (2006) 4 SCC 1",
+        "short_name": "Umadevi",
+        "year": 2006,
+        "court": "Supreme Court",
+        "legal_principle": "No automatic regularization of temporary/daily wage employees",
+        "issues": [
+          "regularization",
+          "seniority_promotion",
+          "article_14"
+        ],
+        "provisions": [
+          "Article 14",
+          "Article 16"
+        ],
+        "keywords": [
+          "regularization",
+          "temporary employee",
+          "daily wage",
+          "back door entry"
+        ],
+        "binding_authority": "SC",
+        "status": "good_law",
+        "matched_by": "year_reporter"
+      },
+      {
+        "precedent_id": "UMADEVI",
+        "full_citation": "Secretary, State of Karnataka v. Umadevi, (2006) 4 SCC 1",
+        "short_name": "Umadevi",
+        "year": 2006,
+        "court": "Supreme Court",
+        "legal_principle": "No automatic regularization of temporary/daily wage employees",
+        "issues": [
+          "regularization",
+          "seniority_promotion",
+          "article_14"
+        ],
+        "provisions": [
+          "Article 14",
+          "Article 16"
+        ],
+        "keywords": [
+          "regularization",
+          "temporary employee",
+          "daily wage",
+          "back door entry"
+        ],
+        "binding_authority": "SC",
+        "status": "good_law",
+        "matched_by": "year_reporter"
+      }
+    ],
+    "suggested_precedents": []
   },
   "classification": {
     "domain": "civil",
@@ -345,8 +388,8 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "arbitration",
         "Arbitration",
+        "arbitration",
         "decree",
         "suit"
       ]

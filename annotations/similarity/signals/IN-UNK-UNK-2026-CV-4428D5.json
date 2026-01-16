@@ -1,39 +1,33 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-4428D5",
   "issues": [
-    "bail",
-    "sentencing",
-    "evidence_admissibility",
-    "limitation",
     "specific_performance",
     "arbitration",
-    "jurisdiction",
-    "maintainability"
+    "sentencing",
+    "bail"
   ],
   "sections": [
-    "IPC 3",
-    "IPC 304B",
-    "IPC 498A",
-    "IPC 4",
-    "IPC 306",
-    "IPC 304",
-    "BNS 86",
-    "BNS 104",
-    "IPC 302",
-    "IPC 9",
-    "IPC 1872",
-    "IPC 113B",
     "IPC 201",
-    "IPC 2003",
-    "IPC 1860",
-    "BNS 103",
-    "IPC 106",
+    "IPC 302",
+    "IPC 1872",
+    "IPC 498A",
     "IPC 173",
+    "IPC 2003",
+    "BNS 86",
+    "IPC 304B",
+    "IPC 1860",
+    "IPC 24TH",
+    "IPC 113B",
+    "IPC 106",
+    "BNS 104",
+    "BNS 103",
+    "IPC 304",
     "IPC 498",
-    "IPC 24TH"
+    "IPC 306"
   ],
   "citations": [
-    "(2001) 2 SCC 577",
-    "Multtani vs. State of\n\nKarnataka"
-  ]
+    "Multtani vs. State of\n\nKarnataka",
+    "(2001) 2 SCC 577"
+  ],
+  "domain": "criminal"
 }

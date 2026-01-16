@@ -1,45 +1,41 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-6C3AA8",
   "issues": [
-    "quashing",
-    "sentencing",
-    "evidence_admissibility",
-    "limitation",
-    "injunction",
-    "specific_performance",
     "arbitration",
-    "jurisdiction",
-    "maintainability"
+    "sentencing",
+    "specific_performance",
+    "quashing"
   ],
   "sections": [
     "IPC 498A",
-    "IPC 306",
-    "IPC 22",
-    "IPC 498",
-    "IPC 114",
-    "IPC 145",
-    "IPC 313",
     "BNS 86",
-    "IPC 1983"
+    "IPC 22",
+    "IPC 145",
+    "IPC 1983",
+    "IPC 313",
+    "IPC 114",
+    "IPC 498",
+    "IPC 306"
   ],
   "citations": [
-    "(1967) 1 SCR 595",
-    "Arvind Singh v. State of Bihar\n\n",
+    "(2005) 10 SCC 196",
     "(2001) 6 SCC 407",
+    "Supreme Court in \nAppabhai v. State of\n\nGujarat\n",
+    "Supreme Court in Pohlu v.\n\nState of Haryana",
+    "Khetwani v. State of Maharashtra\n",
+    "A similar view was taken in \nGirdhar Shankar Tawade v.\n\nState of Maharashtra\n",
+    "(2002) 5 SCC 177",
+    "(2025) 2 SCC 116",
+    "AIR 1967 SC 450",
     "(2001) 9 SCC 618",
     "Suvetha v. State\n ",
-    "Khetwani v. State of Maharashtra\n",
-    "(2002) 5 SCC 177",
-    "(2005) 10 SCC 196",
-    "Supreme Court in\n\nMajid v. State of Haryana\n",
-    "Supreme Court in \nAppabhai v. State of\n\nGujarat\n",
-    "Supreme Court in \nRamesh Kumar v. State of Chhattisgarh\n",
-    "Supreme Court in Pohlu v.\n\nState of Haryana",
     "(2001) 10 SCC 6",
+    "Arvind Singh v. State of Bihar\n\n",
+    "Supreme Court in \nRamesh Kumar v. State of Chhattisgarh\n",
     "Supreme Court in \nJayedeepsinh Pravinsinh\n\nChavda v. State of Gujarat\n",
-    "A similar view was taken in \nGirdhar Shankar Tawade v.\n\nState of Maharashtra\n",
+    "Supreme Court in\n\nMajid v. State of Haryana\n",
     "Supreme Court in \nAluri Venkata Ramana vs. Aluri\n\nThirupathi Rao and Ors",
-    "AIR 1967 SC 450",
-    "(2025) 2 SCC 116"
-  ]
+    "(1967) 1 SCR 595"
+  ],
+  "domain": "criminal"
 }

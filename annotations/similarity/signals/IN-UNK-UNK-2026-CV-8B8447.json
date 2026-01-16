@@ -1,45 +1,37 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-8B8447",
   "issues": [
-    "bail",
-    "sentencing",
-    "evidence_admissibility",
-    "limitation",
     "specific_performance",
     "arbitration",
-    "jurisdiction",
-    "maintainability"
+    "sentencing",
+    "bail"
   ],
   "sections": [
-    "IPC 3",
-    "IPC 307",
-    "IPC 17",
-    "IPC 4",
-    "IPC 153",
-    "IPC 427",
-    "IPC 21",
-    "IPC 120B",
-    "IPC 43",
-    "IPC 1959",
-    "IPC 23",
-    "IPC 20",
-    "IPC 164",
     "IPC 302",
-    "IPC 6",
-    "IPC 153A",
-    "IPC 161",
-    "IPC 45",
-    "IPC 18",
+    "IPC 17",
     "IPC 15",
-    "IPC 25",
-    "IPC 16",
-    "IPC 5",
+    "IPC 1959",
+    "IPC 43",
+    "IPC 161",
     "BNS 103",
+    "IPC 427",
+    "IPC 16",
+    "IPC 25",
+    "IPC 18",
+    "IPC 326",
+    "IPC 307",
+    "IPC 21",
+    "IPC 164",
+    "IPC 20",
+    "IPC 45",
     "IPC 324",
-    "IPC 326"
+    "IPC 153A",
+    "IPC 153",
+    "IPC 23"
   ],
   "citations": [
-    "(2015) 7 SCC 440",
-    "Prasad Shrikant Purohit vs. State of Maharashtra and Another "
-  ]
+    "Prasad Shrikant Purohit vs. State of Maharashtra and Another ",
+    "(2015) 7 SCC 440"
+  ],
+  "domain": "criminal"
 }

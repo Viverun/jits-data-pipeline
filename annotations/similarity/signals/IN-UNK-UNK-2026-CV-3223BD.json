@@ -1,39 +1,34 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-3223BD",
   "issues": [
-    "sentencing",
-    "evidence_admissibility",
-    "limitation",
-    "injunction",
-    "specific_performance",
     "arbitration",
-    "jurisdiction",
-    "maintainability"
+    "sentencing",
+    "specific_performance"
   ],
   "sections": [
-    "IPC 325",
-    "IPC 341",
-    "IPC 34",
-    "IPC 323",
-    "IPC 384",
     "IPC 324",
-    "IPC 306",
+    "IPC 279",
     "IPC 451",
+    "IPC 341",
+    "IPC 325",
+    "IPC 323",
+    "IPC 364",
+    "IPC 384",
     "IPC 452",
     "IPC 498",
-    "IPC 279",
-    "IPC 364"
+    "IPC 306"
   ],
   "citations": [
-    "See \nState of Maharashtra and Another v. Suresh\n Pandurang Darvakar\n ",
     "Maneka Gandhi v. Union of India\n ",
-    "(2000) 3\n\n SCC 394",
-    "Asfaq\n\n versus State of Rajasthan and others\n",
-    "Charles Sobraj v. Superintendent\n Central Jai",
     "Haryana and Others v. Mohinder Singh\n",
     "(2017) 15 SCC\n\n 55",
+    "Charles Sobraj v. Superintendent\n Central Jai",
     "(1978) 4 SCC 104",
+    "See \nState of Maharashtra and Another v. Suresh\n Pandurang Darvakar\n ",
+    "Himachal Pradesh High Court\n\nRaj Kumar Jaswal vs State Of H",
+    "Asfaq\n\n versus State of Rajasthan and others\n",
     "(2006) 4 SCC 776",
-    "Himachal Pradesh High Court\n\nRaj Kumar Jaswal vs State Of H"
-  ]
+    "(2000) 3\n\n SCC 394"
+  ],
+  "domain": "criminal"
 }

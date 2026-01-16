@@ -1,33 +1,25 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-C33C91",
   "issues": [
-    "quashing",
-    "evidence_admissibility",
-    "limitation",
-    "injunction",
-    "specific_performance",
     "arbitration",
-    "jurisdiction",
-    "maintainability"
+    "specific_performance",
+    "quashing"
   ],
   "sections": [
-    "IPC 378",
-    "IPC 1860",
-    "IPC 3",
-    "IPC 34",
-    "IPC 109",
-    "IPC 4",
+    "IPC 173",
     "IPC 22",
     "IPC 482",
     "IPC 32",
-    "IPC 173",
-    "IPC 190",
-    "IPC 2",
+    "IPC 109",
+    "IPC 1860",
     "IPC 379",
+    "IPC 378",
+    "IPC 190",
     "IPC 21"
   ],
   "citations": [
-    "Karnataka High Court\n\nArjun Yallappa Ghasti vs The State Of Karnataka on ",
-    "(2014) 9 SCC 772"
-  ]
+    "(2014) 9 SCC 772",
+    "Karnataka High Court\n\nArjun Yallappa Ghasti vs The State Of Karnataka on "
+  ],
+  "domain": "criminal"
 }

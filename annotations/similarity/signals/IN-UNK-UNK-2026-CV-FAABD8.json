@@ -1,31 +1,27 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-FAABD8",
   "issues": [
-    "bail",
     "sentencing",
-    "evidence_admissibility",
-    "limitation",
-    "injunction",
-    "specific_performance",
+    "disciplinary_proceedings",
     "arbitration",
-    "jurisdiction",
-    "maintainability"
+    "bail",
+    "specific_performance"
   ],
   "sections": [
-    "IPC 2247",
-    "IPC 1",
-    "BNS 103",
     "IPC 302",
+    "BNS 103",
+    "IPC 2247",
     "IPC 04"
   ],
   "citations": [
+    "(2010) 4 SCC 216",
+    "(2021) 9 SCC 292",
+    "Rajkumar v The State of Uttar Pradesh\n",
     "State of Haryana v Jagdish",
     "Dev Nath Singh v State of U P\n",
-    "Chota vs The State Of Uttar Pradesh on ",
-    "(2010) 4 SCC 216",
     "A similar view was taken in State of Haryana v Raj Kumar ",
-    "Rajkumar v The State of Uttar Pradesh\n",
-    "(2021) 9 SCC 292",
-    "Brij Bhushan v The State of Uttar Pradesh"
-  ]
+    "Brij Bhushan v The State of Uttar Pradesh",
+    "Chota vs The State Of Uttar Pradesh on "
+  ],
+  "domain": "criminal"
 }
