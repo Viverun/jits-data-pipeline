@@ -1,32 +1,33 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-28CA8C",
   "issues": [
-    "arbitration",
     "sentencing",
+    "quashing",
     "specific_performance",
-    "quashing"
+    "arbitration"
   ],
   "sections": [
-    "IPC 12",
     "IPC 2025",
-    "IPC 498A",
-    "BNS 86",
-    "IPC 397",
     "IPC 313",
+    "BNS 86",
+    "IPC 498",
+    "IPC 397",
+    "BNS 91",
+    "IPC 12",
     "IPC 1983",
-    "IPC 498"
+    "IPC 498A"
   ],
   "citations": [
-    "(2001) 6 SCC 407",
+    "(2022) 8 SCC 204",
+    "Supreme Court in \nAluri Venkata Ramana vs. Aluri\n\nThirupathi Rao and Ors",
+    "This position was reiterated in \nState of Gujarat v.\n\nDilipsinh Kishorsinh Rao\n",
     "It would be apposite to refer to the judgment of\n this court in \nAmit Kapoor v. Ramesh Chandra\n",
     "Supreme Court in\n\nMalkeet Singh Gill v. State of Chhattisgarh\n",
-    "Dilo Begum vs. State of H",
-    "(2022) 8 SCC 204",
-    "Suvetha v. State\n ",
-    "(2012) 9 SCC\n 460",
+    "(2001) 6 SCC 407",
     "Arvind Singh v. State of Bihar\n\n",
-    "Supreme Court in \nAluri Venkata Ramana vs. Aluri\n\nThirupathi Rao and Ors",
-    "This position was reiterated in \nState of Gujarat v.\n\nDilipsinh Kishorsinh Rao\n"
+    "Dilo Begum vs. State of H",
+    "(2012) 9 SCC\n 460",
+    "Suvetha v. State\n "
   ],
   "domain": "criminal"
 }

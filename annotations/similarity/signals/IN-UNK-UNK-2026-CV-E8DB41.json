@@ -1,35 +1,35 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-E8DB41",
   "issues": [
-    "specific_performance",
-    "arbitration",
     "sentencing",
-    "bail"
+    "bail",
+    "specific_performance",
+    "arbitration"
   ],
   "sections": [
+    "IPC 409",
     "IPC 167",
     "BNS 318",
-    "IPC 483",
-    "IPC 406",
-    "IPC 2023",
     "IPC 22",
-    "IPC 409",
+    "IPC 2019",
+    "BNS 316",
+    "IPC 483",
     "IPC 420",
-    "IPC 2019"
+    "IPC 406"
   ],
   "citations": [
-    "Further this Court in \nSanjay\n Chandra v. CBI ",
-    "Sanjay Chandra\n v. CBI",
-    "Supreme Court in \nSushila\n Aggarwal v. State ",
-    "(2022) 10 SCC 51",
-    "George vs State Of Kerala on ",
     "In \nPrabir Purkayastha v. State ",
-    "(2012) 1 SCC 40",
-    "Nikesh Tarachand\n Shah v. Union of India",
-    "(2018) 11 SCC 1",
-    "This Court in Nikesh\n Tarachand Shah v. Union of India ",
-    "Jalaluddin Khan v Union of\n\nIndia\n ",
     "Manish Sisodia v. Directorate of\n\nEnforcement\n ",
+    "(2022) 10 SCC 51",
+    "This Court in Nikesh\n Tarachand Shah v. Union of India ",
+    "Sanjay Chandra\n v. CBI",
+    "(2018) 11 SCC 1",
+    "Supreme Court in \nSushila\n Aggarwal v. State ",
+    "George vs State Of Kerala on ",
+    "(2012) 1 SCC 40",
+    "Further this Court in \nSanjay\n Chandra v. CBI ",
+    "Nikesh Tarachand\n Shah v. Union of India",
+    "Jalaluddin Khan v Union of\n\nIndia\n ",
     "In \nSatender Kumar Antil v. CBI and\n\nanother\n "
   ],
   "domain": "criminal"

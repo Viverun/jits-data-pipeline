@@ -12,7 +12,9 @@ INPUT_DIR = "interim/classified"
 OUTPUT_DIR = "interim/transitions_extracted"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# Pattern to find section numbers following common legal prefixes
+# Noise sections to ignore (Years and common introductory sections)
+NOISE_SECTIONS = {"1860", "1872", "1973", "2023", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"}
+
 IPC_PATTERN = re.compile(
     r'(?:section|sections|u/s|under section)\s+([\dA-Z,\s]+)',
     re.IGNORECASE
@@ -22,11 +24,10 @@ def extract_ipc_sections(text):
     found = set()
     for match in IPC_PATTERN.finditer(text):
         parts = match.group(1)
-        # Split by commas or spaces to handle "Sections 302, 304"
         for sec in re.split(r"[,\s]+", parts):
             sec = sec.strip().upper()
-            # Basic validation: must start with a digit
-            if sec and sec[0].isdigit():
+            # Filter out noise and ensure it starts with a digit
+            if sec and sec[0].isdigit() and sec not in NOISE_SECTIONS:
                 found.add(f"IPC {sec}")
     return sorted(found)
 
@@ -36,11 +37,6 @@ def main():
         return
 
     files = list(Path(INPUT_DIR).glob("*.json"))
-    if not files:
-        print(f"[WARNING] No .json files found in {INPUT_DIR}")
-        return
-
-    total_mapped = 0
     for file in files:
         with open(file, "r", encoding="utf-8") as f:
             data = json.load(f)
@@ -48,7 +44,6 @@ def main():
         classification = data.get("classification", {})
         domain = classification.get("domain")
 
-        # Process only criminal or mixed judgments
         if domain not in {"criminal", "mixed"}:
             out_path = Path(OUTPUT_DIR) / file.name
             with open(out_path, "w", encoding="utf-8") as out:
@@ -72,7 +67,6 @@ def main():
                     "change_type": transition['type'],
                     "risk_level": transition['risk']
                 })
-                total_mapped += 1
             else:
                 unmapped.append(ipc)
 
@@ -87,9 +81,7 @@ def main():
         with open(out_path, "w", encoding="utf-8") as out:
             json.dump(data, out, indent=2, ensure_ascii=False)
 
-        print(f"[OK] Transitions extracted: {file.name} ({len(mapped)} mapped, {len(unmapped)} unmapped)")
-
-    print(f"\n[OK] Step 04 complete — {total_mapped} IPC sections mapped across files.")
+    print(f"[OK] Transitions refined for {len(files)} files.")
 
 if __name__ == "__main__":
     main()

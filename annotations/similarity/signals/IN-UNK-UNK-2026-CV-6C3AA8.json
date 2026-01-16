@@ -1,41 +1,43 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-6C3AA8",
   "issues": [
-    "arbitration",
     "sentencing",
+    "quashing",
     "specific_performance",
-    "quashing"
+    "arbitration"
   ],
   "sections": [
-    "IPC 498A",
-    "BNS 86",
-    "IPC 22",
+    "IPC 306",
     "IPC 145",
-    "IPC 1983",
     "IPC 313",
-    "IPC 114",
+    "BNS 86",
     "IPC 498",
-    "IPC 306"
+    "BNS 108",
+    "IPC 22",
+    "IPC 114",
+    "BNS 91",
+    "IPC 1983",
+    "IPC 498A"
   ],
   "citations": [
-    "(2005) 10 SCC 196",
-    "(2001) 6 SCC 407",
-    "Supreme Court in \nAppabhai v. State of\n\nGujarat\n",
-    "Supreme Court in Pohlu v.\n\nState of Haryana",
-    "Khetwani v. State of Maharashtra\n",
     "A similar view was taken in \nGirdhar Shankar Tawade v.\n\nState of Maharashtra\n",
-    "(2002) 5 SCC 177",
+    "Supreme Court in \nAluri Venkata Ramana vs. Aluri\n\nThirupathi Rao and Ors",
     "(2025) 2 SCC 116",
+    "Supreme Court in \nAppabhai v. State of\n\nGujarat\n",
+    "Khetwani v. State of Maharashtra\n",
     "AIR 1967 SC 450",
+    "(2002) 5 SCC 177",
+    "Supreme Court in Pohlu v.\n\nState of Haryana",
+    "(2001) 6 SCC 407",
+    "Supreme Court in \nRamesh Kumar v. State of Chhattisgarh\n",
+    "Arvind Singh v. State of Bihar\n\n",
+    "Supreme Court in \nJayedeepsinh Pravinsinh\n\nChavda v. State of Gujarat\n",
+    "(2001) 10 SCC 6",
+    "(1967) 1 SCR 595",
     "(2001) 9 SCC 618",
     "Suvetha v. State\n ",
-    "(2001) 10 SCC 6",
-    "Arvind Singh v. State of Bihar\n\n",
-    "Supreme Court in \nRamesh Kumar v. State of Chhattisgarh\n",
-    "Supreme Court in \nJayedeepsinh Pravinsinh\n\nChavda v. State of Gujarat\n",
     "Supreme Court in\n\nMajid v. State of Haryana\n",
-    "Supreme Court in \nAluri Venkata Ramana vs. Aluri\n\nThirupathi Rao and Ors",
-    "(1967) 1 SCR 595"
+    "(2005) 10 SCC 196"
   ],
   "domain": "criminal"
 }

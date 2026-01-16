@@ -388,10 +388,10 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "Arbitration",
         "arbitration",
-        "decree",
-        "suit"
+        "suit",
+        "Arbitration",
+        "decree"
       ]
     }
   }

@@ -381,12 +381,12 @@
       "criminal": [
         "accused",
         "Indian Penal Code",
+        "bail",
+        "conviction",
         "fir",
         "Code of Criminal Procedure",
-        "IPC",
         "offence",
-        "conviction",
-        "bail"
+        "IPC"
       ],
       "civil": []
     }
@@ -407,17 +407,13 @@
       "IPC 21",
       "IPC 23",
       "IPC 25",
-      "IPC 3",
       "IPC 302",
       "IPC 307",
       "IPC 324",
       "IPC 326",
-      "IPC 4",
       "IPC 427",
       "IPC 43",
-      "IPC 45",
-      "IPC 5",
-      "IPC 6"
+      "IPC 45"
     ],
     "bns_mapped": [
       {
@@ -442,16 +438,12 @@
       "IPC 21",
       "IPC 23",
       "IPC 25",
-      "IPC 3",
       "IPC 307",
       "IPC 324",
       "IPC 326",
-      "IPC 4",
       "IPC 427",
       "IPC 43",
-      "IPC 45",
-      "IPC 5",
-      "IPC 6"
+      "IPC 45"
     ],
     "confidence": "high"
   }

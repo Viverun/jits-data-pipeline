@@ -5,13 +5,18 @@
     "judgments": [
       "IN-UNK-UNK-2026-CV-0AD334",
       "IN-UNK-UNK-2026-CV-186C6F",
+      "IN-UNK-UNK-2026-CV-1930FA",
       "IN-UNK-UNK-2026-CV-1C884C",
+      "IN-UNK-UNK-2026-CV-1F28D8",
       "IN-UNK-UNK-2026-CV-1FF3AB",
+      "IN-UNK-UNK-2026-CV-274817",
+      "IN-UNK-UNK-2026-CV-2C3BDB",
       "IN-UNK-UNK-2026-CV-2DC774",
       "IN-UNK-UNK-2026-CV-2FA147",
       "IN-UNK-UNK-2026-CV-3223BD",
       "IN-UNK-UNK-2026-CV-3611EF",
       "IN-UNK-UNK-2026-CV-3674F8",
+      "IN-UNK-UNK-2026-CV-375692",
       "IN-UNK-UNK-2026-CV-3D4C68",
       "IN-UNK-UNK-2026-CV-414817",
       "IN-UNK-UNK-2026-CV-431A3A",
@@ -30,10 +35,14 @@
       "IN-UNK-UNK-2026-CV-6241D7",
       "IN-UNK-UNK-2026-CV-626E78",
       "IN-UNK-UNK-2026-CV-63F083",
+      "IN-UNK-UNK-2026-CV-6A721F",
       "IN-UNK-UNK-2026-CV-6D911A",
+      "IN-UNK-UNK-2026-CV-6E15C3",
       "IN-UNK-UNK-2026-CV-70A026",
       "IN-UNK-UNK-2026-CV-717D08",
       "IN-UNK-UNK-2026-CV-7381CF",
+      "IN-UNK-UNK-2026-CV-7824A1",
+      "IN-UNK-UNK-2026-CV-79C25E",
       "IN-UNK-UNK-2026-CV-7D66F0",
       "IN-UNK-UNK-2026-CV-805BFE",
       "IN-UNK-UNK-2026-CV-81BFB6",
@@ -46,9 +55,11 @@
       "IN-UNK-UNK-2026-CV-9684B7",
       "IN-UNK-UNK-2026-CV-992768",
       "IN-UNK-UNK-2026-CV-99572F",
+      "IN-UNK-UNK-2026-CV-9C4194",
       "IN-UNK-UNK-2026-CV-9DFEC7",
       "IN-UNK-UNK-2026-CV-9E6794",
       "IN-UNK-UNK-2026-CV-9E8234",
+      "IN-UNK-UNK-2026-CV-ABBFE9",
       "IN-UNK-UNK-2026-CV-ADEA02",
       "IN-UNK-UNK-2026-CV-AE217C",
       "IN-UNK-UNK-2026-CV-B1C837",
@@ -58,6 +69,7 @@
       "IN-UNK-UNK-2026-CV-BF7928",
       "IN-UNK-UNK-2026-CV-C204C2",
       "IN-UNK-UNK-2026-CV-C29EE8",
+      "IN-UNK-UNK-2026-CV-C33C91",
       "IN-UNK-UNK-2026-CV-C43F56",
       "IN-UNK-UNK-2026-CV-C6830A",
       "IN-UNK-UNK-2026-CV-C8B99D",
@@ -65,6 +77,7 @@
       "IN-UNK-UNK-2026-CV-CB347A",
       "IN-UNK-UNK-2026-CV-CF566A",
       "IN-UNK-UNK-2026-CV-D6DCB1",
+      "IN-UNK-UNK-2026-CV-D82FB0",
       "IN-UNK-UNK-2026-CV-DBCC16",
       "IN-UNK-UNK-2026-CV-DCC806",
       "IN-UNK-UNK-2026-CV-E3E6DF",
@@ -74,11 +87,12 @@
       "IN-UNK-UNK-2026-CV-EF4EDA",
       "IN-UNK-UNK-2026-CV-F29185",
       "IN-UNK-UNK-2026-CV-F2ED2B",
+      "IN-UNK-UNK-2026-CV-F3F884",
       "IN-UNK-UNK-2026-CV-F75F84",
       "IN-UNK-UNK-2026-CV-FD96EA",
       "IN-UNK-UNK-2026-CV-FDEE45"
     ],
-    "count": 74,
+    "count": 88,
     "basis": {
       "issues": [
         "arbitration",
@@ -93,22 +107,31 @@
       "sections": [
         "BNS 103",
         "BNS 104",
+        "BNS 108",
+        "BNS 115",
+        "BNS 303",
+        "BNS 316",
         "BNS 318",
+        "BNS 348",
         "BNS 351",
         "BNS 64",
+        "BNS 80",
         "BNS 86",
+        "BNS 91",
         "IPC 05",
         "IPC 102",
         "IPC 103",
         "IPC 105",
         "IPC 106",
         "IPC 107",
+        "IPC 108",
         "IPC 109",
         "IPC 11",
         "IPC 110",
         "IPC 113",
         "IPC 113B",
         "IPC 114",
+        "IPC 118",
         "IPC 12",
         "IPC 120",
         "IPC 125",
@@ -124,6 +147,7 @@
         "IPC 147",
         "IPC 148",
         "IPC 15",
+        "IPC 151",
         "IPC 153A",
         "IPC 154",
         "IPC 155",
@@ -139,8 +163,6 @@
         "IPC 173",
         "IPC 174",
         "IPC 18",
-        "IPC 1860",
-        "IPC 1872",
         "IPC 1898",
         "IPC 19",
         "IPC 190",
@@ -152,7 +174,6 @@
         "IPC 1956",
         "IPC 1961",
         "IPC 1963",
-        "IPC 1973",
         "IPC 198",
         "IPC 1988",
         "IPC 1992",
@@ -165,7 +186,6 @@
         "IPC 2013",
         "IPC 2015",
         "IPC 202",
-        "IPC 2023",
         "IPC 204",
         "IPC 207",
         "IPC 209",
@@ -211,6 +231,7 @@
         "IPC 307",
         "IPC 309",
         "IPC 31",
+        "IPC 311",
         "IPC 313",
         "IPC 32",
         "IPC 320",
@@ -263,6 +284,7 @@
         "IPC 408",
         "IPC 409",
         "IPC 41",
+        "IPC 411",
         "IPC 415",
         "IPC 417",
         "IPC 418",
@@ -340,8 +362,10 @@
         "(1980) 1 SCC 81",
         "(1980) 2 SCC 684",
         "(1980) 3 SCC 625",
+        "(1981) 2 SCC 35",
         "(1982) 1 SCC 561",
         "(1983) 2 SCC 277",
+        "(1983) 3 SCC 470",
         "(1984) 4 SCC 116",
         "(1991) 3 SCC 655",
         "(1993) 1 SCC 435",
@@ -358,14 +382,19 @@
         "(2003) 4 SCC 675",
         "(2005) 12 SCC 338",
         "(2008) 13\n SCC 767",
+        "(2008) 15 SCC 269",
         "(2008) 16 SCC 1",
         "(2008) 8 SCC 781",
+        "(2008) 9 SCC 677",
         "(2009) 1 SCC 516",
         "(2009) 14 SCC 466",
-        "(2010) 7 SCC 263",
+        "(2010) 1 SCC 58",
         "(2011) 10 SCC 705",
+        "(2011) 2 SCC 764",
         "(2012) 10 SCC\n 303",
         "(2012) 10 SCC 303",
+        "(2012) 4 SCC 107",
+        "(2012) 4 SCC 37",
         "(2012) 9 SCC 460",
         "(2012) 9 SCC 734",
         "(2013) 10 SCC 686",
@@ -377,17 +406,24 @@
         "(2014) 15 SCC 29",
         "(2014) 2 SCC 1",
         "(2014) 5 SCC 880",
+        "(2014) 6 SCC 466",
+        "(2014) 9 SCC 737",
         "(2014) 9 SCC 772",
+        "(2015) 1 SCC 253",
         "(2015) 9 SCC 588",
         "(2016) 1 SCC 376",
         "(2016) 1 SCC 389",
+        "(2017) 6 SCC 631",
         "(2017) 9 SCC 641",
         "(2018) 7 SCC 1",
         "(2023) 7\n\nSCC 317",
         "(2023) 9 SCC 817",
+        "AIR 1952 SC 343",
         "AIR 1955 SC 274",
         "AIR 1955 SC 419",
+        "AIR 1960 SC 866",
         "AIR 1965 SC 745",
+        "AIR 1980 SC 785",
         "AIR 1992 SC 604",
         "AIR 1993 SC 892",
         "AIR 2000 SC 1869",
@@ -395,15 +431,19 @@
         "AIR 2023 SC 3525",
         "Ajay Mitra v. State of M",
         "Allahabad High Court\n\nSantosh Singh vs State Of U",
+        "Chandrakant Nyalchand Seth v. State of Bombay ",
         "Constitution\n Bench of this Court in the case of \nMithu v. State of Punjab\n",
         "Datta v. State of Gujarat ",
         "Gian Singh versus State of Punjab and\n\n another\n ",
         "Gregg v. Georgia",
         "In Shankar Kishanrao khade vs. State of Mahrashtra ",
+        "In light of the judgement of the Supreme Court passed in \nNiranjan Singh and another vs. Prabhakar Rajaram Kharote and others\n AIR ",
         "In the case of \nJagmohan Singh v. The State of U",
         "Judge Bench of\n this Court in the case of \nRajendra Prasad v. State of Uttar\n Pradesh\n",
         "Madhya\n\n Pradesh High Court in \nImran Khan versus State of Madhya\n\n Pradesh\n reported in ",
         "Maneka Gandhi v. Union of India",
+        "Mohan Lal Pangasa v. State of U",
+        "Naseem Ahmed v. Delhi Administration\n ",
         "Others vs State Of U",
         "Pappu v. State of Uttar Pradesh ",
         "Reference was made to the decision of\n this Court in Shiva Kumar alias \nShivamurthy v. State of\n Karnataka\n ",
@@ -419,6 +459,74 @@
   },
   {
     "cluster_id": "CLUSTER-0002",
+    "centroid": "IN-UNK-UNK-2026-CV-DBD7DE",
+    "judgments": [
+      "IN-UNK-UNK-2026-CV-07B68F",
+      "IN-UNK-UNK-2026-CV-13E2A5",
+      "IN-UNK-UNK-2026-CV-1E4A30",
+      "IN-UNK-UNK-2026-CV-430812",
+      "IN-UNK-UNK-2026-CV-486AB8",
+      "IN-UNK-UNK-2026-CV-506046",
+      "IN-UNK-UNK-2026-CV-76BB05",
+      "IN-UNK-UNK-2026-CV-98831E",
+      "IN-UNK-UNK-2026-CV-AB7DEE",
+      "IN-UNK-UNK-2026-CV-ADDB84",
+      "IN-UNK-UNK-2026-CV-C7A6EB",
+      "IN-UNK-UNK-2026-CV-DBD7DE",
+      "IN-UNK-UNK-2026-CV-F780DD"
+    ],
+    "count": 13,
+    "basis": {
+      "issues": [
+        "arbitration",
+        "bail",
+        "quashing",
+        "sentencing",
+        "specific_performance"
+      ],
+      "sections": [
+        "BNS 104",
+        "BNS 108",
+        "BNS 80",
+        "BNS 86",
+        "BNS 91",
+        "IPC 113",
+        "IPC 113B",
+        "IPC 114",
+        "IPC 161",
+        "IPC 164",
+        "IPC 174",
+        "IPC 176",
+        "IPC 19732",
+        "IPC 20231",
+        "IPC 229",
+        "IPC 304",
+        "IPC 304B",
+        "IPC 306",
+        "IPC 313",
+        "IPC 439",
+        "IPC 483",
+        "IPC 498",
+        "IPC 498A",
+        "IPC 82"
+      ],
+      "citations": [
+        "(2000) 5 SCC 207",
+        "(2001) 9 SCC 618",
+        "(2012) 1 SCC 40",
+        "(2013) 10 SCC 48",
+        "(2015) 6 SCC 477",
+        "(2017) 11 SCC 176",
+        "(2022) 10 SCC 51",
+        "Pinakin Mahipatray Rawal v. State of Gujarat\n",
+        "Sanjay Chandra v. CBI\n",
+        "Satender Kumar Antil v. Central Bureau of\n Investigation\n"
+      ]
+    },
+    "confidence": "high"
+  },
+  {
+    "cluster_id": "CLUSTER-0003",
     "centroid": "IN-UNK-UNK-2026-CV-027DEB",
     "judgments": [
       "IN-UNK-UNK-2026-CV-027DEB",
@@ -475,67 +583,84 @@
     "confidence": "high"
   },
   {
-    "cluster_id": "CLUSTER-0003",
-    "centroid": "IN-UNK-UNK-2026-CV-430812",
+    "cluster_id": "CLUSTER-0004",
+    "centroid": "IN-UNK-UNK-2026-CV-01B056",
     "judgments": [
-      "IN-UNK-UNK-2026-CV-13E2A5",
-      "IN-UNK-UNK-2026-CV-1E4A30",
-      "IN-UNK-UNK-2026-CV-430812",
-      "IN-UNK-UNK-2026-CV-506046",
-      "IN-UNK-UNK-2026-CV-76BB05",
-      "IN-UNK-UNK-2026-CV-7824A1",
-      "IN-UNK-UNK-2026-CV-C7A6EB",
-      "IN-UNK-UNK-2026-CV-DBD7DE",
-      "IN-UNK-UNK-2026-CV-F780DD"
+      "IN-UNK-UNK-2026-CV-01B056",
+      "IN-UNK-UNK-2026-CV-0DDA61",
+      "IN-UNK-UNK-2026-CV-2F2119",
+      "IN-UNK-UNK-2026-CV-546AE9",
+      "IN-UNK-UNK-2026-CV-585DEB",
+      "IN-UNK-UNK-2026-CV-B6DA58",
+      "IN-UNK-UNK-2026-CV-D6DA4D",
+      "IN-UNK-UNK-2026-CV-DBEF19",
+      "IN-UNK-UNK-2026-CV-EDCB24",
+      "IN-UNK-UNK-2026-CV-FE20EA"
     ],
-    "count": 9,
+    "count": 10,
     "basis": {
       "issues": [
         "arbitration",
         "bail",
-        "quashing",
         "sentencing",
         "specific_performance"
       ],
       "sections": [
-        "BNS 104",
+        "BNS 115",
+        "BNS 80",
         "BNS 86",
-        "IPC 113",
-        "IPC 113B",
-        "IPC 114",
-        "IPC 161",
-        "IPC 174",
-        "IPC 176",
-        "IPC 1872",
-        "IPC 19732",
-        "IPC 20231",
-        "IPC 229",
-        "IPC 304",
         "IPC 304B",
-        "IPC 306",
-        "IPC 313",
+        "IPC 323",
         "IPC 439",
-        "IPC 483",
-        "IPC 498",
-        "IPC 498A",
-        "IPC 82"
+        "IPC 498A"
       ],
       "citations": [
-        "(2000) 5 SCC 207",
-        "(2012) 1 SCC 40",
-        "(2013) 10 SCC 48",
-        "(2015) 6 SCC 477",
-        "(2017) 11 SCC 176",
-        "(2022) 10 SCC 51",
-        "Pinakin Mahipatray Rawal v. State of Gujarat\n",
-        "Sanjay Chandra v. CBI\n",
-        "Satender Kumar Antil v. Central Bureau of\n Investigation\n"
+        "(1978) 1 SCC 118",
+        "(2001) 4 SCC 280",
+        "(2002) 3 SCC 598",
+        "(2005) 8 SCC 21",
+        "(2016) 15 SCC 422",
+        "(2017) 10 SCC 658",
+        "(2017) 5 SCC 702",
+        "(2020) 2 SCC 118",
+        "(2022) 1 SCC 695",
+        "(2022) 3 SCC 501",
+        "(2024) 10 SCC 574",
+        "AIR 1977 SC 2447",
+        "AIR 2012 SC 830",
+        "Ashim vs. National Investigation Agency\n ",
+        "Deepak Yadav vs. State of U",
+        "Emperor v. Hutchinson\n and AIR ",
+        "Gurcharan Singh vs. State ",
+        "Hussain and Another vs. Union of India\n",
+        "Hussain and Another vs. Union of India ",
+        "In \nAshok Dhankad v. State of NCT of Delhi ",
+        "In \nGurcharan Singh v. State ",
+        "In \nMahipal v. Rajesh Kumar\n",
+        "In \nManno Lal Jaiswal vs. The State of U",
+        "In \nPrahlad Singh Bhati vs. NCT of Delhi and Ors\n ",
+        "Ishwarji Mali v. State of Gujarat and another\n ",
+        "Ishwarji Mali vs. State of Gujarat and another\n",
+        "Jaipur vs. Balchand ",
+        "Joglekar v. Emperor\n this Court held that High Court",
+        "Mahipal v. Rajesh Kumar\n ",
+        "Mahipal vs. Rajesh Kumar\n",
+        "Mahipal vs. Rajesh Kumar\n ",
+        "Manno Lal Jaiswal vs. The State of U",
+        "Manoj Kumar Khokhar vs. State of Rajasthan and Anr",
+        "Nagendra Nath Chakrabarthi v. King",
+        "Prahlad Singh Bhati vs. NCT of Delhi and Ors\n ",
+        "Prasanta Kumar Sarkar v. Ashis Chatterjee and Anr",
+        "Prasanta Kumar Sarkar vs. Ashis Chatterjee and Anr\n ",
+        "Supreme Court in the cases of \nVinod Kumar vs. State of Punjab\n",
+        "Supreme Court in the cases of \nVinod Kumar vs. State of Punjab\n ",
+        "The Supreme Court in \nJalaluddin Khan vs. Union of India\n"
       ]
     },
     "confidence": "high"
   },
   {
-    "cluster_id": "CLUSTER-0004",
+    "cluster_id": "CLUSTER-0005",
     "centroid": "IN-UNK-UNK-2026-CV-59C63E",
     "judgments": [
       "IN-UNK-UNK-2026-CV-526CA3",
@@ -584,12 +709,12 @@
     "confidence": "high"
   },
   {
-    "cluster_id": "CLUSTER-0005",
-    "centroid": "IN-UNK-UNK-2026-CV-ADDB84",
+    "cluster_id": "CLUSTER-0006",
+    "centroid": "IN-UNK-UNK-2026-CV-869597",
     "judgments": [
-      "IN-UNK-UNK-2026-CV-869597",
-      "IN-UNK-UNK-2026-CV-AB7DEE",
-      "IN-UNK-UNK-2026-CV-ADDB84"
+      "IN-UNK-UNK-2026-CV-100791",
+      "IN-UNK-UNK-2026-CV-7A9CAE",
+      "IN-UNK-UNK-2026-CV-869597"
     ],
     "count": 3,
     "basis": {
@@ -600,87 +725,55 @@
         "specific_performance"
       ],
       "sections": [
+        "BNS 108",
         "BNS 86",
-        "IPC 113",
-        "IPC 113B",
-        "IPC 161",
-        "IPC 173",
+        "BNS 91",
+        "IPC 107",
         "IPC 174",
-        "IPC 229",
-        "IPC 304B",
+        "IPC 306",
+        "IPC 309",
         "IPC 313",
-        "IPC 498A",
-        "IPC 82"
+        "IPC 498",
+        "IPC 498A"
       ],
       "citations": []
     },
     "confidence": "high"
   },
   {
-    "cluster_id": "CLUSTER-0006",
-    "centroid": "IN-UNK-UNK-2026-CV-01B056",
+    "cluster_id": "CLUSTER-0007",
+    "centroid": "IN-UNK-UNK-2026-CV-6C3AA8",
     "judgments": [
-      "IN-UNK-UNK-2026-CV-01B056",
-      "IN-UNK-UNK-2026-CV-0DDA61",
-      "IN-UNK-UNK-2026-CV-2F2119",
-      "IN-UNK-UNK-2026-CV-D6DA4D",
-      "IN-UNK-UNK-2026-CV-EDCB24",
-      "IN-UNK-UNK-2026-CV-FE20EA"
+      "IN-UNK-UNK-2026-CV-28CA8C",
+      "IN-UNK-UNK-2026-CV-6C3AA8"
     ],
-    "count": 6,
+    "count": 2,
     "basis": {
       "issues": [
         "arbitration",
-        "bail",
+        "quashing",
         "sentencing",
         "specific_performance"
       ],
       "sections": [
         "BNS 86",
-        "IPC 304B",
-        "IPC 439",
+        "BNS 91",
+        "IPC 1983",
+        "IPC 313",
+        "IPC 498",
         "IPC 498A"
       ],
       "citations": [
-        "(1978) 1 SCC 118",
-        "(2001) 4 SCC 280",
-        "(2002) 3 SCC 598",
-        "(2005) 8 SCC 21",
-        "(2016) 15 SCC 422",
-        "(2017) 5 SCC 702",
-        "(2020) 2 SCC 118",
-        "(2022) 1 SCC 695",
-        "(2022) 3 SCC 501",
-        "AIR 1977 SC 2447",
-        "Ashim vs. National Investigation Agency\n ",
-        "Deepak Yadav vs. State of U",
-        "Gurcharan Singh vs. State ",
-        "Hussain and Another vs. Union of India\n",
-        "Hussain and Another vs. Union of India ",
-        "In \nAshok Dhankad v. State of NCT of Delhi ",
-        "In \nGurcharan Singh v. State ",
-        "In \nMahipal v. Rajesh Kumar\n",
-        "In \nManno Lal Jaiswal vs. The State of U",
-        "In \nPrahlad Singh Bhati vs. NCT of Delhi and Ors\n ",
-        "Ishwarji Mali v. State of Gujarat and another\n ",
-        "Ishwarji Mali vs. State of Gujarat and another\n",
-        "Jaipur vs. Balchand ",
-        "Mahipal v. Rajesh Kumar\n ",
-        "Mahipal vs. Rajesh Kumar\n",
-        "Mahipal vs. Rajesh Kumar\n ",
-        "Manno Lal Jaiswal vs. The State of U",
-        "Manoj Kumar Khokhar vs. State of Rajasthan and Anr",
-        "Prahlad Singh Bhati vs. NCT of Delhi and Ors\n ",
-        "Prasanta Kumar Sarkar v. Ashis Chatterjee and Anr",
-        "Prasanta Kumar Sarkar vs. Ashis Chatterjee and Anr\n ",
-        "Supreme Court in the cases of \nVinod Kumar vs. State of Punjab\n",
-        "Supreme Court in the cases of \nVinod Kumar vs. State of Punjab\n "
+        "(2001) 6 SCC 407",
+        "Arvind Singh v. State of Bihar\n\n",
+        "Supreme Court in \nAluri Venkata Ramana vs. Aluri\n\nThirupathi Rao and Ors",
+        "Suvetha v. State\n "
       ]
     },
     "confidence": "high"
   },
   {
-    "cluster_id": "CLUSTER-0007",
+    "cluster_id": "CLUSTER-0008",
     "centroid": "IN-UNK-UNK-2026-CV-1622AE",
     "judgments": [
       "IN-UNK-UNK-2026-CV-1622AE",
@@ -788,45 +881,41 @@
     "confidence": "high"
   },
   {
-    "cluster_id": "CLUSTER-0008",
-    "centroid": "IN-UNK-UNK-2026-CV-274817",
+    "cluster_id": "CLUSTER-0009",
+    "centroid": "IN-UNK-UNK-2026-CV-D30439",
     "judgments": [
-      "IN-UNK-UNK-2026-CV-274817",
-      "IN-UNK-UNK-2026-CV-D795D4"
+      "IN-UNK-UNK-2026-CV-08F5FF",
+      "IN-UNK-UNK-2026-CV-D30439"
     ],
     "count": 2,
     "basis": {
       "issues": [
         "arbitration",
-        "sentencing",
+        "quashing",
         "specific_performance"
       ],
       "sections": [
-        "BNS 103",
-        "IPC 106",
-        "IPC 302",
-        "IPC 313"
+        "BNS 108",
+        "IPC 107",
+        "IPC 306"
       ],
       "citations": [
-        "(1984) 4 SCC 116",
-        "AIR 1952 SC 343",
-        "King v. Horry "
+        "(2001) 9 SCC 618",
+        "(2009) 16 SCC 605",
+        "(2010) 1 SCC 707",
+        "(2010) 12 SCC 190"
       ]
     },
     "confidence": "high"
   },
   {
-    "cluster_id": "CLUSTER-0009",
+    "cluster_id": "CLUSTER-0010",
     "centroid": "IN-UNK-UNK-2026-CV-29A08F",
     "judgments": [
       "IN-UNK-UNK-2026-CV-29A08F",
-      "IN-UNK-UNK-2026-CV-546AE9",
-      "IN-UNK-UNK-2026-CV-585DEB",
-      "IN-UNK-UNK-2026-CV-B6DA58",
-      "IN-UNK-UNK-2026-CV-DBEF19",
       "IN-UNK-UNK-2026-CV-DD477C"
     ],
-    "count": 6,
+    "count": 2,
     "basis": {
       "issues": [
         "arbitration",
@@ -835,6 +924,7 @@
         "specific_performance"
       ],
       "sections": [
+        "BNS 80",
         "BNS 86",
         "IPC 304B",
         "IPC 498A"
@@ -846,233 +936,48 @@
         "AIR 1977 SC 2447",
         "AIR 2012 SC 830",
         "Ashim vs. National Investigation Agency\n",
-        "Ashim vs. National Investigation Agency\n ",
         "Emperor v. Hutchinson\n and AIR ",
         "Joglekar v. Emperor\n",
-        "Joglekar v. Emperor\n this Court held that High Court",
-        "Nagendra Nath Chakrabarthi v. King",
-        "The Supreme Court in \nJalaluddin Khan vs. Union of India\n"
-      ]
-    },
-    "confidence": "high"
-  },
-  {
-    "cluster_id": "CLUSTER-0010",
-    "centroid": "IN-UNK-UNK-2026-CV-876C44",
-    "judgments": [
-      "IN-UNK-UNK-2026-CV-063453",
-      "IN-UNK-UNK-2026-CV-85EF2C",
-      "IN-UNK-UNK-2026-CV-876C44",
-      "IN-UNK-UNK-2026-CV-A12DA3",
-      "IN-UNK-UNK-2026-CV-D22DB2"
-    ],
-    "count": 5,
-    "basis": {
-      "issues": [
-        "arbitration",
-        "bail",
-        "disciplinary_proceedings",
-        "specific_performance"
-      ],
-      "sections": [],
-      "citations": [
-        "(2005) 7\n SCC 234",
-        "(2005) 8 SCC 618",
-        "(2009) 1 SCC 267",
-        "(2011) 12 SCC 349",
-        "(2015) 2 SCC 424",
-        "(2017)\n 9 SCC 729",
-        "(2017) 9 SCC 729",
-        "(2019) 5 SCC 362",
-        "(2019) 8 SCC 714",
-        "(2021) 16 SCC 743",
-        "(2021) 2 SCC 1",
-        "(2021) 5 SCC 671",
-        "(2021) 5 SCC 705",
-        "(2021) 5 SCC 738",
-        "(2021) 9 SCC 732",
-        "(2022) 8 SCC 42",
-        "(2023) 2 SCC 539",
-        "(2023) 9 SCC 385",
-        "(2024) 4 SCC 1",
-        "(2024) 6 SCC 1",
-        "BSNL v. Nortel Networks ",
-        "NTPC v. SPML\n ",
-        "Sanjiv\n Prakash v. Seema Kukreja",
-        "Vidya Drolia v. Durga Trading Corpn"
+        "Nagendra Nath Chakrabarthi v. King"
       ]
     },
     "confidence": "high"
   },
   {
     "cluster_id": "CLUSTER-0011",
-    "centroid": "IN-UNK-UNK-2026-CV-D30439",
+    "centroid": "IN-UNK-UNK-2026-CV-CD641B",
     "judgments": [
-      "IN-UNK-UNK-2026-CV-07B68F",
-      "IN-UNK-UNK-2026-CV-100791",
-      "IN-UNK-UNK-2026-CV-D30439"
+      "IN-UNK-UNK-2026-CV-CD641B",
+      "IN-UNK-UNK-2026-CV-D795D4",
+      "IN-UNK-UNK-2026-CV-EBEF60"
     ],
     "count": 3,
     "basis": {
       "issues": [
         "arbitration",
         "bail",
-        "quashing",
         "sentencing",
         "specific_performance"
       ],
       "sections": [
-        "IPC 107",
-        "IPC 161",
-        "IPC 1973",
-        "IPC 306",
-        "IPC 397",
-        "IPC 401"
+        "BNS 103",
+        "BNS 91",
+        "IPC 209",
+        "IPC 27",
+        "IPC 302",
+        "IPC 313",
+        "IPC 374"
       ],
       "citations": [
-        "(2001) 9 SCC 618",
-        "(2010) 1 SCC 707",
-        "(2010) 12 SCC 190",
-        "(2019) 17 SCC 301",
-        "(2019) 3 SCC 315",
-        "(2020) 15 SCC 359"
+        "(1984) 4 SCC 116",
+        "AIR 1952 SC 343",
+        "AIR 2018 SC 2027"
       ]
     },
     "confidence": "high"
   },
   {
     "cluster_id": "CLUSTER-0012",
-    "centroid": "IN-UNK-UNK-2026-CV-98831E",
-    "judgments": [
-      "IN-UNK-UNK-2026-CV-7A9CAE",
-      "IN-UNK-UNK-2026-CV-98831E"
-    ],
-    "count": 2,
-    "basis": {
-      "issues": [
-        "arbitration",
-        "bail",
-        "sentencing",
-        "specific_performance"
-      ],
-      "sections": [
-        "BNS 86",
-        "IPC 306",
-        "IPC 309",
-        "IPC 313",
-        "IPC 374",
-        "IPC 498A"
-      ],
-      "citations": [
-        "(1993) 2 SCC 684",
-        "Kundula Bala Subrahmanyam v. State of A"
-      ]
-    },
-    "confidence": "high"
-  },
-  {
-    "cluster_id": "CLUSTER-0013",
-    "centroid": "IN-UNK-UNK-2026-CV-79C25E",
-    "judgments": [
-      "IN-UNK-UNK-2026-CV-1930FA",
-      "IN-UNK-UNK-2026-CV-79C25E"
-    ],
-    "count": 2,
-    "basis": {
-      "issues": [
-        "arbitration",
-        "quashing",
-        "specific_performance"
-      ],
-      "sections": [
-        "IPC 320",
-        "IPC 323",
-        "IPC 379",
-        "IPC 482",
-        "IPC 504"
-      ],
-      "citations": [
-        "(2012) 10 SCC 303",
-        "Others vs State Of U"
-      ]
-    },
-    "confidence": "high"
-  },
-  {
-    "cluster_id": "CLUSTER-0014",
-    "centroid": "IN-UNK-UNK-2026-CV-1FB64B",
-    "judgments": [
-      "IN-UNK-UNK-2026-CV-1FB64B",
-      "IN-UNK-UNK-2026-CV-5D35CC",
-      "IN-UNK-UNK-2026-CV-E8DB41"
-    ],
-    "count": 3,
-    "basis": {
-      "issues": [
-        "arbitration",
-        "bail",
-        "sentencing",
-        "specific_performance"
-      ],
-      "sections": [
-        "BNS 318",
-        "IPC 167",
-        "IPC 2019",
-        "IPC 2023",
-        "IPC 22",
-        "IPC 406",
-        "IPC 409",
-        "IPC 420",
-        "IPC 483"
-      ],
-      "citations": [
-        "(2012) 1 SCC 40",
-        "(2018) 11 SCC 1",
-        "(2022) 10 SCC 51",
-        "Further this Court in \nSanjay\n Chandra v. CBI ",
-        "George vs State Of Kerala on ",
-        "In \nPrabir Purkayastha v. State ",
-        "In \nSatender Kumar Antil v. CBI and\n\nanother\n ",
-        "Jalaluddin Khan v Union of\n\nIndia\n ",
-        "Manish Sisodia v. Directorate of\n\nEnforcement\n ",
-        "Nikesh Tarachand\n Shah v. Union of India",
-        "Sanjay Chandra\n v. CBI",
-        "Supreme Court in \nSushila\n Aggarwal v. State ",
-        "This Court in Nikesh\n Tarachand Shah v. Union of India "
-      ]
-    },
-    "confidence": "high"
-  },
-  {
-    "cluster_id": "CLUSTER-0015",
-    "centroid": "IN-UNK-UNK-2026-CV-69B315",
-    "judgments": [
-      "IN-UNK-UNK-2026-CV-69B315",
-      "IN-UNK-UNK-2026-CV-DE8868"
-    ],
-    "count": 2,
-    "basis": {
-      "issues": [
-        "bail",
-        "sentencing",
-        "specific_performance"
-      ],
-      "sections": [
-        "BNS 64",
-        "IPC 161",
-        "IPC 164",
-        "IPC 1973",
-        "IPC 309",
-        "IPC 376",
-        "IPC 439",
-        "IPC 450"
-      ],
-      "citations": []
-    },
-    "confidence": "high"
-  },
-  {
-    "cluster_id": "CLUSTER-0016",
     "centroid": "IN-UNK-UNK-2026-CV-817338",
     "judgments": [
       "IN-UNK-UNK-2026-CV-817338",
@@ -1088,7 +993,7 @@
       ],
       "sections": [
         "BNS 103",
-        "IPC 1973",
+        "BNS 91",
         "IPC 302",
         "IPC 313",
         "IPC 354",
@@ -1142,13 +1047,62 @@
     "confidence": "high"
   },
   {
-    "cluster_id": "CLUSTER-0017",
-    "centroid": "IN-UNK-UNK-2026-CV-CD641B",
+    "cluster_id": "CLUSTER-0013",
+    "centroid": "IN-UNK-UNK-2026-CV-876C44",
     "judgments": [
-      "IN-UNK-UNK-2026-CV-CD641B",
-      "IN-UNK-UNK-2026-CV-EBEF60"
+      "IN-UNK-UNK-2026-CV-063453",
+      "IN-UNK-UNK-2026-CV-85EF2C",
+      "IN-UNK-UNK-2026-CV-876C44",
+      "IN-UNK-UNK-2026-CV-A12DA3",
+      "IN-UNK-UNK-2026-CV-D22DB2"
     ],
-    "count": 2,
+    "count": 5,
+    "basis": {
+      "issues": [
+        "arbitration",
+        "bail",
+        "disciplinary_proceedings",
+        "specific_performance"
+      ],
+      "sections": [],
+      "citations": [
+        "(2005) 7\n SCC 234",
+        "(2005) 8 SCC 618",
+        "(2009) 1 SCC 267",
+        "(2011) 12 SCC 349",
+        "(2015) 2 SCC 424",
+        "(2017)\n 9 SCC 729",
+        "(2017) 9 SCC 729",
+        "(2019) 5 SCC 362",
+        "(2019) 8 SCC 714",
+        "(2021) 16 SCC 743",
+        "(2021) 2 SCC 1",
+        "(2021) 5 SCC 671",
+        "(2021) 5 SCC 705",
+        "(2021) 5 SCC 738",
+        "(2021) 9 SCC 732",
+        "(2022) 8 SCC 42",
+        "(2023) 2 SCC 539",
+        "(2023) 9 SCC 385",
+        "(2024) 4 SCC 1",
+        "(2024) 6 SCC 1",
+        "BSNL v. Nortel Networks ",
+        "NTPC v. SPML\n ",
+        "Sanjiv\n Prakash v. Seema Kukreja",
+        "Vidya Drolia v. Durga Trading Corpn"
+      ]
+    },
+    "confidence": "high"
+  },
+  {
+    "cluster_id": "CLUSTER-0014",
+    "centroid": "IN-UNK-UNK-2026-CV-1FB64B",
+    "judgments": [
+      "IN-UNK-UNK-2026-CV-1FB64B",
+      "IN-UNK-UNK-2026-CV-5D35CC",
+      "IN-UNK-UNK-2026-CV-E8DB41"
+    ],
+    "count": 3,
     "basis": {
       "issues": [
         "arbitration",
@@ -1157,21 +1111,63 @@
         "specific_performance"
       ],
       "sections": [
-        "BNS 103",
-        "IPC 209",
-        "IPC 27",
-        "IPC 302",
-        "IPC 313",
-        "IPC 374"
+        "BNS 316",
+        "BNS 318",
+        "IPC 167",
+        "IPC 2019",
+        "IPC 22",
+        "IPC 406",
+        "IPC 409",
+        "IPC 420",
+        "IPC 483"
       ],
       "citations": [
-        "AIR 2018 SC 2027"
+        "(2012) 1 SCC 40",
+        "(2018) 11 SCC 1",
+        "(2022) 10 SCC 51",
+        "Further this Court in \nSanjay\n Chandra v. CBI ",
+        "George vs State Of Kerala on ",
+        "In \nPrabir Purkayastha v. State ",
+        "In \nSatender Kumar Antil v. CBI and\n\nanother\n ",
+        "Jalaluddin Khan v Union of\n\nIndia\n ",
+        "Manish Sisodia v. Directorate of\n\nEnforcement\n ",
+        "Nikesh Tarachand\n Shah v. Union of India",
+        "Sanjay Chandra\n v. CBI",
+        "Supreme Court in \nSushila\n Aggarwal v. State ",
+        "This Court in Nikesh\n Tarachand Shah v. Union of India "
       ]
     },
     "confidence": "high"
   },
   {
-    "cluster_id": "CLUSTER-0018",
+    "cluster_id": "CLUSTER-0015",
+    "centroid": "IN-UNK-UNK-2026-CV-69B315",
+    "judgments": [
+      "IN-UNK-UNK-2026-CV-69B315",
+      "IN-UNK-UNK-2026-CV-DE8868"
+    ],
+    "count": 2,
+    "basis": {
+      "issues": [
+        "bail",
+        "sentencing",
+        "specific_performance"
+      ],
+      "sections": [
+        "BNS 64",
+        "IPC 161",
+        "IPC 164",
+        "IPC 309",
+        "IPC 376",
+        "IPC 439",
+        "IPC 450"
+      ],
+      "citations": []
+    },
+    "confidence": "high"
+  },
+  {
+    "cluster_id": "CLUSTER-0016",
     "centroid": "IN-UNK-UNK-2026-CV-0B40EA",
     "judgments": [
       "IN-UNK-UNK-2026-CV-0B40EA",
@@ -1262,72 +1258,7 @@
     "confidence": "high"
   },
   {
-    "cluster_id": "CLUSTER-0019",
-    "centroid": "IN-UNK-UNK-2026-CV-6E15C3",
-    "judgments": [
-      "IN-UNK-UNK-2026-CV-1CC118",
-      "IN-UNK-UNK-2026-CV-6E15C3"
-    ],
-    "count": 2,
-    "basis": {
-      "issues": [
-        "arbitration",
-        "quashing",
-        "seniority_promotion",
-        "specific_performance"
-      ],
-      "sections": [
-        "IPC 200",
-        "IPC 202",
-        "IPC 203",
-        "IPC 204",
-        "IPC 323",
-        "IPC 482"
-      ],
-      "citations": [
-        "(2005) 8 SCC 89",
-        "(2012) 1 SCC 520",
-        "Court in the case of \nMahboob and others vs. State of U",
-        "In \nAnita Malhotra v. Apparel Export Promotion Council\n",
-        "Paul George vs. State\n",
-        "Shiv Kumar and others vs. State of U"
-      ]
-    },
-    "confidence": "high"
-  },
-  {
-    "cluster_id": "CLUSTER-0020",
-    "centroid": "IN-UNK-UNK-2026-CV-6C3AA8",
-    "judgments": [
-      "IN-UNK-UNK-2026-CV-28CA8C",
-      "IN-UNK-UNK-2026-CV-6C3AA8"
-    ],
-    "count": 2,
-    "basis": {
-      "issues": [
-        "arbitration",
-        "quashing",
-        "sentencing",
-        "specific_performance"
-      ],
-      "sections": [
-        "BNS 86",
-        "IPC 1983",
-        "IPC 313",
-        "IPC 498",
-        "IPC 498A"
-      ],
-      "citations": [
-        "(2001) 6 SCC 407",
-        "Arvind Singh v. State of Bihar\n\n",
-        "Supreme Court in \nAluri Venkata Ramana vs. Aluri\n\nThirupathi Rao and Ors",
-        "Suvetha v. State\n "
-      ]
-    },
-    "confidence": "high"
-  },
-  {
-    "cluster_id": "CLUSTER-0021",
+    "cluster_id": "CLUSTER-0017",
     "centroid": "IN-UNK-UNK-2026-CV-5F3406",
     "judgments": [
       "IN-UNK-UNK-2026-CV-5F3406",
@@ -1392,7 +1323,7 @@
     "confidence": "high"
   },
   {
-    "cluster_id": "CLUSTER-0022",
+    "cluster_id": "CLUSTER-0018",
     "centroid": "IN-UNK-UNK-2026-CV-6EA169",
     "judgments": [
       "IN-UNK-UNK-2026-CV-6EA169",
@@ -1475,7 +1406,7 @@
     "confidence": "high"
   },
   {
-    "cluster_id": "CLUSTER-0023",
+    "cluster_id": "CLUSTER-0019",
     "centroid": "IN-UNK-UNK-2026-CV-50846B",
     "judgments": [
       "IN-UNK-UNK-2026-CV-50846B",
@@ -1505,7 +1436,7 @@
     "confidence": "high"
   },
   {
-    "cluster_id": "CLUSTER-0024",
+    "cluster_id": "CLUSTER-0020",
     "centroid": "IN-UNK-UNK-2026-CV-7A5C95",
     "judgments": [
       "IN-UNK-UNK-2026-CV-7A5C95",
@@ -1554,7 +1485,7 @@
     "confidence": "high"
   },
   {
-    "cluster_id": "CLUSTER-0025",
+    "cluster_id": "CLUSTER-0021",
     "centroid": "IN-UNK-UNK-2026-CV-C05BBE",
     "judgments": [
       "IN-UNK-UNK-2026-CV-C05BBE",

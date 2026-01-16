@@ -1,32 +1,33 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-9C4194",
   "issues": [
+    "bail",
     "specific_performance",
-    "arbitration",
-    "bail"
+    "arbitration"
   ],
   "sections": [
-    "IPC 12",
-    "IPC 151",
-    "IPC 294",
-    "IPC 354",
-    "BNS 351",
-    "IPC 25",
-    "IPC 506",
-    "IPC 1980",
-    "IPC 323",
     "IPC 2016",
+    "IPC 506",
+    "IPC 25",
+    "IPC 294",
+    "IPC 323",
+    "IPC 13",
+    "IPC 1980",
+    "BNS 115",
+    "IPC 151",
+    "IPC 12",
     "IPC 307",
-    "IPC 13"
+    "IPC 354",
+    "BNS 351"
   ],
   "citations": [
-    "(1994) 5 SCC 54",
-    "Raman vs The State Of Madhya Pradesh on ",
     "Ram Manohar Lohia v. State of Bihar\n ",
-    "State of West Bengal\n and \nShyamal\n Chakraborty v. The Commissioner of Police",
-    "(2004) 8 SCC 579",
     "(1982) 2 SCC 402",
-    "(2011) 12 SCC 428"
+    "(2004) 8 SCC 579",
+    "(1994) 5 SCC 54",
+    "(2011) 12 SCC 428",
+    "State of West Bengal\n and \nShyamal\n Chakraborty v. The Commissioner of Police",
+    "Raman vs The State Of Madhya Pradesh on "
   ],
   "domain": "criminal"
 }

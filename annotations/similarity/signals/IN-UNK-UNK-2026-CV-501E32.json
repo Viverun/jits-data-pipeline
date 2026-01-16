@@ -1,28 +1,28 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-501E32",
   "issues": [
-    "specific_performance",
-    "arbitration",
     "sentencing",
-    "bail"
+    "bail",
+    "specific_performance",
+    "arbitration"
   ],
   "sections": [
-    "IPC 304",
-    "IPC 302",
-    "IPC 218",
-    "IPC 1989",
-    "IPC 300",
-    "IPC 464",
-    "IPC 325",
     "IPC 161",
-    "IPC 20",
+    "IPC 221",
     "BNS 104",
-    "IPC 233",
-    "IPC 364",
-    "BNS 103",
-    "IPC 324",
     "IPC 222",
-    "IPC 221"
+    "IPC 218",
+    "IPC 233",
+    "IPC 304",
+    "IPC 324",
+    "IPC 20",
+    "IPC 302",
+    "IPC 300",
+    "IPC 325",
+    "IPC 464",
+    "BNS 103",
+    "IPC 364",
+    "IPC 1989"
   ],
   "citations": [
     "Bittoo vs State on "

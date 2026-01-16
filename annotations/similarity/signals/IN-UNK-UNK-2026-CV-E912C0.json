@@ -1,28 +1,28 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-E912C0",
   "issues": [
-    "sentencing",
-    "disciplinary_proceedings",
+    "bail",
+    "specific_performance",
     "quashing",
     "arbitration",
-    "bail",
-    "specific_performance"
+    "sentencing",
+    "disciplinary_proceedings"
   ],
   "sections": [
     "IPC 20",
-    "IPC 438",
-    "IPC 439"
+    "IPC 439",
+    "IPC 438"
   ],
   "citations": [
+    "(2008) 12 SCC 481",
     "Court in \nChandra Shashi v.\n\n Anil Kumar Verma",
-    "(2013) 9 SCC 199",
     "Court again came across a litigant\n\nwho had tried to overreach the Court by concealing material facts in\n\nSaumya Chaurasia v. Directorate of Enforcement",
     "In \nPradip Sahu v. The State of Assam",
     "Supreme Court of India\n\nKusha Duruka vs State Of Odisha on ",
     "In \nDalip Singh v. State of Uttar Pradesh\n and others",
     "(1995) 1 SCC 421",
-    "(2010) 2 SCC 114",
-    "(2008) 12 SCC 481"
+    "(2013) 9 SCC 199",
+    "(2010) 2 SCC 114"
   ],
   "domain": "criminal"
 }

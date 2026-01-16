@@ -1,25 +1,25 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-24171E",
   "issues": [
-    "arbitration",
-    "specific_performance"
+    "specific_performance",
+    "arbitration"
   ],
   "sections": [],
   "citations": [
-    "(2015) 2 SCC 189",
-    "(1992) 1 SCC 508",
-    "(2003) 8 SCC 593",
-    "(2006) 11 SCC 181",
-    "AIR 2005 SC 2071",
     "(2007) 2 SCC 720",
+    "Limited v. Governor",
+    "(2003) 8 SCC 593",
+    "(2006) 4 Scale 453",
+    "(2006) 11 SCC 181",
+    "(2006) 9 SCC 383",
+    "(1992) 1 SCC 508",
+    "(2001) 2 SCC 721",
+    "Delhi Airport Metro Express Private Limited v. Delhi Metro Rail Corporation",
+    "(2005) 6 SCC 678",
+    "(2015) 2 SCC 189",
     "(2005) 6 SCC 462",
     "(1992) 4 SCC 217",
-    "(2005) 6 SCC 678",
-    "(2001) 2 SCC 721",
-    "(2006) 4 Scale 453",
-    "Delhi Airport Metro Express Private Limited v. Delhi Metro Rail Corporation",
-    "(2006) 9 SCC 383",
-    "Limited v. Governor"
+    "AIR 2005 SC 2071"
   ],
   "domain": "civil"
 }
