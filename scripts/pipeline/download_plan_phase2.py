@@ -1,4 +1,9 @@
-from scaled_downloader import ScaledDownloader
+import sys
+import os
+
+# Add the current directory to path to import from download_indian_kanoon
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+from download_indian_kanoon import ScaledDownloader
 
 downloader = ScaledDownloader()
 
@@ -7,7 +12,6 @@ downloader = ScaledDownloader()
 
 query_plan_phase2 = {
     'SERVICE_PROMOTION': [
-        # Targeting 200 cases
         "seniority promotion challenged DPC 2023",
         "seniority promotion challenged DPC 2024",  
         "promotion denied service rules 2023",
@@ -19,7 +23,6 @@ query_plan_phase2 = {
     ],
     
     'SERVICE_PENSION': [
-        # Targeting 100 cases
         "family pension denial service",
         "pension arrears calculation service",
         "gratuity calculation dispute",
@@ -27,7 +30,6 @@ query_plan_phase2 = {
     ],
     
     'CRIMINAL_BAIL_IPC498A': [
-        # Targeting 150 cases (tight cluster expected)
         "IPC 498A bail application 2023",
         "IPC 498A bail application 2024",
         "IPC 498A cruelty bail",
@@ -36,7 +38,6 @@ query_plan_phase2 = {
     ],
     
     'CRIMINAL_BAIL_IPC304B': [
-        # Targeting 100 cases (another tight cluster)
         "IPC 304B dowry death bail 2023",
         "IPC 304B dowry death bail 2024",
         "dowry death bail application",
@@ -44,7 +45,6 @@ query_plan_phase2 = {
     ],
     
     'SERVICE_REGULARIZATION': [
-        # Targeting 50 cases (Umadevi doctrine applications)
         "regularization daily wage employee",
         "temporary employee regularization service",
         "adhoc employee regularization",
@@ -52,7 +52,6 @@ query_plan_phase2 = {
     ],
     
     'CRIMINAL_QUASHING': [
-        # Targeting 50 cases (Section 482 CrPC)
         "Section 482 CrPC quashing FIR",
         "inherent powers quashing complaint",
         "482 CrPC matrimonial dispute",
@@ -60,7 +59,6 @@ query_plan_phase2 = {
     ],
     
     'CIVIL_ARBITRATION_SEC34': [
-        # Targeting 50 cases (arbitration awards)
         "Section 34 arbitration award challenge 2023",
         "Section 34 arbitration award challenge 2024",
         "set aside arbitral award Section 34",
@@ -68,6 +66,15 @@ query_plan_phase2 = {
     ]
 }
 
+print("🚀 PHASE 2: Scaling to 1,000 Cases")
+print("Target: 574 additional cases")
+print("="*60)
+
+total_downloaded = 0
 for category, queries in query_plan_phase2.items():
+    print(f"\n📂 {category}")
     for query in queries:
-        downloader.search_and_download(query, category, max_results=25)
+        count = downloader.search_and_download(query, category, max_results=25)
+        total_downloaded += count
+
+print(f"\n🏁 Phase 2 Complete: {total_downloaded} new cases downloaded")
