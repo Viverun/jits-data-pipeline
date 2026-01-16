@@ -1,34 +1,31 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-100791",
-  "issues": [
-    "sentencing",
-    "specific_performance",
-    "arbitration"
-  ],
+  "issues": [],
   "sections": [
-    "IPC 306",
+    "IPC 309",
     "IPC 313",
     "IPC 21",
-    "BNS 86",
+    "BNSS 347",
     "IPC 174",
+    "IPC 107",
     "IPC 498",
     "BNS 108",
-    "IPC 309",
-    "IPC 107",
-    "BNS 91",
-    "IPC 498A"
+    "BNS 86",
+    "BNS 309",
+    "IPC 498A",
+    "IPC 306"
   ],
   "citations": [
-    "Supreme Court of India\n\nMariano Anto Bruno vs Inspector Of Police on ",
-    "(2010) 12 SCC 190",
-    "(2010) 1 SCC 707",
-    "(1994) 1 SCC 73",
-    "(2020) 15 SCC 359",
-    "(2019) 17 SCC 301",
-    "(2020) 10 SCC 200",
     "(2019) 3 SCC 315",
-    "(2001) 9 SCC 618",
-    "In \nState of West Bengal v. Orilal Jaiswal and\n Anr"
+    "(1994) 1 SCC 73",
+    "(2010) 12 SCC 190",
+    "(2020) 15 SCC 359",
+    "Supreme Court of India\n\nMariano Anto Bruno vs Inspector Of Police on ",
+    "In \nState of West Bengal v. Orilal Jaiswal and\n Anr",
+    "(2019) 17 SCC 301",
+    "(2010) 1 SCC 707",
+    "(2020) 10 SCC 200",
+    "(2001) 9 SCC 618"
   ],
   "domain": "criminal"
 }

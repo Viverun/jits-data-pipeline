@@ -1,25 +1,23 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-486AB8",
   "issues": [
-    "sentencing",
-    "specific_performance",
-    "arbitration"
+    "sentencing"
   ],
   "sections": [
-    "IPC 306",
-    "BNS 86",
+    "IPC 304B",
     "BNS 104",
-    "BNS 80",
     "BNS 108",
-    "IPC 304",
+    "BNS 86",
+    "BNS 80",
     "IPC 498A",
-    "IPC 304B"
+    "IPC 306",
+    "IPC 304"
   ],
   "citations": [
-    "Mohan vs. State",
-    "Supreme Court of India\n\nWasim vs State Nct Of Delhi on ",
     "See\n\nPallem Deniel Victoralions Victor Manter vs. State of Andhra\n\nPradesh",
-    "(2011) 3 SCC 626"
+    "Supreme Court of India\n\nWasim vs State Nct Of Delhi on ",
+    "(2011) 3 SCC 626",
+    "Mohan vs. State"
   ],
   "domain": "criminal"
 }

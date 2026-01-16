@@ -6,28 +6,30 @@
     "arbitration"
   ],
   "sections": [
-    "IPC 161",
-    "IPC 163",
-    "IPC 164",
-    "IPC 201",
-    "IPC 25",
-    "IPC 162",
-    "IPC 379",
-    "IPC 27",
-    "IPC 302",
-    "BNS 103",
     "IPC 364",
+    "IPC 164",
+    "IPC 161",
+    "IPC 27",
+    "IPC 163",
+    "IPC 25",
+    "IPC 201",
     "IPC 26",
-    "BNS 303"
+    "BNSS 180",
+    "BNSS 183",
+    "BNS 103",
+    "IPC 302",
+    "BNS 3",
+    "IPC 379",
+    "IPC 162"
   ],
   "citations": [
-    "The law regarding circumstantial evidence was aptly\n\ndealt with by this Court in \nPadala Veera Reddy vs. State of\n\nAndhra Pradesh and Others\n ",
     "In \nMadhu vs. State of Kerala\n ",
-    "(2012) 2 SCC 399",
-    "(2010) 7 SCC 263",
+    "Others vs. The State of\n\nWest Bengal\n ",
     "Supreme Court of India\n\nNavaneethakrishnan vs The State By Inspector Of Police on ",
     "Court in \nSelvi and\n\nOthers vs. State of Karnataka\n ",
-    "Others vs. The State of\n\nWest Bengal\n "
+    "The law regarding circumstantial evidence was aptly\n\ndealt with by this Court in \nPadala Veera Reddy vs. State of\n\nAndhra Pradesh and Others\n ",
+    "(2010) 7 SCC 263",
+    "(2012) 2 SCC 399"
   ],
   "domain": "criminal"
 }

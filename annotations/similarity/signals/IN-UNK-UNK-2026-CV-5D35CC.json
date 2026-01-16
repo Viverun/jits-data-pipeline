@@ -1,36 +1,34 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-5D35CC",
   "issues": [
-    "sentencing",
     "bail",
-    "specific_performance",
     "arbitration"
   ],
   "sections": [
-    "IPC 409",
-    "IPC 167",
-    "BNS 318",
-    "IPC 22",
-    "IPC 2019",
-    "BNS 316",
-    "IPC 483",
     "IPC 420",
-    "IPC 406"
+    "IPC 167",
+    "IPC 409",
+    "IPC 22",
+    "BNS 316",
+    "BNS 318",
+    "IPC 406",
+    "BNS 3",
+    "IPC 483"
   ],
   "citations": [
-    "In \nPrabir Purkayastha v. State ",
-    "Manish Sisodia v. Directorate of\n\nEnforcement\n ",
-    "(2022) 10 SCC 51",
-    "This Court in Nikesh\n Tarachand Shah v. Union of India ",
-    "Sanjay Chandra\n v. CBI",
-    "(2018) 11 SCC 1",
     "Supreme Court in \nSushila\n Aggarwal v. State ",
-    "George vs State Of Kerala on ",
-    "(2012) 1 SCC 40",
-    "Further this Court in \nSanjay\n Chandra v. CBI ",
+    "(2018) 11 SCC 1",
     "Nikesh Tarachand\n Shah v. Union of India",
+    "Further this Court in \nSanjay\n Chandra v. CBI ",
+    "In \nPrabir Purkayastha v. State ",
+    "In \nSatender Kumar Antil v. CBI and\n\nanother\n ",
+    "Sanjay Chandra\n v. CBI",
+    "(2022) 10 SCC 51",
     "Jalaluddin Khan v Union of\n\nIndia\n ",
-    "In \nSatender Kumar Antil v. CBI and\n\nanother\n "
+    "Manish Sisodia v. Directorate of\n\nEnforcement\n ",
+    "(2012) 1 SCC 40",
+    "This Court in Nikesh\n Tarachand Shah v. Union of India ",
+    "George vs State Of Kerala on "
   ],
   "domain": "criminal"
 }

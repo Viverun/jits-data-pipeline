@@ -1,29 +1,26 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-4428D5",
   "issues": [
-    "sentencing",
-    "bail",
-    "specific_performance",
-    "arbitration"
+    "sentencing"
   ],
   "sections": [
-    "IPC 306",
-    "BNS 86",
-    "IPC 201",
-    "IPC 106",
-    "BNS 104",
-    "BNS 80",
-    "IPC 498",
-    "BNS 108",
-    "IPC 304",
     "IPC 173",
-    "IPC 302",
-    "IPC 2003",
-    "IPC 24TH",
+    "IPC 304B",
+    "BNSS 193",
+    "IPC 106",
+    "IPC 201",
     "IPC 113B",
     "BNS 103",
+    "BNS 104",
+    "IPC 24TH",
+    "IPC 498",
+    "IPC 302",
+    "BNS 108",
+    "BNS 86",
+    "BNS 80",
     "IPC 498A",
-    "IPC 304B"
+    "IPC 306",
+    "IPC 304"
   ],
   "citations": [
     "(2001) 2 SCC 577",

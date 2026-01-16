@@ -187,11 +187,11 @@
         "statute": "Specific Relief Act",
         "keywords": [],
         "sections": [
-          "10",
-          "16",
           "20"
         ],
-        "confidence": "medium"
+        "confidence": "medium",
+        "keyword_count": 0,
+        "mention_count": 0
       },
       "arbitration": {
         "statute": "Arbitration Act",
@@ -202,10 +202,11 @@
         ],
         "sections": [
           "11",
-          "34",
-          "36"
+          "34"
         ],
-        "confidence": "high"
+        "confidence": "high",
+        "keyword_count": 3,
+        "mention_count": 13
       },
       "jurisdiction": {
         "statute": "CPC",
@@ -213,19 +214,11 @@
           "jurisdiction"
         ],
         "sections": [
-          "9",
           "20"
         ],
-        "confidence": "high"
-      },
-      "limitation": {
-        "statute": "Limitation Act",
-        "keywords": [],
-        "sections": [
-          "3",
-          "5"
-        ],
-        "confidence": "medium"
+        "confidence": "high",
+        "keyword_count": 1,
+        "mention_count": 6
       }
     },
     "citations": [
@@ -388,11 +381,12 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "arbitration",
-        "suit",
         "Arbitration",
-        "decree"
-      ]
+        "arbitration",
+        "decree",
+        "suit"
+      ],
+      "service": []
     }
   }
 }

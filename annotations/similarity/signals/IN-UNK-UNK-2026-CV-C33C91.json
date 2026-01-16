@@ -1,22 +1,21 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-C33C91",
   "issues": [
-    "quashing",
-    "specific_performance",
-    "arbitration"
+    "quashing"
   ],
   "sections": [
-    "IPC 21",
-    "IPC 190",
-    "IPC 32",
     "IPC 482",
-    "IPC 22",
-    "IPC 379",
     "IPC 173",
+    "BNSS 193",
+    "IPC 21",
+    "IPC 22",
     "IPC 109",
-    "BNS 348",
+    "IPC 32",
+    "IPC 190",
     "IPC 378",
-    "BNS 303"
+    "BNSS 528",
+    "BNS 3",
+    "IPC 379"
   ],
   "citations": [
     "(2014) 9 SCC 772",

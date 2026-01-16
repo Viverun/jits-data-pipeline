@@ -1,40 +1,37 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-1930FA",
   "issues": [
-    "quashing",
-    "bail",
-    "specific_performance",
-    "arbitration"
+    "quashing"
   ],
   "sections": [
-    "IPC 202",
-    "IPC 504",
-    "IPC 320",
-    "IPC 323",
     "IPC 482",
-    "IPC 379",
-    "IPC 155",
+    "IPC 323",
     "IPC 156",
-    "BNS 115",
-    "BNS 348",
-    "IPC 200",
     "IPC 227",
+    "IPC 320",
+    "IPC 200",
+    "BNS 115",
     "IPC 239",
-    "BNS 303"
+    "IPC 155",
+    "BNS 356",
+    "BNSS 528",
+    "IPC 504",
+    "IPC 202",
+    "IPC 379"
   ],
   "citations": [
-    "(2019) 11 SCC 706",
-    "AIR 2021 SC 1918",
-    "Allauddin Khan v. State of Bihar and others\n",
-    "(2011) 7 SCC 59",
     "(2012) 10 SCC 303",
     "(1999) 8 SCC 686",
-    "In the case of \nGian Singh vs. State of Punjab\n",
-    "AIR 1960 SC 866",
-    "(2013) 2 SCC 801",
-    "Chilakamarthi Venkateswarlu and Another v. State of Andhra Pradesh and Another\n",
+    "AIR 2021 SC 1918",
+    "Allauddin Khan v. State of Bihar and others\n",
     "Others vs State Of U",
-    "(2001) 8 SCC 645"
+    "(2001) 8 SCC 645",
+    "(2013) 2 SCC 801",
+    "(2011) 7 SCC 59",
+    "AIR 1960 SC 866",
+    "(2019) 11 SCC 706",
+    "Chilakamarthi Venkateswarlu and Another v. State of Andhra Pradesh and Another\n",
+    "In the case of \nGian Singh vs. State of Punjab\n"
   ],
   "domain": "criminal"
 }

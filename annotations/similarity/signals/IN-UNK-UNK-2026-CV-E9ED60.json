@@ -1,33 +1,31 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-E9ED60",
   "issues": [
-    "sentencing",
-    "bail",
-    "specific_performance",
-    "arbitration"
+    "bail"
   ],
   "sections": [
-    "IPC 145",
-    "IPC 437",
-    "IPC 167",
-    "BNS 318",
-    "BNS 316",
-    "IPC 438",
-    "IPC 420",
     "IPC 446A",
-    "IPC 406"
+    "IPC 420",
+    "IPC 167",
+    "IPC 438",
+    "BNSS 484",
+    "BNSS 483",
+    "IPC 437",
+    "BNS 318",
+    "IPC 406",
+    "IPC 145"
   ],
   "citations": [
-    "Shyam Singh v. State\n ",
-    "In \nAmarjit Singh v. State ",
-    "In\n \nSreenivasulu Reddy v. State of Tamil Nadu\n ",
     "In \nSandeep Jain v. State of Delhi\n ",
-    "(2006) 9 SCC 169",
     "(2001) 13 SCC 457",
+    "In Sheikh Ayub v. State of M",
+    "In\n \nSreenivasulu Reddy v. State of Tamil Nadu\n ",
+    "Shyam Singh v. State\n ",
     "Delhi High Court\n\nManoj Kumar vs State ",
     "(2004) 13\n SCC 457",
-    "In Sheikh Ayub v. State of M",
-    "Narayanan v. State\n\n "
+    "Narayanan v. State\n\n ",
+    "In \nAmarjit Singh v. State ",
+    "(2006) 9 SCC 169"
   ],
   "domain": "criminal"
 }
