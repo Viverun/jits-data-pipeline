@@ -4,8 +4,19 @@
 raw/*
 !raw/sample/
 interim/*
+
+# Processed Judgments
 processed/judgments/*
-!processed/judgments/sample_output.json
+# Whitelist specific high-quality samples for GitHub
+!processed/judgments/IN-UNK-UNK-2026-CV-24171E.json
+!processed/judgments/IN-UNK-UNK-2026-CV-8B8447.json
+
+# Intelligence Layer
+# Ignore individual signal dumps (too many files)
+annotations/similarity/signals/*
+# Keep the core graph and clusters
+!annotations/similarity/edges.jsonl
+!annotations/similarity/clusters.json
 
 # Logs and temporary files
 logs/*.log

@@ -8,18 +8,18 @@
     "maintainability"
   ],
   "sections": [
+    "IPC 307",
+    "IPC 148",
+    "IPC 337",
     "IPC 504",
-    "IPC 149",
     "IPC 1973",
+    "BNS 351",
+    "IPC 149",
     "IPC 323",
     "IPC 147",
     "IPC 324",
-    "BNS 351",
-    "IPC 148",
-    "IPC 506",
-    "IPC 307",
     "IPC 482",
-    "IPC 337"
+    "IPC 506"
   ],
   "citations": []
 }

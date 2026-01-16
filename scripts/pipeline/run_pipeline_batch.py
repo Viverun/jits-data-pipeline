@@ -33,6 +33,7 @@ def main():
         ("scripts/pipeline/step04_transitions.py", []),
         ("scripts/pipeline/step05_issues.py", []),
         ("scripts/pipeline/step06_citations.py", []),
+        ("scripts/pipeline/step08_consolidate.py", []), # New step to move to processed/
         ("scripts/pipeline/step07_similarity_signals.py", []),
         ("scripts/pipeline/step07b_similarity_clusters.py", [])
     ]
