@@ -8,13 +8,14 @@ The **Legal AI Toolkit** is a high-performance orchestration layer designed to t
 
 ---
 
-## 📊 Dataset Operational Status (v1.2)
+## 📊 Dataset Operational Status (v1.3)
 
 *   **908** Finalized judgments processed into structured JSON (Gold Standard).
-*   **98.9%** Metadata Extraction Accuracy (Court, Date, and Case ID capture).
-*   **39.3%** Landmark Citation Coverage (Automatic identification of cases like *Umadevi*, *Arnesh Kumar*, etc.).
-*   **54** Legally coherent similarity clusters for batch listing optimizations.
-*   **100%** Deterministic IPC → BNS statutory transition mapping.
+*   **98.9%** Metadata Extraction Accuracy (High-precision capture of Court, Date, and Case IDs).
+*   **85.0%** Similarity Coherence (Validated similarity engine for judicial batching).
+*   **Multi-Act Support**: Automatic extraction and disambiguation of **IPC, CrPC, IEA, PC Act, and NI Act**.
+*   **100%** Transition Coverage for high-frequency IPC → BNS (2024) statutory mapping.
+*   **39.3%** Landmark Citation Coverage (Precedents like *Umadevi*, *Arnesh Kumar*, etc.).
 
 ---
 
@@ -60,21 +61,15 @@ jits-data/
 ---
 
 ## ⚙️ The Zero-ML Factory Pipeline
-The system follows a strict, multi-stage enrichment process without "black-box" ML dependencies:
+The system follows a strict, 8-stage enrichment process without "black-box" ML dependencies:
 1.  **Ingestion**: Normalization and unique, stable ID generation.
-2.  **Metadata**: Extraction of Court names, Bench, and Decision Dates.
-3.  **Classify**: Rule-based domain assignment with confidence scoring.
-4.  **Transitions**: Mapping IPC sections to their BNS (Bharatiya Nyaya Sanhita) counterparts.
-5.  **Issues**: Identifying key legal issues from judgment headers.
-6.  **Citations**: Extracting and matching landmark citations.
-7.  **Similarity**: Building relationship graphs between cases.
-8.  **Consolidate**: Final JSON generation for the bundled dataset.
-3.  **Classification**: Categorization into Service, Criminal, or Civil domains.
-4.  **Transitions**: **IPC → BNS (2024)** mapping for legacy case modernization.
-5.  **Issue Extraction**: Deterministic tagging of legal issues (Bail, Arbitration, etc.).
-6.  **Citations**: Graph construction from SCC, AIR, and SCALE references.
-7.  **Similarity**: Generation of high-precision clusters for judicial batching.
-8.  **Consolidation**: Final production-ready JSON synthesis.
+2.  **Metadata**: Extraction of Court names, Bench, and Decision Dates (98.9% accuracy).
+3.  **Classify**: Rule-based domain assignment (Service, Criminal, Civil, Mixed).
+4.  **Transitions**: **IPC → BNS (2024)** and **CrPC → BNSS** mapping for legacy case modernization.
+5.  **Issues**: Identifying key legal issues from headers (Bail, Quashing, Seniority, etc.).
+6.  **Citations**: Extracting AIR/SCC/SCALE references and matching landmark precedents.
+7.  **Similarity**: Building relationship graphs and thematic clusters (85% validated coherence).
+8.  **Consolidate**: Final JSON synthesis with full provenance for the bundled dataset.
 ---
 ## 🛠️ Advanced Usage
 ### Running Specific Pipeline Steps
