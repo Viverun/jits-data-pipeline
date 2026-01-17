@@ -1,11 +1,11 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-0FBF6E",
   "metadata": {
-    "court": "High Court Of Calcutta",
+    "court": "Calcutta High Court",
     "court_level": "HC",
-    "jurisdiction": "India",
-    "year": 2026,
-    "decision_date": "9 JANUARY, 2025"
+    "case_number": "CASE NO.348",
+    "decision_date": "9 JANUARY, 2025",
+    "jurisdiction": "India"
   },
   "text": "[Cites \n7\n, Cited by \n0\n]\n\nCalcutta High Court (Appellete Side)\n\n498A/323/307/376/511/379 Ipc vs In Re: Yyyyy on 9 January, 2025\n\n 09.01.2025\n Sl. No.42\n tkm\n C. R. M. (A) 67 of 2025\n\n In Re: An application for anticipatory bail under Section 482 of the\n Bharatiya Nagarik Suraksha Sanhita, 2023 in connection with Pukhuria\n Police Station Case No.348 of 2024 dated 25.6.2024 under \nSections\n 498A\n/\n323\n/\n307\n/\n376\n/\n511\n/\n379\n IPC.\n And\n In Re: YYYYY ... ... Petitioner\n\n Mr. Kalidas Saha\n Ms. Mandira Mandal\n Ms. K Mollick\n ... ... for the petitioner\n Mr. Avishek Sinha\n Ms. Poulami Bose\n ... ... for the State\n\n 1.\n Petitioner is the brother-in-law of the victim. It is contended\n\n he has been falsely implicated due to a matrimonial\n\n dispute. He prays for anticipatory bail.\n\n 2. Learned lawyer for the State opposes the prayer.\n\n 3. We have considered the materials on record. In the FIR it is\n\n alleged on 27.5.2024 when her husband was absent,\n\n petitioner surreptitiously entered the room and committed\n\n rape. But in the FIR it is contended all the in-laws jointly\n\n forced the victim into a room and provoked the petitioner\n\n to commit rape. The manner and circumstances in which\n\n rape is said to have been committed appears to be\n\n patently contradictory. Possibility of false implication is not\n\n ruled out.\n\n 4. Under such circumstances, we are inclined to grant\n\n anticipatory bail to the petitioner.\n\n 5. Accordingly, we direct that in the event of arrest, the\n\n petitioner shall be released on bail upon furnishing a bond\n\nSigned By :\n\nTAMAL KRISHNA\nMANDAL\nHigh Court of\nCalcutta\n13 th of January\n2025 12:53:58 PM\n\n 2\n\n of Rs. 10,000/- with two sureties of like amount each, to the\n\n satisfaction of the Arresting Officer and also subject to the\n\n conditions as laid down under \nsection 482(2)\n of BNSS 2023.\n\n 6. Petitioner shall appear before the jurisdictional court and\n\n pray for regular bail within four weeks from date.\n\n 7. The application being CRM (A) 67 of 2025 is disposed of.\n\n (Gaurang Kanth, J.) (Joymalya Bagchi, J.)\n\nSigned By :\n\nTAMAL KRISHNA\nMANDAL\nHigh Court of\nCalcutta\n13 th of January\n2025 12:53:58 PM",
   "paragraphs": [
@@ -217,11 +217,10 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "IPC",
-        "police station",
+        "bail",
         "fir",
-        "BNSS",
-        "bail"
+        "IPC",
+        "BNSS"
       ],
       "civil": [],
       "service": []

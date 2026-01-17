@@ -3,9 +3,9 @@
   "metadata": {
     "court": "High Court Of Madhya Pradesh  At Gwalior  Cra No",
     "court_level": "HC",
-    "jurisdiction": "India",
-    "year": 2026,
-    "decision_date": "25 APRIL, 2024"
+    "case_number": null,
+    "decision_date": "25 APRIL, 2024",
+    "jurisdiction": "India"
   },
   "text": "[Cites \n7\n, Cited by \n0\n]\n\nMadhya Pradesh High Court\n\nGovind vs The State Of Madhya Pradesh on 25 April, 2024\n\nAuthor: \nRohit Arya\n\nBench: \nRohit Arya\n\n 1\n IN THE HIGH COURT OF MADHYA PRADESH\n AT GWALIOR\n CRA No. 4730 of 2024\n (GOVIND Vs THE STATE OF MADHYA PRADESH)\n\n Dated : 25-04-2024\n Shri D.S. Rajawat - Advocate for the appellant.\n\n Shri Rajesh Shukla - Additional Advocate General for respondent/State.\n\n Heard on IA No.7450 of 2024, first application under \nSection 389(1)\n\n Cr.P.C. for suspension of sentence and grant of bail moved on behalf of\n appellant- Govind.\n\n Present appellant stood convicted under \nSection 376(1)\n IPC read with\n \nSection 3(2)(va)\n of Scheduled Castes and Scheduled Tribes (Prevention of\n Atrocities) Act and under Section 506 Part II read with \nSection 3(2)(va)\n of\n Scheduled Castes and Scheduled Tribes (Prevention of Atrocities) Act and\n sentenced to undergo imprisonment for life with a fine of Rs.5,000/- and two\n years' RI with a fine of Rs.2,000/- with default stipulations vide judgment of\n conviction and order of sentence dated 05.03.2024 passed by Special Judge\n [\nScheduled Castes and Scheduled Tribes (Prevention of Atrocities) Act, 1989\n],\n District Guna (M.P.) in SC ATR No.01/2019.\n\n Appellant -Govind so far has suffered incarceration of 06 months, as\n transpired during the course of hearing.\n\n A s per prosecution story, victim, at Police Station Cantt, got written\n Dehati Nalisi Ex.P-1 to the effect that on 12.09.2017 at about 04.40 pm when\n she had gone to her field to fetch maize, at that time accused/appellant Govind\n Meena of Veerpur came from behind and held her in arms. When she tried to\n escape, accused pushed her on the ground and pointing katta (country made\n pistol) to her threatened for dire consequences if she screamed. Whereafter, the\n\nSignature Not Verified\n\nSigned by: PAWAN\n\nDHARKAR\n\nSigning time: 4/25/2024\n\n7:17:35 PM\n\n 2\n\n accused committed rape upon the prosecutrix and fled away therefrom after\n giving threat in case she reported the matter. On the basis of such Dehati Nalisi,\n FIR was reduced in writing at Police Station Madhusudangarh at Crime\n No.48/2017 under \nSections 376\n, \n506\n IPC and under \nSections 3(2)(va)\n and \n3(1)\n (w)(ii)\n of SC/ST Act and the investigation was set in motion. Upon completion\n of investigation including recording of statements, collection of evidence and\n necessary formalities, challan was filed. The Special Court on appreciation of\n evidence placed on record convicted and sentenced the present appellant as\n referred above.\n\n Learned counsel for the appellant while taking exception to the impugned\n\n judgment of conviction and order of sentence submits that the present appellant\n has falsely been implicated. The judgment of conviction and order of sentence\n is based on surmises and conjectures. There are contradictions and omissions\n in the statements of prosecution witnesses. Learned counsel submits that\n medical evidence does not support the story of prosecution as no definite\n opinion could be given by the doctor. He further submits that DNA report is\n negative. It is further submitted that the appeal being of 2024 is not likely to be\n decided in the near future. On these grounds, learned counsel submits that the\n present appellant may be extended the benefit of suspension of sentence and\n grant of bail.\n\n Per contra, learned Additional Advocate General, appearing on behalf of\n the respondent/State, while supporting the judgment impugned submits that no\n exception can be taken in the matter of suspension of sentence and grant of\n bail, regard being had to the nature and the gravity of offence found proved\n against the present appellant.\n\nSignature Not Verified\n\n Upon hearing learned counsel for the parties, though this Court refrains\n\nSigned by: PAWAN\n\nDHARKAR\n\nSigning time: 4/25/2024\n\n7:17:35 PM\n\n 3\n\n from commenting upon rival contentions so advanced touching merits of the\n case, regard being had to the fact that appeal which is of the year 2024 is not\n likely to be decided in the near future, in the obtaining facts and circumstances\n of the case, we are of the view that present appellant is entitled to the benefit of\n suspension of sentence and grant of bail.\n\n Accordingly, IA No.7450 of 2024 stands allowed and it is directed that\n the jail sentence of appellant Govind shall remain suspended during pendency\n of the present appeal and he shall be released on bail subject to verification of\n the factum of depositing the fine amount and on his furnishing a personal bond\n in the sum of Rs.2,00,000/- (Rupees Two Lacs only) with one solvent surety\n in the like amount to the satisfaction of the Trial Court.\n\n Appellant- Govind is directed to appear before the Registry of this Court\n first on 07.08.2024 and on other subsequent dates as may be fixed in this\n behalf.\n\n Accordingly, the said IA stands allowed and disposed of.\n Observations on facts, if any, are only for the purpose of deciding the\n instant I.A. and shall have no bearing on the merits of the appeal.\n\n Certified copy as per rules.\n\n (ROHIT ARYA) (RAJENDRA KUMAR VANI)\n JUDGE JUDGE\n\n pd\n\nSignature Not Verified\n\nSigned by: PAWAN\n\nDHARKAR\n\nSigning time: 4/25/2024\n\n7:17:35 PM",
   "paragraphs": [
@@ -245,14 +245,13 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "IPC",
-        "sentence",
+        "bail",
+        "offence",
+        "fir",
         "accused",
         "conviction",
-        "police station",
-        "fir",
-        "offence",
-        "bail"
+        "sentence",
+        "IPC"
       ],
       "civil": [],
       "service": [

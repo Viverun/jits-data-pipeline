@@ -3,9 +3,9 @@
   "metadata": {
     "court": "High Court Of Madhya Pradesh At Gwalior  Before  Hon",
     "court_level": "HC",
-    "jurisdiction": "India",
-    "year": 2026,
-    "decision_date": "11 MARCH, 2022"
+    "case_number": "CRIMINAL CASE NO. 12333",
+    "decision_date": "11 MARCH, 2022",
+    "jurisdiction": "India"
   },
   "text": "[Cites \n6\n, Cited by \n2\n]\n\nMadhya Pradesh High Court\n\nDeviram Baghel vs The State Of Madhya Pradesh on 11 March, 2022\n\nAuthor: \nRajeev Kumar Shrivastava\n\nBench: \nRajeev Kumar Shrivastava\n\n 1\n\n IN THE HIGH COURT OF MADHYA PRADESH AT GWALIOR\n BEFORE\n HON'BLE SHRI JUSTICE RAJEEV KUMAR SHRIVASTAVA\n ON THE 11th OF MARCH, 2022\n\n MISC. CRIMINAL CASE No. 12333 of 2022\n\n Between:-\n1. DEVIRAM BAGHEL S/O SUNDAR PAL BAGHEL ,\n AGED ABOUT 45 YEARS, OCCUPATION: LABOUR\n VILL JIWARA PURANI CHHAWANI PS PURANI DISTT.\n GWALIOR (MADHYA PRADESH)\n\n2. SMT ANEETA BAGHEL W/O SHRI DEVIRAM BAGHEL\n , AGED ABOUT 40 YEARS, GRAM JEVRA, PURANI\n CHHAWANI, (MADHYA PRADESH)\n\n .....APPLICANTS\n (BY SHRI SANTOSH CHOURASIYA, ADVOCATE)\n\n AND\n\n THE STATE OF MADHYA PRADESH INCHARGE\n POLICE STATION P.S. PURANI CHHAWANI (MADHYA\n PRADESH)\n\n .....RESPONDENT\n (BY SHRI ROHIT MISHRA, ADDITIONAL ADVOCATE GENERAL FOR THE\n STATE &\n SHRI POORAN KULSHRESHTHA, ADVOCATE & SHRI PRATEEK\n KULSHRESHTHA, ADVOCATE FOR THE COMPLAINANT)\n\n This application coming on for hearing this day, the court passed the\n\nfollowing:\n ORDER\n\n I.A. No.4038/2022, an application under \nSection 301(2)\n of CrPC, is taken up,\n\nconsidered and allowed for the reasons mentioned therein. Accordingly, Shri Pooran\nKulshreshtha, learned counsel and his associates are permitted to appear on behalf of\n\nthe complainant to assist the State counsel.\n\n This is the first application under \nSection 438\n of CrPC for grant of anticipatory\n\nbail to the applicants.\n\n Applicants apprehend their arrest in connection with Crime No.06/2022\n\nregistered at Police Station Purani Chhawani, District Gwalior (M.P.) for offences\n\nunder \nSections 304B\n, \n201\n, \n176\n of IPC.\n\n It is submitted by learned counsel for the applicants - Deviram Baghel & Smt.\n\n 2\n\nAneeta Baghel that the applicants are innocent. They have falsely been implicated in\n\nthis case. Applicants are father-in-law & mother-in-law of the deceased respectively.\nThe deceased died due to her natural death as she was suffering from various medical\n\nailments. In support of aforesaid arguments, copies of various medical prescriptions\n\n& reports of the deceased have been filed along with this bail application. It is further\n\nsubmitted that the last rites of the deceased was done in the presence of her parents\nand after two days, the FIR was lodged and there is no explanation with regard to\n\ndelayed FIR. Applicants have never demanded any dowry from the deceased. Hence,\nconsidering the aforesaid facts, learned counsel prays for grant of anticipatory bail to\nthe applicants.\n\n Learned State counsel as well as learned counsel for the complainant have\nvehemently opposed the prayer and have submitted that the case is registered against\n\nthe applicants under 304B, 201, 176 of \nIPC\n. It is further submitted that without\n\ninforming to the parents as well as family members of the deceased, her last rites was\ndone by the present applicant. There was demand of dowry and deceased died within\n\nseven years of marriage. Hence, learned State counsel & learned counsel for the\n\ncomplainant prays for rejection of this anticipatory bail application.\n\n Heard learned counsel for the parties and perused the case diary and documents\navailable on record.\n\n It is apparent from the perusal of case diary as well as documents available on\nrecord that the case is registered against the applicants under \nSections 304B\n, \n201\n, \n176\n\nof IPC, wherein present applicants are father-in-law & mother-in-law of the deceased\n\nrespectively against whom there is specific allegation of demand of dowry and the\n\ndeceased died within seven years of her marriage. Therefore, considering the\n\naforesaid facts of the case, this Court is not inclined to grant anticipatory bail to the\n\napplicants.\n\n Consequently, this first anticipatory bail application is hereby dismissed.\n\n (RAJEEV KUMAR SHRIVASTAVA)\n JUDGE\nShubhankar\n\n Digitally signed by\n\n SHUBHANKAR MISHRA\n\n Date: 2022.03.11\n\n 17:13:02 +05'30'",
   "paragraphs": [
@@ -268,11 +268,10 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "bail",
         "IPC",
-        "police station",
         "fir",
-        "CrPC",
-        "bail"
+        "CrPC"
       ],
       "civil": [],
       "service": []

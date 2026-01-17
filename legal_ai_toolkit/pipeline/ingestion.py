@@ -71,7 +71,7 @@ class IngestionProcessor:
         if workers is None:
             workers = max(1, cpu_count() - 1)
 
-        files = list(self.input_dir.glob("*.txt"))
+        files = list(self.input_dir.rglob("*.txt"))
         if not files:
             print(f"No .txt files found in {self.input_dir}")
             return

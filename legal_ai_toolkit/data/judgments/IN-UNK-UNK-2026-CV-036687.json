@@ -3,9 +3,9 @@
   "metadata": {
     "court": "High Court Of Judicature At Allahabad",
     "court_level": "HC",
-    "jurisdiction": "India",
-    "year": 2026,
-    "decision_date": "22 AUGUST, 2022"
+    "case_number": null,
+    "decision_date": "22 AUGUST, 2022",
+    "jurisdiction": "India"
   },
   "text": "[Cites \n11\n, Cited by \n0\n]\n\nAllahabad High Court\n\nBhagwan Sahay vs State Of U.P And 2 Others on 22 August, 2022\n\nHIGH COURT OF JUDICATURE AT ALLAHABAD\n \n \n\n?Court No. - 80\n \n\n \nCase :- CRIMINAL MISC ANTICIPATORY BAIL APPLICATION U/S 438 CR.P.C. No. - 1816 of 2022\n \n\n \nApplicant :- Bhagwan Sahay\n \nOpposite Party :- State Of U.P And 2 Others\n \nCounsel for Applicant :- Vijay Shantam\n \nCounsel for Opposite Party :- G.A.,Mukesh Kumar Upadhyay\n \n\n \nHon'ble Om Prakash Tripathi,J.\n \n\nHeard learned counsel for applicant, learned counsel for informant, learned A.G.A. for State and perused the material on record.\n\nThis second anticipatory bail under \nSection 438\n Cr.P.C. has been filed seeking anticipatory bail in Case Crime No. 576/2020 under added \nSection 304B\n I.P.C., Police Station- Banna Devi, District- Aligarh.\n\nLearned counsel for applicant submitted that applicant has already been granted anticipatory bail by co-ordinate Bench in Criminal Misc. Anticipatory Bail Application U/S \nCr.P.C\n. 438 No. 8509/2020 (\nBhagwan Sahay Vs. State of U.P\n and two others) under \nSections 498-A\n, \n323\n, \n304A\n I.P.C. and \nSection 3\n/\n4\n Dowry Prohibition Act, P.S.- Banna Devi, District- Aligarh vide order dated 02.12.2020. During the course of investigation, \nSection 304A\n I.P.C. is converted into under \nSection 304B\n I.P.C. by Investigating Officer. It is also submitted that deceased died at her parental home and death was natural. Co-accused of this case has been granted anticipatory bail by co-ordinate Bench of this Court in Criminal Misc. Anticipatory Bail Application No. 554/2022 vide order dated 07.02.2022 under added \nSection 304B\n I.P.C..\n\nLearned counsel for informant and learned A.G.A. have opposed the anticipatory bail and submitted that case under \nDomestic Violence Act\n has also been instituted against the applicant-husband. No treatment was arranged by the applicant and deceased was left her parental home for treatment. There is no postmortem report of the deceased.\n\nEarlier anticipatory bail was granted to the applicant considering all the facts and circumstances of this particular case, thus, there is justifiable ground to enlarge the applicant on anticipatory bail under \nSection 304B\n I.P.C. also.\n\nWithout entering into merits of the issue; considering the fact that the present applicant after getting protection from this Court cooperated with the investigation; charge sheet has been filed; allegations of the FIR; other material available on record and the undertaking of the applicant to the effect that he shall cooperate with the trial proceedings, I find it appropriate that liberty of the present applicant may be protected till conclusion of the trial as law \nlaid down by\n the Hon'ble Supreme Court in the case of \nSushila Aggarwal Vs. State (NCT of Delhi\n)- 2020 SCC Online SC 98 and order dated 22.05.2020 passed by this Court in Criminal Misc. Anticipatory Bail Application No. 2609/2020.\n\nIn the event of arrest the applicant Bhagwan Sahay shall be released on anticipatory bail in terms of earlier order dated 02.12.2020 passed in Criminal Misc. Anticipatory Bail Application U/S Cr.P.C. 438 No. 8509/2020\n \nAccordingly, this anticipatory application is disposed of. \n\nOrder Date :- 22.8.2022\n \nSharad/-",
   "paragraphs": [
@@ -178,11 +178,9 @@
     "confidence": "medium",
     "signals": {
       "criminal": [
-        "accused",
-        "police station",
-        "fir",
         "bail",
-        "charge sheet"
+        "fir",
+        "accused"
       ],
       "civil": [],
       "service": []

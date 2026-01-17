@@ -1,29 +1,29 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-501E32",
   "issues": [
-    "sentencing",
-    "arbitration"
+    "arbitration",
+    "sentencing"
   ],
   "sections": [
-    "BNS 3",
+    "BNS 117",
+    "IPC 161",
+    "IPC 221",
+    "BNSS 180",
     "IPC 302",
-    "IPC 218",
-    "IPC 222",
+    "BNS 3",
     "IPC 20",
     "IPC 233",
-    "IPC 300",
     "IPC 364",
-    "IPC 161",
-    "IPC 325",
+    "IPC 218",
+    "IPC 464",
+    "BNS 191",
+    "IPC 300",
     "IPC 324",
     "BNS 104",
-    "BNS 117",
-    "BNSS 180",
-    "IPC 221",
-    "BNS 191",
-    "IPC 464",
+    "BNS 103",
     "IPC 304",
-    "BNS 103"
+    "IPC 325",
+    "IPC 222"
   ],
   "citations": [
     "Bittoo vs State on "

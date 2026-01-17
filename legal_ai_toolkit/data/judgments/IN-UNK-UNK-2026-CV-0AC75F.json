@@ -3,9 +3,9 @@
   "metadata": {
     "court": "High Court Of Delhi At New Delhi",
     "court_level": "HC",
-    "jurisdiction": "India",
-    "year": 2026,
-    "decision_date": "10 NOVEMBER, 2021"
+    "case_number": null,
+    "decision_date": "10 NOVEMBER, 2021",
+    "jurisdiction": "India"
   },
   "text": "[Cites \n3\n, Cited by \n1\n]\n\nDelhi High Court - Orders\n\nCrl.M.A. /2021 (For Stay) (To Be ... vs The State Govt. Of Nct Of Delhi on 10 November, 2021\n\nAuthor: \nMukta Gupta\n\nBench: \nMukta Gupta\n\n$~ 27\n\n* IN THE HIGH COURT OF DELHI AT NEW DELHI\n\n+ BAIL APPLN. 3977/2021\n CRL.M.A. 17661/2021 (for exemption)\n CRL.M.A. /2021 (for stay) (to be numbered by the Registry)\n\n MALI DEVI ..... Petitioner\n Represented by: Mr.Manoj Kumar Sharma, Advocate.\n\n Versus\n\n THE STATE GOVT. OF NCT OF DELHI .... Respondent\n Represented by: Mr.Amit Ahlawat, APP for the State.\n\n CORAM:\n HON'BLE MS. JUSTICE MUKTA GUPTA\n ORDER\n\n% 10.11.2021\n The hearing has been conducted through physical mode.\nCRL.M.A. 17661/2021 (for exemption)\n\n1. Exemption allowed subject to just exceptions.\n\n2. Application is disposed of.\n\nBAIL APPLN. 3977/2021\n\nCRL.M.A. /2021 (to be numbered by the Registry) (for stay)\n\n1. By this petition, the petitioner seeks anticipatory bail in FIR No.\n88/2021 under \nSections 498A\n/\n304B\n/\n34\n IPC registered at PS-Gokulpuri.\n\n2. The petitioner had earlier filed an anticipatory bail application before\nthis Court which was dismissed as withdrawn after some arguments on 22nd\nOctober 2021.\n\n Signature Not Verified\n\n Digitally Signed By:JUSTICE\n\nBAIL APPLN. 3977/2021 Page 1 of GUPTA\n\n MUKTA 2\n\n Signing Date:10.11.2021\n\n 21:41:23\n\n 3. Learned counsel for the petitioner states that the change in\ncircumstance is that after the order was passed, one of the co-accused has\nbeen granted regular bail. Vide order dated 22nd September 2021, the co-\naccused who is the brother-in-law of the victim has been granted regular bail\nby the learned Additional Sessions Judge.\n\n4. Firstly, the said order was passed prior to the withdrawal of the\nanticipatory bail application before this Court on 22nd October 2021.\nSecondly, the co-accused has been granted regular bail and not anticipatory\nbail.\n\n5. Considering the role assigned to the petitioner and this being a second\npetition seeking anticipatory bail with no change of circumstance, this Court\nfinds no ground to grant anticipatory bail to the petitioner.\n\n6. Petition and the application are dismissed.\n\n7. Order be uploaded on the website of this Court.\n\n MUKTA GUPTA, J.\n\nNOVEMBER 10, 2021/akb\n\n Signature Not Verified\n\n Digitally Signed By:JUSTICE\n\nBAIL APPLN. 3977/2021 Page 2 of GUPTA\n\n MUKTA 2\n\n Signing Date:10.11.2021\n\n 21:41:23",
   "paragraphs": [
@@ -213,10 +213,10 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "accused",
-        "IPC",
         "bail",
-        "fir"
+        "IPC",
+        "fir",
+        "accused"
       ],
       "civil": [],
       "service": []

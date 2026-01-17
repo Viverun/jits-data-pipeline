@@ -3,9 +3,9 @@
   "metadata": {
     "court": "High Court Of Judicature At Patna  Criminal Miscellaneous No",
     "court_level": "HC",
-    "jurisdiction": "India",
-    "year": 2026,
-    "decision_date": "5 SEPTEMBER, 2024"
+    "case_number": "CRIMINAL MISCELLANEOUS NO.59932",
+    "decision_date": "5 SEPTEMBER, 2024",
+    "jurisdiction": "India"
   },
   "text": "[Cites \n4\n, Cited by \n0\n]\n\nPatna High Court - Orders\n\nOm Prakash Bhagat vs The State Of Bihar on 5 September, 2024\n\nAuthor: \nChandra Prakash Singh\n\nBench: \nChandra Prakash Singh\n\n IN THE HIGH COURT OF JUDICATURE AT PATNA\n CRIMINAL MISCELLANEOUS No.59932 of 2024\n Arising Out of PS. Case No.-394 Year-2023 Thana- PIPRA District- East Champaran\n ======================================================\n Om Prakash Bhagat Son of Deo Narayan Bhagat Village- Chak Bara, P.S.-\n Pipra, District- East Champaran\n\n ... ... Petitioner/s\n Versus\n The State of Bihar\n\n ... ... Opposite Party/s\n ======================================================\n Appearance :\n For the Petitioner/s : Mr. Sunil Kumar Pandey, Adv\n For the Opposite Party/s : Mr. Rajiv Nayan, APP\n ======================================================\n CORAM: HONOURABLE MR. JUSTICE CHANDRA PRAKASH\n SINGH\n ORAL ORDER\n\n2 05-09-2024\n Heard learned counsel for the petitioner and learned\n\n A.P.P for the State.\n\n 2. The petitioner has preferred this application for\n\n grant of regular bail in connection with Pipra P.S. Case No. 394\n\n of 2023 dated 29.12.2023 registered for the offence punishable\n\n u/ss 304B read with 34 of the \nIndian Penal Code\n.\n\n 3. As per the prosecution case, the petitioner and the\n\n co-accused persons are alleged to have strangulated the\n\n informant's daughter to death due to non-fulfillment of demand\n\n of Maruti Car (Wagon R) as dowry.\n\n 4. Learned counsel for the petitioner has submitted\n\n that the petitioner is innocent and has falsely been implicated in\n\n this case. The petitioner is the husband of the deceased. The\n Patna High Court CR. MISC. No.59932 of 2024(2) dt.05-09-2024\n\n 2/2\n\n petitioner neither demanded any dowry nor tortured the\n\n deceased. The petitioner has clean antecedent as stated in para 3\n\n of the bail petition. The petitioner is in custody since\n\n 08.01.2024. It is further submitted that the charge sheet has\n\n already been submitted\n u/s 304B\n and \n302\n/\n34\n of the I.P.C against\n\n the petitioner.\n\n 5. Learned A.P.P. for the State has vehemently\n\n opposed the bail petition of the petitioner by submitting that the\n\n petitioner is the husband of the deceased who committed murder\n\n due to non-fulfillment of demand of dowry. As per the post-\n\n mortem report stated in para 60 of the case diary, cause of death\n\n is due to strangulation caused by ligature.\n\n 6. Considering the aforesaid facts and circumstances\n\n of the case as well as the heinous nature of allegation against the\n\n petitioner, this Court is not inclined to grant bail to the petitioner\n\n and the same is rejected in connection with Pipra P.S. Case No.\n\n 394 of 2023 pending in the court of learned Chief Judicial\n\n Magistrate, East Champaran, Motihari.\n\n 7. The application stands rejected.\n\n (Chandra Prakash Singh, J)\nJyoti/-\n\nU T",
   "paragraphs": [
@@ -274,14 +274,11 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "Indian Penal Code",
-        "penal",
+        "bail",
+        "offence",
         "accused",
         "custody",
-        "offence",
-        "magistrate",
-        "bail",
-        "charge sheet"
+        "Indian Penal Code"
       ],
       "civil": [],
       "service": []

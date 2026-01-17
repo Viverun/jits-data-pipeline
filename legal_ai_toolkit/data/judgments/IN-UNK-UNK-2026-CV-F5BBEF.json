@@ -1,11 +1,11 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-F5BBEF",
   "metadata": {
-    "court": "High Court Of Calcutta",
+    "court": "Calcutta High Court",
     "court_level": "HC",
-    "jurisdiction": "India",
-    "year": 2026,
-    "decision_date": "18 NOVEMBER, 2024"
+    "case_number": "CASE NO. 19",
+    "decision_date": "18 NOVEMBER, 2024",
+    "jurisdiction": "India"
   },
   "text": "[Cites \n7\n, Cited by \n0\n]\n\nCalcutta High Court (Appellete Side)\n\nThe Indian Penal Code vs In Re : Gopal @ Gopal Chandra Biswas on 18 November, 2024\n\n 18.11.2024\n 30\n sdas\n Allowed\n\n C.R.M. (A) No. 3943 of 2024\n\n In Re:- An application for anticipatory bail under Section\n 482 of the Bharatiya Nagarik Suraksha Sanhita in connection\n with Karimpur Police Station Case No. 19 of 2024 dated\n 25.01.2024 under \nSections 498A\n/\n354B\n/\n376\n/\n511\n/\n506\n/\n34\n of\n the Indian Penal Code.\n And\n In Re : Gopal @ Gopal Chandra Biswas ..... petitioner\n\n Mr. Amanul Islam\n Mr. Sourav Mukherjee\n .....for the petitioner\n\n Ms. Sujata Das\n Mr. Asraf Mandal\n ....for the State\n\n 1.\n Learned Counsel for the petitioner submits\n\n allegation of attempt to murder/outraging of modesty are\n\n embellished to falsely implicate him. Accordingly, he prays for\n\n anticipatory bail.\n\n 2. Learned Counsel for the State opposes the prayer\n\n for anticipatory bail.\n\n 3. We have considered the materials on record\n\n including statement of the victim lady. Her allegations with\n\n regard to outraging modesty are bereft of material particulars\n\n with regard to date and time. However, she states she has been\n\n continuously threatened. In view of the aforesaid\n\n circumstances we are of the opinion custodial interrogation is\n\nSigned By :\n\nSHANTANU DAS\nHigh Court of\nCalcutta\n20 th of\nNovember 2024\n06:05:51 PM\n\n 2\n\n not necessary and petitioner may be granted anticipatory bail\n\n subject to strict conditions.\n\n 4. Accordingly, we direct that in the event of arrest\n\n the petitioner shall be released on bail upon furnishing a bond\n\n of Rs.10,000/-, with two sureties of like amount each, to the\n\n satisfaction of the arresting officer and also be subject to the\n\n conditions as laid down under \nSection 482(2)\n of the Bharatiya\n\n Nagarik Suraksha Sanhita and on condition that he shall\n\n appear before the jurisdictional court and pray for regular bail\n\n within a period of four weeks from date and on further\n\n condition petitioner shall meet the investigating officer once in a\n\n week until further orders.\n\n 5. The application for anticipatory bail is, thus,\n\n allowed.\n\n (Gaurang Kanth, J.) (Joymalya Bagchi, J.)\n\nSigned By :\n\nSHANTANU DAS\nHigh Court of\nCalcutta\n20 th of\nNovember 2024\n06:05:51 PM",
   "paragraphs": [
@@ -237,10 +237,8 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "police station",
-        "Indian Penal Code",
         "bail",
-        "penal"
+        "Indian Penal Code"
       ],
       "civil": [],
       "service": []

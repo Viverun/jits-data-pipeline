@@ -3,9 +3,9 @@
   "metadata": {
     "court": "High Court Of Judicature At Allahabad",
     "court_level": "HC",
-    "jurisdiction": "India",
-    "year": 2026,
-    "decision_date": "12 JANUARY, 2021"
+    "case_number": null,
+    "decision_date": "12 JANUARY, 2021",
+    "jurisdiction": "India"
   },
   "text": "[Cites \n4\n, Cited by \n1731\n]\n\nAllahabad High Court\n\nMrs. Leelavati Devi Alias Leelawati And ... vs State Of U.P. on 12 January, 2021\n\nAuthor: \nSiddharth\n\nBench: \nSiddharth\n\nHIGH COURT OF JUDICATURE AT ALLAHABAD\n \n \n\n?Court No. - 73\n \n\n \nCase :- CRIMINAL MISC ANTICIPATORY BAIL APPLICATION U/S 438 CR.P.C. No. - 8290 of 2020\n \n\n \nApplicant :- Mrs. Leelavati Devi Alias Leelawati And Another\n \nOpposite Party :- State of U.P.\n \nCounsel for Applicant :- Kartikeya Saran\n \nCounsel for Opposite Party :- G.A.,Udai Chandani\n \n\n \nHon'ble Siddharth,J.\n \n\nHeard learned counsel for the applicants, Sri Aman Kumar, Advocate, holding brief of Sri Udai Chandani, learned counsel for the informant and learned A.G.A for the State.\n\nThe instant anticipatory bail application has been filed on behalf of the applicants,Mrs. Leelavati Devi Alias Leelawati and Mrs. Radha Devi, with a prayer to release them on bail in Case Crime No.0163 of 2020, under \nSection 498A\n, \n304B\n IPC and 3/4 \nD.P. Act\n, Police Station- Maduadih, District- Varanasi, during pendency of trial.\n\nThe applicants are not entitled to be granted anticipatory bail. The offences alleged are prima facie made out from the allegations in the FIR.\n\nHowever, in view of the entirety of facts and circumstances of the case, it is directed, on the request of counsel for the applicants, that in case the applicants appear and surrender before the court below within 90 days from today and apply for bail, their prayer for bail shall be considered and decided as per the settled law laid by this Court in the case of \nAmrawati and another Vs. State of U.P.\n reported in 2004 (57) ALR 290 as well as judgement passed by Hon'ble Apex Court reported in 2009 (3) ADJ 322 (SC) Lal Kamlendra Pratap Singh Vs. State of U.P.\n \nTill then no coercive action shall be taken against the applicants.\n\nHowever, in case, the applicants do not appear before the court below within the aforesaid period, coercive action shall be taken against them.\n\nIt is made clear that the applicants will not be granted any further time by this court for surrendering before the court below as directed above.\n\nWith the aforesaid directions, this application is finally disposed of.\n\nOrder Date :- 12.1.2021\n \nSS",
   "paragraphs": [
@@ -134,9 +134,8 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "police station",
-        "IPC",
         "bail",
+        "IPC",
         "fir"
       ],
       "civil": [],

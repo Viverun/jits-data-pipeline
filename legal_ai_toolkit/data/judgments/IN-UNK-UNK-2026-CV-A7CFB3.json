@@ -3,9 +3,9 @@
   "metadata": {
     "court": "High Court Of Orissa At Cuttack   Blapl No",
     "court_level": "HC",
-    "jurisdiction": "India",
-    "year": 2026,
-    "decision_date": "4 JULY, 2023"
+    "case_number": "CASE NO.06",
+    "decision_date": "4 JULY, 2023",
+    "jurisdiction": "India"
   },
   "text": "[Cites \n3\n, Cited by \n0\n]\n\nOrissa High Court\n\nChakradhar Sethy vs State Of Odisha .... Opposite Party on 4 July, 2023\n\nAuthor: \nV. Narasingh\n\nBench: \nV. Narasingh\n\n IN THE HIGH COURT OF ORISSA AT CUTTACK\n\n BLAPL No.5723 of 2023\n\n Chakradhar Sethy .... Petitioner\n Mr. S. Satapathy, Advocate\n -versus-\n\n State of Odisha .... Opposite Party\n Mr. A. Pradhan, ASC\n\n CORAM: JUSTICE V. NARASINGH\n\n ORDER\n\n 04.07.2023\nOrder No.\n\n 01. 1. Heard learned counsel for the Petitioner and learned\n counsel for the State.\n\n 2. The Petitioner is an accused in connection with 2 (a) C.C.\n Case No.06 of 2023, pending in the Court of the learned Sessions\n Judge-cum-Special Judge, Cuttack, arising out of P.R. No.429 of\n 2023, for alleged commission of offences under \nSection\n 20(b)(ii)(C)\n of NDPS Act.\n\n 3. Being aggrieved by the rejection of his application for bail\n U/s.439 \nCr.P.C\n. by the learned Sessions Judge-cum-Special Judge,\n Cuttack, by order dated 17.05.2023 in the aforementioned case, the\n present BLAPL has been filed.\n\n 4. It is submitted by the learned counsel that the Petitioner\n along with three others were taken into custody on 17.01.2023 on\n the accusation of possessing contraband to the tune of 60Kgs\n (Ganja).\n\n 5. It is stated with vehemence that independent seizures have\n been clubbed together so as to attract the rigors of \nSection 37\n of the\n NDPS Act.\n\n Page 1 of 2\n\n 6. Learned counsel for the petitioner relies on the orders\n passed by this Court dated 21.06.2023 and 23.06.2023 in BLAPL\n Nos.6242 & 3033 of 2023 respectively and seeks release inter alia\n on the ground of parity.\n\n 7. It is further submitted by the learned counsel that the since\n final form has already been submitted as evident from the order of\n rejection and as the Petitioner is the first offender, he may be\n released on bail.\n\n 7. Per contra, learned counsel for the State opposes the prayer\n for bail in view of the bar contained in \nSection 37\n of the NDPS Act\n and the seizure being a common one, the defence of the Petitioner\n does not stand to reason and hence the bail application does not\n deserve consideration.\n\n 8. Taking into account the release of the co-accused and\n bleak chance of early trial, this Court directs the Petitioner to be\n released on bail on such terms to be fixed by the learned Court in\n seisin.\n\n 9. Before releasing the Petitioner on bail, learned Court in\n seisin is called upon to verify criminal antecedent of the Petitioner.\n If it comes to the fore that the Petitioner has any criminal\n antecedent, this order shall stand recalled.\n\n 10. Additionally, it is directed that the Petitioner shall appear\n before the jurisdictional police station once every week on such date\n and time to be fixed by the learned Court in seisin till conclusion of\n trial. Certification of such appearance shall be submitted to the Court\n in seisin.\n\n 11. The BLAPL thus stands disposed of.\n\n 12. Urgent certified copy of this order be granted as per rules.\n\nSignature Not Verified\n\nDigitally Signed\n\nSigned by: AYESHA ROUT\n\nDesignation: Junior Stenographer\n\nReason: Authentication\n\n (V. NARASINGH)\nLocation: High Court of Orissa Ayesha\nDate: 06-Jul-2023 16:40:50\n Judge\n\n Page 2 of 2",
   "paragraphs": [
@@ -180,11 +180,10 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "accused",
-        "custody",
-        "police station",
+        "bail",
         "NDPS",
-        "bail"
+        "custody",
+        "accused"
       ],
       "civil": [],
       "service": []

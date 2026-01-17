@@ -3,9 +3,9 @@
   "metadata": {
     "court": "High Court Of Orissa At Cuttack   Blapl No",
     "court_level": "HC",
-    "jurisdiction": "India",
-    "year": 2026,
-    "decision_date": "8 SEPTEMBER, 2023"
+    "case_number": null,
+    "decision_date": "8 SEPTEMBER, 2023",
+    "jurisdiction": "India"
   },
   "text": "[Cites \n3\n, Cited by \n0\n]\n\nOrissa High Court\n\nRanjit Kumar Sahoo vs State Of Odisha .... Opposite Party on 8 September, 2023\n\nAuthor: \nV. Narasingh\n\nBench: \nV. Narasingh\n\n IN THE HIGH COURT OF ORISSA AT CUTTACK\n\n BLAPL No. 9437 of 2023\n\n Ranjit Kumar Sahoo .... Petitioner\n Mr. A.S. Paul, Advocate\n -versus-\n\n State of Odisha .... Opposite Party\n Mr. P.K. Maharaj, ASC\n\n CORAM: JUSTICE V. NARASINGH\n\n ORDER\n\n 08.09.2023\nOrder No.\n\n 01. 1. Heard learned counsel for the petitioner and learned\n counsel for the State.\n\n 2. The petitioner is an accused in connection with T.R. Case\n No.79 of 2023, pending in the Court of learned 1st Additional\n Sessions Judge-cum-Special Judge under \nNDPS Act\n, Khordha\n arising out of OIC of Excise Khordha Station P.R. No.77 of 2023,\n for alleged commission of offences under \nSection 20(b)(ii)(B)\n of\n the N.D.P.S. Act.\n\n 3. Being aggrieved by the rejection of his application for bail\n U/s.439 \nCr.P.C\n. by the learned Special Judge under \nNDPS Act\n,\n Khurda by order dated 08.08.2023 in the aforementioned case, the\n present BLAPL has been filed.\n\n 4. It is submitted by the learned counsel that the petitioner is\n in custody since 05.08.2023 on the accusation of possessing\n contraband to the tune of 7Kgs 100gms (Ganja).\n\n Page 1 of 2\n\n 5. It is stated by the learned counsel that as investigation has\n progressed substantially and since the petitioner is the first offender,\n he may be released on bail.\n\n 6. Learned counsel for the State opposes the prayer for bail\n during currency of investigation.\n\n 7. Considering that the contraband seized is less than the\n commercial quantity and the period of custody, this Court directs\n the petitioner to be released on bail on such terms to be fixed by the\n learned Court in seisin.\n\n 8. Additionally, it is directed that the petitioner shall appear\n before the jurisdictional police station once every week on such\n date and time to be fixed by the learned Court in seisin till\n submission of final form. Certification of such appearance shall be\n submitted to the learned Court in seisin.\n\n 9. Before releasing the petitioner, learned Court in seisin is\n called upon to verify criminal antecedent of the petitioner. If it\n comes to the fore that the petitioner has any criminal antecedent,\n this order shall stand recalled.\n\n 10. Accordingly, the BLAPL stands disposed of.\n\n 11. Urgent certified copy of this order be granted as per rule.\n\n (V. NARASINGH)\n Judge\n Ayesha\n\nSignature Not Verified\n\nDigitally Signed\n\nSigned by: AYESHA ROUT\n\nReason: Authentication\n\nLocation: High Court of Orissa\n\nDate: 08-Sep-2023 18:14:38\n\n Page 2 of 2",
   "paragraphs": [
@@ -176,11 +176,10 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "accused",
-        "custody",
-        "police station",
+        "bail",
         "NDPS",
-        "bail"
+        "custody",
+        "accused"
       ],
       "civil": [],
       "service": []

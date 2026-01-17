@@ -3,9 +3,9 @@
   "metadata": {
     "court": "High Court Of Orissa At Cuttack   Blapl No",
     "court_level": "HC",
-    "jurisdiction": "India",
-    "year": 2026,
-    "decision_date": "13 SEPTEMBER, 2023"
+    "case_number": "CASE NO.107",
+    "decision_date": "13 SEPTEMBER, 2023",
+    "jurisdiction": "India"
   },
   "text": "[Cites \n4\n, Cited by \n0\n]\n\nOrissa High Court\n\nSalman Khan vs State Of Odisha .... Opposite Party on 13 September, 2023\n\nAuthor: \nV. Narasingh\n\nBench: \nV. Narasingh\n\n IN THE HIGH COURT OF ORISSA AT CUTTACK\n\n BLAPL No.9724 of 2023\n\n Salman Khan .... Petitioner\n Mr. B.R. Tripathy, Advocate\n -versus-\n\n State of Odisha .... Opposite Party\n Mr. P.K. Maharaj, ASC\n\n CORAM: JUSTICE V. NARASINGH\n ORDER\n\n 13.09.2023\n Order No.\n\n01. 1. It submitted by the learned counsel for the petitioner that\n inadvertently the details of the case at hand has been wrongly stated\n in paragraph-7 of the bail application. He is permitted to correct the\n same in Court.\n\n 2. Heard learned counsel for the Petitioner and learned\n counsel for the State.\n\n 3. The Petitioner is an accused in connection with Spl.\n (NDPS) case No.107 of 2023, pending before the Court of learned\n Sessions Judge-cum-Special Judge, Boudh arising out of Boudh\n P.S. Case No. 208 of 2023, for alleged commission of offences\n under \nSections 20(b)(ii)(C)\n/\n29\n of NDPS Act.\n\n 4. Being aggrieved by the rejection of his application for bail\n U/s. 439 \nCr.P.C\n. by the learned Special Judge, Boudh by order\n dated 26.05.2023 in the aforementioned case, the present BLAPL\n has been filed.\n\n 5. It is stated that the petitioner is the first offender and is in\n custody since 21.05.2023, on the accusation of possessing the\n contraband (ganja) to the tune of 22 kgs along with two co-accused.\n\n Page 1 of 2\n\n 6. Learned counsel for the petitioner relies on the order dated\n 22.06.2023 in respect of the co-accused passed by this Court in\n BLAPL No.6484 of 2023 and seeks release inter alia on the ground\n of parity.\n\n 7. It is further submitted that in the case at hand the wrong\n weighment cannot be ruled out so as to bring it within the rigors of\n \nSection 37\n of the NDPS Act. Hence, further continuance of the\n petitioner in custody is not warranted.\n\n 8. Learned counsel for the State opposes the prayer for bail\n relying on the bar contained in \nSection 37\n of the NDPS Act and\n submits that defence plea as advanced cannot be taken into account\n at this stage.\n\n 9. Considering the nature of allegations, role ascribed to the\n petitioner and the petitioner being the first offender, this Court\n directs the petitioner to be released on bail on such terms to be fixed\n by the learned Court in seisin subject to verification of criminal\n antecedent of the petitioner.\n\n 10. If it comes to the fore that the petitioner has any criminal\n antecedent, this order shall stand recalled.\n\n 11. Additionally it is directed that, the petitioner shall appear\n before the jurisdictional police station once a week on such date and\n time to be fixed by the learned Court in seisin till submission of the\n final form. Certification of such appearance shall be submitted to\n the Court in seisin.\n\n 12. The BLAPL thus stands disposed of.\n\n 13. Urgent certified copy of this order be granted as per rules.\n\nSignature Not Verified\n\nDigitally Signed\n\nSigned by: AYESHA ROUT (V. NARASINGH)\nDesignation: Junior Stenographer\nReason: Authentication Judge\nLocation: High Court of Orissa Ayesha\nDate: 15-Sep-2023 19:32:32\n\n Page 2 of 2",
   "paragraphs": [
@@ -143,11 +143,10 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "accused",
-        "custody",
-        "police station",
+        "bail",
         "NDPS",
-        "bail"
+        "custody",
+        "accused"
       ],
       "civil": [],
       "service": []

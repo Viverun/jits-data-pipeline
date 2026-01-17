@@ -1,11 +1,11 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-E3B1D8",
   "metadata": {
-    "court": "High Court Of Calcutta",
+    "court": "Calcutta High Court",
     "court_level": "HC",
-    "jurisdiction": "India",
-    "year": 2026,
-    "decision_date": "13 DECEMBER, 2024"
+    "case_number": "CASE NO.2483",
+    "decision_date": "13 DECEMBER, 2024",
+    "jurisdiction": "India"
   },
   "text": "[Cites \n8\n, Cited by \n0\n]\n\nCalcutta High Court (Appellete Side)\n\nIndian Penal Code. (G.R. Case No.2483 Of ... vs In Re: Shambhu Bouri on 13 December, 2024\n\n 13.12.2024\n Sl. No.35\n akd\n [ALLOWED]\n C. R. M. (A) 4385 of 2024\n\n In Re: An application for anticipatory bail under Section 482 of the\n Bharatiya Nagarik Suraksha Sanhita, 2023 filed on 03.12.2024 in\n connection with Salanpur Police Station Case No.137 of 2023 dated\n 01.09.2023 under \nSections 498A\n/\n323\n/\n325\n/\n354B\n/\n307\n/\n506\n/\n34\n of the\n Indian Penal Code. (G.R. Case No.2483 of 2023)\n\n And\n\n In Re: Shambhu Bouri\n ... ... Petitioner\n Mr. Abhishek Halder\n Ms. Madhurima Basu\n Mr. Debabrata Halder\n ... ... for the petitioner\n\n Md. Adil Badr\n Mr. Sandip Kundu\n ... ... for the State\n\n 1.\n It is submitted on behalf of the petitioner that he is the husband\n\n of the victim lady. It is further submitted petitioner and other in-laws\n\n were falsely implicated over a matrimonial discord. Co-accused has\n\n been granted pre-arrest bail. Accordingly, he prays for the same relief.\n\n 2. Learned Advocate for the State opposes the prayer for\n\n anticipatory bail and submits victim suffered injuries.\n\n 3. We have considered the materials on record including the\n\n statement of the victim and injury report. It is alleged one Robin Bouri\n\n i.e. brother-in-law outraged the modesty of the victim. The said co-\n\n accused has been granted pre-arrest bail. Allegation against the\n\n petitioner-husband is with regard to assault. However, injuries are\n\n simple. In view of the aforesaid facts, we are of the opinion custodial\n\n interrogation of the accused/petitioner is not necessary and he may be\n\n granted anticipatory bail.\n\n 4. Accordingly, we direct in the event of arrest, the\n\n accused/petitioner, namely, Shambhu Bouri, be released on bail upon\nSigned By : ARUP\nKUMAR DAS\nHigh Court of\nCalcutta\n16 th of\nDecember 2024\n04:55:22 PM\n\n 2\n\n furnishing a bond of Rs.10,000/- (Rupees Ten thousand only), with two\n\n sureties of like amount each, to the satisfaction of the arresting officer\n\n and also subject to the conditions as laid down under \nSection 482(2)\n of\n\n the Bharatiya Nagarik Suraksha Sanhita, 2023 and on further condition\n\n that the petitioner shall appear before the jurisdictional court and pray\n\n for regular bail within four weeks from date.\n\n 5. The application for anticipatory bail is, thus, disposed of.\n\n (Apurba Sinha Ray, J.) (Joymalya Bagchi, J.)\n\nSigned By : ARUP\nKUMAR DAS\nHigh Court of\nCalcutta\n16 th of\nDecember 2024\n04:55:22 PM",
   "paragraphs": [
@@ -207,11 +207,9 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "bail",
         "Indian Penal Code",
-        "penal",
-        "accused",
-        "police station",
-        "bail"
+        "accused"
       ],
       "civil": [],
       "service": []

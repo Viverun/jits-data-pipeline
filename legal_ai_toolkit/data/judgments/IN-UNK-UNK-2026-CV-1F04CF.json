@@ -3,9 +3,9 @@
   "metadata": {
     "court": "Calcutta High Court",
     "court_level": "HC",
-    "jurisdiction": "India",
-    "year": 2026,
-    "decision_date": "30 APRIL, 2024"
+    "case_number": "CASE NO.622",
+    "decision_date": "30 APRIL, 2024",
+    "jurisdiction": "India"
   },
   "text": "[Cites \n11\n, Cited by \n0\n]\n\nCalcutta High Court (Appellete Side)\n\nMinarul Islam & Ors vs Anowara Bibi @ Anoyara Bibi & Anr on 30 April, 2024\n\nAuthor: \nDebangsu Basak\n\nBench: \nDebangsu Basak\n\n C.R.M. (A) 1482 of 2024\n 30.04.2024 In Re: - An application for anticipatory bail under Section 438\n DL-5 wt 51\n Court No.29 of the \nCode of Criminal Procedure\n in connection with\n (AD) Raninagar Police Station Case No.622 of 2023 dated\n (Allowed) 13.11.2023 under \nSections 498A\n/\n304B\n/\n506\n/\n302\n/\n34\n of the\n Indian Penal Code, 1860 read with \nSections 3\n/\n4\n of the Dowry\n Prohibition Act, subsequently charge sheeted under \nSections\n 498A\n/\n304B\n/\n306\n/\n506\n/\n34\n of the Indian Penal Code read with\n \nSection 4\n of the Dowry Prohibition Act, pending before the\n Learned Court of Additional Chief Judicial Magistrate,\n Lalbagh, Murshidabad. (G.R. Case No.3843 of 2023)\n And\n In the matter of: Minarul Islam & Ors.\n ....petitioners\n\n Mr. Soumajit Das Mahapatra\n Md. G.N. Imrohi\n Ms. Arundhuyti Barui\n ...for the petitioners.\n\n Mr. P.K. Datta, Ld. APP\n Mr. Injamaul Haque\n ... for the State.\n\n With\n C.R.M. (A) 1444 of 2024\n\n In Re: - An application for anticipatory bail under \nSection 438\n\n of the Code of Criminal Procedure in connection with\n Raninagar Police Station Case No.622 of 2023 dated\n 13.11.2023 under \nSections 498A\n/\n304B\n/\n506\n/\n302\n/\n34\n of the\n Indian Penal Code, 1860 read with \nSections 3\n/\n4\n of the Dowry\n Prohibition Act, subsequently charge sheeted under \nSections\n 498A\n/\n304B\n/\n306\n/\n506\n/\n34\n of the Indian Penal Code read with\n \nSection 4\n of the Dowry Prohibition Act, pending before the\n Learned Court of Additional Chief Judicial Magistrate,\n Lalbagh, Murshidabad. (G.R. Case No.3843 of 2023)\n And\n In the matter of: Anowara Bibi @ Anoyara Bibi & Anr.\n ....petitioners\n\n Mr. Soumajit Das Mahapatra\n Md. G.N. Imrohi\n Ms. Arundhuyti Barui\n ...for the petitioners.\n\n Mr. Rana Mukherjee\n Mrs. Paramita Sahu\n ... for the State.\n\n 1.\n Leave granted to the learned Advocate-on-record for the\n\nSigned By :\n\nABHIJIT DAS\nHigh Court of\nCalcutta\n30 th of April\n2024 04:38:37\nPM\n\n 2\n\n petitioners in both the applications to correct the cause-\n\n title.\n\n 2. Two applications for anticipatory bail are taken up for\n\n analogous consideration as they emanate out of the same\n\n police case.\n\n 3. None appears for the de facto complainant despite being\n\n served.\n\n 4. Police complaint was lodged within three months of\n\n marriage. Police filed charge sheet. Husband is still in\n\n custody.\n\n 5. Apparently, victim committed suicide. The petitioners\n\n before us are the in-laws of the victim.\n\n 6. Materials in the case diary do not suggest requirement of\n\n placing any of the petitioner in custody at this stage.\n\n 7. In such circumstances, we grant anticipatory bail to the\n\n petitioners in both the applications.\n\n 8. Accordingly, we direct that in the event of arrest, the\n\n petitioners in both the applications shall be released on\n\n bail upon furnishing a Bond of Rs.10,000/- (Rupees Ten\n\n Thousand Only) each, with two sureties of like amount\n\n each to the satisfaction of the Arresting Officer and also\n\n subject to the conditions as laid down under \nSection\n\n 438(2)\n of the Code of Criminal Procedure, 1973 and on\n\n condition that the petitioners in both the applications shall\n\n appear on every date before the jurisdictional Court on and\n\n from the date fixed for appearance of the accused and in\n\n default, the jurisdictional Court will pass appropriate order\n\n to secure the presence of the petitioners in both the\n\nSigned By :\n\nABHIJIT DAS\nHigh Court of\nCalcutta\n30 th of April\n2024 04:38:37\nPM\n\n 3\n\n applications in Court including cancelling the anticipatory\n\n bail granted without further reference to this Court.\n\n 9. The prayer for anticipatory bail of the petitioners in both\n\n the applications is allowed.\n\n 10. C.R.M. (A) 1482 of 2024 and C.R.M. (A) 1444 of 2024\n\n are disposed of.\n\n (Debangsu Basak, J.)\n\n (Md. Shabbar Rashidi, J.)\n\nSigned By :\n\nABHIJIT DAS\nHigh Court of\nCalcutta\n30 th of April\n2024 04:38:37\nPM",
   "paragraphs": [
@@ -300,15 +300,11 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "Indian Penal Code",
-        "penal",
+        "bail",
         "accused",
         "custody",
-        "police station",
-        "magistrate",
-        "bail",
-        "Code of Criminal Procedure",
-        "charge sheet"
+        "Indian Penal Code",
+        "Code of Criminal Procedure"
       ],
       "civil": [],
       "service": []

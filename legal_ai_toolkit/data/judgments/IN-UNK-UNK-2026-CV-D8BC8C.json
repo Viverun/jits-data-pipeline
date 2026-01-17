@@ -3,9 +3,9 @@
   "metadata": {
     "court": "Calcutta High Court",
     "court_level": "HC",
-    "jurisdiction": "India",
-    "year": 2026,
-    "decision_date": "22 OCTOBER, 2024"
+    "case_number": "CASE NO. 236",
+    "decision_date": "22 OCTOBER, 2024",
+    "jurisdiction": "India"
   },
   "text": "[Cites \n8\n, Cited by \n0\n]\n\nCalcutta High Court (Appellete Side)\n\nProhibition Act vs In Re : Firoj @ Firoz Mondal on 22 October, 2024\n\n22.10.2024\n\n 53\n\nCt. No. 08\n\nA.R.D.R./ S.D.\nBail rejected\n\n C.R.M.(DB) 3598 of 2024\n\n In Re:- An application for anticipatory bail under \nSection 439\n of\n the Code of Criminal Procedure, 1973 corresponding to \nsection\n 483\n of the Bharatiya Nagarik Suraksha Sanhita, 2023 in\n connection with Haringhata Police Station Case No. 236 of\n 2024 dated 11.05.2024 under \nSections 498A\n/\n304(B)\n/\n34\n of the\n Indian Penal Code, 1860 read with \nSections 3\n/\n4\n of the Dowry\n Prohibition Act, 1961.\n\n And\n\n In Re : Firoj @ Firoz Mondal\n ...... petitioner\n Mr. Shibaji Kumar Das\n ....for the petitioner\n\n Ms. Shaila Afrin\n Mr. Asif Dewan\n ....for the State\n\n This is an application for bail under \nSection 439\n of the\n\n Code of Criminal Procedure, 1973 corresponding to section 483\n\n of the Bharatiya Nagarik Suraksha Sanhita, 2023 in connection\n\n with Haringhata Police Station Case No. 236 of 2024 dated\n\n 11.05.2024 under \nSections 498A\n/\n304(B)\n/\n34\n of the Indian Penal\n\n Code, 1860 read with \nSections 3\n/\n4\n of the Dowry Prohibition\n\n Act, 1961.\n\n Learned counsel appearing on behalf of the petitioner\n\n submits as follows. The petitioner is the husband of the victim\n\n 2\n\ndeceased. Although, initially the FIR was registered also under\n\nSection 302\n of the Indian Penal Code, the same charge was\n\ndeleted from the charge sheet. The petitioner is in custody for\n\n150 days. Yet, only charge sheet has been submitted. The\n\nmatter has not even been committed for trial. So far as the\n\nallegations under Section 498A of the Penal Code are\n\nconcerned, the same are general and omnibus in nature. Even\n\nas regards Section 304B, there is hardly anything incriminating\n\navailable in the post mortem report.\n\n Learned counsel appearing on behalf of the State relies on\n\nthe case diary and submits as follows. The incident of death\n\ntook place within 1 year and 8 months of the marriage. As\n\nwould appear from the post mortem report, there was no clear\n\nfinding that the death could have been suicidal in nature.\n\nMoreover, certain bruises and abrasions were found in the body\n\nof the victim. The Trial Court would obviously go by the\n\nmaterials available and not by any particular finding of an\n\nInvestigating Officer.\n\n Considering the fact that the death took place within 1\n\nyear and 8 months of marriage and in view of the incriminating\n\nmaterials available in the case diary, we are not inclined to\n\ngrant bail to the petitioner at this stage.\n\n If the trial ensues, the same shall be expedited.\n\n Thus, the application for bail of the petitioner is rejected.\n\n 3\n\n Criminal Section is directed to provide certified copy of\n\nthis order, if applied for, to the parties upon completion of\n\nrequisite formalities.\n\n (Biswaroop Chowdhury, J.) (Jay Sengupta, J.)",
   "paragraphs": [
@@ -309,14 +309,11 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "Indian Penal Code",
-        "penal",
-        "police station",
-        "custody",
-        "fir",
         "bail",
-        "Code of Criminal Procedure",
-        "charge sheet"
+        "fir",
+        "custody",
+        "Indian Penal Code",
+        "Code of Criminal Procedure"
       ],
       "civil": [],
       "service": []

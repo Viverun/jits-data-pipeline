@@ -3,29 +3,29 @@
   "issues": [],
   "sections": [
     "IPC 21",
+    "BNS 309",
     "BNSS 347",
-    "IPC 498",
-    "IPC 313",
-    "IPC 107",
-    "IPC 306",
     "BNS 86",
     "IPC 174",
     "IPC 498A",
+    "IPC 498",
     "BNS 108",
-    "BNS 309",
-    "IPC 309"
+    "IPC 107",
+    "IPC 309",
+    "IPC 313",
+    "IPC 306"
   ],
   "citations": [
-    "(2020) 15 SCC 359",
+    "(2001) 9 SCC 618",
+    "(2020) 10 SCC 200",
     "(1994) 1 SCC 73",
     "Supreme Court of India\n\nMariano Anto Bruno vs Inspector Of Police on ",
-    "(2010) 1 SCC 707",
     "In \nState of West Bengal v. Orilal Jaiswal and\n Anr",
+    "(2010) 1 SCC 707",
+    "(2020) 15 SCC 359",
     "(2010) 12 SCC 190",
-    "(2019) 17 SCC 301",
-    "(2020) 10 SCC 200",
-    "(2001) 9 SCC 618",
-    "(2019) 3 SCC 315"
+    "(2019) 3 SCC 315",
+    "(2019) 17 SCC 301"
   ],
   "domain": "criminal"
 }

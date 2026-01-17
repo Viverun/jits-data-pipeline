@@ -3,9 +3,9 @@
   "metadata": {
     "court": "High Court Of Orissa At Cuttack  Blapl No",
     "court_level": "HC",
-    "jurisdiction": "India",
-    "year": 2026,
-    "decision_date": "17 DECEMBER, 2024"
+    "case_number": "CASE NO.36",
+    "decision_date": "17 DECEMBER, 2024",
+    "jurisdiction": "India"
   },
   "text": "[Cites \n8\n, Cited by \n0\n]\n\nOrissa High Court\n\nUttam Digal vs ) State Of Odisha ..... Opposite Parties on 17 December, 2024\n\n IN THE HIGH COURT OF ORISSA AT CUTTACK\n BLAPL No.7175 of 2024\n Uttam Digal ..... Petitioner\n Represented By Adv. -\n Susanta Kumar Lenka\n\n -versus-\n 1) State Of Odisha ..... Opposite Parties\n 2) Chinmayee Digal Represented By Adv. -\n\n B.K. Sahu, AGA\n\n CORAM:\n THE HON'BLE MR. JUSTICE ANANDA CHANDRA\n BEHERA\n\n ORDER\n\n 17.12.2024\n Order No.\n\n 03. 1. This matter is taken up through hybrid mode.\n\n 2. The bail application under \nSection 439\n of the\n Cr.P.C., 1973 filed by the petitioner arising out of K.\n Nuagaon P.S. Case No.36 of 2024 corresponding to\n C.T. Case No.29 of 2024 pending before the learned\n Addl. District &Sessions Judge-cum-Special Court\n under \nPOCSO Act\n, Phulbani is taken up into\n consideration.\n\n 3. The petitioner is facing trial in the Court of\n learned Addl. District & Sessions Judge-cum-Special\n Court under \nPOCSO Act\n, Phulbani in C.T. Case No.29\n of 2024 having been charged under \nSections 363\n, \n366\n\n376(2)(n)\n, \n376(3)\n IPC, 1860 read with \nSection 4(2)\n\n &\n6(1)\n of the POCSO Act, 2012 on the allegations of\n commission of rape on the victim.\n\nSignature Not Verified\n\n Page 1 of 3.\n\nDigitally Signed\n\nSigned by: UTKALIKA NAYAK\n\nReason: Authentication\n\nLocation: High Court of\n\nOrissa, Cuttack\n\nDate: 17-Dec-2024 16:53:01\n\n 4. I have already heard from the learned counsel for\n the petitioner and learned Addl. Govt. Advocate for the\n State.\n\n 5. During the course of hearing, learned counsel for\n the petitioner submitted for liberal consideration of bail\n of the petitioner contending that, the petitioner is in jail\n custody since 20.04.2024 and in the meantime, during\n trial, the victim has already been examined as P.W.7,\n but, the victim has not supported case of the prosecution\n during trial, to which, learned Addl. Govt. Advocate\n objected contending that, as because, the trial is going\n on, for which, he (petitioner) should not be allowed to\n go on bail.\n\n 6. On perusal of copy of the deposition of the\n witnesses submitted by the Trial Court, it appears that,\n in fact the victim has not supported the case of the\n prosecution during trial, for which, she (victim) has\n turned hostile on being examined as P.W.7 during trial.\n\n 7. When the victim has not supported the case of\n prosecution during trial and she (victim) has turned\n hostile to the prosecution, then at this juncture, by\n taking the aforesaid evidence of the victim during trial\n into account, I find no justification to disallow the\n prayer for bail of the petitioner.\n\n 8. Therefore, the bail application filed by the\n petitioner is allowed.\n\nSignature Not Verified\n\n Page 2 of 3.\n\nDigitally Signed\n\nSigned by: UTKALIKA NAYAK\n\nReason: Authentication\n\nLocation: High Court of\n\nOrissa, Cuttack\n\nDate: 17-Dec-2024 16:53:01\n\n 9. He (petitioner) is allowed to go on bail on\n furnishing bail bond of Rs.50,000/-(rupees fifty thousand)\n with two solvent sureties each for the like amount to the\n satisfaction of the learned Court in seisin over the matter\n with conditions that :-\n\n (i) he (petitioner) shall not involve with\n similar nature of crime in future;\n\n (ii) he shall appear before the Trial Court\n personally on each date of adjournment of the\n case without fail till the conclusion of trial;\n\n (iii) he shall not terrorize, coerce, influence\n or threat any witnesses of the prosecution\n including the informant and her family members\n either directly or indirectly in any manner\n whatsoever at any stage of the proceeding of the\n case, but in case of his failure to comply any of\n the aforesaid conditions, the court in seisin over\n the matter is authorized to cancel his bail order\n out-rightly without seeking any permission for\n the same from this Court.\n\n 10. Accordingly, the bail application filed by the\n petitioner is disposed of finally.\n\n 11. Grant certified copy of this order to the petitioner\n on proper application.\n\n (ANANDA CHANDRA BEHERA)\n Judge\n Utkalika\n\nSignature Not Verified\n\n Page 3 of 3.\n\nDigitally Signed\n\nSigned by: UTKALIKA NAYAK\n\nReason: Authentication\n\nLocation: High Court of\n\nOrissa, Cuttack\n\nDate: 17-Dec-2024 16:53:01",
   "paragraphs": [
@@ -261,10 +261,10 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "IPC",
+        "bail",
         "custody",
-        "POCSO",
-        "bail"
+        "IPC",
+        "POCSO"
       ],
       "civil": [],
       "service": []

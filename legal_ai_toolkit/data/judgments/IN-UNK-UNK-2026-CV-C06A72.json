@@ -3,9 +3,9 @@
   "metadata": {
     "court": "Madhya Pradesh High Court",
     "court_level": "HC",
-    "jurisdiction": "India",
-    "year": 2026,
-    "decision_date": "21 AUGUST, 2014"
+    "case_number": null,
+    "decision_date": "21 AUGUST, 2014",
+    "jurisdiction": "India"
   },
   "text": "[Cites \n3\n, Cited by \n4\n]\n\nMadhya Pradesh High Court\n\nRamkumar Singh vs The State Of Madhya Pradesh on 21 August, 2014\n\n 1\n M.Cr.C.No.7046/2014\n\n (Ramkumar Singh Vs. State of MP)\n21.08.2014\n Shri R.N. Sharma, Advocate for the applicant.\n Shri P.S. Raghuvanshi Public Prosecutor for the\nrespondent/State.\n\n Case Diary is perused.\n\n Learned counsel for the rival parties are heard.\n\n Applicant apprehends arrest in connection with offences\npunishable u/Ss. 304B and 34 of \nIPC\n and 3/ 4 of \nDowry\nProhibition Act\n registered as Crime No.525/2013 at Police\nStation Citiy Kotwali, District Bhind.\n\n Learned Public Prosecutor for the State opposed the\napplication and prayed for its rejection by contending that on the\nbasis of the allegations and the material available on record, no\ncase for grant of anticipatory bail is made out.\n\n The applicant apprehends arrest in respect of offences\npunishable u/Ss. 304B and 34 of \nIPC\n and 3/ 4 of \nDowry\nProhibition Act\n where the allegation of dowry demand related\ncruelty has been made against the applicant who is said to be\nthe uncle-in-law of the deceased who died due to hanging.\nStatement of father of the deceased indicates that on the very\nsame day of the incident the deceased had called him and told\nhim about her husband, mother- in- law, sister- in- law and the\npresent petitioner beating the deceased. The PM Report does\nnot indicate any external injury on the body except ligature mark.\nThe marriage had taken place about five years back from the\n\n 2\n\n M.Cr.C.No.7046/2014\n\ndate of incident. The applicant is maintaining separate\nestablishment as per the ration card annexed along with list of\ndocuments dated 5.8. 2014. In view of the above, this Court is\ninclined to extend the benefit of bail to the applicant.\n\n Accordingly, without expressing any opinion on merits of\nthe case, this application\n u/S 438\n Cr.P.C is allowed in the\nfollowing terms.\n\n It is hereby directed that in the event of arrest, the\napplicant shall be released on bail on furnishing a personal bond\nof Rs.100,000/-(Rupees One Lac only) with two solvent\nsureties of the like amount to the satisfaction of Arresting\nAuthority.\n\n This order will remain operative subject to compliance of\nthe following conditions by the applicant :-\n\n 1. The applicant will comply with all the terms and conditions of the\n bond executed by him;\n\n 2. The applicant will cooperate in the investigation/trial, as the case may\n be;\n\n 3. The applicant will not indulge himself in extending inducement,\n threat or promise to any person acquainted with the facts of the case\n so as to dissuade him/her from disclosing such facts to the Court or to\n the Police Officer, as the case may be;\n\n 4. The applicant shall not commit an offence similar to the offence of\n which he is accused;\n\n 5. The applicant will not seek unnecessary adjournments during the\n trial; and\n\n 6. The applicant will not leave India without previous permission of the\n trial Court/Investigating Officer, as the case may be.\n\n 3\n\n M.Cr.C.No.7046/2014\n\n A copy of this order be sent to the Court concerned for\n compliance.\n\n C.c. as per rules.\n\n (Sheel Nagu)\n Judge\nar",
   "paragraphs": [
@@ -176,10 +176,10 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "accused",
-        "IPC",
         "bail",
-        "offence"
+        "offence",
+        "IPC",
+        "accused"
       ],
       "civil": [],
       "service": []

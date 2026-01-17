@@ -3,9 +3,9 @@
   "metadata": {
     "court": "High Court Of Kerala At Ernakulam   Present   The Honourable Mr",
     "court_level": "HC",
-    "jurisdiction": "India",
-    "year": 2026,
-    "decision_date": "26 OCTOBER, 2023"
+    "case_number": null,
+    "decision_date": "26 OCTOBER, 2023",
+    "jurisdiction": "India"
   },
   "text": "[Cites \n5\n, Cited by \n0\n]\n\nKerala High Court\n\nArun Kumar vs State Of Kerala on 26 October, 2023\n\nAuthor: \nP Gopinath\n\nBench: \nP Gopinath\n\n IN THE HIGH COURT OF KERALA AT ERNAKULAM\n\n PRESENT\n\n THE HONOURABLE MR. JUSTICE GOPINATH P.\n\n THURSDAY, THE 26TH DAY OF OCTOBER 2023 / 4TH KARTHIKA, 1945\n\n BAIL APPL. NO. 9155 OF 2023\n KEEZHVAIPUR POLICE STATION, PATHANAMTHITTA\n CRIME NO.671 OF 2023\n\nPETITIONER:\n\n ARUN KUMAR, AGED 32 YEARS S/O UNNIKRISHNAN NAIR,\n PULICKAL MEPPURATHU, ANAMATTOM, NOORONMAVU P.O.\n ANIKKADU VILLAGE, PATHANAMTHITTA, PINCODE -, PIN -\n 686503\n BY ADV M.R.SASITH\n\nRESPONDENT:\n\n STATE OF KERALA, REPRESENTED BY PUBLIC PROSECUTOR,HIGH\n COURT OF KERALA, PIN - 682031\n\n SRI. G. SUDHEER (PP)\n\n THIS BAIL APPLICATION HAVING COME UP FOR ADMISSION ON\n26.10.2023, THE COURT ON THE SAME DAY DELIVERED THE FOLLOWING:\n BAIL APPL. NO.9155 OF 2023\n\n 2\n\n ORDER\n\n This is an application for anticipatory bail.\n\n 2. Petitioner are the accused in Crime No.671/2023\n\n of Keezhvaipur Police Station, Pathanamthitta alleging\n\n commission of offence under \nSection 323\n, \n324\n, \n294(b)\n,\n\n \n506\n and \n498A\n of the Indian Penal Code.\n\n 3. The petitioner got married to the de facto\n\n complainant on 15.01.2021. Allegation against the\n\n petitioner is that after the marriage, he subjected the\n\n de facto complainant with physical and mental cruelty, by\n\n stating that she was not good looking, alleging that she\n\n was an aged person and by assaulting her.\n\n 4. Learned counsel appearing for the petitioner\n\n would submit that the petitioner is absolutely innocent in\n\n the matter and the allegations have been raised only to\n\n settle the other matrimonial disputes between the\n\n petitioner and the de facto complainant. It is submitted\n BAIL APPL. NO.9155 OF 2023\n\n 3\n\n that even if the above allegations are accepted as true,\n\n the offence under \nSection 498A\n IPC is not made out.\n\n 5. I have heard the learned Public Prosecutor also.\n\n 6. Having regard to the facts and circumstances of\n\n the case and taking into account the nature of the\n\n allegations against the petitioner and also taking note of\n\n the fact that custodial interrogation of the petitioner is not\n\n necessary for the purpose of any investigation, I am of the\n\n opinion that anticipatory bail can be granted to the\n\n petitioner subject to strict conditions.\n\n In the result, this bail application is allowed. It is\n\n directed that the petitioner shall be released on bail, in\n\n the event of arrest in crime No.671/2023 of Keezhvaipur\n\n police Station subject to the following conditions:-\n\n (i) Petitioner shall execute separate bonds for sums\n\n of Rs.50,000/- (Rupees fifty thousand only) with two\n\n solvent sureties each for the like-sum to the satisfaction of\n\n the jurisdictional Court;\n\n BAIL APPL. NO.9155 OF 2023\n\n 4\n\n (ii) Petitioner shall appear before the investigating\n\n officer in Crime No.671/2023 of Keezhvaipur Police station\n\n as and when summoned to do so;\n\n (iii) The petitioner shall not attempt to contact the de\n\n facto complainant or interfere with the investigation or to\n\n influence or intimidate any witness in Crime No.671/2023\n\n of Keezhvaipur police station;\n\n (iv) The petitioner shall not involve in any other\n\n crime while on bail.\n\n If any of the aforesaid conditions are violated, the\n\n investigating officer in Crime No.671/2023 of Keezhvaipur\n\n police station may file an application before the\n\n jurisdictional Court, for cancellation of bail.\n\n Sd/-\n\n GOPINATH P.\n JUDGE\nSSK/27/10\n BAIL APPL. NO.9155 OF 2023\n\n 5\n\n APPENDIX OF BAIL APPL. 9155/2023\n\nPETITIONER ANNEXURES\n\n Annexure A1 THE TRUE COPY OF FIR IN CRIME NO. 671/2023 OF\n KEEZHVAIPUR POLICE STATION DATED 06.10.2023",
   "paragraphs": [
@@ -362,14 +362,12 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "IPC",
-        "Indian Penal Code",
-        "penal",
-        "accused",
-        "police station",
-        "fir",
+        "bail",
         "offence",
-        "bail"
+        "fir",
+        "accused",
+        "Indian Penal Code",
+        "IPC"
       ],
       "civil": [],
       "service": []

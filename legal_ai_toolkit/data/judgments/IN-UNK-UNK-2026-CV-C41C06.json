@@ -1,11 +1,11 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-C41C06",
   "metadata": {
-    "court": "High Court Of Calcutta",
+    "court": "Calcutta High Court",
     "court_level": "HC",
-    "jurisdiction": "India",
-    "year": 2026,
-    "decision_date": "17 DECEMBER, 2024"
+    "case_number": "CASE NO. 119",
+    "decision_date": "17 DECEMBER, 2024",
+    "jurisdiction": "India"
   },
   "text": "[Cites \n9\n, Cited by \n0\n]\n\nCalcutta High Court (Appellete Side)\n\n498A/506 Of The Indian Penal Code vs In Re : Sekh Mosgul @ Sk. Nosgul on 17 December, 2024\n\n 17.12.2024\n 36\n sdas\n Allowed\n\n C.R.M. (A) No. 4419 of 2024\n\n In Re:- An application for anticipatory bail under Section\n 482 of the Bharatiya Nagarik Suraksha Sanhita in connection\n with Panrui Police Station Case No. 119 of 2024 dated\n 30.07.2024 under \nSections 420\n/\n467\n/\n468\n/\n471\n/\n474\n/\n120B\n/\n \n498A\n/\n506\n of the Indian Penal Code.\n And\n In Re : Sekh Mosgul @ Sk. Nosgul ..... petitioner\n\n Mr. Sabir Ahmed\n Mr. Golam Karim Chowdhury\n Mr. Tasnim Ahmed\n Mr. Dhiman Banerjee\n Mr. Quazi Ezaz Ahmed\n .....for the petitioner\n\n Mr. Debasish Roy, learned PP\n Mr. Arijit Ganguly\n Mr. Koushik Kundu\n ....for the State\n\n 1.\n Heard the learned Counsels for the parties.\n\n 2. We have considered the materials on record.\n\n Present case arose out of a matrimonial discord. Allegation of\n\n torture is general and omnibus. Allegation of forgery relates to\n\n transfer of the de facto complainant's property in favour of the\n\n petitioner by an alleged forged deed. Forged deed is in the\n\n control and custody of the investigating agency. Custodial\n\n interrogation for progress of investigation is not necessary but\n\n petitioner requires to co-operate with investigation in\n\n accordance with law. Accordingly, we are inclined to grant\n\n anticipatory bail to the petitioner but subject to condition.\n\nSigned By :\n\nSHANTANU DAS\nHigh Court of\nCalcutta\n18 th of\nDecember 2024\n03:08:26 PM\n\n 2\n\n 3. Accordingly, we direct that in the event of arrest the\n\n petitioner shall be released on bail upon furnishing a bond of\n\n Rs.10,000/-, with two sureties of like amount each, to the\n\n satisfaction of the arresting officer and also be subject to the\n\n conditions as laid down under \nSection 482(2)\n of the Bharatiya\n\n Nagarik Suraksha Sanhita and on condition that he shall\n\n appear before the jurisdictional court and pray for regular bail\n\n within a period of four weeks from date and on further\n\n condition that he shall meet the investigating officer once in a\n\n week until further orders and shall provide his specimen\n\n signature and hand-writing, if necessary.\n\n 4. The application for anticipatory bail is, thus, allowed.\n\n (Gaurang Kanth, J.) (Joymalya Bagchi, J.)\n\nSigned By :\n\nSHANTANU DAS\nHigh Court of\nCalcutta\n18 th of\nDecember 2024\n03:08:26 PM",
   "paragraphs": [
@@ -225,15 +225,11 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "bail",
         "Indian Penal Code",
-        "penal",
-        "police station",
-        "custody",
-        "bail"
+        "custody"
       ],
-      "civil": [
-        "property"
-      ],
+      "civil": [],
       "service": []
     }
   },

@@ -3,9 +3,9 @@
   "metadata": {
     "court": "High Court Of Orissa At Cuttack  Blapl No",
     "court_level": "HC",
-    "jurisdiction": "India",
-    "year": 2026,
-    "decision_date": "20 JULY, 2023"
+    "case_number": "CASE NO.106",
+    "decision_date": "20 JULY, 2023",
+    "jurisdiction": "India"
   },
   "text": "[Cites \n4\n, Cited by \n0\n]\n\nOrissa High Court\n\nRaj Nishad vs State Of Odisha .... Opposite Party on 20 July, 2023\n\nAuthor: \nV. Narasingh\n\nBench: \nV. Narasingh\n\n IN THE HIGH COURT OF ORISSA AT CUTTACK\n BLAPL No. 5946 of 2023\n\n Raj Nishad .... Petitioner\n Mr. J.K. Panda, Advocate\n -versus-\n\n State of Odisha .... Opposite Party\n Mr. T.K. Praharaj, SC\n\n BLAPL No. 5948 of 2023\n\n Dharmendra Tiwari .... Petitioner\n Mr. J.K. Panda, Advocate\n -versus-\n\n State of Odisha .... Opposite Party\n Mr. T.K. Praharaj, SC\n\n CORAM: JUSTICE V. NARASINGH\n ORDER\n\n 20.07.2023\nOrder No.\n\n 03. 1. Since both the BLAPLs relate to the same P.S. Case\n (Muniguda P.S. Case No.106 of 2023), they are heard together and\n disposed of by this common order, on the consent of the parties.\n\n 2. Heard learned counsel for the petitioners and learned\n counsel for the State.\n\n 3. The petitioners are accused in connection with T.R. Case\n No.68 of 2023, pending in the Court of learned Additional Sessions\n Judge-cum-Special Judge, Gunupur arising out of Muniguda P.S.\n Case No.106 of 2023 for alleged commission of offences under\n \nSections 20(b)(ii)(C)\n/\n29\n of NDPS Act.\n\n Page 1 of 3\n\n 4. Being aggrieved by the rejection of their application for\nbail U/s.439 \nCr.P.C\n. by the Additional Sessions Judge-cum-Special\nJudge, Gunupur, by order dated 15.05.2023 in the aforementioned\ncases, the present BLAPLs have been filed.\n\n5. It is submitted by the learned counsel that the petitioners\nare in custody since18.04.2023 for allegedly possessing contraband\nto the tune of 23kgs 560gms (ganja).\n\n6. Referring to the FIR, it is submitted that independent\nseizures of 8Kgs 640gms from each of the petitioners has been\nclubbed together with the other accused so as to attract the bar\nunder \nSection 37\n of NDPS Act.\n\n7. Learned counsel for the State opposes the prayer for bail\nand submits that such bifurcation is not permissible during the\ncurrency of investigation and even otherwise submits that the joint\nseizure falsifies the claim of the petitioners.\n\n8. Taking into account the petitioners are young man of 19\nyears and 22 years and there being bleak chance of early trial, this\nCourt directs the petitioners to be released on bail on such terms to\nbe fixed by the learned Court in seisin over the matter.\n\n9. Additionally, it is directed that the petitioners shall appear\nbefore the Investigating Officer once every month till submission of\nfinal form on such date and time to be fixed by the learned Court in\nseisin. Certification of such appearance shall be submitted to the\nlearned Court in seisin.\n\n10. It is further directed that in addition to the sureties so fixed,\none surety shall be immediate member of the family of the\npetitioners, who shall execute a P.R. bond.\n\n11. Before releasing the petitioners, learned Court in seisin is\ncalled upon to verify the criminal antecedent of the Petitioners from\n\n Page 2 of 3\n\n their parent police station i.e. P.S.-Bagberia, Dist-Purbi, State-\n Singhbhum, Jharkhand. If it comes to the fore that the Petitioners\n have any criminal antecedent, this order shall stand recalled.\n\n 12. Accordingly, the BLAPLs stand disposed of.\n\n 13. Urgent certified copy of this order be granted as per the\n rules.\n\n (V. NARASINGH)\n Ayesha Judge\n\nSignature Not Verified\n\nDigitally Signed\n\nSigned by: AYESHA ROUT\n\nReason: Authentication\n\nLocation: High Court of Orissa\n\nDate: 22-Jul-2023 13:20:42\n\n Page 3 of 3",
   "paragraphs": [
@@ -175,12 +175,11 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "bail",
+        "fir",
         "accused",
         "custody",
-        "police station",
-        "fir",
-        "NDPS",
-        "bail"
+        "NDPS"
       ],
       "civil": [],
       "service": []

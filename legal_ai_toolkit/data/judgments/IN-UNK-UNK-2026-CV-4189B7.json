@@ -3,9 +3,9 @@
   "metadata": {
     "court": "High Court Of Judicature At Allahabad",
     "court_level": "HC",
-    "jurisdiction": "India",
-    "year": 2026,
-    "decision_date": "26 AUGUST, 2025"
+    "case_number": null,
+    "decision_date": "26 AUGUST, 2025",
+    "jurisdiction": "India"
   },
   "text": "[Cites \n7\n, Cited by \n0\n]\n\nAllahabad High Court\n\nSadanand vs State Of U.P. Thru. Addl. Chief Secy. ... on 26 August, 2025\n\nAuthor: \nKarunesh Singh Pawar\n\nBench: \nKarunesh Singh Pawar\n\nHIGH COURT OF JUDICATURE AT ALLAHABAD, LUCKNOW BENCH\n \n \n\n?Neutral Citation No. - 2025:AHC-LKO:50284\n \n\n \nHIGH COURT OF JUDICATURE AT ALLAHABAD\n \nLUCKNOW\n \nCRIMINAL MISC ANTICIPATORY BAIL APPLICATION U/S 438 CR.P.C. No. - 1886 of 2024\n \nCourt No. - 12\n \nHON'BLE KARUNESH SINGH PAWAR, J.\n\nCase called out. None appears for the applicant. \n\nLearned AGA for the State is present.\n\nThe present application under \nSection 438\n Cr.PC./482 BNSS has been filed seeking anticipatory bail in Case Crime No.85/2024, under \nSections 498A\n/\n306\n/\n323\n/\n506\n I.P.C., P.S. Krishna Nagar, District Lucknow.\n\nThis Court vide order dated 21.8.2024 has passed the following order granting interim anticipatory bail to the applicant:- \n\n\"Heard learned counsel the applicant and learned A.G.A. for the State as well as Shri Rizwanul Haque Ansari, learned Advocate who has filed vakalatnama on behalf of the complainant which is taken on record. \n\nThe present bail application under \nSection 438\n Cr.PC. has been filed seeking anticipatory bail in case crime/FIR No. 85/2024, under \nSections 498A\n/\n306\n/\n323\n/\n506\n I.P.C., P.S. Krishna Nagar, District Lucknow. \n\nIt is alleged in the prosecution case that the deceased was married with the applicant on 12.12.2015 as per the Hindu Rights and Rituals. It is also alleged that after her marriage, the deceased was beaten physically and tortured mentally and threatened to give divorce by the applicant and his family members for giving less dowry. The informant's daughter used to convey about the atrocities committed upon her to her family members. Out of the wedlock, a boy and a girl were born. On 18.02.2024 at about 10:46, the mother-in-law of the deceased called the informant and told that his daughter has committed suicide by hanging. After receiving information, when, he went to matrimonial home of the deceased, he found only mother-in-law and father-in-law of the deceased there and it was told that the other family members had gone to Ballia. A call was made to 112 by the father-in-law of the deceased. \n\nLearned counsel for the applicant submits that cause of death is asphyxia as a result of antemortem hanging. The deceased was going under regular treatment for some mental health issues since 2015. She was suffering from depression. The prescription papers of the deceased are on record. It has been further submitted that ingredients to attract \nSection 306\n IPC are clearly missing and taking note of this fact, the Division Bench of this Court vide order dated 13.03.2024 passed in criminal misc. writ petition No. 1765/2024 has stayed the arrest of the other family members and subsequently, the names of all the family members except the applicant were dropped by the investigating officer. The applicant has been falsely implicated as he happens to be the husband of the deceased. On the date of incident, the applicant was at Ballia and was attending marriage of a relative. To substantiate his argument, he has annexed train ticket as Annexure No. 8 to the bail application. The applicant has no criminal antecedents. \n\nLearned counsel for the applicant submits that the applicant is not a previous convict; he has no criminal antecedents and he undertakes to cooperate in the investigation. \n\nIssue notice to respondent No. 2. \n\nSteps be taken within a week. \n\nLearned Addl. Government Advocate as well as learned counsel for the complainant prays for and is allowed 15 days' time to file counter affidavit. \n\nList on 11.09.2024. \n\nOn due consideration to the judgment of the Supreme Court passed in the case of \"\nMariano Anto Mruno and Anr. Vs. Inspector of Police\n; 2022 SCC online SC 1387\", so also the fact that prima facie ingredients to attract \nSection 306\n IPC appears to be missing; the applicant is not a previous convict and having no criminal history and also considering the judgment in \nSushila Aggarwal and others versus State (NCT of Delhi) and another\n (2020)5 SCC 1 and without entering into the merit of the case, as an interim measure, it would be appropriate to grant interim protection to the applicant under \nSection 438\n Cr.P.C.\n\nTill the next date of listing, it is provided that in the event of arrest, the applicant shall be released on bail on his furnishing a personal bond and two sureties of the like amount to the satisfaction of the arresting officer/I.O./S.H.O. concerned. \n\nThe applicant shall cooperate in the investigation and he will not influence the witness. The accused-applicant will remain present as and when the arresting officer/I.O./S.H.O. concerned call(s) for investigation/interrogation. The applicant shall not leave India without previous permission of the Court. \n\nIn case of default, it would be open for the investigating agency to move application for vacation of this interim protection.\"\n\nLearnedAGA has informed the Court that the charge-sheet in the case has been filed after the aforesaid interim order was passed by this Court. It is not disputed that the applicant has not misused the liberty ofinterim anticipatory bail granted by the Court.\n\nWithout expressing any opinion on the merits of the case and considering the nature of accusation so also the fact that charge-sheet in the case has already been filed, the applicant has not misused the liberty of interim anticipatory bail granted by the Court coupled with the undertaking given by the applicant that he will cooperate in the trial, the interim protection granted by this Court vide order dated 21.8.2024 is made absolute.\n\nIn view of the aforesaid, the anticipatory bail application isallowed. \n\nAugust 26, 2025\n \nShravan",
   "paragraphs": [
@@ -189,14 +189,16 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "IPC",
-        "accused",
+        "bail",
         "fir",
-        "BNSS",
-        "bail"
+        "accused",
+        "IPC",
+        "BNSS"
       ],
       "civil": [],
-      "service": []
+      "service": [
+        "Writ Petition"
+      ]
     }
   },
   "statutory_transitions": {

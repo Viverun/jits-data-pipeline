@@ -4,26 +4,26 @@
   "sections": [
     "BNS 3",
     "BNS 351",
-    "IPC 25",
-    "IPC 294",
-    "IPC 13",
-    "IPC 151",
     "BNS 109",
-    "IPC 12",
-    "IPC 354",
-    "IPC 307",
-    "IPC 323",
     "IPC 506",
-    "BNS 115"
+    "IPC 12",
+    "IPC 25",
+    "IPC 323",
+    "BNS 115",
+    "IPC 151",
+    "IPC 13",
+    "IPC 294",
+    "IPC 307",
+    "IPC 354"
   ],
   "citations": [
     "(2011) 12 SCC 428",
-    "Ram Manohar Lohia v. State of Bihar\n ",
     "(1994) 5 SCC 54",
-    "Raman vs The State Of Madhya Pradesh on ",
-    "(1982) 2 SCC 402",
     "State of West Bengal\n and \nShyamal\n Chakraborty v. The Commissioner of Police",
-    "(2004) 8 SCC 579"
+    "Ram Manohar Lohia v. State of Bihar\n ",
+    "(2004) 8 SCC 579",
+    "(1982) 2 SCC 402",
+    "Raman vs The State Of Madhya Pradesh on "
   ],
   "domain": "criminal"
 }

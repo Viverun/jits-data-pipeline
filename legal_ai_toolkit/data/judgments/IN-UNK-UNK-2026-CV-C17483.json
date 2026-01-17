@@ -3,9 +3,9 @@
   "metadata": {
     "court": "High Court Of Orissa At Cuttack   Blapl No",
     "court_level": "HC",
-    "jurisdiction": "India",
-    "year": 2026,
-    "decision_date": "7 DECEMBER, 2023"
+    "case_number": "CASE NO.51",
+    "decision_date": "7 DECEMBER, 2023",
+    "jurisdiction": "India"
   },
   "text": "[Cites \n7\n, Cited by \n0\n]\n\nOrissa High Court\n\nDalsher Singh vs State Of Odisha .... Opposite Party on 7 December, 2023\n\nAuthor: \nV. Narasingh\n\nBench: \nV. Narasingh\n\n IN THE HIGH COURT OF ORISSA AT CUTTACK\n\n BLAPL No. 12758 of 2023\n\n Dalsher Singh .... Petitioner\n Mr. S.S. Ray (2), Advocate\n\n -versus-\n\n State of Odisha .... Opposite Party\n Mr. H.K. Panigrahi, ASC\n\n CORAM: JUSTICE V. NARASINGH\n\n ORDER\n\n 07.12.2023\nOrder No.\n\n 02. 1. Heard learned counsel for the Petitioner and learned\n counsel for the State.\n\n 2. Learned counsel for the Petitioner, on instruction, submits\n that except the present BLAPL, no other bail application of the\n Petitioner is pending in any other Court.\n\n 3. The Petitioner is an accused in connection with T.R. Case\n No.26 of 2023 pending on the file of learned Dist. & Sessions\n Judge-cum-Spl. Judge, Rayagada, arising out of Rayagada Excise\n Station P.R. Case No.51 of 2023-24 for commission of offence\n alleged under \nSections 20(b)(ii)(C)\n of the NDPS Act.\n\n 4. Being aggrieved by the rejection of his application for bail\n U/s.439 \nCr.P.C\n. by the learned Special Judge, Rayagada by order\n dated 19.10.2023 in the aforementioned case, the present BLAPL\n has been filed.\n\n 5. This is the third journey of the Petitioner to this Court.\n\n 6. In the second bail application of the Petitioner i.e. BLAPL\n No.9457 of 2023, this Court directed release of the Petitioner by\n\n Page 1 of 2\n\n order dated 05.10.2023 subject to verification of criminal\n antecedent, taking into account that the accusation against the\n Petitioner is of transportation of contraband (ganja) to the tune of\n 30 kgs 300 grams.\n\n 7. Since the Petitioner has four criminal antecedents\n including two cases which are under the \nNDPS Act\n, learned Court\n in seisin rejected the bail application of the Petitioner.\n\n 8. Ex-facie, this Court does not find any infirmity in the order\n passed by the learned Court in seisin.\n\n 9. Learned counsel for the State opposes the prayer for bail in\n view of the bar contained in \nSection 37(1)(b)(ii)\n of the NDPS Act.\n\n 10. It is submitted by the learned counsel for the Petitioner that\n out of the four cases, in two of the cases the Petitioner has been\n acquitted and in two other cases relating to the \nNDPS Act\n are under\n \nSection 21\n and \n29\n of the NDPS Act.\n\n 11. In terms of the \nSection 37\n of the NDPS Act, before\n releasing, this Court has to be satisfied regarding the twin condition\n that prima facie the Petitioner is not involved in the commission of\n offence and on being released the Petitioner shall not be indulged\n himself in any other offence.\n\n 12. Taking into account the criminal proclivity of the\n Petitioner, this Court is not inclined to entertain the bail application\n at this stage.\n\n 13. Leave is granted to the Petitioner to renew his prayer\n before the learned Court in seisin at a later stage.\n\n 14. Accordingly, the BLAPL stands disposed of.\n\nSignature Not Verified\n\nDigitally Signed\n\nSigned by: SANTOSHI LENKA\n\nDesignation: Senior Stenographer\n\nReason: Authentication\n\nLocation: High Court of Orissa\n (V. NARASINGH)\nDate: 08-Dec-2023 19:07:57\n Judge\n Santoshi\n\n Page 2 of 2",
   "paragraphs": [
@@ -171,10 +171,10 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "accused",
         "bail",
+        "NDPS",
         "offence",
-        "NDPS"
+        "accused"
       ],
       "civil": [],
       "service": []

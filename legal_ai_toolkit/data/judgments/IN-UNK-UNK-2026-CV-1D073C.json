@@ -3,9 +3,9 @@
   "metadata": {
     "court": "Calcutta High Court",
     "court_level": "HC",
-    "jurisdiction": "India",
-    "year": 2026,
-    "decision_date": "29 FEBRUARY, 2024"
+    "case_number": "CASE NO. 1293",
+    "decision_date": "29 FEBRUARY, 2024",
+    "jurisdiction": "India"
   },
   "text": "[Cites \n7\n, Cited by \n0\n]\n\nCalcutta High Court (Appellete Side)\n\n498A/376/511/506/406/34 Ipc vs In Re : Amiyo Biswas & Anr on 29 February, 2024\n\n29.02.2024\ntkm/ct 28 C.R.M. (DB) 568 of 2024\nsl no. 67\n In Re : An application for bail under \nsection 439\n Cr.P.C in connection\n with Kotwali PS case no. 1293 of 2023 dated 30.12.2023 under \nsection\n 498A\n/\n376\n/\n511\n/\n506\n/\n406\n/\n34\n IPC\n\n And\n In Re : Amiyo Biswas & Anr. ........ petitioners\n\n Mr. Amanul Islam\n Mr. Sourav Mukherjee\n ...... for the petitioners\n Mr. Arijit Ganguly\n Ms. Yantika Roy\n ...... for the State\n Mr. Kalyan Kr. Bhattacharjee\n Ms. Sahina Khatun\n ...... for the de facto complainant\n\n 1.\n Petitioners are in custody for 57 days. There is delay in\n\n lodging FIR. They pray for bail.\n\n 2. Learned lawyer for the State and the de facto complainant\n\n oppose the bail prayer.\n\n 3. We have considered the materials on record. Statement of the\n\n victim implicates petitioner no. 2 in the offence of attempting to\n\n rape her. Hence, we are not inclined to grant bail to him.\n\n 4. Allegations against petitioner no. 1-husband are general and\n\n omnibus. Keeping in mind the extent of complicity of petitioner no.\n\n 1 in the crime, we are inclined to grant bail to him.\n\n 5. Accordingly, the petitioner no. 1 viz. Amiyo Biswas be\n\n released on bail upon furnishing a bond of Rs. 10,000/- with two\n\n sureties of like amount each, one of whom must be local to the\n\n satisfaction of the learned CJM Nadia at Krishnagar on condition\n\n that the petitioner no. 1 shall appear before the trial court on every\n\n 2\n\ndate of hearing and shall not intimidate witnesses or tamper with\n\nevidence in any manner whatsoever.\n\n 6. In the event he fails to appear before the trial court without\n\njustifiable cause, the trial court shall be at liberty to cancel his bail\n\nautomatically without reference to this court.\n\n 7. The application being CRM (DB) 568 of 2024 is disposed of.\n\n(Gaurang Kanth, J.) (Joymalya Bagchi, J.)",
   "paragraphs": [
@@ -183,11 +183,11 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "IPC",
-        "custody",
-        "fir",
+        "bail",
         "offence",
-        "bail"
+        "fir",
+        "custody",
+        "IPC"
       ],
       "civil": [],
       "service": []

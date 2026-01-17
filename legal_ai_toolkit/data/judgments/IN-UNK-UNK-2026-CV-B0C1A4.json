@@ -3,9 +3,9 @@
   "metadata": {
     "court": "High Court Of Madhya Pradesh  At Jabalpur  Before  Hon",
     "court_level": "HC",
-    "jurisdiction": "India",
-    "year": 2026,
-    "decision_date": "25 APRIL, 2024"
+    "case_number": "CRIMINAL CASE NO. 15107",
+    "decision_date": "25 APRIL, 2024",
+    "jurisdiction": "India"
   },
   "text": "[Cites \n6\n, Cited by \n0\n]\n\nMadhya Pradesh High Court\n\nShitesh Gupta vs The State Of Madhya Pradesh on 25 April, 2024\n\nAuthor: \nDinesh Kumar Paliwal\n\nBench: \nDinesh Kumar Paliwal\n\n 1\n IN THE HIGH COURT OF MADHYA PRADESH\n AT JABALPUR\n BEFORE\n HON'BLE SHRI JUSTICE DINESH KUMAR PALIWAL\n ON THE 25 th OF APRIL, 2024\n MISC. CRIMINAL CASE No. 15107 of 2024\n\n BETWEEN:-\n SHITESH GUPTA S/O SHRI SHIVKUMAR GUPTA, AGED\n ABOUT 40 YEARS, OCCUPATION: BUSINESS RESIDENT\n OF NEAR HANUMAN MANDIR BEOHARI POLICE\n STATION BEOHARI DISTRICT SHAHDOL (MADHYA\n PRADESH)\n\n .....APPLICANT\n (BY SHRI MANISH DATT - SENIOR ADVOCATE WITH SHRI MAYANK\n SHARMA - ADVOCATE)\n\n AND\n THE STATE OF MADHYA PRADESH THROUGH POLICE\n S TATION BEOHARI DISTRICT SHAHDOL (MADHYA\n PRADESH)\n\n .....RESPONDENTS\n (BY SHRI AMIT DUBEY - PANEL LAWYER)\n\n This application coming on for admission this day, the court passed the\n following:\n ORDER\n\n This is third bail application filed by the applicant under \nSection 439\n of\n the Cr.P.C. for grant of regular bail relating to FIR No.172/2023, dated\n 26.02.2023 registered at Police Station-Beohari, District - Shahdol (M.P.) for\n commission of offence punishable under \nSection 8\n, \n21\n and \n22\n of the NDPS Act\n and under Section 5/13 of M.P. Drug Control Act. Applicant is in detention\n since 26.02.2023.\n\n 2. Applicant's first bail application was dismissed as withdrawn and not\n\nSignature Not Verified\n\nSigned by: JASLEEN SINGH\n\nSALUJA\n\nSigning time: 4/25/2024\n\n5:45:38 PM\n\n 2\n\n pressed vide order dated 05.09.2023 passed in M.Cr.C.No.24925/2023. His\n second bail application was also dismissed as withdrawn and not pressed vide\n order dated 01.02.2024, passed in M.Cr.C.No.56793/2023.\n\n 3. As per the prosecution story, on 26.02.2023, 25 Onrex Cough Syrup\n having codeine phosphate was seized from the possession of the present\n applicant. FIR was registered.\n\n 4. Learned counsel for the applicant has submitted that applicant has not\n committed any offence. He is innocent. He has been falsely implicated. He is in\n jail for last more than one year. Therefore, it is prayed that applicant may be\n released on bail, pending the trial.\n\n 5. On the other hand, learned counsel for the State opposed the prayer\n for grant of bail to the applicant and has submitted that seized quantity is a\n commercial quantity. Applicant has a criminal background of nine cases and\n out of these nine cases two cases of same nature under \nNDPS Act\n were\n registered against him in the year 2022 and this case has been registered in the\n year 2023. He is a habitual offender and is continuously involved in possessing\n and selling contraband. Therefore, he has prayed for rejection of this bail\n application.\n\n 6. In this case a commercial quantity of contraband has been seized from\n the possession of the applicant. Undoubtedly, he is in jail for the last one year,\n but it cannot be overlooked that he is a habitual offender and except this case\n two cases under \nNDPS Act\n were registered against him and in the previous year\n i.e. 2022. \nSection 37\n of the NDPS Act put a bar on the grant of bail where a\n commercial quantity of contraband has been seized and its provision lays two\n limitations: (i) that Court is prima-facie of view that accused is not guilty of the\n offence and; (ii) he is not likely to commit any offence while on bail. As\n\nSignature Not Verified\n\nSigned by: JASLEEN SINGH\n\nSALUJA\n\nSigning time: 4/25/2024\n\n5:45:38 PM\n\n 3\n\n accused is already having criminal background of two cases under \nNDPS Act\n\n and after release on bail in those cases, he has been again found involved in\n same nature of offence and commercial quantity has been seized. Therefore, no\n opinion can be formed that he will not commit same type of offence while on\n bail. Hence, I am of the view that no case for grant of bail is made out.\n\n 7. Consequently, this third bail application too under \nSection 439\n of the\n Code of Criminal Procedure for grant of bail filed on behalf of applicant -\n Shitesh Gupta is dismissed.\n\n (DINESH KUMAR PALIWAL)\n JUDGE\n Jasleen\n\nSignature Not Verified\n\nSigned by: JASLEEN SINGH\n\nSALUJA\n\nSigning time: 4/25/2024\n\n5:45:38 PM",
   "paragraphs": [
@@ -234,17 +234,14 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "accused",
-        "police station",
-        "fir",
-        "NDPS",
-        "offence",
         "bail",
+        "offence",
+        "fir",
+        "accused",
+        "NDPS",
         "Code of Criminal Procedure"
       ],
-      "civil": [
-        "possession"
-      ],
+      "civil": [],
       "service": []
     }
   },
