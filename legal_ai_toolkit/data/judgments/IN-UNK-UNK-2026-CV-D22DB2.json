@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Supreme Court Of India",
     "court_level": "SC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "20 SEPTEMBER, 2024",
     "jurisdiction": "India"
   },
@@ -4842,11 +4842,11 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "arbitration",
         "defendant",
-        "Contract Act",
         "decree",
-        "Arbitration"
+        "arbitration",
+        "Arbitration",
+        "Contract Act"
       ],
       "service": []
     }

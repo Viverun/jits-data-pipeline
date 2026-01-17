@@ -2,7 +2,7 @@
   "judgment_id": "IN-UNK-UNK-2026-CV-80C029",
   "metadata": {
     "court": "In The Court Of Sh",
-    "court_level": "DISTRICT",
+    "court_level": "TRIBUNAL/LOWER",
     "case_number": "CASE NO. 25/2010",
     "decision_date": "7 NOVEMBER, 2012",
     "jurisdiction": "India"
@@ -5600,15 +5600,15 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "fir",
         "bail",
         "offence",
         "acquittal",
-        "fir",
-        "accused",
-        "conviction",
-        "custody",
         "Indian Penal Code",
-        "IPC"
+        "conviction",
+        "accused",
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": []

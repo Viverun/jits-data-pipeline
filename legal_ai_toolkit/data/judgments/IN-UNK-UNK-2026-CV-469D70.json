@@ -957,10 +957,10 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "promotion",
         "seniority",
+        "regularization",
         "Writ Petition",
-        "regularization"
+        "promotion"
       ]
     }
   }

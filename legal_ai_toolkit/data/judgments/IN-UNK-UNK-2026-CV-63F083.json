@@ -235,8 +235,8 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "acquittal",
         "fir",
+        "acquittal",
         "accused",
         "Code of Criminal Procedure",
         "IPC"

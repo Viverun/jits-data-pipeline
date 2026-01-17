@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Supreme Court Of India",
     "court_level": "SC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "28 AUGUST, 1981",
     "jurisdiction": "India"
   },
@@ -2201,10 +2201,10 @@
         "suit"
       ],
       "service": [
-        "retiral",
-        "promotion",
         "seniority",
-        "Writ Petition"
+        "Writ Petition",
+        "retiral",
+        "promotion"
       ]
     }
   },

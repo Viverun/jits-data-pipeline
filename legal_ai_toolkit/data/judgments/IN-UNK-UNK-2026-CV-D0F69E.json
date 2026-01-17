@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Punjab And Haryana At Chandigarh   Fao",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MAND   AND STARTED LIVING AT HOUSE NO.756",
     "decision_date": "3 DECEMBER, 2014",
     "jurisdiction": "India"
   },
@@ -1962,10 +1962,10 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "fir",
         "bail",
         "offence",
         "acquittal",
-        "fir",
         "Indian Penal Code",
         "IPC"
       ],

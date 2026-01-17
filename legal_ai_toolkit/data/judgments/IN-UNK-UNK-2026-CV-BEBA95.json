@@ -1,9 +1,9 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-BEBA95",
   "metadata": {
-    "court": null,
-    "court_level": null,
-    "case_number": null,
+    "court": "Central Administrative Tribunal",
+    "court_level": "TRIBUNAL/LOWER",
+    "case_number": "O.A. NO. 050/00396/2019  050/00",
     "decision_date": "2 JULY, 2024",
     "jurisdiction": "India"
   },
@@ -1496,15 +1496,15 @@
         "Code of Civil Procedure"
       ],
       "service": [
-        "promotion",
-        "regularization",
-        "Service Rules",
-        "Writ Petition",
-        "suspension",
+        "Pension Rules",
         "retiral",
+        "regularization",
         "pension",
+        "Writ Petition",
+        "promotion",
         "seniority",
-        "Pension Rules"
+        "Service Rules",
+        "suspension"
       ]
     }
   }

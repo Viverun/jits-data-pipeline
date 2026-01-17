@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature At Bombay  Ordinary Original Civil Jurisdiction  In Its Commercial Division  Comm",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "21 MARCH, 2023",
     "jurisdiction": "India"
   },
@@ -1629,9 +1629,9 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "suit",
         "arbitration",
         "Arbitration",
+        "suit",
         "Contract Act"
       ],
       "service": []

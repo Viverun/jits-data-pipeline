@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Supreme Court Of India",
     "court_level": "SC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "24 FEBRUARY, 2004",
     "jurisdiction": "India"
   },
@@ -161,8 +161,8 @@
         "bail",
         "offence",
         "accused",
-        "conviction",
         "sentence",
+        "conviction",
         "IPC"
       ],
       "civil": [],

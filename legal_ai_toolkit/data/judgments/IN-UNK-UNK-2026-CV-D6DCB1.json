@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Delhi At New Delhi   Date Of Decision",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "21 FEBRUARY, 2025",
     "jurisdiction": "India"
   },
@@ -674,15 +674,15 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "BNSS",
+        "fir",
         "bail",
         "offence",
         "acquittal",
-        "fir",
-        "accused",
         "conviction",
-        "custody",
+        "accused",
         "IPC",
-        "BNSS"
+        "custody"
       ],
       "civil": [],
       "service": []

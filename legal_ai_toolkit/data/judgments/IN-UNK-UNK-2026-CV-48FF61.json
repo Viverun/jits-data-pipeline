@@ -2088,13 +2088,13 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "sentence",
+        "fir",
+        "CrPC",
         "offence",
         "acquittal",
-        "fir",
-        "accused",
-        "CrPC",
         "conviction",
-        "sentence",
+        "accused",
         "IPC"
       ],
       "civil": [],

@@ -1,9 +1,9 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-A6AAAF",
   "metadata": {
-    "court": null,
-    "court_level": null,
-    "case_number": null,
+    "court": "Central Administrative Tribunal",
+    "court_level": "TRIBUNAL/LOWER",
+    "case_number": "UNKNOWN",
     "decision_date": "9 JANUARY, 2024",
     "jurisdiction": "India"
   },
@@ -568,11 +568,11 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "promotion",
-        "Writ Petition",
         "pension",
+        "DPC",
+        "promotion",
         "seniority",
-        "DPC"
+        "Writ Petition"
       ]
     }
   }

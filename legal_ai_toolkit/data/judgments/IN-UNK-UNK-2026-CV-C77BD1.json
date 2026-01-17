@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Tripura  Agartala   Crl",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "1 APRIL, 2019",
     "jurisdiction": "India"
   },
@@ -2448,14 +2448,14 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "sentence",
         "bail",
-        "offence",
         "fir",
         "CrPC",
-        "accused",
-        "conviction",
-        "sentence",
+        "offence",
         "Indian Penal Code",
+        "conviction",
+        "accused",
         "IPC"
       ],
       "civil": [],

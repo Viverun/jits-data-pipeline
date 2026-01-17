@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature At Allahabad",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "17 SEPTEMBER, 2020",
     "jurisdiction": "India"
   },
@@ -176,9 +176,9 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "accused",
         "bail",
-        "IPC",
-        "accused"
+        "IPC"
       ],
       "civil": [],
       "service": []

@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Supreme Court Of India",
     "court_level": "SC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "20 FEBRUARY, 1991",
     "jurisdiction": "India"
   },
@@ -618,9 +618,9 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "promotion",
         "seniority",
-        "Service Rules"
+        "Service Rules",
+        "promotion"
       ]
     }
   }

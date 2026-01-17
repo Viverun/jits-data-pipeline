@@ -1921,9 +1921,9 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "suit",
         "arbitration",
         "Arbitration",
+        "suit",
         "Contract Act"
       ],
       "service": []

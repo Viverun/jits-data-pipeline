@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Kerala At Ernakulam   Present",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "3 JUNE, 2013",
     "jurisdiction": "India"
   },
@@ -884,8 +884,8 @@
         "bail",
         "offence",
         "accused",
-        "custody",
-        "IPC"
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": []

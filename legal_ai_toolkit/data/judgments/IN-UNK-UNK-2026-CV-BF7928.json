@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature For  Rajasthan At Jodhpur   Order   D",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "1 AUGUST, 2016",
     "jurisdiction": "India"
   },
@@ -1620,12 +1620,12 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "Arms Act",
+        "fir",
         "bail",
         "offence",
-        "fir",
-        "accused",
         "Indian Penal Code",
-        "Arms Act",
+        "accused",
         "IPC"
       ],
       "civil": [],

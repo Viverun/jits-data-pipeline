@@ -1540,10 +1540,10 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "offence",
         "fir",
-        "accused",
+        "offence",
         "Indian Penal Code",
+        "accused",
         "Code of Criminal Procedure",
         "quashing",
         "IPC"

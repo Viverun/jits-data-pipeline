@@ -916,9 +916,9 @@
       ],
       "civil": [],
       "service": [
-        "promotion",
         "seniority",
         "DPC",
+        "promotion",
         "Article 16"
       ]
     }

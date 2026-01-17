@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Supreme Court Of India",
     "court_level": "SC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "19 SEPTEMBER, 1975",
     "jurisdiction": "India"
   },
@@ -3313,17 +3313,17 @@
         "quashing"
       ],
       "civil": [
-        "defendant",
-        "injunction"
+        "injunction",
+        "defendant"
       ],
       "service": [
-        "promotion",
-        "Service Rules",
+        "pension",
         "Writ Petition",
         "Payment of Gratuity",
-        "Article 16",
-        "pension",
-        "seniority"
+        "promotion",
+        "seniority",
+        "Service Rules",
+        "Article 16"
       ]
     }
   }

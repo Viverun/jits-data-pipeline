@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Supreme Court Of India",
     "court_level": "SC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "9 MAY, 2006",
     "jurisdiction": "India"
   },
@@ -520,9 +520,9 @@
         "defendant"
       ],
       "service": [
-        "promotion",
         "seniority",
-        "Writ Petition"
+        "Writ Petition",
+        "promotion"
       ]
     }
   }

@@ -415,13 +415,13 @@
     "signals": {
       "criminal": [
         "bail",
+        "fir",
+        "CrPC",
         "offence",
         "acquittal",
-        "fir",
-        "accused",
-        "CrPC",
+        "Indian Penal Code",
         "conviction",
-        "Indian Penal Code"
+        "accused"
       ],
       "civil": [],
       "service": []

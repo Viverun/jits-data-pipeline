@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature At Allahabad",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "CRIMINAL MISC. WRIT PETITION NO. 1765/2024",
     "decision_date": "26 AUGUST, 2025",
     "jurisdiction": "India"
   },
@@ -189,11 +189,11 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "bail",
+        "BNSS",
         "fir",
+        "bail",
         "accused",
-        "IPC",
-        "BNSS"
+        "IPC"
       ],
       "civil": [],
       "service": [

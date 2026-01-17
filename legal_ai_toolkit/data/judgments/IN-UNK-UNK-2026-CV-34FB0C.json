@@ -1,8 +1,8 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-34FB0C",
   "metadata": {
-    "court": "High Court Of Judicature For Rajasthan  At Jaipur Bench",
-    "court_level": "HC",
+    "court": "Supreme Court Of India",
+    "court_level": "SC",
     "case_number": "CIVIL WRIT PETITION NO.7774/2009",
     "decision_date": "5 FEBRUARY, 2010",
     "jurisdiction": "India"
@@ -527,13 +527,13 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "promotion",
-        "Service Rules",
-        "Writ Petition",
-        "Article 16",
         "Service Law",
+        "Writ Petition",
+        "DPC",
+        "promotion",
         "seniority",
-        "DPC"
+        "Service Rules",
+        "Article 16"
       ]
     }
   }

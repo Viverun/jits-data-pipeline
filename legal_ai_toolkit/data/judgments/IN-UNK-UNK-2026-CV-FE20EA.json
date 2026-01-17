@@ -341,9 +341,9 @@
     "confidence": "medium",
     "signals": {
       "criminal": [
+        "fir",
         "bail",
         "offence",
-        "fir",
         "accused",
         "conviction"
       ],

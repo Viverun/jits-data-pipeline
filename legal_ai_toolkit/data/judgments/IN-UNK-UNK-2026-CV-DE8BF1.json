@@ -1,9 +1,9 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-DE8BF1",
   "metadata": {
-    "court": null,
-    "court_level": null,
-    "case_number": null,
+    "court": "Central Administrative Tribunal",
+    "court_level": "TRIBUNAL/LOWER",
+    "case_number": "O.A. NO. 4147/2012",
     "decision_date": "28 MAY, 2014",
     "jurisdiction": "India"
   },
@@ -564,13 +564,13 @@
         "CPC"
       ],
       "service": [
-        "regularization",
-        "Writ Petition",
-        "suspension",
+        "reinstatement",
         "retiral",
+        "regularization",
         "pension",
         "back wages",
-        "reinstatement"
+        "Writ Petition",
+        "suspension"
       ]
     }
   }

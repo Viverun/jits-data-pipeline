@@ -433,17 +433,17 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "acquittal",
         "fir",
+        "acquittal",
         "Indian Penal Code",
         "quashing",
         "IPC"
       ],
       "civil": [],
       "service": [
-        "promotion",
         "seniority",
-        "Writ Petition"
+        "Writ Petition",
+        "promotion"
       ]
     }
   },

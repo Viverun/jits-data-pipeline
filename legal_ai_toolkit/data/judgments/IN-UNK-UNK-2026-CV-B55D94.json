@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Supreme Court Of India",
     "court_level": "SC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "5 NOVEMBER, 1980",
     "jurisdiction": "India"
   },
@@ -1344,17 +1344,17 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "quashing",
-        "accused"
+        "accused",
+        "quashing"
       ],
       "civil": [
         "suit"
       ],
       "service": [
+        "Service Rules",
         "promotion",
-        "seniority",
         "Writ Petition",
-        "Service Rules"
+        "seniority"
       ]
     }
   }

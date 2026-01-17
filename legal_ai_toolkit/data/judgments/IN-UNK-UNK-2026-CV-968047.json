@@ -499,10 +499,10 @@
       "criminal": [
         "bail",
         "offence",
-        "accused",
-        "custody",
         "NDPS",
-        "Code of Criminal Procedure"
+        "accused",
+        "Code of Criminal Procedure",
+        "custody"
       ],
       "civil": [],
       "service": []

@@ -1,9 +1,9 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-9563A4",
   "metadata": {
-    "court": null,
-    "court_level": null,
-    "case_number": null,
+    "court": "Consumer Disputes Redressal Commission",
+    "court_level": "TRIBUNAL/LOWER",
+    "case_number": "UNKNOWN",
     "decision_date": "12 JANUARY, 2010",
     "jurisdiction": "India"
   },
@@ -4064,10 +4064,10 @@
         "suit"
       ],
       "service": [
+        "Pension Rules",
         "Industrial Disputes",
         "retiral",
-        "pension",
-        "Pension Rules"
+        "pension"
       ]
     }
   }

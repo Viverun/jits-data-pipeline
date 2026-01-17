@@ -6453,27 +6453,27 @@
     "signals": {
       "criminal": [
         "Indian Penal Code",
-        "offence",
-        "Code of Criminal Procedure"
+        "Code of Criminal Procedure",
+        "offence"
       ],
       "civil": [
+        "Specific Relief",
+        "Transfer of Property",
+        "Motor Vehicles Act",
+        "Limitation Act",
+        "Arbitration",
         "arbitration",
         "Negotiable Instruments",
-        "Motor Vehicles Act",
-        "Transfer of Property",
         "Contract Act",
-        "Specific Relief",
-        "Code of Civil Procedure",
-        "Limitation Act",
-        "Arbitration"
+        "Code of Civil Procedure"
       ],
       "service": [
-        "promotion",
-        "Service Rules",
-        "Writ Petition",
-        "Article 16",
         "pension",
-        "seniority"
+        "Writ Petition",
+        "promotion",
+        "seniority",
+        "Service Rules",
+        "Article 16"
       ]
     }
   }

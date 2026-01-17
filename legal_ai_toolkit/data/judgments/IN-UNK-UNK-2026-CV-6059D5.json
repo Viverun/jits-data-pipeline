@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Delhi High Court",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MATRIMONIAL HOME I.E. HOUSE NO. 2159",
     "decision_date": "31 JANUARY, 2005",
     "jurisdiction": "India"
   },
@@ -110,9 +110,9 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "accused",
         "bail",
-        "IPC",
-        "accused"
+        "IPC"
       ],
       "civil": [
         "Hindu Marriage Act",

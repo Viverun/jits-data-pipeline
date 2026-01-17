@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Supreme Court Of India",
     "court_level": "SC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "30 APRIL, 1986",
     "jurisdiction": "India"
   },
@@ -788,12 +788,12 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "promotion",
-        "Service Rules",
-        "Writ Petition",
-        "Article 16",
         "Industrial Disputes",
-        "seniority"
+        "Writ Petition",
+        "promotion",
+        "seniority",
+        "Service Rules",
+        "Article 16"
       ]
     }
   }

@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Madhya Pradesh  At Gwalior  Before  Hon",
     "court_level": "HC",
-    "case_number": "CRIMINAL CASE NO. 18155",
+    "case_number": "MAY, 2024  MISCELLANEOUS CRIMINAL CASE NO. 18155",
     "decision_date": "3 MAY, 2024",
     "jurisdiction": "India"
   },
@@ -298,13 +298,13 @@
     "signals": {
       "criminal": [
         "bail",
-        "offence",
         "fir",
-        "accused",
-        "custody",
         "POCSO",
+        "offence",
+        "accused",
         "Code of Criminal Procedure",
-        "IPC"
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": []

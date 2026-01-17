@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Supreme Court Of India",
     "court_level": "SC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "26 NOVEMBER, 2019",
     "jurisdiction": "India"
   },
@@ -2287,8 +2287,8 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "arbitration",
-        "Arbitration"
+        "Arbitration",
+        "arbitration"
       ],
       "service": [
         "DPC"

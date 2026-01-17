@@ -183,11 +183,11 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "fir",
         "bail",
         "offence",
-        "fir",
-        "custody",
-        "IPC"
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": []

@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature At Allahabad      Court No",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MAGISTRATE, COURT NO.1",
     "decision_date": "19 AUGUST, 2021",
     "jurisdiction": "India"
   },
@@ -396,11 +396,11 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "offence",
         "fir",
-        "accused",
-        "conviction",
+        "offence",
         "Indian Penal Code",
+        "conviction",
+        "accused",
         "IPC"
       ],
       "civil": [],

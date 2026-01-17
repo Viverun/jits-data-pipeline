@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature At Madras  Reserved On Delivered On",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MANIAN  BENCH:  R.SUBRAMANIAN   C.R.P.NO. 1279",
     "decision_date": "7 MARCH, 2018",
     "jurisdiction": "India"
   },
@@ -1791,12 +1791,12 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "defendant",
         "CPC",
-        "suit",
+        "defendant",
         "decree",
-        "Code of Civil Procedure",
-        "plaintiff"
+        "plaintiff",
+        "suit",
+        "Code of Civil Procedure"
       ],
       "service": []
     }

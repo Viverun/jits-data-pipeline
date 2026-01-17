@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature At Allahabad      A",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MAGISTRATE, COURT NO. 8",
     "decision_date": "23 FEBRUARY, 2021",
     "jurisdiction": "India"
   },
@@ -899,17 +899,17 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "sentence",
+        "Arms Act",
+        "CrPC",
         "bail",
+        "fir",
         "offence",
         "acquittal",
-        "fir",
-        "CrPC",
-        "accused",
-        "conviction",
-        "sentence",
         "Indian Penal Code",
+        "conviction",
+        "accused",
         "Code of Criminal Procedure",
-        "Arms Act",
         "quashing",
         "IPC"
       ],

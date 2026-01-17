@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Madras High Court",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MADE IN C.S.NO.118",
     "decision_date": "28 FEBRUARY, 2002",
     "jurisdiction": "India"
   },
@@ -368,10 +368,10 @@
       "criminal": [],
       "civil": [
         "defendant",
-        "Transfer of Property",
-        "suit",
         "decree",
-        "plaintiff"
+        "plaintiff",
+        "suit",
+        "Transfer of Property"
       ],
       "service": []
     }

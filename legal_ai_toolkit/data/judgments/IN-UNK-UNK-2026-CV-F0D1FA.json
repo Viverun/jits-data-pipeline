@@ -3295,15 +3295,15 @@
         "sentence"
       ],
       "civil": [
-        "suit",
+        "CPC",
         "Code of Civil Procedure",
-        "CPC"
+        "suit"
       ],
       "service": [
-        "pension",
-        "retiral",
         "seniority",
-        "Writ Petition"
+        "retiral",
+        "Writ Petition",
+        "pension"
       ]
     }
   }

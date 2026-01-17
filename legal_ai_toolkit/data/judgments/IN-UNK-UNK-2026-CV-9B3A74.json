@@ -317,10 +317,10 @@
       ],
       "civil": [],
       "service": [
-        "promotion",
-        "pension",
+        "Pension Rules",
         "Writ Petition",
-        "Pension Rules"
+        "pension",
+        "promotion"
       ]
     }
   }

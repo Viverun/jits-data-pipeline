@@ -8836,15 +8836,15 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "bail",
-        "offence",
-        "accused",
-        "conviction",
-        "custody",
         "sentence",
+        "bail",
         "POCSO",
+        "offence",
         "Indian Penal Code",
-        "Code of Criminal Procedure"
+        "conviction",
+        "accused",
+        "Code of Criminal Procedure",
+        "custody"
       ],
       "civil": [],
       "service": []

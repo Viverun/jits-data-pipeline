@@ -8,10 +8,10 @@ The **Legal AI Toolkit** is a high-performance orchestration layer designed to t
 
 ---
 
-## 📊 Dataset Operational Status (v1.1)
+## 📊 Dataset Operational Status (v1.2)
 
 *   **908** Finalized judgments processed into structured JSON (Gold Standard).
-*   **93.3%** Metadata Extraction Accuracy (Automated capture of Court, Date, and Case IDs).
+*   **98.9%** Metadata Extraction Accuracy (Court, Date, and Case ID capture).
 *   **39.3%** Landmark Citation Coverage (Automatic identification of cases like *Umadevi*, *Arnesh Kumar*, etc.).
 *   **54** Legally coherent similarity clusters for batch listing optimizations.
 *   **100%** Deterministic IPC → BNS statutory transition mapping.

@@ -3250,14 +3250,14 @@
         "sentence"
       ],
       "civil": [
-        "specific performance",
-        "defendant",
         "CPC",
-        "Specific Relief",
-        "suit",
+        "defendant",
         "decree",
-        "Code of Civil Procedure",
-        "plaintiff"
+        "Specific Relief",
+        "plaintiff",
+        "suit",
+        "specific performance",
+        "Code of Civil Procedure"
       ],
       "service": []
     }

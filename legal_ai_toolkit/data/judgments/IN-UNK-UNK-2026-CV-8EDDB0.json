@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Jharkhand At Ranchi   L",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "23 SEPTEMBER, 2024",
     "jurisdiction": "India"
   },
@@ -8117,13 +8117,13 @@
       ],
       "civil": [],
       "service": [
-        "promotion",
-        "Service Rules",
         "Fundamental Rules",
         "Writ Petition",
+        "DPC",
         "back wages",
+        "promotion",
         "seniority",
-        "DPC"
+        "Service Rules"
       ]
     }
   }

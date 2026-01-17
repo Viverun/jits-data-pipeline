@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Madhya Pradesh",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MADHYA PRADESH, JABALPUR  M.CR.C. NO.1787/18",
     "decision_date": "27 APRIL, 2018",
     "jurisdiction": "India"
   },
@@ -103,10 +103,10 @@
     "confidence": "medium",
     "signals": {
       "criminal": [
-        "bail",
-        "custody",
+        "accused",
         "fir",
-        "accused"
+        "bail",
+        "custody"
       ],
       "civil": [],
       "service": []

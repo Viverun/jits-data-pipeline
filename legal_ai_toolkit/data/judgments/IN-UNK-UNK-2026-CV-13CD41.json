@@ -1019,10 +1019,10 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "suit",
         "Limitation Act",
+        "arbitration",
         "Arbitration",
-        "arbitration"
+        "suit"
       ],
       "service": [
         "Writ Petition"

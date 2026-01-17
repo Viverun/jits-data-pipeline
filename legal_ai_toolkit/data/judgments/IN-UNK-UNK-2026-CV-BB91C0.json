@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature At Allahabad",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "3 NOVEMBER, 2023",
     "jurisdiction": "India"
   },
@@ -8955,28 +8955,28 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "sentence",
         "bail",
+        "CrPC",
+        "fir",
         "offence",
         "acquittal",
-        "fir",
-        "CrPC",
-        "accused",
         "conviction",
-        "custody",
-        "sentence",
+        "accused",
         "Code of Criminal Procedure",
         "quashing",
-        "IPC"
+        "IPC",
+        "custody"
       ],
       "civil": [
-        "arbitration",
         "defendant",
-        "injunction",
-        "suit",
-        "Code of Civil Procedure",
         "decree",
         "Limitation Act",
-        "Arbitration"
+        "Arbitration",
+        "arbitration",
+        "suit",
+        "injunction",
+        "Code of Civil Procedure"
       ],
       "service": [
         "promotion",

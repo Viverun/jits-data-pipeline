@@ -1,7 +1,7 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-C41C06",
   "metadata": {
-    "court": "Calcutta High Court",
+    "court": "High Court Of Calcutta",
     "court_level": "HC",
     "case_number": "CASE NO. 119",
     "decision_date": "17 DECEMBER, 2024",
@@ -225,8 +225,8 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "bail",
         "Indian Penal Code",
+        "bail",
         "custody"
       ],
       "civil": [],

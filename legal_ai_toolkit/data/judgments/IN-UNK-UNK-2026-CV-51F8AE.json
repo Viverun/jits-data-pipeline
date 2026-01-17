@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Delhi At New Delhi",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "4 OCTOBER, 2024",
     "jurisdiction": "India"
   },
@@ -1331,8 +1331,8 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "arbitration",
-        "Arbitration"
+        "Arbitration",
+        "arbitration"
       ],
       "service": [
         "DPC"

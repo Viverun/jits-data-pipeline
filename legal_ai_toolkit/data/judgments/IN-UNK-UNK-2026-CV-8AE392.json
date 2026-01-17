@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Kerala At Ernakulam   Present",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "15 OCTOBER, 2015",
     "jurisdiction": "India"
   },
@@ -7483,19 +7483,19 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "custody",
-        "sentence"
+        "sentence",
+        "custody"
       ],
       "civil": [
         "decree"
       ],
       "service": [
-        "promotion",
         "regularization",
-        "Writ Petition",
-        "Article 16",
         "Umadevi",
-        "seniority"
+        "promotion",
+        "seniority",
+        "Writ Petition",
+        "Article 16"
       ]
     }
   }

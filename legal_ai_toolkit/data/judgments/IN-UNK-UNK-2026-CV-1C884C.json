@@ -3443,18 +3443,18 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "sentence",
         "bail",
+        "CrPC",
+        "fir",
         "offence",
         "acquittal",
-        "fir",
-        "CrPC",
-        "accused",
-        "conviction",
-        "custody",
-        "sentence",
         "Indian Penal Code",
+        "conviction",
+        "accused",
         "Code of Criminal Procedure",
-        "IPC"
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": []

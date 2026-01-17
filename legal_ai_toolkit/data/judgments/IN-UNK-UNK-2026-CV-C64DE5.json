@@ -8733,9 +8733,9 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "pension",
-        "promotion",
         "seniority",
+        "promotion",
+        "pension",
         "Article 16"
       ]
     }

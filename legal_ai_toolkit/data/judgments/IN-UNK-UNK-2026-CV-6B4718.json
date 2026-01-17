@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature At Bombay I",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "9 MARCH, 2021",
     "jurisdiction": "India"
   },
@@ -3188,15 +3188,15 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "arbitration",
-        "defendant",
         "CPC",
-        "injunction",
-        "suit",
+        "defendant",
         "decree",
-        "Code of Civil Procedure",
         "plaintiff",
-        "Arbitration"
+        "Arbitration",
+        "arbitration",
+        "suit",
+        "injunction",
+        "Code of Civil Procedure"
       ],
       "service": []
     }

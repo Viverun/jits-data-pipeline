@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Supreme Court Of India",
     "court_level": "SC",
-    "case_number": null,
+    "case_number": "WRIT PETITIONS AND SET  ASIDE THE CIRCULAR NO. 17",
     "decision_date": "9 APRIL, 2013",
     "jurisdiction": "India"
   },
@@ -670,11 +670,11 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "promotion",
-        "Service Rules",
         "Writ Petition",
+        "DPC",
+        "promotion",
         "seniority",
-        "DPC"
+        "Service Rules"
       ]
     }
   }

@@ -1413,13 +1413,13 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "sentence",
+        "fir",
         "bail",
         "offence",
-        "fir",
-        "accused",
-        "conviction",
-        "sentence",
         "Indian Penal Code",
+        "conviction",
+        "accused",
         "IPC"
       ],
       "civil": [],

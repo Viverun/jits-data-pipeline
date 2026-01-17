@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Orissa At Cuttack   W",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "21 NOVEMBER, 2025",
     "jurisdiction": "India"
   },
@@ -575,13 +575,13 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "suit",
-        "plaintiff"
+        "plaintiff",
+        "suit"
       ],
       "service": [
-        "promotion",
         "seniority",
-        "Writ Petition"
+        "Writ Petition",
+        "promotion"
       ]
     }
   }

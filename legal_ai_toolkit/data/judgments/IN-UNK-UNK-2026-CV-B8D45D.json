@@ -3515,14 +3515,14 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "specific performance",
-        "defendant",
         "CPC",
-        "Specific Relief",
-        "suit",
+        "defendant",
         "decree",
+        "Specific Relief",
         "plaintiff",
-        "Limitation Act"
+        "Limitation Act",
+        "suit",
+        "specific performance"
       ],
       "service": []
     }

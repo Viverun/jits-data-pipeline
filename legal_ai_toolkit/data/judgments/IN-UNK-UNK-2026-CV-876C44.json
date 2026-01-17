@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Delhi At New Delhi",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "4 DECEMBER, 2025",
     "jurisdiction": "India"
   },
@@ -3124,14 +3124,14 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "arbitration",
-        "defendant",
         "CPC",
-        "Contract Act",
-        "suit",
+        "defendant",
         "decree",
         "Limitation Act",
-        "Arbitration"
+        "Arbitration",
+        "arbitration",
+        "suit",
+        "Contract Act"
       ],
       "service": []
     }

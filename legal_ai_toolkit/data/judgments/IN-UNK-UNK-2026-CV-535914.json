@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature At Allahabad",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "16 DECEMBER, 2010",
     "jurisdiction": "India"
   },
@@ -2758,20 +2758,20 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "sentence",
         "quashing",
-        "offence",
-        "sentence"
+        "offence"
       ],
       "civil": [
         "CPC"
       ],
       "service": [
-        "promotion",
-        "Service Rules",
-        "Writ Petition",
-        "Article 16",
         "Industrial Disputes",
-        "seniority"
+        "Writ Petition",
+        "promotion",
+        "seniority",
+        "Service Rules",
+        "Article 16"
       ]
     }
   }

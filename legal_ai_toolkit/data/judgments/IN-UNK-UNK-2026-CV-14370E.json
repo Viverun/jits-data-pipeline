@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Supreme Court Of India",
     "court_level": "SC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "10 FEBRUARY, 1961",
     "jurisdiction": "India"
   },
@@ -511,12 +511,12 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "arbitration",
         "defendant",
-        "suit",
         "decree",
         "plaintiff",
-        "Arbitration"
+        "arbitration",
+        "Arbitration",
+        "suit"
       ],
       "service": []
     }

@@ -8958,23 +8958,23 @@
     "signals": {
       "criminal": [
         "sentence",
+        "accused",
         "bail",
-        "quashing",
-        "accused"
+        "quashing"
       ],
       "civil": [
-        "suit",
         "decree",
-        "Code of Civil Procedure"
+        "Code of Civil Procedure",
+        "suit"
       ],
       "service": [
-        "promotion",
         "regularization",
-        "Service Rules",
         "Writ Petition",
-        "Article 16",
+        "DPC",
+        "promotion",
         "seniority",
-        "DPC"
+        "Service Rules",
+        "Article 16"
       ]
     }
   }

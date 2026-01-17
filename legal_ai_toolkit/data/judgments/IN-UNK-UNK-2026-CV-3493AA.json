@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Madhya Pradesh  M",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MADHYA PRADESH  M.CR.C. NO.35868/2019",
     "decision_date": "30 AUGUST, 2019",
     "jurisdiction": "India"
   },
@@ -415,10 +415,10 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "accused",
         "bail",
-        "offence",
         "IPC",
-        "accused"
+        "offence"
       ],
       "civil": [],
       "service": []

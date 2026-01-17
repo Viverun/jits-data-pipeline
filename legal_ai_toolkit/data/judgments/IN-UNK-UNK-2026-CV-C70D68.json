@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Madhya Pradesh High Court",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "11 MAY, 2016",
     "jurisdiction": "India"
   },
@@ -129,9 +129,9 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "accused",
         "bail",
-        "IPC",
-        "accused"
+        "IPC"
       ],
       "civil": [],
       "service": []

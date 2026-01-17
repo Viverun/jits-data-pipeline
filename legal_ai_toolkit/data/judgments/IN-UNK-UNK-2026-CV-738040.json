@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Delhi At New Delhi",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "14 MAY, 2025",
     "jurisdiction": "India"
   },
@@ -361,11 +361,11 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "fir",
         "bail",
         "offence",
-        "fir",
-        "accused",
         "Indian Penal Code",
+        "accused",
         "IPC"
       ],
       "civil": [],

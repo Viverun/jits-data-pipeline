@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Himachal Pradesh  Shimla   Cwp No",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MACHAL PRADESH  SHIMLA   CWP NO.575",
     "decision_date": "23 DECEMBER, 2015",
     "jurisdiction": "India"
   },
@@ -2292,10 +2292,10 @@
       "service": [
         "daily wage",
         "regularization",
-        "Writ Petition",
-        "Article 16",
         "Umadevi",
-        "seniority"
+        "seniority",
+        "Writ Petition",
+        "Article 16"
       ]
     }
   }

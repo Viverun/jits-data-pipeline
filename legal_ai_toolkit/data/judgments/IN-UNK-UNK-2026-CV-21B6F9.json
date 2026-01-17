@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Supreme Court Of India",
     "court_level": "SC",
-    "case_number": "WRIT PETITION NO.12381",
+    "case_number": "MADRAS HIGH COURT IN WRIT PETITION NO.12381",
     "decision_date": "23 AUGUST, 1999",
     "jurisdiction": "India"
   },
@@ -155,9 +155,9 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "pension",
+        "Pension Rules",
         "Writ Petition",
-        "Pension Rules"
+        "pension"
       ]
     }
   }

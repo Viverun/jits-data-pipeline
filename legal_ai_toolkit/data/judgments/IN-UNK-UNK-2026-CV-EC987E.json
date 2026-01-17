@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Manipur  At Imphal",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MANIPUR  AT IMPHAL  1. WP(C) NO. 634",
     "decision_date": "15 DECEMBER, 2023",
     "jurisdiction": "India"
   },
@@ -2202,16 +2202,16 @@
     "confidence": "medium",
     "signals": {
       "criminal": [
-        "quashing",
-        "fir"
+        "fir",
+        "quashing"
       ],
       "civil": [],
       "service": [
-        "promotion",
         "regularization",
-        "Writ Petition",
+        "DPC",
+        "promotion",
         "seniority",
-        "DPC"
+        "Writ Petition"
       ]
     }
   }

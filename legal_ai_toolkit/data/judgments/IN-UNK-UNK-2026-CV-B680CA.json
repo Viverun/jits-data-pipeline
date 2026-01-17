@@ -1613,17 +1613,17 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "fir",
         "bail",
         "offence",
         "acquittal",
-        "fir",
         "accused",
         "quashing",
         "IPC"
       ],
       "civil": [
-        "suit",
-        "decree"
+        "decree",
+        "suit"
       ],
       "service": []
     }

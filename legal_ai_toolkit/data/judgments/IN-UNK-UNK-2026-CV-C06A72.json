@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Madhya Pradesh High Court",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MATERIAL AVAILABLE ON RECORD, NO",
     "decision_date": "21 AUGUST, 2014",
     "jurisdiction": "India"
   },
@@ -176,10 +176,10 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "accused",
         "bail",
-        "offence",
         "IPC",
-        "accused"
+        "offence"
       ],
       "civil": [],
       "service": []

@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Chhattisgarh",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MANOJ PARANJPE, ADVOCATE   IN WPS NO. 885/2015",
     "decision_date": "29 FEBRUARY, 2024",
     "jurisdiction": "India"
   },
@@ -625,12 +625,12 @@
       ],
       "civil": [],
       "service": [
-        "promotion",
-        "Service Rules",
-        "Writ Petition",
         "Service Law",
+        "Writ Petition",
+        "DPC",
+        "promotion",
         "seniority",
-        "DPC"
+        "Service Rules"
       ]
     }
   }

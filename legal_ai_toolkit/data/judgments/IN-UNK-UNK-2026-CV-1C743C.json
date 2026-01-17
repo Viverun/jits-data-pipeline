@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Calcutta High Court",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MATRIMONIAL SUIT NO. 27 OF 2010 ( R. NO. 1614",
     "decision_date": "6 SEPTEMBER, 2023",
     "jurisdiction": "India"
   },
@@ -1154,17 +1154,17 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "bail",
         "Indian Penal Code",
-        "acquittal",
-        "fir"
+        "fir",
+        "bail",
+        "acquittal"
       ],
       "civil": [
         "defendant",
-        "suit",
-        "Hindu Marriage Act",
         "decree",
-        "plaintiff"
+        "plaintiff",
+        "Hindu Marriage Act",
+        "suit"
       ],
       "service": []
     }

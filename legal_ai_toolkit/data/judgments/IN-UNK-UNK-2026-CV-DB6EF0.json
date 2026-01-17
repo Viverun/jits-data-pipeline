@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Supreme Court Of India",
     "court_level": "SC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "1 MARCH, 1977",
     "jurisdiction": "India"
   },
@@ -384,13 +384,13 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "arbitration",
-        "Arbitration"
+        "Arbitration",
+        "arbitration"
       ],
       "service": [
+        "Payment of Gratuity",
         "Industrial Disputes",
-        "promotion",
-        "Payment of Gratuity"
+        "promotion"
       ]
     }
   }

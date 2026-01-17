@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature At Bombay  Ordinary Original Civil Jurisdiction  In Its Commercial Division   Commercial Arbitration Petition",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "11 APRIL, 2022",
     "jurisdiction": "India"
   },
@@ -12229,16 +12229,16 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "arbitration",
-        "specific performance",
         "defendant",
-        "Transfer of Property",
         "Specific Relief",
-        "injunction",
-        "suit",
-        "Code of Civil Procedure",
+        "Transfer of Property",
         "plaintiff",
-        "Arbitration"
+        "Arbitration",
+        "arbitration",
+        "suit",
+        "specific performance",
+        "injunction",
+        "Code of Civil Procedure"
       ],
       "service": [
         "Article 16"

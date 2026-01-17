@@ -1,8 +1,8 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-AC6A1F",
   "metadata": {
-    "court": null,
-    "court_level": null,
+    "court": "UNKNOWN",
+    "court_level": "UNKNOWN",
     "case_number": "APPEAL NO.979",
     "decision_date": "29 JANUARY, 2024",
     "jurisdiction": "India"
@@ -3666,21 +3666,21 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "Excise Act",
-        "offence",
+        "sentence",
         "quashing",
-        "sentence"
+        "Excise Act",
+        "offence"
       ],
       "civil": [
-        "plaintiff",
         "defendant",
+        "plaintiff",
         "Transfer of Property",
         "Contract Act"
       ],
       "service": [
-        "promotion",
+        "Writ Petition",
         "pension",
-        "Writ Petition"
+        "promotion"
       ]
     }
   },

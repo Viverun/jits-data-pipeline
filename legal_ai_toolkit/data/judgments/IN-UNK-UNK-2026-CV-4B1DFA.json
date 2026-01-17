@@ -1,9 +1,9 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-4B1DFA",
   "metadata": {
-    "court": null,
-    "court_level": null,
-    "case_number": null,
+    "court": "Central Administrative Tribunal",
+    "court_level": "TRIBUNAL/LOWER",
+    "case_number": "OA NO.1035/2022",
     "decision_date": "15 JULY, 2025",
     "jurisdiction": "India"
   },
@@ -7496,9 +7496,9 @@
         "CPC"
       ],
       "service": [
-        "promotion",
         "seniority",
-        "Writ Petition"
+        "Writ Petition",
+        "promotion"
       ]
     }
   }

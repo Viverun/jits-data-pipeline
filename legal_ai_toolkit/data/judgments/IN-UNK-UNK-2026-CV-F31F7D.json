@@ -16739,23 +16739,23 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "quashing",
+        "accused",
         "bail",
-        "custody",
-        "accused"
+        "quashing",
+        "custody"
       ],
       "civil": [],
       "service": [
-        "promotion",
-        "Article 311",
-        "Service Rules",
-        "Fundamental Rules",
-        "Writ Petition",
-        "suspension",
-        "retiral",
-        "pension",
         "reinstatement",
-        "seniority"
+        "retiral",
+        "Fundamental Rules",
+        "pension",
+        "Writ Petition",
+        "Article 311",
+        "promotion",
+        "seniority",
+        "Service Rules",
+        "suspension"
       ]
     }
   }

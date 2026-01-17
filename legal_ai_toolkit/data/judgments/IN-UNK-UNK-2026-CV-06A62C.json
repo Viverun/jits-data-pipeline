@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Madras High Court",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MAR  W.P(MD)NO.9408",
     "decision_date": "19 DECEMBER, 2007",
     "jurisdiction": "India"
   },
@@ -411,11 +411,11 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "Fundamental Rules",
-        "Writ Petition",
+        "Pension Rules",
         "retiral",
+        "Fundamental Rules",
         "pension",
-        "Pension Rules"
+        "Writ Petition"
       ]
     }
   }

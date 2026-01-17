@@ -221,11 +221,11 @@
       ],
       "civil": [],
       "service": [
-        "regularization",
         "Fundamental Rules",
-        "Writ Petition",
+        "regularization",
         "pension",
-        "seniority"
+        "seniority",
+        "Writ Petition"
       ]
     }
   }

@@ -3463,16 +3463,16 @@
         "sentence"
       ],
       "civil": [
-        "suit",
-        "plaintiff"
+        "plaintiff",
+        "suit"
       ],
       "service": [
-        "promotion",
-        "suspension",
+        "reinstatement",
         "retiral",
         "pension",
-        "reinstatement",
-        "seniority"
+        "promotion",
+        "seniority",
+        "suspension"
       ]
     }
   }

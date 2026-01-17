@@ -3798,15 +3798,15 @@
       ],
       "civil": [],
       "service": [
-        "promotion",
         "daily wage",
-        "regularization",
-        "Article 16",
-        "Industrial Disputes",
         "retiral",
+        "regularization",
+        "Industrial Disputes",
         "pension",
         "Umadevi",
-        "seniority"
+        "promotion",
+        "seniority",
+        "Article 16"
       ]
     }
   }

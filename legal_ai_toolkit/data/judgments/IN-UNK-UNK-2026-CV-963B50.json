@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Haryana High Court",
     "court_level": "HC",
-    "case_number": "CASE NO. 67",
+    "case_number": "MAN. THE RESPONDENT HAD NO",
     "decision_date": "7 FEBRUARY, 1995",
     "jurisdiction": "India"
   },
@@ -199,10 +199,10 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "bail",
-        "offence",
         "acquittal",
-        "IPC"
+        "bail",
+        "IPC",
+        "offence"
       ],
       "civil": [
         "Hindu Marriage Act",

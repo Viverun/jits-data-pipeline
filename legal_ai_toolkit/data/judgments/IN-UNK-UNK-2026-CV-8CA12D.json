@@ -6542,17 +6542,17 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "quashing",
-        "sentence"
+        "sentence",
+        "quashing"
       ],
       "civil": [],
       "service": [
-        "promotion",
         "regularization",
-        "Service Rules",
         "Writ Petition",
+        "DPC",
+        "promotion",
         "seniority",
-        "DPC"
+        "Service Rules"
       ]
     }
   }

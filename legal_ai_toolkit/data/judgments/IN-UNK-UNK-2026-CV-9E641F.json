@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Madhya Pradesh  Mcrc",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "4 SEPTEMBER, 2019",
     "jurisdiction": "India"
   },
@@ -196,8 +196,8 @@
         "bail",
         "offence",
         "accused",
-        "custody",
-        "IPC"
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": []

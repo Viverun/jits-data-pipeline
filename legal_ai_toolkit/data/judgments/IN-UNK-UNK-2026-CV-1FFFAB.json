@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature At Allahabad",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "CRIMINAL MISC. BAIL APPLICATION NO. 1860",
     "decision_date": "11 SEPTEMBER, 2025",
     "jurisdiction": "India"
   },
@@ -185,10 +185,10 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "bail",
-        "Indian Penal Code",
         "BNSS",
-        "accused"
+        "Indian Penal Code",
+        "accused",
+        "bail"
       ],
       "civil": [],
       "service": []

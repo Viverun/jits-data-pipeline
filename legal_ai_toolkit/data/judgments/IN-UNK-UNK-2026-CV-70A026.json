@@ -752,14 +752,14 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "offence",
-        "accused",
-        "conviction",
-        "custody",
         "sentence",
+        "offence",
         "Indian Penal Code",
+        "conviction",
+        "accused",
         "Code of Criminal Procedure",
-        "IPC"
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": []

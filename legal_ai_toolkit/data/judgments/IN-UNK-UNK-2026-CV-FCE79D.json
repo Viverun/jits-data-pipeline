@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature At Madras   Dated",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MAR  BENCH:  N. SATHISH KUMAR   C.R.P.NO.1602",
     "decision_date": "24 JUNE, 2025",
     "jurisdiction": "India"
   },
@@ -3465,15 +3465,15 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "specific performance",
         "defendant",
-        "Specific Relief",
-        "injunction",
-        "suit",
         "decree",
-        "Code of Civil Procedure",
+        "Specific Relief",
         "plaintiff",
-        "Limitation Act"
+        "Limitation Act",
+        "suit",
+        "specific performance",
+        "injunction",
+        "Code of Civil Procedure"
       ],
       "service": []
     }

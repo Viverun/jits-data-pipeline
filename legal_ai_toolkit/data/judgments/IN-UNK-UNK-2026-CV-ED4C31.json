@@ -1,9 +1,9 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-ED4C31",
   "metadata": {
-    "court": null,
-    "court_level": null,
-    "case_number": null,
+    "court": "Central Administrative Tribunal",
+    "court_level": "TRIBUNAL/LOWER",
+    "case_number": "O.A.NO.1507",
     "decision_date": "27 FEBRUARY, 2015",
     "jurisdiction": "India"
   },
@@ -482,19 +482,19 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "offence",
         "fir",
-        "accused",
+        "offence",
         "Indian Penal Code",
+        "accused",
         "Code of Criminal Procedure",
         "IPC"
       ],
       "civil": [],
       "service": [
-        "suspension",
-        "pension",
+        "Pension Rules",
         "Payment of Gratuity",
-        "Pension Rules"
+        "pension",
+        "suspension"
       ]
     }
   }

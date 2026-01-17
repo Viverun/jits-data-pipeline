@@ -1248,10 +1248,10 @@
     "signals": {
       "criminal": [
         "bail",
-        "offence",
         "fir",
-        "accused",
-        "CrPC"
+        "CrPC",
+        "offence",
+        "accused"
       ],
       "civil": [],
       "service": []

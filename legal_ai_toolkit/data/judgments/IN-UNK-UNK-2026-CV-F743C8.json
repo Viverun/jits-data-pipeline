@@ -347,8 +347,8 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "bail",
         "NDPS",
+        "bail",
         "offence",
         "custody"
       ],

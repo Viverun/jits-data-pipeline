@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature At Madras  Dated",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MADE IN W.P.NO.28633 OF 2014 TO W.P.NO.28646",
     "decision_date": "12 DECEMBER, 2017",
     "jurisdiction": "India"
   },
@@ -3705,18 +3705,18 @@
         "quashing"
       ],
       "civil": [
-        "suit",
-        "injunction"
+        "injunction",
+        "suit"
       ],
       "service": [
         "daily wage",
         "regularization",
-        "Service Rules",
-        "Writ Petition",
-        "Article 16",
         "Industrial Disputes",
+        "Writ Petition",
         "Umadevi",
-        "seniority"
+        "seniority",
+        "Service Rules",
+        "Article 16"
       ]
     }
   }

@@ -5159,14 +5159,14 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "promotion",
         "daily wage",
         "regularization",
-        "Service Rules",
-        "Writ Petition",
         "pension",
+        "Writ Petition",
+        "DPC",
+        "promotion",
         "seniority",
-        "DPC"
+        "Service Rules"
       ]
     }
   }

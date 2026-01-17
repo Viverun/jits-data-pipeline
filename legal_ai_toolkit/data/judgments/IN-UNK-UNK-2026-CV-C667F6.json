@@ -2,7 +2,7 @@
   "judgment_id": "IN-UNK-UNK-2026-CV-C667F6",
   "metadata": {
     "court": "In The Court Of The Xli Addl",
-    "court_level": "DISTRICT",
+    "court_level": "TRIBUNAL/LOWER",
     "case_number": "CIVIL JUDGE  AT BANGALORE [CCH.NO.42",
     "decision_date": "16 DECEMBER, 2017",
     "jurisdiction": "India"
@@ -3765,14 +3765,14 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "specific performance",
-        "defendant",
         "CPC",
-        "Succession Act",
-        "injunction",
-        "suit",
+        "defendant",
         "decree",
-        "plaintiff"
+        "plaintiff",
+        "Succession Act",
+        "suit",
+        "specific performance",
+        "injunction"
       ],
       "service": [
         "pension"

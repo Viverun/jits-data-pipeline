@@ -311,9 +311,9 @@
       "criminal": [
         "bail",
         "fir",
-        "custody",
         "Indian Penal Code",
-        "Code of Criminal Procedure"
+        "Code of Criminal Procedure",
+        "custody"
       ],
       "civil": [],
       "service": []

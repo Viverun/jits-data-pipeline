@@ -978,9 +978,9 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "bail",
         "Indian Penal Code",
-        "accused"
+        "accused",
+        "bail"
       ],
       "civil": [],
       "service": []

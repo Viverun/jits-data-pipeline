@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Karnataka At Bengaluru   Dated This The",
     "court_level": "HC",
-    "case_number": "CRIMINAL APPEAL NO.835",
+    "case_number": "MARASWAMY   CRIMINAL APPEAL NO.835",
     "decision_date": "11 MAY, 2015",
     "jurisdiction": "India"
   },
@@ -28770,32 +28770,32 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "sentence",
         "bail",
+        "fir",
         "offence",
         "acquittal",
-        "fir",
-        "accused",
-        "conviction",
-        "custody",
-        "sentence",
         "Indian Penal Code",
+        "conviction",
+        "accused",
         "Code of Criminal Procedure",
-        "IPC"
+        "IPC",
+        "custody"
       ],
       "civil": [
-        "suit",
+        "specific performance",
         "plaintiff",
-        "specific performance"
+        "suit"
       ],
       "service": [
-        "promotion",
         "regularization",
-        "Service Rules",
-        "Writ Petition",
-        "suspension",
         "Service Law",
+        "pension",
+        "Writ Petition",
         "back wages",
-        "pension"
+        "promotion",
+        "Service Rules",
+        "suspension"
       ]
     }
   }

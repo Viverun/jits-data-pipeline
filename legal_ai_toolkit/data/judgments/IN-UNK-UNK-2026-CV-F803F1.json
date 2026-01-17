@@ -1,9 +1,9 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-F803F1",
   "metadata": {
-    "court": null,
-    "court_level": null,
-    "case_number": null,
+    "court": "Central Administrative Tribunal",
+    "court_level": "TRIBUNAL/LOWER",
+    "case_number": "OA NO.768/2016",
     "decision_date": "29 OCTOBER, 2021",
     "jurisdiction": "India"
   },
@@ -3129,10 +3129,10 @@
       ],
       "civil": [],
       "service": [
-        "promotion",
         "seniority",
         "Writ Petition",
-        "departmental inquiry"
+        "departmental inquiry",
+        "promotion"
       ]
     }
   }

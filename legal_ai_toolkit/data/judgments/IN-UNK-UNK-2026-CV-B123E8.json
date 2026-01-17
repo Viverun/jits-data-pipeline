@@ -1,8 +1,8 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-B123E8",
   "metadata": {
-    "court": "High Court Of Madhya Pradesh  At J A B A L P U R  Before  Hon",
-    "court_level": "HC",
+    "court": "Supreme Court Of India",
+    "court_level": "SC",
     "case_number": "WRIT PETITION NO. 7248",
     "decision_date": "6 MAY, 2025",
     "jurisdiction": "India"
@@ -997,8 +997,8 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "reinstatement",
         "pension",
+        "reinstatement",
         "Writ Petition",
         "suspension"
       ]

@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Himachal Pradesh",
     "court_level": "HC",
-    "case_number": "APPEAL NO. 121",
+    "case_number": "MACHAL PRADESH, SHIMLA   CR. APPEAL NO. 121",
     "decision_date": "30 MAY, 2025",
     "jurisdiction": "India"
   },
@@ -2827,13 +2827,13 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "sentence",
+        "fir",
         "offence",
         "acquittal",
-        "fir",
-        "accused",
-        "conviction",
-        "sentence",
         "Indian Penal Code",
+        "conviction",
+        "accused",
         "IPC"
       ],
       "civil": [],

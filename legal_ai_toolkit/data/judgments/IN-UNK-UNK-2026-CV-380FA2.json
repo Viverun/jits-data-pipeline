@@ -3673,12 +3673,12 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "arbitration",
         "CPC",
         "decree",
-        "Code of Civil Procedure",
         "Limitation Act",
-        "Arbitration"
+        "Arbitration",
+        "arbitration",
+        "Code of Civil Procedure"
       ],
       "service": []
     }

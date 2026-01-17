@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Kerala At Ernakulam   Present   The Honourable Smt",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "26 SEPTEMBER, 2018",
     "jurisdiction": "India"
   },
@@ -2534,9 +2534,9 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "pension",
+        "Service Rules",
         "Writ Petition",
-        "Service Rules"
+        "pension"
       ]
     }
   }

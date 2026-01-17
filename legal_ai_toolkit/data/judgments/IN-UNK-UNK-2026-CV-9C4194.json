@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Madhya Pradesh  At Indore  Before  Hon",
     "court_level": "HC",
-    "case_number": "WRIT PETITION NO. 11538",
+    "case_number": "MAR NATH (KESHARWANI)   WRIT PETITION NO. 11538",
     "decision_date": "30 JUNE, 2022",
     "jurisdiction": "India"
   },
@@ -404,14 +404,14 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "Arms Act",
+        "fir",
         "bail",
         "offence",
-        "fir",
-        "accused",
-        "custody",
         "Indian Penal Code",
-        "Arms Act",
-        "IPC"
+        "accused",
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": [

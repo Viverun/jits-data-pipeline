@@ -7195,17 +7195,17 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "offence",
-        "fir",
-        "CrPC",
-        "accused",
-        "conviction",
-        "custody",
         "sentence",
+        "CrPC",
+        "fir",
         "POCSO",
+        "offence",
         "Indian Penal Code",
+        "conviction",
+        "accused",
         "Code of Criminal Procedure",
-        "IPC"
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": [

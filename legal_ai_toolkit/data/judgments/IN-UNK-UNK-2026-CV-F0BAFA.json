@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Delhi At New Delhi   Judgment Delivered On",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "9 FEBRUARY, 2021",
     "jurisdiction": "India"
   },
@@ -645,8 +645,8 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "arbitration",
-        "Arbitration"
+        "Arbitration",
+        "arbitration"
       ],
       "service": []
     }

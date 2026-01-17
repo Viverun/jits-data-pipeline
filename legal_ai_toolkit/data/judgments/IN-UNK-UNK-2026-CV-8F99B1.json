@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Supreme Court Of India",
     "court_level": "SC",
-    "case_number": null,
+    "case_number": "CIVIL  APPEAL NOS. 12501-12503/1996, SLP (C) NO.754/1997",
     "decision_date": "19 OCTOBER, 2006",
     "jurisdiction": "India"
   },
@@ -1432,11 +1432,11 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "promotion",
-        "Service Rules",
         "Writ Petition",
-        "Article 16",
-        "seniority"
+        "promotion",
+        "seniority",
+        "Service Rules",
+        "Article 16"
       ]
     }
   }

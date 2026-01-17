@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature At Allahabad",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "CRIMINAL MISC. ANTICIPATORY BAIL APPLICATION NO. 554/2022",
     "decision_date": "22 AUGUST, 2022",
     "jurisdiction": "India"
   },
@@ -178,9 +178,9 @@
     "confidence": "medium",
     "signals": {
       "criminal": [
-        "bail",
+        "accused",
         "fir",
-        "accused"
+        "bail"
       ],
       "civil": [],
       "service": []

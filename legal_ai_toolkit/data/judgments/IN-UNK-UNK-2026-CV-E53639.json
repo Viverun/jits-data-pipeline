@@ -2281,18 +2281,18 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "fir",
-        "accused"
+        "accused",
+        "fir"
       ],
       "civil": [
-        "defendant",
         "CPC",
-        "Contract Act",
+        "defendant",
+        "decree",
+        "plaintiff",
         "Succession Act",
         "suit",
-        "Code of Civil Procedure",
-        "decree",
-        "plaintiff"
+        "Contract Act",
+        "Code of Civil Procedure"
       ],
       "service": [
         "seniority"

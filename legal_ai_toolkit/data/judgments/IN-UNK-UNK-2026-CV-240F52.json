@@ -4327,15 +4327,15 @@
         "custody"
       ],
       "civil": [
-        "defendant",
         "CPC",
-        "Transfer of Property",
-        "injunction",
-        "suit",
-        "Code of Civil Procedure",
+        "defendant",
         "decree",
         "plaintiff",
-        "Limitation Act"
+        "Transfer of Property",
+        "Limitation Act",
+        "suit",
+        "injunction",
+        "Code of Civil Procedure"
       ],
       "service": []
     }

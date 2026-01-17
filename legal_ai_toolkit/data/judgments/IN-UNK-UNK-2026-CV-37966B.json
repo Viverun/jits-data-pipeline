@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Punjab And Haryana  At Chandigarh   Crm",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "CRIMINAL ANTECEDENTS:   SR. NO. FIR NO.",
     "decision_date": "19 FEBRUARY, 2025",
     "jurisdiction": "India"
   },
@@ -366,16 +366,16 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "bail",
-        "acquittal",
-        "fir",
-        "accused",
-        "conviction",
-        "custody",
-        "NDPS",
+        "BNSS",
         "Arms Act",
+        "bail",
+        "fir",
+        "acquittal",
+        "NDPS",
+        "conviction",
+        "accused",
         "IPC",
-        "BNSS"
+        "custody"
       ],
       "civil": [],
       "service": [

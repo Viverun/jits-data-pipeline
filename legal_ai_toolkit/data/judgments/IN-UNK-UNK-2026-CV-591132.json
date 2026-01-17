@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Delhi At New Delhi   Judgment Reserved On",
     "court_level": "HC",
-    "case_number": "CRIMINAL APPEAL NO.242/1995",
+    "case_number": "MARCH 26, 2010  + CRIMINAL APPEAL NO.242/1995",
     "decision_date": "26 MARCH, 2010",
     "jurisdiction": "India"
   },
@@ -1941,14 +1941,14 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "fir",
         "bail",
         "offence",
-        "fir",
-        "accused",
-        "custody",
-        "sentence",
         "Indian Penal Code",
-        "IPC"
+        "sentence",
+        "accused",
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": []

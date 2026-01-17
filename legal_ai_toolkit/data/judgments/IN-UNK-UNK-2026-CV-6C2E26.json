@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Supreme Court Of India",
     "court_level": "SC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "11 JULY, 1985",
     "jurisdiction": "India"
   },
@@ -4236,33 +4236,33 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "sentence",
+        "fir",
         "bail",
         "offence",
-        "fir",
-        "accused",
+        "Indian Penal Code",
         "conviction",
-        "custody",
-        "sentence",
-        "Indian Penal Code"
+        "accused",
+        "custody"
       ],
       "civil": [
-        "suit",
+        "injunction",
         "plaintiff",
-        "injunction"
+        "suit"
       ],
       "service": [
-        "promotion",
-        "Article 311",
-        "Service Rules",
+        "reinstatement",
         "Fundamental Rules",
-        "Writ Petition",
-        "suspension",
-        "departmental inquiry",
-        "Article 16",
         "Industrial Disputes",
-        "back wages",
         "pension",
-        "reinstatement"
+        "Writ Petition",
+        "departmental inquiry",
+        "Article 311",
+        "promotion",
+        "back wages",
+        "Service Rules",
+        "suspension",
+        "Article 16"
       ]
     }
   }

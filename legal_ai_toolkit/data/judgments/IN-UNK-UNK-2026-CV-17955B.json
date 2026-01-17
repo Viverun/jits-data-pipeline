@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Assam",
     "court_level": "HC",
-    "case_number": "CASE NO.",
+    "case_number": "CIVIL) CASE NO. 390/2014",
     "decision_date": "4 OCTOBER, 2019",
     "jurisdiction": "India"
   },
@@ -392,9 +392,9 @@
       "criminal": [
         "bail",
         "acquittal",
+        "Indian Penal Code",
         "accused",
         "conviction",
-        "Indian Penal Code",
         "quashing"
       ],
       "civil": [

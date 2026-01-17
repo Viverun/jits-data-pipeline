@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature At Allahabad",
     "court_level": "HC",
-    "case_number": "CASE NO. 217",
+    "case_number": "MAGISTRATE, AMROHA IN COMPLAINT CASE NO. 217",
     "decision_date": "18 JANUARY, 2023",
     "jurisdiction": "India"
   },
@@ -240,11 +240,11 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "offence",
         "fir",
-        "accused",
         "CrPC",
+        "offence",
         "conviction",
+        "accused",
         "IPC"
       ],
       "civil": [],

@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Gujarat At Ahmedabad  R",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MAITHILI MEHTA, APP FOR THE RESPONDENT NO.1",
     "decision_date": "1 JULY, 2024",
     "jurisdiction": "India"
   },
@@ -370,12 +370,12 @@
     "signals": {
       "criminal": [
         "bail",
+        "fir",
+        "POCSO",
         "offence",
         "acquittal",
-        "fir",
-        "accused",
-        "POCSO",
         "Indian Penal Code",
+        "accused",
         "Code of Criminal Procedure",
         "quashing"
       ],

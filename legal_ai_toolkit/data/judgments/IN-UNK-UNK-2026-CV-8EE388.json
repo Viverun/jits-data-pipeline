@@ -2775,13 +2775,13 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "suit",
         "decree",
-        "Code of Civil Procedure"
+        "Code of Civil Procedure",
+        "suit"
       ],
       "service": [
-        "promotion",
         "seniority",
+        "promotion",
         "Writ Petition",
         "Article 16"
       ]

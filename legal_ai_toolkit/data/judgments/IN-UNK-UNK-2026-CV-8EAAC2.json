@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Punjab And Haryana  At Chandigarh   Cwp",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "18 DECEMBER, 2024",
     "jurisdiction": "India"
   },
@@ -2021,12 +2021,12 @@
         "suit"
       ],
       "service": [
-        "promotion",
         "regularization",
-        "Service Rules",
-        "Writ Petition",
         "pension",
-        "seniority"
+        "Writ Petition",
+        "promotion",
+        "seniority",
+        "Service Rules"
       ]
     }
   }

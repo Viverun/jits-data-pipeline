@@ -939,13 +939,13 @@
         "decree"
       ],
       "service": [
-        "promotion",
         "daily wage",
-        "regularization",
-        "Service Rules",
-        "Writ Petition",
         "retiral",
-        "pension"
+        "regularization",
+        "pension",
+        "Writ Petition",
+        "promotion",
+        "Service Rules"
       ]
     }
   }

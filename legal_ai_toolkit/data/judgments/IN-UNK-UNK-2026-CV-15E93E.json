@@ -288,11 +288,11 @@
     "signals": {
       "criminal": [
         "bail",
+        "POCSO",
         "offence",
         "accused",
-        "custody",
-        "POCSO",
-        "IPC"
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": []

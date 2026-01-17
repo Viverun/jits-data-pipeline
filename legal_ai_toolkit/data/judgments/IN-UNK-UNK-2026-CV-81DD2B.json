@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Delhi At New Delhi",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "10 APRIL, 2023",
     "jurisdiction": "India"
   },
@@ -1933,15 +1933,15 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "specific performance",
         "defendant",
-        "Contract Act",
-        "Specific Relief",
-        "injunction",
-        "suit",
         "decree",
-        "Code of Civil Procedure",
-        "plaintiff"
+        "Specific Relief",
+        "plaintiff",
+        "suit",
+        "Contract Act",
+        "specific performance",
+        "injunction",
+        "Code of Civil Procedure"
       ],
       "service": []
     }

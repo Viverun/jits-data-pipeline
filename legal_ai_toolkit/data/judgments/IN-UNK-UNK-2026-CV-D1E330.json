@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Madras High Court",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MANIAM   W.P.(MD) NO.21195",
     "decision_date": "11 JULY, 2019",
     "jurisdiction": "India"
   },
@@ -5099,12 +5099,12 @@
       "service": [
         "daily wage",
         "regularization",
-        "Service Rules",
-        "Writ Petition",
-        "Article 16",
         "Industrial Disputes",
+        "Writ Petition",
         "Umadevi",
-        "seniority"
+        "seniority",
+        "Service Rules",
+        "Article 16"
       ]
     }
   }

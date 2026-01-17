@@ -1300,15 +1300,15 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "custody",
         "bail",
-        "offence",
         "IPC",
-        "custody"
+        "offence"
       ],
       "civil": [
-        "suit",
         "Hindu Marriage Act",
-        "decree"
+        "decree",
+        "suit"
       ],
       "service": []
     }

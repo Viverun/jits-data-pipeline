@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Gujarat At Ahmedabad   R",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MAY BE ALLOWED NO",
     "decision_date": "13 OCTOBER, 2023",
     "jurisdiction": "India"
   },
@@ -4794,11 +4794,11 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "arbitration",
-        "defendant",
         "CPC",
-        "suit",
-        "Arbitration"
+        "defendant",
+        "Arbitration",
+        "arbitration",
+        "suit"
       ],
       "service": []
     }

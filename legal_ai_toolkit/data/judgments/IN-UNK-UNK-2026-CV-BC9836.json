@@ -2904,16 +2904,16 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "BNSS",
+        "sentence",
         "bail",
-        "offence",
         "fir",
         "CrPC",
-        "accused",
+        "offence",
         "conviction",
-        "custody",
-        "sentence",
+        "accused",
         "IPC",
-        "BNSS"
+        "custody"
       ],
       "civil": [],
       "service": []

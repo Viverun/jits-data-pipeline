@@ -175,10 +175,10 @@
     "confidence": "medium",
     "signals": {
       "criminal": [
-        "bail",
-        "offence",
+        "accused",
         "fir",
-        "accused"
+        "bail",
+        "offence"
       ],
       "civil": [],
       "service": []

@@ -608,19 +608,19 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "fir",
         "bail",
         "offence",
-        "fir",
         "accused",
-        "custody",
         "quashing",
-        "IPC"
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": [
-        "Article 311",
         "Writ Petition",
-        "departmental inquiry"
+        "departmental inquiry",
+        "Article 311"
       ]
     }
   }

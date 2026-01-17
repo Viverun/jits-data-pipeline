@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Orissa At Cuttack   Blapl No",
     "court_level": "HC",
-    "case_number": "CASE NO.61",
+    "case_number": "MABBHONA P.S.  CASE NO.142",
     "decision_date": "17 OCTOBER, 2023",
     "jurisdiction": "India"
   },
@@ -143,10 +143,10 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "bail",
         "NDPS",
-        "offence",
-        "accused"
+        "accused",
+        "bail",
+        "offence"
       ],
       "civil": [],
       "service": []

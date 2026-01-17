@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Supreme Court Of India",
     "court_level": "SC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "14 FEBRUARY, 2017",
     "jurisdiction": "India"
   },
@@ -2659,21 +2659,21 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "sentence",
         "bail",
+        "fir",
         "offence",
         "acquittal",
-        "fir",
-        "accused",
-        "conviction",
-        "custody",
-        "sentence",
         "Indian Penal Code",
+        "conviction",
+        "accused",
         "Code of Criminal Procedure",
-        "IPC"
+        "IPC",
+        "custody"
       ],
       "civil": [
-        "suit",
-        "Code of Civil Procedure"
+        "Code of Civil Procedure",
+        "suit"
       ],
       "service": [
         "regularization"

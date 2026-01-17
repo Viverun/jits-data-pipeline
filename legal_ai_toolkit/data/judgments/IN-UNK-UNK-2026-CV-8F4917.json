@@ -5069,16 +5069,16 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "offence",
         "fir",
-        "accused",
-        "conviction",
-        "custody",
+        "offence",
         "Indian Penal Code",
         "NDPS",
+        "conviction",
+        "accused",
         "Code of Criminal Procedure",
         "quashing",
-        "IPC"
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": []

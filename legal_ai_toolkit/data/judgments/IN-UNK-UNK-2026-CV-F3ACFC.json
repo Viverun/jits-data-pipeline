@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Calcutta High Court",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MANTHA  18.07.2024. COURT NO. 13  ITEM NO. 34",
     "decision_date": "18 JULY, 2024",
     "jurisdiction": "India"
   },
@@ -3299,17 +3299,17 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "arbitration",
-        "specific performance",
         "defendant",
-        "Transfer of Property",
-        "Succession Act",
-        "injunction",
-        "suit",
-        "Code of Civil Procedure",
         "decree",
         "plaintiff",
-        "Arbitration"
+        "Transfer of Property",
+        "Succession Act",
+        "Arbitration",
+        "arbitration",
+        "suit",
+        "specific performance",
+        "injunction",
+        "Code of Civil Procedure"
       ],
       "service": []
     }

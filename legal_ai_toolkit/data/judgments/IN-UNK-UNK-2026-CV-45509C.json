@@ -368,16 +368,16 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "bail",
-        "offence",
-        "CrPC",
-        "accused",
-        "conviction",
-        "custody",
         "sentence",
+        "bail",
+        "CrPC",
+        "offence",
         "Indian Penal Code",
+        "conviction",
+        "accused",
         "Code of Criminal Procedure",
-        "IPC"
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": []

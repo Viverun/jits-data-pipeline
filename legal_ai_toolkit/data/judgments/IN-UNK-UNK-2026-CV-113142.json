@@ -1,9 +1,9 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-113142",
   "metadata": {
-    "court": "Patna High Court",
+    "court": "High Court Of  M",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MANAGEMENT IN CWJC NO. 8417/91",
     "decision_date": "26 JUNE, 2003",
     "jurisdiction": "India"
   },
@@ -412,11 +412,11 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "Service Rules",
+        "Industrial Disputes",
         "Writ Petition",
         "Payment of Gratuity",
-        "Industrial Disputes",
         "back wages",
+        "Service Rules",
         "reinstatement"
       ]
     }

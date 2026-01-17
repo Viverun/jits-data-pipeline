@@ -213,8 +213,8 @@
     "confidence": "medium",
     "signals": {
       "criminal": [
-        "bail",
-        "accused"
+        "accused",
+        "bail"
       ],
       "civil": [],
       "service": []

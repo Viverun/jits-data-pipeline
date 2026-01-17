@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature At Allahabad       Neutral Citation No",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MATTER FOR 18.08.2022.  6. IN LINE NO.1",
     "decision_date": "26 JULY, 2024",
     "jurisdiction": "India"
   },
@@ -2101,22 +2101,22 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "sentence",
         "bail",
-        "offence",
-        "acquittal",
         "fir",
         "CrPC",
-        "accused",
-        "conviction",
-        "custody",
-        "sentence",
         "POCSO",
-        "IPC"
+        "offence",
+        "acquittal",
+        "conviction",
+        "accused",
+        "IPC",
+        "custody"
       ],
       "civil": [
-        "suit",
+        "NI Act",
         "Negotiable Instruments",
-        "NI Act"
+        "suit"
       ],
       "service": [
         "regularization"

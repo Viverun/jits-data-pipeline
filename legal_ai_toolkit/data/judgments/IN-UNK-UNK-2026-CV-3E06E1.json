@@ -2259,9 +2259,9 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "suit",
         "arbitration",
-        "Arbitration"
+        "Arbitration",
+        "suit"
       ],
       "service": [
         "Writ Petition"

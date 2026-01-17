@@ -1,9 +1,9 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-84F8B4",
   "metadata": {
-    "court": "Gujarat High Court",
+    "court": "High Court Of Gujarat At Ahmedabad    Special Civil Application No",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "CIVIL APPLICATION NO. 1161",
     "decision_date": "4 MARCH, 2010",
     "jurisdiction": "India"
   },
@@ -599,11 +599,11 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "Service Rules",
-        "Payment of Gratuity",
+        "Pension Rules",
         "retiral",
         "pension",
-        "Pension Rules"
+        "Payment of Gratuity",
+        "Service Rules"
       ]
     }
   }

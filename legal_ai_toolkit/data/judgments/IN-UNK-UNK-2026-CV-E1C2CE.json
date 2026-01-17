@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature At Allahabad      Court No",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MARRIAGE OF THE SON OF APPLICANT NO.1-",
     "decision_date": "29 SEPTEMBER, 2020",
     "jurisdiction": "India"
   },
@@ -256,10 +256,10 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "accused",
         "bail",
-        "custody",
         "IPC",
-        "accused"
+        "custody"
       ],
       "civil": [],
       "service": []

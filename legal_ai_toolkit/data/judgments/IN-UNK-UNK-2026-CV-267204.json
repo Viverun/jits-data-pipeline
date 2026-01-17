@@ -3304,9 +3304,9 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "pension",
         "seniority",
-        "Writ Petition"
+        "Writ Petition",
+        "pension"
       ]
     }
   }

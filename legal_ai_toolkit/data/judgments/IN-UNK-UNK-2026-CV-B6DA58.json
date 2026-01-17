@@ -228,11 +228,11 @@
     "signals": {
       "criminal": [
         "bail",
+        "CrPC",
         "offence",
         "accused",
-        "CrPC",
-        "conviction",
-        "sentence"
+        "sentence",
+        "conviction"
       ],
       "civil": [],
       "service": []

@@ -2,8 +2,8 @@
   "judgment_id": "IN-UNK-UNK-2026-CV-2FFB40",
   "metadata": {
     "court": "In The Court Of Sh Atul Ahlawat  Addl",
-    "court_level": "DISTRICT",
-    "case_number": null,
+    "court_level": "TRIBUNAL/LOWER",
+    "case_number": "MA COURTS: DELHI  IN RE:  SC NO. 44290/2015",
     "decision_date": "20 SEPTEMBER, 2024",
     "jurisdiction": "India"
   },
@@ -2349,15 +2349,15 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "sentence",
+        "fir",
         "bail",
         "offence",
-        "fir",
-        "accused",
-        "conviction",
-        "custody",
-        "sentence",
         "Indian Penal Code",
-        "IPC"
+        "conviction",
+        "accused",
+        "IPC",
+        "custody"
       ],
       "civil": [
         "Hindu Marriage Act"

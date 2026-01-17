@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Madhya Pradesh  At Gwalior  Cra No",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MADHYA PRADESH  AT GWALIOR  CRA NO. 1045",
     "decision_date": "3 JULY, 2023",
     "jurisdiction": "India"
   },
@@ -219,12 +219,12 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "sentence",
+        "fir",
         "bail",
         "offence",
-        "fir",
-        "accused",
         "conviction",
-        "sentence",
+        "accused",
         "IPC"
       ],
       "civil": [],

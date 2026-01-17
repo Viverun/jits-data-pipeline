@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Supreme Court Of India",
     "court_level": "SC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "18 AUGUST, 1999",
     "jurisdiction": "India"
   },
@@ -105,8 +105,8 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "pension",
-        "Writ Petition"
+        "Writ Petition",
+        "pension"
       ]
     }
   }

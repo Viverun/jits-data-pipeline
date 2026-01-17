@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature At Madras  Dated",
     "court_level": "HC",
-    "case_number": "CRIMINAL APPEAL NO.120",
+    "case_number": "MALA  CRIMINAL APPEAL NO.120",
     "decision_date": "5 JULY, 2012",
     "jurisdiction": "India"
   },
@@ -475,14 +475,14 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "sentence",
         "bail",
         "offence",
         "acquittal",
-        "accused",
         "conviction",
-        "custody",
-        "sentence",
-        "IPC"
+        "accused",
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": []

@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Gujarat High Court",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "OARD AND THE RESPONDENT NO.2-",
     "decision_date": "23 JULY, 2004",
     "jurisdiction": "India"
   },
@@ -518,12 +518,12 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "Service Rules",
-        "Writ Petition",
-        "Payment of Gratuity",
+        "Pension Rules",
         "retiral",
         "pension",
-        "Pension Rules"
+        "Writ Petition",
+        "Payment of Gratuity",
+        "Service Rules"
       ]
     }
   }

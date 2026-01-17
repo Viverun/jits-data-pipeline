@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Delhi At New Delhi",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "20 SEPTEMBER, 2013",
     "jurisdiction": "India"
   },
@@ -897,13 +897,13 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "fir",
         "bail",
         "offence",
         "acquittal",
-        "fir",
-        "accused",
-        "conviction",
         "Indian Penal Code",
+        "conviction",
+        "accused",
         "IPC"
       ],
       "civil": [],

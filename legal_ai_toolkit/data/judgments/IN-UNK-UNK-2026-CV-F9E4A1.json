@@ -3384,16 +3384,16 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "bail",
         "Indian Penal Code",
-        "custody",
-        "fir"
+        "fir",
+        "bail",
+        "custody"
       ],
       "civil": [
-        "suit",
-        "Transfer of Property",
+        "injunction",
         "decree",
-        "injunction"
+        "Transfer of Property",
+        "suit"
       ],
       "service": []
     }

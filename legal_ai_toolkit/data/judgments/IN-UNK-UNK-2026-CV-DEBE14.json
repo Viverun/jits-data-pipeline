@@ -1,9 +1,9 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-DEBE14",
   "metadata": {
-    "court": null,
-    "court_level": null,
-    "case_number": null,
+    "court": "Central Administrative Tribunal",
+    "court_level": "TRIBUNAL/LOWER",
+    "case_number": "OA NO. /050/00176/2020",
     "decision_date": "27 SEPTEMBER, 2024",
     "jurisdiction": "India"
   },
@@ -1833,16 +1833,16 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "promotion",
-        "regularization",
-        "Service Rules",
-        "Writ Petition",
-        "suspension",
+        "Pension Rules",
         "retiral",
+        "regularization",
         "pension",
-        "seniority",
+        "Writ Petition",
         "DPC",
-        "Pension Rules"
+        "promotion",
+        "seniority",
+        "Service Rules",
+        "suspension"
       ]
     }
   }

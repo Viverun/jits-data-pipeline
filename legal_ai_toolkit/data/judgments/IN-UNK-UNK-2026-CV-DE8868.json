@@ -376,13 +376,13 @@
     "signals": {
       "criminal": [
         "bail",
-        "offence",
-        "fir",
         "CrPC",
+        "fir",
+        "offence",
         "accused",
-        "custody",
         "Code of Criminal Procedure",
-        "IPC"
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": []

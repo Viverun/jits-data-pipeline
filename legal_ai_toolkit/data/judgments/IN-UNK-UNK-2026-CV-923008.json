@@ -389,15 +389,15 @@
     "signals": {
       "criminal": [
         "bail",
-        "offence",
         "fir",
-        "accused",
-        "conviction",
-        "custody",
+        "offence",
         "Indian Penal Code",
+        "conviction",
+        "accused",
         "Code of Criminal Procedure",
         "quashing",
-        "IPC"
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": [

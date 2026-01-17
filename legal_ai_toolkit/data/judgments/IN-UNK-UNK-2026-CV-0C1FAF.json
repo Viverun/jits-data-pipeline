@@ -1137,13 +1137,13 @@
         "quashing"
       ],
       "civil": [
-        "suit",
-        "Code of Civil Procedure"
+        "Code of Civil Procedure",
+        "suit"
       ],
       "service": [
         "Industrial Disputes",
-        "promotion",
-        "Writ Petition"
+        "Writ Petition",
+        "promotion"
       ]
     }
   }

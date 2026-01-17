@@ -2,8 +2,8 @@
   "judgment_id": "IN-UNK-UNK-2026-CV-6ACFF9",
   "metadata": {
     "court": "In The Court Of Sh",
-    "court_level": "DISTRICT",
-    "case_number": null,
+    "court_level": "TRIBUNAL/LOWER",
+    "case_number": "UNKNOWN",
     "decision_date": "9 OCTOBER, 2023",
     "jurisdiction": "India"
   },
@@ -3287,14 +3287,14 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "defendant",
         "CPC",
-        "injunction",
-        "suit",
+        "defendant",
         "decree",
-        "Code of Civil Procedure",
         "plaintiff",
-        "Limitation Act"
+        "Limitation Act",
+        "suit",
+        "injunction",
+        "Code of Civil Procedure"
       ],
       "service": []
     }

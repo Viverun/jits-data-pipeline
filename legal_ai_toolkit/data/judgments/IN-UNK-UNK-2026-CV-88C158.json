@@ -2510,14 +2510,14 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "plaintiff",
-        "defendant"
+        "defendant",
+        "plaintiff"
       ],
       "service": [
+        "Service Rules",
         "promotion",
-        "seniority",
         "Writ Petition",
-        "Service Rules"
+        "seniority"
       ]
     }
   }

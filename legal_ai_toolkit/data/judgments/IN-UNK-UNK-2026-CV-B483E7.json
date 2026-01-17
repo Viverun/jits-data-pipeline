@@ -281,14 +281,14 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "sentence",
+        "fir",
         "bail",
         "offence",
-        "fir",
-        "accused",
         "conviction",
-        "custody",
-        "sentence",
-        "IPC"
+        "accused",
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": []

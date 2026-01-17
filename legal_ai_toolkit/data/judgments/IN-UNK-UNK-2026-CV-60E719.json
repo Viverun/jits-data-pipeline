@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Karnataka",
     "court_level": "HC",
-    "case_number": "WRIT PETITION NO.106025",
+    "case_number": "MANI   -1-  NC: 2024:KHC-D:13675  WP NO. 106025",
     "decision_date": "24 SEPTEMBER, 2024",
     "jurisdiction": "India"
   },
@@ -2402,10 +2402,10 @@
       ],
       "service": [
         "regularization",
-        "Service Rules",
         "Writ Petition",
-        "reinstatement",
-        "Umadevi"
+        "Umadevi",
+        "Service Rules",
+        "reinstatement"
       ]
     }
   }

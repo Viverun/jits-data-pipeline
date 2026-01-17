@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Madras High Court",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MAL ... PETITIONER IN W.P.(MD)NO.17234",
     "decision_date": "2 AUGUST, 2018",
     "jurisdiction": "India"
   },
@@ -1234,11 +1234,11 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "promotion",
-        "Writ Petition",
+        "Pension Rules",
         "retiral",
         "pension",
-        "Pension Rules"
+        "promotion",
+        "Writ Petition"
       ]
     }
   }

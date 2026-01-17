@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Orissa At Cuttack   Blapl No",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "16 AUGUST, 2023",
     "jurisdiction": "India"
   },
@@ -151,10 +151,10 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "bail",
         "NDPS",
-        "custody",
-        "accused"
+        "accused",
+        "bail",
+        "custody"
       ],
       "civil": [],
       "service": []

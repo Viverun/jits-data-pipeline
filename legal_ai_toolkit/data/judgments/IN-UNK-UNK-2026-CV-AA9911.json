@@ -2,7 +2,7 @@
   "judgment_id": "IN-UNK-UNK-2026-CV-AA9911",
   "metadata": {
     "court": "In The Court Of Lxxxii Addl",
-    "court_level": "DISTRICT",
+    "court_level": "TRIBUNAL/LOWER",
     "case_number": "CIVIL & SESSIONS JUDGE,  BENGALURU.   COM.AS.NO.108/2017",
     "decision_date": "3 JANUARY, 2022",
     "jurisdiction": "India"
@@ -2555,10 +2555,10 @@
         "custody"
       ],
       "civil": [
-        "suit",
-        "arbitration",
+        "injunction",
         "Arbitration",
-        "injunction"
+        "arbitration",
+        "suit"
       ],
       "service": []
     }

@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Himachal Pradesh High Court",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MATTER   .   CWPOA NO.5054",
     "decision_date": "5 SEPTEMBER, 2023",
     "jurisdiction": "India"
   },
@@ -416,10 +416,10 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "promotion",
         "seniority",
+        "DPC",
         "Writ Petition",
-        "DPC"
+        "promotion"
       ]
     }
   }

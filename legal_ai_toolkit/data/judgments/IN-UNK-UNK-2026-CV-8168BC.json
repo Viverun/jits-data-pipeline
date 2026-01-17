@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Bombay High Court",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "12 MARCH, 2008",
     "jurisdiction": "India"
   },
@@ -1615,23 +1615,23 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "sentence",
         "bail",
+        "CrPC",
+        "fir",
         "offence",
         "acquittal",
-        "fir",
-        "CrPC",
-        "accused",
-        "conviction",
-        "custody",
-        "sentence",
         "Indian Penal Code",
+        "conviction",
+        "accused",
         "Code of Criminal Procedure",
         "quashing",
-        "IPC"
+        "IPC",
+        "custody"
       ],
       "civil": [
-        "Negotiable Instruments",
-        "decree"
+        "decree",
+        "Negotiable Instruments"
       ],
       "service": [
         "promotion"

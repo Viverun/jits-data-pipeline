@@ -343,9 +343,9 @@
       "criminal": [
         "bail",
         "offence",
+        "sentence",
         "accused",
-        "custody",
-        "sentence"
+        "custody"
       ],
       "civil": [],
       "service": []

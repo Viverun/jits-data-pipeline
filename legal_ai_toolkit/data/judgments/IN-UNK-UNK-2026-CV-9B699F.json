@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature At Madras   Dated",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MANIAM   W.P.NO.15556",
     "decision_date": "25 MARCH, 2019",
     "jurisdiction": "India"
   },
@@ -5665,12 +5665,12 @@
       "service": [
         "daily wage",
         "regularization",
-        "Service Rules",
-        "Writ Petition",
-        "Article 16",
         "Industrial Disputes",
+        "Writ Petition",
         "Umadevi",
-        "seniority"
+        "seniority",
+        "Service Rules",
+        "Article 16"
       ]
     }
   }

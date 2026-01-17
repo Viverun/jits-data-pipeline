@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Jharkhand At Ranchi   W",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "CASE NO.",
     "decision_date": "20 JANUARY, 2020",
     "jurisdiction": "India"
   },
@@ -600,9 +600,9 @@
         "quashing"
       ],
       "civil": [
-        "suit",
         "arbitration",
         "Arbitration",
+        "suit",
         "decree"
       ],
       "service": [

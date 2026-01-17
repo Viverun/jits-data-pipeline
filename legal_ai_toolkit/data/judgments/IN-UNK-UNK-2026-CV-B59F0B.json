@@ -808,12 +808,12 @@
     "signals": {
       "criminal": [
         "bail",
-        "offence",
-        "fir",
         "CrPC",
-        "accused",
-        "sentence",
+        "fir",
+        "offence",
         "Indian Penal Code",
+        "sentence",
+        "accused",
         "Code of Criminal Procedure"
       ],
       "civil": [],

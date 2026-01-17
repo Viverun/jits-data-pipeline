@@ -240,10 +240,10 @@
       ],
       "civil": [],
       "service": [
-        "promotion",
         "seniority",
+        "DPC",
         "Writ Petition",
-        "DPC"
+        "promotion"
       ]
     }
   }

@@ -1,9 +1,9 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-BAAA35",
   "metadata": {
-    "court": null,
-    "court_level": null,
-    "case_number": null,
+    "court": "Central Administrative Tribunal",
+    "court_level": "TRIBUNAL/LOWER",
+    "case_number": "MA 17/2018, MA 57/2018 WITH  O.A. NO.020/636/2017",
     "decision_date": "26 APRIL, 2019",
     "jurisdiction": "India"
   },
@@ -5085,21 +5085,21 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "quashing",
-        "sentence"
+        "sentence",
+        "quashing"
       ],
       "civil": [
-        "suit",
         "injunction",
-        "CPC"
+        "CPC",
+        "suit"
       ],
       "service": [
-        "promotion",
-        "Writ Petition",
-        "Article 16",
         "retiral",
         "pension",
-        "seniority"
+        "promotion",
+        "seniority",
+        "Writ Petition",
+        "Article 16"
       ]
     }
   }

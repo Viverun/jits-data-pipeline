@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Kerala At Ernakulam   Present   The Honourable The Chief Justice Mr",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "8 DECEMBER, 2025",
     "jurisdiction": "India"
   },
@@ -7384,10 +7384,10 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "pension",
-        "promotion",
         "seniority",
-        "Writ Petition"
+        "Writ Petition",
+        "pension",
+        "promotion"
       ]
     }
   }

@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Jharkhand At Ranchi  F",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MAR   F.A. NO. 47",
     "decision_date": "8 SEPTEMBER, 2020",
     "jurisdiction": "India"
   },
@@ -372,16 +372,16 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "bail",
         "Indian Penal Code",
-        "IPC",
-        "fir"
+        "fir",
+        "bail",
+        "IPC"
       ],
       "civil": [
-        "suit",
-        "plaintiff",
         "Hindu Marriage Act",
-        "decree"
+        "decree",
+        "plaintiff",
+        "suit"
       ],
       "service": []
     }

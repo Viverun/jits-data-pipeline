@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Kerala High Court",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "1 AUGUST, 1978",
     "jurisdiction": "India"
   },
@@ -182,8 +182,8 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "Industrial Disputes",
-        "Payment of Gratuity"
+        "Payment of Gratuity",
+        "Industrial Disputes"
       ]
     }
   }

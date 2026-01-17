@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Rajasthan High Court",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "12 MAY, 1995",
     "jurisdiction": "India"
   },
@@ -181,10 +181,10 @@
     "confidence": "medium",
     "signals": {
       "criminal": [
+        "accused",
         "bail",
         "offence",
-        "custody",
-        "accused"
+        "custody"
       ],
       "civil": [],
       "service": []

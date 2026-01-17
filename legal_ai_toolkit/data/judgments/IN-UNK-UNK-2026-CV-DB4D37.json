@@ -2,8 +2,8 @@
   "judgment_id": "IN-UNK-UNK-2026-CV-DB4D37",
   "metadata": {
     "court": "In The Court Of The Xxviii Additional City Civil  And Sessions Judge",
-    "court_level": "DISTRICT",
-    "case_number": null,
+    "court_level": "TRIBUNAL/LOWER",
+    "case_number": "UNKNOWN",
     "decision_date": "2 DECEMBER, 2025",
     "jurisdiction": "India"
   },
@@ -3357,10 +3357,10 @@
       "criminal": [],
       "civil": [
         "defendant",
-        "injunction",
-        "suit",
         "decree",
-        "plaintiff"
+        "plaintiff",
+        "suit",
+        "injunction"
       ],
       "service": [
         "suspension"

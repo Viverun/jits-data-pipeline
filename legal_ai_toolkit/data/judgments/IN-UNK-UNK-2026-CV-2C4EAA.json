@@ -12933,17 +12933,17 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "suit",
-        "Transfer of Property",
+        "CPC",
         "decree",
-        "CPC"
+        "Transfer of Property",
+        "suit"
       ],
       "service": [
-        "promotion",
-        "Writ Petition",
-        "Article 16",
         "Industrial Disputes",
-        "seniority"
+        "promotion",
+        "seniority",
+        "Writ Petition",
+        "Article 16"
       ]
     }
   }

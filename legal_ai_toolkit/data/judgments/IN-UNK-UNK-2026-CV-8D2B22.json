@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Supreme Court Of India",
     "court_level": "SC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "26 OCTOBER, 2005",
     "jurisdiction": "India"
   },
@@ -671,14 +671,14 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "arbitration",
         "defendant",
-        "suit",
-        "Code of Civil Procedure",
         "decree",
         "plaintiff",
         "Limitation Act",
-        "Arbitration"
+        "Arbitration",
+        "arbitration",
+        "suit",
+        "Code of Civil Procedure"
       ],
       "service": []
     }

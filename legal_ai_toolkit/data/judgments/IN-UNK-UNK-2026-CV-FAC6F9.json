@@ -1,9 +1,9 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-FAC6F9",
   "metadata": {
-    "court": null,
-    "court_level": null,
-    "case_number": null,
+    "court": "Central Administrative Tribunal",
+    "court_level": "TRIBUNAL/LOWER",
+    "case_number": "UNKNOWN",
     "decision_date": "24 FEBRUARY, 2011",
     "jurisdiction": "India"
   },
@@ -656,9 +656,9 @@
       ],
       "civil": [],
       "service": [
-        "promotion",
         "seniority",
-        "DPC"
+        "DPC",
+        "promotion"
       ]
     }
   }

@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Kerala At Ernakulam  Present  The Honourable Mr",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "6 APRIL, 2022",
     "jurisdiction": "India"
   },
@@ -8880,15 +8880,15 @@
         "custody"
       ],
       "civil": [
-        "suit",
-        "decree"
+        "decree",
+        "suit"
       ],
       "service": [
-        "promotion",
-        "regularization",
         "Service Law",
-        "seniority",
-        "DPC"
+        "regularization",
+        "DPC",
+        "promotion",
+        "seniority"
       ]
     }
   }

@@ -1,9 +1,9 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-1A4A11",
   "metadata": {
-    "court": null,
-    "court_level": null,
-    "case_number": null,
+    "court": "Central Administrative Tribunal",
+    "court_level": "TRIBUNAL/LOWER",
+    "case_number": "OA NO.1392",
     "decision_date": "7 MARCH, 2023",
     "jurisdiction": "India"
   },
@@ -2108,14 +2108,14 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "promotion",
         "daily wage",
-        "regularization",
-        "Article 16",
         "retiral",
+        "regularization",
         "pension",
         "Umadevi",
-        "seniority"
+        "promotion",
+        "seniority",
+        "Article 16"
       ]
     }
   }

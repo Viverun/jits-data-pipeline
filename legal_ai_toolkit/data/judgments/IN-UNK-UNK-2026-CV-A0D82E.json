@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature At Madras   Reserved On",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "29 APRIL, 2024",
     "jurisdiction": "India"
   },
@@ -5761,12 +5761,12 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "arbitration",
-        "Contract Act",
-        "Specific Relief",
-        "suit",
         "decree",
-        "Arbitration"
+        "Specific Relief",
+        "Arbitration",
+        "arbitration",
+        "suit",
+        "Contract Act"
       ],
       "service": [
         "DPC",

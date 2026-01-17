@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature At Madras   Dated",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MAY BE  DISPENSED WITH]   A.S.NO.445",
     "decision_date": "14 JULY, 2025",
     "jurisdiction": "India"
   },
@@ -3824,15 +3824,15 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "specific performance",
-        "defendant",
         "CPC",
-        "Transfer of Property",
-        "Specific Relief",
-        "injunction",
-        "suit",
+        "defendant",
         "decree",
-        "plaintiff"
+        "Specific Relief",
+        "plaintiff",
+        "suit",
+        "specific performance",
+        "injunction",
+        "Transfer of Property"
       ],
       "service": []
     }

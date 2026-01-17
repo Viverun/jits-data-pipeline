@@ -1,9 +1,9 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-F14E19",
   "metadata": {
-    "court": "High Court Of Judicature At Madras   Reserved On",
-    "court_level": "HC",
-    "case_number": null,
+    "court": "Supreme Court Of India",
+    "court_level": "SC",
+    "case_number": "MAL KUMAR  W.P.NO.10328",
     "decision_date": "10 SEPTEMBER, 2018",
     "jurisdiction": "India"
   },
@@ -2329,26 +2329,26 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "quashing",
-        "bail"
+        "bail",
+        "quashing"
       ],
       "civil": [
-        "suit",
+        "defendant",
         "plaintiff",
-        "defendant"
+        "suit"
       ],
       "service": [
-        "promotion",
-        "Article 311",
-        "Service Rules",
-        "Fundamental Rules",
-        "Writ Petition",
-        "suspension",
+        "Pension Rules",
         "retiral",
+        "Fundamental Rules",
         "pension",
+        "Writ Petition",
         "back wages",
+        "Article 311",
+        "promotion",
         "seniority",
-        "Pension Rules"
+        "Service Rules",
+        "suspension"
       ]
     }
   }

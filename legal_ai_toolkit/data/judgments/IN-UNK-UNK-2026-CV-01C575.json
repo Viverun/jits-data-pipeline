@@ -2349,13 +2349,13 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "specific performance",
-        "defendant",
         "CPC",
-        "Specific Relief",
-        "suit",
+        "defendant",
         "decree",
-        "plaintiff"
+        "Specific Relief",
+        "plaintiff",
+        "suit",
+        "specific performance"
       ],
       "service": []
     }

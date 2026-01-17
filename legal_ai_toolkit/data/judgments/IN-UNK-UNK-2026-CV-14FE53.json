@@ -175,11 +175,11 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "bail",
         "fir",
+        "bail",
+        "NDPS",
         "accused",
-        "custody",
-        "NDPS"
+        "custody"
       ],
       "civil": [],
       "service": []

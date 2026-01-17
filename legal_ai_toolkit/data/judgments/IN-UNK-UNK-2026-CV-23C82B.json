@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Assam",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MARI, GUWAHATI-781003  W.P(C) NO. 363/2023",
     "decision_date": "4 JUNE, 2024",
     "jurisdiction": "India"
   },
@@ -6785,13 +6785,13 @@
       ],
       "civil": [],
       "service": [
-        "promotion",
-        "Service Rules",
-        "Writ Petition",
-        "Article 16",
         "pension",
+        "Writ Petition",
+        "DPC",
+        "promotion",
         "seniority",
-        "DPC"
+        "Service Rules",
+        "Article 16"
       ]
     }
   }

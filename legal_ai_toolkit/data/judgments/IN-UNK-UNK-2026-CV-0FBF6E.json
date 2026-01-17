@@ -1,7 +1,7 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-0FBF6E",
   "metadata": {
-    "court": "Calcutta High Court",
+    "court": "High Court Of Calcutta",
     "court_level": "HC",
     "case_number": "CASE NO.348",
     "decision_date": "9 JANUARY, 2025",
@@ -217,10 +217,10 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "bail",
+        "BNSS",
         "fir",
-        "IPC",
-        "BNSS"
+        "bail",
+        "IPC"
       ],
       "civil": [],
       "service": []

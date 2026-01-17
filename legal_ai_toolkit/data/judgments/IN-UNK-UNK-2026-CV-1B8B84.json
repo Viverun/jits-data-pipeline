@@ -3316,10 +3316,10 @@
       ],
       "civil": [],
       "service": [
-        "promotion",
-        "pension",
+        "Service Rules",
         "Writ Petition",
-        "Service Rules"
+        "pension",
+        "promotion"
       ]
     }
   }

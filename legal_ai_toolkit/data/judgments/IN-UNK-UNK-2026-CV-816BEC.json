@@ -1,9 +1,9 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-816BEC",
   "metadata": {
-    "court": null,
-    "court_level": null,
-    "case_number": null,
+    "court": "Central Administrative Tribunal",
+    "court_level": "TRIBUNAL/LOWER",
+    "case_number": "MAR, MEMBER (A)  O.A. NO.597/2023",
     "decision_date": "4 NOVEMBER, 2023",
     "jurisdiction": "India"
   },
@@ -2403,8 +2403,8 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "promotion",
-        "regularization"
+        "regularization",
+        "promotion"
       ]
     }
   }

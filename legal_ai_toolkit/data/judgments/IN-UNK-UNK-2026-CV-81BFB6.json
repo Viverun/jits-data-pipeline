@@ -296,14 +296,14 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "BNSS",
         "bail",
-        "offence",
-        "fir",
         "CrPC",
+        "fir",
+        "offence",
         "accused",
         "Code of Criminal Procedure",
-        "IPC",
-        "BNSS"
+        "IPC"
       ],
       "civil": [],
       "service": []

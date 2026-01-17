@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Assam",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "CASE NO. 771/2006",
     "decision_date": "1 APRIL, 2025",
     "jurisdiction": "India"
   },
@@ -439,19 +439,19 @@
     "signals": {
       "criminal": [
         "bail",
+        "fir",
         "offence",
         "acquittal",
-        "fir",
-        "accused",
-        "custody",
         "Indian Penal Code",
-        "Code of Criminal Procedure"
+        "accused",
+        "Code of Criminal Procedure",
+        "custody"
       ],
       "civil": [
-        "suit",
-        "plaintiff",
         "Hindu Marriage Act",
-        "decree"
+        "decree",
+        "plaintiff",
+        "suit"
       ],
       "service": []
     }

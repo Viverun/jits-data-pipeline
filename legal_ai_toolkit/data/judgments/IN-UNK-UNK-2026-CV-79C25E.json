@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature At Allahabad",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "CASE NO. 3819",
     "decision_date": "20 JANUARY, 2021",
     "jurisdiction": "India"
   },
@@ -344,8 +344,8 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "offence",
         "fir",
+        "offence",
         "accused",
         "conviction",
         "quashing",

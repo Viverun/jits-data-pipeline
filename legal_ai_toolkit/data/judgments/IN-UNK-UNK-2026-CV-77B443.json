@@ -2,7 +2,7 @@
   "judgment_id": "IN-UNK-UNK-2026-CV-77B443",
   "metadata": {
     "court": "In The Court Of Lxxi Addl",
-    "court_level": "DISTRICT",
+    "court_level": "TRIBUNAL/LOWER",
     "case_number": "CIVIL & SESSIONS JUDGE, BENGALURU.   S.C.NO.825/2014",
     "decision_date": "4 SEPTEMBER, 2020",
     "jurisdiction": "India"
@@ -3964,13 +3964,13 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "sentence",
+        "fir",
         "bail",
         "offence",
-        "fir",
-        "accused",
-        "conviction",
-        "sentence",
         "Indian Penal Code",
+        "conviction",
+        "accused",
         "IPC"
       ],
       "civil": [],

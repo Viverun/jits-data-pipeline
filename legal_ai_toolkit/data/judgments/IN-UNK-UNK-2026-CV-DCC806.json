@@ -2,8 +2,8 @@
   "judgment_id": "IN-UNK-UNK-2026-CV-DCC806",
   "metadata": {
     "court": "In The Court Of Shri Rajeev Bansal",
-    "court_level": "DISTRICT",
-    "case_number": null,
+    "court_level": "TRIBUNAL/LOWER",
+    "case_number": "UNKNOWN",
     "decision_date": "12 MARCH, 2014",
     "jurisdiction": "India"
   },
@@ -2344,14 +2344,14 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "sentence",
+        "fir",
         "bail",
         "offence",
-        "fir",
-        "accused",
         "conviction",
-        "custody",
-        "sentence",
-        "IPC"
+        "accused",
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": []

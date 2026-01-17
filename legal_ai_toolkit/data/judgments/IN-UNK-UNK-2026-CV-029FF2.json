@@ -1064,14 +1064,14 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "sentence",
+        "fir",
         "bail",
         "offence",
         "acquittal",
-        "fir",
-        "accused",
+        "Indian Penal Code",
         "conviction",
-        "sentence",
-        "Indian Penal Code"
+        "accused"
       ],
       "civil": [],
       "service": []

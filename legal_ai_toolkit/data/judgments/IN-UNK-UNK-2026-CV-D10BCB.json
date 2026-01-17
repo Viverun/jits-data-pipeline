@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Rajasthan High Court",
     "court_level": "HC",
-    "case_number": "CASE NO. 229",
+    "case_number": "OA; 40% TY X;K FKK A    NO",
     "decision_date": "14 NOVEMBER, 2000",
     "jurisdiction": "India"
   },
@@ -821,12 +821,12 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "CrPC",
         "offence",
         "acquittal",
-        "accused",
-        "CrPC",
-        "conviction",
         "Indian Penal Code",
+        "conviction",
+        "accused",
         "IPC"
       ],
       "civil": [],

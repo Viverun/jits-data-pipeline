@@ -1181,12 +1181,12 @@
       ],
       "civil": [],
       "service": [
-        "promotion",
-        "Article 311",
-        "Service Rules",
         "Writ Petition",
-        "Article 16",
-        "seniority"
+        "Article 311",
+        "promotion",
+        "seniority",
+        "Service Rules",
+        "Article 16"
       ]
     }
   }

@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Punjab And Haryana At Chandigarh",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "OA NO. 519-   CWP NO. 13218",
     "decision_date": "15 JULY, 2011",
     "jurisdiction": "India"
   },
@@ -4174,12 +4174,12 @@
       ],
       "civil": [],
       "service": [
-        "promotion",
-        "Writ Petition",
-        "Article 16",
         "pension",
+        "DPC",
+        "promotion",
         "seniority",
-        "DPC"
+        "Writ Petition",
+        "Article 16"
       ]
     }
   }

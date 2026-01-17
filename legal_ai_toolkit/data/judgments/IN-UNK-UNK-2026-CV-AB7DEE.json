@@ -339,13 +339,13 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "bail",
-        "offence",
-        "fir",
-        "accused",
-        "conviction",
         "sentence",
+        "bail",
+        "fir",
+        "offence",
         "Indian Penal Code",
+        "conviction",
+        "accused",
         "Code of Criminal Procedure",
         "IPC"
       ],

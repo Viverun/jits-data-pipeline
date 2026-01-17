@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature At Madras   Dated",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MADE IN SC.NO.291",
     "decision_date": "18 JULY, 2019",
     "jurisdiction": "India"
   },
@@ -2811,12 +2811,12 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "sentence",
+        "fir",
         "bail",
         "offence",
-        "fir",
-        "accused",
         "conviction",
-        "sentence",
+        "accused",
         "IPC"
       ],
       "civil": [

@@ -1,9 +1,9 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-828382",
   "metadata": {
-    "court": null,
-    "court_level": null,
-    "case_number": null,
+    "court": "High Court Of Delhi Has Also",
+    "court_level": "HC",
+    "case_number": "OA NO.3745/2012",
     "decision_date": "29 MAY, 2014",
     "jurisdiction": "India"
   },
@@ -380,8 +380,8 @@
       ],
       "service": [
         "retiral",
-        "pension",
-        "Writ Petition"
+        "Writ Petition",
+        "pension"
       ]
     }
   }

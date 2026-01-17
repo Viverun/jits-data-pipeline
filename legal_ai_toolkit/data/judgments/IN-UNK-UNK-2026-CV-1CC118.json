@@ -250,11 +250,11 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "offence",
         "fir",
-        "accused",
         "CrPC",
+        "offence",
         "conviction",
+        "accused",
         "IPC"
       ],
       "civil": [],

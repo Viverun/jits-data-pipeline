@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Supreme Court Of India",
     "court_level": "SC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "22 AUGUST, 1972",
     "jurisdiction": "India"
   },
@@ -517,10 +517,10 @@
       "criminal": [],
       "civil": [
         "defendant",
-        "suit",
         "decree",
-        "Code of Civil Procedure",
-        "plaintiff"
+        "plaintiff",
+        "suit",
+        "Code of Civil Procedure"
       ],
       "service": []
     }

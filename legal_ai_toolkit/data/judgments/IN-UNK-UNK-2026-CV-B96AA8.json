@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Madras High Court",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MADE IN C.M.P.(MD)NO.9134",
     "decision_date": "12 DECEMBER, 2017",
     "jurisdiction": "India"
   },
@@ -1657,15 +1657,15 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "quashing",
-        "bail"
+        "bail",
+        "quashing"
       ],
       "civil": [],
       "service": [
+        "Service Rules",
         "promotion",
-        "seniority",
         "Writ Petition",
-        "Service Rules"
+        "seniority"
       ]
     }
   }

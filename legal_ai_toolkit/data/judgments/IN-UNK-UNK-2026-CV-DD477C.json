@@ -240,11 +240,11 @@
     "signals": {
       "criminal": [
         "bail",
-        "offence",
         "fir",
-        "accused",
         "CrPC",
+        "offence",
         "sentence",
+        "accused",
         "IPC"
       ],
       "civil": [],

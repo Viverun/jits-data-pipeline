@@ -404,13 +404,13 @@
     "signals": {
       "criminal": [
         "bail",
-        "offence",
         "fir",
+        "offence",
         "accused",
-        "custody",
         "Code of Criminal Procedure",
         "quashing",
-        "IPC"
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": [

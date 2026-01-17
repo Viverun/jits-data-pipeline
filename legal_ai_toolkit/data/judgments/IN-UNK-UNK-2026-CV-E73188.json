@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Himachal Pradesh",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MACHAL PRADESH, SHIMLA   CR. MP (M) NO. 1428",
     "decision_date": "24 JULY, 2024",
     "jurisdiction": "India"
   },
@@ -1013,14 +1013,14 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "fir",
         "bail",
         "offence",
-        "fir",
-        "accused",
-        "conviction",
-        "custody",
         "Indian Penal Code",
-        "IPC"
+        "conviction",
+        "accused",
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": []

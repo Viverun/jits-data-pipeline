@@ -14795,16 +14795,16 @@
         "quashing"
       ],
       "civil": [
-        "suit",
-        "Negotiable Instruments"
+        "Negotiable Instruments",
+        "suit"
       ],
       "service": [
-        "promotion",
-        "regularization",
-        "Writ Petition",
-        "Article 16",
         "retiral",
-        "pension"
+        "regularization",
+        "pension",
+        "promotion",
+        "Writ Petition",
+        "Article 16"
       ]
     }
   }

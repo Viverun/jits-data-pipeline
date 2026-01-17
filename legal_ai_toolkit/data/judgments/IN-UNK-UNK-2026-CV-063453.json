@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature For Rajasthan  Bench At Jaipur   S",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "25 APRIL, 2024",
     "jurisdiction": "India"
   },
@@ -2826,14 +2826,14 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "arbitration",
         "defendant",
-        "Contract Act",
-        "suit",
         "decree",
         "plaintiff",
         "Limitation Act",
-        "Arbitration"
+        "Arbitration",
+        "arbitration",
+        "suit",
+        "Contract Act"
       ],
       "service": []
     }

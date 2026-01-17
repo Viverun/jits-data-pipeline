@@ -1286,9 +1286,9 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "reinstatement",
         "Industrial Disputes",
-        "Writ Petition"
+        "Writ Petition",
+        "reinstatement"
       ]
     }
   }

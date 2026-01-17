@@ -1199,12 +1199,12 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "CrPC",
+        "fir",
         "offence",
         "acquittal",
-        "fir",
-        "accused",
-        "CrPC",
         "conviction",
+        "accused",
         "Code of Criminal Procedure",
         "quashing",
         "IPC"

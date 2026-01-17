@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Himachal Pradesh",
     "court_level": "HC",
-    "case_number": "ARB. CASE NO. 581",
+    "case_number": "MACHAL PRADESH, SHIMLA  ARB. CASE NO. 581",
     "decision_date": "2 JANUARY, 2025",
     "jurisdiction": "India"
   },
@@ -3390,10 +3390,10 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "suit",
         "arbitration",
         "Arbitration",
-        "Code of Civil Procedure"
+        "Code of Civil Procedure",
+        "suit"
       ],
       "service": []
     }

@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Madras High Court",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MATHIYALAGAN ... PETITIONER IN W.P.(MD) NO.14613 / 2019",
     "decision_date": "1 JULY, 2019",
     "jurisdiction": "India"
   },
@@ -5093,12 +5093,12 @@
       "service": [
         "daily wage",
         "regularization",
-        "Service Rules",
-        "Writ Petition",
-        "Article 16",
         "Industrial Disputes",
+        "Writ Petition",
         "Umadevi",
-        "seniority"
+        "seniority",
+        "Service Rules",
+        "Article 16"
       ]
     }
   }

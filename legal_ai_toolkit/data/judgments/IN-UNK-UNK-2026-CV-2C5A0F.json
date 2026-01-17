@@ -1591,10 +1591,10 @@
         "Contract Act"
       ],
       "service": [
-        "seniority",
-        "Writ Petition",
+        "Service Rules",
         "regularization",
-        "Service Rules"
+        "Writ Petition",
+        "seniority"
       ]
     }
   }

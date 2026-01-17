@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Madhya Pradesh",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MA, ADVOCATE FOR THE PETITIONER IN W.P.  NO.14554/2015",
     "decision_date": "26 NOVEMBER, 2015",
     "jurisdiction": "India"
   },
@@ -3429,14 +3429,14 @@
       ],
       "civil": [],
       "service": [
-        "promotion",
-        "Service Rules",
-        "Writ Petition",
-        "Payment of Gratuity",
+        "Pension Rules",
         "retiral",
         "pension",
+        "Writ Petition",
+        "Payment of Gratuity",
+        "promotion",
         "seniority",
-        "Pension Rules"
+        "Service Rules"
       ]
     }
   }

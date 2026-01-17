@@ -1,9 +1,9 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-5DFE1F",
   "metadata": {
-    "court": null,
-    "court_level": null,
-    "case_number": null,
+    "court": "Ble High Court",
+    "court_level": "HC",
+    "case_number": "MADE IN THE O.A.  4. RESPONDENT NO.1",
     "decision_date": "27 FEBRUARY, 2012",
     "jurisdiction": "India"
   },
@@ -399,11 +399,11 @@
       ],
       "civil": [],
       "service": [
-        "promotion",
-        "Writ Petition",
         "pension",
+        "DPC",
+        "promotion",
         "seniority",
-        "DPC"
+        "Writ Petition"
       ]
     }
   }

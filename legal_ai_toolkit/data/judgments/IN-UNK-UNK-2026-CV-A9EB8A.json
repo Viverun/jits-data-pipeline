@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Calcutta High Court",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "7 FEBRUARY, 2024",
     "jurisdiction": "India"
   },
@@ -12698,12 +12698,12 @@
       ],
       "civil": [],
       "service": [
-        "promotion",
-        "Article 311",
         "regularization",
-        "Writ Petition",
         "pension",
-        "seniority"
+        "Article 311",
+        "promotion",
+        "seniority",
+        "Writ Petition"
       ]
     }
   }

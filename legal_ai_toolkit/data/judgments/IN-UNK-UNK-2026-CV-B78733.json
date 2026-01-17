@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Kerala At Ernakulam   Present",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MAGHA, 1935   AS.NO. 252",
     "decision_date": "3 JUNE, 2008",
     "jurisdiction": "India"
   },
@@ -2819,10 +2819,10 @@
       "criminal": [],
       "civil": [
         "defendant",
-        "Succession Act",
-        "suit",
         "decree",
-        "plaintiff"
+        "plaintiff",
+        "Succession Act",
+        "suit"
       ],
       "service": []
     }

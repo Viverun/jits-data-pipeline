@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Supreme Court Of India",
     "court_level": "SC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "2 SEPTEMBER, 1963",
     "jurisdiction": "India"
   },
@@ -1448,18 +1448,18 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "accused",
         "quashing",
-        "custody",
-        "accused"
+        "custody"
       ],
       "civil": [],
       "service": [
+        "pension",
+        "Writ Petition",
+        "departmental inquiry",
         "promotion",
         "Service Rules",
-        "departmental inquiry",
-        "Writ Petition",
-        "suspension",
-        "pension"
+        "suspension"
       ]
     }
   }

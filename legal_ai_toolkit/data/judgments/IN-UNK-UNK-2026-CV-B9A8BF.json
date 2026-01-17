@@ -1,9 +1,9 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-B9A8BF",
   "metadata": {
-    "court": null,
-    "court_level": null,
-    "case_number": null,
+    "court": "Ble Andhra Pradesh High Court",
+    "court_level": "HC",
+    "case_number": "OA NO.1933/1996",
     "decision_date": "17 FEBRUARY, 2015",
     "jurisdiction": "India"
   },
@@ -442,11 +442,11 @@
         "CPC"
       ],
       "service": [
-        "promotion",
-        "regularization",
-        "Writ Petition",
         "retiral",
-        "pension"
+        "regularization",
+        "pension",
+        "promotion",
+        "Writ Petition"
       ]
     }
   }

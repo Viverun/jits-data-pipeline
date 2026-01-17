@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Madras High Court",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MANIAM  BENCH:  S.M.SUBRAMANIAM   W.P.(MD)NO.10066",
     "decision_date": "4 NOVEMBER, 2020",
     "jurisdiction": "India"
   },
@@ -9496,13 +9496,13 @@
       "service": [
         "daily wage",
         "regularization",
-        "Service Rules",
-        "Writ Petition",
-        "Article 16",
         "Industrial Disputes",
         "pension",
+        "Writ Petition",
         "Umadevi",
-        "seniority"
+        "seniority",
+        "Service Rules",
+        "Article 16"
       ]
     }
   }

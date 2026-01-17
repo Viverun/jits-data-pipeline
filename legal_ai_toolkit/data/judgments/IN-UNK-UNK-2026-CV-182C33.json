@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Supreme Court Of India",
     "court_level": "SC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "31 MARCH, 1999",
     "jurisdiction": "India"
   },
@@ -176,9 +176,9 @@
         "IPC"
       ],
       "civil": [
-        "suit",
         "Hindu Marriage Act",
-        "decree"
+        "decree",
+        "suit"
       ],
       "service": []
     }

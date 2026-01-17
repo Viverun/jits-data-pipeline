@@ -4451,12 +4451,12 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "defendant",
         "CPC",
-        "suit",
+        "defendant",
         "decree",
-        "Code of Civil Procedure",
-        "plaintiff"
+        "plaintiff",
+        "suit",
+        "Code of Civil Procedure"
       ],
       "service": []
     }

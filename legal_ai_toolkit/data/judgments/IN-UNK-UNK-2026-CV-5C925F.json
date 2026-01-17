@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Delhi At New Delhi",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "4 JULY, 2024",
     "jurisdiction": "India"
   },
@@ -4119,13 +4119,13 @@
         "Contract Act"
       ],
       "service": [
-        "promotion",
         "regularization",
-        "Writ Petition",
         "Industrial Disputes",
         "Umadevi",
+        "DPC",
+        "promotion",
         "seniority",
-        "DPC"
+        "Writ Petition"
       ]
     }
   }

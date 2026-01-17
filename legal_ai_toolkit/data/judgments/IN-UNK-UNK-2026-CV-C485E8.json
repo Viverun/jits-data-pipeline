@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Orissa High Court",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "9 SEPTEMBER, 2021",
     "jurisdiction": "India"
   },
@@ -4002,11 +4002,11 @@
       "civil": [],
       "service": [
         "daily wage",
-        "regularization",
-        "Writ Petition",
         "retiral",
+        "regularization",
         "pension",
-        "Umadevi"
+        "Umadevi",
+        "Writ Petition"
       ]
     }
   }

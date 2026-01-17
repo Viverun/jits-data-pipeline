@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Delhi High Court",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "OARDED A BUS OF ROUTE NO.241",
     "decision_date": "1 FEBRUARY, 1995",
     "jurisdiction": "India"
   },
@@ -275,14 +275,14 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "sentence",
         "bail",
         "offence",
         "acquittal",
-        "accused",
+        "Indian Penal Code",
         "conviction",
-        "custody",
-        "sentence",
-        "Indian Penal Code"
+        "accused",
+        "custody"
       ],
       "civil": [],
       "service": []

@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Kerala At Ernakulam   Present",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "1 JULY, 2011",
     "jurisdiction": "India"
   },
@@ -2876,8 +2876,8 @@
       "service": [
         "Service Law",
         "promotion",
-        "seniority",
-        "Writ Petition"
+        "Writ Petition",
+        "seniority"
       ]
     }
   }

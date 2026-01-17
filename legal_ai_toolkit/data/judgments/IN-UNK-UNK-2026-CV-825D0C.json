@@ -7154,17 +7154,17 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "sentence",
+        "Arms Act",
+        "fir",
         "bail",
         "offence",
         "acquittal",
-        "fir",
-        "accused",
-        "conviction",
-        "custody",
-        "sentence",
         "Indian Penal Code",
-        "Arms Act",
-        "IPC"
+        "conviction",
+        "accused",
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": []

@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Andhra Pradesh  At Amaravati",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "OAD, KAKUMANVARITHOTA D.NO.7-9-18,  D.NO.7",
     "decision_date": "11 DECEMBER, 2025",
     "jurisdiction": "India"
   },
@@ -714,17 +714,17 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "fir",
         "offence",
         "acquittal",
-        "fir",
-        "accused",
-        "conviction",
         "Indian Penal Code",
+        "conviction",
+        "accused",
         "IPC"
       ],
       "civil": [
-        "suit",
-        "CPC"
+        "CPC",
+        "suit"
       ],
       "service": []
     }

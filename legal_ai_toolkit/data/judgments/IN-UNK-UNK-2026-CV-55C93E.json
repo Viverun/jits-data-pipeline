@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Supreme Court Of India",
     "court_level": "SC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "16 AUGUST, 1982",
     "jurisdiction": "India"
   },
@@ -5897,15 +5897,15 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "sentence",
         "bail",
         "offence",
         "acquittal",
-        "accused",
-        "conviction",
-        "custody",
-        "sentence",
         "Indian Penal Code",
-        "Code of Criminal Procedure"
+        "conviction",
+        "accused",
+        "Code of Criminal Procedure",
+        "custody"
       ],
       "civil": [
         "defendant"

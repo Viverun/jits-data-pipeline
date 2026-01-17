@@ -1,9 +1,9 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-95BB7D",
   "metadata": {
-    "court": null,
-    "court_level": null,
-    "case_number": null,
+    "court": "Ble Patna High Court",
+    "court_level": "HC",
+    "case_number": "OA NO. /050/0070/2018",
     "decision_date": "3 SEPTEMBER, 2024",
     "jurisdiction": "India"
   },
@@ -1699,15 +1699,15 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "promotion",
-        "regularization",
-        "Service Rules",
-        "Writ Petition",
-        "suspension",
-        "retiral",
-        "pension",
+        "Pension Rules",
         "reinstatement",
-        "Pension Rules"
+        "retiral",
+        "regularization",
+        "pension",
+        "Writ Petition",
+        "promotion",
+        "Service Rules",
+        "suspension"
       ]
     }
   }

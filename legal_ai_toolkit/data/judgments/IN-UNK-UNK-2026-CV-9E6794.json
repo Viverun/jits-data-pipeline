@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Supreme Court Of India",
     "court_level": "SC",
-    "case_number": null,
+    "case_number": "CRIMINAL APPEAL (DB) NO. 358",
     "decision_date": "4 SEPTEMBER, 2023",
     "jurisdiction": "India"
   },
@@ -4167,18 +4167,18 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "sentence",
+        "CrPC",
+        "fir",
+        "POCSO",
         "offence",
         "acquittal",
-        "fir",
-        "CrPC",
-        "accused",
-        "conviction",
-        "custody",
-        "sentence",
-        "POCSO",
         "Indian Penal Code",
+        "conviction",
+        "accused",
         "Code of Criminal Procedure",
-        "IPC"
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": []

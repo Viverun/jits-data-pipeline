@@ -5134,17 +5134,17 @@
         "suit"
       ],
       "service": [
-        "promotion",
-        "regularization",
-        "Service Rules",
-        "Writ Petition",
-        "suspension",
-        "retiral",
-        "pension",
+        "Pension Rules",
         "reinstatement",
+        "retiral",
+        "regularization",
+        "pension",
+        "Writ Petition",
         "Umadevi",
+        "promotion",
         "seniority",
-        "Pension Rules"
+        "Service Rules",
+        "suspension"
       ]
     }
   }

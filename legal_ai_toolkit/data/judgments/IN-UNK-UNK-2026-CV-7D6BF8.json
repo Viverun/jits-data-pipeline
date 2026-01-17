@@ -2,8 +2,8 @@
   "judgment_id": "IN-UNK-UNK-2026-CV-7D6BF8",
   "metadata": {
     "court": "In The Court Of Lxix Additional City Civil And  Sessions Judge",
-    "court_level": "DISTRICT",
-    "case_number": "CASE NO.1108/2013",
+    "court_level": "TRIBUNAL/LOWER",
+    "case_number": "MANJUNATH,  AGED ABOUT 56 YEARS,  R/AT NO.1113/",
     "decision_date": "23 FEBRUARY, 2021",
     "jurisdiction": "India"
   },
@@ -3312,17 +3312,17 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "sentence",
         "bail",
+        "fir",
         "offence",
         "acquittal",
-        "fir",
-        "accused",
-        "conviction",
-        "custody",
-        "sentence",
         "Indian Penal Code",
+        "conviction",
+        "accused",
         "Code of Criminal Procedure",
-        "IPC"
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": []

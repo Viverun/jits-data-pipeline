@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Punjab And Haryana At  Chandigarh",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "3 JULY, 2009",
     "jurisdiction": "India"
   },
@@ -1753,10 +1753,10 @@
       ],
       "civil": [],
       "service": [
+        "Service Rules",
         "promotion",
-        "seniority",
         "Writ Petition",
-        "Service Rules"
+        "seniority"
       ]
     }
   }

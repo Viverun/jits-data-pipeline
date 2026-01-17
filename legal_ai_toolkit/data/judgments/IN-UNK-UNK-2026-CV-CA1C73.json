@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Madras High Court",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MANIKUMAR  W.P(MD)NO.9327",
     "decision_date": "27 SEPTEMBER, 2012",
     "jurisdiction": "India"
   },
@@ -776,17 +776,17 @@
         "quashing"
       ],
       "civil": [
-        "suit",
         "arbitration",
         "Arbitration",
-        "Code of Civil Procedure"
+        "Code of Civil Procedure",
+        "suit"
       ],
       "service": [
-        "Writ Petition",
-        "Payment of Gratuity",
-        "Industrial Disputes",
         "retiral",
-        "pension"
+        "Industrial Disputes",
+        "pension",
+        "Payment of Gratuity",
+        "Writ Petition"
       ]
     }
   }

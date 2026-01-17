@@ -2812,13 +2812,13 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "offence",
-        "accused",
-        "conviction",
-        "custody",
         "sentence",
+        "offence",
         "Indian Penal Code",
-        "IPC"
+        "conviction",
+        "accused",
+        "IPC",
+        "custody"
       ],
       "civil": [
         "suit"

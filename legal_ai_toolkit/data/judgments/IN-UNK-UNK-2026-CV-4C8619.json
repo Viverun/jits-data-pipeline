@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Supreme Court Of India",
     "court_level": "SC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "21 OCTOBER, 2005",
     "jurisdiction": "India"
   },
@@ -608,10 +608,10 @@
       "criminal": [],
       "civil": [],
       "service": [
+        "Pension Rules",
         "Industrial Disputes",
-        "pension",
         "Writ Petition",
-        "Pension Rules"
+        "pension"
       ]
     }
   }

@@ -1013,12 +1013,12 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "sentence",
         "bail",
         "offence",
-        "accused",
-        "conviction",
-        "sentence",
         "Indian Penal Code",
+        "conviction",
+        "accused",
         "IPC"
       ],
       "civil": [],

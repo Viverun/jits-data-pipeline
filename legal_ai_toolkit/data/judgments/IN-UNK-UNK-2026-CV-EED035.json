@@ -1776,18 +1776,18 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "custody",
-        "sentence"
+        "sentence",
+        "custody"
       ],
       "civil": [
-        "arbitration",
-        "defendant",
         "CPC",
-        "injunction",
-        "suit",
+        "defendant",
         "decree",
         "plaintiff",
-        "Arbitration"
+        "Arbitration",
+        "arbitration",
+        "suit",
+        "injunction"
       ],
       "service": []
     }

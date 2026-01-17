@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Delhi High Court",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MA, HUSBAND OF ANU GAUTAM PRAYS THAT FIR NO. 323/2002",
     "decision_date": "23 AUGUST, 2007",
     "jurisdiction": "India"
   },
@@ -601,21 +601,21 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "fir",
         "bail",
         "offence",
-        "fir",
         "accused",
-        "custody",
         "quashing",
-        "IPC"
+        "IPC",
+        "custody"
       ],
       "civil": [
         "defendant",
-        "suit",
-        "Hindu Marriage Act",
-        "Code of Civil Procedure",
         "decree",
-        "plaintiff"
+        "plaintiff",
+        "Hindu Marriage Act",
+        "suit",
+        "Code of Civil Procedure"
       ],
       "service": []
     }

@@ -1902,14 +1902,14 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "fir",
         "bail",
         "offence",
-        "fir",
-        "accused",
-        "custody",
-        "sentence",
         "Indian Penal Code",
-        "quashing"
+        "sentence",
+        "accused",
+        "quashing",
+        "custody"
       ],
       "civil": [],
       "service": []

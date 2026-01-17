@@ -319,8 +319,8 @@
       "criminal": [
         "bail",
         "offence",
-        "accused",
         "sentence",
+        "accused",
         "IPC"
       ],
       "civil": [],

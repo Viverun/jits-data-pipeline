@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Madras High Court",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "WRIT OF MANDAMUS, DIRECTING THE RESPONDENT NO.2",
     "decision_date": "28 FEBRUARY, 2018",
     "jurisdiction": "India"
   },
@@ -3496,10 +3496,10 @@
       "service": [
         "daily wage",
         "regularization",
-        "Writ Petition",
-        "Article 16",
         "Umadevi",
-        "seniority"
+        "seniority",
+        "Writ Petition",
+        "Article 16"
       ]
     }
   }

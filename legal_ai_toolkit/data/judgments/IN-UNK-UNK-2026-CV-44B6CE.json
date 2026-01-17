@@ -1,9 +1,9 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-44B6CE",
   "metadata": {
-    "court": null,
-    "court_level": null,
-    "case_number": null,
+    "court": "Central Administrative Tribunal",
+    "court_level": "TRIBUNAL/LOWER",
+    "case_number": "OA NO.407/2020",
     "decision_date": "15 SEPTEMBER, 2025",
     "jurisdiction": "India"
   },
@@ -4066,9 +4066,9 @@
         "CPC"
       ],
       "service": [
-        "promotion",
         "seniority",
         "DPC",
+        "promotion",
         "Article 16"
       ]
     }

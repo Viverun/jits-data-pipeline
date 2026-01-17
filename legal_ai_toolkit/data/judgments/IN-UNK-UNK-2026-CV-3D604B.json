@@ -7651,20 +7651,20 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "custody",
-        "sentence"
+        "sentence",
+        "custody"
       ],
       "civil": [
-        "decree",
-        "injunction"
+        "injunction",
+        "decree"
       ],
       "service": [
         "regularization",
-        "Writ Petition",
         "Industrial Disputes",
+        "Umadevi",
         "back wages",
-        "reinstatement",
-        "Umadevi"
+        "Writ Petition",
+        "reinstatement"
       ]
     }
   }

@@ -2341,17 +2341,17 @@
         "fir"
       ],
       "civil": [
-        "specific performance",
-        "defendant",
         "CPC",
-        "Contract Act",
-        "Specific Relief",
-        "injunction",
-        "suit",
-        "Code of Civil Procedure",
+        "defendant",
         "decree",
+        "Specific Relief",
         "plaintiff",
-        "Limitation Act"
+        "Limitation Act",
+        "Contract Act",
+        "suit",
+        "specific performance",
+        "injunction",
+        "Code of Civil Procedure"
       ],
       "service": []
     }

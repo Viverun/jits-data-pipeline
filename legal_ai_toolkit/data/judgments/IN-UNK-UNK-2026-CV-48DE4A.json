@@ -138,10 +138,10 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "bail",
         "Indian Penal Code",
-        "IPC",
-        "accused"
+        "accused",
+        "bail",
+        "IPC"
       ],
       "civil": [],
       "service": []

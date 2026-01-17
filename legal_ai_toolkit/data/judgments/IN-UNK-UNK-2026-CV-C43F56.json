@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature At Allahabad        Reserved On",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MAR SINGH, COUNSEL FOR THE OPPOSITE PARTY NO. 2",
     "decision_date": "10 MARCH, 2021",
     "jurisdiction": "India"
   },
@@ -752,12 +752,12 @@
     "signals": {
       "criminal": [
         "bail",
+        "fir",
+        "CrPC",
         "offence",
         "acquittal",
-        "fir",
-        "accused",
-        "CrPC",
         "conviction",
+        "accused",
         "quashing",
         "IPC"
       ],

@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Supreme Court Of India",
     "court_level": "SC",
-    "case_number": null,
+    "case_number": "WRIT PETITION NO. 582/95",
     "decision_date": "11 JULY, 1997",
     "jurisdiction": "India"
   },
@@ -918,12 +918,12 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "promotion",
-        "Article 311",
-        "Service Rules",
-        "Writ Petition",
         "Industrial Disputes",
-        "seniority"
+        "Writ Petition",
+        "Article 311",
+        "promotion",
+        "seniority",
+        "Service Rules"
       ]
     }
   }

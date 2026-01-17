@@ -3715,12 +3715,12 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "offence",
-        "fir",
-        "accused",
-        "CrPC",
-        "conviction",
         "sentence",
+        "CrPC",
+        "fir",
+        "offence",
+        "conviction",
+        "accused",
         "Code of Criminal Procedure",
         "IPC"
       ],

@@ -1,9 +1,9 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-1582F2",
   "metadata": {
-    "court": null,
-    "court_level": null,
-    "case_number": null,
+    "court": "Keeping In View The Representations Received From Various Quarters And  Observations Made By The Supreme Court And The High Court",
+    "court_level": "SC",
+    "case_number": "UNKNOWN",
     "decision_date": "43  AUGUST 2012",
     "jurisdiction": "India"
   },
@@ -6430,25 +6430,25 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "sentence",
         "bail",
+        "CrPC",
+        "fir",
         "offence",
         "acquittal",
-        "fir",
-        "CrPC",
-        "accused",
-        "conviction",
-        "custody",
-        "sentence",
         "Indian Penal Code",
+        "conviction",
+        "accused",
         "Code of Criminal Procedure",
         "quashing",
-        "IPC"
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": [
-        "promotion",
         "Writ Petition",
-        "suspension"
+        "suspension",
+        "promotion"
       ]
     }
   },

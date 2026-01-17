@@ -2,8 +2,8 @@
   "judgment_id": "IN-UNK-UNK-2026-CV-A1377E",
   "metadata": {
     "court": "In The Court Of Dr",
-    "court_level": "DISTRICT",
-    "case_number": null,
+    "court_level": "TRIBUNAL/LOWER",
+    "case_number": "MAHAVIR HOSPITAL WHERE HE COLLECTED MLC NO. 1001/11",
     "decision_date": "30 JANUARY, 2012",
     "jurisdiction": "India"
   },
@@ -310,14 +310,14 @@
     "signals": {
       "criminal": [
         "bail",
-        "offence",
         "fir",
-        "accused",
-        "custody",
-        "sentence",
+        "offence",
         "Indian Penal Code",
+        "sentence",
+        "accused",
         "Code of Criminal Procedure",
-        "IPC"
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": []

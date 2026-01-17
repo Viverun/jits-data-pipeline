@@ -6145,11 +6145,11 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "promotion",
         "regularization",
-        "Service Rules",
         "Writ Petition",
-        "seniority"
+        "promotion",
+        "seniority",
+        "Service Rules"
       ]
     }
   }

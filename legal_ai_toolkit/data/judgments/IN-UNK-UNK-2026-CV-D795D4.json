@@ -3366,15 +3366,15 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "offence",
-        "fir",
-        "accused",
-        "CrPC",
-        "conviction",
-        "custody",
         "sentence",
+        "fir",
+        "CrPC",
+        "offence",
         "Indian Penal Code",
-        "IPC"
+        "conviction",
+        "accused",
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": []

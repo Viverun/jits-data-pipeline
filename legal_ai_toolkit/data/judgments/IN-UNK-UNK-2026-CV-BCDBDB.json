@@ -2,8 +2,8 @@
   "judgment_id": "IN-UNK-UNK-2026-CV-BCDBDB",
   "metadata": {
     "court": "In The Court Of Sh",
-    "court_level": "DISTRICT",
-    "case_number": null,
+    "court_level": "TRIBUNAL/LOWER",
+    "case_number": "MA ETC.  FIR NO.121/08 PAGE NO. 1",
     "decision_date": "31 AUGUST, 2012",
     "jurisdiction": "India"
   },
@@ -6562,15 +6562,15 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "sentence",
+        "fir",
         "bail",
         "offence",
         "acquittal",
-        "fir",
-        "accused",
-        "conviction",
-        "sentence",
         "Indian Penal Code",
         "NDPS",
+        "conviction",
+        "accused",
         "IPC"
       ],
       "civil": [],

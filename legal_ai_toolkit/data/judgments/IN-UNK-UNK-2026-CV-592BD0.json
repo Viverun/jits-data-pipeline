@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Calcutta High Court",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MATRIMONIAL SUIT NO.66",
     "decision_date": "18 JULY, 2008",
     "jurisdiction": "India"
   },
@@ -1383,13 +1383,13 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "bail",
         "Indian Penal Code",
-        "accused"
+        "accused",
+        "bail"
       ],
       "civil": [
-        "suit",
-        "decree"
+        "decree",
+        "suit"
       ],
       "service": []
     }

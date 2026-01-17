@@ -779,13 +779,13 @@
     "signals": {
       "criminal": [
         "bail",
+        "fir",
         "offence",
         "acquittal",
-        "fir",
-        "accused",
-        "custody",
         "Indian Penal Code",
-        "Code of Criminal Procedure"
+        "accused",
+        "Code of Criminal Procedure",
+        "custody"
       ],
       "civil": [
         "Hindu Marriage Act",

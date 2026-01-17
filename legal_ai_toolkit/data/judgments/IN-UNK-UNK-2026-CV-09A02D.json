@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Himachal Pradesh High Court",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MATTERS   CWP NO.962 OF 2023 A/W CWP NO.5945",
     "decision_date": "12 MAY, 2023",
     "jurisdiction": "India"
   },
@@ -37340,24 +37340,24 @@
         "bail",
         "offence",
         "accused",
-        "conviction",
-        "sentence"
+        "sentence",
+        "conviction"
       ],
       "civil": [
-        "suit",
+        "CPC",
         "decree",
-        "CPC"
+        "suit"
       ],
       "service": [
-        "promotion",
-        "regularization",
-        "Writ Petition",
-        "suspension",
         "retiral",
+        "regularization",
         "pension",
+        "DPC",
         "back wages",
+        "promotion",
         "seniority",
-        "DPC"
+        "Writ Petition",
+        "suspension"
       ]
     }
   }

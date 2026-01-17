@@ -2,7 +2,7 @@
   "judgment_id": "IN-UNK-UNK-2026-CV-026FAF",
   "metadata": {
     "court": "In The Court Of The Lxxiv Addl",
-    "court_level": "DISTRICT",
+    "court_level": "TRIBUNAL/LOWER",
     "case_number": "CIVIL AND SESSIONS JUDGE, BENGALURU.   A.S. NO.25003/2023",
     "decision_date": "21 SEPTEMBER, 2024",
     "jurisdiction": "India"
@@ -10352,12 +10352,12 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "arbitration",
         "defendant",
-        "injunction",
-        "suit",
         "plaintiff",
-        "Arbitration"
+        "Arbitration",
+        "arbitration",
+        "suit",
+        "injunction"
       ],
       "service": [
         "Writ Petition"

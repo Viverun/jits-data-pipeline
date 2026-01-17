@@ -1,8 +1,8 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-6A097B",
   "metadata": {
-    "court": null,
-    "court_level": null,
+    "court": "UNKNOWN",
+    "court_level": "UNKNOWN",
     "case_number": "WRIT PETITION NO. 172",
     "decision_date": "23 SEPTEMBER, 1994",
     "jurisdiction": "India"
@@ -580,8 +580,8 @@
         "Specific Relief"
       ],
       "service": [
-        "promotion",
         "seniority",
+        "promotion",
         "Writ Petition",
         "Article 16"
       ]

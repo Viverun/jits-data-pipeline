@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Punjab And Haryana  At Chandigarh",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "9 MARCH, 2022",
     "jurisdiction": "India"
   },
@@ -867,11 +867,11 @@
     "signals": {
       "criminal": [
         "bail",
+        "fir",
         "offence",
         "acquittal",
-        "fir",
-        "accused",
         "conviction",
+        "accused",
         "Code of Criminal Procedure",
         "quashing",
         "IPC"

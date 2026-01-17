@@ -998,17 +998,17 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "fir",
         "bail",
-        "offence",
         "IPC",
-        "fir"
+        "offence"
       ],
       "civil": [
         "defendant",
-        "suit",
-        "Hindu Marriage Act",
         "decree",
-        "plaintiff"
+        "plaintiff",
+        "Hindu Marriage Act",
+        "suit"
       ],
       "service": []
     }

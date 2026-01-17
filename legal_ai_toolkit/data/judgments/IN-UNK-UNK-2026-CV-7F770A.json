@@ -1,9 +1,9 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-7F770A",
   "metadata": {
-    "court": "Madras High Court",
-    "court_level": "HC",
-    "case_number": null,
+    "court": "Supreme Court Of India",
+    "court_level": "SC",
+    "case_number": "MANIAM  W.P.(MD) NO.16398",
     "decision_date": "5 MARCH, 2018",
     "jurisdiction": "India"
   },
@@ -3477,10 +3477,10 @@
       "service": [
         "daily wage",
         "regularization",
-        "Writ Petition",
-        "Article 16",
         "Umadevi",
-        "seniority"
+        "seniority",
+        "Writ Petition",
+        "Article 16"
       ]
     }
   }

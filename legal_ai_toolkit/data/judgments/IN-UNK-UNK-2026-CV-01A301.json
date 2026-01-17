@@ -2,7 +2,7 @@
   "judgment_id": "IN-UNK-UNK-2026-CV-01A301",
   "metadata": {
     "court": "In The Court Of The Xi Addl",
-    "court_level": "DISTRICT",
+    "court_level": "TRIBUNAL/LOWER",
     "case_number": "CIVIL JUDGE, B'LORE CITY.   O.S.NO.7080",
     "decision_date": "29 FEBRUARY, 2016",
     "jurisdiction": "India"
@@ -706,12 +706,12 @@
       ],
       "civil": [
         "defendant",
-        "Specific Relief",
-        "suit",
-        "Hindu Marriage Act",
         "decree",
+        "Specific Relief",
         "plaintiff",
-        "Limitation Act"
+        "Limitation Act",
+        "Hindu Marriage Act",
+        "suit"
       ],
       "service": []
     }

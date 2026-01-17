@@ -2,8 +2,8 @@
   "judgment_id": "IN-UNK-UNK-2026-CV-27ACCB",
   "metadata": {
     "court": "District Court",
-    "court_level": "DISTRICT",
-    "case_number": null,
+    "court_level": "TRIBUNAL/LOWER",
+    "case_number": "UNKNOWN",
     "decision_date": "5 SEPTEMBER, 2018",
     "jurisdiction": "India"
   },
@@ -501,9 +501,9 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "fir",
         "bail",
         "offence",
-        "fir",
         "accused",
         "IPC"
       ],

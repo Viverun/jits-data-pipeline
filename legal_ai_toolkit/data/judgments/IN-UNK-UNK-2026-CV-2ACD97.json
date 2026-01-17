@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Supreme Court Of India",
     "court_level": "SC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "5 MARCH, 1982",
     "jurisdiction": "India"
   },
@@ -508,8 +508,8 @@
       ],
       "civil": [],
       "service": [
-        "promotion",
         "seniority",
+        "promotion",
         "Writ Petition",
         "Article 16"
       ]

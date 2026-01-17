@@ -1360,16 +1360,16 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "sentence",
+        "Arms Act",
+        "CrPC",
+        "fir",
         "offence",
         "acquittal",
-        "fir",
-        "CrPC",
-        "accused",
-        "conviction",
-        "sentence",
         "Indian Penal Code",
+        "conviction",
+        "accused",
         "Code of Criminal Procedure",
-        "Arms Act",
         "quashing",
         "IPC"
       ],

@@ -4075,11 +4075,11 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "offence",
         "fir",
-        "accused",
-        "sentence",
+        "offence",
         "Indian Penal Code",
+        "sentence",
+        "accused",
         "Code of Criminal Procedure",
         "quashing",
         "IPC"

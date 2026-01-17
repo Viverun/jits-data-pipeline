@@ -344,9 +344,9 @@
     "signals": {
       "criminal": [
         "bail",
-        "offence",
-        "fir",
         "CrPC",
+        "fir",
+        "offence",
         "accused",
         "Code of Criminal Procedure",
         "IPC"

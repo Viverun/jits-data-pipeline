@@ -2114,9 +2114,9 @@
       ],
       "civil": [],
       "service": [
-        "promotion",
         "seniority",
-        "DPC"
+        "DPC",
+        "promotion"
       ]
     }
   }

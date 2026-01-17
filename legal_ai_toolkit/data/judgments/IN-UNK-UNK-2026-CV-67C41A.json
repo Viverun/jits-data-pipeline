@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Madhya Pradesh High Court",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MADHYA PRADESH HAS PREFERRED CR. A. NO. 704/92",
     "decision_date": "15 NOVEMBER, 2006",
     "jurisdiction": "India"
   },
@@ -255,8 +255,8 @@
         "offence",
         "acquittal",
         "accused",
-        "conviction",
         "sentence",
+        "conviction",
         "IPC"
       ],
       "civil": [],

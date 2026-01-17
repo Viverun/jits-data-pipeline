@@ -220,10 +220,10 @@
     "signals": {
       "criminal": [
         "bail",
-        "offence",
         "fir",
-        "accused",
         "POCSO",
+        "offence",
+        "accused",
         "IPC"
       ],
       "civil": [],

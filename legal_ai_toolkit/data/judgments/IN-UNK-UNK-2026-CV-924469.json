@@ -262,9 +262,9 @@
     "signals": {
       "criminal": [
         "bail",
-        "custody",
+        "POCSO",
         "IPC",
-        "POCSO"
+        "custody"
       ],
       "civil": [],
       "service": []

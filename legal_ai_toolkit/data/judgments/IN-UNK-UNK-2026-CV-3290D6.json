@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Delhi At New Delhi",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "2 FEBRUARY, 2023",
     "jurisdiction": "India"
   },
@@ -1123,16 +1123,16 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "specific performance",
-        "defendant",
         "CPC",
-        "Transfer of Property",
-        "Specific Relief",
-        "injunction",
-        "suit",
-        "Code of Civil Procedure",
+        "defendant",
         "decree",
-        "plaintiff"
+        "Specific Relief",
+        "Transfer of Property",
+        "plaintiff",
+        "suit",
+        "specific performance",
+        "injunction",
+        "Code of Civil Procedure"
       ],
       "service": [
         "regularization"

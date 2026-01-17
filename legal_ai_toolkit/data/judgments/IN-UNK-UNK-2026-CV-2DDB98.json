@@ -2,8 +2,8 @@
   "judgment_id": "IN-UNK-UNK-2026-CV-2DDB98",
   "metadata": {
     "court": "In The Court Of The Xvi Addl",
-    "court_level": "DISTRICT",
-    "case_number": null,
+    "court_level": "TRIBUNAL/LOWER",
+    "case_number": "UNKNOWN",
     "decision_date": "23 APRIL, 2025",
     "jurisdiction": "India"
   },
@@ -7634,16 +7634,16 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "defendant",
         "CPC",
-        "Transfer of Property",
-        "Specific Relief",
-        "injunction",
-        "suit",
-        "Code of Civil Procedure",
+        "defendant",
         "decree",
+        "Specific Relief",
+        "Transfer of Property",
         "plaintiff",
-        "Limitation Act"
+        "Limitation Act",
+        "suit",
+        "injunction",
+        "Code of Civil Procedure"
       ],
       "service": [
         "Writ Petition"

@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Madhya Pradesh  M",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MADHYA PRADESH  M.CR.C. NO.42371/2019",
     "decision_date": "18 OCTOBER, 2019",
     "jurisdiction": "India"
   },
@@ -411,10 +411,10 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "accused",
         "bail",
-        "offence",
         "IPC",
-        "accused"
+        "offence"
       ],
       "civil": [],
       "service": []

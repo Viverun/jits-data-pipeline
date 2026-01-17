@@ -700,10 +700,10 @@
       "criminal": [],
       "civil": [
         "defendant",
-        "injunction",
-        "suit",
         "decree",
-        "plaintiff"
+        "plaintiff",
+        "suit",
+        "injunction"
       ],
       "service": []
     }

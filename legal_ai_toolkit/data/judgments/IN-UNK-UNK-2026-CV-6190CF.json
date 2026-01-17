@@ -1,9 +1,9 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-6190CF",
   "metadata": {
-    "court": null,
-    "court_level": null,
-    "case_number": null,
+    "court": "UNKNOWN",
+    "court_level": "UNKNOWN",
+    "case_number": "UNKNOWN",
     "decision_date": "1 OCTOBER, 2015",
     "jurisdiction": "India"
   },
@@ -425,20 +425,20 @@
     "signals": {
       "criminal": [
         "Indian Penal Code",
-        "offence",
-        "Code of Criminal Procedure"
+        "Code of Criminal Procedure",
+        "offence"
       ],
       "civil": [
-        "suit",
         "Limitation Act",
         "defendant",
-        "Code of Civil Procedure"
+        "Code of Civil Procedure",
+        "suit"
       ],
       "service": [
-        "pension",
-        "Writ Petition",
         "Payment of Gratuity",
-        "regularization"
+        "regularization",
+        "Writ Petition",
+        "pension"
       ]
     }
   }

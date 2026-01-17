@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Delhi At New Delhi",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "O.A. NO. 2980/1997",
     "decision_date": "14 MAY, 2012",
     "jurisdiction": "India"
   },
@@ -2282,11 +2282,11 @@
       "criminal": [],
       "civil": [],
       "service": [
+        "DPC",
         "promotion",
-        "Writ Petition",
-        "Article 16",
         "seniority",
-        "DPC"
+        "Writ Petition",
+        "Article 16"
       ]
     }
   }

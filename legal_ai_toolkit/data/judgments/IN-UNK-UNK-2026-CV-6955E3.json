@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Supreme Court Of India",
     "court_level": "SC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "19 NOVEMBER, 1979",
     "jurisdiction": "India"
   },
@@ -2390,21 +2390,21 @@
         "accused"
       ],
       "civil": [
-        "arbitration",
-        "suit",
-        "Code of Civil Procedure",
         "decree",
-        "Arbitration"
+        "arbitration",
+        "Arbitration",
+        "suit",
+        "Code of Civil Procedure"
       ],
       "service": [
-        "Article 311",
-        "Writ Petition",
-        "suspension",
-        "Industrial Disputes",
-        "retiral",
-        "back wages",
         "reinstatement",
-        "seniority"
+        "retiral",
+        "Industrial Disputes",
+        "back wages",
+        "Article 311",
+        "seniority",
+        "Writ Petition",
+        "suspension"
       ]
     }
   }

@@ -340,14 +340,14 @@
     "signals": {
       "criminal": [
         "bail",
-        "offence",
-        "fir",
         "CrPC",
-        "accused",
-        "custody",
         "POCSO",
+        "fir",
+        "offence",
+        "accused",
         "Code of Criminal Procedure",
-        "IPC"
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": []

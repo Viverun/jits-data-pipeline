@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Delhi At New Delhi",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MATION WAS RECEIVED VIDE DD NO.  87",
     "decision_date": "7 MARCH, 2024",
     "jurisdiction": "India"
   },
@@ -399,12 +399,12 @@
     "signals": {
       "criminal": [
         "bail",
-        "fir",
         "CrPC",
+        "fir",
         "accused",
-        "custody",
         "Code of Criminal Procedure",
-        "IPC"
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": []

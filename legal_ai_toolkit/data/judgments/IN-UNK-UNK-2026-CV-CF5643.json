@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Chhattisgarh",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "12 JULY, 2024",
     "jurisdiction": "India"
   },
@@ -1305,16 +1305,16 @@
         "quashing"
       ],
       "civil": [
-        "suit",
+        "defendant",
         "plaintiff",
-        "defendant"
+        "suit"
       ],
       "service": [
-        "promotion",
-        "Writ Petition",
         "pension",
+        "DPC",
+        "promotion",
         "seniority",
-        "DPC"
+        "Writ Petition"
       ]
     }
   }

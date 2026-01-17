@@ -1,9 +1,9 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-2C58EB",
   "metadata": {
-    "court": null,
-    "court_level": null,
-    "case_number": null,
+    "court": "Central Administrative Tribunal",
+    "court_level": "TRIBUNAL/LOWER",
+    "case_number": "OA NO.3963/2014",
     "decision_date": "15 NOVEMBER, 2016",
     "jurisdiction": "India"
   },
@@ -11498,22 +11498,22 @@
     "signals": {
       "criminal": [],
       "civil": [
+        "CPC",
         "Transfer of Property",
-        "Contract Act",
-        "CPC"
+        "Contract Act"
       ],
       "service": [
-        "promotion",
-        "Article 311",
-        "regularization",
-        "Service Rules",
+        "Pension Rules",
         "Fundamental Rules",
-        "suspension",
-        "Article 16",
+        "regularization",
         "Industrial Disputes",
         "pension",
+        "Article 311",
+        "promotion",
         "seniority",
-        "Pension Rules"
+        "Service Rules",
+        "suspension",
+        "Article 16"
       ]
     }
   }

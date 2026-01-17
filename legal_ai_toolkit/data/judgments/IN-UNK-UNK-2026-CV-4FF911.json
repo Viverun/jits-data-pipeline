@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature At Allahabad",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "APPEAL (CRL.) NO. 1781/2020",
     "decision_date": "19 DECEMBER, 2022",
     "jurisdiction": "India"
   },
@@ -184,13 +184,13 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "fir",
         "bail",
         "offence",
-        "fir",
-        "accused",
-        "custody",
         "Indian Penal Code",
-        "IPC"
+        "accused",
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": []

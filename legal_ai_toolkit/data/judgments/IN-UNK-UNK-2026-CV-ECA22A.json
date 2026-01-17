@@ -1,8 +1,8 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-ECA22A",
   "metadata": {
-    "court": "In The Court Of Lxxxii Addl",
-    "court_level": "DISTRICT",
+    "court": "High Court Of Karnataka",
+    "court_level": "HC",
     "case_number": "CIVIL & SESSIONS JUDGE,  BENGALURU.   COM.AS.NO.73/2011",
     "decision_date": "16 AUGUST, 2021",
     "jurisdiction": "India"
@@ -1931,14 +1931,14 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "arbitration",
         "defendant",
-        "Contract Act",
-        "injunction",
-        "suit",
         "plaintiff",
         "Limitation Act",
-        "Arbitration"
+        "Arbitration",
+        "arbitration",
+        "suit",
+        "Contract Act",
+        "injunction"
       ],
       "service": []
     }

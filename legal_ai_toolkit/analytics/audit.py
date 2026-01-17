@@ -24,6 +24,9 @@ class DataAuditor:
 
         empty_metadata = 0
         metadata_accurate_count = 0
+        missing_court = 0
+        missing_date = 0
+        missing_case_no = 0
         empty_annotations = 0
         landmark_coverage = 0
         domain_stats = Counter()
@@ -45,6 +48,13 @@ class DataAuditor:
                     metadata_accurate_count += 1
 
                 if not court or court == "UNKNOWN":
+                    missing_court += 1
+                if not date or date == "UNKNOWN":
+                    missing_date += 1
+                if not case_no or case_no == "UNKNOWN":
+                    missing_case_no += 1
+
+                if not court or court == "UNKNOWN":
                     empty_metadata += 1
 
                 anno = data.get("annotations", {})
@@ -58,8 +68,10 @@ class DataAuditor:
                 domain_stats[domain] += 1
 
         print(f"Total Cases: {total_cases}")
-        print(f"Empty Metadata: {empty_metadata}")
         print(f"Metadata Accuracy: {metadata_accurate_count} ({(metadata_accurate_count/total_cases*100):.1f}%)")
+        print(f"  - Missing Court: {missing_court}")
+        print(f"  - Missing Date: {missing_date}")
+        print(f"  - Missing Case No: {missing_case_no}")
         print(f"Empty Annotations: {empty_annotations}")
         print(f"Landmark Coverage: {landmark_coverage} ({landmark_coverage/total_cases*100:.1f}%)")
         print(f"Domains: {dict(domain_stats)}")

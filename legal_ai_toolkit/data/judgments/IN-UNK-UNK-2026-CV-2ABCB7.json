@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Orissa At Cuttack  Blapl No",
     "court_level": "HC",
-    "case_number": "CASE NO.488",
+    "case_number": "MALKANGIRI P.S. CASE NO.488",
     "decision_date": "30 AUGUST, 2024",
     "jurisdiction": "India"
   },
@@ -486,9 +486,9 @@
       "criminal": [
         "bail",
         "offence",
+        "NDPS",
         "accused",
-        "custody",
-        "NDPS"
+        "custody"
       ],
       "civil": [],
       "service": []

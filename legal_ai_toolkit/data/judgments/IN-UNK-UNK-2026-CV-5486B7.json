@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Delhi At New Delhi",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "9 JANUARY, 2023",
     "jurisdiction": "India"
   },
@@ -818,15 +818,15 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "specific performance",
-        "defendant",
         "CPC",
-        "Specific Relief",
-        "injunction",
-        "suit",
+        "defendant",
         "decree",
-        "Code of Civil Procedure",
-        "plaintiff"
+        "Specific Relief",
+        "plaintiff",
+        "suit",
+        "specific performance",
+        "injunction",
+        "Code of Civil Procedure"
       ],
       "service": []
     }

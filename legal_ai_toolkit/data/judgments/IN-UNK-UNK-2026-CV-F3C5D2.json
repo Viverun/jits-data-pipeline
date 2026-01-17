@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Haryana High Court",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "14 JANUARY, 2003",
     "jurisdiction": "India"
   },
@@ -526,10 +526,10 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "pension",
-        "promotion",
         "seniority",
-        "Writ Petition"
+        "Writ Petition",
+        "pension",
+        "promotion"
       ]
     }
   }

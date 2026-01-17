@@ -2769,17 +2769,17 @@
         "quashing"
       ],
       "civil": [
-        "suit",
+        "defendant",
         "plaintiff",
-        "defendant"
+        "suit"
       ],
       "service": [
-        "promotion",
-        "Service Rules",
         "Writ Petition",
+        "promotion",
+        "seniority",
+        "Service Rules",
         "suspension",
-        "Article 16",
-        "seniority"
+        "Article 16"
       ]
     }
   }

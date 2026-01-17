@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Delhi At New Delhi   Reserved On",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "CIVIL SUIT. 1/4TH SHARE  NO. 1",
     "decision_date": "15 FEBRUARY, 2023",
     "jurisdiction": "India"
   },
@@ -1620,13 +1620,13 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "defendant",
         "CPC",
-        "injunction",
-        "suit",
+        "defendant",
         "decree",
-        "Code of Civil Procedure",
-        "plaintiff"
+        "plaintiff",
+        "suit",
+        "injunction",
+        "Code of Civil Procedure"
       ],
       "service": []
     }

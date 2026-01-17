@@ -466,12 +466,12 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "bail",
+        "BNSS",
         "fir",
+        "bail",
         "accused",
-        "custody",
         "IPC",
-        "BNSS"
+        "custody"
       ],
       "civil": [],
       "service": []

@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature At Madras   Orders Reserved On",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "7 JULY, 2025",
     "jurisdiction": "India"
   },
@@ -2913,20 +2913,20 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "offence",
-        "fir",
-        "accused",
-        "conviction",
+        "BNSS",
         "sentence",
+        "fir",
+        "offence",
         "Indian Penal Code",
+        "conviction",
+        "accused",
         "Code of Criminal Procedure",
         "quashing",
-        "IPC",
-        "BNSS"
+        "IPC"
       ],
       "civil": [
-        "suit",
-        "decree"
+        "decree",
+        "suit"
       ],
       "service": []
     }

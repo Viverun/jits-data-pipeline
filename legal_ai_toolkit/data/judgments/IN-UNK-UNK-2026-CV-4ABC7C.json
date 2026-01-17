@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature At Madras",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MAR    T.O.S.NO.40 OF 1994 AND C.S.NO.673",
     "decision_date": "3 SEPTEMBER, 2010",
     "jurisdiction": "India"
   },
@@ -567,12 +567,12 @@
         "custody"
       ],
       "civil": [
-        "defendant",
         "CPC",
-        "Succession Act",
-        "suit",
+        "defendant",
         "decree",
-        "plaintiff"
+        "plaintiff",
+        "Succession Act",
+        "suit"
       ],
       "service": []
     }

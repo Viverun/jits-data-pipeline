@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature At Madras   Dated",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "5 APRIL, 2013",
     "jurisdiction": "India"
   },
@@ -2169,12 +2169,12 @@
       ],
       "civil": [],
       "service": [
-        "promotion",
-        "Service Rules",
         "Fundamental Rules",
-        "Writ Petition",
         "Service Law",
-        "seniority"
+        "Writ Petition",
+        "promotion",
+        "seniority",
+        "Service Rules"
       ]
     }
   }

@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Delhi At New Delhi",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "14 MARCH, 2023",
     "jurisdiction": "India"
   },
@@ -2490,21 +2490,21 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "custody",
-        "fir"
+        "fir",
+        "custody"
       ],
       "civil": [
-        "arbitration",
-        "specific performance",
-        "defendant",
         "CPC",
-        "Specific Relief",
-        "injunction",
-        "suit",
-        "Code of Civil Procedure",
+        "defendant",
         "decree",
+        "Specific Relief",
         "plaintiff",
-        "Arbitration"
+        "Arbitration",
+        "arbitration",
+        "suit",
+        "specific performance",
+        "injunction",
+        "Code of Civil Procedure"
       ],
       "service": []
     }

@@ -397,10 +397,10 @@
       "criminal": [
         "bail",
         "offence",
-        "accused",
-        "custody",
         "sentence",
-        "IPC"
+        "accused",
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": []

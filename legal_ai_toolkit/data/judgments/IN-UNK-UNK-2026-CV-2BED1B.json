@@ -2,8 +2,8 @@
   "judgment_id": "IN-UNK-UNK-2026-CV-2BED1B",
   "metadata": {
     "court": "In The Court Of The Viii Addl",
-    "court_level": "DISTRICT",
-    "case_number": null,
+    "court_level": "TRIBUNAL/LOWER",
+    "case_number": "UNKNOWN",
     "decision_date": "1 JULY, 2019",
     "jurisdiction": "India"
   },
@@ -421,10 +421,10 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "accused",
         "bail",
-        "offence",
         "IPC",
-        "accused"
+        "offence"
       ],
       "civil": [],
       "service": []

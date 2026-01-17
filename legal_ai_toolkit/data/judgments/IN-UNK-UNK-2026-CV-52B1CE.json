@@ -360,14 +360,14 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "BNSS",
         "bail",
-        "offence",
         "fir",
         "CrPC",
+        "offence",
         "accused",
-        "custody",
         "IPC",
-        "BNSS"
+        "custody"
       ],
       "civil": [],
       "service": []

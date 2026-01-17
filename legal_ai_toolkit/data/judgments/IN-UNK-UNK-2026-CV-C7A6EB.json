@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Delhi At New Delhi  Reserved On",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "26 NOVEMBER, 2025",
     "jurisdiction": "India"
   },
@@ -572,16 +572,16 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "BNSS",
         "bail",
-        "offence",
         "fir",
-        "accused",
-        "conviction",
-        "custody",
+        "offence",
         "Indian Penal Code",
+        "conviction",
+        "accused",
         "Code of Criminal Procedure",
         "IPC",
-        "BNSS"
+        "custody"
       ],
       "civil": [],
       "service": []

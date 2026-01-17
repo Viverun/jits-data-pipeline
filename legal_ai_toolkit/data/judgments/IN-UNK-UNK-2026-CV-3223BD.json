@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Himachal Pradesh",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MACHAL PRADESH, SHIMLA   CWP NO.1721",
     "decision_date": "26 JUNE, 2020",
     "jurisdiction": "India"
   },
@@ -1210,9 +1210,9 @@
     "signals": {
       "criminal": [
         "sentence",
-        "offence",
+        "conviction",
         "IPC",
-        "conviction"
+        "offence"
       ],
       "civil": [],
       "service": [

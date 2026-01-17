@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Madras High Court",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "26 JULY, 2018",
     "jurisdiction": "India"
   },
@@ -1306,11 +1306,11 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "promotion",
-        "Writ Petition",
+        "Pension Rules",
         "retiral",
         "pension",
-        "Pension Rules"
+        "promotion",
+        "Writ Petition"
       ]
     }
   }

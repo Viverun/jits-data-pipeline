@@ -4063,15 +4063,15 @@
         "sentence"
       ],
       "civil": [
-        "specific performance",
         "defendant",
-        "Specific Relief",
-        "injunction",
-        "suit",
         "decree",
-        "Code of Civil Procedure",
+        "Specific Relief",
         "plaintiff",
-        "Limitation Act"
+        "Limitation Act",
+        "suit",
+        "specific performance",
+        "injunction",
+        "Code of Civil Procedure"
       ],
       "service": []
     }

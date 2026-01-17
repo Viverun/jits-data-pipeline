@@ -400,12 +400,12 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "fir",
         "bail",
         "offence",
         "acquittal",
-        "fir",
-        "accused",
         "conviction",
+        "accused",
         "IPC"
       ],
       "civil": [],

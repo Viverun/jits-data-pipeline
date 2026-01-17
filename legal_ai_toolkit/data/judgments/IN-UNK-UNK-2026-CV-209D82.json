@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Madras High Court",
     "court_level": "HC",
-    "case_number": "APPEAL IN C.A.NO.91",
+    "case_number": "MAGISTRATE, CHENNAI, IN C.C.NO.11007",
     "decision_date": "15 APRIL, 2004",
     "jurisdiction": "India"
   },
@@ -101,10 +101,10 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "sentence",
-        "bail",
+        "conviction",
         "accused",
-        "conviction"
+        "bail",
+        "sentence"
       ],
       "civil": [
         "Hindu Marriage Act",

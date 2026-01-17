@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature At Allahabad      Court No",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "CRIMINAL CASE NO.926",
     "decision_date": "21 MAY, 2018",
     "jurisdiction": "India"
   },
@@ -623,22 +623,22 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "fir",
         "bail",
         "offence",
-        "fir",
-        "accused",
-        "custody",
         "Indian Penal Code",
+        "accused",
         "quashing",
-        "IPC"
+        "IPC",
+        "custody"
       ],
       "civil": [
         "Hindu Marriage Act",
         "decree"
       ],
       "service": [
-        "Writ Petition",
-        "Service Rules"
+        "Service Rules",
+        "Writ Petition"
       ]
     }
   }

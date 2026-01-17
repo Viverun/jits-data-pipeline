@@ -1896,14 +1896,14 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "bail",
         "Indian Penal Code",
+        "bail",
         "offence",
         "custody"
       ],
       "civil": [
-        "suit",
-        "injunction"
+        "injunction",
+        "suit"
       ],
       "service": [
         "Writ Petition"

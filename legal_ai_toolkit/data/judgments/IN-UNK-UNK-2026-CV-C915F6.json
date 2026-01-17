@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Madhya Pradesh   Mcrc",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MATERIAL AVAILABLE ON RECORD, NO",
     "decision_date": "5 DECEMBER, 2020",
     "jurisdiction": "India"
   },
@@ -496,11 +496,11 @@
     "signals": {
       "criminal": [
         "bail",
+        "CrPC",
         "offence",
         "accused",
-        "CrPC",
-        "custody",
-        "IPC"
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": []

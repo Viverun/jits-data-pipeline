@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Delhi At New Delhi  Date Of Decision",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "17 NOVEMBER, 2020",
     "jurisdiction": "India"
   },
@@ -1446,9 +1446,9 @@
         "fir"
       ],
       "civil": [
-        "suit",
         "arbitration",
-        "Arbitration"
+        "Arbitration",
+        "suit"
       ],
       "service": []
     }

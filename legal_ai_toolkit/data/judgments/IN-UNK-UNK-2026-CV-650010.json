@@ -422,12 +422,12 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "fir",
         "bail",
         "offence",
-        "fir",
+        "Indian Penal Code",
         "accused",
-        "custody",
-        "Indian Penal Code"
+        "custody"
       ],
       "civil": [],
       "service": []

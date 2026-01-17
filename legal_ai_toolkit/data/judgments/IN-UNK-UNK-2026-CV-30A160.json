@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Punjab And Haryana At  Chandigarh   Cwp No",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MALIK, ADVOCATE FOR RESPONDENTS NO.1",
     "decision_date": "3 SEPTEMBER, 2013",
     "jurisdiction": "India"
   },
@@ -2775,14 +2775,14 @@
     "confidence": "medium",
     "signals": {
       "criminal": [
-        "quashing",
-        "sentence"
+        "sentence",
+        "quashing"
       ],
       "civil": [],
       "service": [
         "retiral",
-        "pension",
-        "Writ Petition"
+        "Writ Petition",
+        "pension"
       ]
     }
   }

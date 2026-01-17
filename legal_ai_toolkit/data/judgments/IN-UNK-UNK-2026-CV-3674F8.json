@@ -2659,17 +2659,17 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "sentence",
         "bail",
         "offence",
         "acquittal",
-        "accused",
-        "conviction",
-        "custody",
-        "sentence",
         "Indian Penal Code",
+        "conviction",
+        "accused",
         "Code of Criminal Procedure",
         "quashing",
-        "IPC"
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": [

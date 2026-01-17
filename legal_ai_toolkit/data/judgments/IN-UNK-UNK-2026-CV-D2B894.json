@@ -1,8 +1,8 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-D2B894",
   "metadata": {
-    "court": null,
-    "court_level": null,
+    "court": "Central Administrative Tribunal",
+    "court_level": "TRIBUNAL/LOWER",
     "case_number": "CIVIL CONTEMPT PETITION NO. 157",
     "decision_date": "6 NOVEMBER, 2023",
     "jurisdiction": "India"
@@ -1387,8 +1387,8 @@
       "civil": [],
       "service": [
         "promotion",
-        "back wages",
         "Writ Petition",
+        "back wages",
         "Article 16"
       ]
     }

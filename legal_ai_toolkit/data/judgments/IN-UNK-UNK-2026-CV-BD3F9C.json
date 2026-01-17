@@ -7161,18 +7161,18 @@
         "suit"
       ],
       "service": [
-        "promotion",
         "daily wage",
-        "regularization",
-        "Service Rules",
-        "Writ Petition",
-        "Industrial Disputes",
         "retiral",
+        "regularization",
+        "Industrial Disputes",
         "pension",
-        "back wages",
-        "reinstatement",
+        "Writ Petition",
         "Umadevi",
-        "seniority"
+        "back wages",
+        "promotion",
+        "seniority",
+        "Service Rules",
+        "reinstatement"
       ]
     }
   }

@@ -1,9 +1,9 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-DE567F",
   "metadata": {
-    "court": null,
-    "court_level": null,
-    "case_number": null,
+    "court": "Central Administrative Tribunal",
+    "court_level": "TRIBUNAL/LOWER",
+    "case_number": "OA NO. 1549/2025",
     "decision_date": "19 SEPTEMBER, 2025",
     "jurisdiction": "India"
   },
@@ -2064,17 +2064,17 @@
         "quashing"
       ],
       "civil": [
-        "suit",
-        "CPC"
+        "CPC",
+        "suit"
       ],
       "service": [
         "daily wage",
         "regularization",
-        "Writ Petition",
-        "Payment of Gratuity",
-        "Article 16",
         "pension",
-        "Umadevi"
+        "Umadevi",
+        "Payment of Gratuity",
+        "Writ Petition",
+        "Article 16"
       ]
     }
   }

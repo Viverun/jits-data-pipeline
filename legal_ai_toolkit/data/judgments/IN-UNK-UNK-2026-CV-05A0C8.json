@@ -374,8 +374,8 @@
         "bail",
         "offence",
         "accused",
-        "custody",
-        "IPC"
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": []

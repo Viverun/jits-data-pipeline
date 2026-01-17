@@ -252,11 +252,11 @@
     "signals": {
       "criminal": [
         "bail",
-        "offence",
         "fir",
-        "accused",
         "CrPC",
-        "sentence"
+        "offence",
+        "sentence",
+        "accused"
       ],
       "civil": [],
       "service": []

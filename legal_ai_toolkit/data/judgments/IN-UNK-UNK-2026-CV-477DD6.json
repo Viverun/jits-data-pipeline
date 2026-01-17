@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature At Madras Judgment Reserved On",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MA.NO.987",
     "decision_date": "13 OCTOBER, 2017",
     "jurisdiction": "India"
   },
@@ -394,10 +394,10 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "bail",
-        "IPC",
+        "accused",
         "fir",
-        "accused"
+        "bail",
+        "IPC"
       ],
       "civil": [
         "Hindu Marriage Act"

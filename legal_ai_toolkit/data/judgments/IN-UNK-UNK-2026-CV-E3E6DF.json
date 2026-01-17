@@ -472,18 +472,18 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "offence",
         "fir",
-        "accused",
-        "conviction",
+        "offence",
         "Indian Penal Code",
+        "conviction",
+        "accused",
         "quashing",
         "IPC"
       ],
       "civil": [
-        "suit",
         "Hindu Marriage Act",
-        "decree"
+        "decree",
+        "suit"
       ],
       "service": []
     }

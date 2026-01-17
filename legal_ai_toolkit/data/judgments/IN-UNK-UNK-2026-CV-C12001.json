@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Supreme Court Of India",
     "court_level": "SC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "28 FEBRUARY, 1994",
     "jurisdiction": "India"
   },
@@ -256,8 +256,8 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "pension",
-        "Payment of Gratuity"
+        "Payment of Gratuity",
+        "pension"
       ]
     }
   }

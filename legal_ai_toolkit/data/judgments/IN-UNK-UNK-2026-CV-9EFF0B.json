@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature At Madras Dated",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MADE IN A.S.NO.117",
     "decision_date": "9 APRIL, 2012",
     "jurisdiction": "India"
   },
@@ -851,11 +851,11 @@
       ],
       "civil": [
         "defendant",
-        "Transfer of Property",
+        "decree",
+        "plaintiff",
         "Succession Act",
         "suit",
-        "decree",
-        "plaintiff"
+        "Transfer of Property"
       ],
       "service": []
     }

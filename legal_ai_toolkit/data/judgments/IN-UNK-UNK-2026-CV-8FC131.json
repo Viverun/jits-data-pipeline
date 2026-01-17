@@ -2182,16 +2182,16 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "specific performance",
-        "defendant",
         "CPC",
-        "Transfer of Property",
-        "Specific Relief",
-        "injunction",
-        "suit",
-        "Code of Civil Procedure",
+        "defendant",
         "decree",
-        "plaintiff"
+        "Specific Relief",
+        "Transfer of Property",
+        "plaintiff",
+        "suit",
+        "specific performance",
+        "injunction",
+        "Code of Civil Procedure"
       ],
       "service": []
     }

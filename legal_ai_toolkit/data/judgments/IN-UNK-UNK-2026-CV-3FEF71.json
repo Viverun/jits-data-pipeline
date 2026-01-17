@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Delhi At New Delhi   Date Of Decision",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "17 JULY, 2013",
     "jurisdiction": "India"
   },
@@ -648,8 +648,8 @@
       "civil": [],
       "service": [
         "Industrial Disputes",
-        "pension",
-        "Writ Petition"
+        "Writ Petition",
+        "pension"
       ]
     }
   }

@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature At Madras  Dated",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MADRAS HIGH COURT  OLD NO.157",
     "decision_date": "5 JANUARY, 2011",
     "jurisdiction": "India"
   },
@@ -2752,11 +2752,11 @@
       ],
       "civil": [],
       "service": [
-        "promotion",
-        "Writ Petition",
         "suspension",
-        "reinstatement",
-        "seniority"
+        "promotion",
+        "seniority",
+        "Writ Petition",
+        "reinstatement"
       ]
     }
   }

@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Kerala At Ernakulam   Present   The Honourable Mr",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "24 SEPTEMBER, 2024",
     "jurisdiction": "India"
   },
@@ -4277,14 +4277,14 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "BNSS",
         "bail",
         "offence",
-        "accused",
-        "conviction",
-        "custody",
         "Indian Penal Code",
+        "conviction",
+        "accused",
         "IPC",
-        "BNSS"
+        "custody"
       ],
       "civil": [],
       "service": []

@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Himachal Pradesh",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "OA NO.3337",
     "decision_date": "5 DECEMBER, 2024",
     "jurisdiction": "India"
   },
@@ -1526,18 +1526,18 @@
       "criminal": [],
       "civil": [
         "defendant",
-        "injunction",
-        "suit",
         "decree",
-        "plaintiff"
+        "plaintiff",
+        "suit",
+        "injunction"
       ],
       "service": [
-        "promotion",
         "regularization",
-        "Service Rules",
         "Writ Petition",
+        "DPC",
+        "promotion",
         "seniority",
-        "DPC"
+        "Service Rules"
       ]
     }
   }

@@ -322,8 +322,8 @@
     "signals": {
       "criminal": [
         "bail",
-        "offence",
         "acquittal",
+        "offence",
         "accused",
         "conviction"
       ],

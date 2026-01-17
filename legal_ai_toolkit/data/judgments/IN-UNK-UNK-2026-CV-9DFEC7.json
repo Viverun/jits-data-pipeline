@@ -10603,18 +10603,18 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "sentence",
+        "CrPC",
+        "fir",
+        "POCSO",
         "offence",
         "acquittal",
-        "fir",
-        "CrPC",
-        "accused",
-        "conviction",
-        "custody",
-        "sentence",
-        "POCSO",
         "Indian Penal Code",
+        "conviction",
+        "accused",
         "Code of Criminal Procedure",
-        "IPC"
+        "IPC",
+        "custody"
       ],
       "civil": [
         "defendant",

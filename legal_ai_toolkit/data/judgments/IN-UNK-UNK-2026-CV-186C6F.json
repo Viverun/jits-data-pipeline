@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Gujarat At Ahmedabad   Criminal Misc",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MANT­RESPONDENT   NO.2",
     "decision_date": "8 JANUARY, 2016",
     "jurisdiction": "India"
   },
@@ -350,10 +350,10 @@
     "confidence": "medium",
     "signals": {
       "criminal": [
-        "quashing",
-        "offence",
+        "accused",
         "fir",
-        "accused"
+        "quashing",
+        "offence"
       ],
       "civil": [],
       "service": []

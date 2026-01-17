@@ -171,10 +171,10 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "bail",
         "NDPS",
-        "offence",
-        "accused"
+        "accused",
+        "bail",
+        "offence"
       ],
       "civil": [],
       "service": []

@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature At Madras   Dated",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MAHADEVAN ,  MOHAMMED SHAFFIQ   WA. NO. 313",
     "decision_date": "2 JUNE, 2023",
     "jurisdiction": "India"
   },
@@ -9988,22 +9988,22 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "quashing",
-        "sentence"
+        "sentence",
+        "quashing"
       ],
       "civil": [
         "injunction"
       ],
       "service": [
-        "promotion",
-        "Article 311",
-        "Service Rules",
-        "Writ Petition",
-        "Article 16",
         "Service Law",
         "pension",
         "Umadevi",
-        "seniority"
+        "Writ Petition",
+        "Article 311",
+        "promotion",
+        "seniority",
+        "Service Rules",
+        "Article 16"
       ]
     }
   }

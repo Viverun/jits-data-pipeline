@@ -4547,16 +4547,16 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "offence",
-        "sentence"
+        "sentence",
+        "offence"
       ],
       "civil": [],
       "service": [
-        "promotion",
-        "Article 311",
-        "Service Rules",
         "Writ Petition",
-        "seniority"
+        "Article 311",
+        "promotion",
+        "seniority",
+        "Service Rules"
       ]
     }
   }

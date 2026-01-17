@@ -1295,11 +1295,11 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "arbitration",
         "CPC",
-        "Contract Act",
+        "arbitration",
+        "Arbitration",
         "suit",
-        "Arbitration"
+        "Contract Act"
       ],
       "service": [
         "DPC"

@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Bombay High Court",
     "court_level": "HC",
-    "case_number": "CASE NO. 878",
+    "case_number": "MADE UNDER SECTION 498-A AS THERE IS NO",
     "decision_date": "17 NOVEMBER, 1999",
     "jurisdiction": "India"
   },
@@ -153,11 +153,11 @@
     "signals": {
       "criminal": [
         "bail",
-        "offence",
         "acquittal",
+        "offence",
         "accused",
-        "conviction",
-        "sentence"
+        "sentence",
+        "conviction"
       ],
       "civil": [],
       "service": []

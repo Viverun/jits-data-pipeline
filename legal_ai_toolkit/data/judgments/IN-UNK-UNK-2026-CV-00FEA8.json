@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Calcutta High Court",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "16 MAY, 2008",
     "jurisdiction": "India"
   },
@@ -1635,9 +1635,9 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "promotion",
         "seniority",
-        "Writ Petition"
+        "Writ Petition",
+        "promotion"
       ]
     }
   }

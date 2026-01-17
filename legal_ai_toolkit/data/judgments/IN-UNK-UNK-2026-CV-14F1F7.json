@@ -1,9 +1,9 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-14F1F7",
   "metadata": {
-    "court": null,
-    "court_level": null,
-    "case_number": null,
+    "court": "Central Administrative Tribunal",
+    "court_level": "TRIBUNAL/LOWER",
+    "case_number": "O.A.NO. 260/00091",
     "decision_date": "8 JULY, 2022",
     "jurisdiction": "India"
   },
@@ -796,9 +796,9 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "promotion",
         "seniority",
-        "DPC"
+        "DPC",
+        "promotion"
       ]
     }
   }

@@ -3700,13 +3700,13 @@
         "sentence"
       ],
       "civil": [
-        "arbitration",
         "CPC",
-        "suit",
         "decree",
-        "Code of Civil Procedure",
         "plaintiff",
-        "Arbitration"
+        "Arbitration",
+        "arbitration",
+        "suit",
+        "Code of Civil Procedure"
       ],
       "service": []
     }

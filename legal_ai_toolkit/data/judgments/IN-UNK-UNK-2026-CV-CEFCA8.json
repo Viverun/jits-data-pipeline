@@ -996,9 +996,9 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "promotion",
         "seniority",
-        "Writ Petition"
+        "Writ Petition",
+        "promotion"
       ]
     }
   }

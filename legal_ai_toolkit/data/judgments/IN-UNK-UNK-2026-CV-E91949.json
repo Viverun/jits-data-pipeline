@@ -679,11 +679,11 @@
       "criminal": [],
       "civil": [],
       "service": [
+        "DPC",
         "promotion",
-        "Writ Petition",
-        "Article 16",
         "seniority",
-        "DPC"
+        "Writ Petition",
+        "Article 16"
       ]
     }
   }

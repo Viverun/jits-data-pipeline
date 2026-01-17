@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Chhattisgarh",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "26 JUNE, 2024",
     "jurisdiction": "India"
   },
@@ -3871,13 +3871,13 @@
       ],
       "civil": [],
       "service": [
-        "promotion",
-        "Service Rules",
         "Writ Petition",
-        "Article 16",
-        "reinstatement",
+        "DPC",
+        "promotion",
         "seniority",
-        "DPC"
+        "Service Rules",
+        "reinstatement",
+        "Article 16"
       ]
     }
   }

@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Supreme Court Of India",
     "court_level": "SC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "11 DECEMBER, 2021",
     "jurisdiction": "India"
   },
@@ -712,8 +712,8 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "pension",
-        "Service Rules"
+        "Service Rules",
+        "pension"
       ]
     }
   }

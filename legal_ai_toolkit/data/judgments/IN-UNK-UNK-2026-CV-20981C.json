@@ -535,10 +535,10 @@
       "criminal": [],
       "civil": [],
       "service": [
+        "Service Rules",
         "promotion",
-        "seniority",
         "Writ Petition",
-        "Service Rules"
+        "seniority"
       ]
     }
   }

@@ -1,9 +1,9 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-457B72",
   "metadata": {
-    "court": null,
-    "court_level": null,
-    "case_number": null,
+    "court": "Central Administrative Tribunal",
+    "court_level": "TRIBUNAL/LOWER",
+    "case_number": "UNKNOWN",
     "decision_date": "28 MAY, 2013",
     "jurisdiction": "India"
   },
@@ -2343,17 +2343,17 @@
       ],
       "civil": [],
       "service": [
-        "promotion",
+        "reinstatement",
         "daily wage",
         "regularization",
-        "Service Rules",
-        "Writ Petition",
-        "suspension",
-        "Article 16",
         "pension",
-        "reinstatement",
+        "Writ Petition",
         "Umadevi",
-        "seniority"
+        "promotion",
+        "seniority",
+        "Service Rules",
+        "suspension",
+        "Article 16"
       ]
     }
   }

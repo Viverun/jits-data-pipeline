@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Calcutta High Court",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MANDAL   F.A. NO. 326",
     "decision_date": "6 AUGUST, 2009",
     "jurisdiction": "India"
   },
@@ -950,14 +950,14 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "bail",
         "Indian Penal Code",
-        "accused"
+        "accused",
+        "bail"
       ],
       "civil": [
-        "suit",
         "Hindu Marriage Act",
-        "decree"
+        "decree",
+        "suit"
       ],
       "service": []
     }

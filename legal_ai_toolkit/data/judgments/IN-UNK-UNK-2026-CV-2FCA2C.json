@@ -13342,14 +13342,14 @@
         "custody"
       ],
       "civil": [
-        "specific performance",
-        "defendant",
         "CPC",
-        "Specific Relief",
-        "injunction",
-        "suit",
+        "defendant",
         "decree",
-        "plaintiff"
+        "Specific Relief",
+        "plaintiff",
+        "suit",
+        "specific performance",
+        "injunction"
       ],
       "service": []
     }

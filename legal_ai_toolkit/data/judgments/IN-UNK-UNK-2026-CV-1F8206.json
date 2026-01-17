@@ -292,16 +292,16 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "fir",
         "bail",
-        "IPC",
-        "fir"
+        "IPC"
       ],
       "civil": [
         "defendant",
-        "suit",
-        "Hindu Marriage Act",
         "decree",
-        "plaintiff"
+        "plaintiff",
+        "Hindu Marriage Act",
+        "suit"
       ],
       "service": []
     }

@@ -1,9 +1,9 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-22E81C",
   "metadata": {
-    "court": "High Court Of Delhi At New Delhi",
-    "court_level": "HC",
-    "case_number": null,
+    "court": "Supreme Court Of India",
+    "court_level": "SC",
+    "case_number": "CIVIL)  W.P (C) NO.16955-60/2004",
     "decision_date": "21 DECEMBER, 2012",
     "jurisdiction": "India"
   },
@@ -853,11 +853,11 @@
         "CPC"
       ],
       "service": [
+        "DPC",
         "promotion",
-        "Writ Petition",
-        "Article 16",
         "seniority",
-        "DPC"
+        "Writ Petition",
+        "Article 16"
       ]
     }
   }

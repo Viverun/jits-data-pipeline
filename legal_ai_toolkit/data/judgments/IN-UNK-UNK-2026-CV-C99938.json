@@ -248,11 +248,11 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "fir",
         "bail",
         "offence",
-        "fir",
-        "accused",
         "Indian Penal Code",
+        "accused",
         "IPC"
       ],
       "civil": [],

@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Gujarat High Court",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MADE BY THE PETITIONERS BUT OF NO",
     "decision_date": "17 OCTOBER, 2003",
     "jurisdiction": "India"
   },
@@ -906,15 +906,15 @@
         "sentence"
       ],
       "civil": [
-        "suit",
-        "Transfer of Property"
+        "Transfer of Property",
+        "suit"
       ],
       "service": [
-        "Service Rules",
-        "Payment of Gratuity",
+        "Pension Rules",
         "retiral",
         "pension",
-        "Pension Rules"
+        "Payment of Gratuity",
+        "Service Rules"
       ]
     }
   }

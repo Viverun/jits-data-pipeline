@@ -1883,14 +1883,14 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "quashing",
         "Indian Penal Code",
-        "offence",
-        "fir"
+        "fir",
+        "quashing",
+        "offence"
       ],
       "civil": [
-        "suit",
-        "decree"
+        "decree",
+        "suit"
       ],
       "service": [
         "Writ Petition"

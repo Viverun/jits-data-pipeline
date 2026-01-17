@@ -179,11 +179,11 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "bail",
-        "offence",
         "fir",
-        "accused",
-        "POCSO"
+        "bail",
+        "POCSO",
+        "offence",
+        "accused"
       ],
       "civil": [],
       "service": []

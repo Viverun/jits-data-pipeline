@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature At Allahabad",
     "court_level": "HC",
-    "case_number": "CASE NO. 9055",
+    "case_number": "MAGISTRATE.  3. OPPOSITE PARTY NO. 2",
     "decision_date": "17 AUGUST, 2023",
     "jurisdiction": "India"
   },
@@ -278,10 +278,10 @@
     "signals": {
       "criminal": [
         "bail",
-        "offence",
-        "fir",
-        "accused",
         "CrPC",
+        "fir",
+        "offence",
+        "accused",
         "Code of Criminal Procedure",
         "quashing"
       ],

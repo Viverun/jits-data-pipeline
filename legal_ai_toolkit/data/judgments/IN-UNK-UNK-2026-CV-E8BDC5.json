@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Delhi At New Delhi",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "3 DECEMBER, 2012",
     "jurisdiction": "India"
   },
@@ -701,14 +701,14 @@
     "signals": {
       "criminal": [
         "bail",
-        "offence",
         "fir",
-        "accused",
         "CrPC",
+        "offence",
         "conviction",
-        "custody",
+        "accused",
         "quashing",
-        "IPC"
+        "IPC",
+        "custody"
       ],
       "civil": [
         "defendant"

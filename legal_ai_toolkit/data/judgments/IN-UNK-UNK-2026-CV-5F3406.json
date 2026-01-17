@@ -6574,16 +6574,16 @@
       ],
       "civil": [],
       "service": [
-        "promotion",
         "daily wage",
-        "regularization",
-        "Service Rules",
-        "Writ Petition",
         "retiral",
+        "regularization",
         "pension",
-        "back wages",
+        "Writ Petition",
         "Umadevi",
-        "seniority"
+        "back wages",
+        "promotion",
+        "seniority",
+        "Service Rules"
       ]
     }
   }

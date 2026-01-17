@@ -1,9 +1,9 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-97F068",
   "metadata": {
-    "court": null,
-    "court_level": null,
-    "case_number": null,
+    "court": "Central Administrative Tribunal",
+    "court_level": "TRIBUNAL/LOWER",
+    "case_number": "UNKNOWN",
     "decision_date": "1 NOVEMBER, 2023",
     "jurisdiction": "India"
   },
@@ -1327,8 +1327,8 @@
       "civil": [],
       "service": [
         "promotion",
-        "back wages",
         "Writ Petition",
+        "back wages",
         "Article 16"
       ]
     }

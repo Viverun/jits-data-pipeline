@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Jharkhand At Ranchi  B",
     "court_level": "HC",
-    "case_number": "CASE NO.32",
+    "case_number": "MADHU (W.B.)  P.S. CASE NO.123",
     "decision_date": "21 SEPTEMBER, 2012",
     "jurisdiction": "India"
   },
@@ -885,11 +885,11 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "Arms Act",
         "bail",
         "offence",
-        "accused",
         "Indian Penal Code",
-        "Arms Act"
+        "accused"
       ],
       "civil": [],
       "service": []

@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature At Madras  Dated",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "9 JUNE, 2008",
     "jurisdiction": "India"
   },
@@ -419,11 +419,11 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "Writ Petition",
-        "Payment of Gratuity",
-        "Industrial Disputes",
         "retiral",
-        "pension"
+        "Industrial Disputes",
+        "pension",
+        "Payment of Gratuity",
+        "Writ Petition"
       ]
     }
   }

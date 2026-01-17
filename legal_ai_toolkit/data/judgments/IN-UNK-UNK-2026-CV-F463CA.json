@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Supreme Court Of India",
     "court_level": "SC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "2 APRIL, 1969",
     "jurisdiction": "India"
   },
@@ -377,9 +377,9 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "reinstatement",
+        "Payment of Gratuity",
         "Industrial Disputes",
-        "Payment of Gratuity"
+        "reinstatement"
       ]
     }
   }

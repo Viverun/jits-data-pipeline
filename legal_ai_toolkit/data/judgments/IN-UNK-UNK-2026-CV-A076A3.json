@@ -1668,8 +1668,8 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "offence",
         "fir",
+        "offence",
         "accused",
         "Code of Criminal Procedure",
         "IPC"

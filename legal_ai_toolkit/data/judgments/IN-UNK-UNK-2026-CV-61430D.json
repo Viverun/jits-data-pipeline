@@ -2533,20 +2533,20 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "offence",
-        "fir",
+        "BNSS",
         "CrPC",
-        "accused",
-        "conviction",
+        "fir",
+        "offence",
         "Indian Penal Code",
+        "conviction",
+        "accused",
         "Code of Criminal Procedure",
         "quashing",
-        "IPC",
-        "BNSS"
+        "IPC"
       ],
       "civil": [
-        "suit",
-        "specific performance"
+        "specific performance",
+        "suit"
       ],
       "service": []
     }

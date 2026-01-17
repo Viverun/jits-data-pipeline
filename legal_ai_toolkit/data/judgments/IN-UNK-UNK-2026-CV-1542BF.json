@@ -2,8 +2,8 @@
   "judgment_id": "IN-UNK-UNK-2026-CV-1542BF",
   "metadata": {
     "court": "In The Court Of Ms",
-    "court_level": "DISTRICT",
-    "case_number": null,
+    "court_level": "TRIBUNAL/LOWER",
+    "case_number": "MADHU W/O SH. GYANCHAND  ALL R/O QUARTER NO.389",
     "decision_date": "12 JULY, 2018",
     "jurisdiction": "India"
   },
@@ -1477,12 +1477,12 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "fir",
         "bail",
         "offence",
-        "fir",
-        "accused",
-        "conviction",
         "Indian Penal Code",
+        "conviction",
+        "accused",
         "IPC"
       ],
       "civil": [],

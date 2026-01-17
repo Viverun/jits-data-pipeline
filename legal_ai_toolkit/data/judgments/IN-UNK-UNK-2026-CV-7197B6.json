@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Himachal Pradesh",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MACHAL PRADESH, SHIMLA   CWPOA NO. 242",
     "decision_date": "25 FEBRUARY, 2020",
     "jurisdiction": "India"
   },
@@ -1001,11 +1001,11 @@
       "criminal": [],
       "civil": [],
       "service": [
+        "Pension Rules",
         "regularization",
-        "Writ Petition",
         "pension",
         "seniority",
-        "Pension Rules"
+        "Writ Petition"
       ]
     }
   }

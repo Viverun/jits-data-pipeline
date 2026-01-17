@@ -1019,12 +1019,12 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "promotion",
-        "Service Rules",
         "Writ Petition",
-        "Article 16",
+        "DPC",
+        "promotion",
         "seniority",
-        "DPC"
+        "Service Rules",
+        "Article 16"
       ]
     }
   }

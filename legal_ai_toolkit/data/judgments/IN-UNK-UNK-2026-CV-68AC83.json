@@ -2561,15 +2561,15 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "arbitration",
-        "specific performance",
-        "defendant",
         "CPC",
-        "Specific Relief",
-        "suit",
+        "defendant",
         "decree",
+        "Specific Relief",
         "plaintiff",
-        "Arbitration"
+        "Arbitration",
+        "arbitration",
+        "suit",
+        "specific performance"
       ],
       "service": []
     }

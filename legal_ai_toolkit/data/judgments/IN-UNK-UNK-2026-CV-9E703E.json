@@ -5653,20 +5653,20 @@
       "criminal": [],
       "civil": [
         "defendant",
-        "Transfer of Property",
-        "Contract Act",
-        "suit",
         "decree",
-        "plaintiff"
+        "plaintiff",
+        "suit",
+        "Contract Act",
+        "Transfer of Property"
       ],
       "service": [
+        "Pension Rules",
+        "pension",
+        "Payment of Gratuity",
         "Article 311",
         "Service Rules",
-        "Payment of Gratuity",
-        "Article 16",
-        "pension",
         "reinstatement",
-        "Pension Rules"
+        "Article 16"
       ]
     }
   }

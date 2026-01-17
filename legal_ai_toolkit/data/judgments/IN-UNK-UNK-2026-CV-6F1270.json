@@ -2405,16 +2405,16 @@
         "quashing"
       ],
       "civil": [
-        "suit",
-        "decree"
+        "decree",
+        "suit"
       ],
       "service": [
-        "promotion",
-        "Service Rules",
         "Writ Petition",
-        "Article 16",
+        "DPC",
+        "promotion",
         "seniority",
-        "DPC"
+        "Service Rules",
+        "Article 16"
       ]
     }
   }

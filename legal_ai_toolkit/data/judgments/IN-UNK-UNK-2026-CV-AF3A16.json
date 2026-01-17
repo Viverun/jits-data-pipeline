@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Orissa At Cuttack  Blapl No",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "WRIT PETITION (CRIMINAL) NO.60",
     "decision_date": "16 SEPTEMBER, 2025",
     "jurisdiction": "India"
   },
@@ -929,14 +929,14 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "BNSS",
         "bail",
-        "offence",
         "CrPC",
-        "accused",
-        "custody",
         "POCSO",
+        "offence",
+        "accused",
         "IPC",
-        "BNSS"
+        "custody"
       ],
       "civil": [],
       "service": [

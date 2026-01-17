@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Andhra Pradesh At Amaravati",
     "court_level": "HC",
-    "case_number": "CRIMINAL REVISION CASE NO.44",
+    "case_number": "MARAVATI   ****   CRIMINAL REVISION CASE NO.44",
     "decision_date": "16 JUNE, 2025",
     "jurisdiction": "India"
   },
@@ -2199,12 +2199,12 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "offence",
-        "fir",
-        "accused",
-        "conviction",
         "sentence",
+        "fir",
+        "offence",
         "Indian Penal Code",
+        "conviction",
+        "accused",
         "Code of Criminal Procedure",
         "quashing",
         "IPC"

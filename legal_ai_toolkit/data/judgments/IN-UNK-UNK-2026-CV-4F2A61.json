@@ -280,12 +280,12 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "regularization",
-        "Service Rules",
-        "Fundamental Rules",
-        "Writ Petition",
         "retiral",
-        "pension"
+        "Fundamental Rules",
+        "regularization",
+        "pension",
+        "Writ Petition",
+        "Service Rules"
       ]
     }
   }

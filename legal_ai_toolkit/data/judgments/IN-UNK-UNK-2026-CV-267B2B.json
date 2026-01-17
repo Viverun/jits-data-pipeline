@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Gujarat High Court",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "27 NOVEMBER, 1998",
     "jurisdiction": "India"
   },
@@ -345,8 +345,8 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "promotion",
         "seniority",
+        "promotion",
         "Article 16"
       ]
     }

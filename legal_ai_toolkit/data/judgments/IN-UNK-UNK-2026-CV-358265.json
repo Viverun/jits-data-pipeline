@@ -2,8 +2,8 @@
   "judgment_id": "IN-UNK-UNK-2026-CV-358265",
   "metadata": {
     "court": "In The Court Of Ms",
-    "court_level": "DISTRICT",
-    "case_number": null,
+    "court_level": "TRIBUNAL/LOWER",
+    "case_number": "UNKNOWN",
     "decision_date": "28 JULY, 2014",
     "jurisdiction": "India"
   },
@@ -1778,14 +1778,14 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "sentence",
+        "fir",
         "bail",
         "offence",
         "acquittal",
-        "fir",
-        "accused",
-        "conviction",
-        "sentence",
         "Indian Penal Code",
+        "conviction",
+        "accused",
         "IPC"
       ],
       "civil": [],

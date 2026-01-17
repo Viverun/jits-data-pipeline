@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Kerala At Ernakulam   Present",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MAS, J.  ------------------  B.A.NO.4054",
     "decision_date": "25 JUNE, 2018",
     "jurisdiction": "India"
   },
@@ -623,10 +623,10 @@
     "signals": {
       "criminal": [
         "bail",
-        "accused",
-        "custody",
         "POCSO",
-        "IPC"
+        "accused",
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": []

@@ -1,7 +1,7 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-F5BBEF",
   "metadata": {
-    "court": "Calcutta High Court",
+    "court": "High Court Of Calcutta",
     "court_level": "HC",
     "case_number": "CASE NO. 19",
     "decision_date": "18 NOVEMBER, 2024",
@@ -237,8 +237,8 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "bail",
-        "Indian Penal Code"
+        "Indian Penal Code",
+        "bail"
       ],
       "civil": [],
       "service": []

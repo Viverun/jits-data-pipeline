@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature At Madras  Dated",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MANOKARAN FOR R1  FOR R2 TO R4 NO",
     "decision_date": "14 JUNE, 2013",
     "jurisdiction": "India"
   },
@@ -1210,14 +1210,14 @@
         "custody"
       ],
       "civil": [
-        "specific performance",
-        "defendant",
         "CPC",
-        "Succession Act",
-        "injunction",
-        "suit",
+        "defendant",
         "decree",
-        "plaintiff"
+        "plaintiff",
+        "Succession Act",
+        "suit",
+        "specific performance",
+        "injunction"
       ],
       "service": []
     }

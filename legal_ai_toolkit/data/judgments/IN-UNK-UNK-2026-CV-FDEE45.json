@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Jammu",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "3 OCTOBER, 2024",
     "jurisdiction": "India"
   },
@@ -3030,20 +3030,20 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "BNSS",
+        "sentence",
+        "BNS",
         "bail",
+        "fir",
+        "POCSO",
         "offence",
         "acquittal",
-        "fir",
-        "accused",
-        "conviction",
-        "custody",
-        "sentence",
-        "POCSO",
         "NDPS",
-        "BNS",
+        "conviction",
+        "accused",
         "Code of Criminal Procedure",
         "IPC",
-        "BNSS"
+        "custody"
       ],
       "civil": [],
       "service": []

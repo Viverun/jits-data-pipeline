@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature At Bombay  Ordinary Original Civil Jurisdiction  In Its Commercial Division   Commercial Arbitration Petition No",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "13 NOVEMBER, 2019",
     "jurisdiction": "India"
   },
@@ -2670,15 +2670,15 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "quashing",
-        "sentence"
+        "sentence",
+        "quashing"
       ],
       "civil": [
-        "arbitration",
-        "injunction",
         "decree",
         "Limitation Act",
-        "Arbitration"
+        "Arbitration",
+        "arbitration",
+        "injunction"
       ],
       "service": [
         "suspension"

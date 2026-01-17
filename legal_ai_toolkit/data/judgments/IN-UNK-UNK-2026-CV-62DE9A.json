@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Chhattisgarh",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "18 AUGUST, 2022",
     "jurisdiction": "India"
   },
@@ -223,8 +223,8 @@
         "bail",
         "offence",
         "accused",
-        "conviction",
         "sentence",
+        "conviction",
         "IPC"
       ],
       "civil": [],

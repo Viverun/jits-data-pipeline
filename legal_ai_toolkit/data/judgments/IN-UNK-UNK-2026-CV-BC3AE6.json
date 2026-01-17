@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Himachal Pradesh  At Shimla  Cwpoa No",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MACHAL PRADESH  AT SHIMLA  CWPOA NO.267",
     "decision_date": "4 JUNE, 2025",
     "jurisdiction": "India"
   },
@@ -2918,13 +2918,13 @@
       ],
       "civil": [],
       "service": [
+        "Pension Rules",
         "daily wage",
-        "regularization",
-        "Writ Petition",
-        "suspension",
         "retiral",
+        "regularization",
         "pension",
-        "Pension Rules"
+        "Writ Petition",
+        "suspension"
       ]
     }
   }

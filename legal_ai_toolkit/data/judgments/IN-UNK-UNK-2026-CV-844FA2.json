@@ -884,10 +884,10 @@
       "criminal": [
         "bail",
         "offence",
-        "accused",
         "conviction",
-        "custody",
-        "IPC"
+        "accused",
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": []

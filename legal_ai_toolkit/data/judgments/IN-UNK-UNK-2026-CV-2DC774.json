@@ -11132,22 +11132,22 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "BNSS",
+        "BNS",
+        "PMLA",
         "UAPA",
-        "bail",
-        "offence",
-        "fir",
         "CrPC",
-        "accused",
-        "custody",
-        "sentence",
+        "bail",
+        "fir",
+        "offence",
         "Indian Penal Code",
         "NDPS",
-        "BNS",
+        "sentence",
+        "accused",
         "Code of Criminal Procedure",
         "quashing",
         "IPC",
-        "BNSS",
-        "PMLA"
+        "custody"
       ],
       "civil": [],
       "service": [

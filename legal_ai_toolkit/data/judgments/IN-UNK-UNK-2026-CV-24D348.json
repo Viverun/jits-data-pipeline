@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Jharkhand High Court",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MAR SINGH ,  B.B.MANGALMURTI   F.A. NO. 74",
     "decision_date": "2 FEBRUARY, 2018",
     "jurisdiction": "India"
   },
@@ -1103,18 +1103,18 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "fir",
         "bail",
         "acquittal",
-        "fir",
-        "accused",
+        "Indian Penal Code",
         "conviction",
-        "custody",
-        "Indian Penal Code"
+        "accused",
+        "custody"
       ],
       "civil": [
-        "suit",
         "Hindu Marriage Act",
-        "decree"
+        "decree",
+        "suit"
       ],
       "service": []
     }

@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature At Allahabad",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "OACHED THIS COURT IN APPLICATION U/S 482 NO.16698",
     "decision_date": "7 APRIL, 2021",
     "jurisdiction": "India"
   },
@@ -189,8 +189,8 @@
     "confidence": "medium",
     "signals": {
       "criminal": [
-        "quashing",
-        "bail"
+        "bail",
+        "quashing"
       ],
       "civil": [],
       "service": []

@@ -252,11 +252,11 @@
       ],
       "civil": [],
       "service": [
-        "promotion",
-        "Service Rules",
         "Writ Petition",
+        "DPC",
+        "promotion",
         "seniority",
-        "DPC"
+        "Service Rules"
       ]
     }
   }

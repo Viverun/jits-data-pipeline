@@ -3028,20 +3028,20 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "bail",
-        "offence",
-        "fir",
-        "CrPC",
-        "accused",
-        "conviction",
-        "custody",
+        "BNSS",
         "sentence",
+        "CrPC",
+        "bail",
         "POCSO",
+        "fir",
+        "offence",
         "Indian Penal Code",
         "NDPS",
+        "conviction",
+        "accused",
         "Code of Criminal Procedure",
         "IPC",
-        "BNSS"
+        "custody"
       ],
       "civil": [
         "defendant"

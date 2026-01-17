@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Himachal Pradesh",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MACHAL PRADESH, SHIMLA   .   CR.MMO NO.152",
     "decision_date": "29 MAY, 2015",
     "jurisdiction": "India"
   },
@@ -777,9 +777,9 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "fir",
         "offence",
         "acquittal",
-        "fir",
         "accused",
         "conviction",
         "quashing",

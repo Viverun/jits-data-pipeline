@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Gujarat High Court",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "9 JANUARY, 2007",
     "jurisdiction": "India"
   },
@@ -391,12 +391,12 @@
       "civil": [],
       "service": [
         "daily wage",
-        "regularization",
-        "Writ Petition",
-        "Article 16",
-        "Industrial Disputes",
         "Service Law",
-        "Umadevi"
+        "Industrial Disputes",
+        "regularization",
+        "Umadevi",
+        "Writ Petition",
+        "Article 16"
       ]
     }
   }

@@ -161,9 +161,9 @@
       "criminal": [
         "bail",
         "offence",
+        "NDPS",
         "accused",
-        "custody",
-        "NDPS"
+        "custody"
       ],
       "civil": [],
       "service": []

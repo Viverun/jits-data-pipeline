@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Kerala At Ernakulam",
     "court_level": "HC",
-    "case_number": "APPEAL.NO.681",
+    "case_number": "MAT.APPEAL.NO.681",
     "decision_date": "29 SEPTEMBER, 2007",
     "jurisdiction": "India"
   },
@@ -5607,23 +5607,23 @@
         "bail",
         "offence",
         "acquittal",
-        "accused",
-        "custody",
         "Indian Penal Code",
+        "accused",
         "Code of Criminal Procedure",
-        "IPC"
+        "IPC",
+        "custody"
       ],
       "civil": [
         "defendant",
-        "injunction",
-        "suit",
+        "decree",
         "Hindu Marriage Act",
-        "decree"
+        "suit",
+        "injunction"
       ],
       "service": [
+        "regularization",
         "pension",
-        "suspension",
-        "regularization"
+        "suspension"
       ]
     }
   },

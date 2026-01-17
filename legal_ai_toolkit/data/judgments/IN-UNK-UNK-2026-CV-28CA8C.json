@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Himachal Pradesh",
     "court_level": "HC",
-    "case_number": "REVISION NO. 78",
+    "case_number": "MACHAL PRADESH, SHIMLA   CR. REVISION NO. 78",
     "decision_date": "10 APRIL, 2025",
     "jurisdiction": "India"
   },
@@ -2382,12 +2382,12 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "offence",
-        "accused",
-        "CrPC",
-        "conviction",
         "sentence",
+        "CrPC",
+        "offence",
         "Indian Penal Code",
+        "conviction",
+        "accused",
         "IPC"
       ],
       "civil": [],

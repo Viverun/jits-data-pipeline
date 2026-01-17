@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Delhi At New Delhi",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MA   NEUTRAL CITATION NO. 2023",
     "decision_date": "16 MAY, 2023",
     "jurisdiction": "India"
   },
@@ -1415,17 +1415,17 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "fir",
         "bail",
         "offence",
-        "fir",
-        "accused",
         "Indian Penal Code",
+        "accused",
         "quashing",
         "IPC"
       ],
       "civil": [
-        "suit",
-        "Hindu Marriage Act"
+        "Hindu Marriage Act",
+        "suit"
       ],
       "service": []
     }

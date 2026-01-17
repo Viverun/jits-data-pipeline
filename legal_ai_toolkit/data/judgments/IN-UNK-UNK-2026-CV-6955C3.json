@@ -1,9 +1,9 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-6955C3",
   "metadata": {
-    "court": null,
-    "court_level": null,
-    "case_number": null,
+    "court": "UNKNOWN",
+    "court_level": "UNKNOWN",
+    "case_number": "UNKNOWN",
     "decision_date": "22 AUGUST, 2006",
     "jurisdiction": "India"
   },
@@ -931,21 +931,21 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "fir",
         "offence",
         "acquittal",
-        "fir",
-        "accused",
-        "conviction",
         "Indian Penal Code",
+        "conviction",
+        "accused",
         "Code of Criminal Procedure",
         "quashing",
         "IPC"
       ],
       "civil": [
-        "suit",
-        "arbitration",
+        "injunction",
         "Arbitration",
-        "injunction"
+        "arbitration",
+        "suit"
       ],
       "service": [
         "promotion"

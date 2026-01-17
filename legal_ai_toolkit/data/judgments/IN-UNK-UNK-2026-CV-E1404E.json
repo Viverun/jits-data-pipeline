@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Madhya Pradesh  M",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MADHYA PRADESH  M.CR.C.NO.17877/2021",
     "decision_date": "6 APRIL, 2021",
     "jurisdiction": "India"
   },
@@ -444,10 +444,10 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "accused",
         "bail",
-        "offence",
         "IPC",
-        "accused"
+        "offence"
       ],
       "civil": [],
       "service": []

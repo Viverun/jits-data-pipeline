@@ -1,9 +1,9 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-D973A5",
   "metadata": {
-    "court": null,
-    "court_level": null,
-    "case_number": null,
+    "court": "UNKNOWN",
+    "court_level": "UNKNOWN",
+    "case_number": "MATION REPORT CR. NO. 7/93",
     "decision_date": "29 DECEMBER, 2000",
     "jurisdiction": "India"
   },
@@ -132,10 +132,10 @@
     "confidence": "medium",
     "signals": {
       "criminal": [
-        "sentence",
-        "offence",
+        "conviction",
         "accused",
-        "conviction"
+        "sentence",
+        "offence"
       ],
       "civil": [],
       "service": []

@@ -1555,11 +1555,11 @@
       ],
       "civil": [],
       "service": [
-        "promotion",
-        "Service Rules",
         "Writ Petition",
-        "Article 16",
-        "seniority"
+        "promotion",
+        "seniority",
+        "Service Rules",
+        "Article 16"
       ]
     }
   }

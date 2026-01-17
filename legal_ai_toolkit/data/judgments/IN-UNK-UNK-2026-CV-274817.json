@@ -7910,16 +7910,16 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "offence",
-        "fir",
-        "accused",
-        "conviction",
-        "custody",
+        "BNSS",
         "sentence",
+        "fir",
         "POCSO",
+        "offence",
         "Indian Penal Code",
+        "conviction",
+        "accused",
         "IPC",
-        "BNSS"
+        "custody"
       ],
       "civil": [],
       "service": []

@@ -316,9 +316,9 @@
       "criminal": [],
       "civil": [],
       "service": [
+        "seniority",
         "retiral",
-        "promotion",
-        "seniority"
+        "promotion"
       ]
     }
   }

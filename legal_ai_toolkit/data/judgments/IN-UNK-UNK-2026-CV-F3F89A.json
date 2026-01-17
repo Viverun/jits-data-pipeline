@@ -4185,16 +4185,16 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "sentence",
         "bail",
+        "fir",
         "offence",
         "acquittal",
-        "fir",
-        "accused",
         "conviction",
-        "custody",
-        "sentence",
+        "accused",
         "Code of Criminal Procedure",
-        "IPC"
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": []

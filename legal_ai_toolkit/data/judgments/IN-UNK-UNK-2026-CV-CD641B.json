@@ -3201,13 +3201,13 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "sentence",
+        "fir",
         "bail",
         "offence",
         "acquittal",
-        "fir",
-        "accused",
         "conviction",
-        "sentence",
+        "accused",
         "IPC"
       ],
       "civil": [],

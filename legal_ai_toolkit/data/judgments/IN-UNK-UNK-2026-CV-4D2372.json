@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Supreme Court Of India",
     "court_level": "SC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "19 DECEMBER, 1968",
     "jurisdiction": "India"
   },
@@ -227,8 +227,8 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "pension",
-        "Payment of Gratuity"
+        "Payment of Gratuity",
+        "pension"
       ]
     }
   }

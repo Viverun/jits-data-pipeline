@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Himachal Pradesh",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MACHAL PRADESH, SHIMLA.   CRMMO NO. 1087",
     "decision_date": "1 DECEMBER, 2022",
     "jurisdiction": "India"
   },
@@ -1493,12 +1493,12 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "CrPC",
+        "fir",
         "offence",
         "acquittal",
-        "fir",
-        "accused",
-        "CrPC",
         "conviction",
+        "accused",
         "Code of Criminal Procedure",
         "quashing",
         "IPC"

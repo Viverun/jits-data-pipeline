@@ -235,10 +235,10 @@
     "signals": {
       "criminal": [
         "bail",
-        "offence",
         "fir",
-        "accused",
+        "offence",
         "NDPS",
+        "accused",
         "Code of Criminal Procedure"
       ],
       "civil": [],

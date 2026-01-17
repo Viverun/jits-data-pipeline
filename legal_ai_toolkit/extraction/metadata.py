@@ -12,7 +12,16 @@ COURT_PATTERNS = [
     r"DISTRICT COURT",
     r"SESSIONS COURT",
     r"BEFORE THE ([A-Z ]+) HIGH COURT",
-    r"IN THE ([A-Z ]+) HIGH COURT"
+    r"IN THE ([A-Z ]+) HIGH COURT",
+    r"CENTRAL ADMINISTRATIVE TRIBUNAL",
+    r"STATE ADMINISTRATIVE TRIBUNAL",
+    r"CONSUMER DISPUTES REDRESSAL COMMISSION",
+    r"ARBITRATION TRIBUNAL",
+    r"ARMED FORCES TRIBUNAL",
+    r"NATIONAL GREEN TRIBUNAL",
+    r"INDUSTRIAL COURT",
+    r"LABOUR COURT",
+    r"FAMILY COURT"
 ]
 
 DATE_PATTERNS = [
@@ -21,24 +30,27 @@ DATE_PATTERNS = [
     r"Decided on[:\s]+([0-9]{1,2}[./-][0-9]{1,2}[./-][0-9]{2,4})",
     r"Dated[:\s]+([0-9]{1,2}[./-][0-9]{1,2}[./-][0-9]{2,4})",
     r"([0-9]{1,2}(?:st|nd|rd|th)?\s+(?:January|February|March|April|May|June|July|August|September|October|November|December),?\s+[0-9]{4})",
-    r"([A-Z]+\s+[0-9]{1,2},\s+[0-9]{4})"
+    r"([A-Z]+\s+[0-9]{1,2},\s+[0-9]{4})",
+    r"DATED\s*:\s*([0-9]{1,2}[./-][0-9]{1,2}[./-][0-9]{4})",
+    r"PRONOUNCED ON\s*[:\s]*([0-9]{1,2}[./-][0-9]{1,2}[./-][0-9]{4})"
 ]
 
 CASE_NO_PATTERNS = [
-    r"(Criminal|Civil|Writ|Appeal|Revision|Arb\. Case|LPA|SLP)[^\n]{0,40}No\.?\s*[0-9/ -]+",
+    r"(Criminal|Civil|Writ|Appeal|Revision|Arb\. Case|LPA|SLP|OA|MA)[^\n]{0,40}No\.?\s*[0-9/ -]+",
     r"Case No\.?\s*[0-9/ -]+",
-    r"([A-Z]+\s+APPEAL\s+NO\.\s+[0-9/ -]+)"
+    r"([A-Z]+\s+APPEAL\s+NO\.\s+[0-9/ -]+)",
+    r"O\.A\.\s*No\.\s*[0-9/ -]+"
 ]
 
 def extract_header_metadata(text: str):
-    lines = text.split("\n")[:50]
+    lines = text.split("\n")[:100]  # Increased search range
     header = " ".join(lines).upper()
 
     metadata = {
-        "court": None,
-        "court_level": None,
-        "case_number": None,
-        "decision_date": None,
+        "court": "UNKNOWN",
+        "court_level": "UNKNOWN",
+        "case_number": "UNKNOWN",
+        "decision_date": "UNKNOWN",
         "jurisdiction": "India"
     }
 
@@ -46,12 +58,13 @@ def extract_header_metadata(text: str):
         match = re.search(pattern, header)
         if match:
             metadata["court"] = match.group(0).strip().title()
-            if "SUPREME" in metadata["court"].upper():
+            court_upper = metadata["court"].upper()
+            if "SUPREME" in court_upper:
                 metadata["court_level"] = "SC"
-            elif "HIGH" in metadata["court"].upper():
+            elif "HIGH" in court_upper:
                 metadata["court_level"] = "HC"
-            else:
-                metadata["court_level"] = "DISTRICT"
+            elif any(x in court_upper for x in ["TRIBUNAL", "COMMISSION", "COURT"]):
+                metadata["court_level"] = "TRIBUNAL/LOWER"
             break
 
     for pattern in CASE_NO_PATTERNS:

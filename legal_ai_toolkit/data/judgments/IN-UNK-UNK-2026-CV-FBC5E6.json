@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Delhi At New Delhi",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MA NO.849/2001",
     "decision_date": "21 APRIL, 2023",
     "jurisdiction": "India"
   },
@@ -1302,14 +1302,14 @@
         "IPC"
       ],
       "civil": [
-        "defendant",
         "CPC",
-        "suit",
-        "Hindu Marriage Act",
-        "Code of Civil Procedure",
+        "defendant",
         "decree",
         "plaintiff",
-        "Limitation Act"
+        "Limitation Act",
+        "Hindu Marriage Act",
+        "suit",
+        "Code of Civil Procedure"
       ],
       "service": []
     }

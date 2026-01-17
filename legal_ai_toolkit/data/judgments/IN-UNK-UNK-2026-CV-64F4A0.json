@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Punjab",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "31 MAY, 2011",
     "jurisdiction": "India"
   },
@@ -1551,10 +1551,10 @@
       "criminal": [],
       "civil": [],
       "service": [
+        "Service Rules",
         "promotion",
-        "seniority",
         "Writ Petition",
-        "Service Rules"
+        "seniority"
       ]
     }
   }

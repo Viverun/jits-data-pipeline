@@ -3938,16 +3938,16 @@
         "quashing"
       ],
       "civil": [
-        "arbitration",
-        "specific performance",
         "defendant",
-        "Contract Act",
-        "Specific Relief",
-        "suit",
         "decree",
+        "Specific Relief",
         "plaintiff",
         "Limitation Act",
-        "Arbitration"
+        "Arbitration",
+        "arbitration",
+        "suit",
+        "Contract Act",
+        "specific performance"
       ],
       "service": []
     }

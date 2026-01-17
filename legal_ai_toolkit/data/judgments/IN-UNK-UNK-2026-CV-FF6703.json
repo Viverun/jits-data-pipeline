@@ -1,9 +1,9 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-FF6703",
   "metadata": {
-    "court": null,
-    "court_level": null,
-    "case_number": null,
+    "court": "Central Administrative Tribunal",
+    "court_level": "TRIBUNAL/LOWER",
+    "case_number": "O.A. NO. 050/01109/2019",
     "decision_date": "24 NOVEMBER, 2023",
     "jurisdiction": "India"
   },
@@ -1273,13 +1273,13 @@
         "Code of Civil Procedure"
       ],
       "service": [
-        "regularization",
-        "Service Rules",
-        "Writ Petition",
-        "suspension",
+        "Pension Rules",
         "retiral",
+        "regularization",
         "pension",
-        "Pension Rules"
+        "Writ Petition",
+        "Service Rules",
+        "suspension"
       ]
     }
   }

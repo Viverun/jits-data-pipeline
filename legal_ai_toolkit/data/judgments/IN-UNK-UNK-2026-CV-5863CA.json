@@ -409,11 +409,11 @@
     "signals": {
       "criminal": [
         "bail",
+        "Indian Penal Code",
         "accused",
-        "conviction",
-        "custody",
         "sentence",
-        "Indian Penal Code"
+        "conviction",
+        "custody"
       ],
       "civil": [],
       "service": [

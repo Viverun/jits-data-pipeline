@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Delhi At New Delhi",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "2 FEBRUARY, 2024",
     "jurisdiction": "India"
   },
@@ -768,12 +768,12 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "defendant",
         "CPC",
-        "injunction",
-        "suit",
+        "defendant",
         "decree",
-        "plaintiff"
+        "plaintiff",
+        "suit",
+        "injunction"
       ],
       "service": []
     }

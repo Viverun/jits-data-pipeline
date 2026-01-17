@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Delhi At New Delhi",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "O.A. NO.1749/2015",
     "decision_date": "1 DECEMBER, 2016",
     "jurisdiction": "India"
   },
@@ -499,11 +499,11 @@
       "criminal": [],
       "civil": [],
       "service": [
+        "Pension Rules",
         "regularization",
-        "Writ Petition",
-        "back wages",
         "pension",
-        "Pension Rules"
+        "back wages",
+        "Writ Petition"
       ]
     }
   }

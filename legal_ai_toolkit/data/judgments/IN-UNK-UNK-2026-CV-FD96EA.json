@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature At Allahabad",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MA FACIE NO",
     "decision_date": "25 APRIL, 2024",
     "jurisdiction": "India"
   },
@@ -183,11 +183,11 @@
     "signals": {
       "criminal": [
         "bail",
-        "offence",
         "fir",
         "CrPC",
-        "custody",
-        "IPC"
+        "offence",
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": []

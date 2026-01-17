@@ -380,12 +380,12 @@
     "signals": {
       "criminal": [
         "bail",
+        "CrPC",
         "offence",
         "acquittal",
-        "accused",
-        "CrPC",
-        "conviction",
         "Indian Penal Code",
+        "conviction",
+        "accused",
         "IPC"
       ],
       "civil": [],

@@ -265,10 +265,10 @@
       "criminal": [
         "bail",
         "offence",
-        "accused",
-        "custody",
         "Indian Penal Code",
-        "IPC"
+        "accused",
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": []

@@ -2035,12 +2035,12 @@
       "criminal": [],
       "civil": [],
       "service": [
-        "promotion",
-        "Article 311",
-        "Service Rules",
+        "pension",
         "Writ Petition",
         "Payment of Gratuity",
-        "pension"
+        "Article 311",
+        "promotion",
+        "Service Rules"
       ]
     }
   }

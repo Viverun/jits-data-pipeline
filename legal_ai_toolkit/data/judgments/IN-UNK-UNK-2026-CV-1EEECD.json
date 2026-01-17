@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Madhya Pradesh  M",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MATERIAL AVAILABLE ON RECORD, NO",
     "decision_date": "4 SEPTEMBER, 2020",
     "jurisdiction": "India"
   },
@@ -437,10 +437,10 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "accused",
         "bail",
-        "offence",
         "IPC",
-        "accused"
+        "offence"
       ],
       "civil": [],
       "service": []

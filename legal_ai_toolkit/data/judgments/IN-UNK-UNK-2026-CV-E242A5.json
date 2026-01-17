@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature At Allahabad",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "30 SEPTEMBER, 2020",
     "jurisdiction": "India"
   },
@@ -1188,12 +1188,12 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "CrPC",
+        "fir",
         "offence",
         "acquittal",
-        "fir",
-        "accused",
-        "CrPC",
         "conviction",
+        "accused",
         "Code of Criminal Procedure",
         "quashing",
         "IPC"

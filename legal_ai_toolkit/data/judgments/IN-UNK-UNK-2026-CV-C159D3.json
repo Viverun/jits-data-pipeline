@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Delhi At New Delhi",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MATION WAS  RECEIVED VIDE DD NO. 119",
     "decision_date": "28 MAY, 2024",
     "jurisdiction": "India"
   },
@@ -292,11 +292,11 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "bail",
         "fir",
+        "bail",
         "accused",
-        "custody",
-        "IPC"
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": []

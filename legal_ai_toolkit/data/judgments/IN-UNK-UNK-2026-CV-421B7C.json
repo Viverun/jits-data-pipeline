@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Madhya Pradesh  Mcrc",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "CRIMINAL PAST. FROM THE FIR, NO",
     "decision_date": "30 OCTOBER, 2018",
     "jurisdiction": "India"
   },
@@ -216,9 +216,9 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "fir",
         "bail",
         "offence",
-        "fir",
         "accused",
         "IPC"
       ],

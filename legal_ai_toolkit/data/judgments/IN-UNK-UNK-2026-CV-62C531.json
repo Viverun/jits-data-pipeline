@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Karnataka  Dharwad Bench   Dated This The",
     "court_level": "HC",
-    "case_number": "WRIT PETITION NO.21216",
+    "case_number": "MAR   WRIT PETITION NO.21216",
     "decision_date": "10 JULY, 2015",
     "jurisdiction": "India"
   },
@@ -14941,15 +14941,15 @@
         "quashing"
       ],
       "civil": [
-        "suit",
-        "decree"
+        "decree",
+        "suit"
       ],
       "service": [
-        "promotion",
-        "Writ Petition",
+        "Pension Rules",
         "pension",
+        "promotion",
         "seniority",
-        "Pension Rules"
+        "Writ Petition"
       ]
     }
   }

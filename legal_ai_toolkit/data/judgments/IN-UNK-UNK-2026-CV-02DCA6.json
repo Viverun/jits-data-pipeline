@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Madhya Pradesh High Court",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MADHYA PRADESH ON 7 JULY, 2009   MCRC NO.2859/2009",
     "decision_date": "7 JULY, 2009",
     "jurisdiction": "India"
   },
@@ -134,9 +134,9 @@
       "criminal": [
         "bail",
         "accused",
-        "custody",
         "Code of Criminal Procedure",
-        "IPC"
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": []

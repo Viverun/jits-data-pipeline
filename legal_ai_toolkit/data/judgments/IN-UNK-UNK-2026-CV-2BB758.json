@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Supreme Court Of India",
     "court_level": "SC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "26 SEPTEMBER, 2018",
     "jurisdiction": "India"
   },
@@ -2686,13 +2686,13 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "arbitration",
         "defendant",
-        "suit",
         "decree",
         "plaintiff",
         "Limitation Act",
-        "Arbitration"
+        "arbitration",
+        "Arbitration",
+        "suit"
       ],
       "service": []
     }

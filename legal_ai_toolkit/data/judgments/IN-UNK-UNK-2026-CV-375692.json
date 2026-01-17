@@ -1487,13 +1487,13 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "sentence",
         "bail",
+        "fir",
         "offence",
         "acquittal",
-        "fir",
-        "accused",
         "conviction",
-        "sentence",
+        "accused",
         "Code of Criminal Procedure",
         "quashing",
         "IPC"

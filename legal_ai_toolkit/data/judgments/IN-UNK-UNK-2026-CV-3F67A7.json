@@ -131,10 +131,10 @@
     "confidence": "medium",
     "signals": {
       "criminal": [
+        "fir",
         "bail",
         "offence",
         "acquittal",
-        "fir",
         "accused",
         "conviction"
       ],

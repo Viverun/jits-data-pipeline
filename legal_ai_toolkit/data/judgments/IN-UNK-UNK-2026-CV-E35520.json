@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Madhya Pradesh  W",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "MADHYA PRADESH  W.P.NO.5388/2018",
     "decision_date": "14 MARCH, 2018",
     "jurisdiction": "India"
   },
@@ -6845,29 +6845,29 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "sentence",
         "bail",
+        "fir",
+        "Excise Act",
+        "POCSO",
         "offence",
         "acquittal",
-        "fir",
-        "accused",
-        "conviction",
-        "custody",
-        "sentence",
-        "POCSO",
         "NDPS",
-        "Excise Act",
-        "IPC"
+        "conviction",
+        "accused",
+        "IPC",
+        "custody"
       ],
       "civil": [
-        "arbitration",
-        "specific performance",
-        "defendant",
         "CPC",
-        "injunction",
-        "suit",
+        "defendant",
         "decree",
         "plaintiff",
-        "Arbitration"
+        "Arbitration",
+        "arbitration",
+        "suit",
+        "specific performance",
+        "injunction"
       ],
       "service": [
         "Writ Petition",

@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Judicature At Allahabad",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "WRIT PETITION NO. 12589",
     "decision_date": "12 AUGUST, 2025",
     "jurisdiction": "India"
   },
@@ -202,9 +202,9 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "fir",
         "bail",
         "offence",
-        "fir",
         "accused",
         "quashing",
         "IPC"

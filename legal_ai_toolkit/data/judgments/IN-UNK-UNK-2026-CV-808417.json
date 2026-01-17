@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Delhi High Court",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "1 MAY, 2002",
     "jurisdiction": "India"
   },
@@ -312,13 +312,13 @@
       "criminal": [],
       "civil": [],
       "service": [
+        "reinstatement",
+        "Industrial Disputes",
+        "Writ Petition",
+        "back wages",
         "promotion",
         "Service Rules",
-        "Writ Petition",
-        "suspension",
-        "Industrial Disputes",
-        "back wages",
-        "reinstatement"
+        "suspension"
       ]
     }
   }

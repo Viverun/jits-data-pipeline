@@ -1,9 +1,9 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-1F6E17",
   "metadata": {
-    "court": null,
-    "court_level": null,
-    "case_number": null,
+    "court": "UNKNOWN",
+    "court_level": "UNKNOWN",
+    "case_number": "UNKNOWN",
     "decision_date": "1 OCTOBER, 2007",
     "jurisdiction": "India"
   },
@@ -230,9 +230,9 @@
     "signals": {
       "criminal": [
         "offence",
+        "Indian Penal Code",
         "accused",
         "conviction",
-        "Indian Penal Code",
         "IPC"
       ],
       "civil": [],

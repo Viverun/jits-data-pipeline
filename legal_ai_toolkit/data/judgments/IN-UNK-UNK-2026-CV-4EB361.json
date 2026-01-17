@@ -1,9 +1,9 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-4EB361",
   "metadata": {
-    "court": null,
-    "court_level": null,
-    "case_number": null,
+    "court": "Central Administrative Tribunal",
+    "court_level": "TRIBUNAL/LOWER",
+    "case_number": "MAIN GROUNDS:  (A) BECAUSE RESPONDENT NO. 5",
     "decision_date": "3 JULY, 2008",
     "jurisdiction": "India"
   },
@@ -569,11 +569,11 @@
       ],
       "civil": [],
       "service": [
-        "promotion",
-        "Writ Petition",
         "pension",
+        "DPC",
+        "promotion",
         "seniority",
-        "DPC"
+        "Writ Petition"
       ]
     }
   }

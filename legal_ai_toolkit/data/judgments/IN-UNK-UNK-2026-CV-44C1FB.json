@@ -167,8 +167,8 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "bail",
         "Indian Penal Code",
+        "bail",
         "offence",
         "custody"
       ],

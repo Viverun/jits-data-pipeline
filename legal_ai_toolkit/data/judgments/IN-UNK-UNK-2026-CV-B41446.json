@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Punjab And Haryana At  Chandigarh",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "12 APRIL, 2023",
     "jurisdiction": "India"
   },
@@ -4652,9 +4652,9 @@
       "criminal": [],
       "civil": [
         "Limitation Act",
+        "injunction",
         "Arbitration",
-        "arbitration",
-        "injunction"
+        "arbitration"
       ],
       "service": [
         "Writ Petition"

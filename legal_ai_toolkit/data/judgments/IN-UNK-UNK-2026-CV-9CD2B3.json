@@ -872,13 +872,13 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "BNSS",
         "bail",
-        "offence",
         "fir",
         "CrPC",
+        "offence",
         "accused",
-        "IPC",
-        "BNSS"
+        "IPC"
       ],
       "civil": [],
       "service": []

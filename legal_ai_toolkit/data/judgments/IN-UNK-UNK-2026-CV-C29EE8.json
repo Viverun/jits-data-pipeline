@@ -6129,14 +6129,14 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "bail",
-        "offence",
-        "fir",
-        "CrPC",
-        "accused",
-        "conviction",
         "sentence",
+        "bail",
+        "CrPC",
+        "fir",
+        "offence",
         "Indian Penal Code",
+        "conviction",
+        "accused",
         "Code of Criminal Procedure",
         "quashing"
       ],

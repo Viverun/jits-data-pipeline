@@ -401,12 +401,12 @@
     "signals": {
       "criminal": [
         "bail",
-        "offence",
         "fir",
-        "accused",
         "CrPC",
+        "offence",
+        "Indian Penal Code",
         "conviction",
-        "Indian Penal Code"
+        "accused"
       ],
       "civil": [],
       "service": []

@@ -4684,15 +4684,15 @@
     "signals": {
       "criminal": [],
       "civil": [
-        "suit",
         "Limitation Act",
         "defendant",
-        "decree"
+        "decree",
+        "suit"
       ],
       "service": [
-        "pension",
+        "Payment of Gratuity",
         "Writ Petition",
-        "Payment of Gratuity"
+        "pension"
       ]
     }
   }

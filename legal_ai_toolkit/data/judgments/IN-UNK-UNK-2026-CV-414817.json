@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Calcutta High Court",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "CASE NO. 27",
     "decision_date": "30 NOVEMBER, 2022",
     "jurisdiction": "India"
   },
@@ -3328,15 +3328,15 @@
     "confidence": "high",
     "signals": {
       "criminal": [
-        "offence",
-        "accused",
-        "CrPC",
-        "conviction",
-        "custody",
         "sentence",
+        "CrPC",
+        "offence",
         "Indian Penal Code",
+        "conviction",
+        "accused",
         "Code of Criminal Procedure",
-        "IPC"
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": []

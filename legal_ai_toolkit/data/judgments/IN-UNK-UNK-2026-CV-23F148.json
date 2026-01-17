@@ -3,7 +3,7 @@
   "metadata": {
     "court": "Bombay High Court",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "24 MARCH, 1994",
     "jurisdiction": "India"
   },
@@ -740,15 +740,15 @@
       "criminal": [
         "bail",
         "offence",
-        "accused",
-        "custody",
+        "Indian Penal Code",
         "sentence",
-        "Indian Penal Code"
+        "accused",
+        "custody"
       ],
       "civil": [
-        "suit",
         "Hindu Marriage Act",
-        "decree"
+        "decree",
+        "suit"
       ],
       "service": []
     }

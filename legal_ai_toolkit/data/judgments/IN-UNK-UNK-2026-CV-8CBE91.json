@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Delhi At New Delhi",
     "court_level": "HC",
-    "case_number": null,
+    "case_number": "UNKNOWN",
     "decision_date": "30 MAY, 2023",
     "jurisdiction": "India"
   },
@@ -1028,24 +1028,24 @@
     "confidence": "high",
     "signals": {
       "criminal": [
+        "fir",
         "offence",
         "acquittal",
-        "fir",
-        "accused",
-        "conviction",
-        "custody",
         "Indian Penal Code",
+        "conviction",
+        "accused",
         "quashing",
-        "IPC"
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": [
-        "Writ Petition",
-        "suspension",
-        "back wages",
-        "pension",
         "reinstatement",
-        "seniority"
+        "pension",
+        "back wages",
+        "seniority",
+        "Writ Petition",
+        "suspension"
       ]
     }
   },

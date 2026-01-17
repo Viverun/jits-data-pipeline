@@ -3,7 +3,7 @@
   "metadata": {
     "court": "High Court Of Madhya Pradesh  At Gwalior  Before  Hon",
     "court_level": "HC",
-    "case_number": "CRIMINAL CASE NO. 21246",
+    "case_number": "MAY, 2024  MISC. CRIMINAL CASE NO. 21246",
     "decision_date": "22 MAY, 2024",
     "jurisdiction": "India"
   },
@@ -284,13 +284,13 @@
     "signals": {
       "criminal": [
         "bail",
-        "offence",
-        "fir",
         "CrPC",
+        "fir",
+        "offence",
         "accused",
-        "custody",
         "Code of Criminal Procedure",
-        "IPC"
+        "IPC",
+        "custody"
       ],
       "civil": [],
       "service": []

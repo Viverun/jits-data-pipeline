@@ -301,10 +301,10 @@
     "signals": {
       "criminal": [
         "bail",
-        "accused",
-        "custody",
         "Indian Penal Code",
-        "Code of Criminal Procedure"
+        "accused",
+        "Code of Criminal Procedure",
+        "custody"
       ],
       "civil": [],
       "service": []
