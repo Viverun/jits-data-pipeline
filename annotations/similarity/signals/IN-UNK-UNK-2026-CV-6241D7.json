@@ -1,32 +1,32 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-6241D7",
   "issues": [
-    "sentencing",
-    "quashing"
+    "quashing",
+    "sentencing"
   ],
   "sections": [
-    "IPC 482",
-    "IPC 420",
-    "IPC 320",
-    "BNS 340",
-    "IPC 467",
-    "BNS 318",
-    "IPC 406",
-    "BNSS 528",
     "IPC 468",
-    "IPC 471",
+    "IPC 379",
+    "BNS 340",
     "BNS 336",
-    "IPC 379"
+    "BNS 318",
+    "IPC 471",
+    "IPC 467",
+    "IPC 420",
+    "IPC 406",
+    "IPC 320",
+    "BNSS 528",
+    "IPC 482"
   ],
   "citations": [
-    "(2012) 10 SCC 303",
     "(2008) 9 SCC 667",
-    "Others vs State Of U",
+    "(2014) 6 SCC 466",
+    "AIR 2017 SC 4843",
     "(2008) 16 SCC 1",
     "State vs. Madhu Bala ",
-    "(2014) 6 SCC 466",
     "(2003) 4 SCC 675",
-    "AIR 2017 SC 4843"
+    "Others vs State Of U",
+    "(2012) 10 SCC 303"
   ],
   "domain": "criminal"
 }

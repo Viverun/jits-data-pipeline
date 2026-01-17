@@ -1,34 +1,34 @@
 {
   "judgment_id": "IN-UNK-UNK-2026-CV-5D35CC",
   "issues": [
-    "bail",
-    "arbitration"
+    "arbitration",
+    "bail"
   ],
   "sections": [
-    "IPC 420",
-    "IPC 167",
-    "IPC 409",
-    "IPC 22",
-    "BNS 316",
-    "BNS 318",
-    "IPC 406",
     "BNS 3",
-    "IPC 483"
+    "IPC 409",
+    "IPC 483",
+    "BNS 316",
+    "IPC 167",
+    "BNS 318",
+    "IPC 22",
+    "IPC 420",
+    "IPC 406"
   ],
   "citations": [
-    "Supreme Court in \nSushila\n Aggarwal v. State ",
-    "(2018) 11 SCC 1",
+    "This Court in Nikesh\n Tarachand Shah v. Union of India ",
     "Nikesh Tarachand\n Shah v. Union of India",
     "Further this Court in \nSanjay\n Chandra v. CBI ",
-    "In \nPrabir Purkayastha v. State ",
-    "In \nSatender Kumar Antil v. CBI and\n\nanother\n ",
-    "Sanjay Chandra\n v. CBI",
+    "Supreme Court in \nSushila\n Aggarwal v. State ",
+    "(2012) 1 SCC 40",
     "(2022) 10 SCC 51",
     "Jalaluddin Khan v Union of\n\nIndia\n ",
+    "In \nSatender Kumar Antil v. CBI and\n\nanother\n ",
+    "Sanjay Chandra\n v. CBI",
+    "George vs State Of Kerala on ",
     "Manish Sisodia v. Directorate of\n\nEnforcement\n ",
-    "(2012) 1 SCC 40",
-    "This Court in Nikesh\n Tarachand Shah v. Union of India ",
-    "George vs State Of Kerala on "
+    "(2018) 11 SCC 1",
+    "In \nPrabir Purkayastha v. State "
   ],
   "domain": "criminal"
 }

@@ -2,26 +2,26 @@
   "judgment_id": "IN-UNK-UNK-2026-CV-BB3FCC",
   "issues": [],
   "sections": [
-    "IPC 174",
     "IPC 13",
-    "IPC 26",
-    "IPC 498",
     "IPC 32",
-    "BNS 108",
     "BNS 86",
+    "IPC 498",
+    "IPC 306",
+    "IPC 26",
+    "IPC 174",
     "IPC 498A",
-    "IPC 306"
+    "BNS 108"
   ],
   "citations": [
-    "Court in \nWest Bengal v. Orilal Jaiswal ",
-    "(2001) 10 SCC 736",
-    "(2009) 13 SCC 330",
-    "She also cited the decision of this Court in \nManju Ram Kalita v.\n State of Assam\n ",
-    "Supreme Court of India\n\nKantilal Martaji Pandor vs State Of Gujarat ",
-    "(1994) 1 SCC 73",
     "Unlike the case of \nState of West Bengal v.\n Orilal Jaiswal ",
+    "(2009) 13 SCC 330",
+    "(1994) 1 SCC 73",
+    "Bhati cited the decision of this Court in \nState of West Bengal\n v. Orilal Jaiswal ",
     "Court in Inderpal v. State of M",
-    "Bhati cited the decision of this Court in \nState of West Bengal\n v. Orilal Jaiswal "
+    "Court in \nWest Bengal v. Orilal Jaiswal ",
+    "Supreme Court of India\n\nKantilal Martaji Pandor vs State Of Gujarat ",
+    "She also cited the decision of this Court in \nManju Ram Kalita v.\n State of Assam\n ",
+    "(2001) 10 SCC 736"
   ],
   "domain": "criminal"
 }

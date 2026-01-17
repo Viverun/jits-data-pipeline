@@ -1,0 +1,2911 @@
+
+
+
+
+[Cites 
+45
+, Cited by 
+1
+]
+
+
+
+
+Bombay High Court
+
+
+Palmview Overseas Ltd vs Ravi Arya And Ors on 2 May, 2023
+
+
+Author: 
+K.R.Shriram
+
+
+Bench: 
+K.R. Shriram
+
+
+2023:BHC-OS:3790-DB                                 1/38                      COMAPL-36947-22.doc
+
+
+
+
+                           IN THE HIGH COURT OF JUDICATURE AT BOMBAY
+                                ORDINARY ORIGINAL CIVIL JURISDICTION
+                                      IN ITS COMMERCIAL DIVISION
+                              COMMERCIAL APPEAL (L) NO.36947 OF 2022
+                                                    IN
+                     COMMERCIAL ARBITRATION PETITION (L) NO.25151 OF 2022
+                                                   WITH
+                              INTERIM APPLICATION (L) NO.38727 OF 2022
+           Palmview Investments Overseas Limited        )
+           Portcullis Trustnet (BVI) Ltd.               )
+           Portcullis Trustnet Chambers, P.O.Box 3444   )
+           Road Town, Tortola, British Virgin Islands   )     ..Appellant
+                         Vs.
+           1. Ravi Arya, Adult Indian Inhabitant        )
+           Residing at 6, Satlej Terrace, 6 Walkeshwar  )
+           Road, Mumbai 400 006                         )
+
+           2. Nakul Arya, Adult Indian Inhabitant          )
+           Residing at 6, Satlej Terrace, 6 Walkeshwar     )
+           Road, Mumbai 400 006                            )
+
+           3. Sushma Arya, Adult Indian Inhabitant)
+           Residing at 6, Satlej Terrace, 6 Walkeshwar     )
+           Road, Mumbai 400 006                            )
+
+           4. Varun Arya, Adult Indian Inhabitant          )
+           Residing at 6, Satlej Terrace, 6 Walkeshwar     )
+           Road, Mumbai 400 006                            )
+
+           5. Ravi Arya, HUF                               )
+           6, Satlej Terrace, 6 Walkeshwar Road,           )
+           Mumbai 400 006                                  )
+
+           6. Arya Iron & Steel Co. Pvt. Ltd.              )
+           Having registered office at                     )
+           51-53A Mittal court "A" Wing                    )
+           Nariman Point, Mumbai 400 021                   )
+
+           7. Pawan Arya, Adult Indian Inhabitant          )
+           at 51-53A Mittal court "A" Wing                 )
+           Nariman Point, Mumbai 400 021                   )
+
+           8. Puneet Arya, Adult Indian Inhabitant         )
+           at 51-53A Mittal court "A" Wing                 )
+           Nariman Point, Mumbai 400 021                   )
+           9. Poonam Arya, Adult Indian Inhabitant         )
+           at 51-53A Mittal court "A" Wing                 )
+           Nariman Point, Mumbai 400 021                   )
+
+
+           Meera Jadhav
+
+
+
+                    ::: Uploaded on - 02/05/2023               ::: Downloaded on - 03/05/2023 14:49:46 :::
+                                              2/38                      COMAPL-36947-22.doc
+
+
+
+
+10. Trupti Arya, Adult Indian Inhabitant )
+at 51-53A Mittal court "A" Wing          )
+Nariman Point, Mumbai 400 021            )
+
+11. Pawan Arya, HUF                           )
+at 51-53A Mittal court "A" Wing               )
+Nariman Point, Mumbai 400 021                 )
+
+12. MP Recycling Pvt Ltd.                     )
+having its registered office at               )
+43, Ramwadi, Kalbadevi Road,                  )
+Mumbai 400 002                                )
+
+13. Arya Ship Breaking Co. Pvt Ltd.     )
+having its registered office at         )
+43, Ramwadi, Kalbadevi Road,            )
+Mumbai 400 002                          )          ..Respondents
+                                      ------
+Mr. Kevic Setalvad, Senior Advocate a/w Mr.. Vijay K Singh, Mr. Vinay J
+Bhanushali, Mr. Abhiraj Rao, Ms Shreya Arur, Mr. Sanmit Vaze and Mr. Jehan
+Lalkaka for Appellant / Applicant.
+Mr. Haresh Jagtiani, Senior Advocate a/w Mr. Suprabh Jain, Mr. Pushpvijay Kanoji
+and Ms Jahnavi Vora i/b Mr. Mohd Shariq for Respondent Nos 1 and 2.
+Mr. Sharan Jagtiani, Senior Advocate a/w Mr. Priyank Kapadia and Ms Apurva
+Manwani i/b Mr. Yakshay Chheda for Respondent Nos 3 to 5.
+Mr. Sameer Bindra i/b Khaitan & Co for Respondent No 6.
+Ms Chandni Dewani i/b Vashi and Vashi for Respondent Nos 7 to 11.
+                                       ----
+                                      WITH
+                  COMMERCIAL APPEAL (L) NO.37275 OF 2022
+                                       IN
+         COMMERCIAL ARBITRATION PETITION (L) NO.25249 OF 2022
+                                      WITH
+                 INTERIM APPLICATION (L) NO.38730 OF 2022
+
+Mr Vijay K Singh a/w Mr Vinay J Bhanushali, Mr Abhiraj Rao,Ms Shreya Arur, Mr
+SanmitVaze and Mr Jehan Lalkaka for Appellant /Applicant
+Mr Sharan Jagtiani, Senior Advocate a/w Mr Priyank Kapadia and Ms Apurva
+Manwani i/b Mr Yakshay Chheda for Respondent Nos 1 to 3
+Mr Haresh Jagtiani, Senior Advocate a/w Mr Suprabh Jain, Mr Pushpvijay Kanoji
+and Ms Jahnavi Vora i/b Mr Mohd Shariq for Respondent Nos 4 and 5
+Ms Chandni Dewani i/b Vashi and Vashi for Respondent Nos 7 to 11
+
+                                   CORAM : K.R. SHRIRAM &
+                                            RAJESH S. PATIL JJ
+                            RESERVED ON : 16th MARCH 2023
+                            PRONOUNCED ON : 2nd MAY 2023
+
+
+
+
+Meera Jadhav
+
+
+
+         ::: Uploaded on - 02/05/2023                   ::: Downloaded on - 03/05/2023 14:49:46 :::
+                                              3/38                        COMAPL-36947-22.doc
+
+
+
+
+JUDGMENT (PER K.R.SHRIRAM J.) :
+
+
+1         This appeal has been filed under 
+Section 37
+ of the Arbitration and
+
+Conciliation Act 1996 (the              
+Arbitration Act
+), impugning an order dated
+
+1st November 2022 passed by a Learned Single Judge of this court in an
+
+arbitration petition filed under 
+Section 34
+ of the Arbitration Act. The
+
+Learned Single Judge set aside the award dated 16 th June 2022 passed by
+
+the Arbitral Tribunal in international commercial arbitration proceedings on
+
+separate applications filed by respondent nos.1 and 2 and respondent nos.3
+
+and 5 under 
+Section 31(6)
+ read with 
+Section 32
+ of the Arbitration Act that
+
+the person who signed the notice invoking arbitration and signed the
+
+statement of claim on behalf of Claimant, i.e., appellant herein had no valid
+
+authority to do so, nevertheless granted liberty to cure the defect.
+
+2         The facts in brief are as under:
+
+
+
+          Respondent no.6-Arya Iron & Steel Co. Pvt. Ltd., is a company
+
+registered in Mumbai under the provisions of 
+Companies Act
+ 1956.
+
+
+
+Appellant and other respondents are shareholders of respondent no.6.
+
+
+
+Respondent no.6 is, inter alia, engaged in the business of manufacturing and
+
+selling of iron and steel products.
+
+
+
+3         Appellant is a company incorporated under the relevant laws of
+
+British Virgin Islands (BVI). Appellant is an investment company.
+
+Respondent nos.1 to 5 (RA Group) and 7 to 11 (PA Group) together with
+
+respondent nos.12 and 13 are promoters of respondent no.6. It is appellant's
+
+
+Meera Jadhav
+
+
+
+
+         ::: Uploaded on - 02/05/2023                     ::: Downloaded on - 03/05/2023 14:49:46 :::
+
+                                         4/38                          COMAPL-36947-22.doc
+
+
+
+
+case that in view of a Shareholder's Agreement dated 25 th March 2009,
+
+appellant holds 49% shares in respondent no.6 and the balance is held by
+
+respondent nos.1 to 5 (RA Group) and 7 to 13 (PA Group). Respondent
+
+nos.12 and 13 are closely owned and controlled by RA Group                       and PA
+
+Group, i.e., respondent nos.1 to 5 and 7 to 11, respectively.
+
+4         It is appellant's case that it was asked by other respondents to join as
+
+shareholder and to infuse funds in respondent no.6. Appellant and
+
+respondents entered into a Shareholder's Agreement as well as Share
+
+Purchase and Share Subscription Agreement all dated 25 th March 2009.
+
+Appellant invested about Rs.80 crores in respondent no.6. Appellant was
+
+made 49% shareholder and the remaining 51% was with respondent nos.1
+
+to 5 (PA Group) and 7 to 11 (RA Group). It is appellant's case that as per
+
+the Shareholders' Agreement, it had nominated one Sunil Jain as nominee
+
+director on the board of respondent no.6 and the said Sunil Jain had even
+
+attended certain board meetings. Disputes arose between appellant and
+
+respondents, i.e., between shareholders of respondent no.6. Consequently,
+
+appellant invoked arbitration proceedings on 30 th April 2018 in terms of the
+
+Shareholders' Agreement dated 25th March 2009.              The Arbitral Tribunal
+
+comprising of three members, namely, Hon'ble Mr. Justice C. K. Thakker
+
+(Retd.) as Presiding Arbitrator, Hon'ble Mr. Justice Deepak Verma (Retd.)
+
+and Hon'ble Mr. Justice Mohit Shah (Retd.)was constituted.                    Later on,
+
+Hon'ble Mr. Justice C. K. Thakker (Retd.) resigned and he was substituted
+
+by Hon'ble Mr. Justice A. K. Sikri (Retd.).
+
+
+Meera Jadhav
+
+
+
+
+         ::: Uploaded on - 02/05/2023                  ::: Downloaded on - 03/05/2023 14:49:46 :::
+
+                                             5/38                        COMAPL-36947-22.doc
+
+
+
+
+5         Right from the beginning, there were objections raised by RA Group,
+
+
+i.e, respondent nos.1 to 5 on the constitution of the Arbitral Tribunal or on
+
+the impartiality          of the Arbitral Tribunal, etc. All these objections were
+
+rejected. In fact on the constitution of the Arbitral Tribunal, the Tribunal's
+
+order was challenged in the Bombay High Court before a Single Judge, who
+
+dismissed the same.              The intra court appeal was also dismissed by the
+
+Division Bench and the SLP filed also came to be dismissed.
+
+6         Thereafter, pleadings were filed by the parties and the matter
+
+proceeded to recording of evidence. Before the evidence was recorded,
+
+points of dispute was also framed. Evidence of appellant was being recorded
+
+and appellant filed witness affidavit of two persons. Sunil Jain, who was the
+
+nominee Director of appellant in respondent no.6, appeared as CW-1 and
+
+was cross-examined by all respondents. His testimony was completed and
+
+he had been discharged from the proceedings as witness. Second witness
+
+was one Gagan Preet Singh as CW-2, whose cross-examination is yet to be
+
+concluded. CW-1 had appeared as a fact witness and CW-2, a Chartered
+
+Accountant, is produced as an expert witness. After completion of cross-
+
+examination of CW-1 and before the cross-examination of CW-2 could
+
+commence, an application under 
+Section 31(6)
+ read with 
+Section 32
+ of the
+
+Arbitration Act was filed by respondent nos.1 and 2 on 20 th December 2021
+
+(the said application). Reply was filed by appellant. A similar application
+
+was filed by respondent no.3 and respondent no.5. It was the case of
+
+applicant in the said applications that CW-1 - Sunil Jain, who signed and
+
+Meera Jadhav
+
+
+
+
+         ::: Uploaded on - 02/05/2023                    ::: Downloaded on - 03/05/2023 14:49:46 :::
+
+                                         6/38                      COMAPL-36947-22.doc
+
+
+
+
+verified the statement of claim did not have a valid / requisite authority to
+
+invoke arbitration and/or institute the present claim on behalf of appellant
+
+and/or to sign and verify the pleadings and to depose on behalf of appellant
+
+as the said authority does not emanate from the resolution dated 16 th July
+
+2018 on which, Sunil Jain relied upon. The said resolution was not a valid
+
+document in the eyes of law. According to applicant of the said application,
+
+authorization by the invalid document, namely the resolution in favour of
+
+Sunil Jain, goes to the root of the matter. Whether the resolution is a proper
+
+and valid resolution under the laws of BVI is a matter of Foreign Law and
+
+such aspect in Foreign Law is required to be proved as a question of fact that
+
+too by an expert in Foreign Law, as required under 
+Section 45
+ of the Indian
+
+Evidence Act. Appellant having failed to prove that the resolution was a
+
+valid resolution under the laws of BVI, the Arbitral Tribunal was asked to
+
+pass award / interim award and declare that the claim was presented
+
+without authority; that the notice invoking arbitration dated 30th April 2018
+
+was without authority and hence the Arbitral Tribunal should dismiss the
+
+claim with cost. Naturally appellant opposed the application and submitted
+
+that even if it is found that the authorization of Sunil Jain was not a valid
+
+authorization, appellant was ready and willing to rectify the defect.               Of
+
+course, this was also opposed by respondent nos.1 and 2, and 3 and 5, (the
+
+RA Group), in as much as according to these respondents there is no
+
+averment at all in the statement of claim that the resolution was validly
+
+passed under BVI laws and the resolution produced was impermissible and
+
+Meera Jadhav
+
+
+
+
+         ::: Uploaded on - 02/05/2023              ::: Downloaded on - 03/05/2023 14:49:46 :::
+
+                                         7/38                        COMAPL-36947-22.doc
+
+
+
+
+cannot be read in evidence as it did not meet with the requirements of
+
+
+Section 44
+ of the Indian Evidence Act. In order to say that the resolution is
+
+valid as per BVI laws, appellant will have to produce an expert, which
+
+opportunity appellant has already lost. Moreover, it would be on the
+
+assumption that the resolution is valid under BVI laws, which presumption
+
+would be improper as there are no pleadings that the resolution is valid
+
+under the BVI laws. Therefore, granting such opportunity to appellant
+
+would mean showing indulgence to a disentitled party.
+
+7         The Arbitral Tribunal by its award dated 16 th June 2022, allowed the
+
+application of RA Group by holding that there were no averments that the
+
+resolution authorising Sunil Jain was passed as per BVI laws and as no
+
+evidence was led to prove that the said resolution was in accordance with
+
+the BVI laws, the resolution was invalid. The Tribunal also held that even
+
+under the provisions of the 
+Companies Act, 2013
+, the resolution could not
+
+be accepted and, therefore, the resolution was invalid. While holding so,
+
+the Arbitral Tribunal observed that even though appellant has not proved
+
+the resolution dated 16th July 2018 on the strength of which Sunil Jain had
+
+signed and verified the statement of claim is a valid document under law, a
+
+further question is required to be decided, i.e., whether non production of
+
+valid authorization as irregular and is curable. The Arbitral Tribunal went
+
+ahead and decided the question and held that after considering the various
+
+submissions made including the judgments cited, the claim should not be
+
+dismissed for technical reasons as, whether the claim was signed and
+
+Meera Jadhav
+
+
+
+
+         ::: Uploaded on - 02/05/2023                ::: Downloaded on - 03/05/2023 14:49:46 :::
+
+                                                8/38                            COMAPL-36947-22.doc
+
+
+
+
+verified by a competent person does not go to the root of the matter. In
+
+other words, the Arbitral Tribunal held that the defect was curable.
+
+Paragraphs 77 and 78 of the Arbitral Tribunal's order dated 16 th June 2016
+
+read as under:
+
+
+
+               "77. The dicta of the aforesaid pronouncements is that such a
+               defect is curable. That apart, as noticed above in the present
+               case, there was no specific denial about the passing of the
+               Resolution by these Applicants / Respondents in their respective
+               defence statements and no specific question was raised by the
+               respondents that the resolution was not valid under the BVI
+               Laws or Indian Laws. Because of this reason, no specific Issue
+               was framed either. Therefore, there was no occasion for the
+               Claimant to lead any evidence on this aspect. This is yet another
+               reason that the Claimant should be given a chance to show that
+               Mr. Sunil Jain is vested with necessary authority to institute the
+               present Arbitration proceedings and has also been authorised to
+               sign and verify the statement of claim and to depose in the
+               matter. Non granting of such an opportunity would cause
+               prejudice to the Claimant and would amount to miscarriage of
+               justice to the Claimant.
+
+
+
+               78. The claimant can do so either by proving that the Resolution
+               dated 16.07.2018 placed on record is a valid Resolution under
+               BVI laws or by filing fresh Resolution, as this irregularity is
+               ratifiable as well. The Tribunal grants two weeks' time to the
+               Claimant to respond as to which option the Claimant would like
+               to exercise so that further directions are issued by the Tribunal in
+               this behalf."
+
+
+
+8         Aggrieved by this liberty granted by the Arbitral Tribunal to rectify the
+
+defect, two separate petitions under 
+Section 34
+ of the Arbitration Act were
+
+filed by respondent nos.1, 2, 3 and 5. Both the petitions were heard
+
+together and by a common order and judgment pronounced on
+
+1st November 2022,               Learned Single Judge of this court held that the
+
+impugned orders / interim award would be in contravention of the public
+
+policy of India and fundamental Policy of Indian Law. According to the
+
+Learned Single Judge, it was impossible for the Arbitral Tribunal to permit
+
+Meera Jadhav
+
+
+
+
+         ::: Uploaded on - 02/05/2023                           ::: Downloaded on - 03/05/2023 14:49:46 :::
+
+                                         9/38                        COMAPL-36947-22.doc
+
+
+
+
+ratification of the resolution /rectifying the defect. It is that order, i.e.,
+
+impugned in this appeal.
+
+
+
+          Appellant did not challenge the findings of the Arbitral Tribunal,
+
+since, as submitted by Mr. Setalvad, appellant was anyways given a chance
+
+to rectify the defect.
+
+
+
+          Other than Mr. Setalvad, Mr. Sharan Jagtiani and Mr. Haresh Jagtiani,
+
+none of the other counsel made any submissions.
+
+
+
+9         Mr. Setalvad submitted as under:
+
+
+
+(a)       The defect in the board resolution is a procedural defect and is
+
+curable.
+
+
+
+(b)       The Arbitral Tribunal has held that there was defect in the board
+
+resolution but has also held that such a defect was curable and accordingly
+
+gave appellant the opportunity to prove that the board resolution was valid
+
+under BVI laws or file a fresh resolution. These directions were passed by
+
+considering and keeping with the settled position in law as laid down by the
+
+Apex Court and various High Courts including this court.
+
+
+
+(c)       The suit filed by a company with defective board resolution or even
+
+without any board resolution at all is not fatal. It is procedural in nature
+
+and is curable defect. A substantive right should not be allowed to be
+
+defeated on account of a procedural irregularity which can be cured at any
+
+time, as held in 
+United Bank of India Vs. Naresh Kumar
+ 1, Sheth builders 
+Vs.
+
+Michael Gabriel2, Pragya Electronics Pvt Ltd. Vs. Cosmo Ferrites Ltd.
+ 3,
+
+
+1. 1996 (6 )SCC 660
+
+2. 2020 SCC Online Bom 9042
+
+3. 2021 SCC Online Del 3428
+
+Meera Jadhav
+
+
+
+
+         ::: Uploaded on - 02/05/2023                ::: Downloaded on - 03/05/2023 14:49:46 :::
+
+                                         10/38                       
+COMAPL-36947-22.doc
+
+
+
+
+Western India Theaters Ltd. Vs. Ishwarbhai Somabhai Patel4
+, 
+Sangat Printers
+
+Pvt Ltd. Vs. Wimpy International Ltd.5
+, 
+Alcon Electronics Pvt Ltd. Vs. Celem
+
+S. A.6
+, 
+National Ability SA Vs. Tinna Oil & Chemicals Ltd.
+ 7 and 
+Welding Rods
+
+Pvt Ltd. Vs. Indo Borax and Chemicals Ltd.8
+
+
+(d)       In Sheth Builders (Supra) and 
+Alcon Electronics
+ (Supra), there was no
+
+board resolution at all when suits were instituted. Yet the court held that
+
+such a defect is merely a procedural irregularity which can be cured.
+
+
+
+
+Appellant could not be worse-off than in cases where there was no board
+
+resolution at all.
+
+
+
+(e)       In 
+United Bank of India
+ (supra) the court has held that in addition to
+
+and dehors 
+Order 29 Rule 1 of the Code of Civil Procedure
+ Code (
+CPC
+), a
+
+company can authorise any person to sign the plaint on its behalf and that
+
+would be considered sufficient compliance with 
+Order 6 Rule 14 of the CPC
+.
+
+
+ 
+Further, in 
+United Bank of India
+ (Supra) and 
+Pragya Electronics
+
+
+(Supra) nowhere it is mentioned that the signatories were persons falling
+
+under 
+Order 29 Rule 1 of the CPC
+.
+
+
+
+
+(f)       The Learned Single Judge by distinguishing the judgments relied
+
+upon by appellant on the grounds that none of them involved arbitration
+
+proceedings is patently wrong. 
+In 
+Pragya Electronics
+ (supra) where 
+United
+
+Bank of India
+ (supra) and 
+Sangat Printers
+ (supra) was followed, was a case
+
+invoking arbitration proceedings.
+
+
+
+
+4. AIR 1959 Bom 386 (DB)
+
+5. 2012 SCC Online Del 299
+
+6. 2015 (1) MhLJ 852
+
+7. 2008 (105) DRJ 446
+
+8. 2001 SCC Online Guj 269 (DB)
+
+Meera Jadhav
+
+
+
+
+         ::: Uploaded on - 02/05/2023                ::: Downloaded on - 03/05/2023 14:49:46 :::
+
+                                              11/38                      COMAPL-36947-22.doc
+
+
+
+
+
+(g)       It is totally irrelevant that the other matters did not involve arbitration
+
+proceedings. This is because the law 
+laid down in
+ the judgments cited above
+
+is that the defect is procedural in nature and is curable and it would apply
+
+equally to arbitration proceedings.
+
+
+
+(h)       The signing and verification of the statement of claim was a matter of
+
+procedure. The same was governed by Indian Law. Matter of procedure
+
+should always be governed by law of the country, where the court / tribunal
+
+is situated. It is not in the realm of substantive law. This has been the
+
+consistent position of Indian Law as held in 
+All India Reporter Vs.
+
+Ramchandra Dhondo Datar9
+, 
+Cement Co. Ltd. Vs. Abdul Hessein Essaji10
+,
+
+
+Ganpati Nana Powar Vs. Jivanabai Kom Subanna11
+, Netram Dadaram
+
+Palliwal Vs. Bhagwan Wallaji Kunbi12 , and 
+Vatech Global Co. Vs. Unicorn
+
+Denmart Ltd.13
+
+
+(i)       It is settled position in law that all matters of procedure such as
+
+signing and verification are governed by the domestic law of the country,
+
+where the court is situated - Lex Fori (Dicey, Morris and Collins on the
+
+Conflict of Law14). There is a presumption of proper verification and
+
+execution of statement of claim.
+
+
+
+(j)       As per Section 85 read with 
+Section 57(6)
+ of the Indian Evidence Act,
+
+signing and verification of plaint / statement of claim does not require
+
+evidence to prove the same as courts will take judicial notice of such
+
+
+9. 1959 SCC Online Bom 152
+
+10. ILR 1937 Bom 85
+
+11. ILR (1923) 47 Bom 227
+
+12. 1940 SCC Online MP 49
+
+13. 2022 SCC Online DEL 2349
+
+14. 16th Ed., Chapter 4, Pages 121, 131-32
+
+Meera Jadhav
+
+
+
+
+         ::: Uploaded on - 02/05/2023                    ::: Downloaded on - 03/05/2023 14:49:46 :::
+
+                                         12/38                       COMAPL-36947-22.doc
+
+
+
+
+signature / verification as was held in Joyce Cecilia Romalia De Souza Vs
+
+Carl J M De Souza15, Zhejiang Medicines & Health Products Import and
+
+Export Co. Vs. Devashi Impex16, National and Grindlays Bank Vs M/s World
+
+Science News17 and Jugraj Singh Vs Jaswant Singh18.
+
+
+(k)       Even if signing / verification of the statement of claim was not
+
+procedural law but of substantive law and, therefore, BVI Law's were
+
+applicable, then the onus would be on respondents to lead evidence to
+
+prove the Foreign Law. The onus of proving Foreign Law as a fact always
+
+lies upon the party relying upon it.            Absent the Foreign Law being
+
+impleaded by the person objecting, the court will apply Indian Law as held
+
+in 
+Malaysian International Trading Corporation Vs Mega Safe Deposit
+
+Vaults19
+, 
+Rhodia Limited Vs. Neon Laboratories
+ 20 and Dicey, Morris and
+
+Collins on The Conflict of Laws21
+
+
+(l)       The impugned award is not in contravention of public policy of India
+
+and fundamental policy of Indian Law.
+
+
+
+(m) The Arbitral Tribunal has rightly followed the binding judgments. The
+
+order of the Arbitral Tribunal is clearly not contrary to the most basic
+
+notions of justice such as would shock the conscience of the court. Notably,
+
+the ground of patent illegality is not available in the present case, as
+
+appellant is a foreign entity, as per the provisions of 
+Section 34
+(2-A read
+
+with 
+Section 2(1)(f)(ii)
+ of the Arbitration Act and Vijay Karia Vs. Prysmian
+
+15. 2022 SCC Online Bom 421
+
+16. 2016 SCC Online Bom 10041
+
+17. ILR (1976) DEL 559
+
+18. 1970 2 SCC 386 (3J)
+
+19. 2006 SCC Online Bom 92
+
+20. 2004 SCC Online Bom 1125
+
+21. 16th Ed. Chapter 3, Page 103
+
+Meera Jadhav
+
+
+
+
+         ::: Uploaded on - 02/05/2023                ::: Downloaded on - 03/05/2023 14:49:46 :::
+
+                                         13/38                        COMAPL-36947-22.doc
+
+
+
+
+Cavi E Sistemi SRL22 and Ssangyong Engineering and Construction Co. Ltd.
+
+Vs. NHAI23
+
+
+(n)       Providing an opportunity to appellant to rectify its board resolution,
+
+can hardly be said to be against public policy. On the contrary, the order of
+
+Arbitral Tribunal is in keeping with the fundamental policy of Indian Law. If
+
+the Arbitral Tribunal had not permitted, then it would have been contrary to
+
+public law.
+
+
+
+(o)       The Arbitral Tribunal's order is not an interim award and not
+
+amenable to challenge under 
+Section 34
+ of the Arbitration Act because the
+
+order is not a judicial determination of any of the issues framed by the
+
+Arbitral Tribunal. It does not decide any legal rights or liabilities of the
+
+parties under the shareholders agreement dated 25th March 2009.
+
+
+(p)       The question of illegality and/or validity of the board resolution was
+
+not even an issue since there was no denial in the statement of defence.
+
+The order was merely a procedural order passed under 
+Section 19
+ of the
+
+Arbitration Act pursuant to an application under 
+Section 31
+ read with
+
+
+Section 32
+ of the Arbitration Act.
+
+
+
+(q)       As there was no denial qua the passing of the resolution in the
+
+respective statements of defence, no specific issue was framed on this aspect
+
+and hence there was no occasion for appellant to lead evidence on the point
+
+of the validity of the resolution.        It is in this background the Arbitral
+
+Tribunal provided that appellant should be given an opportunity to show
+
+
+22. (2020) 11 SCC 1
+
+23. (2019) 15 scc 131
+
+Meera Jadhav
+
+
+
+
+         ::: Uploaded on - 02/05/2023                 ::: Downloaded on - 03/05/2023 14:49:46 :::
+
+                                         14/38                    COMAPL-36947-22.doc
+
+
+
+
+that Sunil Jain possessed the necessary authority to sign the pleadings and
+
+depose as witness.
+
+
+
+(r)       As held in 
+Sanshin Chemicals Industry Vs. Oriental Carbons &
+
+Chemicals Ltd.24
+, Harinarayan G Bajaj Vs. sharedeal Financial Consultants
+
+Pvt Ltd.25, Deepak Mitra Vs. District Judge, 
+Allahabad26, Punj Lloyd Ltd Vs
+
+Oil
+ and Natural Gas Corporation Ltd.27 and Ranjiv Kumar Vs. Sanjiv Kumar 28
+
+an Interim award is in the nature of preliminary decree. For an order to be
+
+an interim award, it must have finally decided a claim, part of a claim and/
+
+or counter claim which forms subject matter of the arbitral proceedings.
+
+The rights and/or liabilities under the contract must have been judicially
+
+determined. As that has not been done in this case, an order of this nature
+
+passed by the Arbitral Tribunal can hardly be said to be an interim award.
+
+
+The Delhi High Court in 
+Future Coupons Pvt. Ltd. Vs. Amazon.com NV
+
+Investment Holdings LLC29
+ held that interlocutory orders passed in arbitral
+
+proceedings are immune from challenge and party must wait till the final
+
+award and only then can he vent his grievances, both against the
+
+interlocutory order as well as the final award.
+
+
+
+
+(s)       The judgment of the Apex Court in 
+Indian Farmers Cooperative Ltd.
+
+(IFFCO) Vs. Bhadra Products30
+ has been wrongly relied upon by the Learned
+
+Single Judge because 
+the said judgment
+ was totally inapplicable for the
+
+facts and circumstances of the case at hand.
+
+
+24. 2001(3) SCC 341
+
+25. 2003 Mh LJ 598
+
+26. AIR 2000 All 609
+
+27. 2016 SCC Online Bom 3749
+
+28. AIR 2018 Cal 130 (DB)
+
+29. 2022/DHC/005024
+
+30. 2018 (2) SCC 534
+
+Meera Jadhav
+
+
+
+
+         ::: Uploaded on - 02/05/2023             ::: Downloaded on - 03/05/2023 14:49:46 :::
+
+                                         15/38                       COMAPL-36947-22.doc
+
+
+
+
+
+(t)       Reliance of respondents on 
+Maharashtra State Electricity Distribution
+
+Company Ltd. (MSEDCL) Vs. Godrej and Boyce Manufacturing Co. Ltd
+ .31 is
+
+completely misplaced. That was a case where one party to a joint venture
+
+invoked arbitration without any authority from the other party to the joint
+
+venture.
+
+
+
+
+(u)       The Learned Single Judge's finding that the Arbitral Tribunal has
+
+exercised jurisdiction in equity by permitting appellant to rectify the board
+
+resolution under 
+Section 28(2)
+ of the Arbitration Act, is incorrect. Apart
+
+from making a bald statement, the Learned Single Judge has not given any
+
+reason or explanation as to how the Arbitral Tribunal has exercised
+
+equitable jurisdiction.
+
+
+
+(v)       
+Section 28
+ of the Arbitration Act is not applicable since it provides
+
+Rules applicable to substance of dispute. The order passed by the Arbitral
+
+Tribunal had no connection with the substance of the dispute. It was merely
+
+a procedural order. It gave appellant an opportunity to rectify the defect as
+
+was mandated by law. Permitting a party to cure a procedural defect as held
+
+in various judgments is the norm.          The Arbitral Tribunal has not acted
+
+contrary to the law nor had disregarded the law. It has in fact applied the
+
+correct principles.
+
+
+
+(w)       The Arbitral Tribunal has not exercised any equitable jurisdiction.
+
+The Arbitral Tribunal has only applied the law when a document is filed by
+
+a company without the board resolution or a defective board resolution, it is
+
+
+
+31. 2019 SCC Online Bom 3920
+
+Meera Jadhav
+
+
+
+
+         ::: Uploaded on - 02/05/2023                ::: Downloaded on - 03/05/2023 14:49:46 :::
+
+                                         16/38                        COMAPL-36947-22.doc
+
+
+
+
+a procedural defect which is not fatal and must be permitted to be cured.
+
+10        Mr. Sharan Jagtiani submitted as under:
+
+
+
+(a)       On maintainability of petition under 
+Section 34
+ of the Arbitration Act,
+
+as held by the Apex Court in 
+IFFCO
+ (Supra), a final decision on "any matter"
+
+
+
+
+or issue which arises between the parties to arbitration is an interim award,
+
+which can be independently and separately challenged under 
+Section 34
+ of
+
+the Arbitration Act. The Apex Court in 
+IFFCO
+ (supra) has held that language
+
+of 
+Section 31(6)
+ of the Arbitration Act is advisedly wide in nature; that an
+
+interim award may be made on "any matter" with respect to which Arbitral
+
+Tribunal makes a final award. The expression "matter" is wide in nature
+
+and subsumes issues at which the parties are in dispute.
+
+
+(b)       The facts and issues that arise in 
+MSEDCL
+ (supra) are almost identical
+
+to that of the present matter.
+ 
+Reliance by appellant on Harinarayan G. Bajaj
+
+(Supra), 
+Sanshin Chemical Industry
+ (Supra), 
+Punj Lloyd Ltd.
+(Supra),
+
+Deepak Mitra (Supra), Ranjiv Kumar & Anr. (Supra), advocating a narrower
+
+construction of what constitutes an interim award is misplaced. The nature
+
+of orders passed in these judgments cited by appellant are entirely distinct
+
+from the impugned order.
+ 
+Similarly appellant's reliance on 
+Future Coupons
+
+Pvt Ltd.
+(Supra), is also misconceived because in 
+Future Coupons
+ (Supra)
+
+the application before the Arbitral Tribunal was only under 
+Section 33(2)(c)
+
+
+of the Arbitration Act and not for an interim award under 
+Section 31(6)
+
+
+read with 
+Section 2(c)
+ of the Arbitration Act.
+
+
+
+
+
+
+Meera Jadhav
+
+
+
+
+         ::: Uploaded on - 02/05/2023                 ::: Downloaded on - 03/05/2023 14:49:46 :::
+
+                                         17/38                      COMAPL-36947-22.doc
+
+
+
+
+
+(c)       The Arbitral Tribunal's findings are in favour of respondents on
+
+matters of pleading, matters of evidence and position of Indian Law under
+
+the 
+Indian Companies Act, 2013
+. The Arbitral Tribunal having categorically
+
+found in favour of respondents that appellant has not proved the board
+
+resolution dated 16th July 2018 on the strength of which, Sunil Jain had
+
+signed and verified the statement of claim as a valid document under law,
+
+nevertheless, wrongfully allowed appellant to cure the invalidity.                 The
+
+Arbitral Tribunal's reasoning was since the defect is curable and since there
+
+was no specific denial of the passing of the board resolution in the
+
+respondents' statement of defence and no specific question was raised on
+
+this aspect - no issue was framed or in the absence of issue being framed,
+
+there was no occasion for appellant to lead evidence in this aspect. For those
+
+reasons, appellant should be given an opportunity to show that Sunil Jain is
+
+authorized to sign and verify the statement of claim and depose on behalf of
+
+appellant, was flawed.
+
+
+
+(d)       To the extent, the Arbitral Award permits appellant to cure the
+
+invalidity of the board resolution, is in conflict with the public policy of
+
+India and is liable to be set aside. This is because it negates and reverses the
+
+finality of findings in favour of respondents confirming subject matter of the
+
+interim award thus giving appellant a clean slate to re-agitate disputed
+
+matters of substance arising in the arbitration.
+
+
+(e)       Once it has been held on appreciation of pleadings and evidence led
+
+in this regard that Sunil Jain lacks the requisite authority to sign and verify
+
+Meera Jadhav
+
+
+
+
+         ::: Uploaded on - 02/05/2023               ::: Downloaded on - 03/05/2023 14:49:46 :::
+
+                                         18/38                        COMAPL-36947-22.doc
+
+
+
+
+the statement of claim, the issue stood determined. The Arbitral Tribunal's
+
+jurisdiction to consider this issue ends on such determination. The Arbitral
+
+Tribunal cannot extend its jurisdiction by permitting appellant to cure the
+
+invalidity of Sunil Jain's authority and thereby retain the jurisdiction to once
+
+again determine his authority to sign and verify the statement of claim.
+
+
+(f)       If the party is allowed to lead evidence once it has chosen not to do
+
+so, no litigation will ever end. Such course of action would also militate
+
+against the fundamental policy of Indian Law which tries to attain finality to
+
+arbitral awards.
+
+
+
+(g)       If authority to a person to institute legal proceedings was given at a
+
+board meeting held on a particular date and it is established after trial, that
+
+the meeting was held, in a manner unknown to law, or that in fact no such
+
+meeting was held on the date stated by plaintiff, the court would not allow
+
+plaintiff to undo the effect of that finding by once again holding a meeting
+
+to issue such authority. Such opportunities erodes the binding finality of
+
+awards. There is fundamental and inherent contradiction in the interim
+
+award in as much as, on the one hand the Arbitral Tribunal holds that
+
+pleadings regarding the validity of the board resolution are required to be
+
+made by appellant in the statement of claim itself since appellant would not
+
+know what position respondents may take in the statement of claim in this
+
+regard. Such pleadings are entirely absent. The Arbitral Tribunal rejects
+
+appellant's submission that the lack of specific denial of the board resolution
+
+in respondents' statement of defence amounts to admission of its validity.
+
+
+Meera Jadhav
+
+
+
+
+         ::: Uploaded on - 02/05/2023                 ::: Downloaded on - 03/05/2023 14:49:46 :::
+
+                                         19/38                       COMAPL-36947-22.doc
+
+
+
+
+
+The Arbitral Tribunal noticed that PA group in the reference has denied the
+
+existence and validity of the board resolution and, therefore, appellant was
+
+put to notice of its burden to prove the same.
+
+
+
+          In a departure from this reasoning, however, an opportunity is given
+
+by the Arbitral Tribunal to appellant to cure the invalidity of the board
+
+resolution is premised on the reasoning that there is no specific denial of the
+
+validity of the board resolution by respondents in their statements of
+
+defence due to which no specific issue was framed and as such no evidence
+
+was led by appellant in this regard. Therefore, by giving an opportunity to
+
+cure the defect, the Arbitral Tribunal has given not one but two options,
+
+when no such opportunity was sought by appellant.
+
+
+(h)       Appellant never even made an application to the Arbitral Tribunal to
+
+allow it to cure the validity for Sunil Jain's authorization to sign and verify
+
+the statement of claim. Still an opportunity was given.
+
+
+(i)       The Arbitral Tribunal has exercised jurisdiction in equity ( Ex Aequo
+
+Etbono/ Amiable Compositeur) which is not permitted under 
+Section 28
+ of
+
+the Arbitration Act. This was not a case where the Arbitral Tribunal
+
+exercised power in law available to it on a matter of mere procedure. It was
+
+entirely a matter of substance decided in accordance with substantive law.
+
+The opportunity to cure the defect in the board resolution by the options in
+
+paragraph 77 of the award are demonstrably an exercise of power in equity.
+
+The Arbitral Tribunal holds that if it does not grant appellant an opportunity
+
+to cure the invalidity of Sunil Jain's authority, it would cause prejudice to
+
+Meera Jadhav
+
+
+
+
+         ::: Uploaded on - 02/05/2023                ::: Downloaded on - 03/05/2023 14:49:46 :::
+
+                                         20/38                        COMAPL-36947-22.doc
+
+
+
+
+appellant and that would amount to miscarriage of justice to appellant.
+
+This is a clear exercise of equitable jurisdiction under 
+Section 28(2)
+ of the
+
+Arbitration Act, where it was not available to the Arbitral Tribunal. The
+
+observations in Interocean Shipping India Pvt Ltd. Vs. ONGC32 are apposite
+
+even to the present case. None of the judgments relied upon by appellant
+
+even remotely apply.
+
+
+
+(j)       In the circumstances, the appeal has to be dismissed.
+
+11        Mr. Haresh Jagtiani, in addition to adopting the submissions of Mr.
+
+Sharan Jagtiani, submitted as under:
+
+
+
+(a)       The Arbitral Tribunal having held that the resolution based on which
+
+Sunil Jain signed the pleadings was illegal on the basis of the substantive
+
+law applicable in India, which is the applicable law governing the
+
+arbitration, could not have given the liberty to cure the defect.
+
+
+
+(b)       Sunil Jain was the only fact witness deposing on behalf of appellant
+
+and the resolution relied upon by him having been held as not proved, the
+
+resolution becomes inadmissible in evidence and no part of the award can
+
+be based upon an inadmissible document under the 
+Indian Evidence Act
+
+
+1872. The issue is purely one of substance and not procedure which is
+
+incapable of being cured in the manner in which it is sought to be by the
+
+Arbitral Tribunal.
+
+
+
+(c)       The resolution has been passed by appellant which is a BVI registered
+
+company whose sole director is Execorp, a corporate entity whose place of
+
+
+
+32. 2022 SCC Online Bom 1699
+
+Meera Jadhav
+
+
+
+
+         ::: Uploaded on - 02/05/2023                 ::: Downloaded on - 03/05/2023 14:49:46 :::
+
+                                         21/38                       COMAPL-36947-22.doc
+
+
+
+
+registration is unknown. Applying the test of Indian Law, such a company
+
+like appellant will not be recognized as a legal entity given that 
+Section 149
+
+
+of the Companies Act 2013 only permits a natural person to be a director
+
+and not another artificial entity. This also has been held by the Arbitral
+
+Tribunal against appellant and by this yardstick as well the resolution has
+
+been declared to be invalid. It is on a pure question of substance that this
+
+finding has been arrived at.
+
+
+
+(d)       Paragraphs 77 and 78 of the award are at odds with the rest of the
+
+findings in the award. The liberty given in paragraph 78 to file a fresh
+
+resolution can only be explained or justified on principles of equity and
+
+good conscience. 
+Section 28 (2)
+ of the Arbitration Act does not permit this
+
+unless parties have agreed under the contract that the Arbitral Tribunal can
+
+fall back on equity.
+
+
+
+(e)       The Arbitral Tribunal is a creature of contract between two parties
+
+intending to resolve their dispute by arbitrators of their choice and 
+Section
+
+28(2)
+ of the Arbitration Act proscribes the Arbitral Tribunal from exercising
+
+equitable jurisdiction except, if expressly agreed by contract of parties
+
+referring the resolution of their dispute to arbitration.
+
+
+(f)       Since the parties had not agreed to the Arbitral Tribunal applying
+
+principles of equity, the Arbitral Tribunal could not have given the
+
+opportunity to appellant to cure the defect.
+
+
+
+12        Though elaborate submissions were made, the issues at hand are :-
+
+
+(a)       Whether petition filed by respondent nos.1 to 4 under 
+Section 34
+ of
+
+Meera Jadhav
+
+
+
+
+         ::: Uploaded on - 02/05/2023                ::: Downloaded on - 03/05/2023 14:49:46 :::
+
+                                         22/38                        COMAPL-36947-22.doc
+
+
+
+
+the Arbitration Act was maintainable ?
+
+
+
+(b)       Whether, (i) Arbitral Tribunal having found in favour of respondents
+
+in holding that Sunil Jain was neither a Secretary nor a Director nor other
+
+principal officer of appellant and the board resolution dated 16 th July 2018,
+
+on the strength of which Sunil Jain has signed and verified the statement of
+
+claim, is not a valid document under law, could the Arbitral Tribunal say
+
+that the defect was curable or ratifiable? and (ii) for the reasons mentioned
+
+in paragraph 77 of the award, appellant should be given a chance to show
+
+that Sunil Jain is vested with necessary authority to institute the present
+
+arbitration proceedings and also has been authorised to sign and verify the
+
+statement of claim and to depose in the matter or in the alternative file a
+
+fresh resolution ?
+
+
+
+(c)       Whether Section 28 of the Arbitration Act would be applicable in as
+
+much as, granting an opportunity to rectify the defect is an exercise of
+
+powers under Section 28(2) of the Arbitration Act which parties have not
+
+expressly authorised the Arbitral Tribunal to do so.
+
+
+
+Our answers are as under:
+
+
+
+Issue (a):-
+
+
+
+13        On the issue of the maintainability of petition under 
+Section 34
+ of the
+
+Arbitration Act, we would hold that the petition was maintainable. The
+
+Apex Court in 
+IFFCO
+ (supra) has held that the words "any matter" used in
+
+
+Section 31(6)
+ of the Arbitration Act is very wide in nature and that an
+
+interim award may be made on "any matter" with respect to which the
+
+Meera Jadhav
+
+
+
+
+         ::: Uploaded on - 02/05/2023                 ::: Downloaded on - 03/05/2023 14:49:46 :::
+
+                                                23/38                            COMAPL-36947-22.doc
+
+
+
+
+Arbitral Tribunal may make a final Arbitral Award. The expression "matter"
+
+is wide in nature and subsumes issues at which the parties herein are in
+
+dispute. Paragraph 8 of IFFCO reads as under:
+
+
+
+
+               "8. The language of 
+Section 31(6)
+ is advisedly wide in nature. A
+               reading of the said sub-section makes it clear that the jurisdiction to
+               make an interim arbitral award is left to the good sense of the arbitral
+               tribunal, and that it extends to "any matter" with respect to which it
+               may make a final arbitral award. The expression "matter" is wide in
+               nature, and subsumes issues at which the parties are in dispute. It is
+               clear, therefore, that any point of dispute between the parties which
+               has to be answered by the arbitral tribunal can be the subject matter of
+               an interim arbitral award. However, it is important to add a note of
+               caution. In an appropriate case, the issue of more than one award may
+               be necessitated on the facts of that case. However, by dealing with the
+               matter in a piecemeal fashion, what must be borne in mind is that the
+               resolution of the dispute as a whole will be delayed and parties will be
+               put to additional expense. The arbitral tribunal should, therefore,
+               consider whether there is any real advantage in delivering interim
+               awards or in proceeding with the matter as a whole and delivering one
+               final award, bearing in mind the avoidance of delay and additional
+               expense. Ultimately, a fair means for resolution of all disputes should
+               be uppermost in the mind of the arbitral tribunal."
+
+
+
+ 
+The Supreme Court was considering whether a decision on limitation
+
+is an interim award which can be independently and separately challenged
+
+under 
+Section 34
+ of the Arbitration Act. 
+Paragraph 30 of IFFCO
+ (supra)
+
+reads as under:
+
+
+
+
+               "30. In our view, therefore, it is clear that the award dated 23 rd July,
+               2015 is an interim award, which being an arbitral award, can be
+               challenged separately and independently under 
+Section 34
+ of the
+               Arbitration Act. We are of the view that such an award, which does
+               not relate to the arbitral tribunal's own jurisdiction under 
+Section 16
+,
+               does not have to follow the drill of 
+Section 16(5)
+ and (6) of the Act.
+               Having said this, we are of the view that Parliament may consider
+               amending 
+Section 34
+ of the Act so as to consolidate all interim
+               awards together with the final arbitral award, so that one challenge
+               under 
+Section 34
+ can be made after delivery of the final arbitral
+               award. Piecemeal challenges like piecemeal awards lead to
+               unnecessary delay and additional expense."
+
+
+
+Meera Jadhav
+
+
+
+
+         ::: Uploaded on - 02/05/2023                            ::: Downloaded on - 03/05/2023 14:49:46 :::
+
+                                         24/38                      COMAPL-36947-22.doc
+
+
+
+
+14        The facts and issues which arose in 
+MSEDCL
+ (Supra) are almost
+
+similar to that of the present matter.
+ 
+In 
+MSEDCL
+ (supra), the respondent in
+
+the arbitration challenged the claimant's authority to file a claim on behalf a
+
+joint venture. The respondent filed a formal application for issuance of an
+
+interim award under 
+Section 31(6)
+ of the Arbitration Act dismissing the
+
+claim. The tribunal rejected this application. The Learned Single Judge of
+
+this court allowed the petition filed by MSEDCL under 
+Section 34
+ of the
+
+Arbitration Act and dismissed the claim. The Court held that the claimant's
+
+JV partner- Electropath had not authorized the filing of the claim. The
+
+Learned Single Judge found that Electropath did not give any express
+
+authority in favour of the claimant to refer the dispute to arbitration arising
+
+out of the business relating to the joint venture, and the claimant could not
+
+legally represent Electropath as lead member of the said joint venture in
+
+absence of any express authority on behalf            of     the      Electropath.
+
+Significantly, the court held that the arbitrator ought to have held that the
+
+statement of claim filed by the claimant in its individual capacity was not
+
+maintainable and ought to have allowed the said application filed by the
+
+Respondents under 
+section 31(6)
+ of the Arbitration Act and ought to have
+
+dismissed the claims made by the claimant. Consequently, this Court
+
+allowed the petition under 
+Section 34
+ of the Arbitration Act and allowed the
+
+application filed by MSEDCL under 
+Section 31(6)
+ of the Arbitration Act and
+
+ordered dismissal of the claim.
+
+
+
+
+
+
+Meera Jadhav
+
+
+
+
+         ::: Uploaded on - 02/05/2023              ::: Downloaded on - 03/05/2023 14:49:46 :::
+
+                                         25/38                       COMAPL-36947-22.doc
+
+
+
+
+15        Both these judgments, i.e. 
+IFFCO
+ (supra) and 
+MSEDCL
+ (supra) relied
+
+
+
+on by Respondents is subsequent in time vis-à-vis the judgments cited by
+
+appellant.
+
+
+
+16        Advocating a narrower construction of what constitutes an interim
+
+award appellant relied on various judgments, i.e., Harinarayan G. Bajaj
+
+(supra), 
+Sanshin Chemical Industry
+ (supra), 
+Punj Llyod Ltd.
+ (supra)
+
+Deepak Mitra (supra), Ranjiv Kumar (supra), to submit that an 'interim
+
+award' is limited to orders which finally decide any part of the claim or
+
+counterclaim between the parties or an order which results in dismissal of
+
+the reference. The nature of orders passed in the judgments cited by
+
+appellant are entirely distinct from the Order dated 16th June 2022.
+
+
+17        Appellant's reliance on the judgment of 
+Free Coupons Pvt Ltd.
+ (supra)
+
+on this aspect is not correct. In that case the order of the Arbitral Tribunal
+
+was challenged, and the Hon'ble Delhi High Court did not entertain the
+
+challenge under 
+Section 34
+ of the Arbitration Act.
+
+
+ 
+The main distinction that appellant misses is that in 
+Future Coupons
+
+Pvt Ltd.
+ (supra) the application before the Arbitral Tribunal was only under
+
+
+Section 32(2)(c)
+ of the Arbitration Act and not for an Interim Award under
+
+
+Section 31(6)
+ read with 
+Section 2(c)
+ of the Arbitration Act. In that case, the
+
+question was whether order of Competition Commission of India dated 17 th
+
+December 2022 and order of the National Company Law Tribunal admitting
+
+an application against Future FRL would prevent the arbitration from
+
+proceeding. It was on the basis of these two other orders in two completely
+
+Meera Jadhav
+
+
+
+
+         ::: Uploaded on - 02/05/2023                ::: Downloaded on - 03/05/2023 14:49:46 :::
+
+                                         26/38                     COMAPL-36947-22.doc
+
+
+
+
+different proceedings and their alleged effect on the arbitration that the
+
+petitioner filed its application under 
+Section 32(2)(c)
+ of the Arbitration Act
+
+seeking a determination that the continuation of the arbitration proceedings
+
+has become unnecessary or impossible. It is in this context that the findings
+
+of the Delhi High Court came to be rendered by holding that had the
+
+application been allowed and the arbitration reference terminated, perhaps
+
+a remedy would have been available under 
+Article 227
+ of the Constitution of
+
+India but that since the application was dismissed by the Arbitral Tribunal,
+
+no remedy would lie against the interlocutory order of the Tribunal under
+
+
+Section 34
+ of the Arbitration Act. 
+Section 31(6)
+ of the Arbitration Act and
+
+the very concept of an Interim Award being under challenge did not arise 
+in
+
+that case
+.
+
+
+
+
+18        In our view, 
+IFFCO
+ (supra) and 
+MSEDCL
+ (supra) are authorities for
+
+the proposition that an order or decision is an interim award if it finally
+
+decides an issue or 'matter' between the parties on which the tribunal can
+
+make a final award, including an order determining whether the claimant is
+
+authorised to file the claim. As such, the Impugned Order dated 16 June
+
+2022 is an Interim Award within the meaning of 
+Section 2(1)(c)
+ read with
+
+
+Section 31(6)
+ of the Arbitration Act.
+
+
+
+
+Issue (b) and Issue (c)
+
+19        The issue as to whether the Arbitral Tribunal could have given an
+
+opportunity to cure the irregularity or whether there was a bar under
+
+
+Section 28(2)
+ of the Arbitration Act have to be considered together and can
+
+Meera Jadhav
+
+
+
+
+         ::: Uploaded on - 02/05/2023              ::: Downloaded on - 03/05/2023 14:49:46 :::
+
+                                               27/38                           COMAPL-36947-22.doc
+
+
+
+
+be answered thus:
+
+
+
+ 
+It is appellant's case that the lack of authority or defective authority of
+
+Sunil Jain is a procedural defect and is curable; it was a case, where the
+
+Arbitral Tribunal exercised powers in law available to it on a matter of mere
+
+procedure; it was not a matter of substance decided in accordance with
+
+substantive law. In our view, the Arbitral Tribunal did not decide any matter
+
+of substance in accordance with substantive law.                    Having said that, the
+
+Arbitral Tribunal, as 
+laid down in
+ 
+Nahar Industrial Enterprises Ltd Vs.
+
+Hongkong and Shanghai Banking Corporation33
+ by the Apex Court, can
+
+travel beyond 
+the CPC
+ and the only fetter that is put on its powers is to
+
+observe the principles of natural justice.
+ 
+Paragraph 98(n) of 
+Nahar
+
+Industrial Enterprises Ltd.
+ (Supra) reads as under:
+
+
+
+
+               "98(n) It is not bound by the procedure laid down under the Code. It
+               may however be noticed in this regard that just because the Tribunal is
+               not bound by the Code, it does not mean that it would not have
+               jurisdiction to exercise beyond 
+the Code of Civil Procedure
+. Rather, the
+               Tribunal can travel beyond 
+the Code of Civil Procedure
+ and the only
+               fetter that is put on its powers is to observe the principles of natural
+               justice."
+
+ 
+(emphasis supplied)
+
+
+20        As held by the Apex Court in Srei Infrastructure Finance Ltd. Vs. Tuff
+
+Drilling (P) Ltd.34 
+Section 19
+ cannot be read to mean that the arbitral
+
+tribunal is incapacitated in drawing sustenance from any provisions laid
+
+down under 
+the CPC
+. Just because the Arbitral Tribunal is not bound by 
+the
+
+CPC
+, it does not mean that it would not have jurisdiction to exercise powers
+
+of a court as contained in 
+the CPC
+.
+
+
+
+
+33. (2009) 8 SCC 646
+
+34. (2018) 11 SCC 470
+
+Meera Jadhav
+
+
+
+
+         ::: Uploaded on - 02/05/2023                          ::: Downloaded on - 03/05/2023 14:49:46 :::
+
+                                               28/38                           COMAPL-36947-22.doc
+
+
+
+
+          
+Section 19
+ of the Arbitration Act, for ease of reference, reads as
+
+under:
+
+
+
+               "Determination of rules of procedure.--
+
+               (1) The arbitral tribunal shall not be bound by 
+the Code of Civil
+               Procedure
+, 1908 (5 of 1908) or the 
+Indian Evidence Act, 1872
+ (1 of
+               1872).
+
+
+
+               (2) Subject to this Part, the parties are free to agree on the procedure
+               to be followed by the arbitral tribunal in conducting its proceedings.
+
+               (3) Failing any agreement referred to in sub-section (2), the arbitral
+               tribunal may, subject to this Part, conduct the proceedings in the
+               manner it considers appropriate. The power of the arbitral tribunal
+               under sub-section (3) includes the power to determine the
+               admissibility, relevance, materiality and weight of any evidence."
+
+
+
+ 
+Paragraph 26 of Srei Infrastructure Finance Ltd.
+(supra) reads:
+
+
+ 
+26. There cannot be a dispute that the power exercised by the arbitral
+               tribunal is a quasi-judicial. In view of the provisions of the 1996 Act,
+               which confers various statutory powers and obligations on the arbitral
+               tribunal, we do not find any such distinction between the statutory
+               tribunal constituted under the statutory provisions or Constitution in
+               so far as the power of procedural review is concerned. We have
+               already noticed that 
+Section 19
+ provides that arbitral tribunal shall
+               not be bound by the rules of procedure as contained in Civil
+               Procedure Code. 
+Section 19
+ cannot be read to mean that arbitral
+               tribunal is incapacitated in drawing sustenance from any provisions 
+of
+               Code of Civil Procedure
+. This was clearly 
+laid down in
+ 
+Nahar
+               Industrial Enterprises Limited Vs. Hong Kong and Shanghai Banking
+               Corporation
+, (2009) 8 SCC 646. In Paragraph 98(n), following was
+               stated:-
+
+
+               "(n) It is not bound by the procedure laid down under the Code. It
+               may however be noticed in this regard that just because the Tribunal
+               is not bound by the Code, it does not mean that it would not have
+               jurisdiction to exercise powers of a court as contained in the Code.
+
+               "Rather, the Tribunal can travel beyond 
+the Code of Civil Procedure
+
+               and the only fetter that is put on its powers is to observe the
+               principles of natural justice."
+
+                                                                (emphasis supplied)
+
+
+21        In Oil & Natural Gas Corporation Ltd. Vs. Interocean Shipping (India)
+
+Pvt Ltd.35 learned single Judge of this court held that though the Arbitral
+
+Tribunal is not bound by the Evidence Act and Civil Procedure Code, the
+
+35. 2017 Scc Online Bom 1032
+
+Meera Jadhav
+
+
+
+
+         ::: Uploaded on - 02/05/2023                          ::: Downloaded on - 03/05/2023 14:49:46 :::
+
+                                               29/38                           COMAPL-36947-22.doc
+
+
+
+
+principles thereof will still apply.              Paragraph 48 of Oil Natural Gas
+
+Corporation Ltd. (Supra) reads as under:
+
+
+
+               "48. This Court has already held in catena of the decisions that though
+               under 
+Section 19
+ of the Arbitration and Conciliation Act, 1996, the
+               arbitral tribunal was not bound by 
+the Code of Civil Procedure
+, 1908,
+               
+Indian Evidence Act, 1872
+, the arbitral tribunal is still bound by the
+               principles of 
+Indian Evidence Act
+, 
+Code of Civil Procedure
+, 1908 and
+               also the principles of natural justice. In my view, the impugned award
+               on this issue shows clear perversity and patent illegality."
+
+
+
+22        In 
+United Bank of India
+ (supra) the Apex Court has held that letter of
+
+authority of an individual, who had signed the pleadings on behalf of the
+
+company can be cured by the company subsequently. The court held that
+
+where suits are instituted or defended on behalf of a public corporation,
+
+public interest should not be permitted to be defeated on a mere
+
+technicality. Though appellant is not a public corporation, a litigant's
+
+interest should not be permitted to be defeated on a mere technicality.
+
+Procedural defects which do not go to the root of the matter should not be
+
+permitted to defeat a just cause. There is sufficient power in the Courts,
+
+under 
+the Code of Civil Procedure
+, to ensure that injustice is not done to any
+
+party who has a just case. As far as possible a substantive right should not
+
+be allowed to be defeated on account of a procedural irregularity which is
+
+curable. The court also held that in the absence of a person expressly
+
+authorised to sign the pleadings on behalf of the company, for example by
+
+the Board of Directors passing a resolution to that effect or by a power of
+
+attorney being executed in favour of any individual, the company can ratify
+
+the said action of it's officer in signing the pleadings. Such ratification can
+
+Meera Jadhav
+
+
+
+
+         ::: Uploaded on - 02/05/2023                          ::: Downloaded on - 03/05/2023 14:49:46 :::
+
+                                                30/38                            COMAPL-36947-22.doc
+
+
+
+
+be express or implied.
+ 
+Paragraphs 8, 9, 10, 11 and 13 of United Bank of
+
+India
+ (supra) read as under:
+
+
+
+
+               8. In this appeal, therefore, the only question which arises for
+               consideration is whether the plaint was duly signed and verified by a
+               competent person.
+
+               9. In cases like the present where suits are instituted or defended on
+               behalf of a public corporation, public interest should not be permitted
+               to be defeated on a mere technicality. Procedural defects which do not
+               go to the root of the matter should not be permitted to defeat a just
+               cause. There is sufficient power in the Courts, under 
+the Code of Civil
+               Procedure
+, to ensure that injustice is not done to any party who has a
+               just case. As far as possible a substantive right should not be allowed
+               to be defeated on account of a procedural irregularity which is
+               curable.
+
+               10. It cannot be disputed that a company like the appellant can sue
+               and be sued in its own name. Under 
+Order 6 Rule 14 of the Code of
+               Civil Procedure
+ a pleading is required to be signed by the party and its
+               pleader, if any. As a company is a juristic entity it is obvious that some
+               person has to sign the pleadings on behalf of the company. 
+Order 29
+               Rule 1 of the Code of Civil Procedure
+, therefore, provides that in a
+               suit by against a corporation the Secretary or any Director or other
+               Principal officer of the corporation who is able to depose to the facts
+               of the case might sign and verify on behalf of the company. Reading
+               Order 6 Rule 14 together with 
+Order 29 Rule 1 of the Code of Civil
+               Procedure
+ it would appear that even in the absence of any formal
+               letter of authority or power of attorney having been executed a
+               person referred to in Rule 1 of Order 29 can, by virtue of the office
+               which he holds, sign and verify the pleadings on behalf of the
+               corporation. In addition thereto and de hors 
+Order 29 Rule 1 of the
+               Code of Civil Procedure
+, as a company is a juristic entity, it can duly
+               authorise any person to sign the plaint or the written statement on its
+               behalf and this would be regarded as sufficient compliance with the
+               provisions of 
+Order 6 Rule 14 of the Code of Civil Procedure
+. A person
+               may be expressly authorised to sign the pleadings on behalf of the
+               company, for example by the Board of Directors passing a resolution
+               to that effect or by a power of attorney being executed in favour of
+               any individual. In absence thereof and in cases where pleadings have
+               been signed by one of it's officers a Corporation can ratify the said
+               action of it's officer in signing the pleadings. Such ratification can be
+               express or implied. The Court can, on the basis of the evidence on
+               record, and after taking all the circumstances of the case, specially
+               with regard to the conduct of the trial, come to the conclusion that
+               the corporation had ratified the act of signing of the pleading by it's
+               officer.
+
+               11. The courts below could have held that Sh. L.K. Rohatgi must have
+               been empowered to sign the plaint on behalf of the appellant. In the
+               alternative it would have been legitimate to hold that the manner in
+               which the suit was conducted showed that the appellant bank must
+               have ratified the action of Sh. L.K. Rohatgi in signing the plaint. If, for
+               any reason whatsoever, the courts below were still unable to come to
+
+Meera Jadhav
+
+
+
+
+         ::: Uploaded on - 02/05/2023                            ::: Downloaded on - 03/05/2023 14:49:46 :::
+
+                                               31/38                           COMAPL-36947-22.doc
+
+
+
+
+               this conclusion, then either of the appellate courts ought to have
+               exercised their jurisdiction under Order 41 Rule 27 (1) (b) 
+of the
+               Code of Civil Procedure
+ and should have directed a proper power of
+               attorney to be produced or they could have ordered Sh. L.K. Rohatgi
+               or any other competent person to be examined as a witness in order
+               to prove ratification or the authority of Sh. L.K. Rohatgi to sign the
+               plaint. Such a power should be exercised by a court in order to ensure
+               that injustice is not done by rejection of a genuine claim.
+
+               12. ********************
+
+               13. The court had to be satisfied that Sh. L.K. Rohatgi could sign the
+               plaint on behalf of the appellant. The suit had been filed in the name
+               of the appellant company; full amount of court fee had been paid by
+               the appellant bank; documentary as well as oral evidence had been
+               led on behalf of the appellant and the trial of the suit before the Sub
+               Judge, Ambala, had continued for about two years. It is difficult, in
+               these circumstances, even to presume that the suit had been filed and
+               tried without the appellant having authorised the institution of the
+               same. The only reasonable conclusion which we can come to is that
+               Sh. L.K. Rohatgi must have been authorised to sign the plaint and, in
+               any case, it must be held that the appellant had ratified the action of
+               Sh. L.K. Rohatgi in signing the plaint and thereafter it continued with
+               the suit.
+
+
+
+23        In the impugned order, the Learned Single Judge has accepted that
+
+this is the position in law but states that none of the cases relied upon by
+
+appellant apply to the arbitral proceedings. According to the Learned Single
+
+Judge, the cases relied upon by appellant either arose out of the order
+
+passed by the Civil Court, which unlike an Arbitral Tribunal is a Court of
+
+plenary jurisdiction or in respect of filing of winding up petition. According
+
+to the Learned Single Judge, the Arbitral Tribunal unlike a Court of plenary
+
+jurisdiction is a creature of contract governed by the agreement between the
+
+parties and cannot act in equity, in the absence of an express authorisation
+
+by the parties. As we will observe later 
+Section 28
+ of the Arbitration Act is
+
+not applicable.
+
+
+
+
+
+Meera Jadhav
+
+
+
+
+         ::: Uploaded on - 02/05/2023                          ::: Downloaded on - 03/05/2023 14:49:46 :::
+
+                                                         32/38                  COMAPL-36947-22.doc
+
+
+
+
+
+ 
+In fact, as noted earlier, the Apex Court in 
+Srei Infrastructure Finance
+
+Ltd.
+ (supra) relying on 
+Nahar Industrial Enterprises
+ (supra) has held that
+
+
+Section 19
+ cannot be read to mean that the arbitral tribunal is incapacitated
+
+in drawing sustenance from any provisions laid down under 
+the CPC
+. Just
+
+because the Arbitral Tribunal is not bound by the code, it does not mean
+
+that it would not have jurisdiction to exercise powers of a court as contained
+
+in 
+the CPC
+. Rather, the Arbitral Tribunal can travel beyond 
+CPC
+ and the
+
+only fetter that is put on its powers is to observe the principles of natural
+
+justice.
+ The Apex Court in Jugraj Singh (supra) has held that once it is
+
+ratified, the ratification is thrown back to the date of the act done and the
+
+agent is put in the same position as if he had authority to do the act at the
+
+time the act was done by him. Therefore, in our view, the decision of the
+
+Arbitral Tribunal to permit appellant to cure the defect is perfectly justified.
+
+24        
+Section 28
+ of the Arbitration Act deals with the question, which law
+
+or rules the Arbitral Tribunal shall apply to the substance of the dispute. The
+
+expression "substance of the dispute" could have reference only to the
+
+merits of the case.                 We draw support for this view from Justice R.S.
+
+Bachawat's Law of Arbitration and Conciliation36 (Bachawat), where it reads
+
+as under:
+
+
+
+        "UNCITRAL Report on Adoption of Model Law
+
+        Paragraph (1) [Corresponding to Ss. 19(1) and (2)]
+
+        Two suggestions of divergent significance were made with respect to
+        paragraph (1). One suggestion was to make clear in the Model Law that
+        the freedom of the parties to agree on the procedure should be a
+
+
+36. Sixth Edition Volume-I (Sections 1-34) - Pg. 1407/1506
+
+Meera Jadhav
+
+
+
+
+         ::: Uploaded on - 02/05/2023                           ::: Downloaded on - 03/05/2023 14:49:46 :::
+
+                                              33/38                            COMAPL-36947-22.doc
+
+
+
+
+        continuing one throughout the arbitral proceedings. The other suggestion
+        was to permit the parties to determine rules of procedure after the
+        arbitrators had accepted their duties to the extent the arbitrators agreed
+        (Para 171].
+
+
+
+        Neither suggestion was adopted. Although the provision as it now stood
+        implied that the parties had a continuing right to change the procedure,
+        the arbitrators could not in fact be forced to accept changes in the
+        procedure because they could resign if they did not wish to carry out new
+        procedures agreed to by the parties. It was noted that the time-frame
+        allowed for changing the procedures to be followed could be settled
+        between the parties and the arbitrators [Para 172]
+        Paragraph (2) [Corresponding to Ss. 19(3) and (4)]
+
+        An observation was made that, since in some legal systems a question of
+        admissibility, relevance, materiality and weight of evidence would be
+        considered to be a matter of substantive law, the question arose as to the
+        relationship between the second sentence of paragraph (2) and 
+Art. 28.
+
+        [Para 173].
+
+
+
+        It was understood that the objective of paragraph (2) was to recognize a
+        discretion of the arbitral tribunal which would not be affected by the
+        choice of law applicable to the substance of the dispute (Para 174).
+
+
+
+        The Commission adopted paragraph (2) [Para 175]
+
+        UNCITRAL Model Law
+
+        
+Section 28
+ (except clause (a) of sub-
+section 1
+) corresponds to 
+Article 28
+ of
+        the UNCITRAL Model Law.
+
+
+
+        *************************************
+
+        Analytical Commentary on UNCITRAL Draft Model Law
+
+        
+Article 28.
+ Rules applicable to substance of dispute
+
+        (1) The arbitral tribunal shall decide the dispute in accordance with such
+        rules of law as are chosen by the parties as applicable to the substance of
+        the dispute. Any designation of the law or legal system of a given State
+        shall be construed, unless otherwise expressed, as directly referring to the
+        substantive law of that State and not to its conflict of laws rules.
+
+
+
+        (2) Failing any designation by the parties, the arbitral tribunal shall apply
+        the law determined by the conflict of laws rules which it considers
+        applicable.
+
+
+
+        (3) The arbitral tribunal shall decide ex aequo et bono or as amiable
+        compositeur only if the parties have expressly authorized it to do so.
+
+
+
+        (4) In all cases, the arbitral tribunal shall decide in accordance with the
+        terms of the contract and shall take into account the usages of the trade
+        applicable to the transaction.
+
+
+
+Meera Jadhav
+
+
+
+
+         ::: Uploaded on - 02/05/2023                          ::: Downloaded on - 03/05/2023 14:49:46 :::
+
+                                                 34/38                             COMAPL-36947-22.doc
+
+
+
+
+        Commentary
+
+
+        1. 
+Article 28
+ deals with the question which law or rules the arbitral
+        tribunal shall apply to the substance of the dispute. This question, which
+        should be distinguished from the issue of the law applicable to the arbitral
+        procedure or the arbitration agreement is often dealt with in conventions
+        and national laws devoted to private international law or conflict of laws.
+        However, it is sometimes covered by national laws on arbitration and often
+        by arbitration conventions and arbitration rules."
+
+                                                      (emphasis supplied)
+
+          During the hearing we had suggested to the counsel to also consider
+
+the UNCITRAL reports.
+
+
+
+25        The issue at hand was not substance of the dispute. The substance of
+
+the dispute is the dispute and differences between the parties on account of
+
+shareholding in respondent no.6, which according to appellant was misused
+
+by PA group that gave them future dominance over respondent no.6. Even
+
+if, for a moment we stretch to hold that the Arbitral Tribunal has exercised
+
+jurisdiction in equity by allowing appellant to cure the irregularity, still it
+
+will not be hit by the provisions of 
+Section 28(2)
+ of the Arbitration Act
+
+because 
+Section 28
+ of the Arbitration Act deals with the question which law
+
+or rules the Arbitral Tribunal shall apply to the substance of the dispute,
+
+would mean the merits of the case. The object of 
+Sections 19(3)
+ and 
+19(4)
+
+
+of the Arbitration Act is to recognize the discretion of the Arbitral Tribunal
+
+on matters that do not relate to the substance of the dispute, whereas,
+
+
+Section 28
+ of the Arbitration Act deals with substance of the dispute in
+
+contradistinction to the law applicable to the procedure.
+
+
+          Pages 1570/1571 in Bachawat says:
+
+
+
+               According to 
+Article 28(3)
+, the parties may authorize the arbitral
+               tribunal to decide the dispute ex aequo et bono or as amiables
+               compositeurs. This type of arbitration is currently not known or used in
+
+Meera Jadhav
+
+
+
+
+         ::: Uploaded on - 02/05/2023                              ::: Downloaded on - 03/05/2023 14:49:46 :::
+
+                                                  35/38                            COMAPL-36947-22.doc
+
+
+
+               all legal systems and there exists no uniform understanding as regards
+               the precise scope of the power of the arbitral tribunal. When parties
+               anticipate an uncertainty in this respect, they may wish to provide a
+               clarification in the arbitration agreement by a more specific
+               authorization to the arbitral tribunal. Paragraph (4) makes clear that in
+               all cases, i.e., including an arbitration ex aequo et bono, the arbitral
+               tribunal must decide in accordance with the terms of the contract and
+               shall take into account the usages of trade applicable to the transaction
+               [Para 36]
+
+
+          This also indicates that 
+Section 28
+ applies only to the substance of the
+
+dispute, that is, the transaction that is under dispute and not procedural
+
+issues as in the case at hand.
+
+
+
+ 
+Section 28(2)
+ provides the arbitral tribunal shall decide ex aequo et
+
+bono or as amiable compositeur only if the parties have expressly
+
+authorised it to do so. If the arbitrators are appointed as amiable
+
+compositerus, they are exempt from the obligations of hearing the parties
+
+and their respective proofs, or establish default against them and decide
+
+according to the rule of law. These are clauses used in transactions where
+
+the parties are contracting for a long relationship, in which the maintenance
+
+of commercial trust between the parties is reasonably assured. These are
+
+clauses where the arbitrator is freed from any duty to respect the rule of
+
+law when deciding upon the merits of the dispute. The Arbitrator can
+
+ignore technicalities and strict constructions and need not conform in the
+
+ordinary legal procedures when conducting the reference.
+
+
+
+          In the case at hand the arbitral tribunal has not ignored the technical
+
+objections raised by RA Group. It has infact conformed to the law laid down
+
+by the Apex Court and various High Courts and has respected the rule of
+
+
+
+Meera Jadhav
+
+
+
+
+         ::: Uploaded on - 02/05/2023                              ::: Downloaded on - 03/05/2023 14:49:46 :::
+
+                                         36/38                        COMAPL-36947-22.doc
+
+
+
+
+law while deciding the objection raised by the RA Group.
+
+
+
+          Therefore, to say the Arbitral Tribunal by holding that appellant
+
+should be able to correct on irregularity, cannot be stated to have acted as
+
+"amiable compositeurs" or "ex aequo et bono". The Arbitral Tribunal has
+
+acted according to law and applied principles of natural justice.
+
+
+
+ 26       The Arbitral Tribunal in our view, had not acted contrary to the law or
+
+disregarded the law but has applied the correct position in law. The Arbitral
+
+Tribunal has applied the principles of Order 29 Rule 4 read with 
+Order 6
+
+Rule 14 of the CPC
+ and as noted earlier, there was no fetter in the Arbitral
+
+Tribunal in doing so. The Arbitral Tribunal has acted in accordance with the
+
+fundamental policy and Indian Law and granted appellant its right to cure
+
+the defect. At the cost of repetition, the Arbitral Tribunal, as held in catena
+
+of judgments, has held that when a proceeding is filed by company with
+
+defective board resolution or even without any board resolution at all, is not
+
+fatal and must be permitted to be cured. Procedural defect which do not go
+
+to the root of the matter should not be permitted to defeat a just cause.
+
+There is sufficient power in the Arbitral Tribunal to ensure that injustice is
+
+not done to any party who has a just case. As far as possible a substantive
+
+right should not be allowed to be defeated on account of a procedural
+
+irregularity which is curable. If we take away that power then no arbitrator
+
+will have power to ensure injustice is not done. This is the law and it is this
+
+law which had been applied by the Arbitral Tribunal.
+
+
+
+
+
+Meera Jadhav
+
+
+
+
+         ::: Uploaded on - 02/05/2023                 ::: Downloaded on - 03/05/2023 14:49:46 :::
+
+                                              37/38                          COMAPL-36947-22.doc
+
+
+
+
+
+          The Claim has been filed by a company incorporated in BVI, which
+
+holds 49% shares in Respondent No. 6 together with RA Group and PA
+
+Group. Appellant has participated in the arbitral proceedings since 2018.
+
+The relationship between the parties goes as far back as 25 th March 2009
+
+when the share purchase agreement was entered into. It is in these
+
+circumstances, it is difficult even to presume that the claim has been filed
+
+and arbitral proceedings pursued without appellant having authorised the
+
+institution of the same. The only reasonable conclusion which we can come
+
+to is Sunil Jain must have been authorised to institute arbitration and sign
+
+the Claim Statement, etc. but did not have a valid document to prove that.
+
+We cannot say Sunil Jain was an impostor, as alleged by Mr. Haresh Jagtiani
+
+repeatedly during his submissions. In his cross examination by Counsel for
+
+Respondent No. 6, Sunil Jain has deposed that he has attended many
+
+meetings of Respondent No. 6 after his appointment as Director of
+
+Respondent No. 6 in January 2010. The substance of the dispute is for the
+
+control of Respondent No. 6 between Appellant and the RA Group / PA
+
+Group. Despite that RA Group has raised such objections.
+
+
+          Infact Mr. Haresh Jagtiani himself has admitted while cross examining
+
+Sunil Jain that Sunil Jain was the nominee Director of Appellant in
+
+Respondent No. 6. Question no. 113 and Question no. 114 and answers
+
+thereto read as under:
+
+
+
+               "Q.113. Please confirm that you were present at most of the board
+               meetings of respondent no.1 company and have participated in the
+               deliberations in your capacity as a nominee director of the claimant.
+               Ans. I have attended many Board Meetings of Respondent No.1
+
+Meera Jadhav
+
+
+
+
+         ::: Uploaded on - 02/05/2023                        ::: Downloaded on - 03/05/2023 14:49:46 :::
+
+                                             38/38                           COMAPL-36947-22.doc
+
+
+
+
+               company.
+
+
+
+               Q.114. In your capacity as a Nominee Director by the Claimant, you
+               must have been given instructions as to the interest of the Claimant
+               that you were expected to protect an further. Is that correct ?
+               Ans. As per SHA, that is correct."
+
+
+
+27        In the circumstances, the Learned Single Judge was not correct in
+
+interfering with the award under 
+Section 34
+ of the Arbitration Act.
+
+
+          We set aside the impugned order and judgment of the Learned Single
+
+Judge and restore the award of the Arbitral Tribunal.
+
+28        The appeal is allowed on the above terms and costs to be cost in the
+
+arbitral proceedings. Consequently, interim application (l) no.38727 of 2022
+
+also stands disposed.
+
+
+
+29        The Arbitral Tribunal shall endeavour to fix the date for proceeding
+
+with the arbitral proceedings at its earliest convenience.
+
+30        Our findings above will squarely apply to Commercial Appeal (L)
+
+No.37275 of 2022, which was also filed impugning the same order and
+
+judgment dated 1st November 2022. Consequently, Commercial Appeal (L)
+
+No.37275 of 2022 and interim application (l) No.38730 of 2022 also stand
+
+disposed.
+
+
+
+31        Mr. Sharan Jagtiani prays for stay of the judgment. Stay refused.
+
+
+
+
+
+(RAJESH S PATIL, J.)                                        (K.R. SHRIRAM, J.)
+
+
+
+
+Meera Jadhav
+
+
+
+
+         ::: Uploaded on - 02/05/2023                        ::: Downloaded on - 03/05/2023 14:49:46 :::
+
+ 
+

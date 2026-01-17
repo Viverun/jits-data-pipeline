@@ -1,0 +1,4991 @@
+
+
+
+
+[Cites 
+71
+, Cited by 
+0
+]
+
+
+
+
+Supreme Court of India
+
+
+Ravikumar Dhansukhlal Maheta vs High Court Of Gujarat on 17 May, 2024
+
+
+Author: 
+Dhananjaya Y. Chandrachud
+
+
+Bench: 
+Dhananjaya Y. Chandrachud
+
+
+2024 INSC 436                                                                                        REPORTABLE
+
+                                          IN THE SUPREME COURT OF INDIA
+
+                                            CIVIL ORIGINAL JURISDICTION
+
+
+                                          WRIT PETITION (C) NO. 432 OF 2023
+
+
+
+             RAVIKUMAR DHANSUKHLAL MAHETA & ANR.                                                 ...PETITIONER(S)
+
+
+                                                              VERSUS
+
+
+             HIGH COURT OF GUJARAT & ORS.                                                      ...RESPONDENT(S)
+
+
+
+                                                        JUDGMENT
+
+
+
+             J.B. PARDIWALA, J.:
+
+
+
+             For the convenience of exposition, this judgment is divided in the following parts: -
+
+
+
+                                                               INDEX
+             A. FACTUAL MATRIX ................................................................................... 3
+
+                   i.       Method of Promotion followed by the High Court of Gujarat ...................... 10
+
+             B. REFERENCE ORDER .............................................................................. 12
+
+             C. SUBMISSIONS ON BEHALF OF THE PETITIONERS ...................... 14
+
+             D. SUBMISSIONS ON BEHALF OF THE HIGH COURT ....................... 16
+
+   Signature Not Verified
+
+             E. SUBMISSIONS ON BEHALF OF THE PROMOTED CANDIDATES .. 17
+
+   Digitally signed by
+
+
+   CHETAN KUMAR
+
+
+   Date: 2024.05.17
+
+
+   13:15:43 IST
+
+
+   Reason:
+
+             F. POINTS FOR DETERMINATION .......................................................... 20
+
+             G. ANALYSIS .................................................................................................. 20
+
+
+             Writ Petition (C) No. 432 of 2023                                                                Page 1 of 84
+
+  i.     Maintainability of the present Writ Petition under 
+Article 32 .................... 20
+
+
+  ii. The Legislative History and Scheme of the Gujarat State Judicial Service
+         Rules, 2005 ........................................................................................................ 23
+
+          a. Shetty Commission on Judicial Reforms and the Decision of this Court in All
+               India Judges’ Association (3) ...................................................................... 23
+
+          b. Relevant Statutory Provisions of the Gujarat State Judicial Service
+               Rules, 2005 .................................................................................................. 34
+
+  iii. Evolution of the Principles of ‘Merit-cum-Seniority’ and ‘Seniority-cum-
+
+         Merit’ in Service Jurisprudence ..................................................................... 38
+
+          a. Concept of Promotion: The meaning and origin of seniority and merit as
+               parameters. ................................................................................................... 38
+
+          b. Principle of ‘Merit-cum-Seniority’ and ‘Seniority-cum-Merit’ in Service
+               Jurisprudence ............................................................................................... 44
+
+          c. ‘Hybrid-Dynamic Mode of Promotion’ in Service Jurisprudence .............. 56
+
+          d. High Court as a custodian of the District Judiciary under 
+Article 235
+ of the
+               Constitution ................................................................................................. 64
+
+  iv. What is ‘Merit-cum-Seniority’ for the purpose of Promotion to the cadre of
+         District & Sessions Judges? ............................................................................. 67
+
+          a. Intention behind the decision in All India Judges’ Association (3) ............ 67
+
+H. FEW SUGGESTIONS TO MAKE THE SUITABILITY TEST MORE
+       MEANINGFUL........................................................................................... 80
+
+I. CONCLUSION ........................................................................................... 81
+
+
+
+
+
+Writ Petition (C) No. 432 of 2023                                                                              Page 2 of 84
+
+
+1.     Two judicial officers of the rank of Civil Judge (Senior Division) governed
+
+by the Gujarat State Judicial Service Rules, 2005 (for short, the “2005 Rules”)
+
+have invoked the jurisdiction of this Court under 
+Article 32
+ of the Constitution.
+
+
+
+Their grievance against the High Court of Gujarat is that it erroneously applied
+
+the principle of ‘Seniority-cum-Merit’ in the recruitment undertaken by it in the
+
+year 2022 for promotion of Civil Judges (Senior Division) to the post of
+
+Additional District Judge against 65% quota, though Rule 5(1) of the 2005 Rules
+
+stipulates that the promotion shall be based on the principle of ‘Merit-cum-
+
+Seniority’. In other words, it is contended that the High Court wrongly subjected
+
+all eligible candidates in the feeder cadre i.e., Civil Judge (Senior Division) to a
+
+process of assessment of a specified level of minimum merit and then proceeded
+
+to prepare the final Select List strictly in accordance with the seniority of the
+
+candidates. This according to the petitioners is nothing but ‘Seniority-cum-
+
+Merit’.
+
+
+
+
+
+A.     FACTUAL MATRIX
+
+
+2.     The High Court of Gujarat issued an advertisement/recruitment notice
+
+dated 12.04.2022 notifying a total of 68 vacancies in the cadre of District Judges
+
+for promotion of Civil Judges (Senior Division) against the 65% quota on the
+
+basis of ‘Merit-cum-Seniority’ and passing a Suitability Test as envisaged under
+
+Rule 5(1)(I) of the 2005 Rules. The said advertisement/recruitment notice reads
+
+as under: -
+
+
+
+
+
+Writ Petition (C) No. 432 of 2023                                       Page 3 of 84
+
+
+                   “HIGH COURT OF GUJARAT AT SOLA,
+                            AHMEDABAD
+
+             Website: www.gujarathighcourt.nic.in AND https://hc-
+
+                             ojas.gujarat.gov.in
+
+                                    NO.RC/1250/2022
+
+             RECRUITMENT NOTICE - DISTRICT JUDGE (65%)
+
+      PROMOTION TO THE CADRE OF DISTRICT JUDGE (65%)
+      FROM AMONGST THE SENIOR CIVIL JUDGES ON THE
+      BASIS OF PRINCIPLE OF MERIT-CUM-SENIORITY AND
+      PASSING A SUITABILITY TEST.
+
+
+
+      1. VACANCIES AND PAY-SCALE :
+
+
+
+ 
+(i)    In view of the guidelines of the Hon’ble Supreme Court in the
+             case of 
+Malik Mazhar Sultan & Anr. Vs. UP Public Service
+             Commission & Ors. and The Gujarat State Judicial Service
+             Rules
+, 2005, as amended from time to time, The High Court of
+             Gujarat has decided to fill up 68 (53+15) vacancies in the
+             cadre of District Judges (65%) by promotion from amongst us
+             the Senior Civil Judges (including ad-hoc Additional District
+             Judges) having not less than two years of qualifying service
+             in that cadre as on 25/03/2022, in the pay-scale of Rs. 51650-
+
+
+             63260 plus Allowances as admissible under the Rules.
+
+
+
+                *15 unfilled vacancies of 10% quota of year-2020 are
+                to be filled up by regular promotion in view of
+                Judgment dated 09.12.2021 of the High Court of
+                Gujarat (Coram: - Honourable Ms. Justice Sonia
+                Gokani and Honourable Mr. Justice Rajendra M.
+                Sareen delivered in SCA/7915/2020 with SCA/13631
+                & 13458/2020 and by operation of proviso to Rule
+                5(1)(ii) of the Gujarat State Judicial Service Rules,
+                2005 amended by Notification dated 23.06.2011.
+
+
+
+      (ii)   The High Court reserves its right to alter the number of
+             vacancies.
+
+
+
+
+
+Writ Petition (C) No. 432 of 2023                                       Page 4 of 84
+
+
+      (iii)    The List showing eligible Senior Civil Judges (including ad-
+
+               hoc Additional District Judges) included in the zone of
+               consideration for being considered for promotion to the cadre
+               of District Judges (65%) is placed on the High Court website
+               and HC-OJAS Portal along with this Notice.
+
+
+
+      2. SCHEME FOR PROMOTION :
+
+      Following are the Four Components for assessing the suitability of
+      a Judicial Officer for promotion.
+
+
+
+              Sr.        Components of Suitability Test           Marks
+              No
+
+              1.    Written Test (Objective Type - MCQs)           100
+
+
+              2.    Examination and Evaluation of Annual           20
+
+                    Confidential Reports for last five years
+
+              3.    Assessment of Average Disposal of last five    20
+                    years of the Judicial Officer concerned.
+
+              4.    Evaluation of Judgments delivered by the       60
+                    Judicial Officer concerned during the
+                    period of last one year. *
+
+              * Due to unprecedented time of COVID-19 pandemic in
+              Year 2020 & 2021, the Subordinate Courts in the state
+              were not functioning regularly. Hence, this time round,
+              the Hon’ble Committee has decided for the instant
+              Promotion Process to call upon the requisite Four
+              Judgments rendered by the Officer concerned during the
+              period between 01/01/2020 to 31/12/2021. However, this
+              should not be treated as a precedent in upcoming
+              Promotion Process.
+
+
+
+      3. Written Test (Objective Type - MCQs) :
+
+
+
+      (i)      The Written Test (Objective Type - MCQs) shall consist of 01
+               (One) Paper of 100 Marks of duration of 02 Hours consisting
+               of Objective Type Multiple Choice Questions (MCQs) each of
+               01 Mark. There will be no Negative marking system. The
+               subject would be as under:
+
+
+
+Writ Petition (C) No. 432 of 2023                                         Page 5 of 84
+
+
+              Sr.                       Subject                     Marks
+              No
+
+              1.      Legal Knowledge [Detailed Syllabus              50
+
+                      attached herewith at Annexure-‘A’]
+
+              2.      Administrative Knowledge [GCS Rules             25
+
+                      2002, Civil Manual, Criminal Manual, etc.]
+              3.      General Knowledge & Aptitude Test [Test of      25
+                      Reasoning, Numerical & Mental Ability &
+                      Psychological Test, etc.]
+
+
+      (ii)     The Written Test (Objective Type - MCQs) shall be conducted
+
+               on OMR Sheet* or by any other mode that would be decided by
+               the High Court later on.
+
+
+
+                    *The OMR Sheets of the Written Test (Objective Type -
+
+                    MCQs) will be assessed/evaluated by the Computer as
+                    per entries made on OMR Sheet. As the evaluation is
+                    being done on the Computer by Scanning, there is no
+                    human intervention and hence, queries relating to
+                    rechecking of the OMR Sheets, subsequent to the Written
+                    Test (Objective Type - MCQs), will not be entertained by
+                    the High Court
+
+
+      (iii) The Language of the Question Paper will be English.
+
+      (iv) Out of the abovementioned Four Components of Suitability
+           Test, the Written Test (Objective Type - MCQs) will be
+           conducted first. Nonetheless mere passing of Written Test
+           (Objective Type - MCQs) by the Judicial Officers would not give
+           him/her right of having secured the position in the Select List.
+           It will be subject to passing of other 03 (Three) components as
+           well.
+
+
+
+      (v)      ACR, Disposal and Judgments of only those Judicial Officers
+               who will secure minimum 40% Marks in Written Test (Objective
+               Type - MCQs), will be called for after the declaration of the
+               result of Written Test (Objective Type - MCQs).
+
+
+
+      4. ELIGIBILITY FOR PROMOTION :
+
+             The Judicial Officer, who obtains minimum 40% Marks in each
+             Component and minimum 50% Marks in aggregate in the Grand
+
+
+
+Writ Petition (C) No. 432 of 2023                                          Page 6 of 84
+
+             Total of all Four Components, shall be eligible for being included
+             in the Select List for promotion.
+
+
+
+      5. GENERAL INSTRUCTIONS :
+
+
+
+      (i)       The date and venue of the Written Test (Objective Type -
+
+                MCQs) will be declared by the High Court in due course.
+
+      (ii)      The eligible Judicial Officers may download their E-call letter
+                from the High Court websites viz. www.gujarathighcourt.nic.in
+                and https://hc-ojas.gujarat.gov.in, as and when the same is
+                made available by the High Court on the aforesaid websites.
+
+      (iii)     The Judicial Officer attending the Written Test (Objective Type
+
+                - MCQs) may be treated as on duty and may be admissible for
+                TA/DA as applicable.
+
+      (iv)      Result of the Written Test (Objective Type - MCQs) will be
+                made available on the High Court websites and/or by any other
+                mode that may be decided by the High Court.
+
+      (v)       The Marks of Written Test (Objective Type - MCQs) would be
+                communicated to all the Judicial Officers, whereas, the Marks
+                of other 03 Components along-with the Total Marks obtained
+                by the concerned, would be provided to only those who qualify
+                in the Written Test (Objective Type - MCQs).
+
+
+
+      Such Marks shall be communicated by providing a link to a webpage
+      on the HC-OJAS Portal with individual password (OTP – One Time
+      Password) via SMS on his/her Registered Mobile Number, after the
+      conclusion of the Selection Process
+
+                   High Court of Gujarat,
+                   Sola, Ahmedabad - 380 060.
+
+
+
+                   Date: 12/04/2022                                       Sd/-
+                                                                    Registrar
+                   (Recruitment and Finance)
+
+      Syllabus For the LEGAL KNOWLEDGE of the Written Test
+      (Objective Type - MCQs) :
+         (a) →The Constitution of India
+             → The 
+Code of Civil Procedure
+, 1908,
+             → 
+The Transfer of Property Act, 1882
+,
+             → 
+The Specific Relief Act, 1963
+,
+
+
+
+Writ Petition (C) No. 432 of 2023                                         Page 7 of 84
+
+             → 
+The Indian Partnership Act, 1932
+,
+             → 
+The Indian Contract Act, 1872
+,
+             → 
+The Sale of Goods Act, 1930
+,
+             → 
+The Limitation Act, 1963
+,
+             → 
+The Arbitration and Conciliation Act, 1996
+,
+             → 
+The Motor Vehicles Act, 1988
+,
+             → 
+The Commercial Courts Act, 2015
+
+             → 
+The Family Courts Act, 1984
+,
+             → 
+The Environment (Protection) Act, 1986
+,
+             → 
+The Wild Life (Protection) Act, 1972
+,
+             → The 
+Indian Penal Code
+, 1860,
+             → The 
+Code of Criminal Procedure
+, 1973,
+             → 
+The Indian Evidence Act, 1872
+,
+
+             → 
+The Narcotic Drugs & Psychotropic Substances Act, 1985
+,
+             → 
+The Negotiable Instruments Act, 1881
+,
+             → 
+The Protection of Children from Sexual Offence Act, 2012
+,
+             → 
+The Juvenile Justices (Care & Protection of Children) Act,
+               2015
+,
+             → 
+The Scheduled Castes and Scheduled Tribes (Prevention of
+               Atrocities) Act, 1989
+,
+             → 
+The Prevention of Corruption Act, 1988
+
+             → 
+The Electricity Act, 2003
+,
+             → 
+The Protection of Women from Domestic Violence Act, 2005
+
+             → 
+The Immoral Traffic (Prevention) Act, 1956
+
+             → 
+The Information Technology Act, 2000
+
+             → 
+The Indecent Representation of Women (Prohibition) Act
+,
+
+              1986
+
+
+          (b) Legal Maxims
+
+          (c) Medical Jurisprudence
+
+          (d) Jurisprudence and Legal Phraseology”
+
+
+
+3.     The High Court along with the aforesaid advertisement/recruitment notice,
+
+also issued a list of 205 judicial officers in the cadre of Civil Judge (Senior
+
+Division) i.e., the feeder cadre, falling under the ‘Zone of Consideration’ for the
+
+aforesaid purpose of filling up the vacancies in the cadre of District Judges as
+
+against 65% quota.
+
+
+
+
+
+Writ Petition (C) No. 432 of 2023                                      Page 8 of 84
+
+
+4.     The High Court prepared the list of 205 candidates falling within the zone
+
+of consideration by including the senior-most Civil Judges (Senior Division) not
+
+exceeding three-times the notified vacancies. In other words, the zone of
+
+consideration only included the 205 senior-most Civil Judges (Senior Division).
+
+
+
+5.     As per the advertisement/recruitment notice dated 12.04.2022, the
+
+suitability of the aforesaid 205 candidates falling within the zone of
+
+consideration, for the purpose of promotion, was to be assessed on the basis of
+
+four components which are being reproduced hereunder: -
+
+
+
+      Sr. No.          Components of Suitability Test           Marks
+
+         1.   Written Test (Objective Type – MCQs)               100
+
+
+         2.   Examination and Evaluation of Annual               20
+
+              Confidential Reports for last five years.
+
+         3.   Assessment of Average Disposal of last five years  20
+              of the Judicial Officer concerned.
+
+         4.   Evaluation of Judgments delivered by the Judicial  60
+              Officer concerned during the period of last one
+              year.
+
+
+
+
+
+6.     The aforesaid advertisement/recruitment notice dated 12.04.2022 further
+
+stipulated that all those judicial officers who obtain a minimum 40% marks in
+
+each of the abovementioned component and a minimum aggregate of 50% marks
+
+in all four components shall be eligible for being included in the Select List for
+
+promotion.
+
+
+
+
+
+Writ Petition (C) No. 432 of 2023                                     Page 9 of 84
+
+
+7.      Pursuant to the aforesaid, the Written Test (Objective Type – MCQs) was
+
+conducted by the High Court and out of 205 candidates, a total of 175 judicial
+
+officers cleared the written test i.e., all those who were able to secure a minimum
+
+of 40% marks. Thereafter, the High Court called for the month-wise list of the
+
+judgments disposed of and the annual confidential reports (ACRs) of all 175
+
+candidates who qualified.
+
+
+
+
+
+8.      After the evaluation of the ACRs, judgments and disposal rates, a total of
+
+149 judicial officers were found to be eligible for promotion as they had secured
+
+a minimum 40% marks in each of the abovementioned component and a
+
+minimum aggregate of 50% marks in all the four components of the suitability
+
+test.
+
+
+
+9.      The High Court thereafter proceeded to prepare the final Select List dated
+
+10.03.2023 wherein the seniormost 68 candidates amongst the aforementioned
+
+149 eligible candidates were given promotion to the post of District Judge.
+
+
+
+10.     In such circumstances 
+referred to above
+, the petitioners are here before this
+
+Court with the present petition under 
+Article 32
+ of the Constitution.
+
+
+
+i.      Method of Promotion followed by the High Court of Gujarat.
+
+
+11.     For the better adjudication of the issues involved in the case at hand, it
+
+would be necessary to delineate the step-wise process of promotion undertaken
+
+by the High Court of Gujarat for the purpose of preparing the final Select List.
+
+
+
+Writ Petition (C) No. 432 of 2023                                       Page 10 of 84
+
+
+12.    The process, as explained by the High Court in its counter affidavit and
+
+additional affidavit is as under: -
+
+
+
+        1.     Total number of Civil Judges (Senior Division) in
+
+                                                                        444
+
+               Gujarat.
+
+
+
+        2.     Civil Judges (Senior Division) who fulfilled the
+
+               eligibility criteria of a minimum of two-years of        417
+
+               qualifying service.
+
+
+
+        3.     Senior-most of the Civil Judges (Senior Division)
+
+                                                                        205
+
+               falling under the zone of consideration as per 1:3
+
+               ratio.
+
+
+
+        4.     Civil Judges (Senior Division) who appeared for the
+
+               Suitability Test (MCQ’s with no negative marking).       198
+
+               (Seven candidates chose not to appear for the
+
+               suitability test)
+
+
+        5.     Civil Judges (Senior Division) who secured 40%
+
+
+               marks in the Suitability Test (MCQs with no              175
+
+               negative marking).
+
+
+
+        6.     Total number of Civil Judges (Senior Division) who
+
+
+               secured total of 50% marks and a minimum 40%             149
+
+
+               marks in all four components being the Written Test,
+
+
+
+
+
+Writ Petition (C) No. 432 of 2023                                     Page 11 of 84
+
+               evaluation of ACRs, assessment of average disposal
+
+               and evaluation of Judgments.
+
+
+
+        7.     Select List as per the notified vacancy prepared on
+
+                                                                         68
+
+               the basis of seniority.
+
+
+
+B.     REFERENCE ORDER
+
+
+13.    The present writ petition was earlier heard by a two-Judge Bench of this
+
+Court wherein it was prima facie observed that in 
+All India Judges’ Association
+
+(3) v. Union of India & Ors.
+ reported in (2002) 4 SCC 247 while emphasizing
+
+on the need for merit-based criteria for promotion in the cadre of Higher Judicial
+
+Service, this Court had held that the promotion to the post of District Judge shall
+
+be on the basis of ‘Merit-cum-Seniority’.
+
+
+
+
+14.    This Court further observed that the principle of ‘Merit-cum-Seniority’
+
+lays greater emphasis on merit, and seniority plays a less significant role.
+
+
+
+Therefore, seniority should be considered only when merit and ability are equal.
+
+
+
+
+15.    This Court prima facie opined that the final Select List dated 10.03.2023
+
+could be said to be in contravention of the principle of ‘Merit-cum-Seniority’ as
+
+envisaged in the rules and the decision in 
+All India Judges’ Association
+ (3)
+
+(supra).
+ 
+However, in view of the importance of the matter and the observations
+
+made in 
+All India Judges’ Association
+ (3) (supra), the matter was referred to the
+
+
+
+
+Writ Petition (C) No. 432 of 2023                                     Page 12 of 84
+
+Bench of Hon’ble the Chief Justice of India. The relevant observations read as
+
+under: -
+
+
+
+
+ 
+“8.1 It is also required to be noted that even as per the Recruitment
+      Notice – District Judge (65%), the promotion to the cadre of District
+      Judge (65%) from amongst the Senior Civil Judges shall be on the
+      basis of principle of merit-cum-seniority and passing a suitability
+      test. The suitability of a judicial officer for promotion is also provided
+      in the Recruitment Notice, which consists of four components
+      reproduced hereinabove. Thus, as per the statutory Rules and even
+      as per the Recruitment Notice, the promotion to the cadre of District
+      Judge (65%) shall be on the basis of principle of merit-cum-seniority
+      and passing a suitability test. At this stage, it is required to be noted
+      that the Rules, 2005 further amended in the year 2011, have been
+      framed by the High Court pursuant to the directions issued by this
+      Court in the case of 
+All India Judges’ Association and Ors.
+ (supra).
+
+
+It is required to be noted that prior to the decision of this Court in the
+      case of 
+All India Judges’ Association and Ors.
+ (supra), the promotion
+      in the cadre of Higher Judicial Service, i.e., District Judges and
+      Additional District Judges were given on the basis of principle of
+      seniority-cum-merit. Emphasising the need for merit-based criteria
+      for promotion in the cadre of Higher Judicial Service, i.e., District
+      Judges and Additional District Judges [...]
+                     xxx                 xxx                 xxx
+      8.8 The law on the principle of “merit-cum-seniority is by now, settled
+      by this Court in a catena of decisions. As observed, while applying
+      the principle of “merit-cum-seniority”, greater emphasis is given on
+      merit and ability and seniority plays a less significant role. As
+      observed, while applying the principle of “merit-cum-seniority”, the
+      seniority is to be given weight only when merit and ability are
+      approximately equal.
+
+
+
+
+                     xxx                 xxx                 xxx
+
+ 
+9. Thus, we are more than satisfied that the impugned Select List
+      dated 10.03.2023 issued by the High Court and the subsequent
+      Notification dated 18.04.2023 issued by the State Government
+      granting promotion to the cadre of District Judge are illegal and
+      contrary to the relevant Rules and Regulations and even to the
+      decision of this Court in the case of 
+All India Judges’ Association and
+      Ors.
+ (supra). Therefore, we are more than prima facie satisfied that
+
+
+Writ Petition (C) No. 432 of 2023                                        Page 13 of 84
+
+      the same as such are not sustainable. Though, we were inclined to
+      dispose of the writ petition finally, however, as Shri Dushyant Dave,
+      learned Senior Advocate appearing on behalf of some of the
+      respondents - promotees has prayed not to dispose of the writ petition
+      finally and, therefore, may consider the question of interim relief, we
+      are not disposing of the writ petition finally. […]
+
+
+ 
+10. Looking to the importance of the matter and the observations
+      made by this Court in the case of 
+All India Judges’ Association and
+      Ors.
+ (supra), pursuant to which the High Court has amended the
+      Rules and the Regulations, we are of the opinion that let the matter
+      be heard by the Bench headed by Hon’ble the Chief Justice of India,
+      however, subject to and after obtaining appropriate orders from the
+      Hon’ble the Chief Justice of India on the administrative side. The
+      Registry is directed to notify the present writ petition for final hearing
+      on 08.08.2023.”
+                                                       (Emphasis supplied)
+
+
+16.    Accordingly, the present writ petition came to be referred to this Bench and
+
+was accordingly taken up for hearing.
+
+
+
+
+
+C.     SUBMISSIONS ON BEHALF OF THE PETITIONERS
+
+
+17.    Mr. P.S. Patwalia, learned Senior Counsel appearing for the petitioners
+
+submitted that the statutory rules as well as the decision in 
+All India Judges’
+
+Association
+ (3) (supra) stipulate that promotion to the cadre of District Judges
+
+against the 65% quota has to be on the basis of the principle of ‘Merit-cum-
+
+Seniority’. Although the High Court has used the nomenclature ‘Merit-cum-
+
+Seniority’ yet the method ultimately followed for the purpose of promotion to the
+
+cadre of District Judge is nothing but ‘Seniority-cum-Merit’.
+
+
+Writ Petition (C) No. 432 of 2023                                        Page 14 of 84
+
+
+18.    He further submitted that the High Court in its methodology subjected all
+
+eligible candidates in the feeder cadre to a process of assessment of a specified
+
+minimum necessary merit and then proceeded to promote the candidates found
+
+possessing the minimum requisite merit strictly in the order of seniority. He
+
+submitted that the said method is nothing but ‘Seniority-cum-Merit’.
+
+
+
+19.    Finally, Mr. Patwalia submitted that where promotion is on the basis of
+
+‘Merit-cum-Seniority’, seniority has to be considered only in the event merit is
+
+equal in all respects. In other words, seniority should be considered only if there
+
+is a tie between the candidates on their individual merit.
+
+
+
+20.    Mr. R. Basant, learned Senior Counsel submitted that in the procedure that
+
+came to be followed by the High Court for promotion, seniority has been applied
+
+and given effect twice - once at the stage of preparation of the zone of
+
+consideration and then again at the stage of preparing the final Select List.
+
+
+
+21.    He further submitted that by applying seniority at the last stage of preparing
+
+the final Select List, the principle of ‘Merit-cum-Seniority’ has been given a go-
+
+by and instead ‘Seniority-cum-Merit’ has been applied.
+
+
+
+
+22.    He also submitted that in cases of promotion on the principle of ‘Merit-
+
+cum-Seniority’, there is always an element of comparative merit and the
+
+promotion must be as per the inter-se merit of the persons who obtained the
+
+
+
+Writ Petition (C) No. 432 of 2023                                       Page 15 of 84
+
+minimum marks. 
+In this regard, strong reliance has been placed on the decisions
+
+of this Court in 
+Rupa Rani Rakshit & Ors. v. Jharkhand Gramin Bank
+ reported
+
+in (2010) 1 SCC 345 and in 
+Dr. Kavita Kamboj v. High
+ Court of Punjab and
+
+Haryana & Ors. reported in 2024 SCC OnLine SC 254.
+
+
+
+
+
+
+23.    He further submitted that ‘Merit-cum-Seniority’ is not a vague literary
+
+term, but carries a specific meaning in service jurisprudence. He submitted that
+
+the decision in 
+All India Judges’ Association
+ (3) (supra) consciously substituted
+
+the earlier criteria of ‘Seniority-cum-Merit’ with ‘Merit-cum-Seniority’.
+
+
+24.    In the last, Mr R. Basant submitted that this Court in a plethora of its
+
+decisions has consistently held that where a minimum benchmark is laid down
+
+and candidates having secured the minimum required marks are promoted on the
+
+basis of the seniority irrespective of the individual marks secured by them, it is
+
+an instance of ‘Seniority-cum-Merit’.
+
+
+
+
+
+D.     SUBMISSIONS ON BEHALF OF THE HIGH COURT
+
+
+25.    Mr. V. Giri, learned Senior Counsel appearing for the High Court of
+
+Gujarat submitted that ‘Merit-cum-Seniority’ should not be conflated with Merit
+
+and that there is a clear distinction between the two concepts. He submitted that
+
+whilst merit is concerned only with the grade/credit of the candidate, the former
+
+not only checks the merit but also lays emphasis on seniority.
+
+
+
+
+Writ Petition (C) No. 432 of 2023                                    Page 16 of 84
+
+
+26.    He submitted that if the interpretation of ‘Merit-cum-Seniority’ as
+
+canvassed by the petitioners is accepted, then the entire process of promotion
+
+would become solely based on merit and the aspect of seniority would be
+
+completely obliterated from the principle of ‘Merit-cum-Seniority’.
+
+
+
+27.    He further submitted that doing so would have a far-reaching effect. The
+
+same would result in an amalgamation of the promotion process against 65%
+
+posts on the basis of ‘Merit-cum-Seniority’ and the process against 10% posts on
+
+the basis of strict merit in the cadre of District Judges and would completely do
+
+away with the fine distinction between the two modes of promotion.
+
+
+
+28.    Finally, Mr. Giri submitted that the High Court has been following the
+
+same methodology since 2011.
+
+
+
+
+
+E.     SUBMISSIONS ON BEHALF OF THE PROMOTED CANDIDATES
+
+
+
+29.    Mr. Dushyant Dave, learned Senior Counsel appearing for judicial officers
+
+who found place in the final Select List submitted that the writ petition under
+
+
+Article 32
+ ought not to be entertained as the petitioners have an alternative
+
+efficacious remedy of filing a writ petition under 
+Article 226
+ of the Constitution
+
+before the High Court.
+
+
+
+
+
+30.    He submitted that in 
+All India Judges’ Association
+ (3) (supra) the
+
+principle of ‘Merit-cum-Seniority’ and Suitability Test was provided only to
+
+
+
+Writ Petition (C) No. 432 of 2023                                     Page 17 of 84
+
+objectively ascertain a minimum standard of merit for the purpose of promotion
+
+to the Higher Judicial Services in the cadre of District & Sessions Judge.
+
+
+31.    Mr. Dave submitted that merely having scored a few marks more than the
+
+other candidates is neither an indication of being tangibly more meritorious nor a
+
+cogent reason to completely negate the length of service of the senior candidates.
+
+He submitted that if the interpretation as canvassed by the petitioners is accepted,
+
+it would cause undue hardship and result in unjust treatment to his clients whose
+
+names were included in the final Select List, as they would end up losing their
+
+precious years of seniority in service only on account of having obtained a few
+
+marks lesser compared to the petitioners.
+
+
+
+
+
+32.    Ms. Mayuri Raghuvanshi, learned Counsel appearing for some of the
+
+respondents submitted that the principle of ‘Merit-cum-Seniority’ does not mean
+
+that the length of service or seniority has no relevance. She submitted that the
+
+marks secured in the written examination and other tests are not indicative of
+
+merit as the marks may be obtained even without possessing other important
+
+qualities such as practical experience or by cramming.
+
+
+
+33.    She further submitted that the various decisions on the principle of ‘Merit-
+
+cum-Seniority’ as relied upon by the petitioners do not deal with judicial services
+
+and have not been delivered in the context of promotion of Civil Judges (Senior
+
+Division) to the cadre of District Judge. It was submitted that ‘Merit-cum-
+
+
+
+Writ Petition (C) No. 432 of 2023                                      Page 18 of 84
+
+Seniority’, as stipulated in the 2005 Rules, should be read in line with the
+
+observations in 
+All India Judges’ Association
+ (3) (supra).
+
+
+34.    Learned counsel further submitted that the reliance placed by the
+
+petitioners on the process of promotion followed by the High Court of Jharkhand
+
+and High Court of Calcutta is absolutely misplaced, as the statutory rules therein
+
+are not pari-materia to the 2005 Rules.
+
+
+
+
+
+35.    Finally, Ms. Raghuvanshi submitted that her clients whose names have
+
+been included in the final Select List, had also participated in the promotion
+
+process undertaken in the year 2020. Although her clients had scored higher
+
+marks compared to the other candidates in the 2020 recruitment process, yet they
+
+were not promoted as they were comparatively junior to the other officers. She
+
+submitted that the process which was followed by the High Court applying the
+
+principle of ‘Merit-cum-Seniority’ has been followed consistently since 2011.
+
+She submitted that deviating from the process as followed by the High Court will
+
+result in inequitable and unjust repercussions, as her clients who lost out on
+
+promotions in the previous recruitment process because of being relatively junior
+
+would again end up losing out on their promotions in this process despite being
+
+relatively senior.
+
+
+
+
+
+Writ Petition (C) No. 432 of 2023                                    Page 19 of 84
+
+
+F.     POINTS FOR DETERMINATION
+
+
+36.    Having heard the learned counsels appearing for the parties and having
+
+gone through the materials on record, the two pivotal questions that fall for our
+
+consideration are as under: -
+
+
+
+I.     What is the scope of principle of the ‘Merit-cum-Seniority’ in service
+
+       jurisprudence; and
+
+II.    Whether promotion of Civil Judges (Senior Division) to the cadre of
+
+       District Judges in accordance with Rule 5(1) of the 2005 Rules and the
+
+       Recruitment Notice dated 12.04.2022 issued by the High Court of Gujarat
+
+       is contrary to the principle of ‘Merit-cum-Seniority’ as 
+laid down in
+ 
+All
+
+       India Judges’ Association
+ (3) (supra).
+
+
+
+
+G.     ANALYSIS
+
+i.     Maintainability of the present Writ Petition under 
+Article 32.
+
+
+37.    At the outset, a preliminary objection was raised as regards the
+
+maintainability of the writ petition under 
+Article 32
+ of the Constitution, on the
+
+ground that the petitioners have an efficacious alternative remedy available to
+
+them under 
+Article 226
+ of the Constitution.
+
+
+
+38.    
+In 
+Mohammed Ishaq v. S. Kazam Pasha & Anr.
+ reported in (2009) 12
+
+SCC 748 this Court held that where 
+Article 32
+ has been invoked, even where an
+
+alternative remedy exists, relegating the parties to avail the same is discretionary
+
+
+
+Writ Petition (C) No. 432 of 2023                                      Page 20 of 84
+
+and a matter of convenience, and the same by no stretch restrains this Court to
+
+entertain the same. The relevant observations read as under: -
+
+
+
+
+      “23. On the preliminary issue of maintainability of the present writ
+      petition, it is well-settled position of law that simply because a remedy
+      exists in the form of 
+Article 226
+ of the Constitution for filing a writ in the
+      High Court concerned, it does not prevent or place any bar on an
+      aggrieved person to directly approach the Supreme Court under 
+Article 32
+
+      of the Constitution. It is true that the Court has imposed a self-restraint in
+      its own wisdom on the exercise of jurisdiction under 
+Article 32
+ where the
+      party invoking the jurisdiction has an effective, adequate alternative
+      remedy in the form of 
+Article 226
+ of the Constitution. However, this rule
+      which requires the exhaustion of alternative remedies is a rule of
+      convenience and discretion rather than a rule of law. At any rate it does
+      not oust the jurisdiction of this Court to exercise its writ jurisdiction under
+      
+Article 32
+ of the Constitution. We, therefore, reject the preliminary
+      objection raised and proceed to examine the contentions raised in the writ
+      petition on merits.”
+                                                          (Emphasis supplied)
+
+
+
+
+39.    
+In 
+Maharashtra State Judicial Service Assn. & Ors. v. High
+ Court of
+
+Judicature at Bombay & Ors. reported in (2002) 3 SCC 244 this Court held that
+
+where the issue pertained only to the interpretation of the relevant rules and there
+
+was no dispute as regards the facts of the case by either side, the same could be
+
+entertained under 
+Article 32
+ even though the alternative remedy under 
+Article
+
+226
+ was available. The relevant observations read as under: -
+
+
+
+
+      “1. [...] On behalf of the direct recruit respondents, a preliminary
+      objection had been taken by Shri M.L. Verma that the dispute being one of
+      inter se seniority within a cadre, the Court ought not to entertain a petition
+      under 
+Article 32
+, as the parties were entitled to approach the High Court
+      under 
+Article 226
+ against the administrative decision of the Bombay High
+      Court. We have no doubt in our mind that an administrative decision of the
+      Court could be assailed by filing a writ petition under 
+Article 226
+ in the
+      High Court itself, but this Court having entertained the petition under
+      
+Article 32
+ by issuing rule on 8-12-2000 and the dispute being one which
+      centres around interpretation of the relevant Rules and both the direct
+
+
+
+Writ Petition (C) No. 432 of 2023                                             Page 21 of 84
+
+      recruits and the promotees having made their stand known, and further,
+      no disputed question on facts having arisen, we do not think it appropriate
+      to direct the promotees to approach the High Court in the first instance.
+      We, therefore, heard the parties at length on the merits of the matter.”
+
+                                                       (Emphasis supplied)
+
+
+
+40.    From the aforesaid, it is clear that the availability of an alternative remedy
+
+does not in any manner affect the maintainability of the writ petition under 
+Article
+
+32
+ of the Constitution. The rule behind relegating a party to first avail the
+
+alternative remedy before knocking the doors of this Court is a rule of self-
+
+
+
+restraint that is exercised by this Court as a matter of convenience.
+
+
+
+
+41.    Further, wherever the facts of the case are not in dispute, and the issue
+
+involves the interpretation of rules which are of significant importance having a
+
+far-reaching effect, it would be a fit case for this Court to exercise its discretion
+
+and entertain the writ petition under 
+Article 32
+ even if there is an alternative
+
+remedy available.
+
+
+
+
+
+42.    It is contended by the petitioners that they had to come before this Court
+
+invoking 
+Article 32
+ of the Constitution instead of 
+Article 226
+ because the
+
+impugned final Select List dated 10.03.2023 which is the subject matter of
+
+challenge had been ratified by the High Court in its Full Court meeting. We are
+
+not impressed with such a submission as the High Court on its judicial side can
+
+always review any decision or action taken by it on its administrative side. It
+
+
+
+
+
+Writ Petition (C) No. 432 of 2023                                         Page 22 of 84
+
+would be erroneous to say that if any decision taken by the High Court on its
+
+administrative side is ultimately challenged on any legal ground on its judicial
+
+side, then the High Court may not undertake judicial review of such
+
+administrative decision dispassionately.
+
+
+
+
+
+43.    In the present case, the facts are not in dispute either at the end of the
+
+petitioners herein or at the end of the High Court or the respondents. Moreover,
+
+since the issues involve not just the interpretation of Rule 5(1)(I) of the 2005
+
+Rules but also the decision of this Court in 
+All India Judges’ Association
+ (3)
+
+(supra), we are of the considered opinion that the petition under 
+Article 32
+
+
+deserves to be entertained.
+
+
+
+
+
+
+ii.    The Legislative History and Scheme of the Gujarat State Judicial
+       Service Rules, 2005.
+
+
+
+
+a.     Shetty Commission on Judicial Reforms and the Decision of this Court
+       in All India Judges’ Association (3).
+
+
+
+44.    The subject matter of the controversy with which we are concerned in the
+
+present litigation is with regard to the scheme and policy for promotions in the
+
+Higher Judicial Services, particularly to the cadre of Additional District &
+
+Sessions Judge. The genesis of the same can be traced back to the decision of this
+
+Court in 
+All India Judges’ Association
+ (3) (supra).
+
+
+
+
+
+
+Writ Petition (C) No. 432 of 2023                                    Page 23 of 84
+
+
+45.    The First Law Commission of India under the Chairmanship of Shri M.C.
+
+Setalvad in its 14th Report in the year 1958 expressed concerns over the growing
+
+problem of finding capable and competent judicial officers for the District
+
+Judiciary. It reported that most of the difficulties brought to the notice of the
+
+Commission had their origin in the inefficiency or inexperience of the judicial
+
+personnel on account of the falling standards in their recruitment. The relevant
+
+observations read as under: -
+
+
+
+
+
+                              “2.Subordinate Judiciary
+                                     Personnel
+
+      2.     As has been said repeatedly elsewhere, the problem of efficient
+      judicial administration, whether at the level of the superior courts or
+      the subordinate courts, is largely the problem of finding capable and
+      competent judges and judicial officers. Delays in the disposal of cases
+      and the accumulation of arrears are in a great measure due to the
+      inability of the judicial officers to arrange their work methodically
+      and to appreciate and apply the provisions of the Procedural Codes.
+
+      […]
+                     xxx                 xxx                xxx
+
+      4. As we shall point out later, the problem has since grown in
+      dimensions, because there is unmistakable testimony that the
+      standards of the judicial officers recruited from the bar and other
+      sources have, during recent years, fallen in a substantial degree for
+      various reasons. That has been almost the unanimous view expressed
+      by the witnesses before us. It is thus obvious that no scheme of reform
+      of judicial administration will be effective or worth-while, unless the
+      basic problem of providing trained and capable judicial personnel is
+      satisfactorily solved. Before we can suggest adequate measures for
+      raising the level of judiciary, we have to examine the causes which
+      have led to the decline in its efficiency.”
+                                                      (Emphasis supplied)
+
+
+46.    Accordingly, the Law Commission made a slew of recommendations in
+
+order to deal with the afore-stated problems. The Law Commission, inter-alia,
+
+
+Writ Petition (C) No. 432 of 2023                                     Page 24 of 84
+
+recommended devising a more robust mechanism for recruitment and in-service
+
+training of judicial officers with a view to improve their calibre. It further
+
+recommended that a third source of recruitment to the Higher Judiciary i.e., the
+
+cadre of District & Sessions Judge, should be created. It stated that this third
+
+category should be recruited purely by way of a competitive examination, and
+
+recruitment through the existing two categories i.e., by promotion and from the
+
+Bar should continue as per the existing process. The Law Commission was of the
+
+view that the new avenue as recommended would enlarge the field of selection
+
+and bring in Judicial Officers of high calibre and brilliance. The relevant
+
+observations read as under: -
+
+
+
+      “10. If we are to improve the personnel of the subordinate judiciary,
+      we must first take measures to extend or widen our field of selection
+      so that we can draw from it really capable persons. A radical measure
+      suggested to us was to recruit the judicial service entirely by a
+      competitive test or examination. It was suggested that the higher
+      judiciary could be drawn from such competitive tests at the all-India
+      level and the lower judiciary can be recruited by similar tests held at
+      State level. Those eligible for these tests would be graduates who
+      have taken a law degree and the requirement of practice at there Bar
+      should be done away with.
+
+
+
+             Such a scheme, it was urged, would result in bringing into the
+      subordinate judiciary capable young men who now prefer to obtain
+      immediate remunerative employment in the executive branch of
+      Government and in private commercial firms. The scheme, it was
+      pointed out, would bring to the higher subordinate judiciary the best
+      talent available in the country as a whole, whereas the lower
+      subordinate judiciary would be drawn from the best talent available
+      in the State.”
+                                                    (Emphasis supplied)
+
+
+
+
+
+Writ Petition (C) No. 432 of 2023                                     Page 25 of 84
+
+
+47.    
+In 
+All India Judges’ Association (1) v. Union of India
+ reported in (1992)
+
+1 SCC 119, the issues pertaining to the working conditions of the District
+
+Judiciary throughout the country came up for consideration, including the issues
+
+pertaining to uniformity in the judicial cadres in different States and Union
+
+Territories, and for adequate provisions for in-service training and promotion.
+
+
+48.    This Court took notice of the aforesaid recommendations that were made
+
+by the First Law Commission of India in its Fourteenth Report in 1958,
+
+particularly with respect to improving the standard of the District Judiciary and
+
+widening the field of selection and promotion to the Higher Judiciary in a
+
+balanced manner so as to induct capable and efficient persons as Judicial Officers
+
+in the District Judiciary.
+
+
+
+
+
+49.    While this Court acknowledged that the creation of an All-India Judicial
+
+Service as proposed by the Law Commission may undermine the control of the
+
+High Courts over the District Judiciary, yet at the same time this Court suggested
+
+to the Union of India to undertake appropriate steps towards the implementation
+
+of the recommendations made by the Law Commission, as far as feasible, at the
+
+earliest, and directed the Central Government to consider setting up an All-India
+
+Judicial Service. The relevant observations read as under: -
+
+
+      “11. [...] We are of the view that the Law Commission's
+      recommendation should not have been dropped lightly. There is
+      considerable force and merit in the view expressed by the Law
+      Commission. An All India Judicial Service essentially for manning
+
+
+Writ Petition (C) No. 432 of 2023                                    Page 26 of 84
+
+      the higher services in the subordinate judiciary is very much
+      necessary. The reasons advanced by the Law Commission for
+      recommending the setting up of an All India Judicial Service appeal
+      to us.
+
+
+
+      12. Since the setting up of such a service might require amendment
+      of the relevant articles of the Constitution and might even require
+      alteration of the Service Rules operating in the different States and
+      Union territories, we do not intend to give any particular direction
+      on this score particularly when the point was not seriously pressed
+      but we would commend to the Union of India to undertake
+      appropriate exercise quickly so that the feasibility of implementation
+      of the recommendations of the Law Commission may be examined
+      expeditiously and implemented as early as possible. It is in the
+      interest of the health of the judiciary throughout the country that this
+      should be done.
+
+
+
+                     xxx                xxx                 xxx
+
+
+      63. We would now briefly indicate the directions we have given in the
+      judgment:
+
+
+
+      (i) An All India Judicial Service should be set up and the Union of
+      India should take appropriate steps in this regard. [...]”
+
+                                                     (Emphasis supplied)
+
+
+
+50.    Thereafter, review petitions came to be filed against the decision in 
+All
+
+India Judges’ Association
+ (1) (supra) seeking certain modifications and
+
+clarifications in respect of the directions that were issued by this Court.
+ 
+The
+
+review petitions came to be disposed in 
+All India Judges’ Association (2) v.
+
+Union of India
+ reported in (1993) 4 SCC 288, wherein inter-alia it was clarified
+
+that although the direction for setting up an All-India Judicial Service was only
+
+recommendatory, yet in view of the necessary and expedient nature of the
+
+
+
+
+
+Writ Petition (C) No. 432 of 2023                                      Page 27 of 84
+
+recommendations made by the Law Commission, the Central Government should
+
+take an earnest initiative in realizing the same.
+
+
+
+
+
+
+51.    Pursuant to the directions issued by this Court in 
+All India Judges’
+
+Association
+ (1) (supra) and 
+All India Judges’ Association
+ (2) (supra), the First
+
+National Judicial Pay Commission under the Chairmanship of Hon’ble Mr.
+
+Justice K.J. Shetty (Former Judge of this Court), more popularly known as the
+
+“Shetty Commission on Judicial Reforms” came to be constituted. After due
+
+deliberations, the Shetty Commission submitted its report on 11.11.1999, and
+
+responses to the same were filed by the States and Union Territories.
+
+
+52.    The recommendations made in the Shetty Commission’s report along with
+
+the responses of the States/Union Territories were taken into consideration and
+
+the same ultimately culminated into the decision of this Court in 
+All India
+
+Judges’ Association
+ (3) (supra).
+
+
+
+
+(1)    In 
+the said decision
+, this Court, inter-alia, accepted the recommendation of
+
+       the Shetty Commission that 75% of the posts in the cadre of District &
+
+       Sessions Judge shall be filled by promotion from Civil Judge (Senior
+
+       Division) and 25% of the posts shall be filled by direct recruitment from
+
+       the Bar by way of a competitive examination encompassing a written
+
+       examination and viva.
+
+
+
+
+
+
+Writ Petition (C) No. 432 of 2023                                     Page 28 of 84
+
+(2)    At the same time, this Court was of the view that when it comes to
+
+       appointment by promotion to the cadre of District & Sessions Judge,
+
+
+       (i) some incentive for improving must exist for the judicial officers and (ii)
+
+       a certain minimum standard ought to be maintained in the cadre of District
+
+       & Sessions Judge and further, there must be an objective method for testing
+
+       the suitability of a Judicial Officer for promotion.
+
+
+
+(3)    Accordingly, this Court held that even within the quota of 75% there should
+
+       be two methods of appointment by way of promotion. It held that
+
+       50% of the total posts shall be filled by promotion based on the principle
+
+       of ‘Merit-cum-Seniority’ through a test for assessing the continued
+
+       efficiency and adequate knowledge of case-law of the Judicial Officers and
+
+       the remaining 25% of the posts shall be filled by promotion strictly on the
+
+       basis of merit through a limited departmental competitive examination
+
+       (LDCC) with an eligibility requirement of five-years of qualifying service
+
+       as a Civil Judge (Senior Division).
+
+
+
+(4)    Thus, this Court directed that recruitment to the Higher Judicial Service
+
+       i.e., in the cadre of District & Sessions Judge shall be through three
+
+       different avenues, namely: -
+
+
+
+       (i)    50% by promotion of Civil Judges (Senior Division) on the
+
+              basis of ‘Merit-cum-Seniority’ and passing a Suitability Test.
+
+
+
+Writ Petition (C) No. 432 of 2023                                       Page 29 of 84
+
+
+       (ii)    25% by promotion strictly based on merit through a limited
+
+               departmental competitive examination of Civil Judges (Senior
+
+               Division) not having less than five-years qualifying service; and
+
+
+       (iii)   25% by direct recruitment from amongst the eligible advocates
+
+               based on written and viva voce test.
+
+
+
+(5)    Accordingly, all the High Courts were directed to frame appropriate
+
+       rules in terms of the aforesaid directions. The relevant observations read as
+
+       under: -
+
+
+
+      “27. Another question which falls for consideration is the method of
+      recruitment to the posts in the cadre of Higher Judicial Service i.e.
+      District Judges and Additional District Judges. At the present
+      moment, there are two sources for recruitment to the Higher Judicial
+      Service, namely, by promotion from amongst the members of the
+      Subordinate Judicial Service and by direct recruitment. The
+      subordinate judiciary is the foundation of the edifice of the judicial
+      system. It is, therefore, imperative, like any other foundation, that it
+      should become as strong as possible. The weight on the judicial
+      system essentially rests on the subordinate judiciary. While we have
+      accepted the recommendation of the Shetty Commission which will
+      result in the increase in the pay scales of the subordinate judiciary,
+      it is at the same time necessary that the judicial officers, hard-
+      working as they are, become more efficient. It is imperative that they
+      keep abreast of knowledge of law and the latest pronouncements, and
+      it is for this reason that the Shetty Commission has recommended the
+      establishment of a Judicial Academy, which is very necessary. At the
+      same time, we are of the opinion that there has to be certain minimum
+      standard, objectively adjudged, for officers who are to enter the
+      Higher Judicial Service as Additional District Judges and District
+      Judges. While we agree with the Shetty Commission that the
+      recruitment to the Higher Judicial Service i.e. the District Judge
+      cadre from amongst the advocates should be 25 per cent and the
+      process of recruitment is to be by a competitive examination, both
+      written and viva voce, we are of the opinion that there should be an
+      objective method of testing the suitability of the subordinate judicial
+      officers for promotion to the Higher Judicial Service. Furthermore,
+
+
+
+Writ Petition (C) No. 432 of 2023                                       Page 30 of 84
+
+      there should also be an incentive amongst the relatively junior and
+      other officers to improve and to compete with each other so as to
+      excel and get quicker promotion. In this way, we expect that the
+      calibre of the members of the Higher Judicial Service will further
+      improve. In order to achieve this, while the ratio of 75 per cent
+      appointment by promotion and 25 per cent by direct recruitment to
+      the Higher Judicial Service is maintained, we are, however, of the
+      opinion that there should be two methods as far as appointment by
+      promotion is concerned : 50 per cent of the total posts in the Higher
+      Judicial Service must be filled by promotion on the basis of principle
+      of merit-cum-seniority. For this purpose, the High Courts should
+      devise and evolve a test in order to ascertain and examine the legal
+      knowledge of those candidates and to assess their continued
+      efficiency with adequate knowledge of case-law. The remaining 25
+      per cent of the posts in the service shall be filled by promotion strictly
+      on the basis of merit through the limited departmental competitive
+      examination for which the qualifying service as a Civil Judge (Senior
+      Division) should be not less than five years. The High Courts will
+      have to frame a rule in this regard.
+
+
+
+      28. As a result of the aforesaid, to recapitulate, we direct that
+      recruitment to the Higher Judicial Service i.e. the cadre of District
+      Judges will be:
+
+
+
+      (1)
+
+
+         (a) 50 per cent by promotion from amongst the Civil Judges
+             (Senior Division) on the basis of principle of merit-cum-
+             seniority and passing a suitability test;
+
+         (b) 25 per cent by promotion strictly on the basis of merit
+             through limited competitive examination of Civil Judges
+             (Senior Division) having not less than five years' qualifying
+             service; and
+
+         (c) 25 per cent of the posts shall be filled by direct recruitment
+             from amongst the eligible advocates on the basis of the
+             written and viva voce test conducted by respective High
+             Courts.
+
+
+
+      (2)    Appropriate rules shall be framed as above by the High Courts
+             as early as possible.
+
+
+
+      29. [...] As a result of the decision today, there will, in a way, be three
+      ways of recruitment to the Higher Judicial Service. The quota for
+      promotion which we have prescribed is 50 per cent by following the
+
+
+
+Writ Petition (C) No. 432 of 2023                                         Page 31 of 84
+
+      principle “merit-cum-seniority”, 25 per cent strictly on merit by
+      limited departmental competitive examination and 25 per cent by
+      direct recruitment. [...]”
+                                                (Emphasis supplied)
+
+
+53.    Thereafter, in 
+Malik Mazhar Sultan & Anr. (1) v. U.P. Public Service
+
+Commission
+ reported in (2006) 9 SCC 507, this Court underscored the
+
+importance for filling up judicial vacancies on time and directed the High Courts
+
+to undertake necessary steps towards fixing a timeline for determining vacancies,
+
+issuing advertisements, conducting examinations, interviews and declaring
+
+results for final appointment. The relevant observations read as under: -
+
+
+      “23. It is absolutely necessary to evolve a mechanism to speedily
+      determine and fill vacancies of judges at all levels. For this purpose,
+      timely steps are required to be taken for determination of vacancies,
+      issue of advertisement, conducting examinations, interviews,
+      declaration of the final results and issue of orders of appointments.
+      For all these and other steps, if any, it is necessary to provide for
+      fixed time schedule so that the system works automatically and there
+      is no delay in filling up of vacancies. [...]”
+                                                     (Emphasis supplied)
+
+
+54.    The aforesaid was followed by the decision in 
+All India Judges’
+
+Association (4) v. Union of India
+ reported in (2010) 15 SCC 170, wherein this
+
+Court took note of the fact that various posts of the cadre of District & Sessions
+
+Judge earmarked for the 25% promotional quota strictly on the basis of merit
+
+were lying vacant on account of insufficiency of candidates or their inability to
+
+clear the competitive exam. In such circumstances, it was directed that the 25%
+
+promotional quota, to be filled on the basis of Merit, shall be reduced to 10% of
+
+the cadre strength, and the 50% promotional quota to be filled by ‘Merit-cum-
+
+
+Writ Petition (C) No. 432 of 2023                                     Page 32 of 84
+
+Seniority’ shall be increased to 65% of the total seats. The relevant observations
+
+read as under: -
+
+
+
+
+      “6. Having regard to various strategies available, we are of the
+      considered view that suitable amendment is to be made for this 25%
+      quota of limited departmental competitive examination. We are also
+      of the view, with the past experience, that it is desirable that 25%
+      quota be reduced to 10%. We feel so as the required result, which
+      was sought to be achieved by this process could not be achieved, thus
+      it calls for modification.
+
+
+
+      7. Thus, we direct that henceforth only 10% of the cadre strength of
+      District Judges be filled up by limited departmental competitive
+      examination with those candidates who have qualified service of five
+      years as Civil Judge (Senior Division). Every year vacancies are to
+      be ascertained and the process of selection shall be taken care of by
+      the High Courts. If any of the post is not filled up under 10% quota,
+      the same shall be filled up by regular promotion. In some of the High
+      Courts, process of selection of these 25% quota by holding limited
+      departmental competitive examination is in progress, such process
+      can be continued and the unfilled seats, if meritorious candidates are
+      available, should be filled up. But if for some reason the seats are not
+      filled up, they may be filled up by regular promotion and apply the
+      usual mode of promotion process. Thus we pass the following order.
+
+
+
+      8. Hereinafter, there shall be 25% of seats for direct recruitment
+      from the Bar, 65% of seats are to be filled up by regular promotion
+      of Civil Judge (Senior Division) and 10% seats are to be filled up by
+      limited departmental competitive examination. If candidates are not
+      available for 10% seats, or are not able to qualify in the examination
+      then vacant posts are to be filled up by regular promotion in
+      accordance with the Service Rules applicable.”
+                                                    (Emphasis supplied)
+
+
+
+55.    
+In 
+Malik Mazhar Sultan & Anr. (3) v. U.P. Public Service Commission
+
+& Ors.
+ reported in (2009) 17 SCC 530 this Court, in view of the large number of
+
+vacancies in the promotional quota in the cadre of District & Sessions Judge,
+
+
+
+
+
+Writ Petition (C) No. 432 of 2023                                      Page 33 of 84
+
+directed the High Courts to be practical in the matters of promotion and ensure
+
+timely filling up of the vacancies on the basis of the principle of ‘Seniority-cum-
+
+Merit’, deviating from the observations in 
+All India Judges’ Association
+ (3)
+
+(supra) mandating promotion by ‘Merit-cum-Seniority’. It further observed that
+
+seniority should have a predominant role in giving promotions to the Civil Judges
+
+(Senior Division) and that the High Court may decline promotion only in case the
+
+Judicial Officer is not suitable for being promoted. The relevant observations read
+
+as under: -
+
+
+
+
+      “3. We see large number of vacancies of District Judges are lying
+      vacant as the promotion of these posts are not being done timely by
+      the High Court. Considering the large number of vacant posts of
+      District Judges, the High Court should take timely action to fill up
+      these vacancies keeping in mind the principle of seniority-cum-merit.
+      The High Court may deny promotion to a Civil Judge (Senior
+      Division) only in case he/she is not suitable for being promoted and
+      the seniority should always have a predominant role in giving
+      promotion to the Civil Judge (Senior Division) to the post of District
+      Judge. If the posts of District Judges are not filled up in time it is
+      likely that sessions cases may not have timely trial, thereby delaying
+      the whole procedure of justice delivery system. We request the High
+      Court to be practical in the matter of promotion and filling up the
+      posts of the District Judges. [...]”
+                                                    (Emphasis supplied)
+
+
+b.     Relevant Statutory Provisions of the Gujarat State Judicial Service
+       Rules, 2005.
+
+
+
+56.    At this stage, it would be necessary to look into the statutory scheme and
+
+refer to the relevant provisions governing the promotion of Civil Judges (Senior
+
+Division) to the cadre of District & Sessions Judge in the State of Gujarat.
+
+
+
+
+Writ Petition (C) No. 432 of 2023                                     Page 34 of 84
+
+
+57.    The 2005 Rules provide for the service conditions and policies pertaining
+
+to the Judicial Officers and the service framework of the District Judiciary in the
+
+State of Gujarat.
+
+
+
+
+
+58.    Rule 5 sub-rule (1) of the 2005 Rules provides for the various modes or
+
+methods of appointment to the cadre of District & Sessions Judge. Rule 5(1) of
+
+the 2005 Rules framed in accordance with the directions issued in 
+All India
+
+Judges’ Association
+ (3) (supra), lays down three distinct modes of recruitment
+
+to the cadre of District & Sessions Judge. The said Rule reads as under: -
+
+
+      “5. Method of recruitment, qualification and age limit.
+
+      (1) Recruitment to the cadre of District Judges shall be as under, -
+          (I) 50 per cent by promotion from amongst the Senior Civil
+          Judges on the basis of principle of merit-cum-seniority
+          and passing a suitability test.
+
+          (II) 25 per cent by promotion strictly on the basis of merit
+          through limited competitive examination of Senior Civil
+          Judges having not less than five years qualifying service,
+          and
+          (III) 25 per cent of the posts shall be filled by direct
+          recruitment from amongst the eligible advocates on the
+          basis of the written and viva voce test conducted by the
+          High Court.”
+
+
+
+59.    Rule 5(1) sub-clause (I) of the 2005 Rules provides that appointment to
+
+50% of the posts in the cadre of District & Sessions Judge shall be by promotion
+
+from the cadre of Civil Judges (Senior Division) i.e., the feeder cadre, on the basis
+
+of the principle of ‘Merit-cum-Seniority’ and upon passing a Suitability Test. In
+
+
+
+
+
+Writ Petition (C) No. 432 of 2023                                       Page 35 of 84
+
+other words, 50% of the posts of District & Sessions Judge shall be filled by
+
+promotions on the basis of the principle of ‘Merit-cum-Seniority’.
+
+
+
+60.    Rule 5(2) sub-clause (II) of the 2005 Rules provides that 25% of the posts
+
+in the cadre of District & Sessions Judge shall be filled by promotions on the
+
+basis of merit through a limited departmental competitive examination.
+
+
+
+
+61.    Rule 5(2) sub-clause (III) provides the third method of recruitment, by
+
+which the remaining 25% of the posts in the cadre of District & Sessions Judge
+
+shall be filled by direct recruitment of the eligible advocates on the basis of a
+
+written exam and viva-voce.
+
+
+
+
+
+62.    Pursuant to the directions of this Court in 
+All India Judges’ Association
+
+
+(4) (supra), Rule 5 
+referred to above
+ was amended by the Gujarat State Judicial
+
+Service (Amendment) Rules, 2011, whereby, the second category of posts being
+
+the 25% promotional quota to be strictly filled on the basis of merit, was reduced
+
+to 10% and the 50% promotional quota, to be filled on the basis of principle of
+
+‘Merit-cum-Seniority’ and passing a Suitability Test, was increased to 65%.
+
+
+63.    In other words, the aforesaid 2011 amendment reduced the posts for
+
+promotion on the basis of merit from 25% to 10% and increased the posts for
+
+promotion on the principle of ‘Merit-cum-Seniority’ from 50% to 65% in the
+
+cadre of District & Sessions Judge.
+
+
+
+
+
+Writ Petition (C) No. 432 of 2023                                    Page 36 of 84
+
+
+64.    Rule 5 sub-rule (3) further prescribes the eligibility criteria for the aforesaid
+
+two modes of promotion provided in Rule 5(1) of the 2005 Rules, as amended in
+
+2011. The said rule reads as under: -
+
+
+
+      “5. Method of recruitment, qualification and age limit.
+      (3) (I) For being eligible for promotion against 65% of the total posts
+      in the cadre of District Judges required to be filled by promotion on
+      the basis of the principle of merit-cum-seniority, the qualifying
+      service as Senior Civil Judge shall not be less than two years service
+      in the cadre.
+
+      (II) For eligibility for promotion against the remaining 10% posts
+      required to be filled in by promotion strictly on the basis of merit
+      through limited departmental competitive examination, the qualifying
+      service as Senior Civil Judge shall not be less than five years.”
+
+
+65.    Rule 5 sub-rule (3)(I) of the 2005 Rules stipulates that a minimum of two-
+
+years of qualifying service in the feeder cadre i.e., as a Civil Judge (Senior
+
+Division) is required in order to be eligible to participate in the promotion process
+
+for the 65% posts in the cadre of District & Sessions Judge on the basis of the
+
+principle of ‘Merit-cum-Seniority’ as envisaged under Rule 5(1)(I). In other
+
+words, all Civil Judges (Senior Division), having a minimum of two-years of
+
+service, are eligible to be promoted to the 65% posts in the cadre of District &
+
+Sessions Judge on the basis of the principle of ‘Merit-cum-Seniority’.
+
+
+
+
+66.    On the other hand, Rule 5 sub-rule (3)(II) provides for the requirement of
+
+a minimum of five-years of qualifying service in the feeder cadre i.e., as a Civil
+
+Judge (Senior Division), for participating in the promotion process for the 10%
+
+posts in the cadre of District & Sessions Judge on the basis of strict merit as
+
+
+
+
+Writ Petition (C) No. 432 of 2023                                         Page 37 of 84
+
+provided under Rule 5(1)(ii) of the 2005 Rules. In other words, all Civil Judges
+
+(Senior Division) who have completed a minimum of five-years of service are
+
+eligible to be promoted to the 10% posts in the cadre of District & Sessions Judge
+
+on the basis of Merit through the competitive examination.
+
+
+
+67.       In other words, a combined reading of the aforesaid Rule 5(1) with Rule
+
+5(3) of the 2005 Rules makes it clear that there are three distinct modes of
+
+recruitment to the cadre of District & Sessions Judge which are as follows: -
+
+
+(I)       65% posts by promotion from the eligible Civil Judges (Senior Division)
+          having a minimum of two-years of service on the basis of ‘Merit-cum-
+          Seniority’;
+
+(II)      10% posts by promotion from eligible Civil Judges (Senior Division) with
+          a minimum of five-years of service on basis of merit through a competitive
+          examination and;
+
+(III) 25% posts by direct recruitment from the eligible members of the Bar on
+          the basis of a written exam and viva voce.
+
+
+
+iii.      Evolution of the Principles of ‘Merit-cum-Seniority’ and ‘Seniority-
+
+          cum-Merit’ in Service Jurisprudence.
+
+
+
+a.        Concept of Promotion: The meaning and origin of seniority and merit
+          as parameters.
+
+
+
+68.       Promotion is an integral part of any formal sector employment. The
+
+principal object of a promotion system is to secure the best possible incumbents
+
+for higher positions while maintaining the morale of the whole organization.1 In
+
+
+1
+
+    High Court of 
+Calcutta v. Amal Kumar Roy
+, (1963) 1 SCR 437.
+
+
+
+Writ Petition (C) No. 432 of 2023                                      Page 38 of 84
+
+the matter of formulation of a policy for promotion to a higher post, the two
+
+competing principles which are taken into account are inter-se seniority and
+
+comparative merit of employees who are eligible for promotion.
+
+Understanding the meaning of Seniority and Merit
+
+
+69.    The Black’s Law Dictionary defines ‘seniority’ as follows2: -
+
+      “Represents in the highest degree the right to work, and by seniority
+      the oldest man in point of service, ability and fitness for the job being
+      sufficient, is given choice of jobs, is first promoted within range of
+      jobs subject to seniority, and is the last laid off, proceeding so on
+      down the line to the youngest in point of service.”
+
+
+70.    Weber, the sociologist, described “promotion according to seniority or to
+
+achievement” as an important component of an efficient bureaucracy. 3
+
+Establishing a promotion system based on seniority is fundamental to modern
+
+management, which ensures that individuals joining an organization have
+
+opportunities for career advancement. Further, promotions based on seniority is
+
+tried and tested method because those who have been engaged at the employment
+
+for longer have had more time to refine the skills necessary for the higher posts.
+
+
+What constitutes ‘Merit’
+
+
+71.    According to the Cambridge Dictionary, merit is defined as the quality of
+
+being good and deserving. In the context of employment, it is the sum total of
+
+various qualities which are relevant for fulfilling the requirements of the
+
+
+
+2
+
+ Henry Campbell Black, Black’s Law Dictionary, p. 1528 (6th Edn., 1968).
+
+3
+
+ H. Gerth and C.W. Mills, From Max Weber: Essays in Sociology, 199, 202 (Oxford University Press,
+New York, 1958).
+
+
+
+
+
+Writ Petition (C) No. 432 of 2023                                                 Page 39 of 84
+
+employment.4 There are multiple attributes of merit which must be taken into
+
+consideration such as character, integrity, and devotion to the assigned official
+
+duties. The manner in which the candidate discharges their final duties would also
+
+be a relevant factor.
+
+
+
+
+
+72.    Further, past performance is a relevant factor to judge the merit of the
+
+candidate, particularly in promotional posts, since it would indicate the capability
+
+of the candidate to discharge their duties effectively. Merely because any person
+
+possesses higher qualifications or higher marks in an examination does not mean
+
+that they are meritorious than others.5
+
+
+
+73.    In the United States, the Federal Civil Services Act of 1871, provides for
+
+filling of vacancies in higher positions by competitive promotion tests, wherever
+
+practicable. H. Eliot Kaplan, General Counsel of the New York Bar, in his “Law
+
+of Civil Services” writes that in some jurisdictions promotions may be made on
+
+a wider basis, the field of promotion being left to the discretion of the personnel
+
+agency.6 He also notes that the eligibility requirements for promotion are usually
+
+not specified in the statutes but are usually left to be determined by rules of the
+
+personnel agency.           Personnel agencies fix educational and experience
+
+requirements for eligibility to compete for promotion. A hint of the ‘Merit-cum-
+
+
+
+4
+
+
+K.K. Parmar v. High
+ Court of Gujarat, (2006) 5 SCC 789.
+
+
+5
+
+
+Kartar Kaur v. State
+, (1967) SLR 34.
+
+
+6
+
+  , H. Eliot Kaplan, The Law of Civil Services (New York University Press, Mathew Bender & Company,
+New York, 1958).
+
+
+
+
+
+Writ Petition (C) No. 432 of 2023                                                   Page 40 of 84
+
+Seniority’ and ‘Seniority-cum-Merit’ principle can be traced in his words where
+
+he states that where the law requires that promotions be made from among those
+
+serving in the next lower grade, the incumbents of such lower positions would be
+
+deemed to be presumably qualified for promotion. For ‘Merit-cum-Seniority’,
+
+particularly, the competitive test/qualification criteria would serve to determine
+
+the relative excellence among those presumably qualified for promotion7, so that
+
+those demonstrating superior merit and fitness would be available to fill the
+
+vacancies.8
+
+
+
+74.       In Britain, the 1854 Northcote-Trevelyan Report founded a public service
+
+system based on merit, where open competitive examinations were practiced
+
+under the principle of promotion by merit but also held that seniority and
+
+experience counted in some respects.9
+
+
+
+
+75.       Similarly, in France, the 19th century saw the introduction of the doctrine
+
+of the “Concours” or competitive examination to support the merit system in the
+
+civil service, yet giving seniority and experience due regard in promotion to
+
+higher ranks.10
+
+
+
+
+7
+
+    Id.
+
+8
+
+ Elman, B.A., Political, social, and cultural reproduction via civil service examinations in late imperial China,
+50(1) Journal of Asian Studies, pp.7-28 (1991).
+
+9
+
+   Jenifer Hart, The genesis of the Northcote–Trevelyan report, in Studies in the growth of nineteenth
+century government pp. 63-81 (Ed. Gillian Sutherland, Routledge & Kegan Paul, London, 1972).
+
+10
+
+    Kaplan, N.I., A changing culture of merit: French competitive examinations and the politics of
+selection, pp. 1750-1820 (Columbia University Press, 1999).
+
+
+
+Writ Petition (C) No. 432 of 2023                                                               Page 41 of 84
+
+
+76.       During the British Raj, the East India Company adopted the principle of
+
+seniority for promotions. This principle was officially recognized in the Charter
+
+Act, 1793 and continued until the enactment of the Indian Civil Service Act, 1861.
+
+Apart from the seniority principle, considerations of merit, integrity, competence,
+
+and ability were also taken into account for promotions. This ‘Seniority-cum-
+
+Merit’ formula remained in practice until 1947.
+
+
+
+
+
+77.       The Indian Civil Service (hereinafter referred as the “ICS”) system,
+
+initiated in the 19th century, encapsulated aspects of recruitment based on
+
+competitive examinations and seniority. For entry into the ICS, competitive
+
+examinations were conducted and for promotions to higher positions, seniority
+
+and experience were considered as important factors.
+
+
+
+
+
+78.       Under the Charter Act, 1833, following Lord Macaulay’s Report of the
+
+Select Committee of British Parliament11, the concept of competitive
+
+examinations in modern Civil Services in India was introduced in 1854. The
+
+Report recommended that the patronage-based system of East India Company
+
+should be replaced by a permanent Civil Service where candidates are recruited
+
+through competitive examinations.12 As stated, competitive examinations were
+
+“designed to protect career employees against improper political influences or
+
+
+
+
+11
+
+     The Macaulay Committee’s Report on the Indian Civil Service 1854.
+
+12
+
+     History of the Commission, Union Public Service Commission.
+
+
+
+Writ Petition (C) No. 432 of 2023                                        Page 42 of 84
+
+personal favouritism in the recruiting, hiring, promotion, or dismissal processes,
+
+to ensure that personnel management is conducted without discrimination”.13
+
+
+
+
+79.       The First Pay Commission in 1947 recommended a blend of direct
+
+recruitment and promotion, suggesting that seniority be emphasized for roles
+
+requiring familiarity with office work, while merit be the basis for higher-level
+
+positions. Subsequent commissions, such as the Second Pay Commission in 1959
+
+and the First Administrative Reforms Commission in 1969, echoed the
+
+importance of merit-based promotions alongside seniority.
+
+
+
+80.       The principle of seniority as a parameter of selection for promotion was
+
+found to be derived from the belief that competence is related to experience and
+
+that it limits the scope of discretion and favouritism. There is always an additional
+
+assumption that long-serving employees have demonstrated loyalty to the
+
+employing organization and so are entitled to reciprocal treatment.
+
+
+
+81.       However, in India, no government servant can claim promotion as their
+
+right because the Constitution does not prescribe criteria for filling seats in
+
+promotional posts. The Legislature or the executive may decide the method for
+
+filling vacancies to promotional posts based on the nature of employment and the
+
+functions that the candidate will be expected to discharge. The courts cannot sit
+
+in review to decide whether the policy adopted for promotion is suited to select
+
+
+
+13
+
+     S. REP. No. 969; recited from O’Rourke, 1993, p. 344.
+
+
+
+
+
+Writ Petition (C) No. 432 of 2023                                       Page 43 of 84
+
+the ‘best candidates’, unless on the limited ground where it violates the principle
+
+of equal opportunity under 
+Article 16
+ of the Constitution.
+
+
+
+b.     Principle of ‘Merit-cum-Seniority’ and ‘Seniority-cum-Merit’ in
+       Service Jurisprudence.
+
+
+
+
+
+82.    This Court in its decision in 
+State of Kerala & Anr. v. N.M. Thomas &
+
+Ors.
+ reported in (1976) 2 SCC 310 held that policies pertaining to promotions
+
+can be said to broadly fall within two distinct categories being: (i) promotions
+
+which are based on the principle of ‘Merit-cum-Seniority’ and, (ii) promotions
+
+which are based on the principle of ‘Seniority-cum-Merit’. It further held that
+
+when it comes to promotions based on principle of ‘Seniority-cum-Merit’, a
+
+senior who has the minimum requisite merit shall be entitled to promotion even
+
+though there might be others who are more meritorious. The relevant
+
+observations read as under: -
+
+
+
+
+      “38. The principle of equality is applicable to employment at all
+      stages and in all respects, namely, initial recruitment promotion,
+      retirement, payment of pension and gratuity. With regard to
+      promotion the normal principles are either merit-cum-seniority or
+      seniority-cum-merit, Seniority-cum-merit means that given the
+      minimum necessary merit requisite for efficiency of administration,
+      the senior though the less meritorious shall have priority. This will
+      not violate 
+Articles 14
+, 16(1)
+ and 
+16(2).
+ A rule which provides that
+      given the necessary requisite merit, a member of the backward class
+      shall get priority to ensure adequate representation will not similarly
+      violate 
+Article 14
+ or 
+Article 16(1)
+ and 
+(2).
+ [...]”
+                                                    (Emphasis supplied)
+
+
+
+
+
+Writ Petition (C) No. 432 of 2023                                     Page 44 of 84
+
+
+ 
+83.    This Court in 
+State of Mysore v. Syed Mahmood
+ reported in (1968) 3
+
+S.C.R. 363, on the criterion of ‘Seniority-cum-Merit’ observed that any rule that
+
+mandates selection based on the principle of ‘Seniority-cum-Merit’, such rule
+
+mandates that the promotions must be determined through a selection process that
+
+evaluates “seniority, subject to the fitness of the candidate, to discharge the duties
+
+of the post from among persons eligible for promotion”. In consequence, where
+
+promotion is based on the ‘Seniority-cum-Merit’ principle, the candidate cannot
+
+claim promotion as a matter of right on the grounds of his seniority alone. Further,
+
+if the officer fails to discharge his duties of the higher post, he may be passed
+
+over by a junior officer.
+
+
+
+
+
+
+84.    
+In 
+Jagathigowda, C.N. & Ors. v. Chairman, Cauvery Gramina Bank &
+
+Ors
+, reported in (1996) 9 SCC 677, while moving a step ahead, it was held that
+
+where promotion is based on the principle of ‘Seniority-cum-Merit’, it would still
+
+be open for the selection committee to take into consideration the performance
+
+appraisal forms to first ascertain the suitability of the candidates being considered
+
+for promotion. The relevant observations read as under: -
+
+
+      “8. [...] It is settled proposition of law that even while making
+      promotions on the basis of seniority-cum-merit the totality of the
+      service record of the officer concerned has to be taken into
+      consideration. The performance appraisal forms are maintained
+      primarily for the purpose that the same are taken into consideration
+      when the person concerned is considered for promotion to the higher
+      rank. The High Court, with respect, was not justified in holding that
+      the performance appraisal could not be taken into consideration by
+
+
+
+
+Writ Petition (C) No. 432 of 2023                                        Page 45 of 84
+
+      the Director's Committee while considering the officers for
+      promotion to the higher rank.”
+                                            (Emphasis supplied)
+
+
+85.    This Court in 
+Rajendra Kumar Srivastava & Ors. v. Samyut Kshetriya
+
+Gramin Bank & Ors.
+ reported in (2010) 1 SCC 335 held that where promotion
+
+is on the basis of ‘Seniority-cum-Merit’, the standard method is to first ascertain
+
+the candidates who possess the minimum required merit and thereafter making
+
+promotions strictly on the basis of seniority from among those who are found to
+
+possess the minimum necessary merit. It further held that the minimum requisite
+
+merit may be ascertained from either one or a combination of multiple processes
+
+of assessment. The relevant observations read as under: -
+
+
+      “11. It is also well settled that the principle of seniority-cum-merit,
+      for promotion, is different from the principle of “seniority” and the
+      principle of “merit-cum-seniority”. Where promotion is on the basis
+      of seniority alone, merit will not play any part at all. But where
+      promotion is on the principle of seniority-cum-merit, promotion is not
+      automatic with reference to seniority alone. Merit will also play a
+      significant role. The standard method of seniority-cum-merit is to
+      subject all the eligible candidates in the feeder grade (possessing the
+      prescribed educational qualification and period of service) to a
+      process of assessment of a specified minimum necessary merit and
+      then promote the candidates who are found to possess the minimum
+      necessary merit strictly in the order of seniority. The minimum merit
+      necessary for the post may be assessed either by subjecting the
+      candidates to a written examination or an interview or by assessment
+      of their work performance during the previous years, or by a
+      combination of either two or all the three of the aforesaid methods.
+      There is no hard-and-fast rule as to how the minimum merit is to be
+      ascertained. So long as the ultimate promotions are based on
+      seniority, any process for ascertaining the minimum necessary merit,
+      as a basic requirement, will not militate against the principle of
+      seniority-cum-merit.
+
+                     xxx               xxx                  xxx
+
+
+Writ Petition (C) No. 432 of 2023                                     Page 46 of 84
+
+
+      13. Thus it is clear that a process whereby eligible candidates
+      possessing the minimum necessary merit in the feeder posts is first
+      ascertained and thereafter, promotions are made strictly in
+      accordance with seniority, from among those who possess the
+      minimum necessary merit is recognised and accepted as complying
+      with the principle of “seniority-cum-merit”. What would offend the
+      rule of seniority-cum-merit is a process where after assessing the
+      minimum necessary merit, promotions are made on the basis of merit
+      (instead of seniority) from among the candidates possessing the
+      minimum necessary merit. If the criteria adopted for assessment of
+      minimum necessary merit is bona fide and not unreasonable, it is not
+      open to challenge, as being opposed to the principle of seniority-cum-
+
+      merit. We accordingly hold that prescribing minimum qualifying
+      marks to ascertain the minimum merit necessary for discharging the
+      functions of the higher post, is not violative of the concept of
+      promotion by seniority-cum-merit.”
+                                                    (Emphasis supplied)
+
+
+86.    
+In 
+Dr. Kavita Kamboj
+ (supra), this Court speaking eruditely through one
+
+of us, Dr. D.Y. Chandrachud, CJI., observed that the principle of ‘Merit-cum-
+
+Seniority’ is an approved method of selection where the emphasis is primarily on
+
+the comparative merit of the judicial officers being considered for promotion
+
+whereby even a junior who demonstrates greater merit than the senior can be
+
+considered for promotion. The relevant observations read as under: -
+
+
+ 
+“45. [...] The principle of merit-cum seniority is an approved method
+      of selection where merit is the determinative factor and seniority
+      plays a less significant role. Where the principle of ‘merit-cum
+      seniority’ is the basis, the emphasis is primarily on the comparative
+      merit of the judicial officers being considered for promotion.
+      Resultantly, even a junior officer who demonstrates greater merit
+      than a senior officer will be considered for promotion.”
+                                                   (Emphasis supplied)
+
+[Also see Central Council for Research in 
+Ayurveda and Siddha and Anr. v.
+Dr. K. Santhakumari
+ reported in (2001) 5 SCC 60]
+
+
+Writ Petition (C) No. 432 of 2023                                    Page 47 of 84
+
+
+ 
+87.    This Court in 
+B.V. Sivaiah & Ors. v. K. Addankl Babu & Ors.
+ reported in
+
+(1998) 6 SCC 720 whilst explaining the difference between the principle of
+
+‘Merit-cum-Seniority’ vis-à-vis the principle of ‘Seniority-cum-Merit’, held as
+
+follows: -
+
+
+
+
+(i)    First, where promotion is based on the principle of ‘Merit-cum-Seniority’ a
+
+       greater emphasis is laid on merit & the ability of the candidate and seniority
+
+       is to be given weight where merit and ability are approximately equal.
+
+
+
+       Whereas, when it comes to the principle of ‘Seniority-cum-Merit’, the
+
+       promotion is to be made on the basis of seniority alone subject to having the
+
+       minimum requisite merit and suitability of the candidate amongst the eligible
+
+       persons. The relevant observations read as under: -
+
+
+
+             “9. The principle of 'merit-cum-seniority lays greater
+             emphasis on merit and ability and seniority plays a less
+             significant role. Seniority is to be given weight only where
+             merit and ability are approximately equal. [...]
+                       xxx                 xxx                xxx
+
+             18. We thus arrive at the conclusion that the criterion of
+             'seniority-cum-merit' in the matter of promotion postulates
+             that given the minimum necessary merit requisite for
+             efficiency of administration the senior, even though less
+             meritorious, shall have priority and a comparative
+             assessment of merit is not required to be made. For assessing
+             the minimum necessary merit the competent authority can lay
+             down the minimum standard that is required and also
+             prescribe the mode of assessment of merit of the employee
+             who is eligible for consideration for promotion. Such
+             assessment can be made by assigning marks on the basis of
+             appraisal of performance on the basis of service record and
+             interview and prescribing the minimum marks which would
+             entitle a person to be promoted on the basis of seniority-cum-
+
+             merit.”
+                                                     (Emphasis supplied)
+
+
+Writ Petition (C) No. 432 of 2023                                       Page 48 of 84
+
+
+(ii)   Secondly, the principle of ‘Merit-cum-Seniority’ postulates the
+
+       requirement of making a comparative assessment of merit, whereas no
+
+       such comparative assessment is required where the criterion for promotion
+
+       is based on the principle of ‘Seniority-cum-Merit’. Even if the candidates
+
+       have the same length of service, it is only to be determined whether the
+
+       candidates possess the minimum required threshold of merit or not. The
+
+       relevant observations read as under: -
+
+
+
+ 
+“15. [...] Since comparation assessment of merit is required
+             to made while applying the criterion of 'merit cum-seniority'
+             and for 'seniority-cum merit' no such comparative assessment
+             is required, the aforementioned observations in the case of
+             
+C.R. Seshadri
+ (supra) on which reliance has been placed
+             cannot be regarded as correctly reflecting as what is meant
+             by the criterion of 'seniority-cum-merit'.
+
+
+                        xxx                xxx                  xxx
+
+
+             17. [...] We are unable to agree. While applying the principle
+             of seniority-cum-merit for the purpose of promotion what is
+             required to be considered is inter se seniority of the
+             employees who are eligible for consideration. Such seniority
+             is normally determined on the basis of length of service, but
+             as between employees appointed on the same date and having
+             the same length of service, it is generally determined on the
+             basis of placement in the select list for appointment. Such
+             determination of seniority confers certain rights and the
+             principle of seniority-cum-merit gives effect to the such rights
+             flowing from seniority. It cannot, therefore, be said that in the
+             matter of promotion on the basis of seniority-cum-merit
+             seniority has no role where the employees eligible for
+             promotion were appointed on the same date and have the
+             same length of service.”
+                                                      (Emphasis supplied)
+
+
+
+
+
+Writ Petition (C) No. 432 of 2023                                        Page 49 of 84
+
+
+(iii)   Thirdly, the Court concluded by observing that where the criterion of
+
+        promotion is principle of ‘Seniority-cum-Merit’, marks can only be
+
+        prescribed as a ‘minimum qualifying requirement’ and as such where
+
+        promotion was being given to the eligible seniormost candidates on the
+
+        basis of their individual marks, such promotion would be contrary to the
+
+        principle of ‘Seniority-cum-Merit’. The relevant observations read as
+
+        under: -
+
+
+
+             “26. It is not a case where minimum qualifying marks are
+             prescribed for assessment of performance and merit and
+             those who secure the prescribed minimum qualifying marks
+             are selected for promotion on the basis of seniority. 
+In the
+             circumstances, it must be held that the High Court has rightly
+             come to the conclusion that the mode of selection that was in
+             fact employed was contrary to the principle of 'seniority-cum-
+             merit
+' 
+laid down in
+ the Rules.”
+                                                     (Emphasis supplied)
+
+
+88.     This distinction was reiterated in 
+Union of India and Ors. v. Lt. Gen.
+
+Rajendra Singh Kadyan & Anr.
+ reported in (
+2000) 6 SCC 698, State of U.P. v.
+
+Jalal Uddin & Ors.
+ reported in (
+2005) 1 SCC 169 and Haryana State Electronics
+
+Development Corporation Ltd. & Ors. v. Seema Sharma & Ors.
+ reported in
+
+(2009) 7 SCC 311.
+
+
+
+
+
+
+89.     This Court in 
+Palure Bhaskar Rao & Ors. v. P. Ramaseshaiah & Ors.
+
+
+reported in (2017) 5 SCC 783 reiterated the distinction between the principles of
+
+‘Seniority-cum-merit’ and ‘Merit-cum-Seniority’. As far as promotion by
+
+
+
+
+Writ Petition (C) No. 432 of 2023                                     Page 50 of 84
+
+‘seniority-cum-merit’ or seniority per se, the eligible senior cannot be
+
+superseded. Other things being equal, the senior automatically get promoted. But
+
+in the case of selection based on ‘Merit-cum-Seniority’, the senior candidate can
+
+be superseded if the candidate who is senior is not otherwise eligible to be
+
+considered according to the applicable service rules.
+
+
+90.    This Court in its decision in 
+K. Samantaray v. National Insurance Co.
+
+Ltd.
+ reported in (2004) 9 SCC 286 reaffirmed that when it comes to promotion,
+
+apart from the two guiding principles that have come to be accepted namely;
+
+‘Seniority-cum-Merit’ and ‘Merit-cum-Seniority’, a third model has also now
+
+come to be recognized as a mode of promotion known as the ‘Hybrid Mode of
+
+Promotion’. This Court while explaining the ‘Hybrid Mode of Promotion’
+
+observed that the requirement is that seniority is to be duly respected and merit is
+
+to be appropriately recognized. The relevant observations read as under: -
+
+
+      “10. [...] The third mode (apart from seniority-cum-merit and merit-
+      cum-seniority modes) has been recognized. It has been described as
+      a “hybrid mode of promotion”. In other words, there is a third
+      category of cases where seniority is duly respected and merit is
+      appropriately recognized.
+
+
+
+ 
+11. While laying down the promotion policy or rule, it is always open
+      to the employer to specify area and parameter of weightage to be
+      given in respect of merit and seniority separately so long as policy is
+      not colourable exercise of power, nor has the effect of violating of
+      any statutory scope of interference and other relatable matters. The
+      decision in 
+B. V. Sivaiah
+ case (supra) is clearly distinguishable on
+      facts and in law. That was a case where statutory rules governed the
+      field. This Court, inter alia, held that fixing terms which are at
+      variance with the statutory rules is impermissible. In the case at hand,
+
+
+
+Writ Petition (C) No. 432 of 2023                                      Page 51 of 84
+
+      prior to the formulation of policy in February, 1990, there were no
+      codified prescriptions. It was the stand of the respondent-employer
+      that prior to the formulation of the policy, certain guidelines existed
+      and the objectives of the policy were to rationalize and codify the
+      existing guidelines relating to promotions within officers cadre.
+
+
+      There is no statutory rule operating. It is for the employer to stipulate
+      the criteria for promotion, the same pertaining really to the area of
+      policy making. It was, therefore, permissible for the respondent to
+      have their own criteria for adjudging claims on the principle of
+      seniority-cum-merit giving primacy to merit as well, depending upon
+      the class, category and nature of posts in the hierarchy of
+      administration and the requirements of efficiency for such posts.”
+                                                     (Emphasis supplied)
+
+
+
+91.    
+In 
+Bhagwandas Tiwari & Ors. v. Dewas Shajapur Kshetriya Gramin
+
+Bank & Ors.
+ reported in (2006) 12 SCC 574, this Court observed that although
+
+the requirement of minimum marks for assessing merit can be prescribed for the
+
+purpose of promotion on the basis of ‘Seniority-cum-Merit’, yet where a very
+
+high requirement of minimum marks has been prescribed, the same would
+
+amount to laying greater emphasis on merit and thereby departing from the
+
+principle of ‘Seniority-cum-Merit’ and shifting towards to the principle of ‘Merit-
+
+cum-Seniority’ where merit and ability play a predominant role. The relevant
+
+observations read as under: -
+
+
+
+
+      “11. The principle of “merit-cum-seniority” lays greater emphasis
+      on merit and ability and seniority plays a less significant role.
+      Seniority is to be given weight only when merit and ability are
+      approximately equal.
+
+
+
+                     xxx                xxx                  xxx
+
+
+      20. There is no basis, in the instant case, for the stand that for
+      assessing merit a minimum number of marks has been prescribed.
+
+
+
+Writ Petition (C) No. 432 of 2023                                       Page 52 of 84
+
+
+      The contention that minimum marks were 45 out of 60, means that an
+      employee is to secure 75% of marks. Such a high percentage cannot
+      be a measure for prescribing minimum marks to assess merit. It
+      obviously would be a case of shifting the focus to merit-cum-seniority
+      principle. 
+In para 37 of 
+Sivaiah
+ case this Court noted that minimum
+      marks prescribed for assessing merit do not depart from the
+      seniority-cum-merit principle. But the factual position is different
+      here. There is no mention that 45 marks out of 60 relate to the
+      prescription of minimum marks for assessing the merit.
+ 
+In 
+Jalal
+      Uddin
+ case it was noted that in seniority-cum-merit greater emphasis
+      is on seniority though it is not the determinative factor. In the case of
+      merit-cum-seniority, merit becomes a determinative factor.
+ 
+In fact,
+      the position noted by this Court in paras 19, 20, 24 and 25 of 
+Sivaiah
+
+      case dealt with almost identical fact situation, apart from para 16 of
+      the judgment.”
+                                                     (Emphasis supplied)
+
+
+92.    
+In 
+Shriram Tomar & Anr. v. Praveen Kumar Jaggi & Ors.
+ reported in
+
+(2019) 5 SCC 736, for the purpose of promotion on the basis of ‘Seniority-cum-
+
+Merit’ it was stipulated that the assessment would be on the basis of a written test,
+
+interview and performance appraisal for a grand total of 100 marks out of which
+
+requirement of a minimum aggregate of 40% marks was prescribed. In addition
+
+to the above, a further requirement of minimum 12 marks in one of the
+
+components i.e., the interview had also been prescribed.
+
+
+93.1 This Court held that the principle of ‘Seniority-cum-Merit’ postulates only
+
+one requirement i.e., once the minimum required merit is assessed, thereafter the
+
+promotion must be strictly in accordance with the seniority of the candidates
+
+having the requisite merit. How the minimum merit ought to be assessed is
+
+immaterial.
+
+
+
+
+
+
+Writ Petition (C) No. 432 of 2023                                       Page 53 of 84
+
+93.2 As such, prescribing of an additional requirement of minimum marks in
+
+any one component of assessment such as interview in addition to the requirement
+
+of aggregate minimum marks in the overall assessment process was permissible
+
+under the principle of ‘Seniority-cum-Merit’ provided that the ultimate promotion
+
+is taking place as per seniority. The relevant observations read as under: -
+
+
+       “13. [...] As the promotion to the post of Junior Management Scale II
+       shall be made on the basis of seniority-cum-merit, the only
+       requirement would be that after it is found that the candidates have
+       possessed the minimum necessary merit, namely, minimum 40%
+       qualifying marks in the written test and minimum 12 marks each out
+       of 20 marks each in interview and the performance appraisal reports
+       respectively, thereafter the candidates are required to be promoted in
+       the order of seniority, irrespective of anyone among them having
+       obtained more marks.”
+                                                (Emphasis supplied)
+
+
+
+93.    
+In 
+Sujata Kohli v. Registrar General, High
+ Court of Delhi and Ors.
+
+
+
+
+reported in (2020) 14 SCC 58, this Court observed that since both the channels
+
+of promotion to the cadre of District & Sessions Judge being (i) 65% promotion
+
+on basis of principle of ‘Merit-cum-Seniority’ and (ii) 10% promotion strictly on
+
+merit through competitive examination postulate the criterion of merit, it
+
+necessarily meant that: -
+
+
+
+(i)     First, for the purposes of any promotion through the above two channels,
+
+        merit would have to play a major role in promotion through these channels
+
+        and will acquire primacy and that seniority alone cannot be given primacy.
+
+
+
+(ii)    Secondly, the requirement of merit in such promotions cannot be less than
+
+        the merit which is required at the entry level i.e., in the lower cadres.
+
+
+
+Writ Petition (C) No. 432 of 2023                                        Page 54 of 84
+
+
+(iii)    Thirdly, that comparative assessment of merit is crucial, such as through
+
+         the evaluation of the respective ACRs of the candidates.
+
+
+
+Thus, this Court was of the view that the minimum requirement of grade ‘A’ in
+
+ACRs was in consonance with the policy envisaged by the abovementioned two
+
+channels of promotion and the relevant observations read as under: -
+
+
+        “14.3 [...] As noticed, two channels of recruitment to the posts in the
+        cadre of District Judge have been provided: one by promotion from
+        amongst the Civil Judges (Senior Division) and another by direct
+        recruitment from the eligible persons. As regards promotion, the
+        bifurcation is provided in the manner that 65% are to be recruited by
+        way of promotion on the basis of merit-cum-seniority and 10% by
+        promotion strictly on the basis of merit through limited competitive
+        examination (vide Rule 7 and 7A). [...]
+
+                      xxx                 xxx                 xxx
+
+
+        15. Keeping the principles aforesaid in view, when we revert to the
+        scheme of the Rules of 1970, the striking feature is that even at the
+        entry level, the promotions are to be made either on merit-cum-
+
+        seniority basis or on merit basis. Further, grant of Selection Grade
+        and Super Time Scale is also on assessment of merit-cum-seniority10.
+        In the given scheme of the Rules of 1970, it is difficult to countenance
+        any suggestion that in DHJS, merit could be forsaken at any level or
+        only seniority be given primacy in the matter relating to upward
+        progression to the higher posts of District and Sessions Judge or
+        Principal Judge, Family Court. Rather, looking to the nature of posts,
+        in every higher progression, merit would play a major role and
+        would, perforce, acquire primacy.
+
+
+
+                      xxx                 xxx                 xxx
+
+        19.1. [...] Viewed in the light of such requirements, it goes without
+        saying that any upward progression in DHJS could only be on the
+        higher requirements of merit and in any case, such requirements
+        cannot be lesser than the requirements at entry level. In this view of
+        the matter too, the Appellant was conscious of the fact that for upward
+        movement in DHJS, merit would acquire primacy; and that seniority
+        alone was not going to be decisive for promotion to the higher posts
+
+
+
+Writ Petition (C) No. 432 of 2023                                        Page 55 of 84
+
+      of District and Sessions Judge and the Principal Judge, Family
+      Court. Although there is no requirement in law that criteria for
+      promotion based on ACR alone be also notified but, in any case, in
+      the scheme of the Rules and the requirements of the posts in question,
+      the Appellant cannot contend that she was not aware of the position
+      that comparative merit of the incumbents shall be a crucial factor for
+      any upward progression in the cadre.”
+                                                    (Emphasis supplied)
+
+
+c.     ‘Hybrid-Dynamic Mode of Promotion’ in Service Jurisprudence.
+
+
+94.    What can be discerned from the aforenoted decisions is that this Court over
+
+the years has consistently held that where promotion is on the basis of the
+
+principle of ‘Merit-cum-Seniority’ a greater emphasis is placed on merit,
+
+whereas, when the promotion is on the basis of the principle of ‘Seniority-cum-
+
+Merit’, a greater emphasis is laid on seniority.
+
+
+
+
+
+95.    One must be mindful that the terms ‘Merit-cum-Seniority’ or ‘Seniority-
+
+cum-Merit’ are not statutorily defined by the legislature.
+
+
+
+96.    These principles are judicial connotations that have been evolved over a
+
+period of years through various decisions of this Court and the High Courts whilst
+
+dealing with matters of promotion pertaining to different statutes and service
+
+conditions.
+
+
+
+
+
+97.    This Court in 
+B.V. Sivaiah
+ (supra), 
+Rajendra Kumar Srivastava
+ (supra),
+
+
+Shriram Tomar
+ (supra), 
+Sujata Kohli
+ (supra) and a catena of other decisions has
+
+
+
+
+Writ Petition (C) No. 432 of 2023                                    Page 56 of 84
+
+held that the principles of ‘Merit-cum-Seniority’ and ‘Seniority-cum-Merit’ are
+
+conceptually different. Whilst explaining the difference between these two
+
+principles, this Court has only gone to the extent of laying down what these
+
+principles postulate for the purpose of promotion. In other words, this Court has
+
+only gone so far as to lay down what is permissible within the four corners of
+
+these principles and by no stretch of imagination has this Court in any manner
+
+held that such postulations are stricto-sensu required to be complied with.
+
+
+98.    The various decisions of this Court have only developed upon the
+
+principles of ‘Merit-cum-Seniority’ and ‘Seniority-cum-Merit’ by explaining the
+
+criterions that may be postulated within the framework of these principles for the
+
+purpose of promotion. The scope of the aforesaid principles is summarized
+
+below: -
+
+
+
+
+
+      I)      The principle of ‘Seniority-cum-Merit’ postulates that: -
+
+
+
+       i.      Minimum requirement of merit and suitability which is
+               necessary for the higher post can be prescribed for the
+               purpose of promotion.
+
+       ii.     Comparative Assessment amongst the candidates is not
+               required.
+
+       iii.    Seniority of a candidate is not a determinative factor for
+               promotion but has a predominant role.
+
+       iv.     Upon fulfilling the minimum qualifications, promotions must
+               be based on inter-se seniority.
+
+
+
+Writ Petition (C) No. 432 of 2023                                    Page 57 of 84
+
+
+      II)     The principle of ‘Merit-cum-Seniority’ postulates that: -
+
+
+
+       i.      Merit plays a predominant role in and seniority alone cannot
+               be given primacy.
+
+       ii.     Comparative Assessment of Merit is a crucial, though not a
+               mandatory, factor.
+
+       iii.    Only where merit is equal in all respects can inter-se seniority
+               be considered. Meaning that a junior candidate can be
+               promoted over the senior if the junior is more meritorious.
+
+
+
+99.    The underlying reason why the afore-stated postulations ought not be
+
+understood as mandatory stems from the very fact that they are not a result of a
+
+legislative creation, but rather one of judicial interpretation whilst dealing with
+
+different promotion policies, different service conditions, the varied nature and
+
+requirement of posts and more importantly different sets of rules. Since, these
+
+postulations have been 
+laid down in
+ different context and varied facts, it would
+
+be preposterous to say that such postulations will apply uniformly to all services
+
+and matters of promotion including the judicial services.
+
+
+
+100. The principles of ‘Merit-cum-Seniority’ and ‘Seniority-cum-Merit’ should
+
+by no means be regarded as rigid or inflexible in nature, otherwise, these judicial
+
+connotations would effectively assume the character of statutory stipulation laid
+
+down through various judicial pronouncements and would become applicable to
+
+all types of services, posts and promotions. This would lead to the transgression
+
+by the judiciary into the realms of policy making.
+
+
+
+
+
+Writ Petition (C) No. 432 of 2023                                        Page 58 of 84
+
+
+ 
+101. This Court in 
+Lt. Gen. Rajendra Singh Kadyan
+ (supra) whilst explaining
+
+the intricacies between the principles of ‘Merit-cum-Seniority’ and ‘Seniority-
+
+cum-Merit’ made a pertinent observation that selection for promotion is based on
+
+different criteria depending upon the nature of the post and requirements of
+
+service, and that such criteria could be said to fall into three categories which
+
+include ‘Merit-cum-Seniority’ and ‘Seniority-cum-Merit’.
+
+
+102. 
+In 
+Palure Bhaskar Rao
+ (supra) and 
+Kavita Kamboj
+ (supra) this Court
+
+equated the principle of ‘Merit-cum-Seniority’ and ‘Seniority-cum-Merit’ as
+
+modes or methods of promotion. However, modes of promotion should not be
+
+conflated with modalities of promotion. The expressions ‘Merit-cum-Seniority’
+
+and ‘Seniority-cum-Merit’ in service jurisprudence are nothing but principles
+
+which are used to broadly categorize policies pertaining to promotions. They only
+
+lay down the broad framework within which specific policies of promotion can
+
+be elaborately laid down.
+
+
+
+
+
+
+103. 
+In 
+Bhagwandas Tiwari
+ (supra) this Court held that where for the purpose
+
+of promotion a high threshold of minimum required marks has been prescribed,
+
+the same would be an instance of ‘Merit-cum-Seniority’, even in the absence of
+
+a comparative assessment of merit, thus clearly indicating that these postulations
+
+are not mandatory. As even without an element of comparative merit, the
+
+promotion could be based on ‘Merit-cum-Seniority’, provided that merit is given
+
+prominence over seniority in the promotion process. Therefore, the only factor
+
+
+
+Writ Petition (C) No. 432 of 2023                                    Page 59 of 84
+
+that sets apart ‘Merit-cum-Seniority’ from ‘Seniority-cum-Merit’ is whether
+
+emphasis is laid on merit or seniority. All other ancillary factors or postulations
+
+such as comparative merit or a minimum specified benchmark may or may not
+
+be material to these principles.
+
+
+
+
+
+
+104. The fluid nature of the principles of ‘Merit-cum-Seniority’ and ‘Seniority-
+
+cum-Merit’ is further evinced by the decision of this Court in 
+K. Samantaray
+
+
+(supra) wherein although the policy stipulated that promotion would be on the
+
+basis of ‘Seniority-cum-Merit’, yet this Court after going through the elaborate
+
+promotion policy held that a third mode of promotion known as the “Hybrid
+
+Mode of Promotion” has come to be recognized by this Court, wherein it is open
+
+for the employer to specify the area and parameter of weight required to be given
+
+to merit and seniority for the purpose of promotion. It was further held that it is
+
+always open for the employer or the selection body to decide and stipulate their
+
+own criteria for adjudging the claims on the principles of ‘Seniority-cum-Merit’
+
+or ‘Merit-cum-Seniority’ depending upon the class, category and nature of post
+
+and the requirements of efficiency.
+
+
+
+
+
+
+105. What can be discerned from the aforesaid is that, wherever the expression
+
+‘Merit-cum-Seniority’ or ‘Seniority-cum-Merit’ has been supplemented by an
+
+elaborate promotion policy or statutory rules clearly indicating the parameters on
+
+which promotions are to be made, the mode of promotion assumes the character
+
+of a Hybrid or Dynamic Mode of Promotion as held in 
+K. Samantaray
+ (supra).
+
+
+Writ Petition (C) No. 432 of 2023                                     Page 60 of 84
+
+
+106. In such scenario, these principles serve as a beacon for the selection body
+
+which, in exercise of its delegated legislative powers, can formulate policies and
+
+lay down different criteria and conditions of assessment for the purposes of
+
+promotion.     It does so by providing the selection body with the tools for
+
+formulating the promotion policy in the form of the aforementioned postulations
+
+or criteria which are permissible under these principles. Thereafter, the selection
+
+body can, as a conscious choice, decide the criteria it deems necessary or most
+
+suitable for the purpose of promotion keeping in mind the nature of the post, the
+
+requirements of service, etc.
+
+
+
+107. For instance, where the promotion is based on ‘Merit-cum-Seniority’, the
+
+selection body may opt for a comparative assessment of merit, more particularly,
+
+in cases where the promotions are competitive in nature or it may say that
+
+seniority should only be considered where merit is equal in all respect if the post
+
+is of such nature that it requires significant knowledge and ability.
+
+
+
+108. However, at the same time, this flexibility should not be understood as a
+
+complete autonomy. While the statutory rules or, in the absence of the same, the
+
+promotion policy formulated must be followed, they must at the same time have
+
+some nexus or bearing with the nature of the post and the requirements of service.
+
+For instance, where the promotion is based on ‘Merit-cum-Seniority’ and the
+
+nature of promotion allows for superseding a senior, the selection body whilst
+
+
+
+
+Writ Petition (C) No. 432 of 2023                                       Page 61 of 84
+
+formulating the promotion policy cannot simpliciter as a matter of choice refuse
+
+to provide for assessment of comparative merit, as the promotion herein is by its
+
+nature an accelerated form of promotion and as such comparative assessment
+
+becomes crucial.
+
+
+
+
+
+109. The principle of ‘Merit-cum-Seniority’ and ‘Seniority-cum-Merit’ are a
+
+flexible and a fluid concept akin to broad principles within which the actual
+
+promotion policy may be formulated. They are not strict rules or requirements
+
+and by no means can supplant or take the place of statutory rules or policies that
+
+have been formulated, if any. These principles are dynamic in nature very much
+
+like a spectrum and their application and ambit depends upon the rules, the policy,
+
+the nature of the post and the requirements of service. The sketch below illustrates
+
+the broad spectrum in which these principles operate: -
+
+
+
+
+
+110. Thus, the principles applicable to promotion such as the principle of
+
+‘Merit-cum-Seniority’ and ‘Seniority-cum-Merit’ can best be described as two
+
+
+
+
+
+Writ Petition (C) No. 432 of 2023                                      Page 62 of 84
+
+ends of a spectrum. They are broad categories or frameworks for promotion and
+
+do represent the actual modalities by which promotions are to take place. It is the
+
+rules and the promotion policy, along with the intention of the legislature or the
+
+selection board, as the case may be, that supplements these principles and
+
+delineates the actual modality of how promotion is to take place. Through these
+
+rules and promotion policy, the legislature or the selection body specifies the area
+
+and the parameters or the weightage which is to be given to the aspect of “Merit”
+
+and “Seniority” on the said spectrum.
+
+
+
+
+
+111. No doubt while construing the rule of ‘Seniority-cum-Merit’ or ‘Merit-
+
+cum-Seniority’, some of the observations of the decided cases are not uniform. 
+In
+
+
+State of Mysore v. C. R. Seshadri & Ors.
+ reported in AIR 1974 SC 460, Krishna
+
+Iyer, J., held that if the criterion for promotion is one of ‘Seniority-cum-Merit’,
+
+comparative merit may have to be assessed, if length of service is equal or an
+
+outstanding junior is available for promotion.
+
+
+
+
+
+
+112. The decision of this Court in 
+Sujata Kohli
+ (supra) has been strongly relied
+
+upon on behalf of the petitioner herein, however the same is of no avail to them,
+
+as in the said case this Court had no occasion to examine the meaning of the
+
+expression ‘Merit-cum-Seniority’ in reference to 
+All India Judges’ Association
+
+
+(3) (supra).
+ 
+This Court in 
+Sujata Kohli
+ (supra) only went so far as to say that
+
+‘Merit-cum-Seniority’ means that neither merit can be forsaken nor seniority
+
+alone can be given primacy. ‘Merit-cum-Seniority’ only stipulates that a balance
+
+
+
+Writ Petition (C) No. 432 of 2023                                      Page 63 of 84
+
+must be maintained between ‘Merit’ and ‘Seniority’ with ‘Merit’ playing a more
+
+predominant role in the selection process.
+
+
+
+
+
+
+113. Similarly, the decision in 
+Dr. Kavita Kamboj
+ (supra) has also been strongly
+
+relied upon by the petitioners, but it is of no avail to them, as the limited question
+
+that was involved in the said case was whether minimum marks could be specified
+
+for the written exam and the viva voce separately.
+
+
+
+
+
+
+114. While laying down the promotion policy or rule, it is always open to the
+
+employer to specify the area and parameter or the weightage to be given in respect
+
+of merit and seniority separately, so long as the policy is not a colourable exercise
+
+of power, nor has the effect of violating any statutory scope of interference and
+
+other relatable matters. [See 
+K. Samantaray
+ (supra)]
+
+
+
+d.     High Court as a custodian of the District Judiciary under 
+Article 235
+
+       of the Constitution.
+
+
+
+
+
+
+115. We should be mindful of the fact that the High Court by virtue of its power
+
+under 
+Article 235
+ of the Constitution undertook the recruitment process for the
+
+purpose of promotion. The High Court followed the procedure which it had been
+
+following without any departure since 2011. In such circumstances, had the High
+
+Court departed from the method of promotion which it had been following since
+
+2011, it could have been argued on behalf of the respondents that they had
+
+
+
+
+
+Writ Petition (C) No. 432 of 2023                                        Page 64 of 84
+
+legitimate expectation that the High Court would not deviate from the method or
+
+process they had been adopting since 2011.
+
+
+
+
+
+116. 
+In the aforesaid context we may make a reference to 
+R. v. Inland Revenue
+
+Commissioners
+, ex parte M.F.K Underwriting Agents Ltd. reported in [1990] 1
+
+W.L.R. 1545 where Lord Justice of Appeal, Thomas Bingham, while invoking
+
+fairness as a rationale for protecting legitimate expectations, expressed the
+
+following: -
+
+
+
+
+      “If a public authority so conducts itself as to create a legitimate
+      expectation that a certain course will be followed it would often be
+      unfair if the authority were permitted to follow a different course to
+      the detriment of one who entertained the expectation, particularly if
+      he acted on it [...] The doctrine of legitimate expectation is rooted in
+      fairness.”
+
+
+117. 
+In 
+Madan Mohan Choudhary v. State of Bihar
+ reported in (1999) 3 SCC
+
+396 this Court held that the High Court’s control over the District Judiciary under
+
+
+Article 235
+ of the Constitution is comprehensive and extends to a variety of
+
+matters including promotion. The relevant observations read as under: -
+
+
+      “22. In order to ensure their independence, the control over the
+      subordinate courts has been vested in the High Court under 
+Article
+      235 [...]
+
+
+      23. Under this Article, the High Court's control over the subordinate
+      judiciary is comprehensive and extends over a variety of matters,
+      including posting, promotion and grant of leave. The three words,
+      namely, “posting”, “promotion” and “grant of leave” used in this
+      article are only illustrative in character and do not limit the extent of
+      control exercised by the High Court over the officers of the
+      subordinate judiciary.
+
+
+
+Writ Petition (C) No. 432 of 2023                                       Page 65 of 84
+
+
+                     xxx               xxx                 xxx
+
+      26. From the scheme of the Constitution, as set out above, it will be
+      seen that though the officers of the subordinate judiciary are
+      basically and essentially government servants, their whole service is
+      placed under the control of the High Court and the Governor cannot
+      make any appointment or take any disciplinary action including
+      action for removal or compulsory retirement unless the High Court
+      is “consulted” as required by the constitutional impact of both the
+      
+Articles 233
+ and 
+234
+ and the “control” of the High Court indicated
+      in Article 235.”
+                                                  (Emphasis supplied)
+
+
+
+118. 
+In High Court of Judicature for 
+Rajasthan v. P.P. Singh & Anr.
+ reported
+
+in (2003) 4 SCC 239, it was held that laying down merit criteria for appointment
+
+to selection grade was well within the domain of the High Court under 
+Article
+
+235
+ of the Constitution. The relevant observations read as under: -
+
+
+
+
+      “18. It is beyond any pale of controversy that the control over the
+      subordinate courts within the meaning of 
+Article 235
+ of the
+      Constitution of India is that of the High Court. Such control of the
+      High Court includes general superintendence of the working of the
+      subordinate courts, disciplinary control over the presiding officers,
+      disciplinary proceedings, transfer, confirmation and promotion and
+      appointment etc. Such control vested in the High Court is complete.
+
+      [...]
+                     xxx               xxx                 xxx
+
+      24. The submission on behalf of the respondents to the effect that in
+      the matter relating to fixation of criteria for the purpose of
+      appointment to the selection grade, the two-Judge Committee could
+      not be made without consulting all the Judges is stated to be rejected.
+
+      The said submission is based on a total misconception. Laying down
+      the merit criteria for appointment to the selection grade also was
+      within the domain of the High Court. It could not only lay down such
+      criteria but also amend or modify the same from time to time. [...]”
+                                                    (Emphasis supplied)
+
+
+
+
+Writ Petition (C) No. 432 of 2023                                     Page 66 of 84
+
+
+ 
+119. From the aforesaid discussion, it is clear that when it comes to promotion
+
+of judicial officers of the District Judiciary, the control vests with the High Court
+
+under 
+Article 235
+ of the Constitution. The High Court being the sole authority in
+
+this regard can clearly lay down rules and policies pertaining to promotions which
+
+includes the power to specify the criteria and parameters it deems most suitable
+
+and appropriate for the purpose of promotion and the manner in which promotion
+
+is to be made as long as it is within the contours of what has been 
+laid down in
+
+
+All India Judges’ Association
+ (3) (supra).
+ 
+Thus, now the only question that
+
+remains to be considered is, what is the meaning assigned to “Merit-cum-
+
+
+Seniority” by All India Judges’ Association
+ (3) (supra).
+
+
+
+iv.    What is ‘Merit-cum-Seniority’ for the purpose of Promotion to the
+       cadre of District & Sessions Judges?
+
+
+
+
+
+a.     Intention behind the decision in All India Judges’ Association (3).
+
+
+120. The entire controversy revolves around the interpretation of Rule 5(1) of
+
+the 2005 Rules which provides that 65% of the total posts in the cadre of District
+
+& Sessions Judge shall be filled by promotion on the basis of the principle of
+
+‘Merit-cum-Seniority’.
+
+
+
+
+
+121. As discussed in the foregoing parts of this judgment, the decision of this
+
+Court in 
+All India Judges’ Association
+ (3) (supra) has laid down the method of
+
+recruitment to the posts in the Higher Judicial Service, i.e., District Judges and
+
+
+
+
+Writ Petition (C) No. 432 of 2023                                       Page 67 of 84
+
+Additional District Judges. Prior to 
+the said decision
+, there were only two sources
+
+for recruitment to the Higher Judicial Service – first, by promotion from amongst
+
+the members of the District Judicial Service; and secondly, by direct recruitment
+
+from among the members of the Bar.
+
+
+
+
+
+
+122. This Court in 
+All India Judges’ Association
+ (3) (supra), with a view to
+
+enhance the efficiency of the District judiciary and to create an avenue of
+
+accelerated promotions for the relatively junior members of the service,
+
+introduced two methods of appointment, one by way of promotion, wherein 50%
+
+of the total posts were to be filled by promotion on the basis of the principle of
+
+‘Merit-cum-Seniority’ through a test assessing the continued efficiency and
+
+adequate knowledge of case-law of the judicial officers, and the remaining 25%
+
+of the posts were to be filled up by promotions strictly on the basis of merit
+
+through the limited departmental competitive examination. At the cost of
+
+repetition, the relevant observations read as under: -
+
+
+      “27. At the same time, we are of the opinion that there has to be
+      certain minimum standard, objectively adjudged, for officers who are
+      to enter the Higher Judicial Service as Additional District Judges and
+      District Judges. While we agree with the Shetty Commission that the
+      recruitment to the Higher Judicial Service i.e. the District Judge
+      cadre from amongst the advocates should be 25 per cent and the
+      process of recruitment is to be by a competitive examination, both
+      written and viva voce, we are of the opinion that there should be an
+      objective method of testing the suitability of the subordinate judicial
+      officers for promotion to the Higher Judicial Service. Furthermore,
+      there should also be an incentive amongst the relatively junior and
+      other officers to improve and to compete with each other so as to
+      excel and get quicker promotion. In this way, we expect that the
+      calibre of the members of the Higher Judicial Service will further
+
+
+Writ Petition (C) No. 432 of 2023                                     Page 68 of 84
+
+      improve. In order to achieve this, while the ratio of 75 per cent
+      appointment by promotion and 25 per cent by direct recruitment to
+      the Higher Judicial Service is maintained, we are, however, of the
+      opinion that there should be two methods as far as appointment by
+      promotion is concerned : 50 per cent of the total posts in the Higher
+      Judicial Service must be filled by promotion on the basis of principle
+      of merit-cum-seniority. For this purpose, the High Courts should
+      devise and evolve a test in order to ascertain and examine the legal
+      knowledge of those candidates and to assess their continued
+      efficiency with adequate knowledge of case-law. The remaining 25
+      per cent of the posts in the service shall be filled by promotion strictly
+      on the basis of merit through the limited departmental competitive
+      examination for which the qualifying service as a Civil Judge (Senior
+      Division) should be not less than five years. The High Courts will
+      have to frame a rule in this regard.”
+                                                        (Emphasis supplied)
+
+
+123. The expressions "certain minimum standard, objectively adjudged" and "in
+
+order to ascertain the legal knowledge of those candidates and to assess their
+
+continued efficiency with adequate knowledge of case law" in 
+All India Judges’
+
+Association
+ (3) (supra) clearly indicate that the intention was to test each
+
+candidate on their own merit as this Court never mandated that a comparative
+
+assessment of merit was also required. In other words, what is stipulated is the
+
+determination of suitability of the candidates and assessment of their efficiency
+
+based on whether they possess adequate knowledge of case law. It goes without
+
+saying that some standards of suitability and efficiency for continued service is
+
+required. The High Court may deny promotion to a Civil Judge (Senior Division)
+
+only in case the candidate is not suitable for being promoted to the post of District
+
+& Sessions Judge. It was never the intention of this Court that after taking the
+
+suitability test, a list should be prepared based on inter-se merit and the judicial
+
+
+
+Writ Petition (C) No. 432 of 2023                                        Page 69 of 84
+
+officers should be promoted only if they fall in the said merit list. It cannot be
+
+said to be a competitive exam. Only the suitability of the judicial officer is to be
+
+assessed and once it is found that the candidate has secured the requisite marks
+
+in the suitability test, they cannot be thereafter ignored for promotion.
+
+
+124. The first change brought around was the introduction of a mandatory
+
+assessment of the suitability of the members of the District Judicial Service before
+
+promoting them to the Higher Judicial Service. The concept of assessment of
+
+suitability was introduced to ensure that a certain minimum standard is
+
+maintained in the Higher Judicial Service. The method of devising a suitability
+
+test for this purpose was left to the respective High Courts. However, broad
+
+guiding principles were 
+laid down by
+ this Court on the contours of the suitability
+
+test. It was directed that the suitability test must objectively test the following: -
+
+
+       a. Whether the candidate possesses legal knowledge?
+
+
+
+       b. Whether the candidate has displayed continued efficiency during
+
+          his tenure in the feeder cadre?
+
+
+
+       c. Whether the candidate possesses adequate knowledge of case law?
+
+
+
+125. The second change introduced by the aforesaid decision was the creation
+
+of a third category of recruitment to the Higher Judicial Service. While the
+
+allocation of seats for direct recruitment from the members of the Bar was kept
+
+at 25% of the total posts in the Higher Judicial Service, the erstwhile promotional
+
+category was split up into two categories – firstly, 50% of the posts in the Higher
+
+
+
+Writ Petition (C) No. 432 of 2023                                        Page 70 of 84
+
+Judicial Service were directed to be filled by promotion on the basis of ‘Merit-
+
+cum-Seniority’; and secondly, the remaining 25% of the seats were directed to be
+
+filled by promotion strictly on the basis of merit, through a limited departmental
+
+competitive examination.
+
+
+
+
+
+126. We are of the view that the principle of ‘Merit-cum-Seniority’ stipulated
+
+in Rule 5(1) of the 2005 Rules should be understood in accordance with what has
+
+been observed by this Court in paragraphs 27 & 28 respectively of 
+All India
+
+Judges’ Association
+ (3) (supra).
+
+
+
+
+
+
+127. It is amply clear from the aforesaid decision that this Court intended to
+
+achieve two-fold objectives –
+
+
+(i)    First, to ensure that unlike the traditional promotion policy under which
+
+       seniority alone was considered for promotion, a new policy should be
+
+       devised under which seniority would be considered for promotion, but only
+
+       for those candidates who possessed the minimum necessary standard of
+
+       suitability for the post, and;
+
+
+
+(ii)   Secondly, to prevent loss of motivation amongst the relatively junior
+
+       members of the service, a third category for promotion to the Higher
+
+       Judicial Service should be created, wherein promotions would be given
+
+       strictly on the basis merit, to be ascertained through a limited departmental
+
+       competitive examination.
+
+
+
+
+
+Writ Petition (C) No. 432 of 2023                                      Page 71 of 84
+
+
+128. Thus, while the comparison of inter-se merit to determine the most
+
+meritorious candidates was the procedure to be adopted for filling up the seats
+
+under the newly created category, it was never the intention of this Court in the
+
+aforesaid decision to mandate the comparative assessment of merit in the category
+
+of regular promotions based on seniority. The only additional requirement which
+
+was provided for by the aforesaid decision for this category of candidates was the
+
+possession of certain minimum objectively determinable standard of suitability.
+
+As long as a candidate possesses this standard of suitability, it cannot be said that
+
+this Court intended, by the aforesaid decision, to subject such a candidate to a
+
+mandatory comparative merit assessment akin to the limited departmental
+
+competitive examination and disregard the seniority of such a candidate to prefer
+
+those candidates who may have scored a few marks more than him in the
+
+suitability test.
+
+
+
+
+
+129. The objective sought to be achieved by the introduction of a suitability test
+
+in the regular promotional category was limited to the assessment of a minimum
+
+standard of suitability. It would be incorrect to say that the marks scored by a
+
+candidate in the suitability test are proportional to the merit of the candidate. This
+
+can be understood with the aid of an illustration – take a case wherein the
+
+minimum marks required to be obtained in the suitability test is ‘x’; then for the
+
+purpose of 65% promotional quota, as soon as a candidate obtains ‘x’ marks in
+
+the suitability test, such a candidate becomes eligible for being considered for
+
+
+
+Writ Petition (C) No. 432 of 2023                                        Page 72 of 84
+
+promotion in that category subject to their seniority vis-à-vis the other suitable
+
+candidates. It cannot be said that a candidate who obtains (x + 10) marks is more
+
+meritorious or more suitable than those candidates who obtain ‘x’ or (x + 5) marks
+
+in the suitability test. Every candidate who scores higher than or equal to ‘x’
+
+marks in the suitability test is considered equally suitable and equally meritorious
+
+for the purpose of 65% promotional category.
+
+
+
+
+
+130. We have discussed in detail in the foregoing paragraphs that the concepts
+
+of ‘Merit-cum-Seniority’ or ‘Seniority-cum-Merit’ are flexible in nature and do
+
+not prescribe any fixed or strait-jacket definitions. These definitions take
+
+character and substance from the context in which they are employed. Their full
+
+import and nuances only become visible when they are exposed to the guiding
+
+light of the overall promotional policy of the organisation. The concept of
+
+promotions in the District Judiciary is a peculiar one, and one that must be
+
+analysed in its own unique context. Unlike most cases on promotions decided by
+
+this Court where the interpretation or incorrect implementation of the promotion
+
+policy contained in a statute have been in question, the present case of promotions
+
+to the Higher Judicial Service is one in which the statutory framework itself was
+
+created after the decision in 
+All India Judges’ Association
+ (3) (supra). Thus, any
+
+dispute arising out of the respective rules of promotions of different States/Union
+
+Territories as devised by their respective High Courts must be construed in the
+
+context of various decisions which have ultimately shaped such rules.
+
+
+Writ Petition (C) No. 432 of 2023                                      Page 73 of 84
+
+
+ 
+131. How ‘Merit-cum-Seniority’ will apply to promotions within an
+
+organization will ultimately depend on the statutory rules, if any, or the
+
+promotional policy of such an organisation. We have discussed in detail in the
+
+preceding paragraphs that the objective of this Court in 
+All India Judges’
+
+Association
+ (3) (supra) was to create a new category for accelerated promotions
+
+and to introduce a test to ascertain the suitability of candidates in the regular
+
+promotional category. While the newly created category was strictly based on
+
+merit, the due weightage on seniority in the regular promotional category was not
+
+diluted in any manner except for the introduction of the suitability test. We are
+
+aware that in a number of decisions of this Court, the term ‘merit’ has been
+
+infused with a competitive and comparative character, however, we are of the
+
+opinion that whether the term ‘merit’ includes a comparative element can only be
+
+ascertained from the context in which it is employed and not in isolation from it.
+
+Merit only indicates an assessment of qualities which are relevant for the post. It
+
+is not synonymous to scores in the competitive examination. Competitive
+
+examinations are merely one of the many ways in which the merit of the candidate
+
+is determined.
+ 
+This Court in 
+All India Judges’ Association
+ (3) (supra) notes that
+
+merit must be determined based on a limited competitive examination with
+
+respect to the 25% (now 10%) of the seats which are to be filled by merit. Thus,
+
+this Court clarifies that merit in the context of the 25% (now 10%) of the seats
+
+must be determined through the competitive examination while for the 50% (now
+
+65%) of the seats must be determined based on an assessment of specific
+
+
+
+Writ Petition (C) No. 432 of 2023                                     Page 74 of 84
+
+suitability parameters. Whether the idea of a ‘minimum threshold merit’ would
+
+be antithetical to the concept of ‘Merit-cum-Seniority’ would again depend on
+
+the context and the manner in which the minimum threshold is applied.
+
+
+132.   The term ‘Merit-cum-Seniority’ in context of 2005 Rules implies that both
+
+merit and seniority would be considered in the promotion of a candidate, with
+
+merit being determined on the basis of a suitability test. The exact modalities of
+
+how merit and seniority are to be apportioned is a legislative function and is to be
+
+performed keeping in mind the unique requirements and circumstances of the
+
+organization. 
+In the present case, the merit of a candidate is assessed by means of
+
+a suitability test, as prescribed under paragraph 27 of the decision in 
+All India
+
+Judges’ Association
+ (3) (supra).
+
+
+
+
+
+
+133.   The contours of the words ‘Merit-cum-Seniority’ are drawn by this Court
+
+in the lines immediately following these words. The phrase “for this purpose”, as
+
+it appears in paragraph 27 of the aforesaid decision, acts as a bridge between the
+
+words – “Merit-cum-Seniority” – their substance. For the purpose of 65%
+
+promotional quota, this Court, in the said paragraph, has defined “merit” as the
+
+possession of a minimum standard, or suitability. This Court deliberately did not
+
+impart any competitive or comparative character to the term and such intention
+
+should be kept in mind while interpreting the term ‘Merit-cum-Seniority’ for the
+
+purpose of the 65% promotional quota.
+
+
+
+
+
+Writ Petition (C) No. 432 of 2023                                      Page 75 of 84
+
+
+134.   The suitability test assesses multiple aspects of a candidate’s merit like
+
+knowledge of law, quality of judgments, ACRs, etc. along with the efficiency of
+
+the candidate exhibited during the tenure already served. The suitability test is
+
+devised in such a manner that all candidates who clear the test can be said to
+
+possess more or less the same level of merit. Once a list of all similarly
+
+meritorious candidates is prepared, seniority is applied to select the candidates
+
+for promotion. Although seniority is applied at the last stage of the selection
+
+process, yet merit still plays the pre-dominant role as a candidate who does not
+
+possess the necessary suitability becomes ineligible for promotion irrespective of
+
+their seniority.
+
+
+
+
+
+135.   We are of the view that it would be incorrect to hold that merely because
+
+the test was not one of comparative merit and as seniority was applied at the final
+
+stage of the selection process, the process cannot be said to be one not adhering
+
+to the principle of ‘Merit-cum-Seniority’. As long as ‘Merit-cum-Seniority’ is
+
+applied in the manner it has been explained in the decision in 
+All India Judges’
+
+Association
+ (3) (supra), wherein both merit and seniority are considered, and
+
+merit plays the dominant role, the process of promotion cannot be said to be
+
+violative of the principle of ‘Merit-cum-Seniority’. The expressions used in the
+
+rules should be interpreted bearing in mind the principles enunciated in the
+
+aforesaid decision, and not on the basis of the various decisions of this Court that
+
+have been decided in entirely different factual situations. Further, if the principle
+
+
+
+
+Writ Petition (C) No. 432 of 2023                                       Page 76 of 84
+
+of ‘Merit-cum-Seniority’ is applied as argued by the petitioners, there would
+
+necessarily be no difference between the categories of ‘merit’ (10%) and ‘Merit-
+
+cum-Seniority’ (65%). It must be noted that the minimum qualifying service for
+
+the 65% category according to the 2005 Rules is two-years while that for the 10%
+
+category is five-years. Thus, appointment to the former category given the lesser
+
+years of minimum service allows relatively junior candidates to supersede the
+
+senior candidates based on the suitability test. Thus, while candidates who have
+
+two to five years of service will not be eligible to apply for promotion for the 10%
+
+promotional quota, they may still have the opportunity to apply and be considered
+
+for the 65% quota based on securing a minimum of 40% (and 50% aggregate) in
+
+each of the following indicators which measures the merit of the candidate:
+
+
+suitability test, evaluation of ACR, assessment of average disposal and evaluation
+
+of judgments. Thus, it is beyond any doubt that the criteria prescribed for
+
+promotion of candidates to the 65% promotional quota complies with the
+
+principle of ‘Merit-cum-Seniority’.
+
+
+
+136. Words used in a judgment are not to be read as words of a statute, but
+
+should be understood in the context of the facts of a given case. (See 
+Ambica
+
+Quarry Works v. State of Gujarat
+, (1987) 1 SCC 213; 
+Bharat Petroleum
+
+Corporation Ltd. v. NR Vairamani
+, (
+2004) 8 SCC 579, Municipal Corporation
+
+Delhi v. Mohd Yasin
+, (1983) 3 SCC 229). The attempt on the part of the
+
+petitioners is to persuade us to take the view that the connotation ‘Merit-cum-
+
+
+
+
+Writ Petition (C) No. 432 of 2023                                      Page 77 of 84
+
+Seniority’ as figuring in the 2005 Rules, should be strictly understood as all merit
+
+and no seniority. This is not correct to our understanding.
+ 
+Such attempt must
+
+necessarily fail as the words “Merit-cum-Seniority” as they figure in the 2005
+
+Rules read in conjunction with paragraphs 27 and 28 respectively of 
+All India
+
+Judges’ Association
+ (3) (supra), should be interpreted in the context in which
+
+they have been used by this Court – which we have discussed elaborately in the
+
+foregoing paragraphs.
+
+
+
+
+
+
+137.    The petitioners have relied on the decision of this Court in 
+Thampanoor
+
+Ravi v. Charupara Ravi
+ reported in (1999) 8 SCC 74 to contend that the term
+
+“Merit-cum-Seniority” has acquired a technical meaning and thus, should be
+
+given the meaning which is used ordinarily in relation to it. The relevant passage
+
+from 
+the said decision
+ is extracted here: -
+
+
+
+
+       “22. In ascertaining the meaning of an expression used in a statute,
+       certain norms are adopted. If the legislature has used an expression
+       which has acquired a technical meaning and such expression is used
+       ordinarily in the context of a particular branch of law, it must be
+       assumed that because of its constant use the legislature must be
+       deemed to have used such expression in a particular sense as is
+       understood when used in a similar context. If an expression has
+       acquired a special connotation in law, dictionary or general meaning
+       ceases to be helpful in interpreting such a word. Such an expression
+       must be given its legal sense and no other. 
+In this context, we may
+       refer to the weighty observation in the decision of this Court in 
+State
+       of Madras v. Gannon Dunkerley & Co. (Madras) Ltd.
+ [AIR 1958 SC
+       560 : 1959 SCR 379] that a term of well-recognised import in the
+       general law should be accepted as confining the meaning in
+       interpreting the Constitution. If the expression “undischarged
+       insolvent” has acquired a special meaning under the law of
+
+
+
+Writ Petition (C) No. 432 of 2023                                      Page 78 of 84
+
+      insolvency, we must understand that that is the meaning that is sought
+      to be attributed to the expression used in 
+Article 191(1)(c)
+ of the
+      Constitution.”
+
+
+138. The aforesaid contention of the petitioner deserves to be rejected for two
+
+good reasons: -
+
+
+
+(1)    First, the observations in the said case have been made in the context of a
+
+       technical meaning used in a statute. In the present case, the term ‘Merit-
+
+
+
+ 
+cum-Seniority’ as it appears in the 2005 Rules has been imported verbatim
+
+       from the decision in 
+All India Judges’ Association
+ (3) (supra) and thus has
+
+       to be assigned the meaning as given to it in the said case. Thus, it cannot
+
+       be said that ‘Merit-cum-Seniority’ should be assigned the same meaning
+
+       as understood in other decisions of this Court, or as assigned to it in
+
+       different statutory provisions.
+
+
+
+
+(2)    Secondly, the term ‘Merit-cum-Seniority’, as elaborately discussed
+
+       hereinabove, is a term of flexible meaning and the exact contours of it
+
+       depend on the context and the policy in furtherance of which it is used.
+
+
+
+
+139. 
+In 
+Malik Mazhar Sultan & Anr.
+ (3) (supra) this Court directed the High
+
+Courts to be practical in matters of promotion to the cadre of District & Sessions
+
+Judges and held that the 65% promotion quota of the cadre of District & Sessions
+
+Judges should be filled on the basis of the principle of ‘Seniority-cum-Merit’.
+
+This 
+Court further held
+ that seniority should have a predominant role in giving
+
+
+
+
+Writ Petition (C) No. 432 of 2023                                     Page 79 of 84
+
+promotions to Civil Judge (Senior Division) and that the High Court may deny
+
+only in case the judicial officer is not suitable for being promoted. The relevant
+
+observations read as under: -
+
+
+
+
+      “3. We see large number of vacancies of District Judges are lying
+      vacant as the promotion of these posts are not being done timely by
+      the High Court. Considering the large number of vacant posts of
+      District Judges, the High Court should take timely action to fill up
+      these vacancies keeping in mind the principle of seniority-cum-merit.
+      The High Court may deny promotion to a Civil Judge (Senior
+      Division) only in case he/she is not suitable for being promoted and
+      the seniority should always have a predominant role in giving
+      promotion to the Civil Judge (Senior Division) to the post of District
+      Judge. If the posts of District Judges are not filled up in time it is
+      likely that sessions cases may not have timely trial, thereby delaying
+      the whole procedure of justice delivery system. We request the High
+      Court to be practical in the matter of promotion and filling up the
+      posts of the District Judges. It is also brought to our notice that as the
+      promotion policy itself is not working properly, a large number of
+      Civil Judges (Junior Division) are continuing in the same post,
+      causing stagnation from about 15 to 18 years. This is because the
+      timely promotion is not being taken care of by the High Court and
+      this should be corrected at the earliest. Now we are told that a total
+      number of 217 posts have been advertised for appointment of Civil
+      Judges (Junior Division) and 12 posts of District Judges (direct).”
+                                                      (Emphasis supplied)
+
+
+H.     FEW SUGGESTIONS TO MAKE THE SUITABILITY TEST MORE
+
+       MEANINGFUL
+
+
+
+140. We have exhaustively discussed and explained the true meaning to be
+
+assigned to the principle of ‘Merit-cum-Seniority’ in context of Rule 5(1) of the
+
+2005 Rules. However, we are of the view that this debate should not come to an
+
+end as we propose to convey to the High Court of Gujarat to amend its Rules
+
+
+Writ Petition (C) No. 432 of 2023                                        Page 80 of 84
+
+appropriately in line with the Uttar Pradesh Higher Judicial Service Rules, 1975
+
+where the recruitment process has been elaboratively laid down. We are also of
+
+the view that the minimum standard to be objectively assessed by way of a
+
+suitability test should be made more efficacious and productive. In this regard,
+
+we would like to suggest the following: -
+
+
+
+(i)       Apart from the four components included in the Suitability Test, an
+          additional fifth component in the form of an Interview or Viva Voce should
+          also be included in order to assess the ability and knowledge of the
+          candidates.
+
+(ii)      The High Court may consider enhancing the minimum specified threshold
+          of marks as prescribed in the suitability test and each of its component.
+
+(iii)     The evaluation of judgments delivered by the judicial officer being
+          considered for promotion should be of the last two years instead of one
+          year.
+
+(iv)      Instead of seniority being considered at the very last stage of the process,
+          some marks may be allocated for seniority at the stage of suitability test
+          and thereafter, the final select list may be prepared on the basis of total
+          marks.
+
+
+
+I.        CONCLUSION
+
+
+141. We summarise our final conclusion as under: -
+
+
+
+(A) What has been conveyed, in so many words, by this Court in 
+All India
+
+        Judges’ Association
+ (3) (supra) is that the suitability of each candidate
+
+        should be tested on their own merit. The aforesaid decision does not speak
+
+        about comparative merit for the 65% promotional quota. In other words, what
+
+
+
+Writ Petition (C) No. 432 of 2023                                        Page 81 of 84
+
+    is stipulated is the determination of suitability of the candidates and
+
+    assessment of their continued efficiency with adequate knowledge of case
+
+    law.
+
+
+
+
+(B) For the 65% promotional quota this Court in 
+All India Judges’ Association
+
+
+    (3) (supra) did not state that after taking the suitability test, a merit list should
+
+    be prepared and the judicial officers should be promoted only if they fall in
+
+    the said merit list. It cannot be said to be a competitive exam. Only the
+
+    suitability of the judicial officer is determined and once it is found that
+
+    candidates have secured the requisite marks in the suitability test, they cannot
+
+    be thereafter ignored for promotion.
+
+
+
+
+(C) However, we clarify that for the 65% promotional quota, it is for a particular
+
+    High Court to prescribe or lay down its own minimum standard to judge the
+
+    suitability of a judicial officer, including the requirement of comparative
+
+    assessment, if necessary, for the purpose of determining merit to be
+
+    objectively adjudged keeping in mind the statutory rules governing the
+
+    promotion or any promotion policy in that regard.
+
+
+
+(D) We find no fault with the promotion process adopted by the High Court of
+
+    Gujarat as the same fulfils the twin requirements stipulated in paragraph 27
+
+    of 
+All India Judges’ Association
+ (3) (supra) being: -
+
+
+
+
+       (I)    The objective assessment of legal knowledge of the judicial officer
+
+              including adequate knowledge of case law and;
+
+
+
+       (II)   Evaluation of the continued efficiency of the individual candidates.
+
+
+
+Writ Petition (C) No. 432 of 2023                                          Page 82 of 84
+
+
+(E) The four components of the Suitability Test as prescribed under the
+
+    recruitment notice dated 12.04.2022 comprehensively evaluate (i) the legal
+
+    knowledge including knowledge of the case law through the objective MCQ
+
+
+    - based written test AND (ii) the continued efficiency by evaluation of the
+
+    ACRs, average disposal and past judgments of the concerned judicial officer.
+
+
+
+(F) We are of the view that if the contention of the petitioners were to be accepted
+
+    then it would completely obliterate the fine distinction between the two
+
+    categories of promotion in the cadre of District & Sessions Judge by way of
+
+    65% promotion on the basis of ‘Merit-cum-Seniority’ and 10% promotion
+
+    strictly on the basis of merit. In other words, the 65% quota for promotion
+
+    will assume the character of the 10% quota for promotion by way of a
+
+    departmental competitive examination which is distinct in its nature since the
+
+    latter is strictly based on merit.
+
+
+
+(G) Deviating from the process of promotion duly followed by the High Court of
+
+    Gujarat since 2011 would cause grave prejudice to those judicial officers who
+
+    lost out in the previous selections to the Higher Judicial Service despite
+
+    having scored higher marks in the suitability test since, judicial officers who
+
+    were relatively senior were promoted to the cadre of District & Sessions
+
+    Judges. Accepting the argument of the petitioners would completely flip the
+
+    process and displace the respondents once again, for a contrary reason.
+
+
+
+Writ Petition (C) No. 432 of 2023                                      Page 83 of 84
+
+
+142. We clarify that this judgment shall not be construed to invalidate the
+
+promotions to the Higher Judicial Service granted by other High Courts based on
+
+a construction of their own rules and requirements of service in the state judiciary.
+
+If any challenge to such promotion process is pending, it shall be dealt with
+
+independently by the High Court or the forum where any issue is pending.
+
+
+
+143. For all the foregoing reasons, we have reached the conclusion that the
+
+impugned final Select List dated 10.03.2023 is not contrary to the principle of
+
+‘Merit-cum-Seniority’ as stipulated in Rule 5(1)(I) of the 2005 Rules.
+
+
+144. In the result, the present petition fails and is hereby dismissed. Interim
+
+Order granted earlier stands vacated.
+
+
+
+145. The parties shall bear their own costs.
+
+
+
+146. Pending application(s), if any, shall also stand disposed of.
+
+
+
+
+
+                                           ...................................................... CJI.
+                                              (Dr. Dhananjaya Y. Chandrachud)
+
+
+
+                                            .......................................................... J.
+
+                                                                              (J.B. Pardiwala)
+
+
+
+                                            .......................................................... J.
+
+                                                                                 (Manoj Misra)
+
+
+New Delhi
+May 17th, 2024
+
+
+Writ Petition (C) No. 432 of 2023                                                    Page 84 of 84
+
+
+

@@ -1,0 +1,2088 @@
+
+
+
+
+[Cites 
+68
+, Cited by 
+120
+]
+
+
+
+
+Supreme Court of India
+
+
+M/S S.B.P. & Co vs M/S Patel Engineering Ltd. & Anr on 26 October, 2005
+
+
+Equivalent citations: AIR 2006 SUPREME COURT 450, 2005 (8) SCC 618, AIR 2006 (NOC) 261 (NCC), 2005 AIR SCW 5932, 2006 (1) ALL LJ 157, 2006 (1) ABR (NOC) 111 (NCC), 2006 (1) AJHAR (NOC) 226 (NCC), 2006 (1) AKAR (NOC) 117 (NCC), 2005 CLC 1546 (SC), (2005) 9 JT 219 (SC), 2006 (2) COM LJ 7 SC, 2005 (9) JT 219, 2005 (9) SCALE 1, (2005) 4 KHCACJ 325 (SC), (2005) 5 CTC 302 (SC), 2005 (8) SLT 405, 2005 (3) ARBI LR 285, 2005 (5) CTC 302, 2006 (1) SRJ 25, (2006) 1 ALLMR 156 (SC), (2006) 1 JCR 190 (SC), (2006) 2 COMLJ 7, (2006) 1 CPR 157, (2006) 3 ALL WC 4(15), (2006) 3 GUJ LR 2097, (2006) 1 GUJ LH 105, (2006) 1 PAT LJR 74, (2006) 2 RAJ LW 1386, (2005) 7 SCJ 461, (2005) 69 CORLA 96, (2005) 3 ARBILR 285, (2006) 1 ANDHLD 10, (2005) 7 SUPREME 610, (2005) 9 SCALE 1, (2006) 1 WLC(SC)CVL 1, (2006) 1 JLJR 39, (2006) 1 GCD 544 (SC), (2006) 2 CIVLJ 748, (2005) 128 COMCAS 465, (2005) 4 CURCC 140, (2006) 1 MAD LJ 1, (2006) 1 MAD LW 73, (2005) 4 RECCIVR 747, (2006) 2 ICC 1, (2006) 1 MPHT 61, (2006) 1 ALL WC 538, (2005) 4 CPJ 197, (2006) 1 BOM CR 585
+
+
+Author: 
+P.K. Balasubramanyan
+
+
+Bench: 
+R.C. Lahoti
+, 
+B.N. Agrawal
+, 
+Arun Kumar
+, 
+P.K. Balasubramanyan
+
+
+           CASE NO.:
+Appeal (civil)  4168 of 2003
+
+PETITIONER:
+M/S S.B.P. & CO.				
+
+RESPONDENT:
+M/S PATEL ENGINEERING LTD. & ANR
+
+DATE OF JUDGMENT: 26/10/2005
+
+BENCH:
+CJI R.C. LAHOTI,B.N. AGRAWAL,ARUN KUMAR,G.P. MATHUR A.K. MATHUR P.K. BALASUBRAMANYAN
+
+JUDGMENT:
+
+
+J U D G M E N T
+WITH
+
+CIVIL APPEAL NOs.4169/2003, 4170-4173/2003, 4076/2004, 
+3777/2003 and  CIVIL APPEAL 
+NOs.6562,6563-6564,6565-6566 of 2005                                                  
+of 2005 arising out of S.L.P. (CIVIL) NOs.3205/2004, 14033-
+14034/2004, 21272-21273/2002,
+
+P.K. BALASUBRAMANYAN, J.
+
+
+
+		Leave granted in SLP(C) Nos.3205/2004, 14033-
+14034/2004, 21272-273/2002.
+
+
+
+1.		What is the nature of the function of the Chief Justice or 
+his designate under 
+Section 11
+ of the Arbitration and Conciliation Act, 
+1996 is the question that is posed before us.  The three judges bench 
+decision in Konkan Rly. 
+Corpn. Ltd. Vs. Mehul Construction Co.
+ 
+[(2000) 7 SCC 201] as approved by the Constitution Bench in Konkan 
+Railway Corpn. Ltd. & anr. Vs. Rani Construction Pvt. Ltd. 
+[(2002) 2 SCC 388] has taken the view that it is purely an 
+administrative function, that it is neither judicial nor quasi-judicial and 
+the Chief Justice or his nominee performing the function under 
+Section 
+11(6)
+ of the Act, cannot decide any contentious issue between the 
+parties.  The correctness of the said view is questioned in these appeals.
+
+
+
+
+2.		Arbitration in India was earlier governed by the Indian 
+Arbitration Act, 1859 with limited application and the Second Schedule 
+to 
+the Code of Civil Procedure
+, 1908.  Then came the  
+Arbitration Act, 
+1940
+. 
+Section 8
+ of that Act conferred power on the Court to appoint an 
+arbitrator on an application made in that behalf.  
+Section 20
+ conferred a 
+wider jurisdiction on the Court for directing the filing of the arbitration 
+agreement and the appointment of an arbitrator.  
+Section 21
+ conferred a 
+power on the Court in a pending suit, on the agreement of parties, to 
+refer the differences between them for arbitration in terms of the Act.  
+
+The Act
+ provided for the filing of the award in court, for the making of 
+a motion by either of the parties to make the award a rule of court, a 
+right to have the award set aside on the grounds specified in the Act 
+and for an appeal against the decision on such a motion.  
+This Act
+ was 
+replaced by the 
+Arbitration and Conciliation Act, 1996
+ which, by virtue 
+of 
+Section 85
+, repealed the earlier enactment.  
+
+
+
+3.		
+The Arbitration and Conciliation Act, 1996
+ (hereinafter 
+referred to as 'the Act') was intended to comprehensively cover 
+international and commercial arbitrations and conciliations as also 
+domestic arbitrations and conciliations.  It envisages the making of an 
+arbitral procedure which is fair, efficient and capable of meeting the 
+needs of the concerned arbitration and for other matters set out in the 
+objects and reasons for the Bill.  
+The Act
+ was intended to be one to 
+consolidate and amend the law relating to domestic arbitrations, 
+international commercial arbitrations and enforcement of foreign 
+arbitral awards, as also to define the law relating to conciliation and for 
+matters connected therewith or incidental thereto.  The preamble 
+indicates that since the United Nations Commission on International 
+Trade Law (UNCITRAL) has adopted a Model Law for International 
+Commercial Arbitration and the General Assembly of the United 
+Nations has recommended that all countries give due consideration to 
+the Model Law and whereas the Model Law and the Rules make 
+significant contribution to the establishment of a unified legal 
+framework for a fair and efficient settlement of disputes arising in 
+international commercial relations and since it was expedient to make a 
+law respecting arbitration and conciliation taking into account the 
+Model Law and the Rules, the enactment was being brought forward.   
+
+The Act
+ replaces the procedure 
+laid down in
+ 
+Sections 8
+ and 
+20
+ of the 
+Arbitration Act, 1940.  
+Part I of the Act
+ deals with arbitration.  It 
+contains 
+Sections 2
+ to 
+43
+.  Part II deals with enforcement of certain 
+foreign awards, and Part III deals with conciliation and Part IV contains 
+supplementary provisions.   In this case, we are not concerned with Part 
+III, and Parts II and IV have only incidental relevance.  We are 
+concerned with the provisions in Part I dealing with arbitration.
+
+
+
+4.		
+Section 7
+ of the Act read with 
+Section 2 (b)
+ defines an 
+arbitration agreement.   
+Section 2(h)
+ defines 'party' to mean a party to 
+an arbitration agreement.  
+Section 4
+ deals with waiver of objections on 
+the part of the party who has proceeded with an arbitration, without 
+stating his objections referred to in the section, without undue delay.  
+
+Section 5
+ indicates the extent of judicial intervention.  It says that 
+notwithstanding anything contained in any other law for the time being 
+in force, in matters governed by Part I, no judicial authority shall 
+intervene except where so provided in Part I.  The expression 'judicial 
+authority' is not defined. So, it has to be understood as taking in the 
+courts or any other judicial fora.  
+Section 7
+ defines an arbitration 
+agreement and insists that it must be in writing and also explains when 
+an arbitration agreement could be said to be in writing.  
+Section 8
+ 
+confers power on a judicial authority before whom an action is brought 
+in a matter which is the subject of an arbitration agreement, to refer the 
+dispute to arbitration, if a party applies for the same.  
+Section 9
+ deals 
+with the power of the Court to pass interim orders and the power to 
+give interim protection in appropriate cases.  It gives a right to a party, 
+before or during arbitral proceedings or at any time after the making of 
+the arbitral arbitral award but before its enforcement in terms of 
+Section 
+36
+ of the Act, to apply to a court for any one of the orders specified 
+therein.  Chapter III of Part I deals with composition of arbitral 
+tribunals.  
+Section 10
+ gives freedom to the parties to determine the 
+number of arbitrators but imposes a restriction that it shall not be an 
+even number.  Then comes 
+Section 11
+ with which we are really 
+concerned in these appeals.  
+
+
+
+5.		The marginal heading of 
+Section 11
+ is 'Appointment of 
+arbitrators'.   Sub-Section (1) indicates that a person of any nationality 
+may be an arbitrator, unless otherwise agreed to by the parties.  Under 
+sub-Section (2), subject to sub-Section (6),the parties are free to agree 
+on a procedure for appointing the arbitrator or arbitrators.  Under sub-
+Section (3), failing any agreement in terms of sub-Section (2), in an 
+arbitration with three arbitrators, each party could appoint one 
+arbitrator, and the two arbitrators so appointed, could appoint the third 
+arbitrator, who would act as the presiding arbitrator.   Under sub-
+Section (4), the Chief Justice or any person or institution designated by 
+him could make the appointment, in a case where sub-Section (3) has 
+application and where either the party or parties had failed to nominate 
+their arbitrator or arbitrators or the two nominated arbitrators had failed 
+to agree on the presiding arbitrator.  In the case of a sole arbitrator, sub-
+Section (5) provides for the Chief Justice or any person or institution 
+designated by him, appointing an arbitrator on a request being made by 
+one of the parties, on fulfilment of the conditions laid down therein.  
+Then comes sub-Section (6), which may be quoted hereunder with 
+advantage:
+
+
+
+"(6)	Where, under an appointment procedure 
+agreed upon by the parties,-
+
+
+
+(a)	a party fails to act as required under 
+that procedure; or 
+
+
+(b)	the parties, or the two appointed 
+arbitrators, fail to reach an agreement 
+expected of them under that 
+procedure; or 
+
+
+(c)	a person, including an institution, fails 
+to perform any function entrusted to 
+him or it under that procedure, 
+
+a party may request the Chief Justice or any person 
+or institution designated by him to take the 
+necessary measure, unless the agreement on the 
+appointment procedure provides other means for 
+securing the appointment."
+
+
+
+Sub-Section (7) gives a finality to the decision rendered by the Chief 
+Justice or the person or institution designated by him when moved 
+under sub-Section (4), or sub-Section (5), or sub-Section (6) of Section 
+
+11.  Sub-Section (8) enjoins the Chief Justice or the person or 
+institution designated by him to keep in mind the qualifications 
+required for an arbitrator by the agreement of the parties, and other 
+considerations as are likely to secure the appointment of an 
+independent and impartial arbitrator.  Sub-Section (9) deals with the 
+power of the Chief Justice of India or a person or institution designated 
+by him to appoint the sole or the third arbitrator in an international 
+commercial arbitration.  Sub-Section (10) deals with Chief Justice's 
+power to make a scheme for dealing with matters entrusted to him by 
+sub-Section (4) or sub-Section (5) or sub-Section (6) of 
+Section 11
+.  
+Sub-Section (11) deals with the respective jurisdiction of Chief Justices 
+of different  High Courts who are approached with requests regarding 
+the same dispute and specifies as to who should entertain such a 
+request.  Sub-
+Section 12
+ clause (a) clarifies that in relation to 
+international arbitration, the reference in the relevant sub-sections to 
+the 'Chief Justice' would mean the 'Chief Justice of India'.  Clause (b) 
+indicates that otherwise the expression 'Chief Justice' shall be 
+construed as a reference to the Chief Justice of the High Court within 
+whose local limits the principal Court is situated.  'Court' is defined 
+under 
+Section 2(e)
+ as the principal Civil Court of original jurisdiction in 
+a district.  
+
+
+
+6.		
+Section 12
+ sets out the grounds of challenge to the person 
+appointed as arbitrator and the duty of an arbitrator appointed, to 
+disclose any disqualification he may have.  Sub-Section (3) of 
+Section 
+12
+ gives a right to the parties to challenge an arbitrator.  
+Section 13
+ lays 
+down the procedure for such a challenge.  
+Section 14
+ takes care of the 
+failure of or impossibility for an arbitrator to act and 
+Section 15
+ deals 
+with the termination of the mandate of the arbitrator and the 
+substitution of another arbitrator.  Chapter IV deals with the jurisdiction 
+of arbitral tribunals.  
+Section 16
+ deals with the competence of an 
+arbitral tribunal, to rule on its jurisdiction.  The arbitral tribunal may 
+rule on its own jurisdiction, including ruling on any objection with 
+respect to the existence or validity of the arbitration agreement.  A 
+person aggrieved by the rejection of his objection by the tribunal on its 
+jurisdiction or the other matters referred to in that Section, has to wait 
+until the award is made to challenge that decision in an appeal against 
+the arbitral award itself in accordance with 
+Section 34
+ of the Act.  But 
+an acceptance of the objection to jurisdiction or authority, could be 
+challenged then and there, under 
+Section 37
+ of the Act.  
+Section 17
+ 
+confers powers on the arbitral tribunal to make interim orders.  Chapter 
+V comprising  of 
+Sections 18
+ to 
+27
+ deals with the conduct of arbitral 
+proceedings.  Chapter VI containing 
+Sections 28
+ to 
+33
+ deals with 
+making of the arbitral award and termination of the proceedings.  
+Chapter VII deals with recourse against an arbitral award.  
+Section 34
+ 
+contemplates the filing of an application for setting aside an arbitral 
+award by making an application to the Court as defined in 
+Section 2(e)
+ 
+of the Act.  Chapter VIII deals with finality and enforcement of arbitral 
+awards.  
+Section 35
+ makes the award final and 
+Section 36
+ provides for 
+its enforcement under 
+the Code of Civil Procedure
+, 1908 in the same 
+manner as if it were a decree of court.  Chapter IX deals with appeals 
+and 
+Section 37
+ enumerates the orders that are open to appeal.  We have 
+already referred to the right of appeal available under 
+Section 37(2)
+ of 
+the Act, on the Tribunal accepting a plea that it does not have 
+jurisdiction or when the arbitral tribunal accepts a plea that  it is 
+exceeding the scope of its authority.   No second appeal is 
+contemplated, but right to approach the Supreme Court is saved.  
+Chapter X deals with miscellaneous matters.  
+Section 43
+ makes the 
+
+Limitation Act, 1963
+ applicable to proceedings under the Act as it 
+applies to proceedings in Court. 
+
+
+
+7.		We will first consider the question, as we see it.  On a 
+plain understanding of the relevant provisions of the Act, it is seen that 
+in a case where there is an arbitration agreement, a dispute has arisen 
+and one of the parties had invoked the agreed procedure for 
+appointment of an arbitrator and the other party has not cooperated, the 
+party seeking an arbitration, could approach the Chief Justice of the 
+High Court if it is an internal arbitration or of the Supreme Court if it is 
+an international arbitration to have an arbitrator or arbitral tribunal 
+appointed.  The Chief Justice, when so requested, could appoint an 
+arbitrator or arbitral tribunal depending on the nature of the agreement 
+between the parties and after satisfying himself that the conditions for 
+appointment of an arbitrator under sub-Section (6) of 
+Section 11
+ do 
+exist.   The Chief Justice could designate another person or institution 
+to take the necessary measures.   The Chief Justice has also to have the 
+qualification of the arbitrators in mind before choosing the arbitrator.  
+An arbitral tribunal so constituted, in terms of 
+Section 16
+ of the Act, 
+has the right to decide whether it has jurisdiction to proceed with the 
+arbitration, whether there was any agreement between the parties and 
+the other matters referred to therein.  
+
+
+
+8.		Normally, any tribunal or authority conferred with a power 
+to act under a statute, has the jurisdiction to satisfy itself that the 
+conditions for the exercise of that power existed and that the case calls 
+for the exercise of that power.  Such an adjudication relating to its own 
+jurisdiction which could be called a decision on jurisdictional facts, is 
+not generally final, unless it is made so by the Act constituting the 
+tribunal.  Here,  sub-Section (7) of 
+Section 11
+ has given a finality to the 
+decisions taken by the Chief Justice or any person or institution 
+designated by him  in respect of matters falling under sub-Sections (4), 
+(5) and (6) of 
+Section 11
+.  Once a statute creates an authority, confers 
+on it power to adjudicate and makes its decision final on matters to be 
+decided by it, normally, that decision cannot be said to be a purely 
+administrative decision.  It is really a decision on its own jurisdiction 
+for the  exercise of the power conferred by the statute or to perform the 
+duties imposed by the statute.  Unless, the authority satisfies itself that 
+the conditions for exercise of its power exist, it could not accede to a 
+request made to it for the exercise of the conferred power.  While 
+exercising the power or performing the duty under 
+Section 11(6)
+ of the 
+Act, the Chief Justice has to consider whether the conditions 
+laid down 
+by
+ the section for the exercise of that power or the performance of that 
+duty, exist.  Therefore, unaided by authorities and going by general 
+principals, it appears to us that while functioning under 
+Section 11(6)
+ 
+of the Act, a  Chief Justice or the person or institution designated by 
+him, is bound to decide whether he has jurisdiction, whether there is an 
+arbitration agreement, whether the applicant before him, is a party, 
+whether the conditions for exercise of the power have been fulfilled and 
+if an arbitrator is to be appointed, who is the fit person, in terms of the 
+provision.   
+Section 11(7)
+ makes his decision on the matters entrusted 
+to him, final.
+
+
+
+9.		The very scheme, if it involves an adjudicatory process, 
+restricts the power of the Chief Justice to designate, by excluding the 
+designation of a non-judicial institution or a non-judicial authority to 
+perform the functions.  For, under our dispensation, no judicial or 
+quasi-judicial decision can be rendered by an institution if it is not a 
+judicial authority, court or a quasi-judicial tribunal.  This aspect is dealt 
+with later while dealing with the right to designate under 
+Section 11(6)
+ 
+and the scope of that designation. 
+
+
+
+10.		The appointment of an arbitrator against the opposition of 
+one of the parties on the ground that the Chief Justice had no 
+jurisdiction or on the ground that there was no arbitration agreement, or 
+on the ground that there was no dispute subsisting which was capable 
+of being arbitrated upon or that the conditions for exercise of power 
+under 
+Section 11(6)
+ of the Act do not exist or that the qualification 
+contemplated for the arbitrator by the parties cannot be ignored and has 
+to be borne in mind, are all adjudications which affect the rights of 
+parties.  It cannot be said that when the Chief Justice decides that he 
+has jurisdiction to proceed with the matter, that there is an arbitration 
+agreement and that one of the parties to it has failed to act according to 
+the procedure agreed upon, he is not adjudicating on the rights of the 
+party who is raising these objections.  The duty to decide the 
+preliminary facts enabling the exercise of jurisdiction or power, gets all 
+the more emphasized, when sub-Section (7) designates the order under 
+sub-sections (4), (5) or (6) a 'decision' and  makes the decision of the 
+Chief Justice final on the matters referred to in that sub-Section.  Thus, 
+going by the general principles of law and the scheme of 
+Section 11
+, it 
+is difficult to call the order of the Chief Justice merely an 
+administrative order and to say that the opposite side need not even be 
+heard before the Chief Justice exercises his power of appointing an 
+arbitrator.   Even otherwise, when a statute confers a power or imposes 
+a duty on the highest judicial authority in the State or in the country, 
+that authority, unless shown otherwise, has to act judicially and has 
+necessarily to consider whether his power has been rightly invoked or 
+the conditions for the performance of his duty are shown to exist.
+
+11.		
+Section 16
+ of the Act only makes explicit what is even 
+otherwise implicit, namely, that the arbitral tribunal constituted under 
+the Act has the jurisdiction to rule on its own jurisdiction, including 
+ruling on objections with respect to the existence or validity of the 
+arbitration agreement.  Sub-section (1) also directs that an arbitration 
+clause which forms part of a contract shall be treated as an agreement 
+independent of the other terms of the contract.  It also clarifies that a 
+decision by the arbitral tribunal that the contract is null and void shall 
+not entail ipso jure the invalidity of the arbitration clause.  Sub-section 
+(2) of 
+Section 16
+ enjoins that a party wanting to raise a plea that the 
+arbitral tribunal does not have jurisdiction, has to raise that objection 
+not later than the submission of the statement of defence, and that the 
+party shall not be precluded from raising the plea of jurisdiction merely 
+because he has appointed or participated in the appointment of an 
+arbitrator.  Sub-section (3) lays down that a plea that the arbitral 
+tribunal is exceeding the scope of its authority, shall be raised as soon 
+as the matter alleged to be beyond the scope of its authority is raised 
+during the arbitral proceedings.  When the Tribunal decides these two 
+questions, namely, the question of jurisdiction and the question of 
+exceeding the scope of authority or either of them, the same is open to 
+immediate challenge in an appeal, when the objection is upheld and 
+only in an appeal against the final award, when the objection is 
+overruled.  Sub-section (5) enjoins that if the arbitral tribunal overrules 
+the objections under sub-section (2) or sub-section (3), it should 
+continue with the arbitral proceedings and make an arbitral award.  
+Sub-section (6) provides that a party aggrieved by such an arbitral 
+award overruling the plea on lack of jurisdiction and the exceeding of 
+the scope of authority, may make an application on these grounds for 
+setting aside the award in accordance with 
+Section 34
+ of the Act.  The 
+question, in the context of Sub-Section (7) of 
+Section 11
+ is, what is the 
+scope of the right conferred on the arbitral tribunal to rule upon its own 
+jurisdiction and the existence of the arbitration clause, envisaged by 
+
+Section 16(1)
+, once the Chief Justice or the person designated by him 
+had appointed an arbitrator after satisfying himself that the conditions 
+for the exercise of power to appoint an arbitrator are present in the case.  
+Prima facie, it would be difficult to say that in spite of the finality 
+conferred by sub-Section (7) of 
+Section 11
+ of the Act, to such a 
+decision of the Chief Justice, the arbitral tribunal can still go behind 
+that decision and rule on its own jurisdiction or on the existence of an 
+arbitration clause.  It also appears to us to be incongruous to say that 
+after the Chief Justice had appointed an arbitral tribunal, the arbitral 
+tribunal can turn round and say that the Chief Justice had no 
+jurisdiction or authority to appoint the tribunal, the very creature 
+brought into existence by the exercise of power by its creator, the Chief 
+Justice.  The argument of learned Senior Counsel, Mr. K.K. Venugopal 
+that 
+Section 16
+ has full play only when an arbitral tribunal is 
+constituted without intervention under 
+Section 11(6)
+ of the Act, is one 
+way of reconciling that provision with 
+Section 11
+ of the Act, especially 
+in the context of sub-section (7) thereof.  We are inclined to the view 
+that the decision of the Chief Justice on the issue of jurisdiction and the 
+existence of a valid arbitration agreement would be binding on the 
+parties when the matter goes to the arbitral tribunal and at subsequent 
+stages of the proceeding except in an appeal in the Supreme Court in 
+the case of the decision being by the Chief Justice of the High Court or 
+by a Judge of the High Court designated by him. 
+
+
+
+12.		It is common ground that the Act has adopted the 
+UNCITRAL Model Law on International Commercial Arbitration.   
+But at the same time, it has made some departures from the model law.   
+
+Section 11
+ is in the place of 
+Article 11
+ of the Model Law.  The Model 
+Law provides for the making of a request under 
+Article 11
+ to "the court 
+or other authority specified in 
+Article 6
+ to take the necessary measure".   
+The words in 
+Section 11
+ of the Act, are "the Chief Justice or the person 
+or institution designated by him".   The fact that instead of the court, 
+the powers are conferred on the Chief Justice, has to be appreciated in 
+the context of the statute.  'Court' is defined in the Act to be the 
+principal civil court of original jurisdiction of the district and includes 
+the High Court in exercise of its ordinary original civil jurisdiction.   
+The principal civil court of original jurisdiction is normally the District 
+Court.   The High Courts in India exercising ordinary original civil 
+jurisdiction are not too many.  So in most of the States the concerned 
+court would be the District Court.   Obviously, the Parliament did not 
+want to confer the power on the District Court, to entertain a request for 
+appointing an arbitrator or for constituting an arbitral tribunal under 
+
+Section 11
+ of the Act.   It has to be noted that under 
+Section 9
+ of the 
+Act, the District Court or the High Court exercising original 
+jurisdiction, has the power to make interim orders prior to, during or 
+even post arbitration.  It has also the power to entertain a challenge to 
+the award that may ultimately be made.   The framers of the statute 
+must certainly be taken to have been conscious of the definition of 
+'court' in the Act.  It is easily possible to contemplate that they did not 
+want the power under 
+Section 11
+ to be conferred on the District Court 
+or the High Court exercising original jurisdiction.   The intention 
+apparently was to confer the power on the highest judicial authority in 
+the State and in the country, on Chief Justices of High Courts and on 
+the Chief Justice of India.   Such a provision is necessarily intended to 
+add the greatest credibility to the arbitral process.  The argument that 
+the power thus conferred on the Chief Justice could not even be 
+delegated to any other Judge of the High Court or of the Supreme 
+Court, stands negatived only because of the power given to designate 
+another.  The intention of the legislature appears to be clear that it 
+wanted to ensure that the power under 
+Section 11(6)
+ of the Act was 
+exercised by the highest judicial authority in the concerned State or in 
+the country.    This is to ensure the utmost authority to the process of 
+constituting the arbitral tribunal.
+
+
+
+13.  		Normally, when a power is conferred on the highest 
+judicial authority who normally performs judicial functions and is the 
+head of the judiciary of the State or of the country, it is difficult to 
+assume that the power is conferred on the Chief Justice as persona 
+designata.  Under 
+Section 11(6)
+, the Chief Justice is given a power to 
+designate another to perform the functions under that provision.   That 
+power has generally been designated to a Judge of the High Court or of 
+the Supreme Court respectively.   Persona designata, according to 
+Black's Law Dictionary, means "A person considered as an individual 
+rather than as a member of a class".   When the power is conferred on 
+the Chief Justices of the High Courts, the power is conferred on a class 
+and not considering that person as an individual.   
+In the 
+Central 
+Talkies Ltd., Kanpur vs. Dwarka Prasad
+ (1961 (3) SCR 495) while 
+considering the status in which the power was to be exercised by the 
+District Magistrate under the United Provinces (Temporary) Control         
+of Rent and Eviction Act, 1947, this Court held:
+
+
+"a persona designata is "a person who is pointed out or 
+described as an individual, as opposed to a person 
+ascertained as a member of a class, or as filling a particular 
+character."  (See Osborn's Concise Law Dictionary, 4th 
+Edition., p.253).  In the words of Schwabe, C.J., in 
+Parthasardhi Naidu vs. Koteswara Rao,[I.L.R. 47 Mad 369 
+F.B.] personae designatae  are, "persons selected to act in 
+their private capacity and not in their capacity as Judges."   
+
+The same consideration applies also to a well-known 
+officer like the District Magistrate named by virtue of his 
+office, and whose powers the Additional District 
+Magistrate can also exercise and who can create other 
+officers equal to himself for the purpose of the Eviction 
+Act."
+
+
+
+In 
+Mukri Gopalan vs. Cheppilat Puthanpurayil Aboobacker
+ 
+[(1995) 5 SCC 5] this Court after quoting the above passage from the 
+
+Central Talkies Ltd., Kanpur vs. Dwarka Prasad
+, applied the test to 
+come to the conclusion that when 
+Section 18
+ of the Kerala Buildings 
+(Lease and Rent Control)  Act, 1965 constituted the District Judge as an 
+appellate authority under that Act, it was a case where the authority was 
+being conferred on District Judges who  constituted a class and, 
+therefore, the appellate authority could not be considered to be persona 
+designata.   What can be gathered from P. Ramanatha Aiyar's 
+Advanced Law Lexicon, 3rd Edition, 2005, is that "persona designata"
+
+
+is a person selected to act in his private capacity and not in his capacity 
+as a judge.   He is a person pointed out or described as an individual as 
+opposed to a person ascertained as a member of a class or as filling a 
+particular character.   It is also seen that one of the tests to be applied is 
+to see whether the person concerned could exercise the power only so 
+long as he holds office or could exercise the power even subsequently.   
+Obviously, on ceasing to be a Chief Justice, the person referred to in 
+
+Section 11(6)
+ of the Act could not exercise the power.   Thus, it is clear 
+that the power is conferred on the Chief Justice under 
+Section 11(6)
+ of 
+the Act not as persona designata.   
+
+
+
+14.		Normally a persona designata cannot delegate his power to 
+another.   Here, the Chef Justice of the High Court or the Chief Justice 
+of India is given the power to designate another to exercise the power 
+conferred on him under 
+Section 11(6)
+ of the Act.   If the power is a 
+judicial power, it is obvious that the power could be conferred only on 
+a judicial authority and in this case, logically on another Judge of the 
+High Court or on a Judge of the Supreme Court.   It is logical to 
+consider the conferment of the power on the Chief Justice of the High 
+Court and on the Chief Justice of India as presiding Judges of the High 
+Court and the Supreme Court and the exercise of the power so 
+conferred, is exercise of judicial power/authority as presiding Judges of 
+the respective courts.   Replacing of the word 'court' in the Model Law 
+with the expression "Chief Justice" in the Act, appears to be more for 
+excluding the exercise of power by the District Court and by the court 
+as an entity leading to obvious consequences in the matter of the 
+procedure to be followed and the rights of appeal governing the matter.   
+The departure from 
+Article 11
+ of the Model Law and the use of the 
+expression "Chief Justice" cannot be taken to exclude the theory of its 
+being an adjudication under 
+Section 11
+ of the Act by a judicial 
+authority.
+
+
+
+15.		We may at this stage notice the complementary nature of 
+
+Sections 8
+ and 
+11
+.  Where there is an arbitration agreement between the 
+parties and one of the parties, ignoring it, files an action before a 
+judicial authority and the other party raises the objection that there is an 
+arbitration clause, the judicial authority has to consider that objection 
+and if the objection is found sustainable to refer the parties to 
+arbitration.  The expression used in this Section is 'shall' and this Court 
+in 
+P. Anand Gajapathi Raju Vs. P.V. G. Raju
+ [(2000) 4 SCC 539 
+and in 
+Hindustan Petroleum Corporation Ltd. Vs. Pink City 
+Midway Petroleum
+ [(2003) 6 SCC 503] has held that the judicial 
+authority is bound to refer the matter to arbitration once the existence 
+of a valid arbitration clause is established.  Thus, the judicial authority 
+is entitled to, has to and bound to decide the jurisdictional issue raised 
+before it, before making or declining to make a reference.   
+Section 11
+ 
+only covers another situation.  Where one of the parties has refused to 
+act in terms of the arbitration agreement, the other party moves the 
+Chief Justice under 
+Section 11
+ of the Act to have an arbitrator 
+appointed and the first party objects, it would be incongruous to hold 
+that the Chief Justice cannot decide the question of his own jurisdiction 
+to appoint an arbitrator when in a parallel situation, the judicial 
+authority can do so.  Obviously, the highest judicial authority has to 
+decide that question and his competence to decide cannot be 
+questioned.  If it is held that the Chief Justice has no right or duty to 
+decide the question or cannot decide the question, it will lead to an 
+anomalous situation in that a judicial authority under 
+Section 8
+ can 
+decide, but not a Chief Justice under 
+Section 11
+, though the nature of 
+the objection is the same and the consequence of accepting the 
+objection in one case and rejecting it in the other, is also the same, 
+namely, sending the parties to arbitration.  The interpretation of 
+Section 
+11
+ that we have adopted would not give room for such an anomaly.
+
+
+
+
+16.		
+Section 11(6)
+ does enable the Chief Justice to designate 
+any person or institution to take the necessary measures on an 
+application made under 
+Section 11(6)
+ of the Act.  This power to 
+designate recognized in the Chief Justice, has led to an argument that a 
+judicial decision making is negatived, in taking the necessary measures 
+on an application, under 
+Section 11(6)
+ of the Act.   It is pointed out that 
+the Chief Justice may designate even an institution like the Chamber of 
+Commerce or the Institute of Engineers and they are not judicial 
+authorities.   Here, we find substance in the argument of Mr. 
+F.S.Nariman, learned senior counsel that in the context of 
+Section 5
+ of 
+the Act excluding judicial intervention except as provided in the Act, 
+the  designation contemplated is not for the purpose of deciding the 
+preliminary facts justifying the exercise of power to appoint an 
+arbitrator, but only for the purpose of nominating to the Chief Justice a 
+suitable person to be appointed as arbitrator, especially, in the context 
+of 
+Section 11(8)
+ of the Act.   One of the objects of conferring power on 
+the highest judicial authority in the State or in the country for 
+constituting the arbitral tribunal, is to ensure credibility in the entire 
+arbitration process and looked at from that point of view, it is difficult 
+to accept the contention that the Chief Justice could designate a non-
+judicial body like the Chamber of Commerce to decide on the existence 
+of an arbitration agreement and so on, which are decisions, normally, 
+judicial or quasi judicial in nature.     
+Where a Chief Justice designates 
+not a Judge, but another person or an institution to nominate an arbitral 
+tribunal, that can be done only after questions as to jurisdiction, 
+existence of the agreement and the like, are decided first by him or his 
+nominee Judge and what is to be left to be done is only to nominate the 
+members for constituting the arbitral tribunal.  Looking at the scheme 
+of the Act as a whole and the object with which it was enacted, 
+replacing the 
+Arbitration Act
+ of 1940, it seems to be proper to view the 
+conferment of power on the Chief Justice as the conferment of a 
+judicial power to decide on the existence of the conditions justifying 
+the constitution of an arbitral tribunal.   The departure from the 
+UNCITRAL model regarding the conferment of the power cannot be 
+said to be conclusive or significant in the circumstances.  Observations 
+of this Court in paragraphs 389 and 391 in Supreme Court Advocates 
+on 
+Record Association Vs. Union of India
+ [(1993) 4 SCC 441 at 668] 
+support the argument  that the expression chief justice is used in the 
+sense of collectivity of judges of the Supreme Court and the High 
+Courts respectively.
+
+
+
+
+17.		It is true that the power under 
+Section 11(6)
+ of the Act is 
+not conferred on the Supreme Court or on the High Court, but it is 
+conferred on the Chief Justice of India or the Chief Justice of the High 
+Court.  One possible reason for specifying the authority as the Chief 
+Justice, could be that if it were merely the conferment of the power on 
+the High Court, or the Supreme Court, the matter would be governed 
+by the normal procedure of that Court, including the right of appeal and 
+the Parliament obviously wanted to avoid that situation, since one of 
+the objects was to restrict the interference by Courts in the arbitral 
+process.  Therefore, the power was conferred on the highest judicial 
+authority in the country and in the State in their capacities as Chief 
+Justices.  They have been conferred the power or the right to pass an 
+order contemplated by 
+Section 11
+ of the Act.  We have already seen 
+that it is not possible to envisage that the power is conferred on the 
+Chief Justice as persona designata.  Therefore, the fact that the power is 
+conferred on the Chief Justice, and not on the court presided over by 
+him is not sufficient to hold that the power thus conferred is merely an 
+administrative power and is not a judicial power.
+
+
+
+18.		It is also not possible to accept the argument that there is 
+an exclusive conferment of jurisdiction on the arbitral tribunal, to 
+decide on the existence or validity of the arbitration agreement.  
+
+Section 8
+ of the Act contemplates a judicial authority before which an 
+action is brought in a matter which is the subject of an arbitration 
+agreement, on the terms specified therein, to refer the dispute to 
+arbitration.  A judicial authority as such is not defined in the Act.  It 
+would certainly include the court as defined in 
+Section 2(e)
+ of the Act 
+and would also, in our opinion, include other courts and may even 
+include a special tribunal like the Consumer Forum  (See 
+Fair Air 
+Engineers (P) Ltd. and another vs. N.K. Modi
+ (1996 (6) SCC 385).   
+When the defendant to an action before a judicial authority raises the 
+plea that there is an arbitration agreement and the subject matter of the 
+claim is covered by the agreement and the plaintiff or the person who 
+has approached the judicial authority for relief, disputes the same, the 
+judicial authority, in the absence of any restriction in the Act, has 
+necessarily to decide whether, in fact, there is in existence a valid 
+arbitration agreement and whether the dispute that is sought to be raised 
+before it, is covered by the arbitration clause.  It is difficult to 
+contemplate that the judicial authority has also to act mechanically or 
+has merely to see the original arbitration agreement produced before it, 
+and mechanically refer the parties to an arbitration.  Similarly, 
+Section 
+9
+ enables a Court, obviously, as defined in the Act, when approached 
+by a party before the commencement of an arbitral proceeding, to grant 
+interim relief as contemplated by the Section.  When a party seeks an 
+interim relief asserting that there was a dispute liable to be arbitrated 
+upon in terms of the Act, and the opposite party disputes the existence 
+of an arbitration agreement as defined in the Act or raises a plea that 
+the dispute involved was not covered by the arbitration clause, or that 
+the Court which was approached had no jurisdiction to pass any order 
+in terms of 
+Section 9
+ of the Act, that Court has necessarily to decide 
+whether it has jurisdiction, whether there is an arbitration agreement 
+which is valid in law and whether the dispute sought to be raised is 
+covered by that agreement.  There is no indication in the Act that the 
+powers of the Court are curtailed on these aspects.  On the other hand, 
+
+Section 9
+ insists that once approached in that behalf, "the Court shall 
+have the same power for making orders as it has for the purpose of and 
+in relation to any proceeding before it".  Surely, when a matter is 
+entrusted to a Civil Court in the ordinary hierarchy of Courts without 
+anything more, the procedure of that Court would govern the 
+adjudication [See R.M.A.R.A. Adaikappa Chettiar and anr. vs. R. 
+Chandrasekhara Thevar (AIR 1948 P.C. 12)]
+
+
+19.		
+Section 16
+ is said to be the recognition of the principle of 
+Kompetenz  Kompetenz.  The fact that the arbitral tribunal has the 
+competence to rule on its own jurisdiction and to define the contours of 
+its jurisdiction, only means that when such issues arise before it, the 
+Tribunal can and possibly, ought to decide them.  This can happen 
+when the parties have gone to the arbitral tribunal without recourse to 
+
+Section 8
+ or 11 of the Act.   But where the jurisdictional issues are 
+decided under these Sections, before a reference is made, 
+Section 16
+ 
+cannot be held to empower the arbitral tribunal to ignore the decision 
+given by the judicial authority or the Chief Justice before the reference 
+to it was made.  The competence to decide does not enable the arbitral 
+tribunal to get over the finality conferred on an order passed prior to its 
+entering upon the reference by the very statute that creates it.  That is 
+the position arising out of 
+Section 11(7)
+ of the Act read with 
+Section 16
+ 
+thereof.  The finality given to the order of the Chief Justice on the 
+matters within his competence under 
+Section 11
+ of the Act, are 
+incapable of being reopened before the arbitral tribunal.  In Konkan 
+Railway (Supra) what is considered is only the fact that under 
+Section 
+16
+, the arbitral tribunal has the right to rule on its own jurisdiction and 
+any objection, with respect to the existence or validity of the arbitration 
+agreement.  What is the impact of 
+Section 11(7)
+ of the Act on the 
+arbitral tribunal constituted by an order under 
+Section 11(6)
+ of the Act, 
+was not considered.  Obviously, this was because of the view taken in 
+that decision that the Chief Justice is not expected to decide anything 
+while entertaining a request under 
+Section 11(6)
+ of the Act and is only 
+performing an administrative function in appointing an arbitral tribunal.  
+Once it is held that there is an adjudicatory function entrusted to the 
+Chief Justice by the Act, obviously, the right of the arbitral tribunal to 
+go behind the order passed by the Chief Justice would take another hue 
+and would be controlled by 
+Section 11(7)
+ of the Act.
+
+
+
+20.		We will now consider the prior decisions of this Court.   In 
+Sundaram Finance Ltd. vs. NEPC India Ltd. (1999(2) SCC 
+
+479) this Court held that the provisions of the Act must be 
+interpreted and construed independently of the interpretation 
+placed on the 
+Arbitration Act, 1940
+ and it will be more relevant to 
+refer to the UNCITRAL model law while called upon to interpret the 
+provisions of the Act.   This Court further held that under the 1996 Act, 
+appointment of arbitrator(s) is made as per the provision of 
+Section 11
+ 
+which does not require the Court to pass a judicial order appointing an 
+arbitrator or arbitrators.   It is seen that the question was not discussed 
+as such, since the court in that case was not concerned with the 
+interpretation of 
+Section 11
+ of the Act.   
+The view as above was quoted 
+with approval in 
+Ador Samia Private Limited Vs. Peekay Holdings 
+Limited & Others
+ (1999 (8) SCC 572) and nothing further was said 
+about the question.    In other words, the question as to the nature of the 
+order to be passed by the Chief Justice when moved under 
+Section 
+11(6)
+ of the Act,  was not discussed or decided upon.
+
+
+
+
+21.		
+In 
+Wellington Associates Ltd. vs. Kirit Mehta
+ (2000 (4) 
+SCC 272) it was contended before the designated Judge that what was 
+relied on by the applicant was not an arbitration clause.   The applicant 
+contended that the Chief Justice of India or the designate Judge cannot 
+decide that question and only the arbitrator can decide the question in 
+view of 
+Section 16
+ of the Act.   The designated Judge held that 
+Section 
+16
+ did not exclude the jurisdiction of the Chief Justice of India or the 
+designated Judge to decide the question of the existence of an 
+arbitration clause.   After considering the relevant aspects, the learned 
+Judge held:
+
+
+"I am of the view that in cases where --- to start with  
+there is a dispute raised at the stage of the application 
+under 
+Section 11
+ that there is no arbitration clause at all, 
+then it will be absurd to refer the very issue to an arbitrator 
+without deciding whether there is an arbitration clause at 
+all between the parties to start with.   In my view, in the 
+present situation, the jurisdiction of the Chief Justice of 
+India or his designate to decide the question as to the 
+"existence" of the arbitration clause cannot be doubted and 
+cannot be said to be excluded by 
+Section 16
+."
+
+
+
+22. 		Then came 
+Konkan Railway Corporation Ltd. vs. 
+Mehul Construction Co.
+ (2000(7) SCC 201) in which the first 
+question framed was, what was the nature of the order passed by the 
+Chief Justice or his nominee in exercise of his power under 
+Section 
+11(6)
+ of the Arbitration and Conciliation Act, 1996?   After noticing the 
+Statement of Objects and Reasons for the Act and after comparing the 
+language of 
+Section 11
+ of the Act and the corresponding article of the 
+model law, it was stated that the Act has designated the Chief Justice of 
+the High Court in cases of domestic arbitration and the Chief Justice of 
+India in cases of international commercial arbitration, to be the 
+authority to perform the function of appointment of an arbitrator,  
+whereas under the model law,  the said power was vested with the 
+court.   When the matter is placed before the Chief Justice or his 
+nominee under 
+Section 11
+ of the Act it was imperative for the Chief 
+Justice or his nominee to bear in mind the legislative intent that the 
+arbitral process should be set in motion without any delay whatsoever 
+and all contentious issues left to be raised before the arbitral tribunal 
+itself.   It was further held that at that stage, it would not be appropriate 
+for the Chief Justice or his nominee, to entertain any contention or 
+decide the same between the parties.  It was also held that in view of 
+the conferment of power on the arbitral tribunal under 
+Section 16
+ of the 
+Act, the intention of the legislature and its anxiety to see that the 
+arbitral process is set in motion at the earliest, it will be appropriate for 
+the Chief Justice to appoint an arbitrator without wasting any time or 
+without entertaining any contentious issue by a party objecting to the 
+appointment of an arbitrator.   The Court stated:
+
+
+"Bearing in mind the purpose of legislation, the language 
+used in 
+Section 11(6)
+ conferring power on the Chief 
+Justice or his nominee to appoint an arbitrator, the 
+curtailment of the power of the court in the matter of 
+interference, the expanding jurisdiction of the arbitrator 
+in course of the arbitral proceeding, and above all the 
+main objective, namely, the confidence of the 
+international market for speedy disposal of their disputes, 
+the character and status of an order appointing an 
+arbitrator by the Chief Justice or his nominee under 
+
+Section 11(6)
+ has to be decided upon.   If it is held that an 
+order under 
+Section 11(6)
+ is a judicial or quasi-judicial 
+order then the said order would be amenable to judicial 
+intervention and any reluctant party may frustrate the 
+entire purpose of the Act by adopting dilatory tactics in 
+approaching a court of law even against an order of 
+appointment of an arbitrator.   Such an interpretation has 
+to be avoided in order to achieve the basic objective for 
+which the country has enacted the Act of 1996 adopting 
+the UNCITRAL Model."
+
+
+
+23.   		The Court proceeded to say that if it were to be held that 
+the order passed was purely administrative in nature, that would 
+facilitate the achieving of the object of the Act, namely, quickly setting 
+in motion the process of arbitration.  Great emphasis was placed on the 
+conferment of power on the Chief Justice in preference to a court as 
+was obtaining in the model law.   It was concluded " The nature of the 
+function performed by the Chief Justice being essentially to aid the 
+constitution of the arbitral tribunal immediately and the legislature 
+having consciously chosen to confer the power on the Chief Justice and 
+not a court, it is apparent that the order passed by the Chief Justice or 
+his nominee is an administrative order as has been held by this Court in 
+
+Ador Samia
+ case (supra) and the observations of this Court in 
+
+Sundaram Finance Ltd.
+ case (supra) also are quite appropriate 
+and neither of those decisions require any reconsideration."
+
+
+
+
+24.  		 It was thus held that an order passed under 
+Section 11(6)
+ 
+of the Act, by the Chief Justice of the High Court or his nominee, was 
+an administrative order, its purpose being the speedy disposal of 
+commercial disputes and that such an order could not be subjected to 
+judicial review under 
+Article 136
+ of the Constitution of India.   Even an 
+order refusing to appoint an arbitrator would not be amenable to the 
+jurisdiction of the Supreme Court under 
+Article 136
+ of the Constitution.   
+A petition under 
+Article 32
+ of the Constitution was also not 
+maintainable.  But, an order refusing to appoint an arbitrator made by 
+the Chief Justice could be challenged before the High Court under 
+
+Article 226
+ of the Constitution.   What seems to have persuaded this 
+Court was the fact that the statement of objects and reasons of the Act 
+clearly enunciated that the main object of the legislature was to 
+minimize the supervisory role of courts in arbitral process.   Since 
+
+Section 16
+ empowers the arbitral tribunal to rule on its own jurisdiction 
+including ruling on objections with respect to the existence or validity 
+of an arbitration agreement,  a party would have the opportunity to raise 
+his grievance against that decision either immediately or while 
+challenging the award after it was pronounced.  Since it was not proper 
+to encourage a party to an arbitration, to frustrate the entire purpose of 
+the Act by adopting dilatory tactics by approaching the court even 
+against the order of appointment of an arbitrator, it was necessary to 
+take the view that the order was administrative in nature.  This was all 
+the more so, since the nature of the function performed by the Chief 
+Justice was essentially to aid the constitution of the arbitral tribunal 
+immediately and the legislature having consciously chosen to confer 
+the power on the Chief Justice and not on the court, it was apparent that 
+the order was an administrative order.   With respect, it has to be 
+pointed out that this Court did not discus or consider the nature of the 
+power that the Chief Justice is called upon to exercise.  Merely because 
+the main purpose was the constitution of an arbitral tribunal, it could 
+not be taken that the exercise of power is an administrative power.       
+While constituting an arbitral tribunal, on the scheme of the Act, the 
+Chief Justice has to consider whether he as the Chief Justice has 
+jurisdiction in relation to the contract, whether there was an arbitration 
+agreement in terms of 
+Section 7
+ of the Act and whether the person 
+before him with the request, is a party to the arbitration agreement.   On 
+coming to a conclusion on these aspects, he has to enquire whether the 
+conditions for exercise of his power under 
+Section 11(6)
+ of the Act 
+exist in the case and only on being satisfied in that behalf, he could 
+appoint an arbitrator or an arbitral tribunal on the basis of the request.  
+It is difficult to say that when one of the parties raises an objection that 
+there is no arbitration agreement, raises an objection that the person 
+who has come forward with a request is not a party to the arbitration 
+agreement, the Chief Justice can come to a conclusion on those 
+objections without following an adjudicatory process.  Can he 
+constitute an arbitrary tribunal, without considering these questions?  If 
+he can do so, why should such a function be entrusted to a high judicial 
+authority like the Chief Justice.   Similarly, when the party raises an 
+objection that the conditions for exercise of the power under 
+Section 
+11(6)
+ of the Act are not fulfilled and the Chief Justice comes to the 
+conclusion that they have been fulfilled, it is difficult to say that he was 
+not adjudicating on a dispute between the parties and was merely 
+passing an administrative order.   It is also not correct to say that by the 
+mere constitution of an arbitral tribunal the rights of parties are not 
+affected.  Dragging a party to an arbitration when there existed no 
+arbitration agreement or when there existed no arbitrable dispute, can 
+certainly affect the right of that party and even on monetary terms, 
+impose on him a serious liability for meeting the expenses of the 
+arbitration, even if it be preliminary expenses and his objection is 
+upheld by the arbitral tribunal.   Therefore, it is not possible to accept 
+the position that no adjudication is involved in the constitution of an 
+arbitral tribunal.
+
+
+
+25. 		It is also somewhat incongruous to permit the order of the 
+Chief Justice under 
+Section 11(6)
+ of the Act being subjected to scrutiny 
+under 
+Article  226
+ of the Constitution at the hands of another Judge of 
+the High Court.   In the absence of any conferment of an appellate 
+power, it may not be possible to say that a certiorari would lie against 
+the decision of the High Court in the very same High Court.   Even in 
+the case of an international arbitration, the decision of the Chief Justice 
+of India would be amenable to challenge under 
+Article 226
+ of the 
+Constitution before a High Court.   While construing the scope of the 
+power under 
+Section 11(6)
+, it will not be out of place for the court to 
+bear this aspect in mind, since after all, courts follow or attempt to 
+follow certain judicial norms and that precludes such challenges (see 
+Naresh Shridhar Mirajkar and others.  
+Vs. State of Maharashtra 
+and another (1966 (3) SCR 744) and Rupa Ashok Hurra vs. Ashok 
+Hurra and another
+ (2002 (4) SCC 388).
+
+
+
+
+26.		In Nimet Resourcs Inc. & Anr. Vs.Essar Steels Ltd. 
+(2000 (7) SCC 497) the question of existence or otherwise of an 
+arbitration agreement between the parties was itself held to be referable 
+to the arbitrator since the order proceeded on the basis that the power 
+under 
+Section 11(6)
+ was merely administrative.
+
+
+
+27.		The correctness of the decision in 
+Konkan Railway 
+Corpn. Ltd. vs. Mehul Construction Co.
+(supra) was doubted in 
+
+Konkan Railway Cooperation Ltd. vs. Rani Construction Pvt. Ltd.
+ 
+and the order of reference, is reported in 2000 (8) SCC 159.   The 
+reconsideration was recommended on the ground that the Act did not 
+take away the power of the Court to decide preliminary issues 
+notwithstanding the arbitrator's competence to decide such issues 
+including whether particular matters were "excepted matters", or 
+whether an arbitration agreement existed or whether there was a dispute 
+in terms of the agreement.   It was noticed that in other countries where 
+UNCITRAL model was being followed, the court could decide such 
+issues judicially and need not mechanically appoint an arbitrator.   
+There were situations where preliminary issues would have to be 
+decided by the court rather than by the arbitrator.   If the order of the 
+Chief Justice or his nominees were to be treated as an administrative 
+one, it could be challenged before the single Judge of the High Court, 
+then before a Division Bench and then the Supreme Court under 
+Article 
+136
+ of the Constitution, a result that would cause further delay in 
+arbitral proceedings, something sought to be prevented by the Act.  An 
+order under 
+Section 11
+ of the Act did not relate to the administrative 
+functions of the Chief Justice or of the Chief Justice of India.
+
+
+
+
+28.		The reference came up before a Constitution Bench.   
+In 
+
+Konkan Railway Construction Ltd. vs. Rani Construction Pvt. Ltd.
+ 
+(2002 (2) SCC 388),  the Constitution Bench reiterated the view taken 
+in 
+Mehul Construction Co.
+'s case (supra), if we may say so with 
+respect, without really answering the questions posed by the order of 
+reference.  It was stated that there is nothing in 
+Section 11
+ of the Act 
+that requires the party other than the party making the request, to be 
+given notice of the proceedings before the Chief Justice.   The Court 
+went on to say that 
+Section 11
+ did not contemplate a response from the 
+other party.   The approach was to say that none of the requirements 
+referred to in 
+Section 11(6)
+ of the Act contemplated or amounted to an 
+adjudication by the Chief Justice while appointing an arbitrator.   The 
+scheme framed under the 
+Arbitration Act
+ by the Chief Justice of India 
+was held to be not mandatory.   It was stated that the UNCITRAL 
+model law was only taken into account and hence the model law, or 
+judgments and literature thereon, was not a guide to the interpretation 
+of the Act and especially of 
+Section 11
+.
+
+
+
+
+29.		With respect, what was the effect of the Chief Justice 
+having to decide his own jurisdiction in a given case was not 
+considered by the Bench.   Surely, the  question whether the Chief 
+Justice could entertain the application under 
+Section 11(6)
+ of the Act 
+could not be left to the decision of the arbitral tribunal constituted by 
+him on entertaining such an application.   We also feel that adequate 
+attention was not paid to the requirement of the Chief Justice having to 
+decide that there is an arbitration agreement in terms of 
+Section 7
+ of the 
+Act before he could exercise his power under 
+Section 11(6)
+ of the Act 
+and its implication.  The aspect, whether there was an arbitration 
+agreement, was not merely a jurisdictional fact for commencing the 
+arbitration itself, but it was also a jurisdictional fact for appointing an 
+arbitrator on a motion under 
+Section 11(6)
+ of the Act, was not kept in 
+view.   A Chief Justice could appoint an arbitrator in exercise of his 
+power only if there existed an arbitration agreement and without 
+holding that there was an agreement, it would not be open to him to 
+appoint an arbitrator saying that he was appointing an arbitrator since 
+he has been moved in that behalf and the applicant before him asserts 
+that there is an arbitration agreement.   Acceptance of such an 
+argument, with great respect, would reduce the high judicial authority 
+entrusted with the power to appoint an arbitrator, an automaton and 
+sub-servient to the arbitral tribunal which he himself brings into 
+existence.  Our system of law does not contemplate such a situation.
+
+
+
+30.		With great respect, it is seen that the court did not really 
+consider the nature of the rights of the parties involved when the Chief 
+Justice exercised the power of constituting the arbitral tribunal.   The 
+court also did not consider whether it was not necessary for the Chief 
+Justice to satisfy himself of the existence of the facts which alone 
+would entitle him or enable him to accede to the request for 
+appointment of an arbitrator and what was the nature of that process by 
+which he came to the conclusion that an arbitral tribunal was liable to 
+be constituted.   When, for example, a dispute which no more survives 
+as a dispute, was referred to an arbitral tribunal or when an arbitral 
+tribunal was constituted even in the absence of an arbitration agreement 
+as understood by the Act, how  could the rights of the objecting party 
+be said to be not affected, was not considered in that perspective.   In 
+other words, the Constitution Bench proceeded on the basis that while 
+exercising power under 
+Section 11(6)
+ of the Act there was nothing for 
+the Chief Justice to decide.   With respect, the very question that fell for 
+decision was whether there had to be an adjudication on the preliminary 
+matters involved and when the result had to depend on that 
+adjudication, what was the nature of that adjudication.   It is in that 
+context that a reconsideration of 
+the said decision
+ is sought for in this 
+case.   The ground of ensuring minimum judicial intervention by itself 
+is not a ground to hold that the power exercised by the Chief Justice is 
+only an administrative function.   As pointed out in the order of 
+reference to that Bench, the conclusion that it is only an administrative 
+act is the opening of the gates for an approach to the High Court under 
+
+Article 226
+ of the Constitution, for an appeal under the Letters Patent 
+or the concerned 
+High Court Act
+ to a Division Bench and a further 
+appeal to this Court under 
+Article 136
+ of the Constitution of India.  
+
+
+
+31.		Moreover, in a case where the objection to jurisdiction or 
+the existence of an arbitration agreement is overruled by the arbitral 
+tribunal, the party has to participate in the arbitration proceedings 
+extending over a period of time by incurring substantial expenditure 
+and then to come to court with an application under 
+Section 34
+ of the 
+Arbitration Act seeking the setting aside of the award on the ground 
+that there was no arbitration agreement or that there was nothing to be 
+arbitrated upon when the tribunal was constituted.   Though this may 
+avoid intervention by court until the award is pronounced, it does mean 
+considerable expenditure and time spent by the party before the arbitral 
+tribunal.  On the other hand, if even at the initial stage, the Chief Justice 
+judicially pronounces that he has jurisdiction to appoint an arbitrator, 
+that there is an arbitration agreement between the parties, that there was 
+a live and subsisting dispute for being referred to arbitration and 
+constitutes the tribunal as envisaged, on being satisfied of the existence 
+of the conditions for the exercise of his power, ensuring that the 
+arbitrator is a qualified arbitrator, that will put an end to a host of 
+disputes between the parties, leaving the party aggrieved with a remedy 
+of approaching this Court under 
+Article 136
+ of the Constitution.   That 
+would give this Court, an opportunity of scrutinizing the decision of the 
+Chief Justice on merits and deciding whether it calls for interference in 
+exercise of its plenary power.  Once this Court declines to interfere 
+with the adjudication of the Chief Justice to the extent it is made, it 
+becomes final.   This reasoning is also supported by sub-section (7) of 
+
+Section 11
+, making final, the decision of the Chief Justice on the 
+matters decided by him while constituting the arbitral tribunal. This 
+will leave the arbitral tribunal to decide the dispute on merits 
+unhampered by preliminary and technical objections.  In the long run, 
+especially in the context of the judicial system in our country, this 
+would be more conducive to minimising judicial intervention in matters 
+coming under the Act.   This will also avert the situation where even 
+the order of the Chief Justice of India could be challenged before a 
+single judge of the High Court invoking the 
+Article 226
+ of the 
+Constitution of India or before an arbitral tribunal, consisting not 
+necessarily of legally trained persons and their coming to a conclusion 
+that their constitution by the Chief Justice was not warranted in the 
+absence of an arbitration agreement or in the absence of a dispute in 
+terms of the agreement.
+
+
+
+32.		
+Section 8
+ of the Arbitration Act, 1940 enabled the court 
+when approached in that behalf to supply an omission.  
+Section 20
+ of 
+that Act enabled the court to compel the parties to produce the 
+arbitration agreement and then to appoint an arbitrator for adjudicating 
+on the disputes.  It may be possible to say that 
+Section 11(6)
+ of the Act 
+combines both the powers.  May be, it is more in consonance with 
+
+Section 8
+ of the Old Act.  But to call the power merely as an 
+administrative one, does not appear to be warranted in the context of 
+the relevant provisions of the Act.   First of all, the power is conferred 
+not on an administrative authority, but on a judicial authority, the 
+highest judicial authority in the State or in the country.   No doubt, such 
+authorities also perform administrative functions.  An appointment of 
+an arbitral tribunal in terms of 
+Section 11
+ of the Act, is based on a 
+power derived from a statute and the statute itself prescribes the 
+conditions that should exist for the exercise of that power.  In the 
+process of exercise of that power, obviously the parties would have the 
+right of being heard and when the existence of the conditions for the 
+exercise of the power are found on accepting or overruling the 
+contentions of one of the parties it necessarily amounts to an order, 
+judicial in nature, having finality subject to any available judicial 
+challenge as envisaged by the Act or any other statute or the 
+Constitution.   Looked at from that point of view also, it seems to be 
+appropriate to hold that the Chief Justice exercises a judicial power 
+while appointing an arbitrator.
+
+
+
+33.		In Attorney Geenral of the Gambia vs. Pierre Sarr 
+N'jie  (1961 Appeal Cases 617) the question arose whether the power 
+to judge an alleged professional misconduct could be delegated to a 
+Deputy Judge by the Chief Justice who had the power to suspend any 
+barrister or solicitor from practicing within the jurisdiction of the court.   
+Under 
+Section 7
+ of the Supreme Court Ordinance of the Gambia, the 
+Deputy Judge could exercise "all the judicial powers of the Judge of the 
+Supreme Court".   The question was, whether the taking of disciplinary 
+action for professional misconduct; was a judicial power or an 
+administrative power.   The Judicial Committee of the Privy Council 
+held that a judge exercises judicial powers not only when he is deciding 
+suits between the parties but also when he exercises disciplinary 
+powers which are properly appurtenant to the office of a judge.  By 
+way of illustration, Lord Dening stated "Suppose, for instance, that a 
+judge finding that a legal practitioner had been guilty of professional 
+misconduct in the course of a case, orders him to pay the costs, as he 
+has undoubtedly power to do (see Myers v. Elman, per Lord Wright).   
+That would be an exercise of the judicial powers of the judge just as 
+much as if he committed him for contempt of court.  Yet there is no 
+difference in quality between the power to order him to pay costs and 
+the power to suspend him or strike him off."  
+
+
+
+34.		The above example gives an indication that it is the nature 
+of the power that is relevant and not the mode of exercise.  In 
+Shankarlal Aggarwal and ors. vs. Shankar Lal Poddar and ors.  
+(1964 (1) SCR 717)  this Court was dealing with the question whether 
+the order of the Company Judge confirming a sale was merely an 
+administrative order passed in the course of the administration of the 
+assets  of the company under liquidation and, therefore, not a judicial 
+order subject to appeal.  This Court held that the order of the Company 
+Judge confirming the sale was not an administrative but a judicial 
+order.  Their Lordships stated thus:
+
+"It is not correct to say that every order of the Court, 
+merely for the reason that it is passed in the course of the 
+realization of the assets of the Company, must always be 
+treated merely as an administrative one.   The question 
+ultimately depends upon the nature of the order that is 
+passed.   An order according sanction to a sale 
+undoubtedly involves a discretion and cannot be termed 
+merely an administrative order, for before  confirming 
+the sale the court has to be satisfied, particularly where 
+the confirmation is opposed, that the sale has been held in 
+accordance with the conditions subject to which alone the 
+liquidator has been permitted to effect it, and that even 
+otherwise the sale has been fair and has not resulted in 
+any loss to the parties who would ultimately have to 
+share the realization.
+
+
+
+	It is not possible to formulate a definition which 
+would satisfactorily distinguish between an 
+administrative and a judicial order.   That the power is 
+entrusted to or wielded by a person who functions as a 
+court is not decisive of the question whether the act or 
+decision is administrative or judicial.   An administrative 
+order would be one which is directed to the regulation or 
+supervision of matters as distinguished from an order 
+which decides the rights of parties or confers or refuses 
+to confer rights to property which are the subject of 
+adjudication before the court.  One of the tests would be 
+whether a matter which involves the exercise of 
+discretion is left for the decision of the authority, 
+particularly if that authority were a court, and if the 
+discretion has to be exercised on objective, as 
+distinguished from a purely subjective consideration, it 
+would be a judicial decision.  It has sometimes been said 
+that the essence of a judicial proceeding or of a judicial 
+order is that there would be two parties and a lis between 
+them which is the subject of adjudication, as a result of 
+that order or a decision on an issue between a proposal 
+and an opposition.  No doubt it would not be possible to 
+describe an order passed deciding a lis between the 
+authority that is not a judicial order but it does not follow 
+that the absence of a lis necessarily negatives the order 
+being judicial.   Even viewed from this narrow 
+standpoint, it is possible to hold that there was a lis 
+before the Company Judge which he decided by passing 
+the order.   On the one hand were the claims of the 
+highest bidder who put forward the contention that he 
+had satisfied the requirements laid down for the 
+acceptance of his bid and was consequently entitled to 
+have the sale in his favour confirmed, particularly so as 
+he was supported in this behalf by the Official 
+Liquidators.   On the other hand,  there was the first 
+respondent and the large body of unsecured creditors 
+whose interests, even if they were not represented by the 
+first respondent, the court was bound to protect.  If the 
+sale  of which confirmation was sought was characterized 
+by any deviation subject to which the sale was directed to 
+be held or even otherwise was for a gross undervalue in 
+the sense that very much more could reasonably be 
+expected to be obtained if the sale were properly held, in 
+view of the figure of Rs.3,37,000/- which had been bid 
+by Nandlal Agarwalla it would be duty of the court to 
+refuse the confirmation in the interests of the general 
+body of creditors, and this was the submission made by 
+the first respondent.   There were thus two points of view 
+presented to the court by two contending parties or 
+interests and the court was called upon to decide between 
+them, and the decision vitally affected the rights of the 
+parties to property.   Under the circumstances, the order 
+of the Company Judge was a judicial order and not 
+administrative one, and was therefore not inherently 
+incapable of being brought up in appeal."
+
+
+
+35.		Going by the above test it is seen that at least in the matter 
+of deciding his own jurisdiction and in the matter of deciding on the 
+existence of an arbitration agreement, the Chief Justice when 
+confronted with two points of view presented by the rival parties, is 
+called upon to decide between them and the decision vitally affects the 
+rights of the parties in that, either the claim for appointing an arbitral 
+tribunal leading to an award is denied to a party or the claim to have an 
+arbitration proceeding set in motion for entertaining a claim is 
+facilitated by the Chief Justice.   In this context, it is not possible to say 
+that the Chief Justice is merely exercising an administrative function 
+when called upon to appoint an arbitrator and that he need not even 
+issue notice to opposite side before appointing an arbitrator.
+
+
+
+36.		It is fundamental to our procedural jurisprudence, that the 
+right of no person shall be affected without he being heard.  This 
+necessarily imposes an obligation on the Chief Justice to issue notice to 
+the opposite party when he is moved under 
+Section 11
+ of the Act.  The 
+notice to the opposite party cannot be considered to be merely an 
+intimation to that party of the filing of the arbitration application and 
+the passing of an administrative order appointing an arbitrator or an 
+arbitral tribunal.  It is really the giving of an opportunity of being heard.  
+There have been cases where claims for appointment of an arbitrator 
+based on an arbitration agreement are made ten or twenty years after 
+the period of the contract has come to an end.  There have been cases 
+where the appointment of an arbitrator has been sought, after the parties 
+had settled the accounts and the concerned party had certified that he 
+had no further claims against the other contracting party.  In other 
+words, there have been occasions when dead claims are sought to be 
+resurrected.  There have been cases where assertions are made of the 
+existence of arbitration agreements when, in fact, such existence is 
+strongly disputed by the other side who appears on issuance of notice.  
+Controversies are also raised as to whether the claim that is sought to 
+be put forward comes within the purview of the concerned arbitration 
+clause at all.  
+The Chief Justice has necessarily to apply his mind to 
+these aspects before coming to a conclusion one way or the other and 
+before proceeding to appoint an arbitrator or declining to appoint an 
+arbitrator.  Obviously, this is an adjudicatory process.  An opportunity 
+of hearing to both parties is a must.  Even in administrative functions if 
+rights are affected, rules of natural justice step in.  The principles 
+settled by Ridge Vs. Baldwin [(1963) 2 ALL ER 66] are well known  
+Therefore, to the extent, 
+Konkan Railway
+ (supra) states that no notice 
+need be issued to the opposite party to give him an opportunity of being 
+heard before appointing an arbitrator, with respect, the same has to be 
+held to be not sustainable.
+
+
+
+
+37.		It is true that finality under 
+Section 11 (7)
+ of the Act is 
+attached only to a decision of the Chief Justice on a matter entrusted by 
+sub-Section (4) or sub-Section (5) or sub-Section (6) of that Section.  
+Sub-Section (4) deals with the existence of an appointment procedure 
+and the failure of a party to appoint the arbitrator within 30 days from 
+the receipt of a request to do so from the other party or when the two 
+appointed arbitrators fail to agree on the presiding arbitrator within 30 
+days of their appointment.  Sub-Section (5) deals with the parties 
+failing to agree in nominating a sole arbitrator within 30 days of the 
+request in that behalf made by one of the parties to the arbitration 
+agreement and sub-Section (6) deals with the Chief Justice appointing 
+an  arbitrator or an arbitral tribunal when the party or the two arbitrators 
+or a person including an institution entrusted with the function, fails to 
+perform the same.  The finality, at first blush, could be said to be only 
+on the decision on these matters.  But the basic requirement for 
+exercising his power under 
+Section 11(6)
+, is the existence of an 
+arbitration agreement in terms of 
+Section 7
+ of the Act and the applicant 
+before the Chief Justice being shown to be a party to such an 
+agreement.  It would also include the question of the existence of 
+jurisdiction in him to entertain the request and an enquiry whether at 
+least a part of the cause of action has arisen within the concerned State.  
+Therefore, a decision on jurisdiction and on the existence of the 
+arbitration agreement and of the person making the request being a 
+party to that agreement and the subsistence of an arbitrable dispute 
+require to be decided and the decision on these aspects is a prelude to 
+the Chief Justice considering whether the requirements of sub-Section 
+(4), sub-Section (5) or sub-Section (6) of 
+Section 11
+ are satisfied when 
+approached with the request for appointment of an arbitrator.  It is 
+difficult to understand the finality to referred to in 
+Section 11(7)
+ as 
+excluding the decision on his competence and the locus standi of the 
+party who seeks to invoke his jurisdiction to appoint an arbitrator.  
+Viewed from that angle, the decision on all these aspects rendered by 
+the Chief Justice would attain finality and it is obvious that the decision 
+on these aspects could be taken only after notice to the parties and after 
+hearing them.  
+
+
+
+38.		It is necessary to define what exactly the Chief Justice, 
+approached with an application under 
+Section 11
+ of the Act, is to 
+decide at that stage.   Obviously, he has to decide his own jurisdiction 
+in the sense, whether the party making the motion has approached the 
+right High Court.   He has to decide whether there is an arbitration 
+agreement, as defined in the Act and whether the person who has made 
+the request before him, is a party to such an agreement.   It is necessary 
+to indicate that he can also decide the question whether the claim was a 
+dead one; or a long barred claim that was sought to be resurrected and 
+whether the parties have concluded the transaction by recording 
+satisfaction of their mutual rights and obligations or by receiving the 
+final payment without objection.  It may not be possible at that stage, to 
+decide whether a live claim made, is one which comes within the 
+purview of the arbitration clause.  It will be appropriate to leave that 
+question to be decided by the arbitral tribunal on taking evidence, along 
+with the merits of the claims involved in the arbitration.    The Chief 
+Justice has to decide whether the applicant has satisfied the conditions 
+for appointing an arbitrator under 
+Section 11(6)
+ of the Act.   For the 
+purpose of taking a decision on these aspects, the Chief Justice can 
+either proceed on the basis of affidavits and the documents produced or 
+take such evidence or get such evidence recorded, as may be necessary.  
+We   think that adoption of this procedure in the context of the Act 
+would best serve the purpose sought to be achieved by the Act of 
+expediting the process of arbitration, without too many approaches to 
+the court at various stages of the proceedings before the Arbitral 
+tribunal.
+
+
+
+39.    		An aspect that requires to be considered at this stage is the 
+question whether the Chief Justice of the High Court or the Chief 
+Justice of India can designate a non-judicial body or authority to 
+exercise the power under 
+Section 11(6)
+ of the Act.  We have already 
+held that, obviously, the legislature did not want to confer the power on 
+the Court as defined in the Act, namely, the District Court, and wanted 
+to confer the power on the Chief Justices of the High Courts and on the 
+Chief Justice of India.  Taking note of 
+Section 5
+ of the Act and the 
+finality attached by 
+Section 11 (7)
+ of the Act to his order and the 
+conclusion we have arrived at that the adjudication is judicial in nature, 
+it is obvious that no person other than a Judge and no non-judicial body 
+can be designated for entertaining an application for appointing an 
+arbitrator under 
+Section 11(6)
+ of the Act or for appointing an arbitrator.  
+In our dispensation, judicial powers are to be exercised by the judicial 
+authorities and not by non-judicial authorities.  This scheme cannot be 
+taken to have been given the go-by by the provisions in the Act in the 
+light of what we have discussed earlier.  Therefore, what the Chief 
+Justice can do under 
+Section 11(6)
+ of the Act  is to seek the help of a 
+non-judicial body to point out a suitable person as an arbitrator in the 
+context of 
+Section 11(8)
+ of the Act and on getting the necessary 
+information, if it is acceptable, to name that person as the arbitrator or 
+the set of persons as the arbitral tribunal.
+
+
+
+40.		Then the question is whether the Chief Justice of the High 
+Court can designate a district judge to perform the functions under 
+
+Section 11(6)
+ of the Act.    We have seen the definition of '
+Court' in 
+the Act
+.  We have reasoned that the intention of the legislature was not 
+to entrust the duty of appointing an arbitrator to the District Court. 
+Since the intention of the statute was to entrust the power to the highest 
+judicial authorities in the State and in the country, we have no 
+hesitation in holding that the Chief Justice cannot designate a district 
+judge to perform the functions under 
+Section 11(6)
+ of the Act.  This 
+restriction on the power of the Chief Justice on designating a district 
+judge or a non-judicial authority flows from the scheme of the Act.  
+
+
+
+41.		In our dispensation of justice, especially in respect of 
+matters entrusted to the ordinary hierarchy of courts or judicial 
+authorities, the duty would normally be performed by a judicial 
+authority according to the normal procedure of that court or of that 
+authority.  When the Chief Justice of the High Court is entrusted with 
+the power, he would be entitled to designate another judge of the High 
+Court for exercising that power.    Similarly, the Chief Justice of India 
+would be in a position to designate another judge of the Supreme Court 
+to exercise the power under 
+Section 11(6)
+ of the Act.  When so 
+entrusted with the right to exercise such a power, the judge of the High 
+Court and the judge of the Supreme Court would be exercising the 
+power vested in the Chief Justice of the High Court or in the Chief 
+Justice of India.  Therefore, we clarify that the Chief Justice of a High 
+Court can delegate the function under 
+Section 11(6)
+ of the Act to a 
+judge of that court and he would actually exercise the power of the 
+Chief Justice conferred under 
+Section 11(6)
+ of the Act.  The position 
+would be the same when the Chief Justice of India delegates the power 
+to another judge of the Supreme Court and he exercises that power as 
+designated by the Chief Justice of India. 
+
+
+
+42.		In this context, it has also to be noticed that there is an 
+ocean of difference between an institution which has no judicial 
+functions and an authority or person who is already exercising judicial 
+power in his capacity as a judicial authority.  Therefore, only a judge of 
+the Supreme Court or a judge of the High Court could respectively be 
+equated with the Chief Justice of India or the Chief Justice of the High 
+Court while exercising power under 
+Section 11(6)
+ of the Act as 
+designated by the Chief Justice.  A non-judicial body or institution 
+cannot be equated with a Judge of the High Court or a Judge of the 
+Supreme Court and it has to be held that the designation contemplated 
+by 
+Section 11(6)
+ of the Act is not a designation to an institution that is 
+incompetent to perform judicial functions.  Under our dispensation a 
+non-judicial authority cannot exercise judicial powers.
+
+
+
+43.		Once we arrive at the conclusion that the proceeding 
+before the Chief Justice while entertaining an application under 
+Section 
+11(6)
+ of the Act is adjudicatory, then obviously, the outcome of that 
+adjudication is a judicial order.  Once it is a judicial order, the same, as 
+far as the High Court is concerned would be final and the only avenue 
+open to a party feeling aggrieved by the order of the Chief Justice 
+would be to approach to the Supreme Court under 
+Article 136
+ of the 
+Constitution of India.  If it were an order by the Chief Justice of India, 
+the party will not have any further remedy in respect of the matters 
+covered by the order of the Chief Justice of India or the Judge of the 
+Supreme Court designated by him and he will have to participate in the 
+arbitration before the Tribunal only on the merits of the claim.  
+Obviously, the dispensation in our country, does not contemplate any 
+further appeal from the decision of the Supreme Court and there 
+appears to be nothing objectionable in taking the view that the order of 
+the Chief Justice of India would be final on the matters which are 
+within his purview, while called upon to exercise his jurisdiction under 
+
+Section 11
+ of the Act.  It is also necessary to notice in this context that 
+this conclusion of ours would really be in aid of quick disposal of 
+arbitration claims and would avoid considerable delay in the process, 
+an object that is sought to be achieved by the Act.  
+
+
+
+44.		It is seen that some High Courts have proceeded on the 
+basis that any order passed by an arbitral tribunal during arbitration, 
+would be capable of being challenged under 
+Article 226
+ or 227 of the 
+Constitution of India.  We see no warrant for such an approach.  
+
+Section 37
+ makes certain orders of the arbitral tribunal appealable.     
+Under 
+Section 34
+, the aggrieved party has an avenue for ventilating his 
+grievances against the award including any in-between orders that 
+might have been passed by the arbitral tribunal acting under 
+Section 16
+ 
+of the Act.  The party aggrieved by any order of the arbitral tribunal, 
+unless has a right of appeal under 
+Section 37
+ of the Act, has to wait 
+until the award is passed by the Tribunal.  This appears to be the 
+scheme of the Act.  The arbitral tribunal is after all, the creature of a 
+contract between the parties, the arbitration agreement, even though if 
+the occasion arises, the Chief Justice may constitute it based on the 
+contract between the parties.   But that would not alter the status of the 
+arbitral tribunal.   It will still be a forum chosen by the parties by 
+agreement.  We, therefore, disapprove of the stand adopted by some of 
+the High Courts that any order passed by the arbitral tribunal is capable 
+of being corrected by the High Court under 
+Article 226
+ or 227 of the 
+Constitution of India.  Such an intervention by the High Courts is not 
+permissible.
+
+45.		The object of minimizing judicial intervention while the 
+matter is in the process of being arbitrated upon, will certainly be 
+defeated if the High Court could be approached under 
+Article 227
+ of 
+the Constitution of India or under 
+Article 226
+ of the Constitution of 
+India against every order made by the arbitral tribunal.  Therefore, it is 
+necessary to indicate that once the arbitration has commenced in the 
+arbitral tribunal, parties have to wait until the award is pronounced 
+unless, of course, a right of appeal is available to them under 
+Section 37
+ 
+of the Act even at an earlier stage.  
+
+
+
+46.		We, therefore, sum up our conclusions as follows:
+
+
+
+i)	The power exercised by the Chief Justice of the High 
+Court or the Chief Justice of India under 
+Section 11(6)
+ of 
+the Act is not an administrative power.  It is a judicial 
+power. 
+
+
+
+ii)	The power under 
+Section 11(6)
+ of the Act, in its entirety, 
+could be delegated, by the Chief Justice of the High Court 
+only to another judge of that court and by the Chief Justice 
+of India to another judge of the Supreme Court.
+
+
+
+(iii)	In case of designation of a judge of the High Court or of 
+the Supreme Court, the power that is exercised by the 
+designated, judge would be that of the Chief Justice as 
+conferred by the statute. 
+
+
+
+(iv)	The Chief Justice or the designated judge will have the 
+right to decide the preliminary aspects as indicated in the 
+earlier part of this judgment.  These will be, his own 
+jurisdiction, to entertain the request, the existence of a 
+valid arbitration agreement, the existence or otherwise of a 
+live claim, the existence of the condition for the exercise 
+of his power and on the qualifications of the arbitrator or 
+arbitrators.  The Chief Justice or the judge designated 
+would be entitled to seek the opinion of an institution in 
+the matter of nominating an arbitrator qualified in terms of 
+
+Section 11(8)
+ of the Act if the need arises but the order 
+appointing the arbitrator could only be that of the Chief 
+Justice or the judge designate.
+
+
+
+(v)	Designation of a district judge as the authority under 
+
+Section 11(6)
+ of the Act by the Chief Justice of the High 
+Court is not warranted on the scheme of the Act.  
+
+
+
+(vi)	Once the matter reaches the arbitral tribunal or the sole 
+arbitrator, the High Court would not interfere with orders 
+passed by the arbitrator or the arbitral tribunal during the 
+course of the arbitration proceedings and the parties could 
+approach the court only in terms of 
+Section 37
+ of the Act 
+or in terms of 
+Section 34
+ of the Act.
+
+
+
+(vii)	Since an order passed by the Chief Justice of the High 
+Court or by the designated judge of that court is a judicial 
+order, an appeal will lie against that order only under 
+
+Article 136
+ of the Constitution of India to the Supreme 
+Court.  
+
+
+
+(viii)	There can be no appeal against an order of the Chief 
+Justice of India or a judge of the Supreme Court 
+designated by him while entertaining an application under 
+
+Section 11(6)
+ of the Act. 
+
+
+
+(ix)	In a case where an arbitral tribunal has been constituted by 
+the parties without having recourse to 
+Section 11(6)
+ of the 
+Act, the arbitral tribunal will have the jurisdiction to 
+decide all matters as contemplated by 
+Section 16
+ of the 
+Act. 
+
+
+
+(x)	Since all were guided by the decision of this Court in 
+Konkan Railway Corpn. Ltd. & anr. Vs. Rani 
+Construction Pvt. Ltd. [(2000) 8 SCC 159] and orders 
+under 
+Section 11(6)
+ of the Act have been made based on 
+the position adopted in that decision, we clarify that 
+appointments of arbitrators or arbitral tribunals thus far 
+made, are to be treated as valid, all objections being left to 
+be decided under 
+Section 16
+ of the Act.  As and from this 
+date, the position as adopted in this judgment will govern 
+even pending applications under 
+Section 11(6)
+ of the Act. 
+
+
+
+(xi)	Where District Judges had been designated by the Chief 
+Justice of the High Court under 
+Section 11(6)
+ of the Act, 
+the appointment orders thus far made by them will be 
+treated as valid; but applications if any pending before 
+them as on this date will stand transferred, to be dealt with 
+by the Chief Justice of the concerned High Court or a 
+Judge of that court designated by the Chief Justice.
+
+
+
+(xii)	The decision in Konkan Railway Corpn. Ltd. & anr. Vs. 
+Rani Construction Pvt. Ltd. [(2000) 8 SCC 159] is 
+overruled. 
+
+
+
+44.		The individual appeals will be posted before the 
+appropriate bench for being disposed of in the light of the principles 
+settled by this decision.
+
+
