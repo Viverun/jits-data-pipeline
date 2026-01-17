@@ -372,45 +372,27 @@
       "service": []
     }
   },
+  "extracted_sections": {
+    "crpc": [],
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
   "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 166",
-      "IPC 304B",
-      "IPC 438",
-      "IPC 482",
-      "IPC 498A",
-      "IPC 85"
-    ],
-    "bns_mapped": [
+    "mapped": [
       {
         "ipc": "IPC 304B",
         "bns": "BNS 80",
         "change_type": "modified",
-        "risk_level": "medium"
-      },
-      {
-        "ipc": "CrPC 438",
-        "bns": "BNSS 484",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "CrPC 482",
-        "bns": "BNSS 528",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 498A",
-        "bns": "BNS 86",
-        "change_type": "modified",
-        "risk_level": "medium"
+        "risk": "medium",
+        "offense": "Dowry death"
       }
     ],
-    "unmapped_ipc": [
-      "IPC 166",
-      "IPC 85"
-    ],
-    "confidence": "high"
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 1,
+      "mapped_count": 1,
+      "unmapped_count": 0
+    }
   }
 }

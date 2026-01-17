@@ -3977,38 +3977,37 @@
       "service": []
     }
   },
-  "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 209",
-      "IPC 235",
-      "IPC 306",
-      "IPC 313",
-      "IPC 498A"
+  "extracted_sections": {
+    "crpc": [
+      "207",
+      "209"
     ],
-    "bns_mapped": [
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
+  "statutory_transitions": {
+    "mapped": [
       {
         "ipc": "IPC 306",
         "bns": "BNS 108",
         "change_type": "modified",
-        "risk_level": "medium"
-      },
-      {
-        "ipc": "CrPC 313",
-        "bns": "BNSS 347",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
+        "risk": "medium",
+        "offense": "Abetment of suicide"
       },
       {
         "ipc": "IPC 498A",
         "bns": "BNS 86",
         "change_type": "modified",
-        "risk_level": "medium"
+        "risk": "medium",
+        "offense": "Cruelty by husband"
       }
     ],
-    "unmapped_ipc": [
-      "IPC 209",
-      "IPC 235"
-    ],
-    "confidence": "high"
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 2,
+      "mapped_count": 2,
+      "unmapped_count": 0
+    }
   }
 }

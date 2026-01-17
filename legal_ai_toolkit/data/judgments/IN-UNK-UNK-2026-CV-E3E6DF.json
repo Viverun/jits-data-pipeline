@@ -488,82 +488,23 @@
       "service": []
     }
   },
+  "extracted_sections": {
+    "crpc": [
+      "125",
+      "127",
+      "482"
+    ],
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
   "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 12",
-      "IPC 125",
-      "IPC 127",
-      "IPC 13B",
-      "IPC 13TH",
-      "IPC 147",
-      "IPC 148",
-      "IPC 20",
-      "IPC 27",
-      "IPC 323",
-      "IPC 325",
-      "IPC 406",
-      "IPC 452",
-      "IPC 482",
-      "IPC 498A",
-      "IPC 504",
-      "IPC 506"
-    ],
-    "bns_mapped": [
-      {
-        "ipc": "IPC 323",
-        "bns": "BNS 115",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 325",
-        "bns": "BNS 117",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 452",
-        "bns": "BNS 331",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "CrPC 482",
-        "bns": "BNSS 528",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 498A",
-        "bns": "BNS 86",
-        "change_type": "modified",
-        "risk_level": "medium"
-      },
-      {
-        "ipc": "IPC 504",
-        "bns": "BNS 356",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 506",
-        "bns": "BNS 351",
-        "change_type": "direct",
-        "risk_level": "low"
-      }
-    ],
-    "unmapped_ipc": [
-      "IPC 12",
-      "IPC 125",
-      "IPC 127",
-      "IPC 13B",
-      "IPC 13TH",
-      "IPC 147",
-      "IPC 148",
-      "IPC 20",
-      "IPC 27",
-      "IPC 406"
-    ],
-    "confidence": "high"
+    "mapped": [],
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 0,
+      "mapped_count": 0,
+      "unmapped_count": 0
+    }
   }
 }

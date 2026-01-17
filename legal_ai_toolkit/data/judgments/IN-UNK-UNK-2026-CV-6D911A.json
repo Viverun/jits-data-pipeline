@@ -7186,7 +7186,7 @@
         ],
         "binding_authority": "SC",
         "status": "good_law",
-        "relevance_score": 3
+        "relevance_score": 2
       }
     ]
   },
@@ -7213,126 +7213,60 @@
       ]
     }
   },
-  "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 106",
-      "IPC 14",
-      "IPC 16",
-      "IPC 161",
-      "IPC 164",
-      "IPC 1880",
-      "IPC 19",
-      "IPC 201",
-      "IPC 21",
-      "IPC 24",
-      "IPC 25",
-      "IPC 26",
-      "IPC 27",
-      "IPC 29",
-      "IPC 30",
-      "IPC 302",
-      "IPC 303",
-      "IPC 306",
-      "IPC 313",
-      "IPC 34",
-      "IPC 35",
-      "IPC 354",
-      "IPC 364",
-      "IPC 365",
-      "IPC 366",
-      "IPC 367",
-      "IPC 368",
-      "IPC 376",
-      "IPC 377",
-      "IPC 401",
-      "IPC 402",
-      "IPC 46",
-      "IPC 47",
-      "IPC 53",
-      "IPC 58",
-      "IPC 61",
-      "IPC 72",
-      "IPC 91",
-      "IPC 93"
+  "extracted_sections": {
+    "crpc": [
+      "161",
+      "164",
+      "313",
+      "366"
     ],
-    "bns_mapped": [
+    "iea": [
+      "106",
+      "25",
+      "27"
+    ],
+    "pc_act": [],
+    "ni_act": []
+  },
+  "statutory_transitions": {
+    "mapped": [
       {
-        "ipc": "CrPC 161",
-        "bns": "BNSS 180",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "CrPC 164",
-        "bns": "BNSS 183",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
+        "ipc": "IPC 201",
+        "bns": "BNS 238",
+        "change_type": "direct",
+        "risk": "low",
+        "offense": "Causing disappearance of evidence"
       },
       {
         "ipc": "IPC 302",
         "bns": "BNS 103",
         "change_type": "direct",
-        "risk_level": "low"
+        "risk": "low",
+        "offense": "Murder"
       },
       {
-        "ipc": "IPC 306",
-        "bns": "BNS 108",
-        "change_type": "modified",
-        "risk_level": "medium"
-      },
-      {
-        "ipc": "CrPC 313",
-        "bns": "BNSS 347",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 34",
-        "bns": "BNS 3",
+        "ipc": "IPC 364",
+        "bns": "BNS 140",
         "change_type": "direct",
-        "risk_level": "low"
+        "risk": "low",
+        "offense": "Kidnapping for murder"
       },
       {
         "ipc": "IPC 376",
         "bns": "BNS 64",
         "change_type": "enhanced",
-        "risk_level": "high"
+        "risk": "high",
+        "offense": "Rape"
       }
     ],
     "unmapped_ipc": [
-      "IPC 106",
-      "IPC 14",
-      "IPC 16",
-      "IPC 1880",
-      "IPC 19",
-      "IPC 201",
-      "IPC 21",
-      "IPC 24",
-      "IPC 25",
-      "IPC 26",
-      "IPC 27",
-      "IPC 29",
-      "IPC 30",
-      "IPC 303",
-      "IPC 35",
-      "IPC 354",
-      "IPC 364",
       "IPC 365",
-      "IPC 366",
-      "IPC 367",
-      "IPC 368",
-      "IPC 377",
-      "IPC 401",
-      "IPC 402",
-      "IPC 46",
-      "IPC 47",
-      "IPC 53",
-      "IPC 58",
-      "IPC 61",
-      "IPC 72",
-      "IPC 91",
-      "IPC 93"
+      "IPC 377"
     ],
-    "confidence": "high"
+    "summary": {
+      "total_ipc_found": 6,
+      "mapped_count": 4,
+      "unmapped_count": 2
+    }
   }
 }

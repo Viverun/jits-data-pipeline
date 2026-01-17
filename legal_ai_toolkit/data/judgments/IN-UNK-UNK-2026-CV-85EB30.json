@@ -3363,7 +3363,7 @@
         ],
         "binding_authority": "SC",
         "status": "good_law",
-        "relevance_score": 3
+        "relevance_score": 2
       }
     ]
   },
@@ -3395,84 +3395,19 @@
       ]
     }
   },
+  "extracted_sections": {
+    "crpc": [],
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
   "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 11",
-      "IPC 120",
-      "IPC 120B",
-      "IPC 13",
-      "IPC 14",
-      "IPC 16",
-      "IPC 17",
-      "IPC 18",
-      "IPC 20",
-      "IPC 23",
-      "IPC 28",
-      "IPC 30",
-      "IPC 31",
-      "IPC 34",
-      "IPC 37",
-      "IPC 406",
-      "IPC 420",
-      "IPC 467",
-      "IPC 468",
-      "IPC 471",
-      "IPC 48",
-      "IPC 75",
-      "IPC 81"
-    ],
-    "bns_mapped": [
-      {
-        "ipc": "IPC 120B",
-        "bns": "BNS 61",
-        "change_type": "modified",
-        "risk_level": "medium"
-      },
-      {
-        "ipc": "IPC 34",
-        "bns": "BNS 3",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 420",
-        "bns": "BNS 318",
-        "change_type": "enhanced",
-        "risk_level": "high"
-      },
-      {
-        "ipc": "IPC 468",
-        "bns": "BNS 336",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 471",
-        "bns": "BNS 340",
-        "change_type": "direct",
-        "risk_level": "low"
-      }
-    ],
-    "unmapped_ipc": [
-      "IPC 11",
-      "IPC 120",
-      "IPC 13",
-      "IPC 14",
-      "IPC 16",
-      "IPC 17",
-      "IPC 18",
-      "IPC 20",
-      "IPC 23",
-      "IPC 28",
-      "IPC 30",
-      "IPC 31",
-      "IPC 37",
-      "IPC 406",
-      "IPC 467",
-      "IPC 48",
-      "IPC 75",
-      "IPC 81"
-    ],
-    "confidence": "high"
+    "mapped": [],
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 0,
+      "mapped_count": 0,
+      "unmapped_count": 0
+    }
   }
 }

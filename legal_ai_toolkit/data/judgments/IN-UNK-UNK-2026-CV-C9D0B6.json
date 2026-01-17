@@ -217,24 +217,21 @@
       "service": []
     }
   },
+  "extracted_sections": {
+    "crpc": [
+      "313"
+    ],
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
   "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 313",
-      "IPC 333",
-      "IPC 64"
-    ],
-    "bns_mapped": [
-      {
-        "ipc": "CrPC 313",
-        "bns": "BNSS 347",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      }
-    ],
-    "unmapped_ipc": [
-      "IPC 333",
-      "IPC 64"
-    ],
-    "confidence": "high"
+    "mapped": [],
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 0,
+      "mapped_count": 0,
+      "unmapped_count": 0
+    }
   }
 }

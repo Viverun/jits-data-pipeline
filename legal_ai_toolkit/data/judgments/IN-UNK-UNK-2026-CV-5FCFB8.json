@@ -2208,34 +2208,21 @@
       ]
     }
   },
+  "extracted_sections": {
+    "crpc": [],
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
   "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 12",
-      "IPC 15",
-      "IPC 16",
-      "IPC 18",
-      "IPC 19",
-      "IPC 25",
-      "IPC 34",
-      "IPC 497"
-    ],
-    "bns_mapped": [
-      {
-        "ipc": "IPC 34",
-        "bns": "BNS 3",
-        "change_type": "direct",
-        "risk_level": "low"
-      }
-    ],
+    "mapped": [],
     "unmapped_ipc": [
-      "IPC 12",
-      "IPC 15",
-      "IPC 16",
-      "IPC 18",
-      "IPC 19",
-      "IPC 25",
       "IPC 497"
     ],
-    "confidence": "high"
+    "summary": {
+      "total_ipc_found": 1,
+      "mapped_count": 0,
+      "unmapped_count": 1
+    }
   }
 }

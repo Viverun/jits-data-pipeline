@@ -30,6 +30,12 @@ class DataAuditor:
         empty_annotations = 0
         landmark_coverage = 0
         domain_stats = Counter()
+        act_coverage = {
+            "crpc": 0,
+            "iea": 0,
+            "pc_act": 0,
+            "ni_act": 0
+        }
 
         for file in files:
             with open(file, "r", encoding="utf-8") as f:
@@ -64,6 +70,11 @@ class DataAuditor:
                 if anno.get("matched_landmarks"):
                     landmark_coverage += 1
 
+                extracted = data.get("extracted_sections", {})
+                for act in act_coverage:
+                    if extracted.get(act):
+                        act_coverage[act] += 1
+
                 domain = data.get("classification", {}).get("domain", "unknown")
                 domain_stats[domain] += 1
 
@@ -74,6 +85,9 @@ class DataAuditor:
         print(f"  - Missing Case No: {missing_case_no}")
         print(f"Empty Annotations: {empty_annotations}")
         print(f"Landmark Coverage: {landmark_coverage} ({landmark_coverage/total_cases*100:.1f}%)")
+        print("Specialized Act Coverage:")
+        for act, count in act_coverage.items():
+            print(f"  - {act.upper()}: {count} cases ({count/total_cases*100:.1f}%)")
         print(f"Domains: {dict(domain_stats)}")
         return locals()
 

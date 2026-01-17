@@ -5283,119 +5283,34 @@
       "service": []
     }
   },
-  "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 120",
-      "IPC 120B",
-      "IPC 154",
-      "IPC 155",
-      "IPC 156",
-      "IPC 157",
-      "IPC 161",
-      "IPC 162",
-      "IPC 169",
-      "IPC 170",
-      "IPC 173",
-      "IPC 200",
-      "IPC 29",
-      "IPC 34",
-      "IPC 406",
-      "IPC 408",
-      "IPC 409",
-      "IPC 415",
-      "IPC 417",
-      "IPC 417OF",
-      "IPC 418",
-      "IPC 419",
-      "IPC 420",
-      "IPC 421",
-      "IPC 422",
-      "IPC 46",
-      "IPC 482",
-      "IPC 506",
-      "IPC 51",
-      "IPC 61",
-      "IPC 69",
-      "IPC 82",
-      "IPC 97"
+  "extracted_sections": {
+    "crpc": [
+      "154",
+      "161",
+      "162",
+      "173",
+      "200",
+      "482"
     ],
-    "bns_mapped": [
-      {
-        "ipc": "IPC 120B",
-        "bns": "BNS 61",
-        "change_type": "modified",
-        "risk_level": "medium"
-      },
-      {
-        "ipc": "CrPC 161",
-        "bns": "BNSS 180",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "CrPC 173",
-        "bns": "BNSS 193",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
+  "statutory_transitions": {
+    "mapped": [
       {
         "ipc": "IPC 34",
         "bns": "BNS 3",
         "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 409",
-        "bns": "BNS 316",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 420",
-        "bns": "BNS 318",
-        "change_type": "enhanced",
-        "risk_level": "high"
-      },
-      {
-        "ipc": "CrPC 482",
-        "bns": "BNSS 528",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 506",
-        "bns": "BNS 351",
-        "change_type": "direct",
-        "risk_level": "low"
+        "risk": "low",
+        "offense": "Common intention"
       }
     ],
-    "unmapped_ipc": [
-      "IPC 120",
-      "IPC 154",
-      "IPC 155",
-      "IPC 156",
-      "IPC 157",
-      "IPC 162",
-      "IPC 169",
-      "IPC 170",
-      "IPC 200",
-      "IPC 29",
-      "IPC 406",
-      "IPC 408",
-      "IPC 415",
-      "IPC 417",
-      "IPC 417OF",
-      "IPC 418",
-      "IPC 419",
-      "IPC 421",
-      "IPC 422",
-      "IPC 46",
-      "IPC 51",
-      "IPC 61",
-      "IPC 69",
-      "IPC 82",
-      "IPC 97"
-    ],
-    "confidence": "high"
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 1,
+      "mapped_count": 1,
+      "unmapped_count": 0
+    }
   }
 }

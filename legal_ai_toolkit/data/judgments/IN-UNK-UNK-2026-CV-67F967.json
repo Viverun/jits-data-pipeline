@@ -3780,68 +3780,19 @@
       "service": []
     }
   },
+  "extracted_sections": {
+    "crpc": [],
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
   "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 104",
-      "IPC 135",
-      "IPC 135C",
-      "IPC 135D",
-      "IPC 151",
-      "IPC 17",
-      "IPC 18",
-      "IPC 1882",
-      "IPC 21",
-      "IPC 22",
-      "IPC 32",
-      "IPC 32A",
-      "IPC 34",
-      "IPC 35A",
-      "IPC 37",
-      "IPC 40",
-      "IPC 42",
-      "IPC 49",
-      "IPC 50",
-      "IPC 53",
-      "IPC 54",
-      "IPC 55",
-      "IPC 91",
-      "IPC 92",
-      "IPC 95"
-    ],
-    "bns_mapped": [
-      {
-        "ipc": "IPC 34",
-        "bns": "BNS 3",
-        "change_type": "direct",
-        "risk_level": "low"
-      }
-    ],
-    "unmapped_ipc": [
-      "IPC 104",
-      "IPC 135",
-      "IPC 135C",
-      "IPC 135D",
-      "IPC 151",
-      "IPC 17",
-      "IPC 18",
-      "IPC 1882",
-      "IPC 21",
-      "IPC 22",
-      "IPC 32",
-      "IPC 32A",
-      "IPC 35A",
-      "IPC 37",
-      "IPC 40",
-      "IPC 42",
-      "IPC 49",
-      "IPC 50",
-      "IPC 53",
-      "IPC 54",
-      "IPC 55",
-      "IPC 91",
-      "IPC 92",
-      "IPC 95"
-    ],
-    "confidence": "high"
+    "mapped": [],
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 0,
+      "mapped_count": 0,
+      "unmapped_count": 0
+    }
   }
 }

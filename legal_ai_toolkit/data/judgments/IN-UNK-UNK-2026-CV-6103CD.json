@@ -2680,77 +2680,54 @@
       ]
     }
   },
-  "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 109",
-      "IPC 120",
-      "IPC 120A",
-      "IPC 120B",
-      "IPC 13",
-      "IPC 17",
-      "IPC 173",
-      "IPC 200",
-      "IPC 202",
-      "IPC 209",
-      "IPC 210",
-      "IPC 211",
-      "IPC 213",
-      "IPC 215",
-      "IPC 220",
-      "IPC 234",
-      "IPC 313",
-      "IPC 452",
-      "IPC 46",
-      "IPC 4A",
-      "IPC 60",
-      "IPC 72"
+  "extracted_sections": {
+    "crpc": [
+      "200",
+      "202",
+      "313",
+      "428",
+      "452"
     ],
-    "bns_mapped": [
+    "iea": [
+      "46",
+      "60"
+    ],
+    "pc_act": [
+      "4"
+    ],
+    "ni_act": []
+  },
+  "statutory_transitions": {
+    "mapped": [
+      {
+        "ipc": "IPC 109",
+        "bns": "BNS 48",
+        "change_type": "direct",
+        "risk": "low",
+        "offense": "Punishment of abetment"
+      },
+      {
+        "ipc": "IPC 120-B",
+        "bns": "BNS 61",
+        "change_type": "modified",
+        "risk": "medium",
+        "offense": "Criminal conspiracy"
+      },
       {
         "ipc": "IPC 120B",
         "bns": "BNS 61",
         "change_type": "modified",
-        "risk_level": "medium"
-      },
-      {
-        "ipc": "CrPC 173",
-        "bns": "BNSS 193",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "CrPC 313",
-        "bns": "BNSS 347",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 452",
-        "bns": "BNS 331",
-        "change_type": "direct",
-        "risk_level": "low"
+        "risk": "medium",
+        "offense": "Criminal conspiracy"
       }
     ],
     "unmapped_ipc": [
-      "IPC 109",
-      "IPC 120",
-      "IPC 120A",
-      "IPC 13",
-      "IPC 17",
-      "IPC 200",
-      "IPC 202",
-      "IPC 209",
-      "IPC 210",
-      "IPC 211",
-      "IPC 213",
-      "IPC 215",
-      "IPC 220",
-      "IPC 234",
-      "IPC 46",
-      "IPC 4A",
-      "IPC 60",
-      "IPC 72"
+      "IPC 120A"
     ],
-    "confidence": "high"
+    "summary": {
+      "total_ipc_found": 4,
+      "mapped_count": 3,
+      "unmapped_count": 1
+    }
   }
 }

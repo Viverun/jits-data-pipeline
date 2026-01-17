@@ -419,53 +419,22 @@
       ]
     }
   },
+  "extracted_sections": {
+    "crpc": [],
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
   "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 12",
-      "IPC 13",
-      "IPC 151",
-      "IPC 25",
-      "IPC 294",
-      "IPC 307",
-      "IPC 323",
-      "IPC 34",
-      "IPC 354",
-      "IPC 506"
-    ],
-    "bns_mapped": [
-      {
-        "ipc": "IPC 307",
-        "bns": "BNS 109",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 323",
-        "bns": "BNS 115",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 34",
-        "bns": "BNS 3",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 506",
-        "bns": "BNS 351",
-        "change_type": "direct",
-        "risk_level": "low"
-      }
-    ],
+    "mapped": [],
     "unmapped_ipc": [
-      "IPC 12",
-      "IPC 13",
       "IPC 151",
-      "IPC 25",
-      "IPC 294",
       "IPC 354"
     ],
-    "confidence": "high"
+    "summary": {
+      "total_ipc_found": 2,
+      "mapped_count": 0,
+      "unmapped_count": 2
+    }
   }
 }

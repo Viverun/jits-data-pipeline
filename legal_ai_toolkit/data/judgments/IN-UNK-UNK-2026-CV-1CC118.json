@@ -263,42 +263,30 @@
       ]
     }
   },
-  "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 200",
-      "IPC 202",
-      "IPC 203",
-      "IPC 204",
-      "IPC 323",
-      "IPC 34",
-      "IPC 482"
+  "extracted_sections": {
+    "crpc": [
+      "204",
+      "482"
     ],
-    "bns_mapped": [
-      {
-        "ipc": "IPC 323",
-        "bns": "BNS 115",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
+  "statutory_transitions": {
+    "mapped": [
       {
         "ipc": "IPC 34",
         "bns": "BNS 3",
         "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "CrPC 482",
-        "bns": "BNSS 528",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
+        "risk": "low",
+        "offense": "Common intention"
       }
     ],
-    "unmapped_ipc": [
-      "IPC 200",
-      "IPC 202",
-      "IPC 203",
-      "IPC 204"
-    ],
-    "confidence": "high"
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 1,
+      "mapped_count": 1,
+      "unmapped_count": 0
+    }
   }
 }

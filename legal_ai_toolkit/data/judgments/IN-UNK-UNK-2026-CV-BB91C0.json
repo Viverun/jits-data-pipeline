@@ -8984,5 +8984,37 @@
         "Article 16"
       ]
     }
+  },
+  "extracted_sections": {
+    "crpc": [
+      "320",
+      "321",
+      "397",
+      "438",
+      "468",
+      "482"
+    ],
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
+  "statutory_transitions": {
+    "mapped": [
+      {
+        "ipc": "IPC 498-A",
+        "bns": "BNS 86",
+        "change_type": "modified",
+        "risk": "medium",
+        "offense": "Cruelty by husband"
+      }
+    ],
+    "unmapped_ipc": [
+      "IPC 193"
+    ],
+    "summary": {
+      "total_ipc_found": 2,
+      "mapped_count": 1,
+      "unmapped_count": 1
+    }
   }
 }

@@ -28798,5 +28798,70 @@
         "suspension"
       ]
     }
+  },
+  "extracted_sections": {
+    "crpc": [
+      "160",
+      "161",
+      "200",
+      "202",
+      "313",
+      "428",
+      "452",
+      "454",
+      "482",
+      "91"
+    ],
+    "iea": [
+      "10",
+      "103",
+      "106",
+      "45",
+      "92"
+    ],
+    "pc_act": [
+      "17"
+    ],
+    "ni_act": []
+  },
+  "statutory_transitions": {
+    "mapped": [
+      {
+        "ipc": "IPC 107",
+        "bns": "BNS 45",
+        "change_type": "direct",
+        "risk": "low",
+        "offense": "Abetment"
+      },
+      {
+        "ipc": "IPC 109",
+        "bns": "BNS 48",
+        "change_type": "direct",
+        "risk": "low",
+        "offense": "Punishment of abetment"
+      },
+      {
+        "ipc": "IPC 120-B",
+        "bns": "BNS 61",
+        "change_type": "modified",
+        "risk": "medium",
+        "offense": "Criminal conspiracy"
+      },
+      {
+        "ipc": "IPC 120B",
+        "bns": "BNS 61",
+        "change_type": "modified",
+        "risk": "medium",
+        "offense": "Criminal conspiracy"
+      }
+    ],
+    "unmapped_ipc": [
+      "IPC 53"
+    ],
+    "summary": {
+      "total_ipc_found": 5,
+      "mapped_count": 4,
+      "unmapped_count": 1
+    }
   }
 }

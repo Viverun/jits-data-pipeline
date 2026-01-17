@@ -2212,86 +2212,52 @@
       "service": []
     }
   },
-  "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 107",
-      "IPC 108",
-      "IPC 113",
-      "IPC 113A",
-      "IPC 114",
-      "IPC 16",
-      "IPC 17",
-      "IPC 18",
-      "IPC 19",
-      "IPC 20",
-      "IPC 306",
-      "IPC 313",
-      "IPC 32",
-      "IPC 323",
-      "IPC 360",
-      "IPC 37",
-      "IPC 38",
-      "IPC 39",
-      "IPC 40",
-      "IPC 42",
-      "IPC 44",
-      "IPC 498",
-      "IPC 498A",
-      "IPC 504"
+  "extracted_sections": {
+    "crpc": [
+      "360"
     ],
-    "bns_mapped": [
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
+  "statutory_transitions": {
+    "mapped": [
+      {
+        "ipc": "IPC 114",
+        "bns": "BNS 52",
+        "change_type": "direct",
+        "risk": "low",
+        "offense": "Abettor present when offence is committed"
+      },
       {
         "ipc": "IPC 306",
         "bns": "BNS 108",
         "change_type": "modified",
-        "risk_level": "medium"
+        "risk": "medium",
+        "offense": "Abetment of suicide"
       },
       {
-        "ipc": "CrPC 313",
-        "bns": "BNSS 347",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 323",
-        "bns": "BNS 115",
-        "change_type": "direct",
-        "risk_level": "low"
+        "ipc": "IPC 498-A",
+        "bns": "BNS 86",
+        "change_type": "modified",
+        "risk": "medium",
+        "offense": "Cruelty by husband"
       },
       {
         "ipc": "IPC 498A",
         "bns": "BNS 86",
         "change_type": "modified",
-        "risk_level": "medium"
-      },
-      {
-        "ipc": "IPC 504",
-        "bns": "BNS 356",
-        "change_type": "direct",
-        "risk_level": "low"
+        "risk": "medium",
+        "offense": "Cruelty by husband"
       }
     ],
     "unmapped_ipc": [
-      "IPC 107",
-      "IPC 108",
-      "IPC 113",
-      "IPC 113A",
-      "IPC 114",
-      "IPC 16",
-      "IPC 17",
-      "IPC 18",
-      "IPC 19",
-      "IPC 20",
-      "IPC 32",
-      "IPC 360",
-      "IPC 37",
-      "IPC 38",
-      "IPC 39",
-      "IPC 40",
-      "IPC 42",
-      "IPC 44",
-      "IPC 498"
+      "IPC 360"
     ],
-    "confidence": "high"
+    "summary": {
+      "total_ipc_found": 5,
+      "mapped_count": 4,
+      "unmapped_count": 1
+    }
   }
 }

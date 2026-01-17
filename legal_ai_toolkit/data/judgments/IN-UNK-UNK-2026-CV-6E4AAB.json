@@ -180,26 +180,34 @@
       "service": []
     }
   },
+  "extracted_sections": {
+    "crpc": [],
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
   "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 304B",
-      "IPC 498A"
-    ],
-    "bns_mapped": [
+    "mapped": [
       {
         "ipc": "IPC 304B",
         "bns": "BNS 80",
         "change_type": "modified",
-        "risk_level": "medium"
+        "risk": "medium",
+        "offense": "Dowry death"
       },
       {
         "ipc": "IPC 498A",
         "bns": "BNS 86",
         "change_type": "modified",
-        "risk_level": "medium"
+        "risk": "medium",
+        "offense": "Cruelty by husband"
       }
     ],
     "unmapped_ipc": [],
-    "confidence": "high"
+    "summary": {
+      "total_ipc_found": 2,
+      "mapped_count": 2,
+      "unmapped_count": 0
+    }
   }
 }

@@ -952,83 +952,40 @@
       ]
     }
   },
-  "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 120",
-      "IPC 135",
-      "IPC 155",
-      "IPC 156",
-      "IPC 161",
-      "IPC 200",
-      "IPC 203",
-      "IPC 227",
-      "IPC 239",
-      "IPC 24",
-      "IPC 40",
-      "IPC 402",
-      "IPC 406",
-      "IPC 414",
-      "IPC 415",
-      "IPC 418",
-      "IPC 420",
-      "IPC 423",
-      "IPC 425",
-      "IPC 427",
-      "IPC 469",
-      "IPC 482",
-      "IPC 504",
-      "IPC 561",
-      "IPC 63"
+  "extracted_sections": {
+    "crpc": [
+      "482"
     ],
-    "bns_mapped": [
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
+  "statutory_transitions": {
+    "mapped": [
       {
-        "ipc": "CrPC 161",
-        "bns": "BNSS 180",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
+        "ipc": "IPC 415",
+        "bns": "BNS 318(1)",
+        "change_type": "direct",
+        "risk": "low",
+        "offense": "Cheating definition"
       },
       {
         "ipc": "IPC 420",
         "bns": "BNS 318",
         "change_type": "enhanced",
-        "risk_level": "high"
-      },
-      {
-        "ipc": "CrPC 482",
-        "bns": "BNSS 528",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 504",
-        "bns": "BNS 356",
-        "change_type": "direct",
-        "risk_level": "low"
+        "risk": "high",
+        "offense": "Cheating"
       }
     ],
     "unmapped_ipc": [
-      "IPC 120",
-      "IPC 135",
-      "IPC 155",
-      "IPC 156",
-      "IPC 200",
-      "IPC 203",
-      "IPC 227",
-      "IPC 239",
       "IPC 24",
-      "IPC 40",
-      "IPC 402",
-      "IPC 406",
       "IPC 414",
-      "IPC 415",
-      "IPC 418",
-      "IPC 423",
-      "IPC 425",
-      "IPC 427",
-      "IPC 469",
-      "IPC 561",
-      "IPC 63"
+      "IPC 418"
     ],
-    "confidence": "high"
+    "summary": {
+      "total_ipc_found": 5,
+      "mapped_count": 2,
+      "unmapped_count": 3
+    }
   }
 }

@@ -407,80 +407,31 @@
       "service": []
     }
   },
-  "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 13",
-      "IPC 147",
-      "IPC 148",
-      "IPC 149",
-      "IPC 156",
-      "IPC 161",
-      "IPC 173",
-      "IPC 190",
-      "IPC 202",
-      "IPC 21",
-      "IPC 22",
-      "IPC 23A",
-      "IPC 26",
-      "IPC 307",
-      "IPC 336",
-      "IPC 353",
-      "IPC 378",
-      "IPC 379",
-      "IPC 379OF",
-      "IPC 414",
-      "IPC 482"
+  "extracted_sections": {
+    "crpc": [
+      "161",
+      "378",
+      "482"
     ],
-    "bns_mapped": [
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
+  "statutory_transitions": {
+    "mapped": [
       {
-        "ipc": "IPC 149",
-        "bns": "BNS 191",
+        "ipc": "IPC 379",
+        "bns": "BNS 303(2)",
         "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "CrPC 161",
-        "bns": "BNSS 180",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "CrPC 173",
-        "bns": "BNSS 193",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 307",
-        "bns": "BNS 109",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "CrPC 482",
-        "bns": "BNSS 528",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
+        "risk": "low",
+        "offense": "Punishment for theft"
       }
     ],
-    "unmapped_ipc": [
-      "IPC 13",
-      "IPC 147",
-      "IPC 148",
-      "IPC 156",
-      "IPC 190",
-      "IPC 202",
-      "IPC 21",
-      "IPC 22",
-      "IPC 23A",
-      "IPC 26",
-      "IPC 336",
-      "IPC 353",
-      "IPC 378",
-      "IPC 379",
-      "IPC 379OF",
-      "IPC 414"
-    ],
-    "confidence": "high"
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 1,
+      "mapped_count": 1,
+      "unmapped_count": 0
+    }
   }
 }

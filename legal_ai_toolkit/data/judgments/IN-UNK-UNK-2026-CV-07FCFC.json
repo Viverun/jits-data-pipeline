@@ -704,83 +704,29 @@
       "service": []
     }
   },
-  "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 120",
-      "IPC 120B",
-      "IPC 14",
-      "IPC 15A",
-      "IPC 164",
-      "IPC 18604",
-      "IPC 323",
-      "IPC 328",
-      "IPC 34",
-      "IPC 341",
-      "IPC 342",
-      "IPC 376",
-      "IPC 439",
-      "IPC 504",
-      "IPC 506"
+  "extracted_sections": {
+    "crpc": [
+      "164"
     ],
-    "bns_mapped": [
-      {
-        "ipc": "IPC 120B",
-        "bns": "BNS 61",
-        "change_type": "modified",
-        "risk_level": "medium"
-      },
-      {
-        "ipc": "CrPC 164",
-        "bns": "BNSS 183",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 323",
-        "bns": "BNS 115",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
+  "statutory_transitions": {
+    "mapped": [
       {
         "ipc": "IPC 34",
         "bns": "BNS 3",
         "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 376",
-        "bns": "BNS 64",
-        "change_type": "enhanced",
-        "risk_level": "high"
-      },
-      {
-        "ipc": "CrPC 439",
-        "bns": "BNSS 485",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 504",
-        "bns": "BNS 356",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 506",
-        "bns": "BNS 351",
-        "change_type": "direct",
-        "risk_level": "low"
+        "risk": "low",
+        "offense": "Common intention"
       }
     ],
-    "unmapped_ipc": [
-      "IPC 120",
-      "IPC 14",
-      "IPC 15A",
-      "IPC 18604",
-      "IPC 328",
-      "IPC 341",
-      "IPC 342"
-    ],
-    "confidence": "high"
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 1,
+      "mapped_count": 1,
+      "unmapped_count": 0
+    }
   }
 }

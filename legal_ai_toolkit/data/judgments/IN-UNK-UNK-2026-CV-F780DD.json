@@ -359,47 +359,36 @@
       "service": []
     }
   },
-  "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 113",
-      "IPC 113A",
-      "IPC 114",
-      "IPC 304B",
-      "IPC 306",
-      "IPC 498A",
-      "IPC 506"
+  "extracted_sections": {
+    "crpc": [],
+    "iea": [
+      "113A"
     ],
-    "bns_mapped": [
+    "pc_act": [],
+    "ni_act": []
+  },
+  "statutory_transitions": {
+    "mapped": [
       {
-        "ipc": "IPC 304B",
-        "bns": "BNS 80",
-        "change_type": "modified",
-        "risk_level": "medium"
-      },
-      {
-        "ipc": "IPC 306",
-        "bns": "BNS 108",
-        "change_type": "modified",
-        "risk_level": "medium"
+        "ipc": "IPC 114",
+        "bns": "BNS 52",
+        "change_type": "direct",
+        "risk": "low",
+        "offense": "Abettor present when offence is committed"
       },
       {
         "ipc": "IPC 498A",
         "bns": "BNS 86",
         "change_type": "modified",
-        "risk_level": "medium"
-      },
-      {
-        "ipc": "IPC 506",
-        "bns": "BNS 351",
-        "change_type": "direct",
-        "risk_level": "low"
+        "risk": "medium",
+        "offense": "Cruelty by husband"
       }
     ],
-    "unmapped_ipc": [
-      "IPC 113",
-      "IPC 113A",
-      "IPC 114"
-    ],
-    "confidence": "high"
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 2,
+      "mapped_count": 2,
+      "unmapped_count": 0
+    }
   }
 }

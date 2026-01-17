@@ -233,26 +233,19 @@
       "service": []
     }
   },
+  "extracted_sections": {
+    "crpc": [],
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
   "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 420",
-      "IPC 482"
-    ],
-    "bns_mapped": [
-      {
-        "ipc": "IPC 420",
-        "bns": "BNS 318",
-        "change_type": "enhanced",
-        "risk_level": "high"
-      },
-      {
-        "ipc": "CrPC 482",
-        "bns": "BNSS 528",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      }
-    ],
+    "mapped": [],
     "unmapped_ipc": [],
-    "confidence": "high"
+    "summary": {
+      "total_ipc_found": 0,
+      "mapped_count": 0,
+      "unmapped_count": 0
+    }
   }
 }

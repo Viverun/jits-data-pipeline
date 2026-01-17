@@ -789,88 +789,30 @@
       "service": []
     }
   },
-  "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 147",
-      "IPC 148",
-      "IPC 149",
-      "IPC 173",
-      "IPC 205",
-      "IPC 307",
-      "IPC 320",
-      "IPC 323",
-      "IPC 325",
-      "IPC 34",
-      "IPC 341",
-      "IPC 427",
-      "IPC 452",
-      "IPC 482",
-      "IPC 506"
+  "extracted_sections": {
+    "crpc": [
+      "320",
+      "482"
     ],
-    "bns_mapped": [
-      {
-        "ipc": "IPC 149",
-        "bns": "BNS 191",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "CrPC 173",
-        "bns": "BNSS 193",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
+  "statutory_transitions": {
+    "mapped": [
       {
         "ipc": "IPC 307",
         "bns": "BNS 109",
         "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 323",
-        "bns": "BNS 115",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 325",
-        "bns": "BNS 117",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 34",
-        "bns": "BNS 3",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 452",
-        "bns": "BNS 331",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "CrPC 482",
-        "bns": "BNSS 528",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 506",
-        "bns": "BNS 351",
-        "change_type": "direct",
-        "risk_level": "low"
+        "risk": "low",
+        "offense": "Attempt to murder"
       }
     ],
-    "unmapped_ipc": [
-      "IPC 147",
-      "IPC 148",
-      "IPC 205",
-      "IPC 320",
-      "IPC 341",
-      "IPC 427"
-    ],
-    "confidence": "high"
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 1,
+      "mapped_count": 1,
+      "unmapped_count": 0
+    }
   }
 }

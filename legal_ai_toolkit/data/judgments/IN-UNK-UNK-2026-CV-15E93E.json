@@ -278,7 +278,7 @@
         ],
         "binding_authority": "SC",
         "status": "good_law",
-        "relevance_score": 3
+        "relevance_score": 2
       }
     ]
   },
@@ -298,63 +298,24 @@
       "service": []
     }
   },
+  "extracted_sections": {
+    "crpc": [
+      "161",
+      "216"
+    ],
+    "iea": [
+      "106"
+    ],
+    "pc_act": [],
+    "ni_act": []
+  },
   "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 106",
-      "IPC 113",
-      "IPC 113B",
-      "IPC 161",
-      "IPC 173",
-      "IPC 216",
-      "IPC 302",
-      "IPC 304",
-      "IPC 304B",
-      "IPC 498A"
-    ],
-    "bns_mapped": [
-      {
-        "ipc": "CrPC 161",
-        "bns": "BNSS 180",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "CrPC 173",
-        "bns": "BNSS 193",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 302",
-        "bns": "BNS 103",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 304",
-        "bns": "BNS 104",
-        "change_type": "modified",
-        "risk_level": "medium"
-      },
-      {
-        "ipc": "IPC 304B",
-        "bns": "BNS 80",
-        "change_type": "modified",
-        "risk_level": "medium"
-      },
-      {
-        "ipc": "IPC 498A",
-        "bns": "BNS 86",
-        "change_type": "modified",
-        "risk_level": "medium"
-      }
-    ],
-    "unmapped_ipc": [
-      "IPC 106",
-      "IPC 113",
-      "IPC 113B",
-      "IPC 216"
-    ],
-    "confidence": "high"
+    "mapped": [],
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 0,
+      "mapped_count": 0,
+      "unmapped_count": 0
+    }
   }
 }

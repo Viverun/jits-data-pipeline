@@ -373,61 +373,22 @@
       "service": []
     }
   },
+  "extracted_sections": {
+    "crpc": [
+      "164",
+      "41A"
+    ],
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
   "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 116",
-      "IPC 164",
-      "IPC 306",
-      "IPC 376",
-      "IPC 417",
-      "IPC 41A",
-      "IPC 420",
-      "IPC 437",
-      "IPC 482"
-    ],
-    "bns_mapped": [
-      {
-        "ipc": "CrPC 164",
-        "bns": "BNSS 183",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 306",
-        "bns": "BNS 108",
-        "change_type": "modified",
-        "risk_level": "medium"
-      },
-      {
-        "ipc": "IPC 376",
-        "bns": "BNS 64",
-        "change_type": "enhanced",
-        "risk_level": "high"
-      },
-      {
-        "ipc": "IPC 420",
-        "bns": "BNS 318",
-        "change_type": "enhanced",
-        "risk_level": "high"
-      },
-      {
-        "ipc": "CrPC 437",
-        "bns": "BNSS 483",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "CrPC 482",
-        "bns": "BNSS 528",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      }
-    ],
-    "unmapped_ipc": [
-      "IPC 116",
-      "IPC 417",
-      "IPC 41A"
-    ],
-    "confidence": "high"
+    "mapped": [],
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 0,
+      "mapped_count": 0,
+      "unmapped_count": 0
+    }
   }
 }

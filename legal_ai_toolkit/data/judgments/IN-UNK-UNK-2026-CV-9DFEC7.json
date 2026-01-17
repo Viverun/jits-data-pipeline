@@ -10594,7 +10594,7 @@
         ],
         "binding_authority": "SC",
         "status": "good_law",
-        "relevance_score": 3
+        "relevance_score": 2
       }
     ]
   },
@@ -10625,108 +10625,67 @@
       ]
     }
   },
-  "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 120",
-      "IPC 13",
-      "IPC 138",
-      "IPC 16",
-      "IPC 161",
-      "IPC 164",
-      "IPC 20",
-      "IPC 21",
-      "IPC 235",
-      "IPC 25",
-      "IPC 299",
-      "IPC 30",
-      "IPC 300",
-      "IPC 302",
-      "IPC 304",
-      "IPC 313",
-      "IPC 34",
-      "IPC 354",
-      "IPC 363",
-      "IPC 366",
-      "IPC 375",
-      "IPC 376",
-      "IPC 376A",
-      "IPC 376AB",
-      "IPC 377",
-      "IPC 397",
-      "IPC 433",
-      "IPC 433A",
-      "IPC 53A",
-      "IPC 72"
+  "extracted_sections": {
+    "crpc": [
+      "313"
     ],
-    "bns_mapped": [
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
+  "statutory_transitions": {
+    "mapped": [
       {
-        "ipc": "CrPC 161",
-        "bns": "BNSS 180",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
+        "ipc": "IPC 120-B",
+        "bns": "BNS 61",
+        "change_type": "modified",
+        "risk": "medium",
+        "offense": "Criminal conspiracy"
       },
       {
-        "ipc": "CrPC 164",
-        "bns": "BNSS 183",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
+        "ipc": "IPC 300",
+        "bns": "BNS 101",
+        "change_type": "direct",
+        "risk": "low",
+        "offense": "Murder definition"
       },
       {
         "ipc": "IPC 302",
         "bns": "BNS 103",
         "change_type": "direct",
-        "risk_level": "low"
+        "risk": "low",
+        "offense": "Murder"
       },
       {
         "ipc": "IPC 304",
         "bns": "BNS 104",
         "change_type": "modified",
-        "risk_level": "medium"
-      },
-      {
-        "ipc": "CrPC 313",
-        "bns": "BNSS 347",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
+        "risk": "medium",
+        "offense": "Culpable homicide not amounting to murder"
       },
       {
         "ipc": "IPC 34",
         "bns": "BNS 3",
         "change_type": "direct",
-        "risk_level": "low"
+        "risk": "low",
+        "offense": "Common intention"
       },
       {
         "ipc": "IPC 376",
         "bns": "BNS 64",
         "change_type": "enhanced",
-        "risk_level": "high"
+        "risk": "high",
+        "offense": "Rape"
       }
     ],
     "unmapped_ipc": [
-      "IPC 120",
-      "IPC 13",
-      "IPC 138",
-      "IPC 16",
-      "IPC 20",
-      "IPC 21",
-      "IPC 235",
-      "IPC 25",
-      "IPC 299",
-      "IPC 30",
-      "IPC 300",
-      "IPC 354",
-      "IPC 363",
-      "IPC 366",
-      "IPC 375",
-      "IPC 376A",
-      "IPC 376AB",
-      "IPC 377",
-      "IPC 397",
-      "IPC 433",
-      "IPC 433A",
-      "IPC 53A",
-      "IPC 72"
+      "IPC 376-A",
+      "IPC 376A"
     ],
-    "confidence": "high"
+    "summary": {
+      "total_ipc_found": 8,
+      "mapped_count": 6,
+      "unmapped_count": 2
+    }
   }
 }

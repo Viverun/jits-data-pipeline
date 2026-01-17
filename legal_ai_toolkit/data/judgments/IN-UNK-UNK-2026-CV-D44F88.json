@@ -749,19 +749,19 @@
       ]
     }
   },
+  "extracted_sections": {
+    "crpc": [],
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
   "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 376"
-    ],
-    "bns_mapped": [
-      {
-        "ipc": "IPC 376",
-        "bns": "BNS 64",
-        "change_type": "enhanced",
-        "risk_level": "high"
-      }
-    ],
+    "mapped": [],
     "unmapped_ipc": [],
-    "confidence": "high"
+    "summary": {
+      "total_ipc_found": 0,
+      "mapped_count": 0,
+      "unmapped_count": 0
+    }
   }
 }

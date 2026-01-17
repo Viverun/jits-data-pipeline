@@ -1562,28 +1562,34 @@
       "service": []
     }
   },
+  "extracted_sections": {
+    "crpc": [],
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
   "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 22",
-      "IPC 27",
-      "IPC 406",
-      "IPC 498A",
-      "IPC 94"
-    ],
-    "bns_mapped": [
+    "mapped": [
+      {
+        "ipc": "IPC 406",
+        "bns": "BNS 316",
+        "change_type": "direct",
+        "risk": "low",
+        "offense": "Criminal breach of trust"
+      },
       {
         "ipc": "IPC 498A",
         "bns": "BNS 86",
         "change_type": "modified",
-        "risk_level": "medium"
+        "risk": "medium",
+        "offense": "Cruelty by husband"
       }
     ],
-    "unmapped_ipc": [
-      "IPC 22",
-      "IPC 27",
-      "IPC 406",
-      "IPC 94"
-    ],
-    "confidence": "high"
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 2,
+      "mapped_count": 2,
+      "unmapped_count": 0
+    }
   }
 }

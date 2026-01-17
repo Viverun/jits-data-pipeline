@@ -666,32 +666,6 @@
         "binding_authority": "SC",
         "status": "good_law",
         "relevance_score": 2
-      },
-      {
-        "precedent_id": "BACHAN_SINGH",
-        "full_citation": "Bachan Singh v. State of Punjab, (1980) 2 SCC 684",
-        "short_name": "Bachan Singh",
-        "year": 1980,
-        "court": "Supreme Court",
-        "bench_strength": 5,
-        "legal_principle": "Death penalty - rarest of rare doctrine",
-        "issues": [
-          "sentencing",
-          "death_penalty",
-          "article_21"
-        ],
-        "provisions": [
-          "IPC 302",
-          "Article 21"
-        ],
-        "keywords": [
-          "rarest of rare",
-          "death sentence",
-          "mitigating circumstances"
-        ],
-        "binding_authority": "SC",
-        "status": "good_law",
-        "relevance_score": 1
       }
     ]
   },
@@ -716,58 +690,39 @@
       "service": []
     }
   },
-  "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 07",
-      "IPC 113",
-      "IPC 15",
-      "IPC 161",
-      "IPC 164",
-      "IPC 30",
-      "IPC 306",
-      "IPC 34",
-      "IPC 437",
-      "IPC 66"
+  "extracted_sections": {
+    "crpc": [
+      "161",
+      "164",
+      "306",
+      "437"
     ],
-    "bns_mapped": [
-      {
-        "ipc": "CrPC 161",
-        "bns": "BNSS 180",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "CrPC 164",
-        "bns": "BNSS 183",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
+  "statutory_transitions": {
+    "mapped": [
       {
         "ipc": "IPC 306",
         "bns": "BNS 108",
         "change_type": "modified",
-        "risk_level": "medium"
+        "risk": "medium",
+        "offense": "Abetment of suicide"
       },
       {
         "ipc": "IPC 34",
         "bns": "BNS 3",
         "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "CrPC 437",
-        "bns": "BNSS 483",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
+        "risk": "low",
+        "offense": "Common intention"
       }
     ],
-    "unmapped_ipc": [
-      "IPC 07",
-      "IPC 113",
-      "IPC 15",
-      "IPC 30",
-      "IPC 66"
-    ],
-    "confidence": "high"
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 2,
+      "mapped_count": 2,
+      "unmapped_count": 0
+    }
   }
 }

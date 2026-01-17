@@ -1507,111 +1507,37 @@
       "service": []
     }
   },
-  "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 120",
-      "IPC 147",
-      "IPC 148",
-      "IPC 149",
-      "IPC 173",
-      "IPC 307",
-      "IPC 320",
-      "IPC 323",
-      "IPC 34",
-      "IPC 379",
-      "IPC 420",
-      "IPC 437",
-      "IPC 447",
-      "IPC 452",
-      "IPC 467",
-      "IPC 468",
-      "IPC 471",
-      "IPC 482",
-      "IPC 506"
+  "extracted_sections": {
+    "crpc": [
+      "320",
+      "482"
     ],
-    "bns_mapped": [
-      {
-        "ipc": "IPC 149",
-        "bns": "BNS 191",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "CrPC 173",
-        "bns": "BNSS 193",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
+  "statutory_transitions": {
+    "mapped": [
       {
         "ipc": "IPC 307",
         "bns": "BNS 109",
         "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 323",
-        "bns": "BNS 115",
-        "change_type": "direct",
-        "risk_level": "low"
+        "risk": "low",
+        "offense": "Attempt to murder"
       },
       {
         "ipc": "IPC 34",
         "bns": "BNS 3",
         "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 420",
-        "bns": "BNS 318",
-        "change_type": "enhanced",
-        "risk_level": "high"
-      },
-      {
-        "ipc": "CrPC 437",
-        "bns": "BNSS 483",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 452",
-        "bns": "BNS 331",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 468",
-        "bns": "BNS 336",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 471",
-        "bns": "BNS 340",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "CrPC 482",
-        "bns": "BNSS 528",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 506",
-        "bns": "BNS 351",
-        "change_type": "direct",
-        "risk_level": "low"
+        "risk": "low",
+        "offense": "Common intention"
       }
     ],
-    "unmapped_ipc": [
-      "IPC 120",
-      "IPC 147",
-      "IPC 148",
-      "IPC 320",
-      "IPC 379",
-      "IPC 447",
-      "IPC 467"
-    ],
-    "confidence": "high"
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 2,
+      "mapped_count": 2,
+      "unmapped_count": 0
+    }
   }
 }

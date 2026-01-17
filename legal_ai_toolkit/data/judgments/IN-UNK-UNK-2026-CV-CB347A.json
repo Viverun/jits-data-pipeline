@@ -1568,7 +1568,7 @@
         ],
         "binding_authority": "SC",
         "status": "good_law",
-        "relevance_score": 3
+        "relevance_score": 2
       }
     ]
   },
@@ -1593,101 +1593,61 @@
       "service": []
     }
   },
-  "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 113",
-      "IPC 16",
-      "IPC 1898",
-      "IPC 215",
-      "IPC 221",
-      "IPC 222",
-      "IPC 225",
-      "IPC 23",
-      "IPC 232",
-      "IPC 302",
-      "IPC 304",
-      "IPC 304B",
-      "IPC 306",
-      "IPC 313",
-      "IPC 325",
-      "IPC 335",
-      "IPC 34",
-      "IPC 406",
-      "IPC 407",
-      "IPC 464",
-      "IPC 465",
-      "IPC 498A",
-      "IPC 535",
-      "IPC 537"
+  "extracted_sections": {
+    "crpc": [
+      "222",
+      "313",
+      "464"
     ],
-    "bns_mapped": [
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
+  "statutory_transitions": {
+    "mapped": [
       {
         "ipc": "IPC 302",
         "bns": "BNS 103",
         "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 304",
-        "bns": "BNS 104",
-        "change_type": "modified",
-        "risk_level": "medium"
+        "risk": "low",
+        "offense": "Murder"
       },
       {
         "ipc": "IPC 304B",
         "bns": "BNS 80",
         "change_type": "modified",
-        "risk_level": "medium"
+        "risk": "medium",
+        "offense": "Dowry death"
       },
       {
         "ipc": "IPC 306",
         "bns": "BNS 108",
         "change_type": "modified",
-        "risk_level": "medium"
-      },
-      {
-        "ipc": "CrPC 313",
-        "bns": "BNSS 347",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 325",
-        "bns": "BNS 117",
-        "change_type": "direct",
-        "risk_level": "low"
+        "risk": "medium",
+        "offense": "Abetment of suicide"
       },
       {
         "ipc": "IPC 34",
         "bns": "BNS 3",
         "change_type": "direct",
-        "risk_level": "low"
+        "risk": "low",
+        "offense": "Common intention"
       },
       {
         "ipc": "IPC 498A",
         "bns": "BNS 86",
         "change_type": "modified",
-        "risk_level": "medium"
+        "risk": "medium",
+        "offense": "Cruelty by husband"
       }
     ],
     "unmapped_ipc": [
-      "IPC 113",
-      "IPC 16",
-      "IPC 1898",
-      "IPC 215",
-      "IPC 221",
-      "IPC 222",
-      "IPC 225",
-      "IPC 23",
-      "IPC 232",
-      "IPC 335",
-      "IPC 406",
-      "IPC 407",
-      "IPC 464",
-      "IPC 465",
-      "IPC 535",
-      "IPC 537"
+      "IPC 407"
     ],
-    "confidence": "high"
+    "summary": {
+      "total_ipc_found": 6,
+      "mapped_count": 5,
+      "unmapped_count": 1
+    }
   }
 }

@@ -944,32 +944,6 @@
         "binding_authority": "SC",
         "status": "good_law",
         "relevance_score": 2
-      },
-      {
-        "precedent_id": "BACHAN_SINGH",
-        "full_citation": "Bachan Singh v. State of Punjab, (1980) 2 SCC 684",
-        "short_name": "Bachan Singh",
-        "year": 1980,
-        "court": "Supreme Court",
-        "bench_strength": 5,
-        "legal_principle": "Death penalty - rarest of rare doctrine",
-        "issues": [
-          "sentencing",
-          "death_penalty",
-          "article_21"
-        ],
-        "provisions": [
-          "IPC 302",
-          "Article 21"
-        ],
-        "keywords": [
-          "rarest of rare",
-          "death sentence",
-          "mitigating circumstances"
-        ],
-        "binding_authority": "SC",
-        "status": "good_law",
-        "relevance_score": 1
       }
     ]
   },
@@ -986,163 +960,21 @@
       "service": []
     }
   },
+  "extracted_sections": {
+    "crpc": [
+      "107"
+    ],
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
   "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 107",
-      "IPC 120B",
-      "IPC 146",
-      "IPC 147",
-      "IPC 148",
-      "IPC 149",
-      "IPC 156",
-      "IPC 188",
-      "IPC 287",
-      "IPC 2A",
-      "IPC 30",
-      "IPC 304",
-      "IPC 307",
-      "IPC 323",
-      "IPC 324",
-      "IPC 337",
-      "IPC 338",
-      "IPC 34",
-      "IPC 341",
-      "IPC 353",
-      "IPC 385",
-      "IPC 387",
-      "IPC 392",
-      "IPC 406",
-      "IPC 413",
-      "IPC 414",
-      "IPC 419",
-      "IPC 420",
-      "IPC 424",
-      "IPC 427",
-      "IPC 438",
-      "IPC 447",
-      "IPC 457",
-      "IPC 467",
-      "IPC 468",
-      "IPC 471",
-      "IPC 498A",
-      "IPC 504",
-      "IPC 506",
-      "IPC 51"
-    ],
-    "bns_mapped": [
-      {
-        "ipc": "IPC 120B",
-        "bns": "BNS 61",
-        "change_type": "modified",
-        "risk_level": "medium"
-      },
-      {
-        "ipc": "IPC 149",
-        "bns": "BNS 191",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 304",
-        "bns": "BNS 104",
-        "change_type": "modified",
-        "risk_level": "medium"
-      },
-      {
-        "ipc": "IPC 307",
-        "bns": "BNS 109",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 323",
-        "bns": "BNS 115",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 34",
-        "bns": "BNS 3",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 392",
-        "bns": "BNS 309",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 420",
-        "bns": "BNS 318",
-        "change_type": "enhanced",
-        "risk_level": "high"
-      },
-      {
-        "ipc": "CrPC 438",
-        "bns": "BNSS 484",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 468",
-        "bns": "BNS 336",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 471",
-        "bns": "BNS 340",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 498A",
-        "bns": "BNS 86",
-        "change_type": "modified",
-        "risk_level": "medium"
-      },
-      {
-        "ipc": "IPC 504",
-        "bns": "BNS 356",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 506",
-        "bns": "BNS 351",
-        "change_type": "direct",
-        "risk_level": "low"
-      }
-    ],
-    "unmapped_ipc": [
-      "IPC 107",
-      "IPC 146",
-      "IPC 147",
-      "IPC 148",
-      "IPC 156",
-      "IPC 188",
-      "IPC 287",
-      "IPC 2A",
-      "IPC 30",
-      "IPC 324",
-      "IPC 337",
-      "IPC 338",
-      "IPC 341",
-      "IPC 353",
-      "IPC 385",
-      "IPC 387",
-      "IPC 406",
-      "IPC 413",
-      "IPC 414",
-      "IPC 419",
-      "IPC 424",
-      "IPC 427",
-      "IPC 447",
-      "IPC 457",
-      "IPC 467",
-      "IPC 51"
-    ],
-    "confidence": "high"
+    "mapped": [],
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 0,
+      "mapped_count": 0,
+      "unmapped_count": 0
+    }
   }
 }

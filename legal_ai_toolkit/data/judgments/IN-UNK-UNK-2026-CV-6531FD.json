@@ -1693,32 +1693,23 @@
       "service": []
     }
   },
+  "extracted_sections": {
+    "crpc": [
+      "91"
+    ],
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
   "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 19",
-      "IPC 20",
-      "IPC 21",
-      "IPC 23",
-      "IPC 24",
-      "IPC 27A",
-      "IPC 37",
-      "IPC 397",
-      "IPC 528",
-      "IPC 91"
-    ],
-    "bns_mapped": [],
+    "mapped": [],
     "unmapped_ipc": [
-      "IPC 19",
-      "IPC 20",
-      "IPC 21",
-      "IPC 23",
-      "IPC 24",
-      "IPC 27A",
-      "IPC 37",
-      "IPC 397",
-      "IPC 528",
-      "IPC 91"
+      "IPC 397"
     ],
-    "confidence": "low"
+    "summary": {
+      "total_ipc_found": 1,
+      "mapped_count": 0,
+      "unmapped_count": 1
+    }
   }
 }

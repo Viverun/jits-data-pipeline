@@ -1013,46 +1013,19 @@
       "service": []
     }
   },
+  "extracted_sections": {
+    "crpc": [],
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
   "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 11",
-      "IPC 13",
-      "IPC 20",
-      "IPC 24",
-      "IPC 323",
-      "IPC 379",
-      "IPC 397",
-      "IPC 420",
-      "IPC 498A"
-    ],
-    "bns_mapped": [
-      {
-        "ipc": "IPC 323",
-        "bns": "BNS 115",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 420",
-        "bns": "BNS 318",
-        "change_type": "enhanced",
-        "risk_level": "high"
-      },
-      {
-        "ipc": "IPC 498A",
-        "bns": "BNS 86",
-        "change_type": "modified",
-        "risk_level": "medium"
-      }
-    ],
-    "unmapped_ipc": [
-      "IPC 11",
-      "IPC 13",
-      "IPC 20",
-      "IPC 24",
-      "IPC 379",
-      "IPC 397"
-    ],
-    "confidence": "high"
+    "mapped": [],
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 0,
+      "mapped_count": 0,
+      "unmapped_count": 0
+    }
   }
 }

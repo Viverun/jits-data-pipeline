@@ -1874,47 +1874,52 @@
       ]
     }
   },
-  "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 304B",
-      "IPC 313",
-      "IPC 389",
-      "IPC 406",
-      "IPC 411",
-      "IPC 439",
-      "IPC 498A"
+  "extracted_sections": {
+    "crpc": [
+      "313",
+      "389",
+      "439"
     ],
-    "bns_mapped": [
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
+  "statutory_transitions": {
+    "mapped": [
       {
         "ipc": "IPC 304B",
         "bns": "BNS 80",
         "change_type": "modified",
-        "risk_level": "medium"
+        "risk": "medium",
+        "offense": "Dowry death"
       },
       {
-        "ipc": "CrPC 313",
-        "bns": "BNSS 347",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
+        "ipc": "IPC 406",
+        "bns": "BNS 316",
+        "change_type": "direct",
+        "risk": "low",
+        "offense": "Criminal breach of trust"
       },
       {
-        "ipc": "CrPC 439",
-        "bns": "BNSS 485",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
+        "ipc": "IPC 411",
+        "bns": "BNS 317",
+        "change_type": "direct",
+        "risk": "low",
+        "offense": "Dishonestly receiving stolen property"
       },
       {
         "ipc": "IPC 498A",
         "bns": "BNS 86",
         "change_type": "modified",
-        "risk_level": "medium"
+        "risk": "medium",
+        "offense": "Cruelty by husband"
       }
     ],
-    "unmapped_ipc": [
-      "IPC 389",
-      "IPC 406",
-      "IPC 411"
-    ],
-    "confidence": "high"
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 4,
+      "mapped_count": 4,
+      "unmapped_count": 0
+    }
   }
 }

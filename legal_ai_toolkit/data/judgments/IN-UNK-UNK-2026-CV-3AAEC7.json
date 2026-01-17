@@ -876,7 +876,7 @@
         ],
         "binding_authority": "SC",
         "status": "good_law",
-        "relevance_score": 3
+        "relevance_score": 2
       }
     ]
   },
@@ -895,65 +895,36 @@
       "service": []
     }
   },
+  "extracted_sections": {
+    "crpc": [],
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
   "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 120",
-      "IPC 145",
-      "IPC 147",
-      "IPC 17",
-      "IPC 25",
-      "IPC 302",
-      "IPC 304",
-      "IPC 311",
-      "IPC 380",
-      "IPC 387",
-      "IPC 392",
-      "IPC 395",
-      "IPC 399",
-      "IPC 411",
-      "IPC 414",
-      "IPC 457"
-    ],
-    "bns_mapped": [
+    "mapped": [
       {
         "ipc": "IPC 302",
         "bns": "BNS 103",
         "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 304",
-        "bns": "BNS 104",
-        "change_type": "modified",
-        "risk_level": "medium"
+        "risk": "low",
+        "offense": "Murder"
       },
       {
         "ipc": "IPC 392",
         "bns": "BNS 309",
         "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 395",
-        "bns": "BNS 310",
-        "change_type": "direct",
-        "risk_level": "low"
+        "risk": "low",
+        "offense": "Robbery"
       }
     ],
     "unmapped_ipc": [
-      "IPC 120",
-      "IPC 145",
-      "IPC 147",
-      "IPC 17",
-      "IPC 25",
-      "IPC 311",
-      "IPC 380",
-      "IPC 387",
-      "IPC 399",
-      "IPC 411",
-      "IPC 414",
-      "IPC 457"
+      "IPC 387"
     ],
-    "confidence": "high"
+    "summary": {
+      "total_ipc_found": 3,
+      "mapped_count": 2,
+      "unmapped_count": 1
+    }
   }
 }

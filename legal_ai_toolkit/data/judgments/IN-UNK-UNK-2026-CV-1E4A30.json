@@ -1915,62 +1915,55 @@
       "service": []
     }
   },
+  "extracted_sections": {
+    "crpc": [],
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
   "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 113",
-      "IPC 114",
-      "IPC 13",
-      "IPC 14",
-      "IPC 19",
-      "IPC 294",
-      "IPC 304",
-      "IPC 304B",
-      "IPC 306",
-      "IPC 439",
-      "IPC 498",
-      "IPC 498A"
-    ],
-    "bns_mapped": [
+    "mapped": [
       {
-        "ipc": "IPC 304",
-        "bns": "BNS 104",
+        "ipc": "IPC 114",
+        "bns": "BNS 52",
+        "change_type": "direct",
+        "risk": "low",
+        "offense": "Abettor present when offence is committed"
+      },
+      {
+        "ipc": "IPC 304-B",
+        "bns": "BNS 80",
         "change_type": "modified",
-        "risk_level": "medium"
+        "risk": "medium",
+        "offense": "Dowry death"
       },
       {
         "ipc": "IPC 304B",
         "bns": "BNS 80",
         "change_type": "modified",
-        "risk_level": "medium"
+        "risk": "medium",
+        "offense": "Dowry death"
       },
       {
         "ipc": "IPC 306",
         "bns": "BNS 108",
         "change_type": "modified",
-        "risk_level": "medium"
-      },
-      {
-        "ipc": "CrPC 439",
-        "bns": "BNSS 485",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
+        "risk": "medium",
+        "offense": "Abetment of suicide"
       },
       {
         "ipc": "IPC 498A",
         "bns": "BNS 86",
         "change_type": "modified",
-        "risk_level": "medium"
+        "risk": "medium",
+        "offense": "Cruelty by husband"
       }
     ],
-    "unmapped_ipc": [
-      "IPC 113",
-      "IPC 114",
-      "IPC 13",
-      "IPC 14",
-      "IPC 19",
-      "IPC 294",
-      "IPC 498"
-    ],
-    "confidence": "high"
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 5,
+      "mapped_count": 5,
+      "unmapped_count": 0
+    }
   }
 }

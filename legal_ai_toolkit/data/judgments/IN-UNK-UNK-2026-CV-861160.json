@@ -125,33 +125,27 @@
       "service": []
     }
   },
+  "extracted_sections": {
+    "crpc": [],
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
   "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 304",
-      "IPC 304B",
-      "IPC 498A"
-    ],
-    "bns_mapped": [
+    "mapped": [
       {
         "ipc": "IPC 304",
         "bns": "BNS 104",
         "change_type": "modified",
-        "risk_level": "medium"
-      },
-      {
-        "ipc": "IPC 304B",
-        "bns": "BNS 80",
-        "change_type": "modified",
-        "risk_level": "medium"
-      },
-      {
-        "ipc": "IPC 498A",
-        "bns": "BNS 86",
-        "change_type": "modified",
-        "risk_level": "medium"
+        "risk": "medium",
+        "offense": "Culpable homicide not amounting to murder"
       }
     ],
     "unmapped_ipc": [],
-    "confidence": "high"
+    "summary": {
+      "total_ipc_found": 1,
+      "mapped_count": 1,
+      "unmapped_count": 0
+    }
   }
 }

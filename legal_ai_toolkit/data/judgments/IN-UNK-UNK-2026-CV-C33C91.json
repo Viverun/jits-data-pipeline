@@ -1552,48 +1552,37 @@
       "service": []
     }
   },
-  "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 109",
-      "IPC 173",
-      "IPC 190",
-      "IPC 21",
-      "IPC 22",
-      "IPC 32",
-      "IPC 34",
-      "IPC 378",
-      "IPC 379",
-      "IPC 482"
+  "extracted_sections": {
+    "crpc": [
+      "173",
+      "482"
     ],
-    "bns_mapped": [
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
+  "statutory_transitions": {
+    "mapped": [
       {
-        "ipc": "CrPC 173",
-        "bns": "BNSS 193",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 34",
-        "bns": "BNS 3",
+        "ipc": "IPC 378",
+        "bns": "BNS 303(1)",
         "change_type": "direct",
-        "risk_level": "low"
+        "risk": "low",
+        "offense": "Theft definition"
       },
       {
-        "ipc": "CrPC 482",
-        "bns": "BNSS 528",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
+        "ipc": "IPC 379",
+        "bns": "BNS 303(2)",
+        "change_type": "direct",
+        "risk": "low",
+        "offense": "Punishment for theft"
       }
     ],
-    "unmapped_ipc": [
-      "IPC 109",
-      "IPC 190",
-      "IPC 21",
-      "IPC 22",
-      "IPC 32",
-      "IPC 378",
-      "IPC 379"
-    ],
-    "confidence": "high"
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 2,
+      "mapped_count": 2,
+      "unmapped_count": 0
+    }
   }
 }

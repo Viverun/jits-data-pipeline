@@ -1326,34 +1326,7 @@
         "matched_by": "year_reporter"
       }
     ],
-    "suggested_precedents": [
-      {
-        "precedent_id": "BACHAN_SINGH",
-        "full_citation": "Bachan Singh v. State of Punjab, (1980) 2 SCC 684",
-        "short_name": "Bachan Singh",
-        "year": 1980,
-        "court": "Supreme Court",
-        "bench_strength": 5,
-        "legal_principle": "Death penalty - rarest of rare doctrine",
-        "issues": [
-          "sentencing",
-          "death_penalty",
-          "article_21"
-        ],
-        "provisions": [
-          "IPC 302",
-          "Article 21"
-        ],
-        "keywords": [
-          "rarest of rare",
-          "death sentence",
-          "mitigating circumstances"
-        ],
-        "binding_authority": "SC",
-        "status": "good_law",
-        "relevance_score": 1
-      }
-    ]
+    "suggested_precedents": []
   },
   "classification": {
     "domain": "mixed",
@@ -1379,150 +1352,31 @@
       "service": []
     }
   },
-  "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 136",
-      "IPC 147",
-      "IPC 148",
-      "IPC 149",
-      "IPC 155",
-      "IPC 156",
-      "IPC 173",
-      "IPC 20",
-      "IPC 21",
-      "IPC 226",
-      "IPC 227",
-      "IPC 27",
-      "IPC 285",
-      "IPC 302",
-      "IPC 306",
-      "IPC 307",
-      "IPC 320",
-      "IPC 323",
-      "IPC 324",
-      "IPC 325",
-      "IPC 376",
-      "IPC 420",
-      "IPC 427",
-      "IPC 452",
-      "IPC 467",
-      "IPC 468",
-      "IPC 471",
-      "IPC 482",
-      "IPC 498",
-      "IPC 504",
-      "IPC 506"
+  "extracted_sections": {
+    "crpc": [
+      "173",
+      "320",
+      "482"
     ],
-    "bns_mapped": [
-      {
-        "ipc": "IPC 149",
-        "bns": "BNS 191",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "CrPC 173",
-        "bns": "BNSS 193",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 302",
-        "bns": "BNS 103",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 306",
-        "bns": "BNS 108",
-        "change_type": "modified",
-        "risk_level": "medium"
-      },
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
+  "statutory_transitions": {
+    "mapped": [
       {
         "ipc": "IPC 307",
         "bns": "BNS 109",
         "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 323",
-        "bns": "BNS 115",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 325",
-        "bns": "BNS 117",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 376",
-        "bns": "BNS 64",
-        "change_type": "enhanced",
-        "risk_level": "high"
-      },
-      {
-        "ipc": "IPC 420",
-        "bns": "BNS 318",
-        "change_type": "enhanced",
-        "risk_level": "high"
-      },
-      {
-        "ipc": "IPC 452",
-        "bns": "BNS 331",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 468",
-        "bns": "BNS 336",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 471",
-        "bns": "BNS 340",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "CrPC 482",
-        "bns": "BNSS 528",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 504",
-        "bns": "BNS 356",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 506",
-        "bns": "BNS 351",
-        "change_type": "direct",
-        "risk_level": "low"
+        "risk": "low",
+        "offense": "Attempt to murder"
       }
     ],
-    "unmapped_ipc": [
-      "IPC 136",
-      "IPC 147",
-      "IPC 148",
-      "IPC 155",
-      "IPC 156",
-      "IPC 20",
-      "IPC 21",
-      "IPC 226",
-      "IPC 227",
-      "IPC 27",
-      "IPC 285",
-      "IPC 320",
-      "IPC 324",
-      "IPC 427",
-      "IPC 467",
-      "IPC 498"
-    ],
-    "confidence": "high"
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 1,
+      "mapped_count": 1,
+      "unmapped_count": 0
+    }
   }
 }

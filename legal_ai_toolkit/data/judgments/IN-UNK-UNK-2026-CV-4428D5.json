@@ -1494,7 +1494,7 @@
         ],
         "binding_authority": "SC",
         "status": "good_law",
-        "relevance_score": 3
+        "relevance_score": 2
       }
     ]
   },
@@ -1517,65 +1517,52 @@
       "service": []
     }
   },
-  "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 106",
-      "IPC 113B",
-      "IPC 173",
-      "IPC 201",
-      "IPC 24TH",
-      "IPC 302",
-      "IPC 304",
-      "IPC 304B",
-      "IPC 306",
-      "IPC 498",
-      "IPC 498A"
+  "extracted_sections": {
+    "crpc": [],
+    "iea": [
+      "106",
+      "113B",
+      "4"
     ],
-    "bns_mapped": [
-      {
-        "ipc": "CrPC 173",
-        "bns": "BNSS 193",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
+    "pc_act": [],
+    "ni_act": []
+  },
+  "statutory_transitions": {
+    "mapped": [
       {
         "ipc": "IPC 302",
         "bns": "BNS 103",
         "change_type": "direct",
-        "risk_level": "low"
+        "risk": "low",
+        "offense": "Murder"
       },
       {
-        "ipc": "IPC 304",
-        "bns": "BNS 104",
+        "ipc": "IPC 304-B",
+        "bns": "BNS 80",
         "change_type": "modified",
-        "risk_level": "medium"
+        "risk": "medium",
+        "offense": "Dowry death"
       },
       {
         "ipc": "IPC 304B",
         "bns": "BNS 80",
         "change_type": "modified",
-        "risk_level": "medium"
+        "risk": "medium",
+        "offense": "Dowry death"
       },
       {
         "ipc": "IPC 306",
         "bns": "BNS 108",
         "change_type": "modified",
-        "risk_level": "medium"
-      },
-      {
-        "ipc": "IPC 498A",
-        "bns": "BNS 86",
-        "change_type": "modified",
-        "risk_level": "medium"
+        "risk": "medium",
+        "offense": "Abetment of suicide"
       }
     ],
-    "unmapped_ipc": [
-      "IPC 106",
-      "IPC 113B",
-      "IPC 201",
-      "IPC 24TH",
-      "IPC 498"
-    ],
-    "confidence": "high"
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 4,
+      "mapped_count": 4,
+      "unmapped_count": 0
+    }
   }
 }

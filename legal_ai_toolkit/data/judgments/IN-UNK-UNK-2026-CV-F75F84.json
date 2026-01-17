@@ -806,7 +806,7 @@
         ],
         "binding_authority": "SC",
         "status": "good_law",
-        "relevance_score": 3
+        "relevance_score": 2
       },
       {
         "precedent_id": "ARNESH_KUMAR",
@@ -857,93 +857,60 @@
       "service": []
     }
   },
-  "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 109",
-      "IPC 147",
-      "IPC 148",
-      "IPC 149",
-      "IPC 232",
-      "IPC 25",
-      "IPC 26",
-      "IPC 27",
-      "IPC 29",
-      "IPC 302",
-      "IPC 307",
-      "IPC 313",
-      "IPC 323",
-      "IPC 325",
-      "IPC 34",
-      "IPC 39",
-      "IPC 437",
-      "IPC 464",
-      "IPC 535",
-      "IPC 537"
+  "extracted_sections": {
+    "crpc": [
+      "313",
+      "464"
     ],
-    "bns_mapped": [
+    "iea": [
+      "26"
+    ],
+    "pc_act": [],
+    "ni_act": []
+  },
+  "statutory_transitions": {
+    "mapped": [
+      {
+        "ipc": "IPC 109",
+        "bns": "BNS 48",
+        "change_type": "direct",
+        "risk": "low",
+        "offense": "Punishment of abetment"
+      },
       {
         "ipc": "IPC 149",
         "bns": "BNS 191",
         "change_type": "direct",
-        "risk_level": "low"
+        "risk": "low",
+        "offense": "Unlawful assembly"
       },
       {
         "ipc": "IPC 302",
         "bns": "BNS 103",
         "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 307",
-        "bns": "BNS 109",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "CrPC 313",
-        "bns": "BNSS 347",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 323",
-        "bns": "BNS 115",
-        "change_type": "direct",
-        "risk_level": "low"
+        "risk": "low",
+        "offense": "Murder"
       },
       {
         "ipc": "IPC 325",
         "bns": "BNS 117",
         "change_type": "direct",
-        "risk_level": "low"
+        "risk": "low",
+        "offense": "Voluntarily causing grievous hurt"
       },
       {
         "ipc": "IPC 34",
         "bns": "BNS 3",
         "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "CrPC 437",
-        "bns": "BNSS 483",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
+        "risk": "low",
+        "offense": "Common intention"
       }
     ],
-    "unmapped_ipc": [
-      "IPC 109",
-      "IPC 147",
-      "IPC 148",
-      "IPC 232",
-      "IPC 25",
-      "IPC 26",
-      "IPC 27",
-      "IPC 29",
-      "IPC 39",
-      "IPC 464",
-      "IPC 535",
-      "IPC 537"
-    ],
-    "confidence": "high"
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 5,
+      "mapped_count": 5,
+      "unmapped_count": 0
+    }
   }
 }

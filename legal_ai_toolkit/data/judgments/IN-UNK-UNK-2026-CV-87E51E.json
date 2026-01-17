@@ -5278,96 +5278,25 @@
       ]
     }
   },
+  "extracted_sections": {
+    "crpc": [
+      "173",
+      "227",
+      "320",
+      "438",
+      "482"
+    ],
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
   "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 120B",
-      "IPC 154",
-      "IPC 155",
-      "IPC 156",
-      "IPC 173",
-      "IPC 178",
-      "IPC 190",
-      "IPC 195",
-      "IPC 22",
-      "IPC 226",
-      "IPC 227",
-      "IPC 28",
-      "IPC 320",
-      "IPC 340",
-      "IPC 406",
-      "IPC 420",
-      "IPC 438",
-      "IPC 465",
-      "IPC 468",
-      "IPC 471",
-      "IPC 482",
-      "IPC 491",
-      "IPC 50",
-      "IPC 561"
-    ],
-    "bns_mapped": [
-      {
-        "ipc": "IPC 120B",
-        "bns": "BNS 61",
-        "change_type": "modified",
-        "risk_level": "medium"
-      },
-      {
-        "ipc": "CrPC 173",
-        "bns": "BNSS 193",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 420",
-        "bns": "BNS 318",
-        "change_type": "enhanced",
-        "risk_level": "high"
-      },
-      {
-        "ipc": "CrPC 438",
-        "bns": "BNSS 484",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 468",
-        "bns": "BNS 336",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 471",
-        "bns": "BNS 340",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "CrPC 482",
-        "bns": "BNSS 528",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      }
-    ],
-    "unmapped_ipc": [
-      "IPC 154",
-      "IPC 155",
-      "IPC 156",
-      "IPC 178",
-      "IPC 190",
-      "IPC 195",
-      "IPC 22",
-      "IPC 226",
-      "IPC 227",
-      "IPC 28",
-      "IPC 320",
-      "IPC 340",
-      "IPC 406",
-      "IPC 465",
-      "IPC 491",
-      "IPC 50",
-      "IPC 561"
-    ],
-    "confidence": "high"
+    "mapped": [],
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 0,
+      "mapped_count": 0,
+      "unmapped_count": 0
+    }
   }
 }

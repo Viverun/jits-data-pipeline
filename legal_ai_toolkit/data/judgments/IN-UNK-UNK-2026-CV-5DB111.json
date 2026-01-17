@@ -2476,65 +2476,43 @@
       "service": []
     }
   },
-  "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 12",
-      "IPC 138",
-      "IPC 17",
-      "IPC 172",
-      "IPC 173",
-      "IPC 174",
-      "IPC 174A",
-      "IPC 18",
-      "IPC 188",
-      "IPC 190",
-      "IPC 195",
-      "IPC 196",
-      "IPC 198",
-      "IPC 200",
-      "IPC 209",
-      "IPC 21",
-      "IPC 215",
-      "IPC 23",
-      "IPC 24",
-      "IPC 482",
-      "IPC 82"
+  "extracted_sections": {
+    "crpc": [
+      "173",
+      "195",
+      "200",
+      "482",
+      "82"
     ],
-    "bns_mapped": [
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
+  "statutory_transitions": {
+    "mapped": [
       {
-        "ipc": "CrPC 173",
-        "bns": "BNSS 193",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
+        "ipc": "IPC 174-A",
+        "bns": "BNS 211",
+        "change_type": "direct",
+        "risk": "low",
+        "offense": "Non-appearance in response to a proclamation"
       },
       {
-        "ipc": "CrPC 482",
-        "bns": "BNSS 528",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
+        "ipc": "IPC 174A",
+        "bns": "BNS 211",
+        "change_type": "direct",
+        "risk": "low",
+        "offense": "Non-appearance in response to a proclamation"
       }
     ],
     "unmapped_ipc": [
-      "IPC 12",
-      "IPC 138",
-      "IPC 17",
-      "IPC 172",
-      "IPC 174",
-      "IPC 174A",
-      "IPC 18",
       "IPC 188",
-      "IPC 190",
-      "IPC 195",
-      "IPC 196",
-      "IPC 198",
-      "IPC 200",
-      "IPC 209",
-      "IPC 21",
-      "IPC 215",
-      "IPC 23",
-      "IPC 24",
-      "IPC 82"
+      "IPC 21"
     ],
-    "confidence": "high"
+    "summary": {
+      "total_ipc_found": 4,
+      "mapped_count": 2,
+      "unmapped_count": 2
+    }
   }
 }

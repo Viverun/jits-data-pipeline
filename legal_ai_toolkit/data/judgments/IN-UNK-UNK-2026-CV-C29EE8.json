@@ -6148,99 +6148,28 @@
       ]
     }
   },
+  "extracted_sections": {
+    "crpc": [
+      "154",
+      "156",
+      "200",
+      "397",
+      "460",
+      "482"
+    ],
+    "iea": [],
+    "pc_act": [],
+    "ni_act": [
+      "138"
+    ]
+  },
   "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 101",
-      "IPC 120",
-      "IPC 138",
-      "IPC 154",
-      "IPC 155",
-      "IPC 156",
-      "IPC 1881",
-      "IPC 200",
-      "IPC 34",
-      "IPC 342",
-      "IPC 397",
-      "IPC 406",
-      "IPC 408",
-      "IPC 409",
-      "IPC 41",
-      "IPC 417",
-      "IPC 418",
-      "IPC 420",
-      "IPC 460",
-      "IPC 465",
-      "IPC 466",
-      "IPC 467",
-      "IPC 468",
-      "IPC 471",
-      "IPC 482",
-      "IPC 604",
-      "IPC 88",
-      "IPC 98"
-    ],
-    "bns_mapped": [
-      {
-        "ipc": "IPC 34",
-        "bns": "BNS 3",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 409",
-        "bns": "BNS 316",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 420",
-        "bns": "BNS 318",
-        "change_type": "enhanced",
-        "risk_level": "high"
-      },
-      {
-        "ipc": "IPC 468",
-        "bns": "BNS 336",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 471",
-        "bns": "BNS 340",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "CrPC 482",
-        "bns": "BNSS 528",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      }
-    ],
-    "unmapped_ipc": [
-      "IPC 101",
-      "IPC 120",
-      "IPC 138",
-      "IPC 154",
-      "IPC 155",
-      "IPC 156",
-      "IPC 1881",
-      "IPC 200",
-      "IPC 342",
-      "IPC 397",
-      "IPC 406",
-      "IPC 408",
-      "IPC 41",
-      "IPC 417",
-      "IPC 418",
-      "IPC 460",
-      "IPC 465",
-      "IPC 466",
-      "IPC 467",
-      "IPC 604",
-      "IPC 88",
-      "IPC 98"
-    ],
-    "confidence": "high"
+    "mapped": [],
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 0,
+      "mapped_count": 0,
+      "unmapped_count": 0
+    }
   }
 }

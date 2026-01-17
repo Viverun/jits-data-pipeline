@@ -3434,7 +3434,7 @@
         ],
         "binding_authority": "SC",
         "status": "good_law",
-        "relevance_score": 3
+        "relevance_score": 2
       }
     ]
   },
@@ -3460,69 +3460,43 @@
       "service": []
     }
   },
-  "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 105",
-      "IPC 19",
-      "IPC 201",
-      "IPC 207",
-      "IPC 21",
-      "IPC 235",
-      "IPC 25",
-      "IPC 30",
-      "IPC 302",
-      "IPC 303",
-      "IPC 307",
-      "IPC 309",
-      "IPC 313",
-      "IPC 354",
-      "IPC 366",
-      "IPC 43",
-      "IPC 449",
-      "IPC 84"
+  "extracted_sections": {
+    "crpc": [
+      "207",
+      "313",
+      "354",
+      "366",
+      "43"
     ],
-    "bns_mapped": [
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
+  "statutory_transitions": {
+    "mapped": [
       {
         "ipc": "IPC 302",
         "bns": "BNS 103",
         "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 307",
-        "bns": "BNS 109",
-        "change_type": "direct",
-        "risk_level": "low"
+        "risk": "low",
+        "offense": "Murder"
       },
       {
         "ipc": "IPC 309",
         "bns": "BNS 309",
         "change_type": "repealed",
-        "risk_level": "high"
-      },
-      {
-        "ipc": "CrPC 313",
-        "bns": "BNSS 347",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
+        "risk": "high",
+        "offense": "Attempt to suicide - REPEALED"
       }
     ],
     "unmapped_ipc": [
-      "IPC 105",
-      "IPC 19",
-      "IPC 201",
-      "IPC 207",
-      "IPC 21",
-      "IPC 235",
-      "IPC 25",
-      "IPC 30",
       "IPC 303",
-      "IPC 354",
-      "IPC 366",
-      "IPC 43",
-      "IPC 449",
       "IPC 84"
     ],
-    "confidence": "high"
+    "summary": {
+      "total_ipc_found": 4,
+      "mapped_count": 2,
+      "unmapped_count": 2
+    }
   }
 }

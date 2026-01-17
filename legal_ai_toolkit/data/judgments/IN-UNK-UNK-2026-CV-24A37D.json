@@ -291,24 +291,27 @@
       "service": []
     }
   },
+  "extracted_sections": {
+    "crpc": [],
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
   "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 376",
-      "IPC 67",
-      "IPC 67A"
-    ],
-    "bns_mapped": [
+    "mapped": [
       {
         "ipc": "IPC 376",
         "bns": "BNS 64",
         "change_type": "enhanced",
-        "risk_level": "high"
+        "risk": "high",
+        "offense": "Rape"
       }
     ],
-    "unmapped_ipc": [
-      "IPC 67",
-      "IPC 67A"
-    ],
-    "confidence": "high"
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 1,
+      "mapped_count": 1,
+      "unmapped_count": 0
+    }
   }
 }

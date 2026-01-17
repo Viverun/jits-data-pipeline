@@ -880,35 +880,24 @@
       "service": []
     }
   },
+  "extracted_sections": {
+    "crpc": [
+      "320",
+      "482"
+    ],
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
   "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 304",
-      "IPC 311",
-      "IPC 320",
-      "IPC 341",
-      "IPC 379",
-      "IPC 482"
-    ],
-    "bns_mapped": [
-      {
-        "ipc": "IPC 304",
-        "bns": "BNS 104",
-        "change_type": "modified",
-        "risk_level": "medium"
-      },
-      {
-        "ipc": "CrPC 482",
-        "bns": "BNSS 528",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      }
-    ],
+    "mapped": [],
     "unmapped_ipc": [
-      "IPC 311",
-      "IPC 320",
-      "IPC 341",
-      "IPC 379"
+      "IPC 379-B"
     ],
-    "confidence": "high"
+    "summary": {
+      "total_ipc_found": 1,
+      "mapped_count": 0,
+      "unmapped_count": 1
+    }
   }
 }

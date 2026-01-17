@@ -263,33 +263,31 @@
       "service": []
     }
   },
-  "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 107",
-      "IPC 113A",
-      "IPC 306",
-      "IPC 377",
-      "IPC 498A"
+  "extracted_sections": {
+    "crpc": [
+      "377"
     ],
-    "bns_mapped": [
+    "iea": [
+      "113A"
+    ],
+    "pc_act": [],
+    "ni_act": []
+  },
+  "statutory_transitions": {
+    "mapped": [
       {
         "ipc": "IPC 306",
         "bns": "BNS 108",
         "change_type": "modified",
-        "risk_level": "medium"
-      },
-      {
-        "ipc": "IPC 498A",
-        "bns": "BNS 86",
-        "change_type": "modified",
-        "risk_level": "medium"
+        "risk": "medium",
+        "offense": "Abetment of suicide"
       }
     ],
-    "unmapped_ipc": [
-      "IPC 107",
-      "IPC 113A",
-      "IPC 377"
-    ],
-    "confidence": "high"
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 1,
+      "mapped_count": 1,
+      "unmapped_count": 0
+    }
   }
 }

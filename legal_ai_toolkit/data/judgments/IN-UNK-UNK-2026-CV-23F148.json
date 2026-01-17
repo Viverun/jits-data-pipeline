@@ -753,34 +753,27 @@
       "service": []
     }
   },
+  "extracted_sections": {
+    "crpc": [],
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
   "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 110",
-      "IPC 13",
-      "IPC 14",
-      "IPC 20",
-      "IPC 23",
-      "IPC 25",
-      "IPC 27",
-      "IPC 498A"
-    ],
-    "bns_mapped": [
+    "mapped": [
       {
         "ipc": "IPC 498A",
         "bns": "BNS 86",
         "change_type": "modified",
-        "risk_level": "medium"
+        "risk": "medium",
+        "offense": "Cruelty by husband"
       }
     ],
-    "unmapped_ipc": [
-      "IPC 110",
-      "IPC 13",
-      "IPC 14",
-      "IPC 20",
-      "IPC 23",
-      "IPC 25",
-      "IPC 27"
-    ],
-    "confidence": "high"
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 1,
+      "mapped_count": 1,
+      "unmapped_count": 0
+    }
   }
 }

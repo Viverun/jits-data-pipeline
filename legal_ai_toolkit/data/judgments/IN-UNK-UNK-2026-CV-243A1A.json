@@ -326,7 +326,7 @@
         ],
         "binding_authority": "SC",
         "status": "good_law",
-        "relevance_score": 3
+        "relevance_score": 2
       }
     ]
   },
@@ -347,42 +347,45 @@
       "service": []
     }
   },
-  "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 113B",
-      "IPC 114",
-      "IPC 30",
-      "IPC 304",
-      "IPC 304B",
-      "IPC 498",
-      "IPC 498A"
+  "extracted_sections": {
+    "crpc": [],
+    "iea": [
+      "113B"
     ],
-    "bns_mapped": [
+    "pc_act": [],
+    "ni_act": []
+  },
+  "statutory_transitions": {
+    "mapped": [
       {
-        "ipc": "IPC 304",
-        "bns": "BNS 104",
+        "ipc": "IPC 304-B",
+        "bns": "BNS 80",
         "change_type": "modified",
-        "risk_level": "medium"
+        "risk": "medium",
+        "offense": "Dowry death"
       },
       {
         "ipc": "IPC 304B",
         "bns": "BNS 80",
         "change_type": "modified",
-        "risk_level": "medium"
+        "risk": "medium",
+        "offense": "Dowry death"
       },
       {
         "ipc": "IPC 498A",
         "bns": "BNS 86",
         "change_type": "modified",
-        "risk_level": "medium"
+        "risk": "medium",
+        "offense": "Cruelty by husband"
       }
     ],
     "unmapped_ipc": [
-      "IPC 113B",
-      "IPC 114",
-      "IPC 30",
-      "IPC 498"
+      "IPC 30"
     ],
-    "confidence": "high"
+    "summary": {
+      "total_ipc_found": 4,
+      "mapped_count": 3,
+      "unmapped_count": 1
+    }
   }
 }

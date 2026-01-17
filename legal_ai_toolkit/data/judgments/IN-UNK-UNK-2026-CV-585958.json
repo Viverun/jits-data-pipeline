@@ -2092,7 +2092,7 @@
         ],
         "binding_authority": "SC",
         "status": "good_law",
-        "relevance_score": 3
+        "relevance_score": 2
       }
     ]
   },
@@ -2123,313 +2123,44 @@
       ]
     }
   },
-  "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 04",
-      "IPC 05",
-      "IPC 107",
-      "IPC 110",
-      "IPC 115",
-      "IPC 120",
-      "IPC 120B",
-      "IPC 13",
-      "IPC 138",
-      "IPC 147",
-      "IPC 147KHA",
-      "IPC 148",
-      "IPC 149",
-      "IPC 156",
-      "IPC 161",
-      "IPC 164",
-      "IPC 169",
-      "IPC 173",
-      "IPC 174",
-      "IPC 18",
-      "IPC 182",
-      "IPC 198",
-      "IPC 198KA",
-      "IPC 201",
-      "IPC 21",
-      "IPC 22",
-      "IPC 223",
-      "IPC 247",
-      "IPC 26",
-      "IPC 279",
-      "IPC 30",
-      "IPC 302",
-      "IPC 304",
-      "IPC 304A",
-      "IPC 307",
-      "IPC 308",
-      "IPC 313",
-      "IPC 323",
-      "IPC 324",
-      "IPC 325",
-      "IPC 328",
-      "IPC 332",
-      "IPC 336",
-      "IPC 34",
-      "IPC 341",
-      "IPC 342",
-      "IPC 352",
-      "IPC 353",
-      "IPC 354",
-      "IPC 354B",
-      "IPC 354GHA",
-      "IPC 354KA",
-      "IPC 354KH",
-      "IPC 354KHA",
-      "IPC 363",
-      "IPC 364",
-      "IPC 366",
-      "IPC 367",
-      "IPC 376",
-      "IPC 376D",
-      "IPC 379",
-      "IPC 380",
-      "IPC 386",
-      "IPC 392",
-      "IPC 394",
-      "IPC 395",
-      "IPC 397",
-      "IPC 406",
-      "IPC 41",
-      "IPC 419",
-      "IPC 420",
-      "IPC 427",
-      "IPC 435",
-      "IPC 436",
-      "IPC 447",
-      "IPC 452",
-      "IPC 457",
-      "IPC 467",
-      "IPC 468",
-      "IPC 471",
-      "IPC 482",
-      "IPC 494",
-      "IPC 504",
-      "IPC 505",
-      "IPC 506",
-      "IPC 5061PC",
-      "IPC 507",
-      "IPC 508",
-      "IPC 511",
-      "IPC 8I"
+  "extracted_sections": {
+    "crpc": [
+      "161",
+      "164",
+      "169",
+      "173",
+      "482"
     ],
-    "bns_mapped": [
-      {
-        "ipc": "IPC 120B",
-        "bns": "BNS 61",
-        "change_type": "modified",
-        "risk_level": "medium"
-      },
-      {
-        "ipc": "IPC 149",
-        "bns": "BNS 191",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "CrPC 161",
-        "bns": "BNSS 180",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "CrPC 164",
-        "bns": "BNSS 183",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "CrPC 173",
-        "bns": "BNSS 193",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 302",
-        "bns": "BNS 103",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 304",
-        "bns": "BNS 104",
-        "change_type": "modified",
-        "risk_level": "medium"
-      },
-      {
-        "ipc": "IPC 304A",
-        "bns": "BNS 106",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 307",
-        "bns": "BNS 109",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "CrPC 313",
-        "bns": "BNSS 347",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 323",
-        "bns": "BNS 115",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 325",
-        "bns": "BNS 117",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 34",
-        "bns": "BNS 3",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
+    "iea": [],
+    "pc_act": [],
+    "ni_act": [
+      "138"
+    ]
+  },
+  "statutory_transitions": {
+    "mapped": [
       {
         "ipc": "IPC 376",
         "bns": "BNS 64",
         "change_type": "enhanced",
-        "risk_level": "high"
-      },
-      {
-        "ipc": "IPC 376D",
-        "bns": "BNS 70",
-        "change_type": "enhanced",
-        "risk_level": "high"
-      },
-      {
-        "ipc": "IPC 392",
-        "bns": "BNS 309",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 395",
-        "bns": "BNS 310",
-        "change_type": "direct",
-        "risk_level": "low"
+        "risk": "high",
+        "offense": "Rape"
       },
       {
         "ipc": "IPC 420",
         "bns": "BNS 318",
         "change_type": "enhanced",
-        "risk_level": "high"
-      },
-      {
-        "ipc": "IPC 452",
-        "bns": "BNS 331",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 468",
-        "bns": "BNS 336",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 471",
-        "bns": "BNS 340",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "CrPC 482",
-        "bns": "BNSS 528",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 504",
-        "bns": "BNS 356",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 506",
-        "bns": "BNS 351",
-        "change_type": "direct",
-        "risk_level": "low"
+        "risk": "high",
+        "offense": "Cheating"
       }
     ],
     "unmapped_ipc": [
-      "IPC 04",
-      "IPC 05",
-      "IPC 107",
-      "IPC 110",
-      "IPC 115",
-      "IPC 120",
-      "IPC 13",
-      "IPC 138",
-      "IPC 147",
-      "IPC 147KHA",
-      "IPC 148",
-      "IPC 156",
-      "IPC 169",
-      "IPC 174",
-      "IPC 18",
-      "IPC 182",
-      "IPC 198",
-      "IPC 198KA",
-      "IPC 201",
-      "IPC 21",
-      "IPC 22",
-      "IPC 223",
-      "IPC 247",
-      "IPC 26",
-      "IPC 279",
-      "IPC 30",
-      "IPC 308",
-      "IPC 324",
-      "IPC 328",
-      "IPC 332",
-      "IPC 336",
-      "IPC 341",
-      "IPC 342",
-      "IPC 352",
-      "IPC 353",
-      "IPC 354",
-      "IPC 354B",
-      "IPC 354GHA",
-      "IPC 354KA",
-      "IPC 354KH",
-      "IPC 354KHA",
-      "IPC 363",
-      "IPC 364",
-      "IPC 366",
-      "IPC 367",
-      "IPC 379",
-      "IPC 380",
-      "IPC 386",
-      "IPC 394",
-      "IPC 397",
-      "IPC 406",
-      "IPC 41",
-      "IPC 419",
-      "IPC 427",
-      "IPC 435",
-      "IPC 436",
-      "IPC 447",
-      "IPC 457",
-      "IPC 467",
-      "IPC 494",
-      "IPC 505",
-      "IPC 5061PC",
-      "IPC 507",
-      "IPC 508",
-      "IPC 511",
-      "IPC 8I"
+      "IPC 211"
     ],
-    "confidence": "high"
+    "summary": {
+      "total_ipc_found": 3,
+      "mapped_count": 2,
+      "unmapped_count": 1
+    }
   }
 }

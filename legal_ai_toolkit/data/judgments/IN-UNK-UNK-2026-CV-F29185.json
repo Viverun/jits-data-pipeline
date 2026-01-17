@@ -1250,7 +1250,7 @@
         ],
         "binding_authority": "SC",
         "status": "good_law",
-        "relevance_score": 3
+        "relevance_score": 2
       }
     ]
   },
@@ -1270,55 +1270,57 @@
       "service": []
     }
   },
+  "extracted_sections": {
+    "crpc": [],
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
   "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 23",
-      "IPC 294",
-      "IPC 299",
-      "IPC 300",
-      "IPC 302",
-      "IPC 304",
-      "IPC 307",
-      "IPC 324",
-      "IPC 35",
-      "IPC 458",
-      "IPC 506"
-    ],
-    "bns_mapped": [
+    "mapped": [
+      {
+        "ipc": "IPC 299",
+        "bns": "BNS 100",
+        "change_type": "direct",
+        "risk": "low",
+        "offense": "Culpable homicide definition"
+      },
+      {
+        "ipc": "IPC 300",
+        "bns": "BNS 101",
+        "change_type": "direct",
+        "risk": "low",
+        "offense": "Murder definition"
+      },
       {
         "ipc": "IPC 302",
         "bns": "BNS 103",
         "change_type": "direct",
-        "risk_level": "low"
+        "risk": "low",
+        "offense": "Murder"
       },
       {
         "ipc": "IPC 304",
         "bns": "BNS 104",
         "change_type": "modified",
-        "risk_level": "medium"
+        "risk": "medium",
+        "offense": "Culpable homicide not amounting to murder"
       },
       {
         "ipc": "IPC 307",
         "bns": "BNS 109",
         "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 506",
-        "bns": "BNS 351",
-        "change_type": "direct",
-        "risk_level": "low"
+        "risk": "low",
+        "offense": "Attempt to murder"
       }
     ],
     "unmapped_ipc": [
-      "IPC 23",
-      "IPC 294",
-      "IPC 299",
-      "IPC 300",
-      "IPC 324",
-      "IPC 35",
-      "IPC 458"
+      "IPC 324"
     ],
-    "confidence": "high"
+    "summary": {
+      "total_ipc_found": 6,
+      "mapped_count": 5,
+      "unmapped_count": 1
+    }
   }
 }

@@ -2786,43 +2786,40 @@
       ]
     }
   },
-  "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 113",
-      "IPC 15",
-      "IPC 205",
-      "IPC 317",
-      "IPC 356",
-      "IPC 41",
-      "IPC 42",
-      "IPC 482",
-      "IPC 498",
-      "IPC 498A"
+  "extracted_sections": {
+    "crpc": [
+      "205",
+      "317",
+      "41",
+      "482",
+      "6"
     ],
-    "bns_mapped": [
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
+  "statutory_transitions": {
+    "mapped": [
       {
-        "ipc": "CrPC 482",
-        "bns": "BNSS 528",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
+        "ipc": "IPC 498-A",
+        "bns": "BNS 86",
+        "change_type": "modified",
+        "risk": "medium",
+        "offense": "Cruelty by husband"
       },
       {
         "ipc": "IPC 498A",
         "bns": "BNS 86",
         "change_type": "modified",
-        "risk_level": "medium"
+        "risk": "medium",
+        "offense": "Cruelty by husband"
       }
     ],
-    "unmapped_ipc": [
-      "IPC 113",
-      "IPC 15",
-      "IPC 205",
-      "IPC 317",
-      "IPC 356",
-      "IPC 41",
-      "IPC 42",
-      "IPC 498"
-    ],
-    "confidence": "high"
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 2,
+      "mapped_count": 2,
+      "unmapped_count": 0
+    }
   }
 }

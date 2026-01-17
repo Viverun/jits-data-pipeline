@@ -4265,5 +4265,31 @@
         "Article 16"
       ]
     }
+  },
+  "extracted_sections": {
+    "crpc": [],
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
+  "statutory_transitions": {
+    "mapped": [
+      {
+        "ipc": "IPC 420",
+        "bns": "BNS 318",
+        "change_type": "enhanced",
+        "risk": "high",
+        "offense": "Cheating"
+      }
+    ],
+    "unmapped_ipc": [
+      "IPC 161",
+      "IPC 332"
+    ],
+    "summary": {
+      "total_ipc_found": 3,
+      "mapped_count": 1,
+      "unmapped_count": 2
+    }
   }
 }

@@ -11097,7 +11097,7 @@
         ],
         "binding_authority": "SC",
         "status": "good_law",
-        "relevance_score": 3
+        "relevance_score": 2
       },
       {
         "precedent_id": "ARNESH_KUMAR",
@@ -11155,204 +11155,37 @@
       ]
     }
   },
-  "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 05",
-      "IPC 113",
-      "IPC 120",
-      "IPC 13",
-      "IPC 14",
-      "IPC 143",
-      "IPC 148",
-      "IPC 149",
-      "IPC 14TH",
-      "IPC 15",
-      "IPC 156",
-      "IPC 161",
-      "IPC 164",
-      "IPC 167",
-      "IPC 169CRPC",
-      "IPC 17",
-      "IPC 170",
-      "IPC 172",
-      "IPC 173",
-      "IPC 173CRPC",
-      "IPC 175",
-      "IPC 17A",
-      "IPC 180",
-      "IPC 183",
-      "IPC 187",
-      "IPC 188",
-      "IPC 1898",
-      "IPC 19",
-      "IPC 190",
-      "IPC 193",
-      "IPC 20",
-      "IPC 201",
-      "IPC 202",
-      "IPC 204",
-      "IPC 207",
-      "IPC 210",
-      "IPC 26",
-      "IPC 269",
-      "IPC 28",
-      "IPC 29",
-      "IPC 302",
-      "IPC 307",
-      "IPC 309",
-      "IPC 309CRPC",
-      "IPC 324",
-      "IPC 34",
-      "IPC 344",
-      "IPC 346",
-      "IPC 36A",
-      "IPC 37",
-      "IPC 376",
-      "IPC 406",
-      "IPC 409",
-      "IPC 41ST",
-      "IPC 420",
-      "IPC 43",
-      "IPC 528",
-      "IPC 57",
-      "IPC 58",
-      "IPC 59",
-      "IPC 60",
-      "IPC 62",
-      "IPC 69",
-      "IPC 71",
-      "IPC 776",
-      "IPC 824",
-      "IPC 87",
-      "IPC 90"
+  "extracted_sections": {
+    "crpc": [
+      "161",
+      "164",
+      "167",
+      "172",
+      "173",
+      "190",
+      "309",
+      "344",
+      "57"
     ],
-    "bns_mapped": [
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
+  "statutory_transitions": {
+    "mapped": [
       {
         "ipc": "IPC 149",
         "bns": "BNS 191",
         "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "CrPC 161",
-        "bns": "BNSS 180",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "CrPC 164",
-        "bns": "BNSS 183",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "CrPC 173",
-        "bns": "BNSS 193",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 302",
-        "bns": "BNS 103",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 307",
-        "bns": "BNS 109",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 309",
-        "bns": "BNS 309",
-        "change_type": "repealed",
-        "risk_level": "high"
-      },
-      {
-        "ipc": "IPC 34",
-        "bns": "BNS 3",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 376",
-        "bns": "BNS 64",
-        "change_type": "enhanced",
-        "risk_level": "high"
-      },
-      {
-        "ipc": "IPC 409",
-        "bns": "BNS 316",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 420",
-        "bns": "BNS 318",
-        "change_type": "enhanced",
-        "risk_level": "high"
+        "risk": "low",
+        "offense": "Unlawful assembly"
       }
     ],
-    "unmapped_ipc": [
-      "IPC 05",
-      "IPC 113",
-      "IPC 120",
-      "IPC 13",
-      "IPC 14",
-      "IPC 143",
-      "IPC 148",
-      "IPC 14TH",
-      "IPC 15",
-      "IPC 156",
-      "IPC 167",
-      "IPC 169CRPC",
-      "IPC 17",
-      "IPC 170",
-      "IPC 172",
-      "IPC 173CRPC",
-      "IPC 175",
-      "IPC 17A",
-      "IPC 180",
-      "IPC 183",
-      "IPC 187",
-      "IPC 188",
-      "IPC 1898",
-      "IPC 19",
-      "IPC 190",
-      "IPC 193",
-      "IPC 20",
-      "IPC 201",
-      "IPC 202",
-      "IPC 204",
-      "IPC 207",
-      "IPC 210",
-      "IPC 26",
-      "IPC 269",
-      "IPC 28",
-      "IPC 29",
-      "IPC 309CRPC",
-      "IPC 324",
-      "IPC 344",
-      "IPC 346",
-      "IPC 36A",
-      "IPC 37",
-      "IPC 406",
-      "IPC 41ST",
-      "IPC 43",
-      "IPC 528",
-      "IPC 57",
-      "IPC 58",
-      "IPC 59",
-      "IPC 60",
-      "IPC 62",
-      "IPC 69",
-      "IPC 71",
-      "IPC 776",
-      "IPC 824",
-      "IPC 87",
-      "IPC 90"
-    ],
-    "confidence": "high"
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 1,
+      "mapped_count": 1,
+      "unmapped_count": 0
+    }
   }
 }

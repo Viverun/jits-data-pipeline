@@ -3172,7 +3172,7 @@
         ],
         "binding_authority": "SC",
         "status": "good_law",
-        "relevance_score": 3
+        "relevance_score": 2
       },
       {
         "precedent_id": "ARNESH_KUMAR",
@@ -3222,24 +3222,21 @@
       ]
     }
   },
+  "extracted_sections": {
+    "crpc": [],
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
   "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 04",
-      "IPC 2247",
-      "IPC 302"
-    ],
-    "bns_mapped": [
-      {
-        "ipc": "IPC 302",
-        "bns": "BNS 103",
-        "change_type": "direct",
-        "risk_level": "low"
-      }
-    ],
+    "mapped": [],
     "unmapped_ipc": [
-      "IPC 04",
-      "IPC 2247"
+      "IPC 148"
     ],
-    "confidence": "high"
+    "summary": {
+      "total_ipc_found": 1,
+      "mapped_count": 0,
+      "unmapped_count": 1
+    }
   }
 }

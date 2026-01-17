@@ -1888,49 +1888,51 @@
       "service": []
     }
   },
-  "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 107",
-      "IPC 174",
-      "IPC 21",
-      "IPC 306",
-      "IPC 309",
-      "IPC 313",
-      "IPC 498",
-      "IPC 498A"
+  "extracted_sections": {
+    "crpc": [
+      "174",
+      "313"
     ],
-    "bns_mapped": [
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
+  "statutory_transitions": {
+    "mapped": [
+      {
+        "ipc": "IPC 107",
+        "bns": "BNS 45",
+        "change_type": "direct",
+        "risk": "low",
+        "offense": "Abetment"
+      },
       {
         "ipc": "IPC 306",
         "bns": "BNS 108",
         "change_type": "modified",
-        "risk_level": "medium"
+        "risk": "medium",
+        "offense": "Abetment of suicide"
       },
       {
         "ipc": "IPC 309",
         "bns": "BNS 309",
         "change_type": "repealed",
-        "risk_level": "high"
-      },
-      {
-        "ipc": "CrPC 313",
-        "bns": "BNSS 347",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
+        "risk": "high",
+        "offense": "Attempt to suicide - REPEALED"
       },
       {
         "ipc": "IPC 498A",
         "bns": "BNS 86",
         "change_type": "modified",
-        "risk_level": "medium"
+        "risk": "medium",
+        "offense": "Cruelty by husband"
       }
     ],
-    "unmapped_ipc": [
-      "IPC 107",
-      "IPC 174",
-      "IPC 21",
-      "IPC 498"
-    ],
-    "confidence": "high"
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 4,
+      "mapped_count": 4,
+      "unmapped_count": 0
+    }
   }
 }

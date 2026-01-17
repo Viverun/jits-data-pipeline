@@ -4290,42 +4290,34 @@
       "service": []
     }
   },
+  "extracted_sections": {
+    "crpc": [],
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
   "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 167",
-      "IPC 22",
-      "IPC 34",
-      "IPC 406",
-      "IPC 409",
-      "IPC 420",
-      "IPC 483"
-    ],
-    "bns_mapped": [
+    "mapped": [
       {
         "ipc": "IPC 34",
         "bns": "BNS 3",
         "change_type": "direct",
-        "risk_level": "low"
+        "risk": "low",
+        "offense": "Common intention"
       },
       {
         "ipc": "IPC 409",
         "bns": "BNS 316",
         "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 420",
-        "bns": "BNS 318",
-        "change_type": "enhanced",
-        "risk_level": "high"
+        "risk": "low",
+        "offense": "Criminal breach of trust by public servant"
       }
     ],
-    "unmapped_ipc": [
-      "IPC 167",
-      "IPC 22",
-      "IPC 406",
-      "IPC 483"
-    ],
-    "confidence": "high"
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 2,
+      "mapped_count": 2,
+      "unmapped_count": 0
+    }
   }
 }

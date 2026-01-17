@@ -722,38 +722,27 @@
       "service": []
     }
   },
+  "extracted_sections": {
+    "crpc": [],
+    "iea": [
+      "22A",
+      "3",
+      "45A",
+      "62",
+      "65",
+      "65A",
+      "65B"
+    ],
+    "pc_act": [],
+    "ni_act": []
+  },
   "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 100",
-      "IPC 123",
-      "IPC 22A",
-      "IPC 45A",
-      "IPC 59",
-      "IPC 60",
-      "IPC 62",
-      "IPC 63",
-      "IPC 65",
-      "IPC 65A",
-      "IPC 65B",
-      "IPC 69",
-      "IPC 79A"
-    ],
-    "bns_mapped": [],
-    "unmapped_ipc": [
-      "IPC 100",
-      "IPC 123",
-      "IPC 22A",
-      "IPC 45A",
-      "IPC 59",
-      "IPC 60",
-      "IPC 62",
-      "IPC 63",
-      "IPC 65",
-      "IPC 65A",
-      "IPC 65B",
-      "IPC 69",
-      "IPC 79A"
-    ],
-    "confidence": "low"
+    "mapped": [],
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 0,
+      "mapped_count": 0,
+      "unmapped_count": 0
+    }
   }
 }

@@ -121,20 +121,19 @@
       "service": []
     }
   },
+  "extracted_sections": {
+    "crpc": [],
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
   "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 13",
-      "IPC 147",
-      "IPC 24",
-      "IPC 28"
-    ],
-    "bns_mapped": [],
-    "unmapped_ipc": [
-      "IPC 13",
-      "IPC 147",
-      "IPC 24",
-      "IPC 28"
-    ],
-    "confidence": "low"
+    "mapped": [],
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 0,
+      "mapped_count": 0,
+      "unmapped_count": 0
+    }
   }
 }

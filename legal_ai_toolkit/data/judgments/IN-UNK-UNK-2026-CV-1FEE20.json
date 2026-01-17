@@ -1802,32 +1802,6 @@
         "binding_authority": "SC",
         "status": "good_law",
         "relevance_score": 2
-      },
-      {
-        "precedent_id": "BACHAN_SINGH",
-        "full_citation": "Bachan Singh v. State of Punjab, (1980) 2 SCC 684",
-        "short_name": "Bachan Singh",
-        "year": 1980,
-        "court": "Supreme Court",
-        "bench_strength": 5,
-        "legal_principle": "Death penalty - rarest of rare doctrine",
-        "issues": [
-          "sentencing",
-          "death_penalty",
-          "article_21"
-        ],
-        "provisions": [
-          "IPC 302",
-          "Article 21"
-        ],
-        "keywords": [
-          "rarest of rare",
-          "death sentence",
-          "mitigating circumstances"
-        ],
-        "binding_authority": "SC",
-        "status": "good_law",
-        "relevance_score": 1
       }
     ]
   },
@@ -1847,57 +1821,23 @@
       "service": []
     }
   },
+  "extracted_sections": {
+    "crpc": [
+      "173",
+      "438",
+      "82"
+    ],
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
   "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 120B",
-      "IPC 173",
-      "IPC 302",
-      "IPC 304B",
-      "IPC 438",
-      "IPC 498A",
-      "IPC 82"
-    ],
-    "bns_mapped": [
-      {
-        "ipc": "IPC 120B",
-        "bns": "BNS 61",
-        "change_type": "modified",
-        "risk_level": "medium"
-      },
-      {
-        "ipc": "CrPC 173",
-        "bns": "BNSS 193",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 302",
-        "bns": "BNS 103",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 304B",
-        "bns": "BNS 80",
-        "change_type": "modified",
-        "risk_level": "medium"
-      },
-      {
-        "ipc": "CrPC 438",
-        "bns": "BNSS 484",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 498A",
-        "bns": "BNS 86",
-        "change_type": "modified",
-        "risk_level": "medium"
-      }
-    ],
-    "unmapped_ipc": [
-      "IPC 82"
-    ],
-    "confidence": "high"
+    "mapped": [],
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 0,
+      "mapped_count": 0,
+      "unmapped_count": 0
+    }
   }
 }

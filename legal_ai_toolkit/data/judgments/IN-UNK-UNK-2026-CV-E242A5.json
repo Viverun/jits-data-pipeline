@@ -1202,80 +1202,44 @@
       "service": []
     }
   },
-  "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 120",
-      "IPC 13",
-      "IPC 174",
-      "IPC 294",
-      "IPC 307",
-      "IPC 307IPC",
-      "IPC 308",
-      "IPC 320",
-      "IPC 34",
-      "IPC 406",
-      "IPC 420",
-      "IPC 437",
-      "IPC 467",
-      "IPC 468",
-      "IPC 471",
-      "IPC 482"
+  "extracted_sections": {
+    "crpc": [
+      "320",
+      "482"
     ],
-    "bns_mapped": [
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
+  "statutory_transitions": {
+    "mapped": [
+      {
+        "ipc": "IPC 174-A",
+        "bns": "BNS 211",
+        "change_type": "direct",
+        "risk": "low",
+        "offense": "Non-appearance in response to a proclamation"
+      },
       {
         "ipc": "IPC 307",
         "bns": "BNS 109",
         "change_type": "direct",
-        "risk_level": "low"
+        "risk": "low",
+        "offense": "Attempt to murder"
       },
       {
         "ipc": "IPC 34",
         "bns": "BNS 3",
         "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 420",
-        "bns": "BNS 318",
-        "change_type": "enhanced",
-        "risk_level": "high"
-      },
-      {
-        "ipc": "CrPC 437",
-        "bns": "BNSS 483",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 468",
-        "bns": "BNS 336",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 471",
-        "bns": "BNS 340",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "CrPC 482",
-        "bns": "BNSS 528",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
+        "risk": "low",
+        "offense": "Common intention"
       }
     ],
-    "unmapped_ipc": [
-      "IPC 120",
-      "IPC 13",
-      "IPC 174",
-      "IPC 294",
-      "IPC 307IPC",
-      "IPC 308",
-      "IPC 320",
-      "IPC 406",
-      "IPC 467"
-    ],
-    "confidence": "high"
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 3,
+      "mapped_count": 3,
+      "unmapped_count": 0
+    }
   }
 }

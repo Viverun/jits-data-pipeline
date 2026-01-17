@@ -890,7 +890,7 @@
         ],
         "binding_authority": "SC",
         "status": "good_law",
-        "relevance_score": 3
+        "relevance_score": 2
       }
     ]
   },
@@ -919,118 +919,60 @@
       "service": []
     }
   },
-  "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 120",
-      "IPC 13",
-      "IPC 173",
-      "IPC 18",
-      "IPC 294",
-      "IPC 30",
-      "IPC 302",
-      "IPC 304",
-      "IPC 304B",
-      "IPC 307",
-      "IPC 307IPC",
-      "IPC 308",
-      "IPC 320",
-      "IPC 323",
-      "IPC 326",
-      "IPC 34",
-      "IPC 395",
-      "IPC 406",
-      "IPC 420",
-      "IPC 482",
-      "IPC 493",
-      "IPC 498",
-      "IPC 498A",
-      "IPC 498AOF",
-      "IPC 7IPC"
+  "extracted_sections": {
+    "crpc": [
+      "320",
+      "482"
     ],
-    "bns_mapped": [
-      {
-        "ipc": "CrPC 173",
-        "bns": "BNSS 193",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
+  "statutory_transitions": {
+    "mapped": [
       {
         "ipc": "IPC 302",
         "bns": "BNS 103",
         "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 304",
-        "bns": "BNS 104",
-        "change_type": "modified",
-        "risk_level": "medium"
-      },
-      {
-        "ipc": "IPC 304B",
-        "bns": "BNS 80",
-        "change_type": "modified",
-        "risk_level": "medium"
+        "risk": "low",
+        "offense": "Murder"
       },
       {
         "ipc": "IPC 307",
         "bns": "BNS 109",
         "change_type": "direct",
-        "risk_level": "low"
+        "risk": "low",
+        "offense": "Attempt to murder"
       },
       {
-        "ipc": "IPC 323",
-        "bns": "BNS 115",
+        "ipc": "IPC 326",
+        "bns": "BNS 118",
         "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 34",
-        "bns": "BNS 3",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 395",
-        "bns": "BNS 310",
-        "change_type": "direct",
-        "risk_level": "low"
+        "risk": "low",
+        "offense": "Grievous hurt by dangerous weapons"
       },
       {
         "ipc": "IPC 420",
         "bns": "BNS 318",
         "change_type": "enhanced",
-        "risk_level": "high"
-      },
-      {
-        "ipc": "CrPC 482",
-        "bns": "BNSS 528",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
+        "risk": "high",
+        "offense": "Cheating"
       },
       {
         "ipc": "IPC 498A",
         "bns": "BNS 86",
         "change_type": "modified",
-        "risk_level": "medium"
+        "risk": "medium",
+        "offense": "Cruelty by husband"
       }
     ],
     "unmapped_ipc": [
-      "IPC 120",
-      "IPC 13",
-      "IPC 18",
-      "IPC 294",
-      "IPC 30",
-      "IPC 307IPC",
-      "IPC 308",
-      "IPC 320",
-      "IPC 326",
-      "IPC 406",
-      "IPC 493",
-      "IPC 498",
-      "IPC 498AOF",
-      "IPC 7IPC"
+      "IPC 308"
     ],
-    "confidence": "high"
+    "summary": {
+      "total_ipc_found": 6,
+      "mapped_count": 5,
+      "unmapped_count": 1
+    }
   }
 }

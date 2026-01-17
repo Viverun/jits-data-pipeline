@@ -267,67 +267,38 @@
       "service": []
     }
   },
-  "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 106",
-      "IPC 113",
-      "IPC 173",
-      "IPC 174",
-      "IPC 229",
-      "IPC 304B",
-      "IPC 313",
-      "IPC 323",
-      "IPC 437",
-      "IPC 498",
-      "IPC 498A",
-      "IPC 82"
+  "extracted_sections": {
+    "crpc": [
+      "313",
+      "437",
+      "82"
     ],
-    "bns_mapped": [
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
+  "statutory_transitions": {
+    "mapped": [
       {
-        "ipc": "CrPC 173",
-        "bns": "BNSS 193",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 304B",
-        "bns": "BNS 80",
-        "change_type": "modified",
-        "risk_level": "medium"
-      },
-      {
-        "ipc": "CrPC 313",
-        "bns": "BNSS 347",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 323",
-        "bns": "BNS 115",
+        "ipc": "IPC 174-A",
+        "bns": "BNS 211",
         "change_type": "direct",
-        "risk_level": "low"
+        "risk": "low",
+        "offense": "Non-appearance in response to a proclamation"
       },
       {
-        "ipc": "CrPC 437",
-        "bns": "BNSS 483",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 498A",
-        "bns": "BNS 86",
-        "change_type": "modified",
-        "risk_level": "medium"
+        "ipc": "IPC 229-A",
+        "bns": "BNS 264",
+        "change_type": "direct",
+        "risk": "low",
+        "offense": "Failure by person released on bail to appear in Court"
       }
     ],
-    "unmapped_ipc": [
-      "IPC 106",
-      "IPC 113",
-      "IPC 174",
-      "IPC 229",
-      "IPC 498",
-      "IPC 82"
-    ],
-    "confidence": "high"
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 2,
+      "mapped_count": 2,
+      "unmapped_count": 0
+    }
   }
 }

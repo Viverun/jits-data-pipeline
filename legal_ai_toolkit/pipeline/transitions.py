@@ -1,6 +1,7 @@
 import re
 from .runner import BaseStep
 from legal_ai_toolkit.utils.mappings import IPCBNSTransitionDB
+from legal_ai_toolkit.utils.section_extraction import extract_legal_sections_v2
 
 # v0.2.4: Aggressive noise filter for years and common procedural numbers
 NOISE_SECTIONS = {
@@ -29,43 +30,50 @@ class TransitionStep(BaseStep):
         classification = data.get("classification", {})
         domain = classification.get("domain")
 
-        if domain not in {"criminal", "mixed"}:
+        if domain not in {"criminal", "mixed", "service"}: # Added service as PC Act is common there
             return data
 
         text = data.get("text", "")
-        ipc_sections = extract_ipc_sections(text)
+        extracted = extract_legal_sections_v2(text)
+
+        ipc_sections = extracted['ipc']
+
+        # We still store extracted sections for other acts in the data
+        data["extracted_sections"] = {
+            "crpc": extracted['crpc'],
+            "iea": extracted['iea'],
+            "pc_act": extracted['pc_act'],
+            "ni_act": extracted['ni_act']
+        }
 
         mapped = []
         unmapped = []
 
         for ipc in ipc_sections:
-            section_num = ipc.replace("IPC ", "")
-            transition = IPCBNSTransitionDB.get(section_num)
+            transition = IPCBNSTransitionDB.get(ipc)
 
             if transition:
                 if "bns" in transition:
                     mapped.append({
-                        "ipc": ipc,
+                        "ipc": f"IPC {ipc}",
                         "bns": f"BNS {transition['bns']}",
                         "change_type": transition['type'],
-                        "risk_level": transition['risk']
-                    })
-                elif transition.get("type") == "crpc_provision" and transition.get("bnss"):
-                    mapped.append({
-                        "ipc": f"CrPC {section_num}",
-                        "bns": f"BNSS {transition['bnss']}",
-                        "change_type": "procedural_transition",
-                        "risk_level": "low"
+                        "risk": transition['risk'],
+                        "offense": transition['offense']
                     })
                 else:
-                    unmapped.append(ipc)
+                    unmapped.append(f"IPC {ipc}")
             else:
-                unmapped.append(ipc)
+                unmapped.append(f"IPC {ipc}")
 
         data["statutory_transitions"] = {
-            "ipc_detected": ipc_sections,
-            "bns_mapped": mapped,
+            "mapped": mapped,
             "unmapped_ipc": unmapped,
-            "confidence": "high" if mapped else "low"
+            "summary": {
+                "total_ipc_found": len(ipc_sections),
+                "mapped_count": len(mapped),
+                "unmapped_count": len(unmapped)
+            }
         }
+
         return data

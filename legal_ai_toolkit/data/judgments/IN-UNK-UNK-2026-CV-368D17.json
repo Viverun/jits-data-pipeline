@@ -1434,44 +1434,62 @@
       "service": []
     }
   },
+  "extracted_sections": {
+    "crpc": [],
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
   "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 1000",
-      "IPC 107",
-      "IPC 109",
-      "IPC 17",
-      "IPC 306",
-      "IPC 34",
-      "IPC 498",
-      "IPC 498A"
-    ],
-    "bns_mapped": [
+    "mapped": [
+      {
+        "ipc": "IPC 107",
+        "bns": "BNS 45",
+        "change_type": "direct",
+        "risk": "low",
+        "offense": "Abetment"
+      },
+      {
+        "ipc": "IPC 109",
+        "bns": "BNS 48",
+        "change_type": "direct",
+        "risk": "low",
+        "offense": "Punishment of abetment"
+      },
       {
         "ipc": "IPC 306",
         "bns": "BNS 108",
         "change_type": "modified",
-        "risk_level": "medium"
+        "risk": "medium",
+        "offense": "Abetment of suicide"
       },
       {
         "ipc": "IPC 34",
         "bns": "BNS 3",
         "change_type": "direct",
-        "risk_level": "low"
+        "risk": "low",
+        "offense": "Common intention"
+      },
+      {
+        "ipc": "IPC 498-A",
+        "bns": "BNS 86",
+        "change_type": "modified",
+        "risk": "medium",
+        "offense": "Cruelty by husband"
       },
       {
         "ipc": "IPC 498A",
         "bns": "BNS 86",
         "change_type": "modified",
-        "risk_level": "medium"
+        "risk": "medium",
+        "offense": "Cruelty by husband"
       }
     ],
-    "unmapped_ipc": [
-      "IPC 1000",
-      "IPC 107",
-      "IPC 109",
-      "IPC 17",
-      "IPC 498"
-    ],
-    "confidence": "high"
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 6,
+      "mapped_count": 6,
+      "unmapped_count": 0
+    }
   }
 }

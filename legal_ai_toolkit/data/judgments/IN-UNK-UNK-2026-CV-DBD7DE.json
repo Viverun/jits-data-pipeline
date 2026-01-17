@@ -973,69 +973,53 @@
       "service": []
     }
   },
-  "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 113B",
-      "IPC 161",
-      "IPC 176",
-      "IPC 19732",
-      "IPC 20231",
-      "IPC 304",
-      "IPC 304B",
-      "IPC 306",
-      "IPC 439",
-      "IPC 483",
-      "IPC 498",
-      "IPC 498A",
-      "IPC 5499"
+  "extracted_sections": {
+    "crpc": [
+      "161",
+      "176"
     ],
-    "bns_mapped": [
+    "iea": [
+      "113B"
+    ],
+    "pc_act": [],
+    "ni_act": []
+  },
+  "statutory_transitions": {
+    "mapped": [
       {
-        "ipc": "CrPC 161",
-        "bns": "BNSS 180",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 304",
-        "bns": "BNS 104",
+        "ipc": "IPC 304-B",
+        "bns": "BNS 80",
         "change_type": "modified",
-        "risk_level": "medium"
+        "risk": "medium",
+        "offense": "Dowry death"
       },
       {
         "ipc": "IPC 304B",
         "bns": "BNS 80",
         "change_type": "modified",
-        "risk_level": "medium"
+        "risk": "medium",
+        "offense": "Dowry death"
       },
       {
         "ipc": "IPC 306",
         "bns": "BNS 108",
         "change_type": "modified",
-        "risk_level": "medium"
+        "risk": "medium",
+        "offense": "Abetment of suicide"
       },
       {
-        "ipc": "CrPC 439",
-        "bns": "BNSS 485",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 498A",
+        "ipc": "IPC 498-A",
         "bns": "BNS 86",
         "change_type": "modified",
-        "risk_level": "medium"
+        "risk": "medium",
+        "offense": "Cruelty by husband"
       }
     ],
-    "unmapped_ipc": [
-      "IPC 113B",
-      "IPC 176",
-      "IPC 19732",
-      "IPC 20231",
-      "IPC 483",
-      "IPC 498",
-      "IPC 5499"
-    ],
-    "confidence": "high"
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 4,
+      "mapped_count": 4,
+      "unmapped_count": 0
+    }
   }
 }

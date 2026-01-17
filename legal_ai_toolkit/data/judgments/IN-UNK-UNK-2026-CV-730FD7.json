@@ -910,46 +910,46 @@
       "service": []
     }
   },
-  "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 113B",
-      "IPC 161",
-      "IPC 162",
-      "IPC 17",
-      "IPC 304B",
-      "IPC 32",
-      "IPC 326",
-      "IPC 372",
-      "IPC 498A"
+  "extracted_sections": {
+    "crpc": [
+      "161"
     ],
-    "bns_mapped": [
-      {
-        "ipc": "CrPC 161",
-        "bns": "BNSS 180",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
+    "iea": [
+      "113B",
+      "32"
+    ],
+    "pc_act": [],
+    "ni_act": []
+  },
+  "statutory_transitions": {
+    "mapped": [
       {
         "ipc": "IPC 304B",
         "bns": "BNS 80",
         "change_type": "modified",
-        "risk_level": "medium"
+        "risk": "medium",
+        "offense": "Dowry death"
+      },
+      {
+        "ipc": "IPC 326",
+        "bns": "BNS 118",
+        "change_type": "direct",
+        "risk": "low",
+        "offense": "Grievous hurt by dangerous weapons"
       },
       {
         "ipc": "IPC 498A",
         "bns": "BNS 86",
         "change_type": "modified",
-        "risk_level": "medium"
+        "risk": "medium",
+        "offense": "Cruelty by husband"
       }
     ],
-    "unmapped_ipc": [
-      "IPC 113B",
-      "IPC 162",
-      "IPC 17",
-      "IPC 32",
-      "IPC 326",
-      "IPC 372"
-    ],
-    "confidence": "high"
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 3,
+      "mapped_count": 3,
+      "unmapped_count": 0
+    }
   }
 }

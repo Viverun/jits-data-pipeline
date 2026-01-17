@@ -1004,7 +1004,7 @@
         ],
         "binding_authority": "SC",
         "status": "good_law",
-        "relevance_score": 3
+        "relevance_score": 2
       }
     ]
   },
@@ -1025,22 +1025,34 @@
       "service": []
     }
   },
+  "extracted_sections": {
+    "crpc": [],
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
   "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 201",
-      "IPC 302"
-    ],
-    "bns_mapped": [
+    "mapped": [
+      {
+        "ipc": "IPC 201",
+        "bns": "BNS 238",
+        "change_type": "direct",
+        "risk": "low",
+        "offense": "Causing disappearance of evidence"
+      },
       {
         "ipc": "IPC 302",
         "bns": "BNS 103",
         "change_type": "direct",
-        "risk_level": "low"
+        "risk": "low",
+        "offense": "Murder"
       }
     ],
-    "unmapped_ipc": [
-      "IPC 201"
-    ],
-    "confidence": "high"
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 2,
+      "mapped_count": 2,
+      "unmapped_count": 0
+    }
   }
 }

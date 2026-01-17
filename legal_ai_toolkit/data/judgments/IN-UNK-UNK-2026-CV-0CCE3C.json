@@ -1379,34 +1379,7 @@
         "matched_by": "year_reporter"
       }
     ],
-    "suggested_precedents": [
-      {
-        "precedent_id": "BACHAN_SINGH",
-        "full_citation": "Bachan Singh v. State of Punjab, (1980) 2 SCC 684",
-        "short_name": "Bachan Singh",
-        "year": 1980,
-        "court": "Supreme Court",
-        "bench_strength": 5,
-        "legal_principle": "Death penalty - rarest of rare doctrine",
-        "issues": [
-          "sentencing",
-          "death_penalty",
-          "article_21"
-        ],
-        "provisions": [
-          "IPC 302",
-          "Article 21"
-        ],
-        "keywords": [
-          "rarest of rare",
-          "death sentence",
-          "mitigating circumstances"
-        ],
-        "binding_authority": "SC",
-        "status": "good_law",
-        "relevance_score": 1
-      }
-    ]
+    "suggested_precedents": []
   },
   "classification": {
     "domain": "criminal",
@@ -1426,40 +1399,21 @@
       "service": []
     }
   },
+  "extracted_sections": {
+    "crpc": [],
+    "iea": [
+      "11"
+    ],
+    "pc_act": [],
+    "ni_act": []
+  },
   "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 11",
-      "IPC 148",
-      "IPC 149",
-      "IPC 18601",
-      "IPC 302",
-      "IPC 307"
-    ],
-    "bns_mapped": [
-      {
-        "ipc": "IPC 149",
-        "bns": "BNS 191",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 302",
-        "bns": "BNS 103",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 307",
-        "bns": "BNS 109",
-        "change_type": "direct",
-        "risk_level": "low"
-      }
-    ],
-    "unmapped_ipc": [
-      "IPC 11",
-      "IPC 148",
-      "IPC 18601"
-    ],
-    "confidence": "high"
+    "mapped": [],
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 0,
+      "mapped_count": 0,
+      "unmapped_count": 0
+    }
   }
 }

@@ -245,52 +245,61 @@
       "service": []
     }
   },
-  "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 25",
-      "IPC 27",
-      "IPC 313",
-      "IPC 374",
-      "IPC 379",
-      "IPC 41",
-      "IPC 411",
-      "IPC 413",
-      "IPC 419",
-      "IPC 420",
-      "IPC 467",
-      "IPC 468"
+  "extracted_sections": {
+    "crpc": [
+      "313"
     ],
-    "bns_mapped": [
+    "iea": [
+      "25"
+    ],
+    "pc_act": [],
+    "ni_act": []
+  },
+  "statutory_transitions": {
+    "mapped": [
       {
-        "ipc": "CrPC 313",
-        "bns": "BNSS 347",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
+        "ipc": "IPC 379",
+        "bns": "BNS 303(2)",
+        "change_type": "direct",
+        "risk": "low",
+        "offense": "Punishment for theft"
+      },
+      {
+        "ipc": "IPC 411",
+        "bns": "BNS 317",
+        "change_type": "direct",
+        "risk": "low",
+        "offense": "Dishonestly receiving stolen property"
       },
       {
         "ipc": "IPC 420",
         "bns": "BNS 318",
         "change_type": "enhanced",
-        "risk_level": "high"
+        "risk": "high",
+        "offense": "Cheating"
+      },
+      {
+        "ipc": "IPC 467",
+        "bns": "BNS 338",
+        "change_type": "direct",
+        "risk": "low",
+        "offense": "Forgery of valuable security"
       },
       {
         "ipc": "IPC 468",
         "bns": "BNS 336",
         "change_type": "direct",
-        "risk_level": "low"
+        "risk": "low",
+        "offense": "Forgery for cheating"
       }
     ],
     "unmapped_ipc": [
-      "IPC 25",
-      "IPC 27",
-      "IPC 374",
-      "IPC 379",
-      "IPC 41",
-      "IPC 411",
-      "IPC 413",
-      "IPC 419",
-      "IPC 467"
+      "IPC 419"
     ],
-    "confidence": "high"
+    "summary": {
+      "total_ipc_found": 6,
+      "mapped_count": 5,
+      "unmapped_count": 1
+    }
   }
 }

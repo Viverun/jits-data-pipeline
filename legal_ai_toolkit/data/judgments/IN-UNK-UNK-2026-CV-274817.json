@@ -7901,7 +7901,7 @@
         ],
         "binding_authority": "SC",
         "status": "good_law",
-        "relevance_score": 3
+        "relevance_score": 2
       }
     ]
   },
@@ -7925,55 +7925,32 @@
       "service": []
     }
   },
-  "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 101",
-      "IPC 106",
-      "IPC 118",
-      "IPC 161",
-      "IPC 302",
-      "IPC 313",
-      "IPC 351",
-      "IPC 357",
-      "IPC 376",
-      "IPC 396",
-      "IPC 45"
+  "extracted_sections": {
+    "crpc": [
+      "313"
     ],
-    "bns_mapped": [
-      {
-        "ipc": "CrPC 161",
-        "bns": "BNSS 180",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
+    "iea": [
+      "106",
+      "118"
+    ],
+    "pc_act": [],
+    "ni_act": []
+  },
+  "statutory_transitions": {
+    "mapped": [
       {
         "ipc": "IPC 302",
         "bns": "BNS 103",
         "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "CrPC 313",
-        "bns": "BNSS 347",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 376",
-        "bns": "BNS 64",
-        "change_type": "enhanced",
-        "risk_level": "high"
+        "risk": "low",
+        "offense": "Murder"
       }
     ],
-    "unmapped_ipc": [
-      "IPC 101",
-      "IPC 106",
-      "IPC 118",
-      "IPC 351",
-      "IPC 357",
-      "IPC 396",
-      "IPC 45"
-    ],
-    "confidence": "high"
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 1,
+      "mapped_count": 1,
+      "unmapped_count": 0
+    }
   }
 }

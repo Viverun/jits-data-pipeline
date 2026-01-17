@@ -2079,7 +2079,7 @@
         ],
         "binding_authority": "SC",
         "status": "good_law",
-        "relevance_score": 3
+        "relevance_score": 2
       }
     ]
   },
@@ -2101,43 +2101,25 @@
       "service": []
     }
   },
+  "extracted_sections": {
+    "crpc": [
+      "174",
+      "313"
+    ],
+    "iea": [
+      "32",
+      "8"
+    ],
+    "pc_act": [],
+    "ni_act": []
+  },
   "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 109",
-      "IPC 120",
-      "IPC 154",
-      "IPC 174",
-      "IPC 201",
-      "IPC 302",
-      "IPC 313",
-      "IPC 32",
-      "IPC 342",
-      "IPC 353"
-    ],
-    "bns_mapped": [
-      {
-        "ipc": "IPC 302",
-        "bns": "BNS 103",
-        "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "CrPC 313",
-        "bns": "BNSS 347",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      }
-    ],
-    "unmapped_ipc": [
-      "IPC 109",
-      "IPC 120",
-      "IPC 154",
-      "IPC 174",
-      "IPC 201",
-      "IPC 32",
-      "IPC 342",
-      "IPC 353"
-    ],
-    "confidence": "high"
+    "mapped": [],
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 0,
+      "mapped_count": 0,
+      "unmapped_count": 0
+    }
   }
 }

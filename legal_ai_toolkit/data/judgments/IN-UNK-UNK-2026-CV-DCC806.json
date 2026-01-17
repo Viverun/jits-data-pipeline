@@ -2335,7 +2335,7 @@
         ],
         "binding_authority": "SC",
         "status": "good_law",
-        "relevance_score": 3
+        "relevance_score": 2
       }
     ]
   },
@@ -2357,43 +2357,59 @@
       "service": []
     }
   },
-  "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 12",
-      "IPC 120",
-      "IPC 302",
-      "IPC 313",
-      "IPC 315",
-      "IPC 328",
-      "IPC 378",
-      "IPC 379",
-      "IPC 411",
-      "IPC 65B"
+  "extracted_sections": {
+    "crpc": [],
+    "iea": [
+      "65B"
     ],
-    "bns_mapped": [
+    "pc_act": [],
+    "ni_act": []
+  },
+  "statutory_transitions": {
+    "mapped": [
+      {
+        "ipc": "IPC 120-B",
+        "bns": "BNS 61",
+        "change_type": "modified",
+        "risk": "medium",
+        "offense": "Criminal conspiracy"
+      },
       {
         "ipc": "IPC 302",
         "bns": "BNS 103",
         "change_type": "direct",
-        "risk_level": "low"
+        "risk": "low",
+        "offense": "Murder"
       },
       {
-        "ipc": "CrPC 313",
-        "bns": "BNSS 347",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
+        "ipc": "IPC 378",
+        "bns": "BNS 303(1)",
+        "change_type": "direct",
+        "risk": "low",
+        "offense": "Theft definition"
+      },
+      {
+        "ipc": "IPC 379",
+        "bns": "BNS 303(2)",
+        "change_type": "direct",
+        "risk": "low",
+        "offense": "Punishment for theft"
+      },
+      {
+        "ipc": "IPC 411",
+        "bns": "BNS 317",
+        "change_type": "direct",
+        "risk": "low",
+        "offense": "Dishonestly receiving stolen property"
       }
     ],
     "unmapped_ipc": [
-      "IPC 12",
-      "IPC 120",
-      "IPC 315",
-      "IPC 328",
-      "IPC 378",
-      "IPC 379",
-      "IPC 411",
-      "IPC 65B"
+      "IPC 328"
     ],
-    "confidence": "high"
+    "summary": {
+      "total_ipc_found": 6,
+      "mapped_count": 5,
+      "unmapped_count": 1
+    }
   }
 }

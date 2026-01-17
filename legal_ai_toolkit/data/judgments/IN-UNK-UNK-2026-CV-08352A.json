@@ -1562,5 +1562,22 @@
         "Article 16"
       ]
     }
+  },
+  "extracted_sections": {
+    "crpc": [
+      "12"
+    ],
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
+  "statutory_transitions": {
+    "mapped": [],
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 0,
+      "mapped_count": 0,
+      "unmapped_count": 0
+    }
   }
 }

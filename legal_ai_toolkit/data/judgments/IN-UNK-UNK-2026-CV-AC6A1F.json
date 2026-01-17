@@ -3632,34 +3632,7 @@
         "matched_by": "year_reporter"
       }
     ],
-    "suggested_precedents": [
-      {
-        "precedent_id": "BACHAN_SINGH",
-        "full_citation": "Bachan Singh v. State of Punjab, (1980) 2 SCC 684",
-        "short_name": "Bachan Singh",
-        "year": 1980,
-        "court": "Supreme Court",
-        "bench_strength": 5,
-        "legal_principle": "Death penalty - rarest of rare doctrine",
-        "issues": [
-          "sentencing",
-          "death_penalty",
-          "article_21"
-        ],
-        "provisions": [
-          "IPC 302",
-          "Article 21"
-        ],
-        "keywords": [
-          "rarest of rare",
-          "death sentence",
-          "mitigating circumstances"
-        ],
-        "binding_authority": "SC",
-        "status": "good_law",
-        "relevance_score": 1
-      }
-    ]
+    "suggested_precedents": []
   },
   "classification": {
     "domain": "mixed",
@@ -3684,108 +3657,19 @@
       ]
     }
   },
+  "extracted_sections": {
+    "crpc": [],
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
   "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 101719595",
-      "IPC 104",
-      "IPC 109",
-      "IPC 11A",
-      "IPC 11AB",
-      "IPC 11AC",
-      "IPC 135",
-      "IPC 137",
-      "IPC 139",
-      "IPC 14",
-      "IPC 173Q",
-      "IPC 24",
-      "IPC 25",
-      "IPC 271",
-      "IPC 276C",
-      "IPC 28",
-      "IPC 292",
-      "IPC 293",
-      "IPC 297",
-      "IPC 30",
-      "IPC 35498970",
-      "IPC 37B",
-      "IPC 45",
-      "IPC 45837225",
-      "IPC 58A",
-      "IPC 64A",
-      "IPC 65",
-      "IPC 65B",
-      "IPC 66",
-      "IPC 66D",
-      "IPC 67",
-      "IPC 68",
-      "IPC 69",
-      "IPC 70",
-      "IPC 72",
-      "IPC 73",
-      "IPC 75",
-      "IPC 76",
-      "IPC 77",
-      "IPC 78",
-      "IPC 80",
-      "IPC 82322018",
-      "IPC 90",
-      "IPC 94",
-      "IPC 96",
-      "IPC 96ZQ",
-      "IPC 99",
-      "IPC 9NR"
-    ],
-    "bns_mapped": [],
-    "unmapped_ipc": [
-      "IPC 101719595",
-      "IPC 104",
-      "IPC 109",
-      "IPC 11A",
-      "IPC 11AB",
-      "IPC 11AC",
-      "IPC 135",
-      "IPC 137",
-      "IPC 139",
-      "IPC 14",
-      "IPC 173Q",
-      "IPC 24",
-      "IPC 25",
-      "IPC 271",
-      "IPC 276C",
-      "IPC 28",
-      "IPC 292",
-      "IPC 293",
-      "IPC 297",
-      "IPC 30",
-      "IPC 35498970",
-      "IPC 37B",
-      "IPC 45",
-      "IPC 45837225",
-      "IPC 58A",
-      "IPC 64A",
-      "IPC 65",
-      "IPC 65B",
-      "IPC 66",
-      "IPC 66D",
-      "IPC 67",
-      "IPC 68",
-      "IPC 69",
-      "IPC 70",
-      "IPC 72",
-      "IPC 73",
-      "IPC 75",
-      "IPC 76",
-      "IPC 77",
-      "IPC 78",
-      "IPC 80",
-      "IPC 82322018",
-      "IPC 90",
-      "IPC 94",
-      "IPC 96",
-      "IPC 96ZQ",
-      "IPC 99",
-      "IPC 9NR"
-    ],
-    "confidence": "low"
+    "mapped": [],
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 0,
+      "mapped_count": 0,
+      "unmapped_count": 0
+    }
   }
 }

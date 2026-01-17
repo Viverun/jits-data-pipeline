@@ -641,5 +641,26 @@
         "Writ Petition"
       ]
     }
+  },
+  "extracted_sections": {
+    "crpc": [
+      "144",
+      "151",
+      "164",
+      "200",
+      "482"
+    ],
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
+  "statutory_transitions": {
+    "mapped": [],
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 0,
+      "mapped_count": 0,
+      "unmapped_count": 0
+    }
   }
 }

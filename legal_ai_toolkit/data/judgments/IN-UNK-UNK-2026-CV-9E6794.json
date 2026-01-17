@@ -4158,7 +4158,7 @@
         ],
         "binding_authority": "SC",
         "status": "good_law",
-        "relevance_score": 3
+        "relevance_score": 2
       }
     ]
   },
@@ -4184,132 +4184,46 @@
       "service": []
     }
   },
-  "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 120B",
-      "IPC 139",
-      "IPC 145",
-      "IPC 161",
-      "IPC 162",
-      "IPC 164",
-      "IPC 165",
-      "IPC 172",
-      "IPC 173",
-      "IPC 209",
-      "IPC 25",
-      "IPC 26",
-      "IPC 27",
-      "IPC 30",
-      "IPC 302",
-      "IPC 313",
-      "IPC 32",
-      "IPC 34",
-      "IPC 366",
-      "IPC 367",
-      "IPC 368",
-      "IPC 370",
-      "IPC 371",
-      "IPC 372",
-      "IPC 374",
-      "IPC 376",
-      "IPC 377",
-      "IPC 378",
-      "IPC 384",
-      "IPC 386",
-      "IPC 391",
-      "IPC 392",
-      "IPC 394",
-      "IPC 423",
-      "IPC 53",
-      "IPC 53A",
-      "IPC 54"
+  "extracted_sections": {
+    "crpc": [
+      "161",
+      "162",
+      "209",
+      "313",
+      "366",
+      "367",
+      "384"
     ],
-    "bns_mapped": [
-      {
-        "ipc": "IPC 120B",
-        "bns": "BNS 61",
-        "change_type": "modified",
-        "risk_level": "medium"
-      },
-      {
-        "ipc": "CrPC 161",
-        "bns": "BNSS 180",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "CrPC 164",
-        "bns": "BNSS 183",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "CrPC 173",
-        "bns": "BNSS 193",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
+    "iea": [
+      "145",
+      "165",
+      "32"
+    ],
+    "pc_act": [],
+    "ni_act": []
+  },
+  "statutory_transitions": {
+    "mapped": [
       {
         "ipc": "IPC 302",
         "bns": "BNS 103",
         "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "CrPC 313",
-        "bns": "BNSS 347",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
+        "risk": "low",
+        "offense": "Murder"
       },
       {
         "ipc": "IPC 34",
         "bns": "BNS 3",
         "change_type": "direct",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 376",
-        "bns": "BNS 64",
-        "change_type": "enhanced",
-        "risk_level": "high"
-      },
-      {
-        "ipc": "IPC 392",
-        "bns": "BNS 309",
-        "change_type": "direct",
-        "risk_level": "low"
+        "risk": "low",
+        "offense": "Common intention"
       }
     ],
-    "unmapped_ipc": [
-      "IPC 139",
-      "IPC 145",
-      "IPC 162",
-      "IPC 165",
-      "IPC 172",
-      "IPC 209",
-      "IPC 25",
-      "IPC 26",
-      "IPC 27",
-      "IPC 30",
-      "IPC 32",
-      "IPC 366",
-      "IPC 367",
-      "IPC 368",
-      "IPC 370",
-      "IPC 371",
-      "IPC 372",
-      "IPC 374",
-      "IPC 377",
-      "IPC 378",
-      "IPC 384",
-      "IPC 386",
-      "IPC 391",
-      "IPC 394",
-      "IPC 423",
-      "IPC 53",
-      "IPC 53A",
-      "IPC 54"
-    ],
-    "confidence": "high"
+    "unmapped_ipc": [],
+    "summary": {
+      "total_ipc_found": 2,
+      "mapped_count": 2,
+      "unmapped_count": 0
+    }
   }
 }

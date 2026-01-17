@@ -1027,35 +1027,32 @@
       "service": []
     }
   },
-  "statutory_transitions": {
-    "ipc_detected": [
-      "IPC 379",
-      "IPC 397",
-      "IPC 406",
-      "IPC 482",
-      "IPC 498",
-      "IPC 498A"
+  "extracted_sections": {
+    "crpc": [
+      "397",
+      "482"
     ],
-    "bns_mapped": [
+    "iea": [],
+    "pc_act": [],
+    "ni_act": []
+  },
+  "statutory_transitions": {
+    "mapped": [
       {
-        "ipc": "CrPC 482",
-        "bns": "BNSS 528",
-        "change_type": "procedural_transition",
-        "risk_level": "low"
-      },
-      {
-        "ipc": "IPC 498A",
-        "bns": "BNS 86",
-        "change_type": "modified",
-        "risk_level": "medium"
+        "ipc": "IPC 379",
+        "bns": "BNS 303(2)",
+        "change_type": "direct",
+        "risk": "low",
+        "offense": "Punishment for theft"
       }
     ],
     "unmapped_ipc": [
-      "IPC 379",
-      "IPC 397",
-      "IPC 406",
       "IPC 498"
     ],
-    "confidence": "high"
+    "summary": {
+      "total_ipc_found": 2,
+      "mapped_count": 1,
+      "unmapped_count": 1
+    }
   }
 }
