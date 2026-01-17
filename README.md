@@ -1,17 +1,17 @@
-# ??? Judicial Intelligence & Transition System (JTIS) / Legal AI Toolkit
+﻿# 🏛️ Judicial Intelligence & Transition System (JTIS) / Legal AI Toolkit
 ### *A Deterministic, "Zero-ML" Legal Data Factory for Indian Court Operations*
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 The **Legal AI Toolkit** (part of the JITS project) is a high-performance orchestration layer designed to transform unstructured Indian legal judgments into structured, legally-defensible datasets. Unlike probabilistic AI models, JITS relies on **rule-based statutory anchors**, ensuring that every output is explainable, repeatable, and auditable by judicial authorities.
 ---
-## ?? Dataset Operational Status (v1.0)
+## 📊 Dataset Operational Status (v1.0)
 *   **908** Finalized judgments processed into structured JSON.
 *   **900+** Raw text judgments bundled for research.
 *   **54** Legally coherent similarity clusters identified for batch listing.
 *   **99.6%** Annotation completeness across the dataset.
-*   **100%** Deterministic IPC ? BNS statutory transition mapping.
+*   **100%** Deterministic IPC → BNS statutory transition mapping.
 ---
-## ?? Quick Start
+## 🚀 Quick Start
 ### Installation
 Clone the repository and install the toolkit in editable mode:
 ```bash
@@ -26,35 +26,35 @@ The toolkit provides a unified CLI `legal-ai` and a visualization dashboard:
 *   **Audit Dataset**: `legal-ai audit --type quality`
 *   **Generate Report**: `legal-ai report`
 ---
-## ??? System Architecture
+## 🏗️ System Architecture
 The project has been refactored into a unified package root, making the logic and the data immediately accessible to researchers and developers.
 ```text
 jits-data/
-+-- legal_ai_toolkit/      # Package Root (The "Logic")
-�   +-- analytics/         # Auditing and Reporting tools
-�   +-- classification/    # Zero-ML domain classifiers
-�   +-- clustering/        # Similarity and Centroid grouping
-�   +-- extraction/        # Metadata, Citations, and Downloaders
-�   +-- pipeline/          # The 8-step Factory Orchestrator
-�   +-- utils/             # Legal Knowledge Bases (IPC/BNS mappings)
-�   +-- data/              # Bundled Gold Standard Dataset (The "Product")
-+-- annotations/           # Intelligence layer (Clusters, Edges, Signals)
-+-- schemas/               # Official Data Contracts (JSON Schemas)
-+-- setup.py               # Pip-installable configuration
+├── legal_ai_toolkit/      # Package Root (The "Logic")
+│   ├── analytics/         # Auditing and Reporting tools
+│   ├── classification/    # Zero-ML domain classifiers
+│   ├── clustering/        # Similarity and Centroid grouping
+│   ├── extraction/        # Metadata, Citations, and Downloaders
+│   ├── pipeline/          # The 8-step Factory Orchestrator
+│   ├── utils/             # Legal Knowledge Bases (IPC/BNS mappings)
+│   └── data/              # Bundled Gold Standard Dataset (The "Product")
+├── annotations/           # Intelligence layer (Clusters, Edges, Signals)
+├── schemas/               # Official Data Contracts (JSON Schemas)
+└── setup.py               # Pip-installable configuration
 ```
 ---
-## ?? The Zero-ML Factory Pipeline
+## ⚙️ The Zero-ML Factory Pipeline
 The system follows a strict, multi-stage enrichment process without "black-box" ML dependencies:
 1.  **Ingestion**: Normalization and stable ID generation.
 2.  **Metadata**: Automated capture of Court, Level, and Decision Date.
 3.  **Classification**: Categorization into Service, Criminal, or Civil domains.
-4.  **Transitions**: **IPC ? BNS (2024)** mapping for legacy case modernization.
+4.  **Transitions**: **IPC → BNS (2024)** mapping for legacy case modernization.
 5.  **Issue Extraction**: Deterministic tagging of legal issues (Bail, Arbitration, etc.).
 6.  **Citations**: Graph construction from SCC, AIR, and SCALE references.
 7.  **Similarity**: Generation of high-precision clusters for judicial batching.
 8.  **Consolidation**: Final production-ready JSON synthesis.
 ---
-## ??? Advanced Usage
+## 🛠️ Advanced Usage
 ### Running Specific Pipeline Steps
 If you only need to run part of the factory:
 ```bash
@@ -69,8 +69,8 @@ legal-ai audit --type unmapped   # Find missing IPC-BNS mappings
 legal-ai audit --type samples    # View random classification samples
 ```
 ---
-## ?? License
+## 📜 License
 Directly licensed under the [LICENSE](LICENSE) provided in this repository.
-## ?? Contributing
+## 🤝 Contributing
 Researchers and developers are welcome to contribute to the deterministic rulesets, IPC-BNS mapping databases, or the issue taxonomy. 
 *Powered by the Legal AI Toolkit.*
