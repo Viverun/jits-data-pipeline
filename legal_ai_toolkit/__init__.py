@@ -2,9 +2,8 @@
 
 __version__ = "1.0.0"
 
-from legal_ai_toolkit.pipeline.ingestion import ingest_judgment
-from legal_ai_toolkit.pipeline.classification import classify_judgment
-from legal_ai_toolkit.pipeline.extraction import extract_features
-from legal_ai_toolkit.pipeline.clustering import cluster_judgments
+from .pipeline.orchestrator import PipelineOrchestrator
+from .analytics.audit import DataAuditor
+from .utils.data_access import load_processed_judgments, load_clusters
 
-__all__ = ["ingest_judgment", "classify_judgment", "extract_features", "cluster_judgments"]
+__all__ = ["PipelineOrchestrator", "DataAuditor", "load_processed_judgments", "load_clusters"]

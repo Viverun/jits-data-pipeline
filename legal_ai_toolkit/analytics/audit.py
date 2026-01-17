@@ -1,5 +1,4 @@
 import json
-import os
 from pathlib import Path
 from collections import Counter
 
@@ -10,20 +9,21 @@ class DataAuditor:
         self.edge_file = Path(edge_file) if edge_file else None
 
     def audit_quality(self):
-        print("🔍 Starting JITS Quality Audit...")
+        print("Starting JITS Quality Audit...")
 
         if not self.processed_dir.exists():
-            print(f"❌ Error: {self.processed_dir} not found.")
+            print(f"Error: {self.processed_dir} not found.")
             return
 
         files = list(self.processed_dir.glob("*.json"))
         total_cases = len(files)
 
         if total_cases == 0:
-            print("❌ No processed judgments found.")
+            print("No processed judgments found.")
             return
 
         empty_metadata = 0
+        metadata_accurate_count = 0
         empty_annotations = 0
         landmark_coverage = 0
         domain_stats = Counter()
@@ -33,7 +33,18 @@ class DataAuditor:
                 data = json.load(f)
 
                 meta = data.get("metadata", {})
-                if not meta.get("court") or meta.get("court") == "UNKNOWN":
+                court = meta.get("court")
+                date = meta.get("decision_date")
+                case_no = meta.get("case_number")
+
+                # Metadata Accuracy (core fields extracted)
+                is_accurate = (court and court != "UNKNOWN") and \
+                              (date and date != "UNKNOWN")
+
+                if is_accurate:
+                    metadata_accurate_count += 1
+
+                if not court or court == "UNKNOWN":
                     empty_metadata += 1
 
                 anno = data.get("annotations", {})
@@ -48,6 +59,7 @@ class DataAuditor:
 
         print(f"Total Cases: {total_cases}")
         print(f"Empty Metadata: {empty_metadata}")
+        print(f"Metadata Accuracy: {metadata_accurate_count} ({(metadata_accurate_count/total_cases*100):.1f}%)")
         print(f"Empty Annotations: {empty_annotations}")
         print(f"Landmark Coverage: {landmark_coverage} ({landmark_coverage/total_cases*100:.1f}%)")
         print(f"Domains: {dict(domain_stats)}")
@@ -80,7 +92,7 @@ class DataAuditor:
                 for sec in unmapped:
                     unmapped_counter[sec] += 1
 
-        print("\n📋 Top Unmapped IPC Sections:")
+        print("\nTop Unmapped IPC Sections:")
         for sec, count in unmapped_counter.most_common(20):
             print(f"  - {sec}: {count} occurrences")
         return unmapped_counter
@@ -115,11 +127,11 @@ class DataAuditor:
                     domain_groups[domain] = []
                 domain_groups[domain].append((file.name, data))
 
-        print("\n🔍 Classification Accuracy Audit (Random Samples)")
+        print("\nClassification Accuracy Audit (Random Samples)")
         print("="*80)
 
         for domain in sorted(domain_groups.keys()):
-            print(f"\n📂 DOMAIN: {domain.upper()}")
+            print(f"\nDOMAIN: {domain.upper()}")
             samples = random.sample(domain_groups[domain], min(len(domain_groups[domain]), samples_per_domain))
 
             for filename, data in samples:
@@ -127,7 +139,7 @@ class DataAuditor:
                 confidence = data.get("classification", {}).get("confidence", "low")
                 text_snippet = data.get("text", "")[:500].replace("\n", " ")
 
-                print(f"\n📄 File: {filename}")
+                print(f"\nFile: {filename}")
                 print(f"   Confidence: {confidence}")
                 print(f"   Signals Found: {signals}")
                 print(f"   Snippet: {text_snippet}...")
@@ -141,7 +153,7 @@ class DataAuditor:
         with open(self.cluster_file, "r", encoding="utf-8") as f:
             clusters = json.load(f)
 
-        print(f"\n📊 Cluster Summary ({len(clusters)} Clusters)")
+        print(f"\nCluster Summary ({len(clusters)} Clusters)")
         print("="*40)
 
         for c in clusters:

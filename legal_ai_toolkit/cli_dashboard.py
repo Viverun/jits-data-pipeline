@@ -1,5 +1,3 @@
-import json
-from pathlib import Path
 from collections import Counter
 from prettytable import PrettyTable
 from .utils.data_access import load_processed_judgments, load_clusters
@@ -9,13 +7,13 @@ def clear_screen():
 
 def print_header():
     print("=" * 60)
-    print("🏛️  JUDICIAL TRANSITION INTELLIGENCE SYSTEM (JTIS) DASHBOARD")
+    print("JUDICIAL TRANSITION INTELLIGENCE SYSTEM (JTIS) DASHBOARD")
     print("=" * 60)
 
 def show_overview(judgments, clusters):
     clear_screen()
     print_header()
-    print("\n📊 DATASET OVERVIEW")
+    print("\nDATASET OVERVIEW")
 
     total_judgments = len(judgments)
     total_clusters = len(clusters)
@@ -23,17 +21,23 @@ def show_overview(judgments, clusters):
     landmark_count = sum(1 for j in judgments if j.get('annotations', {}).get('matched_landmarks'))
     domain_counts = Counter(j.get('classification', {}).get('domain', 'unknown') for j in judgments)
 
+    # Calculate metadata accuracy
+    meta_accurate = sum(1 for j in judgments if
+                        j.get('metadata', {}).get('court') not in [None, "UNKNOWN"] and
+                        j.get('metadata', {}).get('decision_date') not in [None, "UNKNOWN"])
+
     table = PrettyTable()
     table.field_names = ["Metric", "Value"]
     table.align["Metric"] = "l"
     table.align["Value"] = "r"
     table.add_row(["Total Judgments Processed", total_judgments])
     table.add_row(["High-Priority Batch Candidates", total_clusters])
+    table.add_row(["Metadata Extraction Accuracy", f"{(meta_accurate/total_judgments*100):.1f}%"])
     table.add_row(["Landmark Authority Coverage", f"{(landmark_count/total_judgments*100):.1f}%"])
     table.add_row(["System Accuracy", "99.9%"])
     print(table)
 
-    print("\n⚖️ DOMAIN DISTRIBUTION")
+    print("\nDOMAIN DISTRIBUTION")
     domain_table = PrettyTable()
     domain_table.field_names = ["Domain", "Count", "Percentage"]
     for domain, count in domain_counts.most_common():
@@ -45,7 +49,7 @@ def show_overview(judgments, clusters):
 def show_transitions(judgments):
     clear_screen()
     print_header()
-    print("\n⚖️ IPC → BNS TRANSITION AUDITOR")
+    print("\nIPC -> BNS TRANSITION AUDITOR")
 
     crim_cases = [j for j in judgments if j.get('classification', {}).get('domain') == 'criminal']
     if not crim_cases:
@@ -92,7 +96,7 @@ def show_transitions(judgments):
 def show_clusters(clusters):
     clear_screen()
     print_header()
-    print("\n🏛️ HIGH-PRIORITY BATCH CANDIDATES")
+    print("\nHIGH-PRIORITY BATCH CANDIDATES")
 
     cluster_table = PrettyTable()
     cluster_table.field_names = ["ID", "Primary Issue", "Count", "Centroid Path"]
@@ -119,9 +123,9 @@ def main():
         clear_screen()
         print_header()
         print("\nMain Menu:")
-        print("1. [📊] Operational Overview")
-        print("2. [⚖️ ] IPC → BNS Transition Auditor")
-        print("3. [🏛️ ] Batch Candidate Explorer")
+        print("1. Operational Overview")
+        print("2. IPC -> BNS Transition Auditor")
+        print("3. Batch Candidate Explorer")
         print("q. Exit")
 
         choice = input("\nSelect an option: ").lower()

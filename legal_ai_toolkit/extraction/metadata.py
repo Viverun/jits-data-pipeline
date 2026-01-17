@@ -1,5 +1,5 @@
 import re
-from .runner import BaseStep
+from ..pipeline.runner import BaseStep
 
 COURT_PATTERNS = [
     r"SUPREME COURT OF INDIA",
