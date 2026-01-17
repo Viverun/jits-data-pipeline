@@ -3,6 +3,7 @@ from .pipeline.orchestrator import PipelineOrchestrator
 from .analytics.reporting import ReportGenerator
 from .analytics.audit import DataAuditor
 from .utils.demo import ShowcasePreparer
+from .cli_dashboard import main as run_dashboard
 
 def main():
     parser = argparse.ArgumentParser(description="Legal AI Toolkit CLI")
@@ -33,6 +34,9 @@ def main():
     showcase_parser.add_argument("--processed-dir", default="legal_ai_toolkit/data/judgments")
     showcase_parser.add_argument("--output-dir", default="demo_showcase")
 
+    # Dashboard command
+    subparsers.add_parser("dashboard", help="Launch the CLI dashboard")
+
     args = parser.parse_args()
 
     if args.command == "pipeline":
@@ -61,6 +65,8 @@ def main():
     elif args.command == "showcase":
         preparer = ShowcasePreparer(args.cluster_file, args.processed_dir, args.output_dir)
         preparer.prepare()
+    elif args.command == "dashboard":
+        run_dashboard()
     else:
         parser.print_help()
 

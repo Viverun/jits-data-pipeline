@@ -20,8 +20,9 @@ cd jits-data-pipeline
 pip install -e .
 ```
 ### Essential Commands
-The toolkit provides a unified CLI `legal-ai` and a visualization dashboard:
-*   **Launch Dashboard**: `legal-ai-dashboard`
+The toolkit provides a unified CLI `legal-ai` and an interactive CLI dashboard:
+
+*   **Launch Dashboard**: `legal-ai dashboard` (or `legal-ai-dashboard`)
 *   **Run Full Pipeline**: `legal-ai pipeline`
 *   **Audit Dataset**: `legal-ai audit --type quality`
 *   **Generate Report**: `legal-ai report`

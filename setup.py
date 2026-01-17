@@ -28,7 +28,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "legal-ai-dashboard=legal_ai_toolkit.dashboard:main",
+            "legal-ai-dashboard=legal_ai_toolkit.cli_dashboard:main",
             "legal-ai=legal_ai_toolkit.cli:main",
         ],
     },
