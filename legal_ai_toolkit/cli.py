@@ -23,7 +23,7 @@ def main():
 
     # Audit command
     audit_parser = subparsers.add_parser("audit", help="Audit dataset quality and metrics")
-    audit_parser.add_argument("--type", choices=["quality", "landmarks", "unmapped", "edges", "samples", "clusters"], default="quality")
+    audit_parser.add_argument("--type", choices=["quality", "landmarks", "unmapped", "edges", "samples", "clusters", "coherence", "integrity"], default="quality")
     audit_parser.add_argument("--processed-dir", default="legal_ai_toolkit/data/judgments")
     audit_parser.add_argument("--cluster-file", default="annotations/similarity/clusters_refined.json")
     audit_parser.add_argument("--edge-file", default="annotations/similarity/edges.jsonl")
@@ -62,6 +62,10 @@ def main():
             auditor.audit_classification_samples()
         elif args.type == "clusters":
             auditor.summarize_clusters()
+        elif args.type == "coherence":
+            auditor.validate_similarity_coherence()
+        elif args.type == "integrity":
+            auditor.validate_referential_integrity()
     elif args.command == "showcase":
         preparer = ShowcasePreparer(args.cluster_file, args.processed_dir, args.output_dir)
         preparer.prepare()

@@ -1,4 +1,5 @@
 import json
+import random
 from pathlib import Path
 from collections import Counter
 
@@ -239,3 +240,62 @@ class DataAuditor:
 
         print(f"Referential integrity check complete. Total errors: {errors}")
         return errors
+
+    def validate_similarity_coherence(self, samples=20):
+        """
+        Validate high-strength similarity edges for legal coherence.
+        """
+        print(f"\nEvaluating Similarity Coherence (Sample: {samples} high-strength edges)")
+        print("-" * 60)
+
+        if not self.edge_file or not self.edge_file.exists():
+            print("Edge file not found.")
+            return
+
+        high_strength_pairs = []
+        with open(self.edge_file, "r", encoding="utf-8") as f:
+            for line in f:
+                edge = json.loads(line)
+                if edge.get("strength") == "high":
+                    high_strength_pairs.append(edge)
+
+        if not high_strength_pairs:
+            print("No high-strength edges available for validation.")
+            return
+
+        sample_pairs = random.sample(high_strength_pairs, min(len(high_strength_pairs), samples))
+        coherent_count = 0
+
+        existing_ids = {f.stem: f for f in self.processed_dir.glob("*.json")}
+
+        for pair in sample_pairs:
+            s_id, t_id = pair["from"], pair["to"]
+
+            if s_id not in existing_ids or t_id not in existing_ids:
+                continue
+
+            with open(existing_ids[s_id], "r", encoding="utf-8") as f1, \
+                 open(existing_ids[t_id], "r", encoding="utf-8") as f2:
+                case1 = json.load(f1)
+                case2 = json.load(f2)
+
+            # Analyze coherence: shared IPCs or shared issues
+            ipc1 = {m.get("ipc") for m in case1.get("statutory_transitions", {}).get("mapped", [])}
+            ipc2 = {m.get("ipc") for m in case2.get("statutory_transitions", {}).get("mapped", [])}
+
+            shared_sections = ipc1 & ipc2
+            shared_issues = set(case1.get("annotations", {}).get("issues", [])) & \
+                            set(case2.get("annotations", {}).get("issues", []))
+
+            is_coherent = len(shared_sections) > 0 or len(shared_issues) > 0
+            if is_coherent: coherent_count += 1
+
+            print(f"Relationship: {s_id} <-> {t_id}")
+            if shared_sections: print(f"  [Statutory Overlap]: {', '.join(list(shared_sections))}")
+            if shared_issues: print(f"  [Thematic Overlap]: {len(shared_issues)} shared issues")
+            print(f"  Result: {'COHERENT' if is_coherent else 'DIVERGENT'}")
+            print("-" * 30)
+
+        rate = (coherent_count / len(sample_pairs)) * 100
+        print(f"\nFinal Similarity Coherence Rate: {rate:.1f}%")
+        return rate
