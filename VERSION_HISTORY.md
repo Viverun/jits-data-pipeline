@@ -8,8 +8,8 @@ This document provides the canonical mapping between dataset versions and pipeli
 
 ### v1.3 (Current)
 
-**Release Date**: January 2026  
-**Pipeline Commit**: `TBD` (to be tagged upon release)  
+**Release Date**: January 18, 2026  
+**Pipeline Commit**: Run `git rev-parse v1.3` to get the commit hash  
 **HuggingFace Dataset**: `Viverun/jits-legal-dataset`
 
 #### Key Features
