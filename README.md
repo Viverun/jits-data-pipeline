@@ -451,6 +451,12 @@ If you use this dataset or pipeline in research or applications, please cite:
 }
 ```
 
+Or for general reference:
+
+```
+Viverun (2026). JITS Legal Dataset (v1.3). Hugging Face.
+```
+
 **Recent improvements**: Self-citation exclusion, multi-act section extraction, 100% transition coverage, comprehensive testing.
 
 ---

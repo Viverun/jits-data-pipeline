@@ -92,10 +92,6 @@ associated GitHub repository:
 
 👉 https://github.com/Viverun/jits-data-pipeline
 
----
-
----
-
 ## Reproducibility & Provenance
 
 ### Quick Verification
@@ -142,6 +138,8 @@ The dataset schema is designed for clarity and ease of use:
 - **classification** (`dict`): Rule-based domain classification (e.g., Civil vs Criminal) with confidence scores and signal keywords.
 - **statutory_transitions** (`list`): Mappings of legacy IPC/CrPC sections to new BNS/BNSS equivalents.
 - **provenance** (`dict`): detailed pipeline versioning and processing timestamp for full auditability.
+
+> **Note:** The field `annotations` in the raw data is a logical grouping that acts as a container for extracted entities like citations, issues, and similarity metadata, which are detailed above under `extractions` and `classification`.
 
 ## JSON Record Example
 
@@ -192,7 +190,7 @@ The complete data processing pipeline, schemas, and audit tools are available at
 If you use this dataset, please cite:
 
 ```
-Viverun, JITS Legal Dataset, Hugging Face, 2026.
+Viverun (2026). JITS Legal Dataset (v1.3). Hugging Face.
 ```
 
 ---
