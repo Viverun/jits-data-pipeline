@@ -1,5 +1,5 @@
 ---
-license: cc-by-4.0
+license: apache-2.0
 task_categories:
   - text-classification
   - information-extraction
@@ -78,11 +78,9 @@ Core quality metrics are computed using audit logic in:
 
 ## Version History
 
-| Dataset Version | Pipeline Commit | Notes |
-|-----------------|-----------------|-------|
-| v1.3 | TBD | IPC → BNS transition coverage, citation audit |
-
-*Note: Commit hash will be added upon release tagging*
+| Dataset Version | Pipeline Commit | Release Date | Notes |
+|-----------------|-----------------|--------------|-------|
+| v1.3 | [View on GitHub](https://github.com/Viverun/jits-data-pipeline/releases/tag/v1.3) | January 2026 | IPC → BNS transition coverage, citation audit |
 
 ---
 
@@ -126,11 +124,11 @@ The complete data processing pipeline, schemas, and audit tools are available at
 If you use this dataset, please cite:
 
 ```
-Viverun, JITS Legal Dataset v1.3, Hugging Face, 2025.
+Viverun, JITS Legal Dataset v1.3, Hugging Face, 2026.
 ```
 
 ---
 
 ## License
 
-This dataset is licensed under CC-BY-4.0.
+This dataset is licensed under Apache-2.0.
