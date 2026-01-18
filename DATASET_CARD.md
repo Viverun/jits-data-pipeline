@@ -124,7 +124,7 @@ The complete data processing pipeline, schemas, and audit tools are available at
 If you use this dataset, please cite:
 
 ```
-Viverun, JITS Legal Dataset v1.3, Hugging Face, 2026.
+Viverun, JITS Legal Dataset, Hugging Face, 2026.
 ```
 
 ---

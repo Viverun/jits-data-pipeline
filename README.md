@@ -175,7 +175,7 @@ legal-ai audit --type samples    # View random classification samples
 If you use this dataset or pipeline in research or applications, please cite:
 
 ```
-Viverun, JITS Legal Dataset v1.3, Hugging Face, 2025.
+Viverun, JITS Legal Dataset, Hugging Face, 2026.
 ```
 
 ---
