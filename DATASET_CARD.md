@@ -2,8 +2,8 @@
 license: apache-2.0
 task_categories:
   - text-classification
-  - information-extraction
-  - text-similarity
+  - token-classification
+  - sentence-similarity
 language:
   - en
 size_categories:
