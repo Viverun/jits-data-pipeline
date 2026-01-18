@@ -110,6 +110,51 @@ Each record contains:
 - `statutory_transitions`: IPC / CrPC → BNS / BNSS mappings
 - `similarity`: Deterministic similarity signals and edges
 
+## Schema Overview
+
+The dataset schema is designed for clarity and ease of use:
+
+- **text** (`string`): Raw source text of the judgment, cleaned of HTML artifacts.
+- **metadata** (`dict`): Core legal metadata including court, date, and case identifiers.
+- **extractions** (`dict`): Structured legal entities extracted from the text (citations, sections).
+- **classification** (`dict`): Rule-based domain classification (e.g., Civil vs Criminal) with confidence scores and signal keywords.
+- **statutory_transitions** (`list`): Mappings of legacy IPC/CrPC sections to new BNS/BNSS equivalents.
+- **provenance** (`dict`): detailed pipeline versioning and processing timestamp for full auditability.
+
+## JSON Record Example
+
+Here is a simplified example of a single record:
+
+```json
+{
+  "judgment_id": "IN-HC-ALL-2006-CV-E0B4E7",
+  "text": "Allahabad High Court...",
+  "metadata": {
+    "court": "Allahabad High Court",
+    "date": "2006-11-03",
+    "bench": ["V.M. Sahai", "Sabhajeet Yadav"]
+  },
+  "classification": {
+    "domain": "service",
+    "confidence": "high",
+    "signals": {
+      "service": ["seniority", "pension", "Article 16"]
+    }
+  },
+  "statutory_transitions": [
+    {
+      "ipc": "302",
+      "bns": "103",
+      "source": "inferred"
+    }
+  ],
+  "provenance": {
+    "version": "2.0",
+    "processed_date": "2026-01-18T18:40:35"
+  }
+}
+```
+
 ---
 
 ## Source Code
