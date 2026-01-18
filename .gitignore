@@ -33,6 +33,12 @@ ENV/
 env/
 .env
 
+# Build artifacts
+*.egg-info/
+dist/
+build/
+*.egg
+
 # IDE settings
 .idea/
 .vscode/

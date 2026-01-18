@@ -1,3 +1,0 @@
-[console_scripts]
-legal-ai = legal_ai_toolkit.cli:main
-legal-ai-dashboard = legal_ai_toolkit.cli_dashboard:main
