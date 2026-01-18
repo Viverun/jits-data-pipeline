@@ -49,17 +49,19 @@ build/
 .DS_Store
 Thumbs.db
 
-# Processed data (uploaded to HuggingFace separately)
-legal_ai_toolkit/data/judgments/citations/*.json
-legal_ai_toolkit/data/judgments/sections/*.json
-legal_ai_toolkit/data/judgments/transitions/*.json
-legal_ai_toolkit/data/judgments/processed/*.json
+# Processed Judgments (Hugging Face)
+legal_ai_toolkit/data/judgments/*.json
+# Whitelist 3 samples for GitHub
+!legal_ai_toolkit/data/judgments/IN-HC-ALL-2006-CV-121D60.json
+!legal_ai_toolkit/data/judgments/IN-HC-ALL-2006-CV-E0B4E7.json
+!legal_ai_toolkit/data/judgments/IN-HC-ALL-2007-CR-25B3AC.json
 
-# HuggingFace export directory
-huggingface_dataset/
-
-# Keep directory structure but ignore JSON files
-!legal_ai_toolkit/data/judgments/processed/README.md
+# Raw Data (Hugging Face)
+legal_ai_toolkit/data/raw/judgments/*.txt
+# Whitelist 3 samples for GitHub
+!legal_ai_toolkit/data/raw/judgments/IN-HC-ALL-2006-CV-121D60.txt
+!legal_ai_toolkit/data/raw/judgments/IN-HC-ALL-2006-CV-E0B4E7.txt
+!legal_ai_toolkit/data/raw/judgments/IN-HC-ALL-2007-CR-25B3AC.txt
 
 # Ignored Documentation Files
 MIGRATION_GUIDE_V2.md

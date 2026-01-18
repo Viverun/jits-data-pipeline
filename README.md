@@ -81,8 +81,8 @@ Each dataset version corresponds deterministically to a specific pipeline commit
 
 | Metric | Value | Notes |
 |--------|-------|-------|
-| **Total Judgments** | 846 | Supreme Court + High Courts |
-| **Processed Files** | 846 | Unified JSON objects in `legal_ai_toolkit/data/judgments/` |
+| **Total Judgments** | 846 | Full dataset available on [Hugging Face](https://huggingface.co/datasets/Viverun/jits-legal-dataset) |
+| **Processed Files** | 846 | Repository contains **3 samples**. Full dataset on Hugging Face. |
 | **Citations Extracted** | 4,293 | Self-citations excluded (70.4% coverage) |
 | **Sections Extracted** | 2,433 | Across 9+ statutory acts (45.5% coverage) |
 | **IPC→BNS Transitions** | 904 | 100% coverage of extracted IPC sections |
@@ -226,10 +226,10 @@ The project is built as an installable toolkit with a clean, production-ready st
 jits-data/
 ├── legal_ai_toolkit/           # Core Package
 │   ├── data/
-│   │   ├── judgments/          # 📊 PRODUCTION DATA (846 files)
-│   │   │   └── *.json          # Unified judgment objects
+│   │   ├── judgments/          # � SAMPLES ONLY (3 files)
+│   │   │   └── *.json          # Unified judgment objects (Full dataset on Hugging Face)
 │   │   └── raw/
-│   │       └── judgments/      # Original raw text files
+│   │       └── judgments/      # Original raw text samples (3 files)
 │   ├── extraction/             # 🔧 Extraction Modules (Refactored)
 │   │   ├── downloader.py       # Clean text extraction (Phase 1)
 │   │   ├── citations.py        # Citation extraction (Phase 2)
