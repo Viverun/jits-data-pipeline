@@ -2,7 +2,8 @@
 
 A deterministic, rule-based pipeline for processing Indian criminal law judgments into structured, auditable legal datasets — no machine learning, full explainability.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Version](https://img.shields.io/badge/version-1.3-blue.svg)](https://github.com/Viverun/jits-data-pipeline/releases/tag/v1.3)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-yellow.svg)](LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
 ## Overview
