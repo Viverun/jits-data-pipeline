@@ -1,0 +1,14 @@
+# Development dependencies for testing
+
+# Core testing framework
+pytest>=7.0.0
+pytest-cov>=4.0.0        # Code coverage
+pytest-mock>=3.10.0      # Mocking support
+
+# Code quality
+black>=23.0.0            # Code formatter
+flake8>=6.0.0           # Linting
+mypy>=1.0.0             # Type checking
+
+# For test data generation
+faker>=18.0.0           # Generate fake data

@@ -31,12 +31,15 @@ class DataAuditor:
         empty_annotations = 0
         landmark_coverage = 0
         domain_stats = Counter()
-        act_coverage = {
-            "crpc": 0,
-            "iea": 0,
-            "pc_act": 0,
-            "ni_act": 0
-        }
+
+        # Track all statutory acts mentioned in the dataset
+        act_coverage = Counter()
+        total_citations = 0
+        total_sections = 0
+        total_transitions = 0
+        cases_with_citations = 0
+        cases_with_sections = 0
+        cases_with_transitions = 0
 
         for file in files:
             with open(file, "r", encoding="utf-8") as f:
@@ -64,17 +67,48 @@ class DataAuditor:
                 if not court or court == "UNKNOWN":
                     empty_metadata += 1
 
-                anno = data.get("annotations", {})
-                if not anno.get("issues") and not anno.get("citations"):
+                # Check v2.0 extraction fields
+                extractions = data.get("extractions", {})
+                
+                # Check for empty extractions
+                has_issues = extractions.get("issues", {}).get("total", 0) > 0
+                has_citations = extractions.get("citations", {}).get("total", 0) > 0
+                
+                if not has_issues and not has_citations:
                     empty_annotations += 1
 
-                if anno.get("matched_landmarks"):
+                if extractions.get("landmarks", {}).get("total", 0) > 0:
                     landmark_coverage += 1
 
-                extracted = data.get("extracted_sections", {})
-                for act in act_coverage:
-                    if extracted.get(act):
-                        act_coverage[act] += 1
+                # Extract v2.0 structure: extractions.sections.by_act
+                extractions = data.get("extractions", {})
+
+                # Count citations
+                citations = extractions.get("citations", {})
+                cite_count = citations.get("total", 0)
+                if cite_count > 0:
+                    cases_with_citations += 1
+                    total_citations += cite_count
+
+                # Count sections by act
+                sections = extractions.get("sections", {})
+                by_act = sections.get("by_act", {})
+                section_count = sections.get("total", 0)
+                if section_count > 0:
+                    cases_with_sections += 1
+                    total_sections += section_count
+
+                # Track which acts are present
+                for act_name, act_sections in by_act.items():
+                    if act_sections:
+                        act_coverage[act_name] += 1
+
+                # Count transitions
+                transitions = extractions.get("transitions", {})
+                trans_count = transitions.get("total", 0)
+                if trans_count > 0:
+                    cases_with_transitions += 1
+                    total_transitions += trans_count
 
                 domain = data.get("classification", {}).get("domain", "unknown")
                 domain_stats[domain] += 1
@@ -86,10 +120,17 @@ class DataAuditor:
         print(f"  - Missing Case No: {missing_case_no}")
         print(f"Empty Annotations: {empty_annotations}")
         print(f"Landmark Coverage: {landmark_coverage} ({landmark_coverage/total_cases*100:.1f}%)")
-        print("Specialized Act Coverage:")
-        for act, count in act_coverage.items():
-            print(f"  - {act.upper()}: {count} cases ({count/total_cases*100:.1f}%)")
-        print(f"Domains: {dict(domain_stats)}")
+
+        print("\n=== EXTRACTION STATISTICS (v2.0) ===")
+        print(f"Citations: {total_citations} total ({cases_with_citations} cases, {cases_with_citations/total_cases*100:.1f}%)")
+        print(f"Sections: {total_sections} total ({cases_with_sections} cases, {cases_with_sections/total_cases*100:.1f}%)")
+        print(f"Transitions: {total_transitions} total ({cases_with_transitions} cases, {cases_with_transitions/total_cases*100:.1f}%)")
+
+        print("\nStatutory Act Coverage:")
+        for act, count in act_coverage.most_common():
+            print(f"  - {act}: {count} cases ({count/total_cases*100:.1f}%)")
+
+        print(f"\nDomains: {dict(domain_stats)}")
         return locals()
 
     def audit_landmarks(self):
@@ -99,30 +140,43 @@ class DataAuditor:
         for file in files:
             with open(file, "r", encoding="utf-8") as f:
                 data = json.load(f)
-                landmarks = data.get("annotations", {}).get("matched_landmarks", [])
+                # v2.0 structure: extractions.citations.matched_landmarks
+                citations_data = data.get("extractions", {}).get("citations", {})
+                landmarks = citations_data.get("matched_landmarks", [])
                 for lm in landmarks:
-                    landmark_counts[lm["short_name"]] += 1
+                    landmark_counts[lm.get("short_name", lm.get("name", "Unknown"))] += 1
 
         print("\nTop Cited Landmarks:")
         for name, count in landmark_counts.most_common(10):
             print(f"  - {name}: {count} citations")
         return landmark_counts
 
-    def check_unmapped_ipc(self):
-        unmapped_counter = Counter()
+    def audit_landmarks(self):
+        landmark_counts = Counter()
         files = list(self.processed_dir.glob("*.json"))
 
         for file in files:
             with open(file, "r", encoding="utf-8") as f:
                 data = json.load(f)
-                unmapped = data.get("statutory_transitions", {}).get("unmapped_ipc", [])
-                for sec in unmapped:
-                    unmapped_counter[sec] += 1
+                # Check v2.0 structure: extractions.citations.matched_landmarks
+                extractions = data.get("extractions", {})
+                citations = extractions.get("citations", {})
+                landmarks = citations.get("matched_landmarks", [])
 
-        print("\nTop Unmapped IPC Sections:")
-        for sec, count in unmapped_counter.most_common(20):
-            print(f"  - {sec}: {count} occurrences")
-        return unmapped_counter
+                # Fallback to old structure if v2.0 not found
+                if not landmarks:
+                    landmarks = data.get("annotations", {}).get("matched_landmarks", [])
+
+                for lm in landmarks:
+                    landmark_counts[lm.get("short_name", "Unknown")] += 1
+
+        print("\nTop Cited Landmarks:")
+        if landmark_counts:
+            for name, count in landmark_counts.most_common(10):
+                print(f"  - {name}: {count} citations")
+        else:
+            print("  No landmark citations found.")
+        return landmark_counts
 
     def analyze_edges(self):
         if not self.edge_file or not self.edge_file.exists():

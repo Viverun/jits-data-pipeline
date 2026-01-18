@@ -1,0 +1,105 @@
+{
+  "judgment_id": "IN-HC-HIG-2025-CR-651D21",
+  "text": "Calcutta High Court (Appellete Side)\n\n498A/323/307/376/511/379 Ipc vs In Re: Yyyyy on 9 January, 2025\n\n09.01.2025\nSl. No.42\ntkm\nC. R. M. (A) 67 of 2025\n\nIn Re: An application for anticipatory bail under Section 482 of the\nBharatiya Nagarik Suraksha Sanhita, 2023 in connection with Pukhuria\nPolice Station Case No.348 of 2024 dated 25.6.2024 under\nSections\n498A\n/\n/\n/\n/\n/\nIPC.\nAnd\nIn Re: YYYYY ... ... Petitioner\n\nMr. Kalidas Saha\nMs. Mandira Mandal\nMs. K Mollick\n... ... for the petitioner\nMr. Avishek Sinha\nMs. Poulami Bose\n... ... for the State\n\n1.\nPetitioner is the brother-in-law of the victim. It is contended\n\nhe has been falsely implicated due to a matrimonial\n\ndispute. He prays for anticipatory bail.\n\n2. Learned lawyer for the State opposes the prayer.\n\n3. We have considered the materials on record. In the FIR it is\n\nalleged on 27.5.2024 when her husband was absent,\n\npetitioner surreptitiously entered the room and committed\n\nrape. But in the FIR it is contended all the in-laws jointly\n\nforced the victim into a room and provoked the petitioner\n\nto commit rape. The manner and circumstances in which\n\nrape is said to have been committed appears to be\n\npatently contradictory. Possibility of false implication is not\n\nruled out.\n\n4. Under such circumstances, we are inclined to grant\n\nanticipatory bail to the petitioner.\n\n5. Accordingly, we direct that in the event of arrest, the\n\npetitioner shall be released on bail upon furnishing a bond\n\nSigned By :\n\nTAMAL KRISHNA\nMANDAL\nHigh Court of\nCalcutta\n13 th of January\n2025 12:53:58 PM\nof Rs. 10,000/- with two sureties of like amount each, to the\n\nsatisfaction of the Arresting Officer and also subject to the\n\nconditions as laid down under\nsection 482(2)\nof BNSS 2023.\n\n6. Petitioner shall appear before the jurisdictional court and\n\npray for regular bail within four weeks from date.\n\n7. The application being CRM (A) 67 of 2025 is disposed of.\n\n(Gaurang Kanth, J.) (Joymalya Bagchi, J.)\n\nSigned By :\n\nTAMAL KRISHNA\nMANDAL\nHigh Court of\nCalcutta\n13 th of January\n2025 12:53:58 PM",
+  "metadata": {
+    "processed_date": "2026-01-18T18:40:36.266031",
+    "version": "2.0",
+    "court": "High Court Of Calcutta",
+    "court_level": "HC",
+    "case_number": "CASE NO.348",
+    "decision_date": "9 JANUARY, 2025",
+    "jurisdiction": "India"
+  },
+  "extractions": {
+    "citations": {
+      "total": 0,
+      "by_type": {},
+      "details": []
+    },
+    "sections": {
+      "total": 2,
+      "by_act": {
+        "BNS": [
+          "482(2)"
+        ],
+        "BNSS": [
+          "482(2)"
+        ]
+      },
+      "details": [
+        {
+          "section": "482(2)",
+          "act": "BNS"
+        },
+        {
+          "section": "482(2)",
+          "act": "BNSS"
+        }
+      ]
+    },
+    "transitions": {
+      "total": 0,
+      "by_source": {},
+      "details": []
+    },
+    "landmarks": {
+      "total": 0,
+      "by_id": {},
+      "details": []
+    },
+    "issues": {
+      "total": 2,
+      "details": {
+        "bail": {
+          "statute": "CrPC / BNSS",
+          "keywords": [
+            "bail",
+            "anticipatory bail",
+            "regular bail"
+          ],
+          "sections": [],
+          "confidence": "medium",
+          "keyword_count": 3,
+          "mention_count": 9
+        },
+        "quashing": {
+          "statute": "CrPC / BNSS",
+          "keywords": [],
+          "sections": [
+            "482"
+          ],
+          "confidence": "medium",
+          "keyword_count": 0,
+          "mention_count": 0
+        }
+      }
+    }
+  },
+  "provenance": {
+    "processed_date": "2026-01-18T18:40:36.266031",
+    "pipeline_version": "2.0",
+    "processing_steps": [
+      "ingestion",
+      "metadata_extraction",
+      "issue_extraction",
+      "classification",
+      "statutory_transitions",
+      "citation_extraction",
+      "consolidation"
+    ]
+  },
+  "classification": {
+    "domain": "criminal",
+    "confidence": "high",
+    "signals": {
+      "criminal": [
+        "bail",
+        "BNSS",
+        "IPC",
+        "fir"
+      ],
+      "civil": [],
+      "service": []
+    }
+  }
+}

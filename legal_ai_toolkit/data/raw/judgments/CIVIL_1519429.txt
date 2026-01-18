@@ -1,0 +1,340 @@
+Bombay High Court
+
+Jindal Drugs Ltd., Mumbai vs Noy Vallesina Engineering Spa, Italy ... on 6 February, 2002
+
+Equivalent citations: 2002(3)BOMCR554, 2002(2)MHLJ820
+
+Author:
+D.K. Deshmukh
+
+Bench:
+D.K. Deshmukh
+
+ORDER
+
+D.K. Deshmukh, J.
+
+1. By this petition, the petitioner is challenging the Award dated 1st February, 2000. The facts that are material and relevant for considering this petition are that the petitioner is a Company incorporated in India. The 1st respondent is a Company incorporated under the Laws of Italy.
+
+The petitioner on 30th January, 1995 entered into four related Agreements with Enco Engineering Chur AG of Sagenstrasse, which is a company incorporated under the Laws of Switzerland. These four Agreements are known as the 'Engineering Contract for Ascorbic Acid Plant (ECAAP)', 'Supply Contract for Ascorbic Acid Plant (SCAAP)', 'Service Agreement for Ascorbic Acid Plant (SAAAP)', and 'Licence Agreement for Ascorbic Acid Plant (LAAAP)'. By these Agreements, Enco agreed to supply to the petitioner their secret knowledge and know-how for the production of ascorbic acid to enable the petitioner to build a new ascorbic acid plant in India. On 1st March, 1995, the petitioner, Enco and the respondent No. 1 - Noy Vallesina Engineering SpA entered Into a tripartite Transfer Agreement whereby pursuant to
+Article 12.1
+, the ECAAP was assigned to respondent No. 1 - Noy and Enco was released from all its obligations under the contract. Each of the four Agreements contained the following terms dealing with the proper law of the Agreements and provisions for the arbitration for disputes.
+
+"APPLICABLE LAW AND ARBITRATION.
+
+This ENGINEERING CONTRACT shall be governed by the Laws of
+India.
+
+In all cases of disputes or disagreements between the parties as to any
+matter arising out of or relating to this ENGINEERING CONTRACT
+and provided no understanding between the parties can be reached for
+the settlement of the difference, the matter shall be finally settled by
+arbitration under the rules of Conciliation and Arbitration of the
+International Chamber of Commerce, Paris and Arbitration proceedings
+shall be in English language and shall take place in London. The decision
+of such arbitration shall be final and binding on the parties.
+
+2. On 31st October, 1996, the petitioner served a request for arbitration on the International Chamber of Commerce in Paris. The petitioner claimed damages from respondent No. 1 - Noy on account of alleged misrepresentations and breaches of the ECAAP. The petitioner further claimed that it had terminated the ECAAP on 10th July, 1996. The Secretariat of the International Court of Arbitration appointed a Chairman of the Arbitral Tribunal. Thereafter, the arbitration proceedings were taken up by the Arbitral Tribunal, and by a majority award, the petitioner's claims were dismissed and it was held that respondent No. 1 - Noy is entitled to recover from the Claimant a sum of S.Fr. 4,433,316 pursuant to the counterclaim filed by respondent No. 1. The Arbitral Tribunal decided that the question of award of interest and costs would be decided after the parties file their further submissions. It is this Award, which is a majority Award made by the Arbitral Tribunal, that is challenged in the present petition.
+
+3. The present petition has been filed by the petitioner under
+Section 34
+of the Arbitration and Conciliation Act, 1996, though, by a subsequent amendment, the petitioner had claimed that it is filing the present petition also under the provisions of
+Section 48
+of the Act. At the outset, Mr. Tulzapurkar, learned counsel for the petitioner submits that as now the final award of the arbitrator has come and so far respondent No. 1 has not taken any step to invoke the Awards, he is not pressing this petition as the petition filed under
+Section 48
+of the Act. He
+
+submits that this petition should be taken as a petition filed under
+Section 34
+of the Act for setting aside the first Award alone.
+
+4. Mr. Rana, learned counsel appearing for the respondents, at the outset, raised a preliminary objection to the maintainability of the present petition filed under
+Section 34
+of the Act. He submits that as per clause 12.4.2 of the Agreement between the parties, the place of arbitration was in London, which is outside India, and, therefore, the remedy of challenging the arbitral award provided under
+Section 34
+of the Act is not available to the petitioner. Learned counsel relies on the provision of Sub-section (2) of
+Section 2
+of the Arbitration Act and submits that
+Section 2(2)
+of the Act is to be found in
+Part-I of the Act
+and lays down that the provision of this Part shall apply where the place of arbitration is in India. Learned counsel submits that as the place of arbitration in the present case was not in India, the provisions of
+Part-I of the Act
+do not apply to the award which is challenged in the present petition. Learned counsel submits that
+Section 34
+of the Act under which the present petition has been filed is also to be found in
+Part-I of the Arbitration Act
+, and, therefore, according to learned counsel, the provisions of
+Section 34
+are not available to the petitioner for challenging the award because the place of arbitration is not in India. Learned counsel also relies on a judgment of a Learned Single Judge of this Court in the case of Bombay Gas Company Limited v. Mark Victor Mascarenhas and Ors., reported in 1995 I LJ Page 977.
+
+5. Learned counsel appearing for the petitioner, on the other hand, submits that the provisions of
+Section 34
+are available to the petitioner. He submits that as per Clause 12.4.1 of the Contract between the parties, it is the Indian Law which governs the relationship between the parties. The relevant clause reads as under :
+
+"12.4.1 This ENGINEERING CONTRACT shall be governed by the
+Laws of India."
+
+Learned counsel relying on two judgments of the Supreme Court, (i) In the case of
+National Thermal Power Corporation v. Singer Company and Ors.
+, , and (ii) in the case of
+Sumitomo Heavy Industries Ltd. v. ONGC Ltd. and Ors.
+, , submits that because of the Agreement between the parties, the substantive law, which governs the arbitration proceedings including the award made pursuant to those arbitration proceedings, is the law in force in India. Learned counsel therefore submits that his right to challenge the award would also be governed by the substantive law of India. According to learned counsel,
+Section 34
+of the Arbitration Act is the substantive law in force in India which is available to him and, therefore, the present petition is now maintainable under
+Section 34
+of the Act. Learned counsel relying on the provisions of
+Section 48(l)(e)
+of the Act submits that a forum or competent Court before whom a foreign award is being enforced can refuse to enforce a foreign award if it finds that the award has been set aside or suspended by a competent Authority of the country in which, or under the law of which, that award was made. Learned counsel therefore submits that
+Section 48
+contemplates a foreign award being set aside by the competent Court of the country the law of which governs the award. According to learned counsel, therefore, as it is the law of India, which is substantive law which
+
+applies to the award, the petition under
+Section 34
+of the Act for challenging the award has to be held to be maintainable. Learned counsel submits that when subsection (2) of
+Section 2
+of the Act lays down that this Part shall apply where the place of arbitration is in India, it is only the procedural provisions contained in Part-I which apply to the arbitration which are taking place in India. Learned counsel submits that Sub-section (2) of
+Section 2
+of the Act does not exclude operation of the substantive provisions contained in Part-I like the provisions of
+Section 34
+to the awards which are governed by the substantive law of India. Learned counsel further submits that the provisions of
+Section 2(2)
+of the Act are inclusive in the nature, in the sense, that they make provisions of Part-I applicable to the arbitrations where the place of arbitration is in India but it does not exclude positively the application of all the provisions of Part-1 to the arbitrations where the place of arbitration is not in India. Learned counsel submits that if a substantive provision for challenging the award is not made applicable or available in relation to an award, which is governed by substantive law of India, it will work injustice on a person against whom the award is made. Learned counsel submits that the policy behind the provisions of
+Section 48(1)(e)
+is to make available to a person against whom foreign award has been made, a remedy for challenging the validity of that award under the substantive law which governs the award. Learned counsel therefore submits that even the foreign award like the present award, which is governed by the substantive law of India, is capable of being challenged by filing an application under
+Section 34
+of the Act. Learned counsel further submits that for determining the substantive right of challenging the validity of an award, the place of arbitration cannot be given importance. Learned counsel submits that perusal of the provisions of
+Section 20
+shows, it has been left to the free will of the parties to agree on a place of arbitration. It is further clear from the provisions of
+Section 20
+that if the parties are not agreed on the place of arbitration then it is for the Arbitrator to decide which is the place of arbitration. Learned counsel therefore submits that either the parties can agree to hold the arbitration proceedings at more than one place, one of which can be in India and one can be outside India, or can be decided at different places outside India. Learned counsel however submits that it is possible under the provisions of
+Section 20
+that part of the proceedings may be held in India and part of the proceedings may be held outside India. Learned counsel submits that, in such a case, what is the course of action to be followed is not provided by the Act. According to learned counsel, deciding factor for determining a right to challenge an award should be the substantive law by which the award is governed. If the award is governed by the substantive law in India, a forum has to be made available for raising a challenge to the award under the Law of India. Learned counsel submits that such a forum has actually been made available by
+Section 34
+of the Act and, therefore, the present petition filed by him under
+Section 34
+of the Act is maintainable.
+
+6. Insofar as the judgment, of the Learned Single Judge in the case of Bombay Gas Company Limited (supra) is concerned, learned counsel submits that, in that case, the petition was filed not under the provisions of
+Section 34
+of the Act but under the provisions of
+Section 48
+of the Act and the question that the Court was considering in that case was whether a petition for challenging the
+
+validity of a foreign award can be presented under
+Section 48
+of the Act. That question has been examined by the Court with reference to
+Section 48
+of the Act and the Court has found that
+Section 48
+of the Act provides for making an application for enforcing the award and it does not create a forum for raising a substantive challenge to the award by a person against whom the award operates. Under
+Section 48
+, a person against whom the award operates can oppose enforcement of the award when enforcement is sought by a person in whose favour the award has been made. Learned counsel, therefore submits that as the question whether a petition under
+Section 34
+of the Act for challenging a foreign award which is governed by substantive law of India is maintainable under
+Section 34
+or not was not considered by this Court in its judgment in the case of Bombay Gas Company Limited referred to above, that judgment is not relevant for deciding the question that falls for consideration in the present case.
+
+7. Now if in the light of the rival submissions, the record of the case is perused, it becomes clear that the Agreement between the parties clearly lays down that the place of arbitration shall be London. It also clearly lays down that the Agreement shall be governed by the Laws of India. Therefore, the substantive law that governs contractual relationship between the parties is the Laws of India. The parties to an International Commercial Contract, have freedom to select the law which is to govern the contract. The learned counsel for the petitioner submits that, in view of Clause 12.4.1 of the contract, the law in force in India is the "proper law of contract" in the present case. The term "proper law of contract" means the system of law by which the parties intended the contract to be governed. The expression "proper law" refers to the substantive principles of the domestic law of the chosen system. The Supreme Court, in its judgment in the case of National Thermal Power Corporation referred to above, has observed thus :
+
+"24. The validity, effect and interpretation of the arbitration agreement are governed by its proper law. Such law will decide whether the arbitration clause is wide enough to cover the dispute between the parties. Such law will also ordinarily decide whether the arbitration clause binds the parties even when one of them alleges that the contract is void, or voidable or illegal or that such contract has been discharged by breach or frustration. (See Heyman v. Danvins Ltd.). The proper law of arbitration will also decide whether the arbitration clause would equally apply to a different contract between the same parties or between one of those parties and third party."
+
+"26. Whereas, as stated above, the proper law of arbitration (i.e., the substantive law governing arbitration) determines the validity, effect and interpretation of the arbitration agreement, the arbitration proceedings are conducted, in the absence of any agreement to the contrary, in accordance with the law of the country in which the arbitration is held. On the other hand, if the parties have specifically chosen the law governing the conduct and procedure of arbitration, the arbitration proceedings will be conducted in accordance with that law so long as it is not contrary to the public policy or the mandatory requirements of the law of the country in which the arbitration is held.
+
+If no such choice has been made by the parties, expressly or by necessary implication, the procedural aspect of the conduct of arbitration (as distinguished from the substantive agreement to arbitrate) will be determined by the law of the place or seat of arbitration. Where, however, the parties have, as in the instant case, stipulated that the arbitration between them will be conducted in accordance with the ICC Rules, those rules, being in many respects self-procedure, will govern the conduct of the arbitration, except insofar as they conflict with the mandatory requirements of the proper law of arbitration, or of the procedural law of the seat of arbitration. [See the observation of Kerr, LJ. in Bank Mellat v. Helliniki Techniki SA. See also Craig, Park and Paulsson, International Chamber of Commerce Arbitration, 2nd edn. (1990).] To such an extent the appropriate courts of the seat of arbitration, which in the present case are the competent English courts, will have jurisdiction in respect of procedural matters concerning the conduct of arbitration. But the overriding principle is that the courts of the country whose substantive laws govern the arbitration agreement are the competent courts in respect of all matters arising under the arbitration agreement, and the jurisdiction exercised by the courts of the seat of arbitration is merely concurrent and not exclusive and strictly limited to matters of procedure. All other matters in respect of the arbitration agreement fall within the exclusive competence of the courts of the country whose laws govern the arbitration agreement. [See Mustil and Boyd, Commercial Arbitration, 2nd edn.; Alien Redfern and Martin Hunter, Law and Practice of International Commercial Arbitration, 1986; Russel on Arbitration, 20th edn. (1982); Cheshire and North's Private International Law, 11th edn. (1987).]
+
+It is clear from the observations quoted above that it is courts of the country whose substantive law govern the arbitration agreement are the competent Courts in respect of all matter arising under the Arbitration agreement which will include validity of the Award made by the arbitrators. In the case of National Thermal Power Corporation referred to above, the Supreme Court after considering the provision of the
+Arbitration Act, 1940
+, held that, though the award was made at London, it had to be filed in Indian Court, because the "proper law" was the laws in force in India.
+Now the Arbitration Act
+1940 has been repealed, In the present case also, the "proper law" is the laws in force in India and the award has been made in London. The present petition has been filed under
+Section 34
+of the Act challenging that award. The question, therefore, that falls for consideration is whether, the award, which has been made at London, can be challenged by filing an application under
+Section 34
+of the Act. Sub-section (2) of
+Section 2
+, which is relevant for considering the question, reads as under:
+
+"2(2) This part shall apply where the place of arbitration is in India."
+
+8. As observed above, the present petition has been filed by the petitioner under the provisions of
+Section 34
+of the Arbitration Act. Relevant part of
+Section 34
+reads as under :
+
+"34. Application for setting aside arbitral award.
+
+(1) Recourse to a Court against an arbitral award may be made.......................................................................................
+
+(2) An arbitral award may be set aside by the Court, if -
+
+(a) the party making ....................................................
+
+(b) ..........................................................................
+
+(3) ....................................................................
+
+(4) ................................................... for setting aside the
+award."
+
+Perusal of the Scheme of the Arbitration Act shows that,
+Part I of the Arbitration Act
+is divided into 10 Chapters.
+Sections 2
+to
+are to be found in Chapter I;
+Sections 7
+to
+are to be found in Chapter II;
+Sections 10
+to
+are to be found in Chapter III;
+Section 20
+is to be found in Chapter V and
+Section 34
+is to be found in Chapter VII. Thus,
+Section 34
+is to be found in Part -1 of the
+Arbitration Act
+. Sub-section (7) of
+Section 2
+lays down that "an arbitral award made under this part shall be considered as a domestic award." It is clear that if the place of arbitration is in India, the process of making an award is governed by the provisions of
+Part-I of the Arbitration Act
+irrespective of the agreement between the parties in that regard.
+Section 31
+lays down the manner in which the arbitral award is to be made and thereafter,
+Section 34
+vests power in the Court to set aside the arbitral award. It is thus clear that an application can be made under
+Section 34
+for setting aside an arbitral award which is a domestic award made in accordance with the provisions of Part-I. The Scheme of Arbitration Act appears to be to make the remedy for challenging an arbitral award provided by
+Section 34
+available only against a domestic award made under the provisions of
+Part-I of the Arbitration Act
+. It is not in dispute before me that the award which is challenged in the present petition is not a domestic award. In fact, Mr. Tulzapurkar, learned counsel, appearing for the petitioner categorically stated that the award which is challenged in the present petition is a foreign award. Insofar as the challenge to a foreign award is concerned, the Scheme of the Act appears to be that the remedy that is available to a person against whom that award has been made is to wait till the person in whose favour the award is made moves under
+Section 48
+of the Act for enforcement of the award and it is then that such a person can challenge the validity of the award on the grounds which are mentioned in
+Section 48
+of the Act.
+
+9. The submission of the learned counsel for the petitioner is that because the proper law of contract in the present case is the substantive law in force in India, the Arbitration Act 1996, specially
+Section 34
+thereof is a part of substantive law in force in India therefore he is entitled to challenge the validity of the Award by filing an application under
+Section 34
+of the Act. It is no doubt true that as per the law laid down by the Supreme Court in its Judgment in the case of National Thermal Power Corporation, the petitioner can. challenge the validity of the award under the substantive law in force in India. Perusal of the provisions of
+Section 48(I)(e)
+and
+Section 48(3)
+of the Act, shows that, the Act contemplates the possibility of a foreign award which is sought to be enforced
+
+under
+Section 48
+of the Act being challenged before a competent authority of the country under the law of which that award was made. It is obvious, that such an award can be challenged under the substantive law in force in India. However, whether, there is a substantive law in force in India which permits or provides for challenge to such an award is another question. It is clear, that, the petitioner would be able to challenge the award under the substantive law in force in India, provided, the substantive law in force in India provides for such a challenge. The question, whether such a law is in force in India or not or under which law in force in India, the petitioner can challenge the award is neither raised nor does it fall for consideration before me in the present petition. The only question debated before me is whether such a challenge is possible by filing an application under
+Section 34
+of the Act. I have already observed above that considering the scheme of part-I of the Act, such a challenge is not possible in an application filed under
+Section 34
+of the Act.
+
+10. The learned counsel for the petitioner submits, as literal construction of the provision of
+Section 2(2)
+of the Act, leads to the conclusion that, the petitioner is rendered without a remedy to challenge the validity of the Award, the provisions of
+Section 2(2)
+of the Act, should be so construed, as to mean that only for application of procedural provision of Part-I holding of the arbitration in India is necessary and not the substantive provision of Part-I. It is submitted, that the provision of
+Section 2(2)
+of the Act should be construed to be only inclusive, in the sense that, it makes the provision of
+Part-I of the Act
+applicable to the Arbitration which is held in India but does not exclude their application to the arbitrations held outside India. It is clear, that according to the petitioner, the need to place such a construction on the provision of
+Section 2(2)
+of the Act arises because otherwise the petitioner is denied the remedy of challenging the Award. The submission, that the petitioner is left with no remedy to challenge the Award, in my opinion, is not well founded. The learned counsel for the petitioner, as observed above, has himself stated that the award which is challenged in this petition is a foreign award, The Supreme Court in its Judgment in the case of Sumitomo Heavy Industries Ltd. referred to above, has observed thus "the need to file an award in Court arises only if it is required to be enforced, and to the need to challenge it arises only if it is being enforced." It is thus clear that the need of the petitioner to challenge the award would arise in case the respondent No. 1 takes steps to enforce the award. In case, the respondent. No. 1 decides to enforce the award in India, it will have to make an application under
+Section 48
+of the Act, and in that event, the petitioner can appear before the Court, and request the Court to refuse to enforce the Award against it.
+Section 48
+of the Act reads as under:
+
+"48. Conditions for enforcement of foreign awards. -- (1) Enforcement of a foreign award may be refused, at the request of the party against whom it is invoked, only if that party furnishes to the court proof that --(a) the parties to the agreement referred to in Section 44 were, under the law applicable to them, under some incapacity, or the said agreement is not valid under the law to which the parties have subjected it or, failing any indication thereon, under the law of the country where the award was made; or
+
+(b) the party against whom the award is invoked was not given proper notice of the appointment of the arbitrator or of the arbitral proceedings or was otherwise unable to present his case; or
+
+(c) the award deals with a difference not contemplated by or not falling within the terms of the submission to arbitration, or it contains decisions on matters beyond the scope of the submission to arbitration; Provided that, if the decisions on matters submitted to arbitration can be separated from those not so submitted, that part of the award which contains decisions on matters submitted to arbitration may be enforced; or
+
+(d) the composition of the arbitral authority or the arbitral procedure was not in accordance with the agreement of the parties, or, failing such agreement, was not in accordance with the law of the country where the arbitration took place; or
+
+(e) the award has not yet become binding on the parties, or has been set aside or suspended by a competent authority of the country in which, or under the law of which, that award was made.
+
+(2) Enforcement of an arbitral award may also be refused if the court finds that -
+
+(a) the subject-matter of the difference is not capable of settlement by arbitration under the law of India; or
+
+(b) the enforcement of the award would be contrary to the public
+policy of India.
+
+Explanation. -- Without prejudice to the generality of Clause (b) of this Section, it is hereby declared, for the avoidance of any doubt, that an award is in conflict with the public policy of India if the making of the award was induced or affected by fraud or corruption.
+
+(3) If an application ............................................ the other party to
+give suitable security."
+
+It is clear that the party, against whom the award is sought to be enforced can resist the enforcement of the award on one or more of the grounds set out in
+Section 48
+of the Act. The grounds on which a party can challenge an award are detailed in
+Section 34(2)
+of the Act, which reads as under :
+
+"34(2) An arbitral award may be set aside by the court only if-
+
+(a) the party making the application furnishes proof that -
+
+(i) a party was under some incapacity, or
+
+(ii) the arbitration agreement is not valid under the law to which the
+law for the time being in force; or
+
+(iii) the party making the application was not given proper notice of the appointment of an arbitrator or of the arbitral proceedings or was otherwise unable to present his case; or
+
+(iv) the arbitral award deals with a dispute not contemplated by or not falling within the terms of the submission to arbitration, or
+
+it contains decisions on matters beyond the scope of the submission to arbitration; Provided that, if the decisions on matters submitted to arbitration can be separated from those not so submitted, only the part of the arbitral award which contains decisions on matters not submitted to arbitration may be set aside; or
+
+(v) the composition of the arbitral tribunal or the arbitral procedure was not in accordance with the agreement of the parties, unless such agreement was in conflict with a provision of this Part from which the parties cannot derogate, or failing such agreement, was not in accordance with this Part; or
+
+(b) the Court finds that -
+
+(i) the subject-matter of the dispute is not capable of settlement by
+arbitrator under the law for the time being in force, or
+
+(ii) the arbitral award is in conflict with the public policy of India." A comparison of the provisions of
+Section 48
+and
+Section 34
+of the Act quoted above shows that the grounds on which a domestic award can be challenged as also the grounds on which a party can resist enforcement of a foreign award are identical. Thus, as and when enforcement of the award is sought against the petitioner, it can resist the enforcement of the award on the same grounds on which it could have challenged the award under
+Section 34
+of the Act. Therefore, it cannot be said that the petitioner has no remedy of challenging the Award. It is a settled principle of law that in construing statutes one has to adhere to the ordinary meaning of the words used and to the grammatical construction unless that is at variance with the intention of the legislature to be collected from the scheme of the statute itself or leads to any manifest absurdity or repugnancy. It appears from the reading of the Act that insofar as the challenge and enforceability is concerned, there are different schemes for a domestic award and a foreign award.
+The Act
+provides for a direct challenge to a domestic award (
+section 34
+). A domestic award is enforceable as a decree passed by a Civil Court, after the period provided for challenging the same is over, and in case it is challenged, after the challenge fails (
+section 36
+). Whereas, insofar as a foreign award is concerned, it is not enforceable in India unless the court finds that it is enforceable. For that purpose, the party which seeks its enforcement has to make an application to the Court, and has to satisfy the Court about its enforceability (
+section 49
+). It is only after the party satisfies the Court that a foreign award becomes enforceable as a decree passed by a Civil Court (
+section 49
+).
+The Act
+, provides different remedies to persons, against whom domestic award is made and person against whom foreign award is made. A person against whom a domestic award is made, has to immediately approach the Court for challenging the same by making an application under
+Section 34
+of the Act otherwise the person in whose favour the award has been made can execute the same as a decree. On the other hand, a person against whom a foreign award has been made, is not required to challenge the same, because it cannot be executed against him in India unless the Court finds that it is enforceable. He can wait till the person in whose favour the foreign award has been made, makes an
+
+application before the Court (
+Section 47
+). Rule 803E of Rules framed by this Court, provides for a notice to be issued to the person who is likely to be adversely affected by the proceeding. After receiving the notice from the Court, he can appear before the Court, and submit his defence and resist the enforcement of the foreign award against him. He can request the Court not to enforce the award and in case he succeeds in satisfying the Court on one or more of the grounds mentioned in
+Section 48
+of the Act, the Court has to refuse to enforce the award. As observed above, comparison of the provision of
+Section 34
+and
+Section 48
+of the Act shows that a person against whom a foreign award has been made can resist the enforcement of the foreign award against him on the same ground on which he could have, had it been provided, challenged the validity of the award under
+Section 34
+of the Act. In other words, the grounds on which a domestic award can be challenged and the grounds on which the enforcement of a foreign award can be resisted are identical. Thus, though the Scheme of the Act provides different kind of remedies to the persons aggrieved by a domestic award and a person aggrieved by a foreign award, both the remedies are equally efficacious and adequate, it cannot be said that the Act does not provide an effective remedy to a person who is aggrieved by a foreign award. Hence, there is, in my opinion, no need to construe the provisions of
+Section 2(2)
+of the Act in any other manner.
+
+11. For all these reasons, I find that the preliminary objection raised by learned counsel for respondent No. 1 to the maintainability of the present petition has to be upheld. It is accordingly upheld. The petition as framed and filed by the petitioner is not maintainable. It is disposed of.

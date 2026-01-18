@@ -1,0 +1,101 @@
+{
+  "judgment_id": "IN-HC-MAD-2016-CR-2B90ED",
+  "text": "Madhya Pradesh High Court\n\nSmt. Guddi Devi vs The State Of Madhya Pradesh on 30 March, 2016\n\n1 Mcrc.1212.2016\nSmt. Guddi Devi Vs. State of M.P.\n\n30.03.2016\nShri P.S. Bhadoriya and Shri Shiva Parashar, Advocates for\npetitioner.\nMs. Sudha Shrivastava, Panel Lawyer for Respondent/State.\n\nPerused the case diary.\n\nLearned counsel for the rival parties are heard.\nThis is first application preferred on behalf of the petitioner under\n\nSection 438\nof the Code of Criminal Procedure for grant of anticipatory\nbail.\n\nPetitioner apprehends arrest in connection with offences\npunishable u/Ss. 304B read with Sec 34 of\nIPC\n& under\nSection 3\n/\nof\nDowry Prohibition Act registered as Crime No.3/2016, at Police Station-\nAndori, District Bhind (M.P.)\nLearned Panel Lawyer for the State opposed the application and\nprayed for its rejection by contending that on the basis of the allegations\nand the material available on record, no case for grant of anticipatory\nbail is made out.\n\nInvestigation is though not complete but appears to be nearing\ncompletion where allegation of dowry demand related cruelty has been\nmade. The petitioner is the mother-in-law of the deceased who died due\nto hanging. No anti-mortem injuries were found on the body of the\ndeceased. Marriage took place on 27.05.2010.\n\nStatement of father of the deceased does not indicate that cruelty\nwas inflicted soon before death. Mere omnibus allegations were made.\nIt is further submitted that the co-accused Radheshyam Singh Tomar\nhas already been enlarged on regular bail vide order dated 15.02.2016\npassed in Mcrc No.1204/2016. Further, petitioner being a lady of 60\nyears may not be able to bear the rigors of incarceration. There are no\ncriminal antecedents against the petitioner and the material placed on\nrecord does not disclose the possibility of the petitioner fleeing from\njustice. Thus, this Court is though inclined to extend the benefit of\n2 Mcrc.1212.2016\nSmt. Guddi Devi Vs. State of M.P.\n\nanticipatory bail\nu/s 438\nCr.P.C to the petitioner, however, with certain\nstringent conditions since the investigation is still pending.\n\nIt is hereby directed that in the event of arrest, petitioner shall be\nreleased on bail on furnishing a personal bond of Rs.1,00,000/-\n(Rupees One Lac only) with two solvent sureties of Rs.50,000/-\neach to the satisfaction of Arresting Authority.\n\nThis order shall remain subject to compliance of the following\nconditions by the petitioner:\n\n1. The petitioner shall comply with all the terms and conditions of\nthe bond executed by her;\n\n2. The petitioner shall cooperate in the investigation/ trial, as the\ncase may be;\n\n3. The petitioner shall not indulge herself in extending\ninducement, threat or promise to any person acquainted with the\nfacts of the case so as to dissuade him from disclosing such facts\nto the Court or to the Police Officer, as the case may be;\n\n4. The petitioner shall not commit an offence similar to the\noffence of which she is accused.\n\n5. The petitioner shall not seek unnecessary adjournments during\nthe trial; and\n\n6. The petitioner shall not leave India without previous\npermission of the trial court/ Investigating Officer, as the case\nmay be.\n\n7. Till conclusion of investigation, the petitioners shall mark\nher attendance at the concerned Police Station once a week.\n\nA copy of this order be sent to the Court concerned for\ncompliance.\n\nCertified copy as per rules.\n\n(Sheel Nagu)\nJudge\npd",
+  "metadata": {
+    "processed_date": "2026-01-18T18:40:36.555194",
+    "version": "2.0",
+    "court": "Madhya Pradesh High Court",
+    "court_level": "HC",
+    "case_number": "MATERIAL AVAILABLE ON RECORD, NO",
+    "decision_date": "30 MARCH, 2016",
+    "jurisdiction": "India"
+  },
+  "extractions": {
+    "citations": {
+      "total": 0,
+      "by_type": {},
+      "details": []
+    },
+    "sections": {
+      "total": 1,
+      "by_act": {
+        "CrPC": [
+          "438"
+        ]
+      },
+      "details": [
+        {
+          "section": "438",
+          "act": "CrPC"
+        }
+      ]
+    },
+    "transitions": {
+      "total": 0,
+      "by_source": {},
+      "details": []
+    },
+    "landmarks": {
+      "total": 0,
+      "by_id": {},
+      "details": []
+    },
+    "issues": {
+      "total": 2,
+      "details": {
+        "bail": {
+          "statute": "CrPC / BNSS",
+          "keywords": [
+            "bail",
+            "anticipatory bail",
+            "regular bail"
+          ],
+          "sections": [
+            "438"
+          ],
+          "confidence": "high",
+          "keyword_count": 3,
+          "mention_count": 7
+        },
+        "limitation": {
+          "statute": "Limitation Act",
+          "keywords": [],
+          "sections": [
+            "3"
+          ],
+          "confidence": "medium",
+          "keyword_count": 0,
+          "mention_count": 0
+        }
+      }
+    }
+  },
+  "provenance": {
+    "processed_date": "2026-01-18T18:40:36.555194",
+    "pipeline_version": "2.0",
+    "processing_steps": [
+      "ingestion",
+      "metadata_extraction",
+      "issue_extraction",
+      "classification",
+      "statutory_transitions",
+      "citation_extraction",
+      "consolidation"
+    ]
+  },
+  "classification": {
+    "domain": "criminal",
+    "confidence": "high",
+    "signals": {
+      "criminal": [
+        "accused",
+        "offence",
+        "Code of Criminal Procedure",
+        "bail",
+        "IPC"
+      ],
+      "civil": [],
+      "service": []
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "judgment_id": "IN-HC-HIG-2024-CR-6D6B22",
+  "text": "Calcutta High Court (Appellete Side)\n\nThe Indian Penal Code vs In Re : Gopal @ Gopal Chandra Biswas on 18 November, 2024\n\n18.11.2024\nsdas\nAllowed\n\nC.R.M. (A) No. 3943 of 2024\n\nIn Re:- An application for anticipatory bail under Section\n482 of the Bharatiya Nagarik Suraksha Sanhita in connection\nwith Karimpur Police Station Case No. 19 of 2024 dated\n25.01.2024 under\nSections 498A\n/\n354B\n/\n/\n/\n/\nof\nthe Indian Penal Code.\nAnd\nIn Re : Gopal @ Gopal Chandra Biswas ..... petitioner\n\nMr. Amanul Islam\nMr. Sourav Mukherjee\n.....for the petitioner\n\nMs. Sujata Das\nMr. Asraf Mandal\n....for the State\n\n1.\nLearned Counsel for the petitioner submits\n\nallegation of attempt to murder/outraging of modesty are\n\nembellished to falsely implicate him. Accordingly, he prays for\n\nanticipatory bail.\n\n2. Learned Counsel for the State opposes the prayer\n\nfor anticipatory bail.\n\n3. We have considered the materials on record\n\nincluding statement of the victim lady. Her allegations with\n\nregard to outraging modesty are bereft of material particulars\n\nwith regard to date and time. However, she states she has been\n\ncontinuously threatened. In view of the aforesaid\n\ncircumstances we are of the opinion custodial interrogation is\n\nSigned By :\n\nSHANTANU DAS\nHigh Court of\nCalcutta\n20 th of\nNovember 2024\n06:05:51 PM\nnot necessary and petitioner may be granted anticipatory bail\n\nsubject to strict conditions.\n\n4. Accordingly, we direct that in the event of arrest\n\nthe petitioner shall be released on bail upon furnishing a bond\n\nof Rs.10,000/-, with two sureties of like amount each, to the\n\nsatisfaction of the arresting officer and also be subject to the\n\nconditions as laid down under\nSection 482(2)\nof the Bharatiya\n\nNagarik Suraksha Sanhita and on condition that he shall\n\nappear before the jurisdictional court and pray for regular bail\n\nwithin a period of four weeks from date and on further\n\ncondition petitioner shall meet the investigating officer once in a\n\nweek until further orders.\n\n5. The application for anticipatory bail is, thus,\n\nallowed.\n\n(Gaurang Kanth, J.) (Joymalya Bagchi, J.)\n\nSigned By :\n\nSHANTANU DAS\nHigh Court of\nCalcutta\n20 th of\nNovember 2024\n06:05:51 PM",
+  "metadata": {
+    "processed_date": "2026-01-18T18:40:35.949688",
+    "version": "2.0",
+    "court": "High Court Of Calcutta",
+    "court_level": "HC",
+    "case_number": "CASE NO. 19",
+    "decision_date": "18 NOVEMBER, 2024",
+    "jurisdiction": "India"
+  },
+  "extractions": {
+    "citations": {
+      "total": 0,
+      "by_type": {},
+      "details": []
+    },
+    "sections": {
+      "total": 0,
+      "by_act": {},
+      "details": []
+    },
+    "transitions": {
+      "total": 0,
+      "by_source": {},
+      "details": []
+    },
+    "landmarks": {
+      "total": 0,
+      "by_id": {},
+      "details": []
+    },
+    "issues": {
+      "total": 2,
+      "details": {
+        "bail": {
+          "statute": "CrPC / BNSS",
+          "keywords": [
+            "bail",
+            "anticipatory bail",
+            "regular bail"
+          ],
+          "sections": [],
+          "confidence": "medium",
+          "keyword_count": 3,
+          "mention_count": 13
+        },
+        "quashing": {
+          "statute": "CrPC / BNSS",
+          "keywords": [],
+          "sections": [
+            "482"
+          ],
+          "confidence": "medium",
+          "keyword_count": 0,
+          "mention_count": 0
+        }
+      }
+    }
+  },
+  "provenance": {
+    "processed_date": "2026-01-18T18:40:35.949688",
+    "pipeline_version": "2.0",
+    "processing_steps": [
+      "ingestion",
+      "metadata_extraction",
+      "issue_extraction",
+      "classification",
+      "statutory_transitions",
+      "citation_extraction",
+      "consolidation"
+    ]
+  },
+  "classification": {
+    "domain": "criminal",
+    "confidence": "high",
+    "signals": {
+      "criminal": [
+        "bail",
+        "Indian Penal Code"
+      ],
+      "civil": [],
+      "service": []
+    }
+  }
+}

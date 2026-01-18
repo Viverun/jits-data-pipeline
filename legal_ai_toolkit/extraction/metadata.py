@@ -1,5 +1,5 @@
+#metadata.py
 import re
-from ..pipeline.runner import BaseStep
 
 COURT_PATTERNS = [
     r"SUPREME COURT OF INDIA",
@@ -42,6 +42,24 @@ CASE_NO_PATTERNS = [
     r"O\.A\.\s*No\.\s*[0-9/ -]+"
 ]
 
+# Enhanced patterns for parties and bench
+PETITIONER_RESPONDENT_PATTERNS = [
+    r'([A-Z][A-Za-z\s.&,]+?)\s+(?:v[s]?\.?|versus)\s+([A-Z][A-Za-z\s.&,]+?)(?:\s+CASE|$|\n)',
+    r'Petitioner\s*[:\-]\s*([A-Z][A-Za-z\s.&,]+)',
+    r'Appellant\s*[:\-]\s*([A-Z][A-Za-z\s.&,]+)',
+]
+
+RESPONDENT_PATTERNS = [
+    r'Respondent\s*[:\-]\s*([A-Z][A-Za-z\s.&,]+)',
+]
+
+BENCH_PATTERNS = [
+    r'CORAM\s*:\s*(.+?)(?:\n\n|$)',
+    r'BEFORE\s*:\s*(.+?)(?:\n\n|$)',
+    r'HON\'BLE\s+(.+?J\.)(?:\n|$)',
+    r'BENCH\s*:\s*(.+?)(?:\n\n|$)',
+]
+
 def extract_header_metadata(text: str):
     lines = text.split("\n")[:100]  # Increased search range
     header = " ".join(lines).upper()
@@ -54,6 +72,7 @@ def extract_header_metadata(text: str):
         "jurisdiction": "India"
     }
 
+    # Extract court
     for pattern in COURT_PATTERNS:
         match = re.search(pattern, header)
         if match:
@@ -67,16 +86,48 @@ def extract_header_metadata(text: str):
                 metadata["court_level"] = "TRIBUNAL/LOWER"
             break
 
+    # Extract case number
     for pattern in CASE_NO_PATTERNS:
         match = re.search(pattern, header, re.I)
         if match:
             metadata["case_number"] = match.group(0).strip()
             break
 
+    # Extract decision date
     for pattern in DATE_PATTERNS:
         match = re.search(pattern, header, re.I)
         if match:
             metadata["decision_date"] = match.group(1).strip()
+            break
+
+    # Extract petitioner/respondent
+    for pattern in PETITIONER_RESPONDENT_PATTERNS:
+        match = re.search(pattern, header)
+        if match:
+            if 'v' in match.group(0).lower() or 'versus' in match.group(0).lower():
+                # Pattern with "v." or "versus"
+                parts = re.split(r'\s+(?:v[s]?\.?|versus)\s+', match.group(0), flags=re.I)
+                if len(parts) >= 2:
+                    metadata["petitioner"] = parts[0].strip()
+                    metadata["respondent"] = parts[1].strip()
+                    break
+            else:
+                # Pattern with "Petitioner:" or "Appellant:"
+                metadata["petitioner"] = match.group(1).strip()
+
+    # If petitioner found but not respondent, try to find respondent separately
+    if "petitioner" in metadata and "respondent" not in metadata:
+        for pattern in RESPONDENT_PATTERNS:
+            match = re.search(pattern, header)
+            if match:
+                metadata["respondent"] = match.group(1).strip()
+                break
+
+    # Extract bench composition
+    for pattern in BENCH_PATTERNS:
+        match = re.search(pattern, header, re.I)
+        if match:
+            metadata["bench"] = match.group(1).strip()
             break
 
     return metadata

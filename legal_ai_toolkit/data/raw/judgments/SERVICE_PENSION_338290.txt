@@ -1,0 +1,153 @@
+Calcutta High Court
+
+L. Madanlal (Aluminium) P. Ltd. vs Income-Tax Officer And Ors. on 8 September, 1976
+
+Equivalent citations: [1978]115ITR293(CAL)
+
+Author:
+M.M. Dutt
+
+Bench:
+M.M. Dutt
+
+JUDGMENT
+
+M.M. Dutt, J.
+
+1. In this rule, the petitioner L. Madanlal (Aluminium) Pvt. Ltd. has challenged the legality of a notice dated November 14, 1975, issued by the ITO under
+Section 148
+of the Income-tax Act, 1961 (hereinafter referred to as " the Act "), for the assessment year 1972-73.
+
+2. The petitioner carries on the business of manufacture of aluminium utensils. The petitioner filed its returns of income for the said assessment
+year 1972-73 before the respondent No. 1, the ITO, showing as income of Rs. 2,95,030. The said income was computed by the petitioner after deducting the actuarial or the discounted value of the amount of gratuity payable to its employees on their retirement under the gratuity scheme. The respondent No. 1 by his order dated January 18, 1973, passed under
+Section 143(3)
+of the Act, though assessed the total income of the petitioner at Rs. 3,09,690, yet he accepted the deduction of the actuarial value of the gratuity. Being aggrieved by the said order of the respondent No. 1, the petitioner preferred an appeal before the AAC. He disposed of the appeal by his order dated August 5, 1975, granting some relief to the petitioner. Thereafter, the impugned notice under
+Section 148
+of the Act was served upon the petitioner by the respondent No. 1. It has been alleged in the said notice that the respondent No. 1 has reason to believe that the income chargeable to tax for the assessment year 1972-73 has escaped assessment within the meaning of
+Section 147
+of the Act, and that he proposed to reassess the income that has so escaped assessment. By the said notice, the respondent No. 1 directed the petitioner to file a return in the prescribed form within thirty days of the date of service of the same upon the petitioner. The petitioner submitted a return under protest along with a letter dated November 29, 1975. In the said letter, it has been stated by the petitioner that the reopening of the assessment is unwarranted and uncalled for, that there was a full and true disclosure of all materials and relevant facts necessary for the said assessment year, and that there has been no escapement of income at all. By the said letter, the petitioner also requested the respondent No. 1 to disclose the alleged reasons and/or materials for the issue of the impugned notice under
+Section 148
+. At this stage, it may be stated that after the rule was issued, on December 16, 1975, the respondent No. 1 replied to the said letter of the petitioner, inter alia, as follows :
+
+" At the time of original assessment provision for gratuity was allowed as deduction. Gratuity liability based on actuarial calculation was held to be a contingent liability by the Supreme Court in Bombay Dyeing and Manufacturing Co. Ltd.'s case [1974] 93 ITR 603. This being an information from external source your case falls under
+Section 147(b)
+of the J.T. Act. Notice under
+Section 148
+of the I.T. Act, 1961, has, therefore, been issued accordingly. "
+
+3. Under
+Section 147(b)
+, the ITO may reopen the assessment if he has in consequence of information in his possession reason to believe that income chargeable to tax has escaped assessment for any assessment year. It is the case of the petitioner that at the time the respondent No. 1 issued the impugned notice under
+Section 148
+he had no information in his possession or any material from which such information could be derived, and consequently he had no reason to believe that income chargeable to tax had
+escaped assessment for the assessment year 1972-73, Mr. Pal, learned advocate appearing on behalf of the respondents, has produced before me the records of the case. It appears that on November 14, 1975, the respondent No. 1 recorded as follows :
+
+" I am satisfied that income has escaped assessment. Issue notice under
+Section 148
+. "
+
+4. It thus appears that at the time he issued the impugned notice under
+Section 148
+, the respondent No. 1 did not record the reason for his belief or satisfaction for the issue of the notice. It is contended by Mr. Bajoria, learned advocate appearing on behalf of the petitioner, that the said order of the respondent No. 1 shows that he had no reason to believe that the income of the petitioner for the assessment year in question had escaped assessment. He submits that if there was any existence of any ground for his belief he would have recorded the same in his order directing issue of the impugned notice. This contention has some force. The record does not show that there was any material before the respondent No. 1 from which he derived information about the escapement of income of the assessee. It is only after the petitioner challenged the existence of any reason for the belief that the respondent No. 1 by his letter dated December 16, 1975, stated that the Supreme Court case of Bombay Dyeing and Manufacturing Co. Ltd. [1974] 93 ITR 603 was an information to him for the issue of the notice, I shall refer to the said Supreme Court decision presently for the purpose of considering as to whether that decision supplied any information to the respondent No. 1 for reopening the assessment. But assuming for the time being that the said Supreme Court decision furnishes information justifying the reopening of the assessment, there is no evidence that on the basis of that decision, the respondent No. 1 issued the impugned notice.
+
+5. It is apparent that the respondent No. 1 wants to reopen the assessment in regard to the actuarial value of the gratuity deducted by the petitioner in computing its income which was also accepted by the respondent No. 1.
+In
+Standard Mills Co. Ltd. v. Commissioner of Wealth-tax
+[1967] 63 ITR 470, the Supreme Court held that the liability to pay gratuity to the employees on determination of employment is a mere contingent liability which arises only when the employment of the employee is determined by death, incapacity, retirement or resignation. The liability does not exist in praesenti but is contingent and hence cannot be a " debt owed " within the meaning of
+Section 2(m)
+of the Wealth-tax Act, 1957.
+
+In a later decision of the Supreme Court in
+Metal Box Co. of India Ltd. v. Their Workmen
+[1969] 73 ITR 53, the question that came up for consideration was whether under the
+Payment of Bonus Act, 1965
+, while working out the' net profits, a trader can provide for, from his gross receipts, his liability to pay a
+certain sum on account of gratuity for every additional year of service which he receives from his employer. On behalf of the workmen, the decision in the case of Standard Mills Co. Ltd. was relied on. The Supreme Court distinguished that case and observed that an estimated liability under gratuity schemes, even if it amounts to a contingent liability and is not a debt under the
+Wealth-tax Act
+, if properly ascertainable and its present value is fairly discounted is deductible from the gross receipts while preparing the profit and loss account. The Supreme Court also overruled the contention that under
+Section 36(v)
+of the Act, the only deduction from profits and gains permissible is of a sum paid by the assessee as an employer by way of his contribution towards an approved gratuity fund created by him for exclusive benefits of his employees under an irrevocable trust. It is clear from the decision of the Supreme Court that payment of gratuity is a contingent liability and such liability discounted and valued as necessary can be taken into account as trading expenses if it is sufficiently certain to be capable of valuation and if profits cannot be properly estimated without taking it into account.
+
+Now I may refer to the decision of the Supreme court in
+Bombay Dyeing and Manufacturing Co. Ltd. v. Commissioner of Wealth-tax
+[1974] 93 ITR 603. In this case, the same question that came up for consideration in the case of Standard Mills Co. Ltd. was involved, namely, whether or not in computing the net wealth of the appellant-company as defined in
+Section 2(m)
+of the Wealth-tax Act, or in assessing the net value of the assets under
+Section 7(2)
+of the said Act, the estimated liability of the company in respect of gratuity in terms of industrial court awards for the benefit of its employees in respect of their periods of service up to the valuation date was deductible. The Supreme Court relied on its earlier decision in the case of Standard Mills Co. Ltd. and held that the estimated liability of the company in respect of gratuity was not deductible. It was observed by the Supreme Court as follows (page 604) :
+
+" The High Court following the decision of this court in
+Standard Mills Co. Ltd. v. Commissioner of Wealth-tax
+answered that question in favour of the department.
+
+It is not disputed that
+the said decision
+governs the facts of this case, but we are asked to have that decision re-considered by a larger Bench in view of the decision of this court in
+Metal Box Co. of India Ltd. v. Their Workmen
+.
+
+Metal Box Company
+'s case was a decision rendered under the
+Bonus Act
+. In that decision, the learned judges referred to the decision of Standard Mills Co. Ltd. and distinguished the same. In our opinion, there is no conflict between the two decisions. "
+
+6.
+It is the case of the respondent No. 1 that the decision of the Supreme Court in the case of Bombay Dyeing and Manufacturing Co. Ltd. [1974] 93 ITR 603 is an information relying on which he issued the notice under Section 148 for the reassessment of the income of the petitioner for the assessment year 1972-73. The information which he is alleged to have derived from
+the said decision
+is that gratuity liability based on actuarial calculation is a contingent liability. It is, however, not disputed that on the basis of the decision in the case of Metal Box Co, , the income-tax authorities allowed the deduction of the discounted value of the liability of the assessee for the payment of gratuity. The question is whether the case of Bombay Dyeing and Manufacturing Co. Ltd. furnished any information to the respondent No. 1.
+
+It has been already pointed out that in the
+Metal Box Co.
+'s case , it was held that the gratuity liability was a contingent liability and that the actuarial value of such contingent liability might be deducted for the purpose of computing the net income of the assessee. In the case of Bombay Dyeing and Manufacturing Co. Ltd. [1974] 93 ITR 603, the Supreme Court has not overruled its earlier decision in the case of Metal Box Co. and has held that there is no conflict between that case and the case of Standard Mills Co. Ltd. . As the facts of the case in Bombay Dyeing and Manufacturing Co. Ltd. were the same as those in the case of Standard Mills Co, Ltd. , the Supreme Court relied on the latter. No new principle of law has been
+laid down by
+the Supreme Court in the case of Bombay Dyeing and Manufacturing Co. Ltd. [1974] 93 ITR 603, The position, therefore, is that the decision in the case of Metal Box Co, to the effect that gratuity liability is a contingent liability and the estimated value of such liability is deductible from the gross income is still operative.
+
+7.
+In a Bench decision of this court consisting of the Chief Justice and Sabyasachi Mukharji J. in
+Income-tax Officer v. Panama Pvt. Ltd.
+, it has been laid down that in order to be "information" in terms of Clause (b) of Section 147, the following conditions are required to be fulfilled :
+
+(1) It must be knowledge or instruction concerning facts or particulars or as to law relating to a matter bearing on the assessment.
+
+(2) Such knowledge or instruction must come into the possession of the ITO after the previous assessment.
+
+(3) The knowledge or information must be such which leads to the formation of the belief that the income of the assessee had escaped assessment or had been under-assessed.
+
+(4) The proximate or immediate source of such information and knowledge must be external.
+
+(5) The fact that such knowledge or information could have been derived during the previous assessment from an investigation of the materials on record but was not in fact derived would not prevent such knowledge or instruction from being information in terms of Section 147(b).
+
+8. In my opinion, the respondent No. 1 did not acquire any knowledge from the judgment in the case of Bombay Dyeing and Manufacturing Co. Ltd. leading to the information or the belief that the income of the petitioner had escaped assessment. The principle
+laid down by
+the Supreme Court in the case of Metal Box Company [1969] 73 ITR 53 that gratuity liability is a contingent liability was within the knowledge of the respondent No. J. That principle was affirmed by the Supreme Court in its later decision in the case of Bombay Dyeing and Manufacturing Co. Lid. . It is absurd to think that affirmation or reiteration of the same principle of law can furnish any subsequent knowledge or information within the meaning of
+Section 147(b)
+of the Act. The knowledge which may be said to have been acquired by the respondent No. 1 from the case of Bombay Dyeing and Manufacturing Co. Ltd. is that the Supreme Court reiterated the earlier principle
+laid down by
+it, but such a knowledge has no bearing on the formation of the belief that the income of the assessee had escaped assessment.
+
+In
+S. Narayanappa v. CIT
+, on an interpretation of
+Section 34
+of the Indian Income-tax Act, 1922, the Supreme Court observed as follows (pages 221, 222) :
+
+"But the legal position is that if there are in fact some reasonable grounds for the ITO to believe that there had been any non-disclosure as regards any fact, which could have a material bearing on the question of under-assessment, that would be sufficient to give jurisdiction to the ITO to issue the notice under
+Section 34
+. Whether these grounds are adequate or not is not a matter for the court to investigate. In other words, the sufficiency of the grounds which induced the ITO to act is not a justiciable issue. It is of course open for the assessee to contend that the ITO did not hold the belief that there had been such non-disclosure. In other words, the existence of the belief can be challenged by the assessee but not the sufficiency of the reasons for the belief. Again the expression 'reason to believe' in
+Section 34
+of the Income-tax Act does not mean a purely subjective satisfaction on the part of the ITO. The belief must be held in good faith ; it cannot be merely a pretence. To put it differently, it is open to the court to examine the question whether the reasons for the belief have a rational connection or a relevant bearing to the formation of the belieT and are not extraneous or irrelevant to the purpose of the section."
+
+9.
+The same principle of law has been reiterated by the Supreme Court in
+Kantamani Venkata Narayana and Sons v. First Addl
+. Income-tax Officer [1967] 63 ITR 638, Relying on the above observations of the Supreme Court, it is argued on behalf of the respondents that the sufficiency of the ground in reopening the assessment cannot be questioned. I am unable to accept this contention. It is true that sufficiency of the ground cannot be questioned but if there be no existence of the ground or if the ground is not at all reasonable or is absurd on the face of it, the court is competent to strike down the notice issued on the basis of such a ground. The respondent No. 1 was all along aware of the fact that the gratuity liability is a contingent liability and, on that basis, the deduction claimed by the petitioner on the estimated value of the liability computed on actuarial basis was allowed for the assessment year in question. If in any subsequent decision, it is once more held that such a liability is a contingent liability as it was held in the case of Bombay Dyeing and Manufacturing Co, Ltd. , in my opinion, it did not furnish any information to the respondent No. 1 who cannot be said to have acquired any knowledge justifying the formation of a belief that the income of the petitioner had escaped assessment. There was, therefore, no existence of any ground for the belief. Moreover, as pointed out above, no evidence has been placed before this court to show that at the time of the issue of the notice under
+Section 148
+of the Act, the respondent No. 1 acted on the basis of the judgment in the case of Bombay Dyeing and Manufacturing Co. Ltd. . He did not record any reason for his satisfaction for the issue of the notice. In these circumstances, the respondent No. 1 had no jurisdiction to issue the impugned notice under
+Section 148
+of the Act.
+
+10. For the reasons aforesaid the impugned notice under
+Section 148
+is quashed and let a writ in the nature of certiorari issue in that regard. Further, it is directed that a writ in the nature of prohibition issue commanding the respondent No. 1 not to proceed with the reassessment of the income of the petitioner for the assessment year 1972-73.
+
+11. The rule is made absolute, but there will be no order as to costs.

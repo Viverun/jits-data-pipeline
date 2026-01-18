@@ -4,7 +4,6 @@ import re
 from datetime import datetime
 from pathlib import Path
 from multiprocessing import Pool, cpu_count
-from legal_ai_toolkit.utils.ids import generate_judgment_id
 
 def normalize_text(text: str) -> str:
     text = re.sub(r'\r\n', '\n', text)
@@ -36,23 +35,21 @@ def process_single_file(args):
             "year": datetime.now().year
         }
 
-        judgment_id = generate_judgment_id(
-            court_level="UNK",
-            court_code="UNK",
-            year=metadata["year"],
-            domain="unknown",
-            text=clean_text
-        )
+        # Generate TEMPORARY ID during ingestion
+        # This will be regenerated in MetadataExtractionStep with proper metadata
+        import hashlib
+        temp_hash = hashlib.sha1(clean_text[:500].encode("utf-8")).hexdigest()[:12].upper()
+        temp_id = f"TEMP_{temp_hash}"
 
         data = {
-            "judgment_id": judgment_id,
+            "judgment_id": temp_id,
             "metadata": metadata,
             "text": clean_text,
             "paragraphs": paragraphs,
             "annotations": {}
         }
 
-        out_path = Path(output_dir) / f"{judgment_id}.json"
+        out_path = Path(output_dir) / f"{temp_id}.json"
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
 

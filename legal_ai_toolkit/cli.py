@@ -12,7 +12,7 @@ def main():
     # Pipeline command
     pipeline_parser = subparsers.add_parser("pipeline", help="Run the full data pipeline")
     pipeline_parser.add_argument("--raw-dir", default=None, help="Directory with raw text files (defaults to package data)")
-    pipeline_parser.add_argument("--step", choices=["ingest", "metadata", "classify", "transitions", "issues", "citations", "similarity", "cluster", "consolidate"], help="Run a specific step instead of full pipeline")
+    pipeline_parser.add_argument("--step", choices=["ingest", "metadata", "issues", "classify", "id_regen", "transitions", "citations", "similarity", "cluster", "consolidate"], help="Run a specific step instead of full pipeline")
     pipeline_parser.add_argument("--workers", type=int, default=1, help="Number of parallel workers")
 
     # Report command

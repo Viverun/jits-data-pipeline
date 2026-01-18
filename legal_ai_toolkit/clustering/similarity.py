@@ -13,8 +13,11 @@ UNIVERSAL_SECTIONS = {
 
 def extract_signals(data):
     """Extracts core similarity signals from a judgment's annotations."""
+    # Handle both old 'id' field and new 'judgment_id' field
+    judgment_id = data.get("judgment_id") or data.get("id", "UNKNOWN")
+
     signals = {
-        "judgment_id": data["judgment_id"],
+        "judgment_id": judgment_id,
         "issues": list(data.get("annotations", {}).get("issues", {}).keys()),
         "sections": [],
         "citations": [],
@@ -54,12 +57,17 @@ def calculate_similarity_batch(args):
         if sig1["domain"] != sig2["domain"] and sig1["domain"] != "mixed" and sig2["domain"] != "mixed":
             continue
 
+        # OPTIMIZATION: Quick overlap check BEFORE detailed comparison
+        # Skip expensive set operations if there's no potential overlap
+        if not (set(sig1["issues"]) & set(sig2["issues"]) or
+                set(sig1["sections"]) & set(sig2["sections"]) or
+                set(sig1["citations"]) & set(sig2["citations"])):
+            continue  # No overlap at all, skip this pair
+
         shared_issues = list(set(sig1["issues"]) & set(sig2["issues"]))
         shared_sections = list(set(sig1["sections"]) & set(sig2["sections"]))
         shared_citations = list(set(sig1["citations"]) & set(sig2["citations"]))
 
-        if not (shared_issues or shared_sections or shared_citations):
-            continue
 
         # Calculate weight
         weight = len(shared_issues) + len(shared_sections) + len(shared_citations)

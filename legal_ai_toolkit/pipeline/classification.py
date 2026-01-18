@@ -40,24 +40,59 @@ def detect_signals(text):
     for k in signals: signals[k] = list(set(signals[k]))
     return signals
 
-def classify_judgment(text):
+def classify_judgment(data):
+    """
+    Classify judgment using text signals AND extracted issues.
+
+    Args:
+        data: Full judgment data dict with text and annotations
+
+    Returns:
+        Classification dict with domain, confidence, and signals
+    """
+    text = data.get("text", "")
+    issues = data.get("annotations", {}).get("issues", {})
+
     signals = detect_signals(text)
+
+    # Enhanced service detection using issues
+    SERVICE_ISSUES = {
+        "seniority_promotion", "pension_gratuity", "reinstatement_service",
+        "departmental_inquiry", "service_conditions", "tenure_appointment"
+    }
+
+    service_issues_found = [issue for issue in issues.keys() if issue in SERVICE_ISSUES]
+    if service_issues_found:
+        signals["service"].extend([f"issue:{issue}" for issue in service_issues_found])
+
     has_crim = any(s in CRIMINAL_STATUTES for s in signals["criminal"])
     has_civ = any(s in CIVIL_STATUTES for s in signals["civil"])
-    has_serv = any(s in SERVICE_STATUTES for s in signals["service"])
+    has_serv = any(s in SERVICE_STATUTES for s in signals["service"]) or len(service_issues_found) > 0
 
-    if has_serv: return {"domain": "service", "confidence": "high", "signals": signals}
-    if has_crim and has_civ: return {"domain": "mixed", "confidence": "high", "signals": signals}
-    if has_crim: return {"domain": "criminal", "confidence": "high", "signals": signals}
-    if has_civ: return {"domain": "civil", "confidence": "high", "signals": signals}
+    if has_serv:
+        return {"domain": "service", "confidence": "high", "signals": signals}
+    if has_crim and has_civ:
+        return {"domain": "mixed", "confidence": "high", "signals": signals}
+    if has_crim:
+        return {"domain": "criminal", "confidence": "high", "signals": signals}
+    if has_civ:
+        return {"domain": "civil", "confidence": "high", "signals": signals}
 
-    counts = {"service": len(signals["service"]), "criminal": len(signals["criminal"]), "civil": len(signals["civil"])}
+    counts = {
+        "service": len(signals["service"]),
+        "criminal": len(signals["criminal"]),
+        "civil": len(signals["civil"])
+    }
     max_domain = max(counts, key=counts.get)
     if counts[max_domain] >= 1:
         # If it's a tie between Civil and Service, and we have "Writ Petition", pick Service
         if max_domain == "civil" and counts["service"] == counts["civil"] and "Writ Petition" in signals["service"]:
             return {"domain": "service", "confidence": "medium", "signals": signals}
-        return {"domain": max_domain, "confidence": "medium" if counts[max_domain] >= 2 else "low", "signals": signals}
+        return {
+            "domain": max_domain,
+            "confidence": "medium" if counts[max_domain] >= 2 else "low",
+            "signals": signals
+        }
     return {"domain": "unknown", "confidence": "low", "signals": signals}
 
 class ClassificationStep(BaseStep):
@@ -65,6 +100,7 @@ class ClassificationStep(BaseStep):
         if "text" not in data:
             return None
 
-        classification = classify_judgment(data["text"])
+        # Pass full data object to classifier (not just text)
+        classification = classify_judgment(data)
         data["classification"] = classification
         return data

@@ -1,0 +1,88 @@
+{
+  "judgment_id": "IN-HC-HIG-2024-CR-8C5886",
+  "text": "Calcutta High Court (Appellete Side)\n\nIndian Penal Code. (G.R. Case No.2483 Of ... vs In Re: Shambhu Bouri on 13 December, 2024\n\n13.12.2024\nSl. No.35\nakd\n[ALLOWED]\nC. R. M. (A) 4385 of 2024\n\nIn Re: An application for anticipatory bail under Section 482 of the\nBharatiya Nagarik Suraksha Sanhita, 2023 filed on 03.12.2024 in\nconnection with Salanpur Police Station Case No.137 of 2023 dated\n01.09.2023 under\nSections 498A\n/\n/\n/\n354B\n/\n/\n/\nof the\nIndian Penal Code. (G.R. Case No.2483 of 2023)\n\nAnd\n\nIn Re: Shambhu Bouri\n... ... Petitioner\nMr. Abhishek Halder\nMs. Madhurima Basu\nMr. Debabrata Halder\n... ... for the petitioner\n\nMd. Adil Badr\nMr. Sandip Kundu\n... ... for the State\n\n1.\nIt is submitted on behalf of the petitioner that he is the husband\n\nof the victim lady. It is further submitted petitioner and other in-laws\n\nwere falsely implicated over a matrimonial discord. Co-accused has\n\nbeen granted pre-arrest bail. Accordingly, he prays for the same relief.\n\n2. Learned Advocate for the State opposes the prayer for\n\nanticipatory bail and submits victim suffered injuries.\n\n3. We have considered the materials on record including the\n\nstatement of the victim and injury report. It is alleged one Robin Bouri\n\ni.e. brother-in-law outraged the modesty of the victim. The said co-\n\naccused has been granted pre-arrest bail. Allegation against the\n\npetitioner-husband is with regard to assault. However, injuries are\n\nsimple. In view of the aforesaid facts, we are of the opinion custodial\n\ninterrogation of the accused/petitioner is not necessary and he may be\n\ngranted anticipatory bail.\n\n4. Accordingly, we direct in the event of arrest, the\n\naccused/petitioner, namely, Shambhu Bouri, be released on bail upon\nSigned By : ARUP\nKUMAR DAS\nHigh Court of\nCalcutta\n16 th of\nDecember 2024\n04:55:22 PM\nfurnishing a bond of Rs.10,000/- (Rupees Ten thousand only), with two\n\nsureties of like amount each, to the satisfaction of the arresting officer\n\nand also subject to the conditions as laid down under\nSection 482(2)\nof\n\nthe Bharatiya Nagarik Suraksha Sanhita, 2023 and on further condition\n\nthat the petitioner shall appear before the jurisdictional court and pray\n\nfor regular bail within four weeks from date.\n\n5. The application for anticipatory bail is, thus, disposed of.\n\n(Apurba Sinha Ray, J.) (Joymalya Bagchi, J.)\n\nSigned By : ARUP\nKUMAR DAS\nHigh Court of\nCalcutta\n16 th of\nDecember 2024\n04:55:22 PM",
+  "metadata": {
+    "processed_date": "2026-01-18T18:40:35.962565",
+    "version": "2.0",
+    "court": "High Court Of Calcutta",
+    "court_level": "HC",
+    "case_number": "CASE NO.2483",
+    "decision_date": "13 DECEMBER, 2024",
+    "jurisdiction": "India"
+  },
+  "extractions": {
+    "citations": {
+      "total": 0,
+      "by_type": {},
+      "details": []
+    },
+    "sections": {
+      "total": 0,
+      "by_act": {},
+      "details": []
+    },
+    "transitions": {
+      "total": 0,
+      "by_source": {},
+      "details": []
+    },
+    "landmarks": {
+      "total": 0,
+      "by_id": {},
+      "details": []
+    },
+    "issues": {
+      "total": 2,
+      "details": {
+        "bail": {
+          "statute": "CrPC / BNSS",
+          "keywords": [
+            "bail",
+            "anticipatory bail",
+            "regular bail"
+          ],
+          "sections": [],
+          "confidence": "medium",
+          "keyword_count": 3,
+          "mention_count": 13
+        },
+        "quashing": {
+          "statute": "CrPC / BNSS",
+          "keywords": [],
+          "sections": [
+            "482"
+          ],
+          "confidence": "medium",
+          "keyword_count": 0,
+          "mention_count": 0
+        }
+      }
+    }
+  },
+  "provenance": {
+    "processed_date": "2026-01-18T18:40:35.962565",
+    "pipeline_version": "2.0",
+    "processing_steps": [
+      "ingestion",
+      "metadata_extraction",
+      "issue_extraction",
+      "classification",
+      "statutory_transitions",
+      "citation_extraction",
+      "consolidation"
+    ]
+  },
+  "classification": {
+    "domain": "criminal",
+    "confidence": "high",
+    "signals": {
+      "criminal": [
+        "bail",
+        "accused",
+        "Indian Penal Code"
+      ],
+      "civil": [],
+      "service": []
+    }
+  }
+}

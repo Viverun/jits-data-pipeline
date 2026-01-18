@@ -1,5 +1,6 @@
 from .runner import BaseStep
 from .classification import ClassificationStep
+from .id_regeneration import IDRegenerationStep
 from .transitions import TransitionStep
 from .issues import IssueExtractionStep
 from .citations import CitationExtractionStep
@@ -10,6 +11,7 @@ from .orchestrator import PipelineOrchestrator
 __all__ = [
     "BaseStep",
     "ClassificationStep",
+    "IDRegenerationStep",
     "TransitionStep",
     "IssueExtractionStep",
     "CitationExtractionStep",

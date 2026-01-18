@@ -48,3 +48,18 @@ build/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Processed data (uploaded to HuggingFace separately)
+legal_ai_toolkit/data/judgments/citations/*.json
+legal_ai_toolkit/data/judgments/sections/*.json
+legal_ai_toolkit/data/judgments/transitions/*.json
+legal_ai_toolkit/data/judgments/processed/*.json
+
+# HuggingFace export directory
+huggingface_dataset/
+
+# Keep directory structure but ignore JSON files
+!legal_ai_toolkit/data/judgments/citations/README.md
+!legal_ai_toolkit/data/judgments/sections/README.md
+!legal_ai_toolkit/data/judgments/transitions/README.md
+!legal_ai_toolkit/data/judgments/processed/README.md

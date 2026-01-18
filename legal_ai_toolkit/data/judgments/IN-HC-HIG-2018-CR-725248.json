@@ -1,0 +1,117 @@
+{
+  "judgment_id": "IN-HC-HIG-2018-CR-725248",
+  "text": "Madhya Pradesh High Court\n\nSunil Verma vs The State Of Madhya Pradesh on 30 October, 2018\n\n1 MCRC-42598-2018\nThe High Court Of Madhya Pradesh\nMCRC-42598-2018\n(SUNIL VERMA Vs THE STATE OF MADHYA PRADESH)\n\nJabalpur, Dated : 30-10-2018\n\nShri Manish Datt, Senior Counsel with Shri Pawan Gujar,\n\nAdvocate for the applicants.\nShri Vivek Lakhera, Govt. Adv. for the respondent/State.\n\nShri Sushil Kumar Tiwari, Advocate for the objector.\nHeard with the aid of case diary.\n\nThis is the first application under\nSection 438\nof Cr.P.C. as the\napplicants apprehend their arrest in connection with Crime\nNo.861/2018 registered at Police Station Adhartal, Distt. Jabalpur\n(MP) for the offence punishable under\nSections 307\nand\n498A\n/\nof\nthe IPC and also\nSections 3\nand\nof the Dowry Prohibition Act.\n\nAs per prosecution case, applicants Sunil Verma and Smt. Jyoti\nVerma are father-in-law and mother-in-law respectively of\ncomplainant Swalpa and co-accused Shaleen Verma, husband of the\n\ncomplainant demanded dowry and used to harassed her. On\n27/9/2018 at about 7.30 p.m. applicant no.1 Sunil assaulted the\ncomplainant by fist and applicant no.2 Jyoti also assaulted her and co-\naccused Shaleen also assaulted her by knife due to which she\nsustained injury. On that, police registered the Crime No.861/2018\nfor the offences punishable under\nSections 307\nand\n498A\n/\nof the\nIPC and also\nSections 3\nand\nof the Dowry Prohibition Act.\n\nLearned counsel for the applicants submits that the applicants\nare innocent and have falsely been implicated in this case. They have\nno criminal past. From the FIR, no offence under\nSection 307\nof the\nIPC is made out against the present applicants. They are ready to\n\nDigitally signed by MONIKA\n\nCHOURASIA\n\nDate: 31/10/2018 16:21:52\n\n2 MCRC-42598-2018\ncooperate in the investigation and trial. In the event of arrest, their\nreputation will be ruined. Under these circumstances, applicants pray\nfor anticipatory bail.\n\nLearned counsel for the State as well as objector opposes the\nprayer and submitted that the applicants used to harassed the\n\ncomplainant and also assaulted her. So, they should not be released\non anticipatory bail.\n\nOn due consideration and contention raised by the learned\ncounsel for the applicants and as to the fact that the applicants are the\nfather-in-law and mother-in-law of the complainant, so without\nexpressing any view on the merits, this application is allowed. It is\ndirected that in the event of arrest of applicants by the Police in the\naforesaid crime, the applicants namely Sunil Verma and Jyoti Verma\nshall be released on bail on their furnishing a personal bond in the\nsum of Rs.50,000/- (Rupees Fifty Thousand only) each with a solvent\nsurety in the like amount to the satisfaction of the Arresting officer\n(Investigating Officer) for their regular appearance before the Police\nduring the investigation or before the Court during trial.\n\nThis order will remain operative subject to compliance of the\nfollowing conditions by the applicants :-\n\n1. The applicants will comply with all the terms and conditions of the\nbond executed by them ;\n\n2. The applicants will cooperate in the investigation/trial, as the case\nmay be;\n\n3. The applicants will not indulge themselves in extending\ninducement, threat or promise to any person acquainted with the facts\nof the case so as to dissuade him/her from disclosing such facts to the\n\nDigitally signed by MONIKA\n\nCHOURASIA\n\nDate: 31/10/2018 16:21:52\n\n3 MCRC-42598-2018\nCourt or to the Police Officer, as the case may be;\n\n4. The applicants they are accused;\n\n5. The applicants will not seek unnecessary adjournments during the\ntrial; and\n\n6. The applicants will not leave India without previous permission of\nthe trial Court/Investigating Officer, as the case may be.\n\nA copy of this order be sent to the concerned Station House\nOfficer for compliance.\n\nC.C. as per rules.\n\n(RAJEEV KUMAR DUBEY)\nJUDGE\n\nm/-\n\nDigitally signed by MONIKA\n\nCHOURASIA\n\nDate: 31/10/2018 16:21:52",
+  "metadata": {
+    "processed_date": "2026-01-18T18:40:35.461544",
+    "version": "2.0",
+    "court": "High Court Of Madhya Pradesh Mcrc",
+    "court_level": "HC",
+    "case_number": "CRIMINAL PAST. FROM THE FIR, NO",
+    "decision_date": "30 OCTOBER, 2018",
+    "jurisdiction": "India"
+  },
+  "extractions": {
+    "citations": {
+      "total": 0,
+      "by_type": {},
+      "details": []
+    },
+    "sections": {
+      "total": 3,
+      "by_act": {
+        "IPC": [
+          "307"
+        ],
+        "CrPC": [
+          "438"
+        ],
+        "Dowry Prohibition Act": [
+          "307"
+        ]
+      },
+      "details": [
+        {
+          "section": "307",
+          "act": "IPC"
+        },
+        {
+          "section": "438",
+          "act": "CrPC"
+        },
+        {
+          "section": "307",
+          "act": "Dowry Prohibition Act"
+        }
+      ]
+    },
+    "transitions": {
+      "total": 1,
+      "by_source": {
+        "inferred_from_ipc": 1
+      },
+      "details": [
+        {
+          "ipc": "307",
+          "bns": "109",
+          "source": "inferred_from_ipc",
+          "validated": false,
+          "risk": "low",
+          "confidence": "low",
+          "requires_judicial_confirmation": true,
+          "note": "Inferred from standalone IPC 307 mention. Not validated by judgment text."
+        }
+      ]
+    },
+    "landmarks": {
+      "total": 0,
+      "by_id": {},
+      "details": []
+    },
+    "issues": {
+      "total": 1,
+      "details": {
+        "bail": {
+          "statute": "CrPC / BNSS",
+          "keywords": [
+            "bail",
+            "anticipatory bail"
+          ],
+          "sections": [
+            "438"
+          ],
+          "confidence": "high",
+          "keyword_count": 2,
+          "mention_count": 5
+        }
+      }
+    }
+  },
+  "provenance": {
+    "processed_date": "2026-01-18T18:40:35.461544",
+    "pipeline_version": "2.0",
+    "processing_steps": [
+      "ingestion",
+      "metadata_extraction",
+      "issue_extraction",
+      "classification",
+      "statutory_transitions",
+      "citation_extraction",
+      "consolidation"
+    ]
+  },
+  "classification": {
+    "domain": "criminal",
+    "confidence": "high",
+    "signals": {
+      "criminal": [
+        "accused",
+        "offence",
+        "fir",
+        "bail",
+        "IPC"
+      ],
+      "civil": [],
+      "service": []
+    }
+  }
+}

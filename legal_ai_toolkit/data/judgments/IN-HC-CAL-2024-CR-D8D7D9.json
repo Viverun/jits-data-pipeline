@@ -1,0 +1,89 @@
+{
+  "judgment_id": "IN-HC-CAL-2024-CR-D8D7D9",
+  "text": "Calcutta High Court (Appellete Side)\n\n498A/376/511/506/406/34 Ipc vs In Re : Amiyo Biswas & Anr on 29 February, 2024\n\n29.02.2024\ntkm/ct 28 C.R.M. (DB) 568 of 2024\nsl no. 67\nIn Re : An application for bail under\nsection 439\nCr.P.C in connection\nwith Kotwali PS case no. 1293 of 2023 dated 30.12.2023 under\nsection\n498A\n/\n/\n/\n/\n/\nIPC\n\nAnd\nIn Re : Amiyo Biswas & Anr. ........ petitioners\n\nMr. Amanul Islam\nMr. Sourav Mukherjee\n...... for the petitioners\nMr. Arijit Ganguly\nMs. Yantika Roy\n...... for the State\nMr. Kalyan Kr. Bhattacharjee\nMs. Sahina Khatun\n...... for the de facto complainant\n\n1.\nPetitioners are in custody for 57 days. There is delay in\n\nlodging FIR. They pray for bail.\n\n2. Learned lawyer for the State and the de facto complainant\n\noppose the bail prayer.\n\n3. We have considered the materials on record. Statement of the\n\nvictim implicates petitioner no. 2 in the offence of attempting to\n\nrape her. Hence, we are not inclined to grant bail to him.\n\n4. Allegations against petitioner no. 1-husband are general and\n\nomnibus. Keeping in mind the extent of complicity of petitioner no.\n\n1 in the crime, we are inclined to grant bail to him.\n\n5. Accordingly, the petitioner no. 1 viz. Amiyo Biswas be\n\nreleased on bail upon furnishing a bond of Rs. 10,000/- with two\n\nsureties of like amount each, one of whom must be local to the\n\nsatisfaction of the learned CJM Nadia at Krishnagar on condition\n\nthat the petitioner no. 1 shall appear before the trial court on every\ndate of hearing and shall not intimidate witnesses or tamper with\n\nevidence in any manner whatsoever.\n\n6. In the event he fails to appear before the trial court without\n\njustifiable cause, the trial court shall be at liberty to cancel his bail\n\nautomatically without reference to this court.\n\n7. The application being CRM (DB) 568 of 2024 is disposed of.\n\n(Gaurang Kanth, J.) (Joymalya Bagchi, J.)",
+  "metadata": {
+    "processed_date": "2026-01-18T18:40:35.078948",
+    "version": "2.0",
+    "court": "Calcutta High Court",
+    "court_level": "HC",
+    "case_number": "CASE NO. 1293",
+    "decision_date": "29 FEBRUARY, 2024",
+    "jurisdiction": "India"
+  },
+  "extractions": {
+    "citations": {
+      "total": 0,
+      "by_type": {},
+      "details": []
+    },
+    "sections": {
+      "total": 1,
+      "by_act": {
+        "CrPC": [
+          "439"
+        ]
+      },
+      "details": [
+        {
+          "section": "439",
+          "act": "CrPC"
+        }
+      ]
+    },
+    "transitions": {
+      "total": 0,
+      "by_source": {},
+      "details": []
+    },
+    "landmarks": {
+      "total": 0,
+      "by_id": {},
+      "details": []
+    },
+    "issues": {
+      "total": 1,
+      "details": {
+        "bail": {
+          "statute": "CrPC / BNSS",
+          "keywords": [
+            "bail"
+          ],
+          "sections": [
+            "439"
+          ],
+          "confidence": "high",
+          "keyword_count": 1,
+          "mention_count": 7
+        }
+      }
+    }
+  },
+  "provenance": {
+    "processed_date": "2026-01-18T18:40:35.078948",
+    "pipeline_version": "2.0",
+    "processing_steps": [
+      "ingestion",
+      "metadata_extraction",
+      "issue_extraction",
+      "classification",
+      "statutory_transitions",
+      "citation_extraction",
+      "consolidation"
+    ]
+  },
+  "classification": {
+    "domain": "criminal",
+    "confidence": "high",
+    "signals": {
+      "criminal": [
+        "offence",
+        "fir",
+        "bail",
+        "IPC",
+        "custody"
+      ],
+      "civil": [],
+      "service": []
+    }
+  }
+}

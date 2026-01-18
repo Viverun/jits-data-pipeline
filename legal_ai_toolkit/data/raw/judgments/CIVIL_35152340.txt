@@ -1,0 +1,2977 @@
+Gujarat High Court
+
+Instakart Services Private Limited vs Megastone Logiparks Pvt. Ltd on 13 October, 2023
+
+Author:
+Sunita Agarwal
+
+Bench:
+Sunita Agarwal
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+IN THE HIGH COURT OF GUJARAT AT AHMEDABAD
+
+R/PETN. UNDER ARBITRATION ACT NO. 159 of 2022
+
+FOR APPROVAL AND SIGNATURE:
+
+HONOURABLE THE CHIEF JUSTICE MRS. JUSTICE SUNITA AGARWAL
+Sd/-
+==========================================================
+
+1 Whether Reporters of Local Papers may be allowed No
+to see the judgment ?
+
+2 To be referred to the Reporter or not ? Yes
+
+3 Whether their Lordships wish to see the fair copy No
+of the judgment ?
+
+4 Whether this case involves a substantial question No
+of law as to the interpretation of the Constitution
+of India or any order made thereunder ?
+
+==========================================================
+INSTAKART SERVICES PRIVATE LIMITED
+Versus
+MEGASTONE LOGIPARKS PVT. LTD.
+==========================================================
+Appearance:
+Appearance:
+MR. DEVANG S. NANAVATI, SENIOR ADVOCATE WITH MR. TABISH
+SAMDANI, ADVOCATE FOR J SAGAR ASSOCIATES(8162) for the
+Petitioner(s) No. 1
+ADITYA A GUPTA(7875) for the Respondent(s) No. 1
+MOHIT A GUPTA(8967) for the Respondent(s) No. 1
+==========================================================
+
+CORAM:HONOURABLE THE CHIEF JUSTICE MRS. JUSTICE
+SUNITA AGARWAL
+
+Date : 13/10/2023
+
+CAV JUDGMENT
+
+Page 1 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+1. Heard learned Senior Counsel Mr. Devang Nanavati
+
+assisted by learned counsel Mr. Tabish Samdani appearing
+
+for the petitioner, and learned counsel Mr. Mohit Gupta
+
+appearing for the respondent.
+
+2. In the instant petition, seeking for appointment of
+
+arbitrator under
+Section 11(6)
+of the Arbitration and
+
+Conciliation Act, 1996 (hereinafter referred to as 'the Act,
+
+1996', for short), two issues have been raised by the learned
+
+counsel for the respondent for consideration, raising an
+
+objection with regard to appointment of Arbitrator on the
+
+dispute arising out of the Maintenance and Amenities
+
+Agreement (hereinafter referred to as 'M & E Agreement',
+
+for short) dated 07.05.2018, and further with regard to the
+
+territorial jurisdiction of this Court to entertain the petition
+
+under
+Section 11
+of the Act, 1996.
+
+3. Contesting the claim of the petitioner to appoint
+
+Arbitrator, to deal with the dispute arising out of the M & E
+
+Agreement, it is argued by the learned Senior Counsel for
+
+the petitioner that M & E Agreement contains no arbitration
+
+Page 2 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+clause and the arbitration clause in the Lease Agreement
+
+dated 01.03.2018 cannot be invoked to refer the dispute to
+
+the Arbitrator. Second submission is that, even if it is
+
+assumed for a moment without admitting that the arbitration
+
+clause under the Lease Agreement dated 01.03.2018 can be
+
+invoked for appointment of Arbitrator to deal with the above
+
+noted dispute, this Court does not have territorial jurisdiction
+
+to entertain the petition under
+Section 11
+of the Act, 1996,
+
+inasmuch as, the seat of the arbitration as agreed is at
+
+Bangalore, as per Clause '25' of the agreement. It was
+
+argued that a bare reading of the Clause 25(ii) of the Lease
+
+Agreement indicates that the parties had agreed that the
+
+arbitration proceedings will be conducted at Bangalore, and
+
+hence, the seat of the arbitration having been agreed, the
+
+jurisdiction to entertain the petition under
+Section 11
+of the
+
+Act, 1996 can only be with the Karnataka High Court.
+
+4. Reliance is placed on the decisions in BGS SGS
+
+Coma JV versus NPHC reported in (2020) 4 SCC 234,
+
+M/s.
+Devyani International Ltd. versus Siddhivinayak
+
+Builders and Developers
+reported in 2017 SCC OnLine
+
+Page 3 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+Del 11156, Cinepolis India Pvt. Ltd. versus Celebration
+
+City Projects Pvt. Ltd. and Another
+reported in 2020
+
+SCC Online Del 301, M/s.
+Raman Deep Singh Taneja
+
+versus Crown Realtech Private Limited
+reported in
+
+2017 SCC OnLine Del 11966, to substantiate the above
+
+submission.
+
+5. In reply to the objections raised by the learned
+
+counsel appearing for the respondent, it was argued by the
+
+learned Senior Counsel appearing for the petitioner that the
+
+petitioner and the respondent had executed a Lease
+
+Agreement dated 01.03.2018 for leasing of the premises
+
+admeasuring 68,890 sq. feet at Building No. 12, Jupiter
+
+Industrial & Logiparks, Survey No. 607, Vadala Road, Village
+
+Hariyala, District Kheda, Gujarat - 387120 for warehouses.
+
+Another agreement named as M & E Agreement dated
+
+07.05.2018 was executed between the parties, whereunder
+
+the respondent had agreed to maintain the premises under
+
+Lease and provide various common services and amenities
+
+there. Some dispute has arisen between the parties, as a
+
+result of which, the petitioner had terminated the Lease
+
+Page 4 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+Agreement as also the Maintenance Agreement on
+
+07.07.2021, asking the respondent to take the possession of
+
+the premises-in-question and also to refund the security
+
+deposit paid by the petitioner under the M & E Agreement.
+
+6. It is submitted by the learned Senior Counsel
+
+appearing for the petitioner that the respondent had failed to
+
+perform their contractual obligations and stopped the water
+
+supply in the premises. The petitioner had issued pre-
+
+arbitration notice dated 16.05.2022 disclosing its intention of
+
+amicable settlement of disputes in terms of Clause '25' of the
+
+Lease Agreement. By the reply dated 22.06.2022, the
+
+respondent had denied the petitioner's stance mainly on the
+
+ground that the Lease Agreement and M & E Agreement are
+
+separate agreements and that though the disputes arising
+
+out of the Lase Agreement are subject to arbitration, the
+
+arbitration proceedings with respect to the disputes arising
+
+out of the M & E Agreement, cannot be referred to the
+
+arbitration by invoking Clause '25' of the Lease Agreement.
+
+7. It is argued by the learned Senior Counsel for the
+
+Page 5 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+petitioner that M & E Agreement is an ancillary agreement,
+
+which is related to the principal agreement (which is Lease
+
+Agreement) and performance of one agreement was being
+
+intrinsically related to another agreement. Clause '25' of
+
+the Lease Agreement can be invoked. The Clause 25 of the
+
+Lease Agreement and the clauses of M & E Agreement
+
+placed before the Court, are relevant to be noted
+
+hereinunder : -
+
+"25. Dispute Resolution and Jurisdiction
+
+i. Disputes: The Parties shall attempt to amicably
+settle any dispute arising out of this Agreement and
+the obligations hereunder ("Dispute"). Either Party
+may give written notice of a Dispute to the other Party
+within seven (7) days of the occurrence of the event
+which gives rise to such Dispute or the day that such
+event came to the notice of the applicable Party.
+
+ii. Arbitration: If any Dispute arising between the
+Parties is not amicably settled within 10 days of
+commencement of amicable attempts to settle the
+same as provided above, such dispute shall be referred
+to, and be finally settled by arbitration proceedings.
+The Parties agree that the arbitration proceedings will
+be conducted at Bangalore and shall be governed by
+the provisions of the
+Arbitration and Conciliation Act,
+. That the Dispute shall be adjudicated by a single
+arbitrator mutually agreeable to, and appointed by,
+the Parties. In the event the Parties fail to appoint a
+single arbitrator due to non-cooperation from the
+other Party, post due discussions, the other party shall
+be free to appoint a sole arbitrator to conduct the
+Proceedings. The decision of the arbitrator shall be
+final and binding on the Parties. Each Party shall be
+responsible for the costs of appointing their respective
+
+Page 6 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+arbitrator as contemplated herein, however, where a
+joint appointment of an arbitrator occurs, the costs
+thereof will be shared equally by the Parties. Such
+Arbitration will be conducted in Bangalore.
+
+iii. Jurisdiction: Subject to the foregoing, the courts at
+Ahmedabad only shall have exclusive jurisdiction in all
+matters arising out of this Agreement.
+
+WITNESSETH
+
+A. WHEREAS on 1st March 2018 the Second party has
+entered into a Agreement to Lease a reprint with
+minor modifications was then registered with Sub
+Registrar Kheda on 7th April 2018 with various owners
+of the building block No. A2, lying and situate in the
+project named Jupiter Industrial & Logiparks, Survey
+No 607p, Vadala Road, Village Hariyala, Distt. Kheda,
+Gujarat together with right to use project's common
+area, passages along with four-wheeler parking
+facilities, right of ingress to and egress from the said
+building A2, water, sanitary and power amenities.
+
+B. The property that the Second Party have taken on
+lease under the Agreement to Lease mentioned in
+Clause - 1 above, is more fully described in Schedule
+'A' annexed hereto and shall hereinafter be referred to
+as the 'Leased Premises'.
+
+C. The Second party has requested the First party to
+provide certain services in the Project named Jupiter
+Industrial & Logiparks required for business purpose
+of the second Party to enable the Second Party to start
+and conduct its business operations and more fruitfully
+enjoy the Leased Premises. First party has agreed to
+provide the services on the Terms & Conditions
+hereinafter contained. This Agreement shall
+hereinafter be referred to as the Service Level
+Agreement.
+
+NOW THIS SERVICE LEVEL AGREEMENT
+WITNESSES AS FOLLOWS:
+
+1) GRANT:
+
+In consideration of the payment of maintenance
+charges and amenities charges reserved hereunder,
+the First Party shall provide to the Second Party, the
+
+Page 7 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+services and amenities as set out in this agreement at
+the common area of the Jupiter Industrial & Logiparks.
+
+2) TERM:
+
+This Agreement shall be operative & co-terminus from
+the date of the operation of the Agreement to Lease dt.
+1st March 2018 (01.03.2018) and shall be operative
+until the term of the said Agreement ie 01.03.2018 to
+28.02.2027 to Lease and to be executed as registered
+Lease Deed and renewal thereof as provided in the
+said Agreement to Lease or Registered Lease Deed, as
+the case may be. Provided specifically that this
+agreement shall be co-terminus with the term of or
+early termination of any of the said Agreements, as the
+case may be."
+
+8. The submission of the learned Senior Counsel
+
+appearing for the petitioner is that the fact that the M & E
+
+Agreement has been made operative and co-terminus from
+
+the date of operation of the agreement to lease dated
+
+01.03.2018, and further has been made operative only under
+
+the terms of the Lease Agreement, makes it clear that M & E
+
+Agreement is an ancillary agreement, which was intrinsically
+
+related to principal agreement. In absence of M & E
+
+Agreement, the petitioner was not in position to enjoy the
+
+premises as the responsibilities of the respondent in carrying
+
+out the operation as contemplated by M & E Agreement were
+
+to be discharged with respect to the premises on lease. The
+
+Lease Agreement being the Mother agreement, the
+
+Page 8 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+arbitration clause therein would have to be invoked for
+
+deciding the disputes arising out of the ancillary agreement,
+
+which is M & E Agreement. The claims of the petitioner
+
+cannot be bifurcated in two different jurisdictions.
+
+9. Reliance is placed on the decision of the Apex Court
+
+in the case of
+Chloro Controls India Private Ltd. vs.
+
+Severn Trent Water Purification Inc. & Ors.
+reported in
+
+(
+2013) 1 SCC 641, Ameet Lalchand Shah and Others
+
+versus Rishabh Enterprises and Another
+reported in
+
+(
+2018) 15 SCC 678, and Duro Felguera S.A. versus
+
+Gangavaram Port Ltd.
+reported in (2017) 9 SCC 729, to
+
+submit that the question whether or not the arbitration
+
+clause contained in another document is incorporated in the
+
+contract, is always a question of construction of document
+
+with reference to the intention of the parties. In a case,
+
+where several parties are involved in a single transaction, or
+
+commercial project, all the parties can be covered by the
+
+arbitration clause in the main agreement. In cases involving
+
+execution of multiple agreements between the same parties,
+
+two essential features are to be seen; firstly, that all ancillary
+
+Page 9 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+agreements are related to Mother agreement and, secondly,
+
+performance of one is so intrinsically interlinked with the
+
+other agreement that they are incapable of being beneficially
+
+performed without performance of the others or severed
+
+from the rest. The intention of the parties to refer all the
+
+disputes of the parties to the Arbitral Tribunal is one of the
+
+determinative factor. Where agreements are consequential
+
+and in the nature of a follow-up to the principal or mother
+
+agreement, the latter containing the arbitration agreement
+
+and such agreement being so intrinsically intermingled or
+
+interdependent that it is their composite performance which
+
+shall discharge the parties to their respective mutual
+
+obligations and performances, that would be a sufficient
+
+indicator of intent of the parties to refer signatory as well as
+
+non-signatory parties to arbitration.
+
+10. On the question of territorial jurisdiction of this
+
+Court, according to Clause '25' of the Lease Agreement, it is
+
+argued by the learned Senior Counsel for the petitioner that
+
+the statement in Clause '25' that "the parties agree that the
+
+arbitration proceedings will be conducted at Bangalore", will
+
+Page 10 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+give only an indication that the parties had agreed to the
+
+'venue', and not the 'seat' of arbitration.
+Section 20(3)
+of the
+
+Act, 1996 gives freedom to the Arbitral Tribunal to meet at
+
+any place for conducting hearings at the place of
+
+convenience in the matter, such as, consultation among its
+
+members, for hearing witnesses, experts or the parties. It is
+
+further submitted that same clause '25' states with regard to
+
+jurisdiction that "Courts at Ahmedabad only shall have
+
+exclusive jurisdiction in all matters arising out of this
+
+agreement." If both the above statements in Clause 25 (ii)
+
+and (iii) are read together and analysed to ascertain the
+
+intention of the parties, it can be seen that Bangalore was
+
+chosen as the 'venue' and not the 'seat'. The arbitration
+
+agreement at Clause '25' provides that exclusive jurisdiction
+
+vests with Courts at Ahmedabad; the agreement was
+
+executed and stamped in Gujarat; the respondent is situated
+
+in Ahmedabad and the petitioner has its Corporate
+
+headquarters in Ahmedabad; the premises in dispute is
+
+located in Ahmedabad, Gujarat. All these situation
+
+cumulatively establish that the seat of Arbitration is
+
+Page 11 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+Ahmedabad.
+
+11. Reliance is placed on the decision of the High Court
+
+of Calcutta in the case of
+Homevista Decor and
+
+Furnishing Pvt. Ltd. and Another versus Connect
+
+Residuary Private Limited
+reported in 2023 SCC
+
+OnLine Cal 1405, decisions of High Court of Delhi in the
+
+case of
+Cravants Media Private Limited versus
+
+Jharkhand State Co. Operative Milk Producers
+
+Federation Ltd. and Another
+reported in 2021 SCC
+
+OnLine Del 5350, and in the case of Mrs. Meenakshi
+
+Nehra Bhat and Anr. Versus Wave Megacity Centre
+
+Private Limited passed in Arbitration Petition No.
+
+706/2020 and the latest decision of the Apex Court in the
+
+case of M/s.
+Ravi Ranjan Developers Pvt. Ltd. versus
+
+Aditya Kumar Chatterjee
+passed in Civil Appeal arising
+
+out of Special Leave to Appeal (C) No(s). 17397-
+
+17398/2021, to submit that only in case where there is a
+
+standalone clause in the agreement, which states that
+
+arbitration is to be held at a particular place, then that place
+
+Page 12 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+would be the 'seat' of arbitration. However, in cases, where
+
+there are other clauses in the agreement and are contrary
+
+indicative that the stated place of arbitration is merely a
+
+'venue' and not the 'seat' of the arbitral proceedings, the
+
+Courts to the exclusive jurisdiction of which the parties have
+
+submitted for entertaining the disputes arising out of the
+
+agreement, would have exclusive jurisdiction even in the
+
+matter of appointment of Arbitrator under
+Section 11
+of the
+
+Act, 1996.
+
+12. It is argued that the decisions relied upon the
+
+learned Counsel for the respondent in the case of
+BGS SGS
+
+Soma JV versus NPHC Ltd.
+reported in (2020) 4 SCC
+
+234, will not be of benefit to the respondent, inasmuch as
+,
+
+the said decision
+pertains to international commercial
+
+arbitration, and it was noted by the Apex Court therein that
+
+there being no other significant contrary indica that the
+
+stated venue was merely a "venue" and not the "seat" of the
+
+arbitral proceedings, it would conclusively show that such a
+
+clause designated "seat" of the arbitral proceedings.
+
+However, it was held therein that other clauses of the
+
+Page 13 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+agreement must be read to ascertain whether a venue is
+
+actually the seat or simplicitor a place owing to there being a
+
+contrary indica, in the form of further clauses or conduct of
+
+the parties.
+
+13. The decision in the case of
+Cinepolis India Pvt.
+
+Ltd. versus Celebration City Projects Pvt. Ltd. and
+
+Another
+reported in 2020 SCC Online Del 301, relied by
+
+the Counsel for the respondents has been distinguished with
+
+the submission that the same was taken note by the Delhi
+
+High Court in the subsequent decision in
+Kush Raj Bhatia
+
+versus DLF Power and Services Limited
+through its
+
+Director reported in 2022
+SCC OnLine Del 3309, Mrs.
+
+Meenakshi Nehra Bhat and Anr. Versus Wave Megacity
+
+Centre Private Limited
+(supra),
+Cravants Media Private
+
+Limited versus Jharkhand State Co. Operative Milk
+
+Producers Federation Ltd. and Another
+(
+Supra), IGSEC
+
+Heavy Engineering Ltd. versus Indian Oil Corporation
+
+Ltd.
+reported in 2021 SCC OnLine Del 4748 of Delhi
+
+High Court, which have held to the contrary.
+In M/s.
+
+Page 14 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+Devyani International Ltd. versus Siddhivinayak
+
+Builders and Developers
+(supra), the arbitration clause
+
+itself provided for the seat of arbitration.
+
+In M/s.
+Raman
+
+Deep Singh Taneja versus Crown Realtech Private
+
+Limited
+(supra), it was noted that there was a conflict in
+
+the arbitration clause, inasmuch as, there was no distinction
+
+for arbitration proceedings and other Court reference. It
+
+was, thus, submitted that in view of the above noted decision
+
+of the Delhi High Court, clear law laid down therein, the
+
+decisions relied by the respondent Counsel will have no
+
+application.
+
+14. Heard learned counsels for the parties and perused
+
+the record. On the first question with respect to the
+
+invocation of arbitration clause '25' of the Lease Agreement,
+
+to seek appointment of Arbitrator with respect to the
+
+disputes arising out of M & E Agreement, the decision of the
+
+Apex Court in the case of
+Chloro Controls India Private
+
+Limited versus Seevern Trent Water Purification Inc.
+
+and Others
+(Supra), is relevant to be noted. Relevant
+
+paragraphs 73 and 74 of
+the said decision
+are extracted
+
+Page 15 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+hereinunder : -
+
+"73. A non-signatory or third party could be subjected
+to arbitration without their prior consent, but this
+would only be in exceptional cases. The Court will
+examine these exceptions from the touchstone of direct
+relationship to the party signatory to the arbitration
+agreement, direct commonality of the subject matter
+and the agreement between the parties being a
+composite transaction. The transaction should be of a
+composite nature where performance of mother
+agreement may not be feasible without aid, execution
+and performance of the supplementary or ancillary
+agreements, for achieving the common object and
+collectively having bearing on the dispute. Besides all
+this, the Court would have to examine whether a
+composite reference of such parties would serve the
+ends of justice. Once this exercise is completed and the
+Court answers the same in the affirmative, the
+reference of even non-signatory parties would fall
+within the exception afore-discussed.
+
+74. In a case like the present one, where origin and
+end of all is with the Mother or the Principal
+Agreement, the fact that a party was non-signatory to
+one or other agreement may not be of much
+significance. The performance of any one of such
+agreements may be quite irrelevant without the
+performance and fulfillment of the Principal or the
+Mother Agreement. Besides designing the corporate
+management to successfully complete the joint
+ventures, where the parties execute different
+agreements but all with one primary object in mind, the
+Court would normally hold the parties to the bargain of
+arbitration and not encourage its avoidance. In cases
+involving execution of such multiple agreements, two
+essential features exist; firstly, all ancillary agreements
+are relatable to the mother agreement and secondly,
+performance of one is so intrinsically inter- linked with
+the other agreements that they are incapable of being
+beneficially performed without performance of the
+others or severed from the rest. The intention of the
+parties to refer all the disputes between all the parties
+to the arbitral tribunal is one of the determinative
+
+Page 16 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+factor."
+
+15.
+In
+Duro Felguera S.A. versus Gangavaram Port
+
+Ltd.
+(supra), it was held in paragraph 35 as under : -
+
+"35.
+Section 7(5)
+of the Arbitration and Conciliation
+(Amendment) Act, 2015 reads as under:-
+
+"7. Arbitration agreement.--(1)-(4)
+
+(5) The reference in a contract to a document
+containing an arbitration clause constitutes an
+arbitration agreement if the contract is in writing and
+the reference is such as to make that arbitration
+clause part of the contract."
+
+As per
+Section 7 (5)
+of the Act, even though the
+contract between the parties does not contain a
+provision for arbitration, an arbitration clause
+contained in an independent document will be
+imported and engrafted in the contract be- tween the
+parties, by reference to such independent document
+in the contract, if the reference is such as to make the
+arbitration clause in such document, a part of the
+contract. Section 7(5) requires a conscious
+acceptance of the arbitration clause from another
+document, as a part of their contract, before such
+arbitration clause could be read as a part of the
+contract between the parties. The question whether
+or not the arbitration clause contained in another
+document, is incorporated in the contract, is always a
+question of construction of document in reference to
+intention of the parties. The terms of a contract may
+have to be ascertained by reference to more than one
+document."
+
+16.
+In
+Ameet Lalchand Shah and Others versus
+
+Rishabh Enterprises and Another
+(supra), it was held in
+
+Page 17 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+paragraphs 17, 21 and 22 as under : -
+
+"17. xxxxxxxx........
+
+Through the Sale and Purchase Agreement
+(05.03.2012) does not have any arbitration clause, by
+the above clauses, it is clearly linked with the main
+agreement - Equipment Lease Agreement
+(14.03.2012). Sale and Purchase Agreement was
+entered into between Astonfield and Rishabh only for
+the purpose of onward transmission of leasing of the
+goods by Rishabh to Dante Energy. There is no merit
+in the contention that the Sale and Purchase
+Agreement is not connected with the Equipment
+Lease Agreement with Dante Energy."
+
+21. Mr. Sibal, learned senior counsel for the
+respondents submitted that the High Court rightly
+relied upon Sukanya Holdings as it relates to
+Part-I of
+the Act
+that the parties who are not signatories to the
+arbitration agreement (in this case, Astonfield under
+Sale and Purchase Agreement) cannot be referred to
+arbitration. It was further submitted that Chloro
+Controls arises under
+Part-II of the Act
+and was
+rightly distinguished by the High Court and Sukanya
+Holdings was not overruled by Chloro Controls and
+hence, the appellants cannot rely upon Chloro
+Controls. It was contended that the Sale and
+Purchase Agreement (05.03.2012) under which huge
+money was parted with, is the main agreement
+having no arbitration clause cannot be referred to
+arbitration. It was submitted that the subject matter
+of the suit cannot be bifurcated between the parties
+to arbitration agreement and others.
+
+22. In Chloro Controls, this Court was dealing with
+the scope and interpretation of
+Section 45
+of the Act -
+
+Part-II of the Act
+and in that context, discussed the
+scope of relevant principles on the basis of which a
+non-signatory party also could be bound by the
+arbitration agreement. Under
+Section 45
+of the Act,
+an applicant seeking reference of disputes to
+arbitration can either be a party to the arbitration
+
+Page 18 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+agreement or any person claiming through or under
+such party. Section 45 uses the expression "....at the
+request of one of the parties or any person claiming
+through or under him....." includes non-signatory
+parties who can be referred to arbitration provided
+they satisfy the requirements of Sections 44 and 45
+read with
+Schedule I of the Act
+."
+
+It was finally held in paragraph 24 therein in
+
+the facts of that case that though there are different
+
+agreements involving several parties, but they pertain to a
+
+single commercial transaction and as per the commercial
+
+understanding between the parties, the project has been
+
+effected through several agreements, the agreement -
+
+Equipment Lease Agreement for commissioning of the
+
+Solar Plant is the principal / main agreement. The other
+
+two agreements; (i) Equipment and Material Supply
+
+Contract and (ii) Engineering, Installation and
+
+Commissioning Contract were ancillary agreements which
+
+led to the main purpose of commissioning the Photovoltaic
+
+Solar Plant. Even though, the sale and projects
+
+agreements did not contain arbitration clause, it being
+
+integrally connected with the commissioning of the Solar
+
+Plant, even though the parties to the subsequent
+
+agreement are not signatories to the main agreement i.e.
+
+Page 19 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+Equipment Lease Agreement, the disputes between the
+
+parties to various agreements could be resolved only by
+
+referring all the agreements and the parties thereon to
+
+arbitration. In such a case, all the parties can be covered
+
+by the arbitration clause in the main agreement i.e.
+
+Equipment Lease Agreement.
+
+17. We may note further decision in the case of
+M.R.
+
+Engineers and Contractors Private Limited versus Som
+
+Datt Builders Limited
+reported in (2009) 7 SCC 696,
+
+relied on by the learned Senior Counsel for the petitioner,
+
+referring to the wordings of
+Section 7(5)
+of the Act, 1996,
+
+wherein it is held that : -
+
+"15. Section 7(5) therefore requires a conscious
+acceptance of the arbitration clause from another
+document, by the parties, as a part of their contract,
+before such arbitration clause could be read as a part
+of the contract between the parties.
+But the Act
+does
+not contain any indication or guidelines as to the
+conditions to be fulfilled before a reference to a
+document in a contract, can be construed as a
+reference incorporating an arbitration clause
+contained in such document, into the contract. In the
+absence of such statutory guidelines, the normal
+rules of construction of contracts will have to be
+followed.
+
+16. There is a difference between reference to
+
+Page 20 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+another document in a contract and incorporation of
+another document in a contract, by reference. In the
+first case, the parties intend to adopt only specific
+portions or part of the referred document for the
+purposes of the contract. In the second case, the
+parties intend to incorporate the referred document
+in entirety, into the contract. Therefore when there is
+a reference to a document in a contract, the court has
+to consider whether the reference to the document is
+with the intention of incorporating the contents of
+that document in entirety into the contract, or with
+the intention of adopting or borrowing specific
+portions of the said document for application to the
+contract.
+
+18. Learned Senior Counsel for the petitioner has
+
+further relied upon the decision in the
+State of M.P. and
+
+another versus Mahendra Kumar Saraf and Others
+
+reported in 2005 (3) M.P.L.J. 578, to submit the meaning
+
+of co-terminus as it should mean to imply two things or
+
+objects having the same end, same finishing point or same
+
+terminating point. It is argued that both the agreements
+
+namely Lease Agreement and M & E Agreement have 'co-
+
+terminus' and integrally related to each other, performance
+
+of Lease Agreement being dependent upon the M & E
+
+Agreement, both being part of the same transaction, the
+
+arbitration clause '25' in the Lease Agreement will have to
+
+be invoked to refer the dispute to the Arbitrator.
+
+Page 21 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+19. From the above noted discussion, taking note of the
+
+decisions of the Apex Court, this Court finds itself in
+
+complete agreement with the contention of the learned
+
+Senior Counsel for the petitioner that performance of the
+
+Lease Agreement was not possible without performance of
+
+the M & E Agreement. They being integrally related to each
+
+other, even if there is no separate arbitration clause in M &
+
+E Agreement, the intention of the parties can be ascertained
+
+from the Lease Agreement that they had agreed to refer the
+
+disputes arising out of the transaction, which is lease of the
+
+premises-in-question to arbitration. The petitioner cannot be
+
+forced to submit to two different Forums to determine the
+
+disputes arising out of one single transaction. The
+
+arbitration clause '25' of the Lease Agreement is a conscious
+
+acceptance of the agreement clause as part of the M & E
+
+Agreement between the parties in view of the above noted
+
+facts and the language employed in
+Section 7(5)
+of the Act,
+
+1996. The objections raised by the learned Counsel for the
+
+respondent with regard to invocation of Clause '25' of the
+
+Lease Agreement seeking to refer the disputes arising out of
+
+Page 22 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+the M & E Agreement to the Arbitrator, therefore, is liable to
+
+be turned down.
+
+20. Coming to the question of territorial jurisdiction of
+
+this Court to entertain the application under
+Section 11
+of
+
+the Act, 1996, the contention of the learned counsel for the
+
+respondent that this Court lacks jurisdiction to appoint
+
+Arbitrator under Section 11, is based on the statement in the
+
+Lease Agreement, noted above, which states that "the parties
+
+agree that the arbitration proceedings will be conducted at
+
+Bangalore". The contention is that this statement in the
+
+Lease Agreement not only decides the "venue" but also the
+
+"seat" of arbitration.
+
+21. Learned Senior Counsel for the petitioner, however,
+
+relied upon various judgments of the Apex Court and Delhi
+
+High Court as noted above to submit that reference to the
+
+decision of the Apex Court in
+BGS SGS Soma JV versus
+
+NPHC Ltd.
+(supra) and Delhi High Court in the case of
+
+Cinepolis India Pvt. Ltd. versus Celebration City
+
+Projects Pvt. Ltd. and Another
+(supra), to assert that
+
+Page 23 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+place of arbitration, the venue, is really the seat of
+
+arbitration is misplaced. The submission is that these
+
+judgments are distinguishable in the facts and circumstances
+
+of the case as a result of misreading of the decision of the
+
+Apex Court.
+
+22. To examine the issue, this Court is required to note
+
+the decision of the Apex Court
+BGS SGS Soma JV versus
+
+NPHC Ltd.
+(
+supra), Mankastu Impex Private Limited
+
+versus Airvisual Limited
+reported in (2020) 5 SCC 399,
+
+wherein the question of "seat" and "venue" with reference to
+
+the arbitration proceedings has been decided.
+
+In
+BGS SGS
+
+Soma JV versus NPHC Ltd.
+(supra), the issue was
+
+pertaining to maintainability of appeal under
+Section 37
+of
+
+the Act, 1996, on the premise that in view of the arbitration
+
+clause, whether the seat of arbitration proceedings was New
+
+Delhi or Faridabad, consequent upon which the petition
+
+under
+Section 34
+of the Act, 1996 may be filed dependent on
+
+where the seat of arbitration was located.
+
+23. The Apex Court has noted therein that in the
+
+Page 24 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+judgment impugned, the Punjab and Haryana High Court
+
+referred two earlier decisions of the Apex Court in
+Bharat
+
+Aluminum Co.(BALCO) vs. Kaiser Aluminum
+reported
+
+in (
+2012) 9 SCC 522 and Indus Mobile Distribution (P)
+
+Ltd. versus Datawind Innovations (P) Ltd.
+reported in
+
+(2017) 7 SCC 678, along with other decisions to arrive at a
+
+conclusion that the arbitration clause
+in that case
+did not
+
+refer to the seat of arbitration, but only referred to the
+
+"venue" of arbitration. Consequently, since a part of the
+
+cause of action had arisen in Faridabad, the Faridabad
+
+Commercial Court alone would have jurisdiction over the
+
+arbitral proceedings, and the Courts at New Delhi would
+
+have no such jurisdiction. The correctness of the said
+
+proposition was assailed before the Apex Court. The Apex
+
+Court has proceeded to lay down the law on what constitutes
+
+the "juridical seat" of arbitration proceedings, and whether,
+
+once the seat is delineated by the arbitration agreement,
+
+courts at the place of the seat would alone, thereafter, have
+
+exclusive jurisdiction over the arbitral proceedings.
+
+24. Considering the scheme of the old
+Arbitration Act
+,
+
+Page 25 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+1940, it was observed therein that it did not refer to the
+
+juridical seat of the arbitration proceedings at all. The
+
+UNCITRAL Model of International Commercial Courts as
+
+adopted by the United Nations Commission on International
+
+Trade Law on 21.06.1985, introduced the concept of "place"
+
+or "seat" of the arbitral proceedings, which has been adopted
+
+by our country.
+The Arbitration Act, 1996
+which repealed
+
+the
+Arbitration Act, 1940
+, adopted provisions of UNCITRAL
+
+Model and refers to "the place" of arbitration and defines
+
+"Courts", and indicates which Courts have jurisdiction in
+
+relation to arbitral proceedings. The provisions in Part - I in
+
+Section 2(1)(e)
+,
+2(2)
+, Section 20,
+Section 31(4)
+and
+of the
+
+Act, 1996, noted therein are relevant to be extracted as
+
+under : -
+
+"2.Definitions. -
+
+(1) In this Part, unless the context otherwise
+requires,-
+
+(a) to (d) - xxxxxx...xxxxxx...xxxxxx
+
+(e)"Court" means-
+
+(i) in case of an arbitration other than international
+
+Page 26 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+commercial arbitration, the principal Civil Court of
+original jurisdiction in a district, and includes the
+High Court in exercise of its ordinary original civil
+jurisdiction, having jurisdiction to decide the
+questions forming the subject-matter of the
+arbitration if the same had been the subject-matter of
+a suit, but does not include any Civil Court of a grade
+inferior to such principal Civil Court, or any Court of
+Small Causes;
+
+(ii) in the case of international commercial
+arbitration, the High Court in exercise of its ordinary
+original civil jurisdiction, having jurisdiction to decide
+the questions forming the subject-matter of a suit if
+the same had been the subject-matter of a suit, and in
+other cases, a High Court having jurisdiction to hear
+appeals from decrees of courts subordinate to that
+High Court;
+
+(f) to (h) -xxxxxx...xxxxxx...xxxxxx
+
+(2) This part shall apply where the place of
+arbitration is in India.
+
+Provided that subject to an agreement to the
+contrary, the provisions of sections 9, 27 and clause
+
+(a) of sub-section (1) and sub-section (3) of Section 37
+shall also apply to international commercial
+arbitration, even if the place of arbitration is outside
+India, and an arbitral award or to be made in such
+place is enforceable and recognised under the
+provisions of Part II of this Act."
+
+20. Place of Arbitration.-
+
+(1)The parties are free to agree on the place of
+arbitration.
+
+(2)Failing any agreement referred to in sub-section
+(1), the place of arbitration shall be determined by
+the arbitral tribunal having regard to the
+circumstances of the case, including the convenience
+
+Page 27 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+of the parties.
+
+(3)Notwithstanding sub-section (1) or sub-section (2),
+the arbitral tribunal may, unless otherwise agreed by
+the parties, meet at any place it considers appropriate
+for consultation among its members, for hearing
+witnesses, experts or the parties, or for inspection of
+documents, goods or other property."
+
+"31. Form and contents of arbitral award.-
+
+(1) to (3) - xxxxxx...xxxxxx...xxxxxx
+
+(4) The arbitral award shall state its date and the
+place of arbitration as determined in accordance with
+section 20 and the award shall be deemed to have
+been made at that place."
+
+"42. Jurisdiction.- Notwithstanding anything
+contained elsewhere in this Part or any other law for
+the time being in force, where with respect to an
+arbitration agreement any application under this Part
+has been made in any Court, that Court alone shall
+have jurisdiction over the arbitral proceedings and all
+subsequent applications arising out of that agreement
+and the arbitral proceedings shall be made in that
+Court and no other Court."
+
+25. It was further discussed in paragraph '31' and '32' in
+
+BGS SGS Soma JV versus NPHC Ltd.
+(supra) that from
+
+the above noted provisions, the new concept of "juridical
+
+seat" of the arbitration proceedings has been given by the
+
+Act, 1996 and the arbitral award is now not only to state its
+
+date, but also the place of arbitration as determined in
+
+accordance with Section 20. However, the definition of
+
+Page 28 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+"Court" has been narrowed down to mean only principal civil
+
+court and the High Court in exercise of their original
+
+ordinary civil jurisdiction. Thus, the concept of "juridical
+
+seat" of the arbitral proceedings, and its relationship to the
+
+jurisdiction of the courts which are then to look into matters
+
+relating to the arbitral proceedings including challenges to
+
+arbitral awards had to be developed in accordance with
+
+international practice on a case by case basis by the Apex
+
+Court.
+
+Noticing that in some of the earlier decisions of the
+
+Apex Court, no proper distinction between the "seat" and
+
+"venue" of arbitral proceedings was made, the observations
+
+in the judgment in the case of
+Union of India versus
+
+McDonnell Douglas Corporation
+reported in (1993) 2
+
+Lloyd's Rep 48, were noted that the provisions of
+Section
+
+2(1)(e)
+of the Act, 1996 had been considered therein to
+
+provide jurisdiction of the original Civil Court and the High
+
+Court to decide the question forming "the subject matter of
+
+the arbitration", if the same had been the subject matter of a
+
+suit. The term "subject matter of the arbitration" cannot be
+
+Page 29 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+confused with "subject matter of the suit". The term "subject
+
+matter" in
+Section 2(1)(e)
+is confined to
+Part I of the Act,
+. It has a reference and connection with the process of
+
+dispute resolution. It's purpose is to identify the courts
+
+having supervisory control over the arbitration proceedings.
+
+Hence, it refers to a court which would essentially be a court
+
+of the seat of the arbitration process. It was noted that the
+
+provisions of
+Section 2(1)(e)
+have to be construed keeping in
+
+view the provisions in Section 20, which give recognition to
+
+party autonomy. It was further noted that the legislature has
+
+intentionally given jurisdiction to two courts i.e. the court
+
+which would have jurisdiction where the cause of action is
+
+located and the courts where the arbitration takes place.
+
+Therefore, the Courts where the arbitration takes place,
+
+would be required to exercise supervisory control over the
+
+arbitral process. It was observed : -
+
+"33. xxxxxxx ...........xxxxx
+
+96 xxxxxxxxx For example, if the arbitration is held
+in Delhi, where neither of the parties are from Delhi,
+(Delhi having been chosen as a neutral place as be-
+tween a party from Mumbai and the other from
+Kolkata) and the tribunal sitting in Delhi passes an
+
+Page 30 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+interim order Under
+Section 17
+of the Arbitration
+Act, 1996, the appeal against such an interim order
+under Section 37 must lie to the Courts of Delhi
+being the Courts having supervisory jurisdiction over
+the arbitration proceedings and the tribunal. This
+would be irrespective of the fact that the obligations
+to be performed under the contract were to be
+performed either at Mumbai or at Kolkata, and only
+arbitration is to take place in Delhi. In such
+circumstances, both the Courts would have
+jurisdiction, i.e., the Court within whose jurisdiction
+the subject matter of the suit is situated and the
+courts within the jurisdiction of which the dispute
+resolution, i.e., arbitration is located."
+
+26. It was further noted that a plain reading of the
+
+Section 20 leaves no room for doubt that where the place of
+
+arbitration is in India, the parties are free to agree to any
+
+"place" or "seat" within India. In absence of the agreement
+
+of the parties thereto, Sub-section (2) of Section 20
+
+authorizes the tribunal to determine the place / seat of such
+
+arbitration. Section 20(3), however, enables the tribunal to
+
+meet at any place for conducting hearings at a place of
+
+convenience in matters such as consultations among its
+
+members for hearing witnesses, experts or the parties. The
+
+observations in paragraph 99 in
+McDonnell Douglas
+
+Corporation
+(supra), emphasis to which is supplied
+
+therein, are relevant to be extracted hereinunder : -
+
+Page 31 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+"99. The fixation of the most convenient "venue" is taken
+care of by Section 20(3). Section 20, has to be read in
+the context of
+Section 2(2)
+, which places a threshold
+limitation on the applicability of Part I, where the place
+of arbitration is in India. Therefore, Section 20 would
+also not support the submission of the extra-territorial
+applicability of Part I, as canvassed by the Learned
+Counsel for the Appellants, so far as purely domestic
+arbitration is concerned."
+
+(emphasis in original and supplied)
+
+27. While examining the concept of "juridical seat" of the
+
+arbitral proceedings and the important test
+laid down in
+the
+
+decision of the English Courts and the Apex Court, in order
+
+to determine whether the "seat" of the arbitral proceedings
+
+has, in fact, been indicated in the agreement between the
+
+parties, it was observed by the Apex Court in BGS SGS
+
+Soma JV versus NPHC Ltd. (Supra), in paragraph '82' as
+
+under : -
+
+"82. On a conspectus of the aforesaid judgments, it
+may be concluded that whenever there is the
+designation of a place of arbitration in an arbitration
+clause as being the "venue" of the arbitration
+proceedings, the expression "arbitration proceedings"
+
+would make it clear that the "venue" is really the
+"seat" of the arbitral proceedings, as the aforesaid
+expression does not include just one or more
+individual or particular hearing, but the arbitration
+proceedings as a whole, including the making of an
+award at that place. This language has to be
+contrasted with language such as "tribunals are to
+meet or have witnesses, experts or the parties" where
+only hearings are to take place in the "venue", which
+
+Page 32 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+may lead to the conclusion, other things being equal,
+that the venue so stated is not the "seat" of arbitral
+proceedings, but only a convenient place of meeting.
+Further, the fact that the arbitral proceedings "shall
+be held" at a particular venue would also indicate that
+the parties intended to anchor arbitral proceedings to
+a particular place, signifying thereby, that that place
+is the seat of the arbitral proceedings. This, coupled
+with there being no other significant contrary indicia
+that the stated venue is merely a "venue" and not the
+"seat" of the arbitral proceedings, would then
+conclusively show that such a clause designates a
+"seat" of the arbitral proceedings. In an International
+context, if a supranational body of rules is to govern
+the arbitration, this would further be an indicia that
+"the venue", so stated, would be the seat of the
+arbitral proceedings. In a national context, this would
+be replaced by the
+Arbitration Act, 1996
+as applying
+to the "stated venue", which then becomes the "seat"
+for the purposes of arbitration."
+
+28.
+In
+Mankastu Impex Private Limited versus
+
+Airvisual Limited
+(supra), the Apex Court was dealing with
+
+the question of maintainability of the petition under
+Section
+
+11(6)
+of the Act, 1996 in the matter of international
+
+commercial arbitration.
+The decision in the case of BGS
+
+SGS Soma JV versus NPHC Ltd. (Supra), has been
+
+considered to note that it was held therein that in absence of
+
+contrary expression expressed by the parties, the conclusion
+
+has to be drawn that the parties have chosen the place where
+
+arbitration proceedings were held as the seat of arbitration
+
+under
+Section 20(1)
+of the Act. It was noted that as per
+
+Page 33 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+Section 2(2)
+, Part - I, shall apply where the place of
+
+arbitration is in India. If the "international commercial
+
+arbitration" is seated in India, then Part - I of the Act shall
+
+apply. It was observed in paragraph '19' and '20' therein as
+
+under : -
+
+"19. The seat of arbitration is a vital aspect of any
+arbitration proceedings. Significance of the seat of
+arbitration is that it determines the applicable law
+when deciding the arbitration proceedings and
+arbitration procedure as well as judicial review over
+the arbitration award. The situs is not just about
+where an institution is based or where the hearings
+will be held. But it is all about which court would
+have the supervisory power over the arbitration
+proceedings.
+In
+Enercon (India) Limited and others
+v. Enercon GMBH and another
+, (2014) 5 SCC 1, the
+Supreme Court held that
+
+"The location of the Seat will determine the
+courts that will have exclusive jurisdiction to
+oversee the arbitration proceedings. It was further
+held that the Seat normally carries with it the
+choice of that country's arbitration/curial law".
+
+(emphasis supplied)
+
+20. It is well-settled that "seat of arbitration" and
+"venue of arbitration" cannot be used inter-
+changeably. It has also been established that mere
+expression "place of arbitration" cannot be the
+basis to determine the intention of the parties that
+they have intended that place as the "seat" of
+arbitration. The intention of the parties as to the
+"seat" should be determined from other clauses in
+the agreement and the conduct of the parties."
+
+29. It was considered that though the arbitration
+
+Page 34 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+agreement entered into between the parties provided Hong
+
+Kong as the place of arbitration, however that fact by itself
+
+will not be lead to the conclusion that the parties have
+
+chosen Hong Kong as the seat of arbitration. However, by
+
+reading further clauses of the arbitration agreement, it was
+
+observed that reference to Hong Kong as "place of
+
+arbitration" is not a simple reference as the "venue" for the
+
+arbitral proceedings; but a reference to Hong Kong is for
+
+final resolution by arbitration administered in Hong Kong.
+
+The agreement between the parties that the dispute "shall be
+
+referred to and finally resolved by arbitration administered in
+
+Hong Kong" clearly suggests that the parties have agreed
+
+that the arbitration be seated at Hong Kong and that laws of
+
+Hong Kong shall govern the arbitration proceedings as well
+
+as have power of judicial review over the arbitration award.
+
+However, in the context of domestic arbitration, the
+
+observations of the Apex Court in
+Indus Mobile
+
+Distribution (P) Ltd. versus Datawind Innovations (P)
+
+Ltd.
+(supra), (in paragraph 19) were noted therein as
+
+under: -
+
+Page 35 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+"24. In the context of domestic arbitration, holding
+that once the "Seat" is determined, only that
+jurisdictional court would have exclusive
+jurisdiction, in Indus Mobile Distribution (P) Ltd. v.
+
+Datawind Innovations (P) Ltd. and others, (2017) 7
+SCC 678, it was held as under:-
+
+"19. A conspectus of all the aforesaid provisions
+shows that the moment the seat is designated, it
+is akin to an exclusive jurisdiction clause. On
+the facts of the present case, it is clear that the
+seat of arbitration is Mumbai and Clause 19
+further makes it clear that jurisdiction
+exclusively vests in the Mumbai courts. Under
+the Law of Arbitration, unlike
+the Code of Civil
+Procedure
+which applies to suits filed in courts,
+a reference to "seat" is a concept by which a
+neutral venue can be chosen by the parties to
+an arbitration clause. The neutral venue may
+not in the classical sense have jurisdiction - that
+is, no part of the cause of action may have
+arisen at the neutral venue and neither would
+any of the provisions of
+Sections 16
+to
+of
+CPC be attracted. In arbitration law however, as
+has been held above, the moment "seat" is
+determined, the fact that the seat is at Mumbai
+would vest Mumbai courts with exclusive
+jurisdiction for purposes of regulating arbitral
+proceedings arising out of the agreement
+between the parties."
+
+30. From the reading of the above noted decisions, it can
+
+be seen that mere designation of a place of arbitration in
+
+arbitration clause as being "venue of the arbitration
+
+proceedings", would not be determinative factor to decide
+
+the "seat of the arbitral proceedings". The language of the
+
+arbitral agreement has to be read on case by case basis to
+
+Page 36 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+determine as to whether "venue" so stated is "seat" of
+
+arbitral proceedings, or it is only convenient place of
+
+meeting. The moment the seat is designated, it is akin to an
+
+exclusive jurisdiction clause for the purpose of regulating
+
+arbitral proceedings arising out of the agreement between
+
+the parties.
+
+31. Taking note of the above, this Court is further
+
+required to go through the recent decision of the Apex Court
+
+in the case of M/s.
+Ravi Ranjan Developers Pvt. Ltd.
+
+versus Aditya Kumar Chatterjee
+passed in Civil Appeal
+
+arising out of Special Leave to Appeal (C) No(s).
+
+17397-17398/2021 decided on 24.03.2022. The question
+
+before the Apex Court in
+the said decision
+was with respect
+
+to the maintainability of the application under
+Section 11(6)
+
+of the Act, 1996, for appointment of Arbitrator. The
+
+challenge was to the order of the Calcutta High Court in
+
+rejecting the review application seeking for recall of the
+
+order of appointment of Arbitrator. In the context of the
+
+arbitration clause therein, which stated that "seat of the
+
+arbitral tribunal shall be at Calcutta", the dispute with
+
+Page 37 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+regard to the territorial jurisdiction of the Calcutta High
+
+Court examined. It was contended that the development
+
+agreement (in question therein) is in respect of the property
+
+situated at Muzaffarpur in Bihar outside the jurisdiction of
+
+the Calcutta High Court. The development agreement was
+
+executed and registered in the State of Bihar, outside the
+
+jurisdiction of the Calcutta High Court. The appellant
+
+therein had its registered office at Patna, outside the
+
+jurisdiction of the Calcutta High Court, and has no
+
+establishment or does not carry on any business within the
+
+jurisdiction of the Calcutta High Court. It was, thus, argued
+
+by the learned counsel for the appellant therein that no part
+
+of the cause of action had arisen within the jurisdiction of
+
+Calcutta High Court.
+Section 2(1)(e)
+of the Act, 1996 defines
+
+the Court, in case of arbitration other than international
+
+commercial arbitration, to mean Principal Civil Court of
+
+Original jurisdiction in a district and would include the High
+
+Court in exercise of its ordinary original jurisdiction, having
+
+jurisdiction to decide the question forming the subject matter
+
+of arbitration, if the same had been the subject matter of the
+
+Page 38 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+suit. The contention, thus, was that subject to the pecuniary
+
+or other limitations prescribed by law, suits for recovery of
+
+immovable property or determination of any other right to or
+
+interest in any movable property or compensation for wrong
+
+to immovable property, is to be instituted in the Court, within
+
+the local limits of whose jurisdiction the property is situated.
+
+Certain specific suits relating to immovable property can be
+
+instituted either in the Court within the limits of whose
+
+jurisdiction the property is situated, or in the Court within
+
+the local limits of whose jurisdiction the Defendant actually
+
+or voluntarily resides or carries on business. All other suits
+
+are to be instituted in a Court, within the local limits of
+
+whose jurisdiction the Defendant voluntarily resides or
+
+carries on business. A suit may also be instituted in the Court
+
+within whose jurisdiction, the cause of action arises either
+
+wholly or in part. In the said case, no suit could have been
+
+filed in any court over which the Calcutta High Court
+
+exercises jurisdiction, since the suit pertaining to immovable
+
+property situated at Muzaffarpur in Bihar, would be outside
+
+the territorial jurisdiction of the Calcutta High Court. No
+
+Page 39 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+part of cause of action had arisen therein within the
+
+territorial jurisdiction of the Calcutta High Court and the
+
+appellant therein, who would be in position of Defendant in a
+
+suit, neither resides nor carries on any business within the
+
+jurisdiction of the Calcutta High Court. It was, thus, argued
+
+that an application for appointment of Arbitration under
+
+Section 11(6), necessarily has to be moved in the High Court,
+
+irrespective of whether the High Court has supervisory
+
+jurisdiction to decide the suit in respect of the subject matter
+
+of arbitration situated and irrespective of whether the High
+
+Court at all has Original jurisdiction to entertain and decide
+
+suits. Dealing with this contention therein, it was observed
+
+in paragraph Nos. 26, 27 and 28 as under : -
+
+"26. Of course, under Section 11(6), an application for
+appointment of an Arbitrator necessarily has to be moved
+in the High Court, irrespective of whether the High Court
+has the jurisdiction to decide a suit in respect of the
+subject matter of arbitration and irrespective of whether
+the High Court at all has original jurisdiction to entertain
+and decide suits. As such, the definition of Court in
+Section
+2(1)(e)
+of the A&C Act would not be applicable in the case
+of a High Court exercising jurisdiction under Section 11(6)
+of the A&C Act to appoint an Arbitrator/Arbitral Tribunal.
+
+27. At the same time, an application under Section 11(6)
+of the A&C Act for appointment of an Arbitrator/Arbitral
+Tribunal cannot be moved in any High Court in India,
+
+Page 40 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+irrespective of its territorial jurisdiction. Section 11(6) of
+the A&C Act has to be harmoniously read with
+Section 2(1)
+
+(e) of the A&C Act and construed to mean, a High Court
+which exercises superintendence/supervisory jurisdiction
+over a Court within the meaning of
+Section 2(1)(e)
+of the
+A&C Act.
+
+28. It could never have been the intention of Section 11(6)
+of the A&C Act that arbitration proceedings should be
+initiated in any High Court in India, irrespective of
+whether the Respondent resided or carried on business
+within the jurisdiction of that High Court, and irrespective
+of whether any part of the cause of action arose within the
+jurisdiction of that Court, to put an opponent at a
+disadvantage and steal a march over the opponent."
+
+32. The judgment of the Apex Court in
+BGS SGS Soma
+
+JV versus NPHC Ltd.
+(supra), relied on by the learned
+
+counsel for the respondent therein was noted to record that
+
+the said judgment
+was rendered in the context of
+Section
+
+2(2)
+of the Act, 1996 and the applicability of Part I of the said
+
+Act to an international commercial arbitration, where the
+
+seat of arbitration was not in India.
+
+Another decision of
+
+Hindustan Construction Company Limited versus
+
+NHPC Limited and Anr.
+reported in (2020) 4 SCC 310,
+
+was also noted therein to record in paragraph 40 as under : -
+
+"40.
+In
+Hindustan Construction Company Limited
+
+(supra), this Court held that once the seat of
+arbitration is designated, the same operates as an
+exclusive jurisdiction clause and only Courts within
+whose jurisdiction the seat was located, would have
+
+Page 41 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+jurisdiction to the exclusion of all other Courts. In the
+facts and circumstances of that case this Court found
+that Courts at New Delhi alone would have jurisdiction
+for the purpose of challenge to the Award."
+
+33. The decision of the Apex Court in the case of
+
+Mankastu Impex Private Limited versus Airvisual
+
+Limited
+(supra), was also noted by the Apex Court therein
+
+to record that : -
+
+"46. In this case, the Development Agreement provided
+that the sittings of the Arbitral Tribunal would be
+conducted in Kolkata. As observed above, the parties
+never agreed to submit to the jurisdiction of Calcutta
+High Court in respect of disputes, nor did the parties 12
+agree upon Kolkata as the seat of arbitration. Kolkata
+was only the venue for sittings of the Arbitral Tribunal.
+
+47. It is well settled that, when two or more Courts have
+jurisdiction to adjudicate disputes arising out of an
+arbitration agreement, the parties might, by agreement,
+decide to refer all disputes to any one Court to the
+exclusion of all other Courts, which might otherwise
+have had jurisdiction to decide the disputes. The parties
+cannot, however, by consent, confer jurisdiction on a
+Court which inherently lacked jurisdiction, as argued by
+Mr. Sinha.
+
+48. In this case, the parties, as observed above did not
+agree to refer their disputes to the jurisdiction of the
+Courts in Kolkata. It was not the intention of the parties
+that Kolkata should be the seat of arbitration. Kolkata
+was only intended to be the venue for arbitration
+sittings. Accordingly, the Respondent himself
+approached the District Court at Muzaffarpur, and not a
+Court in Kolkata for interim protection under Section 9
+of the A&C Act. The Respondent having himself invoked
+the jurisdiction of the District Court at Muzaffarpur, is
+estopped from contending that the parties had agreed to
+
+Page 42 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+confer exclusive jurisdiction to the Calcutta High Court
+to the exclusion of other Courts. Neither of the parties to
+the agreement construed the arbitration clause to
+designate Kolkata as the seat of arbitration. We are
+constrained to hold that Calcutta High Court inherently
+lacks jurisdiction to entertain the application of the
+Respondent under
+Section 11(6)
+of the Arbitration Act.
+The High Court should have decided the objection raised
+by the Appellant, to the jurisdiction of the Calcutta High
+Court, to entertain the application under Section 11(6) of
+A&C Act, before appointing an Arbitrator."
+
+34. The appeal was ultimately allowed and the order of
+
+appointment of Arbitrator and dismissal of the review
+
+application was set aside on the ground that the order of
+
+appointment of Arbitrator was without jurisdiction. It was
+
+held that the parties did not agree to submit to the
+
+jurisdiction of Calcutta High Court and they had only agreed
+
+that the sitting of the Arbitral Tribunal would be in Kolkata.
+
+35. Further, this Court may note some other decisions of
+
+other High Courts relied upon by the learned Senior Counsel
+
+for the petitioner.
+
+The Calcutta High Court in
+Homevista Decor and
+
+Furnishing Pvt. Ltd. and Another versus Connect
+
+Residuary Private Limited (Supra
+), considering the
+
+Page 43 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+decision of the Apex Court in
+BGS SGS Soma JV versus
+
+NPHC Ltd.
+(
+supra), and Mankastu Impex Private
+
+Limited versus Airvisual Limited
+(supra), as also other
+
+decisions of other High Courts has held in paragraph 19 and
+
+20 as under : -
+
+"19. I find myself in consonance with the above
+view. In circumstances where a place is designated
+merely as a 'venue' and courts of another place
+have been granted the exclusive jurisdiction, the
+latter is a clear 'contrary indicia'. It can be inferred
+from a comprehensive reading of such clauses, that
+the 'venue' is a convenient place of arbitration and
+not the seat.
+
+20. The Calcutta High Court's judgment in
+Height
+Insurance Services Limited
+(supra) has been stayed
+by the same judge who passed the judgment and is
+therefore not required to be dealt by me."
+
+36. Similarly, the view has been taken by the Delhi High
+
+Court in the case of
+Kush Raj Bhatia versus DLF Power
+
+and Services Limited
+through its Director (supra), in
+
+paragraph Nos. 28, 29, 30 and 31 as under : -
+
+"28. Having discussed the distinct concepts of "Seat"
+
+and "Venue‟, it may be examined how these two
+concepts have been interpreted and applied in various
+situations. In Isgec Heavy Engineering.
+Ltd. vs. Indian
+Oil Corporation Ltd. & Anr. Arbitration Petition
+No.164/2001
+decided on 21.10.2021 by the Coordinate
+Bench of this Court, similar Clause came up for
+
+Page 44 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+interpretation. The parties have agreed for venue of
+arbitration to be New Delhi, but in the other Clause, they
+had agreed that all actions and proceedings arising out
+of/related to the Contract shall lie in the Courts of
+competent jurisdiction at Guwahati.
+The Court held that
+since the Clauses of the Agreement expressly provided
+that the Courts at Guwahati would have exclusive
+jurisdiction, it was a contrary indicator coming within
+the exception as held by the Supreme Court in the case
+of DSG SGS Souma (supra).
+
+29. Similarly, in
+Cravants Media Pvt. Ltd. vs. Jharkhand
+State Cooperative Milk Food Federation Pvt. Ltd. & Ors.
+Arbitration
+petition No. 915/2021 decided on 06.12.2021
+by the Coordinate Bench, the Dispute Resolution Clause
+provided that the venue of arbitration shall be Ranchi,
+but any disputes arising out of this agreement shall be
+subject to the sole and exclusive jurisdiction of Courts in
+Delhi. It was held that the intention of the parties was
+clear that the seat would be in New Delhi and the Court
+at New Delhi was held to have the jurisdiction.
+
+30. In the facts in hand, the relevant Clause 48 and
+Clause 49 read as under:
+
+48. All or any dispute arising out of touching upon
+or in relation to the terms of the Lease Deed
+including the interpretation and validity of the
+terms thereof and the respective rights and
+obligations of the parties shall be settled amicably
+by mutual discussion failing which the same shall
+be settled through arbitration. The arbitration
+shall be governed by the
+Arbitration and
+Conciliation Act, 1996
+or any statutory
+amendments/modifications thereto for the time
+being in force. The arbitration proceedings shall
+he held at an appropriate location in New Delhi by
+a Sole Arbitrator who shall be appointed by the
+Lessee and whose decision shall be final and
+binding upon Lessor.
+
+The Lessor hereby confirms that it shall have no
+objection to this appointment even if the person
+so appointed, as the Arbitrator, is an employee or
+
+Page 45 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+Advocate of the Lessee or is otherwise connected
+to the Lessee and the Lessor confirms that
+notwithstanding such relationship/ connection,
+the Lessor shall have no doubts as to the
+independence or impartiality of the said
+Arbitrator." That the Civil Courts at Gurgaon and
+High Court at Chandigarh alone shall have
+jurisdiction.
+
+49. That the Civil Courts at Gurgaon and High
+Court at Chandigarh alone shall have
+jurisdiction."
+
+31. It is quite evident that there is a contraindication in
+the registered Agreement that while the venue of
+arbitration may be New Delhi, but the seat of arbitration
+shall be Gurgaon and High Court at Chandigarh. In the
+circumstances, it has to be held that this Court has no
+jurisdiction and it is the Courts at Gurgaon/High Court of
+Chandigarh which have the exclusive jurisdiction for
+entertaining the disputes arising out of the registered
+Lease Agreement."
+
+37. The view taken by the High Court of Delhi in
+IGSEC
+
+Heavy Engineering Ltd. versus Indian Oil Corporation
+
+Ltd.
+(supra) in paragraph Nos. 8, 12, 13, 14, 15 is also
+
+relevant to be noted as hereinunder : -
+
+"8. There can be no doubt on the proposition that
+the word 'seat' and 'venue' have different
+connotations. They are not synonymous, in so far as
+the arbitration proceedings are concerned, although,
+they have often been used interchangeably. The law
+on 'seat' and 'venue' of arbitration proceedings is
+fairly well-defined in view of several judgments of
+the Supreme Court. The Supreme Court has clearly
+held that where the parties have determined the
+'seat' in their agreement, the same is akin to
+conferring exclusive jurisdiction on the court(s)
+
+Page 46 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+thereof.5 The expression 'venue' and 'seat' do not
+find any mention under the Act. The expression used
+under the Act is 'place', which finds mention under
+
+Section 20
+of the Act. In BALCO v. Kaiser Aluminium
+Technical Services Inc., 6 the Apex Court made it
+clear that sub-sections (1) and (2) of Section 20,
+where the word 'place' is used, refer to juridical
+'seat'; whereas, in sub-section (3) of Section 20, the
+word 'place' is equivalent to 'venue', i.e., the location
+of the meeting of arbitral proceedings.
+
+12. To answer the afore-mentioned question - What
+constitutes the 'seat' of arbitral proceedings - the
+intention of the parties is germane and that can be
+gathered from the terms of the Contract. Let's have
+a closer look at the clause. The clause provides a
+general stipulation that the 'venue' so designated
+can be changed by the Arbitrators, with the consent
+of the parties. This, prima facie, suggests that the
+'venue' specified is not really envisaged as the 'seat'
+of the proceedings, which should be specified in
+certain terms. This interpretation is also in sync with
+
+Section 20(3)
+of the Act, which provides that
+notwithstanding anything contained in Section 20(1)
+and (2) - the Arbitral Tribunal can meet at any place
+it considers appropriate for hearing witnesses,
+experts, etc. In fact, the language used in the
+present clause seems to be a replication of the
+language used in Section 20(3). For this reason, as
+well, the Court is inclined to agree that in the
+present case, Clause 9.1.2.0 of the GCC specifies
+New Delhi only as a geographically convenient place
+where Arbitral Tribunal can hold meetings.
+
+13. The above position gets reinforced upon a plain
+reading of
+Article 4
+of the Contract. This clause vests
+exclusive jurisdiction at the civil court(s) at
+Guwahati for - all actions/proceedings, including
+arbitration, and reads as under: -
+
+"
+ARTICLE 4 -
+JURISDICTION:
+
+4.1 Notwithstanding any other court or courts
+having jurisdiction to decide the question(s)
+
+Page 47 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+forming the subject-matter of the reference if the
+same had been the subject-matter of a suit, any
+and all actions and proceedings arising out of or
+relative to the contract (including any arbitration
+in terms thereof) shall lie only in the Court of
+Competent Civil Jurisdiction in this behalf at
+GUWAHATI (where this contract has been signed
+on behalf of the Owner) and the said Court(s) shall
+have jurisdiction to entertain and try such actions
+and/or proceeding(s) to the exclusion of all other
+Courts." [Emphasis supplied]
+
+14. As opposed to the general stipulation in Clause
+9.1.2.0,
+Article 4
+is worded in clear, unambiguous,
+and directory terms. In fact, it serves as the
+'contrary indica', which further demonstrates that
+the 'venue' in Clause 9.1.2.0 is only a physical place
+of meeting under
+Section 20(3)
+of the Act.
+Article 4
+
+-leaves no room that all actions and proceedings
+arising out of the Contract, including arbitration,
+shall have to necessarily be tried by the civil court(s)
+at Guwahati exclusively, and does not lead to
+jurisdiction being vested in the court(s) at Delhi.
+
+15. For the reasons laid out above, this Court is of
+the view that Clause 9.1.2.0 only provides a 'venue'
+of arbitration, and the juridical 'seat' shall vest with
+the civil court(s) at Guwahati."
+
+38. The observations in
+Cravants Media Private
+
+Limited versus Jharkhand State Co. Operative Milk
+
+Producers Federation Ltd. and Another
+(supra) in
+
+paragraph No. 11 is as under : -
+
+"11. The question whether the intention of the
+parties in specifying a location for arbitral
+proceedings is merely to fix a convenient 'venue' or
+
+Page 48 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+a seat/place of arbitration has to be ascertained
+from the language of the arbitration agreement."
+
+39. In light of the above discussion, this Court may
+
+record that law on "seat" and "venue" of arbitration
+
+proceedings is fairly well settled. The cases, where the
+
+parties have determined "seat" in their agreements, the
+
+same is akin to conferring exclusive jurisdiction on the
+
+Court(s) thereof. The expression 'place' occurring in Sub-
+
+section (1) and (2) of the Section 20, where the word 'place'
+
+is used, refers to "juridical seat"; whereas, expression
+
+"place" occurring in sub-section (3) of Section 20, is
+
+equivalent to 'venue', i.e., the location of the meeting of
+
+arbitral proceedings, as per the convenience of the parties or
+
+the arbitrators. The "place" mentioned in
+Section 20(3)
+of
+
+the Act, 1996 is only a physical place of meeting and has no
+
+relevance insofar as "juridical seat", which shall vests
+
+exclusive jurisdiction with the Court of competent civil
+
+jurisdiction or High Court of original jurisdiction;
+
+(i) As has been held by the Apex Court in the case of M/s.
+
+Ravi Ranjan Developers Pvt. Ltd. versus Aditya Kumar
+
+Page 49 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+Chatterjee
+(Supra), Section 11(6) and
+Section 2(1)(e)
+of
+
+the Act, 1996, have to be harmoniously read and construed
+
+to mean, the High Court which exercises superintendence /
+
+supervisory jurisdiction over a Court within the meaning of
+
+Section 2(1)(e)
+of the Act, 1996. Meaning thereby, where a
+
+clause in the contract vests exclusive jurisdiction at a Civil
+
+Court for all actions / proceedings arising out of the
+
+contract, the Court of the 'place' located as having exclusive
+
+jurisdiction over the disputes should be considered as "seat"
+
+and having jurisdiction to entertain applications under the
+
+Act, 1996.
+
+(ii) Where the parties have agreed that all actions and
+
+proceedings arising out of / related to contract shall lie in
+
+the Courts of competent jurisdiction at place 'A' and have
+
+agreed to conduct arbitration proceedings at place 'B', the
+
+expression in the agreement that the Court at place 'A' will
+
+have jurisdiction, would be a contrary indicator, as indicated
+
+by the Apex Court in the case of
+BGS SGS Soma JV versus
+
+NPHC Ltd.
+(supra). In such cases, the intention of the
+
+parties to confer exclusive jurisdiction on the Court at place
+
+Page 50 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+'A', would be clear indication that the seat of arbitration
+
+shall be at the same place 'A' and the Court at place 'A' will
+
+have jurisdiction to deal with the applications under
+section
+
+11(6)
+of the Act, 1996.
+
+(iii) The law
+laid down by
+the Apex Court in
+Mankastu
+
+Impex Private Limited versus Airvisual Limited
+
+(
+supra), and BGS SGS Soma JV versus NPHC Ltd.
+
+(supra), as has been relied upon by the learned counsel for
+
+the respondent, does not support his contention that the
+
+statement about the "place of arbitration" or the expression
+
+"arbitration proceedings" in the agreement would mean that
+
+"venue" is the "seat".
+
+40. Coming to the facts of the instant case, Clause 25(iii)
+
+of the Lease Agreement exclusively confers jurisdiction to
+
+the Courts at Ahmedabad in all matters arising out of the
+
+said agreement. Whereas Sub-clause (ii) of the Clause 25
+
+reads that the parties have agreed that the arbitration
+
+proceedings will be conducted at Bangalore. The expression
+
+of the place of arbitration proceedings in Clause 25(ii) as
+
+Page 51 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+extracted hereinabove, is indication of the agreement arrived
+
+at between the parties to choose the place of convenience
+
+within the meaning of
+Section 20(3)
+of the Act, 1996. The
+
+words "the parties agree that the arbitration proceedings
+
+will be conducted at Bangalore" cannot be read to mean that
+
+the place "Bangalore" has been designated under the
+
+contract as the "seat of arbitration" and would operate as an
+
+exclusive jurisdiction clause to decide the jurisdiction of the
+
+High Court under
+Section 11(6)
+of the Act, 1996. The
+
+exclusive jurisdiction has been conferred to the Courts at
+
+Ahmedabad, the subject matter of the Lease Agreement,
+
+which is the main agreement containing arbitration clause, is
+
+located at Ahmedabad; the agreement was signed at
+
+Ahmedabad between the parties; the agreement was
+
+executed and stamped in the State of Gujarat; the
+
+respondent is situated in Ahmedabad and the petitioner has
+
+its corporate headquarters in Ahmedabad.
+
+41. In light of the language of the agreement and the
+
+abovenoted facts related to the case, this Court is of the
+
+considered view that "venue" at Bangalore is merely a
+
+Page 52 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+convenient location for holding of arbitration proceedings
+
+and the Courts at Ahmedabad selected as having exclusive
+
+jurisdiction in all disputes arising out of the Lease
+
+Agreement, should be considered as the "seat of arbitration".
+
+42. For the above discussion, the judgments relied by
+
+the learned counsel for the respondent to dispute the
+
+territorial jurisdiction of this Court under
+Section 11(6)
+of
+
+the Act, 1996 to entertain application for appointment of
+
+Arbitrator is hereby turned down.
+
+43. As the parties have not been able to reach at an
+
+agreement to the name of the Arbitrator for resolving the
+
+disputes arising out of the said contract, I proceed to pass
+
+following :
+
+ORDER
+
+(i) Petition is ALLOWED.
+
+(ii) Shri Dr. Justice Ashokkumar C. Joshi, Former
+
+Judge, High Court of Gujarat is appointed as sole
+
+Arbitrator to resolve the disputes between the parties in
+
+accordance with the Arbitration Centre (Domestic and
+
+Page 53 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023
+
+NEUTRAL CITATION
+
+C/ARBI.P/159/2022 CAV JUDGMENT DATED: 13/10/2023
+
+undefined
+
+International), High Court of Gujarat Rules, 2021. Both
+
+parties would be governed by said Rules.
+
+(iii) Registry is directed to communicate this order
+
+to the sole arbitrator forthwith by speed post.
+
+(iv) No order as to costs.
+
+Sd/-
+(SUNITA AGARWAL, CJ )
+AMAR SINGH
+
+Page 54 of 54
+
+Downloaded on : Fri Oct 13 20:52:55 IST 2023

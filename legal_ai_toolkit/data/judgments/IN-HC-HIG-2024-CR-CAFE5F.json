@@ -1,0 +1,89 @@
+{
+  "judgment_id": "IN-HC-HIG-2024-CR-CAFE5F",
+  "text": "Patna High Court - Orders\n\nSumitra Devi vs The State Of Bihar on 17 February, 2024\n\nAuthor:\nSunil Kumar Panwar\n\nBench:\nSunil Kumar Panwar\n\nIN THE HIGH COURT OF JUDICATURE AT PATNA\nCRIMINAL MISCELLANEOUS No.7312 of 2024\nArising Out of PS. Case No.-485 Year-2023 Thana- PARSABAZAR District- Patna\n======================================================\nSumitra Devi Wife Of Late Upendra Singh Resident Of Village - Etwarpur,\nLalu Path, P.O. - Kurthaul, P.S. - Parsa Bazar, District - Patna\n\n... ... Petitioner/s\nVersus\nThe State Of Bihar\n\n... ... Opposite Party/s\n======================================================\nAppearance :\nFor the Petitioner/s : Mr.Shashi Ranjan\nFor the Opposite Party/s : Mr.Aditya Narayan Singh.1\n======================================================\nCORAM: HONOURABLE MR. JUSTICE SUNIL KUMAR PANWAR\nORAL ORDER\n\n2 17-02-2024\nHeard learned counsel for the petitioner and learned\n\nAPP for the State.\n\nThe petitioner has prayed for grant of bail in\n\nconnection with Parsa Bazar P.S. Case No. 485 of 2023\n\nregistered under\nsections 304B\nof the Indian Penal Code.\n\nIt is a case of dowry death of the informant's sister\n\ndue to non-fulfillment of dowry demand.\n\nLearned counsel for the petitioner submits that the\n\npetitioner is innocent and has committed no offence. The\n\npetitioner is mother-in-law of the deceased due to which she has\n\nfalsely been implicated in this case. No any specific overt act of\n\ncommission of murder against the petitioner. It is further\n\nsubmitted that the husband of the deceased is already\n\nlanguishing in judicial custody. Moreover, she is languishing in\nPatna High Court CR. MISC. No.7312 of 2024(2) dt.17-02-2024\n\n2/2\n\njudicial custody since 29.09.2023.\n\nThe application for bail is opposed by learned APP for\n\nthe State.\n\nHaving heard learned counsel for the parties and\n\nconsidering the facts and circumstances of this case as well as\n\nthe custody of the petitioner and her age i.e. 70 years, the Court\n\nis inclined to enlarge the petitioner on bail. The above named\n\npetitioner is directed to be enlarged on bail in connection with\n\nParsa Bazar P.S. Case No. 485 of 2023 on furnishing bail bond\n\nof Rs. 10,000/- (Rupees ten thousand) with two sureties of the\n\nlike amount each to the satisfaction of the learned J.M. 1 st Class,\n\nPatna.\n\n(Sunil Kumar Panwar, J)\nshubham/-\n\nU T",
+  "metadata": {
+    "processed_date": "2026-01-18T18:40:35.985634",
+    "version": "2.0",
+    "court": "High Court Of Judicature At Patna Criminal Miscellaneous No",
+    "court_level": "HC",
+    "case_number": "CRIMINAL MISCELLANEOUS NO.7312",
+    "decision_date": "17 FEBRUARY, 2024",
+    "jurisdiction": "India",
+    "bench": "HONOURABLE MR. JUSTICE SUNIL KUMAR PANWAR ORAL ORDER  2 17-02-2024 HEARD LEARNED COUNSEL FOR THE PETITIONER AND LEARNED  APP FOR THE STATE.  THE PETITIONER HAS PRAYED FOR GRANT OF BAIL IN  CONNECTION WITH PARSA BAZAR P.S. CASE NO. 485 OF 2023  REGISTERED UNDER SECTIONS 304B OF THE INDIAN PENAL CODE.  IT IS A CASE OF DOWRY DEATH OF THE INFORMANT'S SISTER  DUE TO NON-FULFILLMENT OF DOWRY DEMAND.  LEARNED COUNSEL FOR THE PETITIONER SUBMITS THAT THE  PETITIONER IS INNOCENT AND HAS COMMITTED NO OFFENCE. THE  PETITIONER IS MOTHER-IN-LAW OF THE DECEASED DUE TO WHICH SHE HAS  FALSELY BEEN IMPLICATED IN THIS CASE. NO ANY SPECIFIC OVERT ACT OF  COMMISSION OF MURDER AGAINST THE PETITIONER. IT IS FURTHER  SUBMITTED THAT THE HUSBAND OF THE DECEASED IS ALREADY  LANGUISHING IN JUDICIAL CUSTODY. MOREOVER, SHE IS LANGUISHING IN PATNA HIGH COURT CR. MISC. NO.7312 OF 2024(2) DT.17-02-2024  2/2  JUDICIAL CUSTODY SINCE 29.09.2023.  THE APPLICATION FOR BAIL IS OPPOSED BY LEARNED APP FOR  THE STATE.  HAVING HEARD LEARNED COUNSEL FOR THE PARTIES AND  CONSIDERING THE FACTS AND CIRCUMSTANCES OF THIS CASE AS WELL AS  THE CUSTODY OF THE PETITIONER AND HER AGE I.E. 70 YEARS, THE COURT  IS INCLINED TO ENLARGE THE PETITIONER ON BAIL. THE ABOVE NAMED  PETITIONER IS DIRECTED TO BE ENLARGED ON BAIL IN CONNECTION WITH  PARSA BAZAR P.S. CASE NO. 485 OF 2023 ON FURNISHING BAIL BOND  OF RS. 10,000/- (RUPEES TEN THOUSAND) WITH TWO SURETIES OF THE  LIKE AMOUNT EACH TO THE SATISFACTION OF THE LEARNED J.M. 1 ST CLASS,  PATNA.  (SUNIL KUMAR PANWAR, J) SHUBHAM/-  U T"
+  },
+  "extractions": {
+    "citations": {
+      "total": 0,
+      "by_type": {},
+      "details": []
+    },
+    "sections": {
+      "total": 1,
+      "by_act": {
+        "IPC": [
+          "304B"
+        ]
+      },
+      "details": [
+        {
+          "section": "304B",
+          "act": "IPC"
+        }
+      ]
+    },
+    "transitions": {
+      "total": 1,
+      "by_source": {
+        "inferred_from_ipc": 1
+      },
+      "details": [
+        {
+          "ipc": "304B",
+          "bns": "80",
+          "source": "inferred_from_ipc",
+          "validated": false,
+          "risk": "medium",
+          "confidence": "low",
+          "requires_judicial_confirmation": true,
+          "note": "Inferred from standalone IPC 304B mention. Not validated by judgment text."
+        }
+      ]
+    },
+    "landmarks": {
+      "total": 0,
+      "by_id": {},
+      "details": []
+    },
+    "issues": {
+      "total": 0,
+      "details": {}
+    }
+  },
+  "provenance": {
+    "processed_date": "2026-01-18T18:40:35.985634",
+    "pipeline_version": "2.0",
+    "processing_steps": [
+      "ingestion",
+      "metadata_extraction",
+      "issue_extraction",
+      "classification",
+      "statutory_transitions",
+      "citation_extraction",
+      "consolidation"
+    ]
+  },
+  "classification": {
+    "domain": "criminal",
+    "confidence": "high",
+    "signals": {
+      "criminal": [
+        "bail",
+        "offence",
+        "Indian Penal Code",
+        "custody"
+      ],
+      "civil": [],
+      "service": []
+    }
+  }
+}
