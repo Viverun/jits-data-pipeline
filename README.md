@@ -89,7 +89,7 @@ Each dataset version corresponds deterministically to a specific pipeline commit
 | **Statutory Acts Detected** | 9+ | IPC, CrPC, Evidence Act, Dowry Act, POCSO, BNS, BNSS, NDPS, SC/ST |
 | **Processing Quality** | 0 errors | 100% success rate on current batch |
 
-### Quality Improvements (v2.0)
+### Quality Improvements
 - ✅ **Self-citation exclusion**: No false positive citations
 - ✅ **Complete section extraction**: Hyphenated sections (498-A, 304-B) now captured
 - ✅ **Section-act context**: All sections linked to correct parent act
