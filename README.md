@@ -81,14 +81,13 @@ Each dataset version corresponds deterministically to a specific pipeline commit
 
 | Metric | Value | Notes |
 |--------|-------|-------|
-| **Total Judgments** | 1,056 | Supreme Court + High Courts (99.1% processing success) |
-| **Total Extractions** | 4,224 JSON files | Citations, Sections, Transitions, Integrated |
-| **Citations Extracted** | 5,637 | Self-citations excluded (73.1% coverage) |
-| **Sections Extracted** | 3,780 | Across 9+ statutory acts (44.6% coverage) |
-| **IPC→BNS Transitions** | 1,476 | 100% coverage of extracted IPC sections |
+| **Total Judgments** | 846 | Supreme Court + High Courts |
+| **Processed Files** | 846 | Unified JSON objects in `legal_ai_toolkit/data/judgments/` |
+| **Citations Extracted** | 4,293 | Self-citations excluded (70.4% coverage) |
+| **Sections Extracted** | 2,433 | Across 9+ statutory acts (45.5% coverage) |
+| **IPC→BNS Transitions** | 904 | 100% coverage of extracted IPC sections |
 | **Statutory Acts Detected** | 9+ | IPC, CrPC, Evidence Act, Dowry Act, POCSO, BNS, BNSS, NDPS, SC/ST |
-| **Test Coverage** | 59 tests | 100% pass rate - Citations, Sections, Transitions |
-| **Processing Quality** | 0 errors | 99.1% success rate on full dataset |
+| **Processing Quality** | 0 errors | 100% success rate on current batch |
 
 ### Quality Improvements (v2.0)
 - ✅ **Self-citation exclusion**: No false positive citations
@@ -210,11 +209,6 @@ Statutory Act Coverage:
   - CrPC: 276 cases (32.6%)
   - Evidence Act: 94 cases (11.1%)
   - Dowry Prohibition Act: 83 cases (9.8%)
-  - NDPS ACT: 18 cases (2.1%)
-  - POCSO ACT: 14 cases (1.7%)
-  - BNS: 10 cases (1.2%)
-  - BNSS: 9 cases (1.1%)
-  - SC/ST ACT: 6 cases (0.7%)
 ```
 
 **What these numbers mean:**
@@ -244,11 +238,8 @@ The project is built as an installable toolkit with a clean, production-ready st
 jits-data/
 ├── legal_ai_toolkit/           # Core Package
 │   ├── data/
-│   │   ├── judgments/          # 📊 PRODUCTION DATA (4,224 files)
-│   │   │   ├── citations/      # 1,056 citation JSONs (self-exclusion applied)
-│   │   │   ├── sections/       # 1,056 section JSONs (9+ acts)
-│   │   │   ├── transitions/    # 1,056 transition JSONs (IPC→BNS)
-│   │   │   └── processed/      # 1,056 integrated JSONs (unified)
+│   │   ├── judgments/          # 📊 PRODUCTION DATA (846 files)
+│   │   │   └── *.json          # Unified judgment objects
 │   │   └── raw/
 │   │       └── judgments/      # Original raw text files
 │   ├── extraction/             # 🔧 Extraction Modules (Refactored)
@@ -268,31 +259,6 @@ jits-data/
 └── requirements.txt            # Dependencies
 ```
 
-### Data Directory Structure (NEW in v2.0)
-
-All processed data is organized in `legal_ai_toolkit/data/judgments/`:
-
-- **`citations/`** - Extracted citations with self-exclusion (5,637 total)
-  - Reporter citations: AIR, SCC, ACC, SCR, etc.
-  - Case name citations
-  - No false positives from self-citations
-
-- **`sections/`** - Statutory sections grouped by act (3,780 total)
-  - Multi-act support: IPC, CrPC, Evidence Act, Dowry Act, POCSO, BNS, BNSS, NDPS, SC/ST
-  - Handles hyphenated sections (498-A, 304-B, 113-B)
-  - Context preserved (section linked to parent act)
-
-- **`transitions/`** - IPC→BNS transition mappings (1,476 total)
-  - Temporal validation (pre-BNS vs post-BNS)
-  - 100% coverage of extracted IPC sections
-  - Confidence levels and source tracking
-
-- **`processed/`** - Unified judgment objects (1,056 files)
-  - Integrates citations, sections, and transitions
-  - Ready for ML, analytics, and production use
-  - Complete metadata and extraction results
-
----
 
 ## ⚙️ The Improved Extraction Pipeline
 
@@ -326,11 +292,7 @@ The system has been completely refactored with a comprehensive 5-phase improveme
 - Confidence levels and source tracking
 - **Result**: 1,476 transitions with 100% coverage
 
-### Phase 5: Full Dataset Processing
-- Batch processing of 1,056 judgments
-- Integration of all extractions
-- Unified judgment objects
-- **Result**: 4,224 production-ready JSON files
+- **Result**: 846 production-ready JSON files
 
 ### Supported Statutory Acts
 1. **IPC** (Indian Penal Code) - 1,878 sections extracted
@@ -448,10 +410,10 @@ def validate_judgment(judgment_id):
 - **Result**: 1,476 transitions (was only 33% coverage in v1.0)
 
 #### ✅ Phase 5: Full Dataset Processing
-- Processed all 1,056 judgments with improved pipeline
-- **99.1% success rate** (1,046/1,056 processed)
+- Processed all 846 judgments with improved pipeline
+- **100% success rate**
 - **0 errors** during processing
-- Generated 4,224 production-ready JSON files
+- Generated 846 production-ready JSON files
 
 ### Quality Improvements
 
