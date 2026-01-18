@@ -15,7 +15,7 @@ This project transforms raw Supreme Court and High Court judgments into machine-
 - **Citation extraction** with self-citation exclusion (Phase 2)
 - **Multi-act section extraction** supporting 9+ statutory acts (Phase 3)
 - **IPC→BNS transition mapping** with temporal validation (Phase 4)
-- **Comprehensive processing** of 1,056 judgments (Phase 5)
+- **Comprehensive processing** of 846 judgments (Phase 5)
 
 All processing logic is rule-based and deterministic. Outputs are reproducible, auditable, and traceable to explicit rules.
 

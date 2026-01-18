@@ -113,6 +113,8 @@ legal-ai pipeline && legal-ai audit --type quality
 - Each dataset version corresponds deterministically to a specific
   pipeline commit
 
+> **Note on Dataset Size:** Earlier experimental pipeline runs processed up to 908 judgments. The current release (v1.3) contains **846 production-ready judgments** after stricter validation, self-citation exclusion, and quality filtering were applied.
+
 Core quality metrics are computed using audit logic in:
 `legal_ai_toolkit/analytics/audit.py::DataAuditor.audit_quality()`
 
