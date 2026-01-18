@@ -59,7 +59,10 @@ legal_ai_toolkit/data/judgments/processed/*.json
 huggingface_dataset/
 
 # Keep directory structure but ignore JSON files
-!legal_ai_toolkit/data/judgments/citations/README.md
-!legal_ai_toolkit/data/judgments/sections/README.md
-!legal_ai_toolkit/data/judgments/transitions/README.md
 !legal_ai_toolkit/data/judgments/processed/README.md
+
+# Ignored Documentation Files
+MIGRATION_GUIDE_V2.md
+MANIFEST.in
+PROJECT_INDEX.md
+VERSION_HISTORY.md

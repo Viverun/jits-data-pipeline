@@ -257,22 +257,13 @@ jits-data/
 │   │   ├── sections.py         # Multi-act sections (Phase 3 - NEW)
 │   │   └── transitions.py      # IPC→BNS mapping (Phase 4)
 │   ├── pipeline/               # Pipeline orchestration
-│   ├── classification/         # Rule-based classifiers
+├── classification/         # Rule-based classifiers
 │   ├── clustering/             # Similarity analysis
 │   ├── analytics/              # Auditing & reporting
 │   └── utils/                  # Utilities & mappings
-├── tests/                      # 🧪 Test Suites (59 tests)
-│   ├── unit/
-│   │   └── extraction/
-│   │       ├── test_citations.py      # 13 tests
-│   │       ├── test_sections.py       # 18 tests
-│   │       └── test_transitions.py    # 14 tests
-│   ├── integration/
-│   └── validation/
 ├── annotations/                # Annotations & clusters
 ├── schemas/                    # JSON schemas
 ├── README.md                   # This file
-├── PROJECT_INDEX.md            # Complete navigation guide
 ├── setup.py                    # Package installation
 └── requirements.txt            # Dependencies
 ```
