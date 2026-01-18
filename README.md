@@ -77,7 +77,7 @@ Each dataset version corresponds deterministically to a specific pipeline commit
 
 ---
 
-## Dataset Metrics (Version 2.0)
+## Dataset Metrics
 
 | Metric | Value | Notes |
 |--------|-------|-------|
