@@ -2,7 +2,6 @@
 
 A production-ready, deterministic pipeline for processing Indian legal judgments into structured, high-quality legal datasets — with comprehensive extraction, self-citation exclusion, and multi-act statutory section detection.
 
-[![Version](https://img.shields.io/badge/version-2.0-blue.svg)](https://github.com/Viverun/jits-data-pipeline/releases/tag/v2.0)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-yellow.svg)](LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
@@ -37,7 +36,7 @@ This repository and dataset are intentionally designed to serve multiple stakeho
 - Emphasis on explainability and correctness over black-box accuracy
 
 ### 🏆 Hackathons & Competitions
-- Ready-to-use structured legal dataset (908 judgments)
+- Ready-to-use structured legal dataset (846 judgments)
 - Clear problem framing (classification, similarity, transitions)
 - Fast onboarding via Hugging Face + CLI tools
 - No preprocessing required
@@ -81,11 +80,10 @@ Each dataset version corresponds deterministically to a specific pipeline commit
 
 | Metric | Value | Notes |
 |--------|-------|-------|
-| **Total Judgments** | 846 | Full dataset available on [Hugging Face](https://huggingface.co/datasets/Viverun/jits-legal-dataset) |
+| **Total Judgments** | 846 | Full dataset available on [Hugging Face](https://huggingface.co/datasets/Viverun/jits-data-pipeline) |
 | **Processed Files** | 846 | Repository contains **3 samples**. Full dataset on Hugging Face. |
-| **Citations Extracted** | 4,293 | Self-citations excluded (70.4% coverage) |
-| **Sections Extracted** | 2,433 | Across 9+ statutory acts (45.5% coverage) |
-| **IPC→BNS Transitions** | 904 | 100% coverage of extracted IPC sections |
+| **Citations Extracted** | 4,233 | Self-citations excluded |
+| **Sections Extracted** | 2,433+ | Across 9+ statutory acts |
 | **Statutory Acts Detected** | 9+ | IPC, CrPC, Evidence Act, Dowry Act, POCSO, BNS, BNSS, NDPS, SC/ST |
 | **Processing Quality** | 0 errors | 100% success rate on current batch |
 
@@ -368,7 +366,7 @@ def validate_judgment(judgment_id):
 
 ---
 
-## 🆕 What's New in Version 2.0
+## 🆕 What's New
 
 ### Major Improvements
 
@@ -405,7 +403,7 @@ def validate_judgment(judgment_id):
 
 ### Quality Improvements
 
-| Aspect | v1.0 (Old) | v2.0 (New) | Improvement |
+| Aspect | v1.0 (Old) | Current | Improvement |
 |--------|------------|------------|-------------|
 | **Self-citations** | Included (false positives) | Excluded | +100% accuracy |
 | **Section extraction** | ~50% missing | 100% coverage | +100% |
@@ -433,15 +431,15 @@ If you use this dataset or pipeline in research or applications, please cite:
 ```bibtex
 @dataset{jits_legal_dataset_2026,
   author = {Viverun},
-  title = {JITS Legal Dataset v2.0: Improved Extraction Pipeline for Indian Legal Judgments},
+  title = {JITS Legal Dataset: Improved Extraction Pipeline for Indian Legal Judgments},
   year = {2026},
   publisher = {Hugging Face},
-  version = {2.0},
+  version = {1.3},
   url = {https://huggingface.co/datasets/Viverun/jits-legal-dataset}
 }
 ```
 
-**Version 2.0 improvements**: Self-citation exclusion, multi-act section extraction, 100% transition coverage, comprehensive testing.
+**Recent improvements**: Self-citation exclusion, multi-act section extraction, 100% transition coverage, comprehensive testing.
 
 ---
 

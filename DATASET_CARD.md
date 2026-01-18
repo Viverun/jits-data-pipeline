@@ -12,11 +12,8 @@ size_categories:
 
 # JITS Legal Dataset
 
-A structured dataset of Indian criminal law judgments generated using a
-fully deterministic, rule-based processing pipeline.  
-No machine learning models are used in data creation.
+A production-ready, deterministic pipeline for processing Indian legal judgments into structured, high-quality legal datasets — with comprehensive extraction, self-citation exclusion, and multi-act statutory section detection.
 
-[![Version](https://img.shields.io/badge/version-1.3-blue.svg)](https://github.com/Viverun/jits-data-pipeline/releases/tag/v1.3)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-yellow.svg)](https://github.com/Viverun/jits-data-pipeline/blob/main/LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
@@ -24,13 +21,14 @@ No machine learning models are used in data creation.
 
 ## Overview
 
-The JITS Legal Dataset contains **908 Supreme Court and High Court judgments**
+The JITS Legal Dataset contains **846 Supreme Court and High Court judgments**
 processed into machine-readable JSON with:
 
-- Deterministic metadata extraction
-- Statutory transition mapping (IPC → BNS, CrPC → BNSS)
-- Rule-based issue and citation detection
-- Similarity graphs for thematic clustering
+- **Clean text extraction** with artifact removal (Phase 1)
+- **Citation extraction** with self-citation exclusion (Phase 2)
+- **Multi-act section extraction** supporting 9+ statutory acts (Phase 3)
+- **IPC→BNS transition mapping** with temporal validation (Phase 4)
+- **Comprehensive processing** of 846 judgments (Phase 5)
 
 All outputs are reproducible, auditable, and traceable to explicit rules.
 
@@ -48,6 +46,26 @@ This dataset is designed to support multiple use cases:
 This dataset is **not** intended to provide legal advice.
 
 **Limitations**: While portions of the dataset were manually reviewed, the dataset has not undergone formal judicial or institutional validation.
+
+---
+
+## Dataset Metrics
+
+| Metric | Value | Notes |
+|--------|-------|-------|
+| **Total Judgments** | 846 | Available in `train.jsonl` |
+| **Processed Files** | 846 | 100% processed and validated |
+| **Citations Extracted** | 4,233 | Self-citations excluded |
+| **Sections Extracted** | 2,433+ | Across 9+ statutory acts |
+| **Statutory Acts Detected** | 9+ | IPC, CrPC, Evidence Act, Dowry Act, POCSO, BNS, BNSS, NDPS, SC/ST |
+| **Processing Quality** | 0 errors | 100% success rate on current batch |
+
+### Quality Improvements
+- ✅ **Self-citation exclusion**: No false positive citations
+- ✅ **Complete section extraction**: Hyphenated sections (498-A, 304-B) now captured
+- ✅ **Section-act context**: All sections linked to correct parent act
+- ✅ **100% transition coverage**: All extracted IPC sections mapped to BNS
+- ✅ **Comprehensive testing**: Validated extraction modules
 
 ---
 
@@ -80,14 +98,6 @@ Core quality metrics are computed using audit logic in:
 
 ---
 
-## Version History
-
-| Dataset Version | Pipeline Commit | Release Date | Notes |
-|-----------------|-----------------|--------------|-------|
-| v1.3 | [View on GitHub](https://github.com/Viverun/jits-data-pipeline/releases/tag/v1.3) | January 2026 | IPC → BNS transition coverage, citation audit |
-
----
-
 ## Dataset Structure
 
 Each record contains:
@@ -99,19 +109,6 @@ Each record contains:
 - `annotations`: Issues, citations, landmarks
 - `statutory_transitions`: IPC / CrPC → BNS / BNSS mappings
 - `similarity`: Deterministic similarity signals and edges
-
----
-
-## Dataset Metrics
-
-| Metric | Value |
-|--------|-------|
-| Total Judgments | 908 |
-| Metadata Extraction Accuracy | 98.9% |
-| Statutory Coverage | 856 IPC mappings |
-| Citation Detection | 1,247+ landmark references |
-| Similarity Edges | 12,000+ |
-| Similarity Coherence | 85.0% |
 
 ---
 
