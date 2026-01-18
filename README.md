@@ -5,7 +5,7 @@ A production-ready, deterministic pipeline for processing Indian legal judgments
 [![Version](https://img.shields.io/badge/version-2.0-blue.svg)](https://github.com/Viverun/jits-data-pipeline/releases/tag/v2.0)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-yellow.svg)](LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![Tests](https://img.shields.io/badge/tests-59%20passing-brightgreen.svg)](tests/)
+
 
 ## Overview
 
@@ -16,7 +16,7 @@ This project transforms raw Supreme Court and High Court judgments into machine-
 - **IPC→BNS transition mapping** with temporal validation (Phase 4)
 - **Comprehensive processing** of 1,056 judgments (Phase 5)
 
-All processing logic is rule-based and deterministic. Outputs are reproducible, auditable, and traceable to explicit rules. **Now with 100% test coverage (59 comprehensive unit tests).**
+All processing logic is rule-based and deterministic. Outputs are reproducible, auditable, and traceable to explicit rules.
 
 ---
 
@@ -94,7 +94,7 @@ Each dataset version corresponds deterministically to a specific pipeline commit
 - ✅ **Complete section extraction**: Hyphenated sections (498-A, 304-B) now captured
 - ✅ **Section-act context**: All sections linked to correct parent act
 - ✅ **100% transition coverage**: All extracted IPC sections mapped to BNS
-- ✅ **Comprehensive testing**: 59 unit tests covering all extraction modules
+- ✅ **Comprehensive testing**: Validated extraction modules
 
 ---
 
@@ -168,19 +168,7 @@ with open(transitions_file) as f:
         print(f"  IPC {t['ipc']} → BNS {t['bns']}")
 ```
 
-### Running Tests
-```bash
-# Run all tests (59 comprehensive unit tests)
-pytest
 
-# Run specific test suites
-pytest tests/unit/extraction/test_citations.py -v      # 13 tests
-pytest tests/unit/extraction/test_sections.py -v       # 18 tests
-pytest tests/unit/extraction/test_transitions.py -v    # 14 tests
-
-# Run with coverage
-pytest --cov=legal_ai_toolkit --cov-report=html
-```
 
 ### Essential CLI Commands
 ```bash
@@ -428,7 +416,7 @@ def validate_judgment(judgment_id):
 
 ### New Features
 
-- ✅ **59 comprehensive unit tests** (100% pass rate)
+- ✅ **Comprehensive unit tests** (100% pass rate)
 - ✅ **Self-citation exclusion** algorithm
 - ✅ **Multi-act section extractor** (new module)
 - ✅ **Section normalization** and categorization
