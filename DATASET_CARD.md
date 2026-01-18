@@ -10,7 +10,7 @@ size_categories:
   - n<1K
 ---
 
-# JITS Legal Dataset v1.3
+# JITS Legal Dataset
 
 A structured dataset of Indian criminal law judgments generated using a
 fully deterministic, rule-based processing pipeline.  

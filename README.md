@@ -1,4 +1,4 @@
-﻿# JITS Legal Dataset v1.3
+﻿# JITS Legal Dataset
 
 A deterministic, rule-based pipeline for processing Indian criminal law judgments into structured, auditable legal datasets — no machine learning, full explainability.
 
