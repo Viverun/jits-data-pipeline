@@ -1,0 +1,136 @@
+---
+license: cc-by-4.0
+task_categories:
+  - text-classification
+  - information-extraction
+  - text-similarity
+language:
+  - en
+size_categories:
+  - n<1K
+---
+
+# JITS Legal Dataset v1.3
+
+A structured dataset of Indian criminal law judgments generated using a
+fully deterministic, rule-based processing pipeline.  
+No machine learning models are used in data creation.
+
+---
+
+## Overview
+
+The JITS Legal Dataset contains **908 Supreme Court and High Court judgments**
+processed into machine-readable JSON with:
+
+- Deterministic metadata extraction
+- Statutory transition mapping (IPC → BNS, CrPC → BNSS)
+- Rule-based issue and citation detection
+- Similarity graphs for thematic clustering
+
+All outputs are reproducible, auditable, and traceable to explicit rules.
+
+---
+
+## Intended Use
+
+This dataset is designed to support multiple use cases:
+
+- **Research**: Legal NLP benchmarking without label noise from ML
+- **Engineering**: Structured legal data for analytics and downstream systems
+- **Hackathons**: Ready-to-use dataset requiring no preprocessing
+- **Legal & GovTech**: Explainable, audit-friendly legal data artifacts
+
+This dataset is **not** intended to provide legal advice.
+
+**Limitations**: While portions of the dataset were manually reviewed, the dataset has not undergone formal judicial or institutional validation.
+
+---
+
+## Data Generation
+
+The dataset was generated using a deterministic pipeline that performs:
+
+- Text normalization and stable ID generation
+- Rule-based metadata and domain classification
+- Statutory transition mapping for legacy cases
+- Issue, citation, and landmark extraction
+- Deterministic similarity graph construction
+
+The full preprocessing, audit logic, and schemas are available in the
+associated GitHub repository:
+
+👉 https://github.com/Viverun/jits-data-pipeline
+
+---
+
+## Reproducibility & Provenance
+
+- No randomness or probabilistic models are used
+- Identical inputs produce identical outputs
+- Each dataset version corresponds deterministically to a specific
+  pipeline commit
+
+Core quality metrics are computed using audit logic in:
+`legal_ai_toolkit/analytics/audit.py::DataAuditor.audit_quality()`
+
+---
+
+## Version History
+
+| Dataset Version | Pipeline Commit | Notes |
+|-----------------|-----------------|-------|
+| v1.3 | TBD | IPC → BNS transition coverage, citation audit |
+
+*Note: Commit hash will be added upon release tagging*
+
+---
+
+## Dataset Structure
+
+Each record contains:
+
+- `judgment_id`: Stable unique identifier
+- `text`: Full judgment text
+- `metadata`: Court, date, case identifiers
+- `classification`: Rule-based domain classification
+- `annotations`: Issues, citations, landmarks
+- `statutory_transitions`: IPC / CrPC → BNS / BNSS mappings
+- `similarity`: Deterministic similarity signals and edges
+
+---
+
+## Dataset Metrics
+
+| Metric | Value |
+|--------|-------|
+| Total Judgments | 908 |
+| Metadata Extraction Accuracy | 98.9% |
+| Statutory Coverage | 856 IPC mappings |
+| Citation Detection | 1,247+ landmark references |
+| Similarity Edges | 12,000+ |
+| Similarity Coherence | 85.0% |
+
+---
+
+## Source Code
+
+The complete data processing pipeline, schemas, and audit tools are available at:
+
+👉 https://github.com/Viverun/jits-data-pipeline
+
+---
+
+## Citation
+
+If you use this dataset, please cite:
+
+```
+Viverun, JITS Legal Dataset v1.3, Hugging Face, 2025.
+```
+
+---
+
+## License
+
+This dataset is licensed under CC-BY-4.0.
