@@ -460,3 +460,11 @@ Directly licensed under the [LICENSE](LICENSE) provided in this repository.
 ## 🤝 Contributing
 Researchers and developers are welcome to contribute to the deterministic rulesets, IPC-BNS mapping databases, or the issue taxonomy. 
 *Powered by the Legal AI Toolkit.*
+
+## Community & Feedback
+
+If you discover any noise, discrepancies, or have suggestions for improvements, please report them via the [GitHub Issues](https://github.com/Viverun/jits-data-pipeline/issues) page. Your feedback is crucial for refining this dataset.
+
+Similarly, if you encounter any bugs in the processing pipeline, please contact us or open an issue on the repository. Contributions are welcome and highly appreciated!
+
+*Note by Viverun*

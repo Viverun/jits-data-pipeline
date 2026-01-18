@@ -200,3 +200,11 @@ Viverun, JITS Legal Dataset, Hugging Face, 2026.
 ## License
 
 This dataset is licensed under Apache-2.0.
+
+## Community & Feedback
+
+If you discover any noise, discrepancies, or have suggestions for improvements, please report them via the [GitHub Issues](https://github.com/Viverun/jits-data-pipeline/issues) page. Your feedback is crucial for refining this dataset.
+
+Similarly, if you encounter any bugs in the processing pipeline, please contact us or open an issue on the repository. Contributions are welcome and highly appreciated!
+
+*Note by Viverun*
