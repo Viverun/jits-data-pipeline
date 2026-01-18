@@ -8,6 +8,8 @@ A production-ready, deterministic pipeline for processing Indian legal judgments
 
 ## Overview
 
+> **Disclaimer:** This dataset is independently created for research and engineering use. It is *not* an official government or judicial release and does not constitute legal advice.
+
 This project transforms raw Supreme Court and High Court judgments into machine-readable JSON with:
 - **Clean text extraction** with artifact removal (Phase 1)
 - **Citation extraction** with self-citation exclusion (Phase 2)
@@ -110,6 +112,16 @@ Ideal for rapid prototyping and legal analytics demos.
 ---
 
 ## 🚀 Quick Start
+
+### Quick Verification
+To reproduce the dataset generation locally:
+
+```bash
+git clone https://github.com/Viverun/jits-data-pipeline.git
+cd jits-data-pipeline
+pip install -e .
+legal-ai pipeline && legal-ai audit --type quality
+```
 
 ### Installation
 Clone the repository and install the toolkit:

@@ -4,6 +4,12 @@ task_categories:
   - text-classification
   - token-classification
   - sentence-similarity
+tags:
+  - information-retrieval
+  - statistical-analysis
+  - graph-analysis
+  - law
+  - legal
 language:
   - en
 size_categories:
@@ -20,6 +26,8 @@ A production-ready, deterministic pipeline for processing Indian legal judgments
 ---
 
 ## Overview
+
+> **Disclaimer:** This dataset is independently created for research and engineering use. It is *not* an official government or judicial release and does not constitute legal advice.
 
 The JITS Legal Dataset contains **846 Supreme Court and High Court judgments**
 processed into machine-readable JSON with:
@@ -86,7 +94,19 @@ associated GitHub repository:
 
 ---
 
+---
+
 ## Reproducibility & Provenance
+
+### Quick Verification
+To reproduce the dataset generation locally:
+
+```bash
+git clone https://github.com/Viverun/jits-data-pipeline.git
+cd jits-data-pipeline
+pip install -e .
+legal-ai pipeline && legal-ai audit --type quality
+```
 
 - No randomness or probabilistic models are used
 - Identical inputs produce identical outputs
