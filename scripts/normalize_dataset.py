@@ -1,5 +1,6 @@
 import argparse
 import json
+from datetime import datetime
 from pathlib import Path
 
 
@@ -17,6 +18,17 @@ def normalize_list(value):
 
 def normalize_dict(value):
     return value if isinstance(value, dict) else {}
+
+
+def normalize_decision_date(value):
+    text = normalize_string(value).strip()
+    if not text or text.upper() == "UNKNOWN":
+        return None
+
+    try:
+        return datetime.strptime(text, "%Y-%m-%d").strftime("%Y-%m-%d")
+    except ValueError:
+        return None
 
 
 def normalize_record(data):
@@ -37,7 +49,7 @@ def normalize_record(data):
         "metadata": {
             "court": normalize_string(metadata.get("court")),
             "court_level": normalize_string(metadata.get("court_level")),
-            "decision_date": normalize_string(metadata.get("decision_date")),
+            "decision_date": normalize_decision_date(metadata.get("decision_date")),
             "case_number": normalize_string(metadata.get("case_number")),
             "jurisdiction": normalize_string(metadata.get("jurisdiction")),
             "petitioner": normalize_string(metadata.get("petitioner")),
