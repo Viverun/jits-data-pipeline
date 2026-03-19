@@ -12,12 +12,15 @@ RELEASE_ASSETS = [
 ]
 PLACEHOLDER_TOKENS = {"your_token_here", "hf_your_token_here"}
 COMMIT_MESSAGE = (
-    "v1.4: Fix classification, transition temporal guardrails, and similarity signals\n\n"
-    "- domain distribution corrected (criminal: 356, service: 191, mixed: 179, civil: 119)\n"
-    "- 0 spurious BNS mappings on pre-July-2024 judgments\n"
-    "- 307/307 IPC-bearing cases now have section signals in similarity graph\n"
-    "- 90,924 similarity edges, 25 refined clusters\n"
-    "- breaking: 397 judgment_ids changed due to domain correction"
+    "v1.5: Court codes corrected, tribunal IDs added, metadata extraction tightened\n\n"
+    "- 744 judgment IDs changed versus v1.4 (court codes and tribunal classification)\n"
+    "- HIG/BLE/SUP legacy codes eliminated - all IDs now use canonical court codes\n"
+    "- Tribunal records now correctly typed: IN-TR-CAT-* instead of IN-HC-BLE-*\n"
+    "- Tighter line-based header parsing eliminates overmatched court strings\n"
+    "- Court distribution: SC: 134, ALL: 116, DEL: 87, CAT: 9\n"
+    "- Level distribution: HC: 685, SC: 134, TR: 11, UNKNOWN: 16\n"
+    "- 23 refined clusters (was 25), 90,924 similarity edges\n"
+    "- breaking: 744 judgment_ids changed from v1.4"
 )
 
 

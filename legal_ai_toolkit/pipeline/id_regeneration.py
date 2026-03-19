@@ -14,7 +14,7 @@ After this step:  IN-HC-DEL-2023-CV-ABC123 (with correct domain)
 
 import re
 from .runner import BaseStep
-from legal_ai_toolkit.utils.ids import generate_judgment_id
+from legal_ai_toolkit.utils.ids import generate_judgment_id, resolve_court_code
 
 
 class IDRegenerationStep(BaseStep):
@@ -50,7 +50,7 @@ class IDRegenerationStep(BaseStep):
 
         # Extract ID components
         court_level = metadata.get("court_level", "UNK")
-        court_code = metadata.get("court", "UNK")[:3]
+        court_code = resolve_court_code(metadata.get("court", "UNK"))
         year = self._extract_year_from_date(metadata.get("decision_date", "UNKNOWN"))
 
         # ✅ NOW we have classification domain available

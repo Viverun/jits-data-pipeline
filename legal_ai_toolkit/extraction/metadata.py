@@ -77,6 +77,154 @@ DATE_FORMATS = (
     "%b %d, %Y",
 )
 
+HEADER_LINE_SCAN_LIMIT = 40
+MAX_COURT_LINE_LENGTH = 160
+
+COURT_RULES = [
+    ("central administrative tribunal", "Central Administrative Tribunal", "TR"),
+    ("state administrative tribunal", "State Administrative Tribunal", "TR"),
+    ("consumer disputes redressal commission", "Consumer Disputes Redressal Commission", "TR"),
+    ("arbitration tribunal", "Arbitration Tribunal", "TR"),
+    ("armed forces tribunal", "Armed Forces Tribunal", "TR"),
+    ("national green tribunal", "National Green Tribunal", "TR"),
+    ("industrial court", "Industrial Court", "TR"),
+    ("labour court", "Labour Court", "TR"),
+    ("family court", "Family Court", "TR"),
+    ("district court", "District Court", "TR"),
+    ("sessions court", "Sessions Court", "TR"),
+    ("supreme court", "Supreme Court Of India", "SC"),
+    ("allahabad", "Allahabad High Court", "HC"),
+    ("bombay", "Bombay High Court", "HC"),
+    ("delhi", "Delhi High Court", "HC"),
+    ("madras", "Madras High Court", "HC"),
+    ("calcutta", "Calcutta High Court", "HC"),
+    ("kerala", "Kerala High Court", "HC"),
+    ("karnataka", "Karnataka High Court", "HC"),
+    ("karnatka", "Karnataka High Court", "HC"),
+    ("gujarat", "Gujarat High Court", "HC"),
+    ("rajasthan", "Rajasthan High Court", "HC"),
+    ("patna", "Patna High Court", "HC"),
+    ("andhra pradesh", "Andhra Pradesh High Court", "HC"),
+    ("telangana", "Telangana High Court", "HC"),
+    ("punjab and haryana", "Punjab And Haryana High Court", "HC"),
+    ("himachal pradesh", "Himachal Pradesh High Court", "HC"),
+    ("madhya pradesh", "Madhya Pradesh High Court", "HC"),
+    ("orissa", "Orissa High Court", "HC"),
+    ("odisha", "Orissa High Court", "HC"),
+    ("gauhati", "Gauhati High Court", "HC"),
+    ("assam", "Assam High Court", "HC"),
+    ("jharkhand", "Jharkhand High Court", "HC"),
+    ("chhattisgarh", "Chhattisgarh High Court", "HC"),
+    ("uttarakhand", "Uttarakhand High Court", "HC"),
+    ("jammu", "Jammu And Kashmir High Court", "HC"),
+    ("kashmir", "Jammu And Kashmir High Court", "HC"),
+    ("meghalaya", "Meghalaya High Court", "HC"),
+    ("manipur", "Manipur High Court", "HC"),
+    ("tripura", "Tripura High Court", "HC"),
+    ("sikkim", "Sikkim High Court", "HC"),
+]
+
+
+def _clean_header_line(line: str) -> str:
+    cleaned = re.sub(r"\s+", " ", line).strip()
+    cleaned = cleaned.lstrip("*+%#:-. ")
+    return cleaned
+
+
+def _iter_court_candidates(lines):
+    cleaned_lines = [_clean_header_line(line) for line in lines if line.strip()]
+    cleaned_lines = cleaned_lines[:HEADER_LINE_SCAN_LIMIT]
+
+    for idx, line in enumerate(cleaned_lines):
+        if len(line) <= MAX_COURT_LINE_LENGTH:
+            yield line
+
+        if idx + 1 < len(cleaned_lines):
+            combined = f"{line} {cleaned_lines[idx + 1]}"
+            if len(combined) <= MAX_COURT_LINE_LENGTH:
+                yield combined
+
+
+def extract_court_metadata(lines):
+    for candidate in _iter_court_candidates(lines):
+        normalized = re.sub(r"[^A-Za-z0-9\s]+", " ", candidate).lower()
+        normalized = re.sub(r"\s+", " ", normalized).strip()
+
+        if not any(token in normalized for token in ("court", "tribunal", "commission")):
+            continue
+
+        for keyword, court_name, court_level in COURT_RULES:
+            if keyword in normalized:
+                return court_name, court_level
+
+    return "UNKNOWN", "UNKNOWN"
+
+
+def extract_case_number(lines):
+    cleaned_lines = [_clean_header_line(line) for line in lines if line.strip()]
+    patterns = [
+        r"^(?:\d+\s*)?(?:O\.?A\.?|M\.?A\.?|LPA|SLP|FAO|RFA|RSA|MCRC|BLAPL|CRL\.?\s*M\.?C\.?|CRL\.?\s*A\.?|W\.?P\.?\s*\([A-Z.]*\)|W\.?P\.?|C\.?W\.?P\.?|ARB\.?\s*P\.?|ARB\.?\s*CASE)\b.*$",
+        r"^(?:\d+\s*)?(?:CRIMINAL|CIVIL|WRIT|APPEAL|REVISION)[^\n]{0,80}\bNO\.?\s*[A-Z0-9/(). -]+$",
+        r"^CASE\s+NO\.?\s*[A-Z0-9/(). -]+$",
+    ]
+
+    for line in cleaned_lines[:25]:
+        if len(line) > 160:
+            continue
+        for pattern in patterns:
+            if re.search(pattern, line, re.I):
+                return line
+
+    return "UNKNOWN"
+
+
+def extract_parties(lines):
+    cleaned_lines = [_clean_header_line(line) for line in lines if line.strip()]
+
+    for line in cleaned_lines[:20]:
+        if len(line) > 180:
+            continue
+        match = re.search(r"^(.+?)\s+(?:v(?:s)?\.?|versus)\s+(.+?)(?:\s+on\b|$)", line, re.I)
+        if match:
+            return match.group(1).strip(), match.group(2).strip()
+
+    petitioner = None
+    respondent = None
+    for line in cleaned_lines[:30]:
+        if len(line) > 180:
+            continue
+        pet_match = re.search(r"^(?:Petitioner|Appellant)\s*[:\-]\s*(.+)$", line, re.I)
+        if pet_match and not petitioner:
+            petitioner = pet_match.group(1).strip()
+
+        resp_match = re.search(r"^Respondent\s*[:\-]\s*(.+)$", line, re.I)
+        if resp_match and not respondent:
+            respondent = resp_match.group(1).strip()
+
+    return petitioner, respondent
+
+
+def extract_bench(lines):
+    cleaned_lines = [_clean_header_line(line) for line in lines if line.strip()]
+
+    for line in cleaned_lines[:20]:
+        if len(line) > 180:
+            continue
+
+        coram_match = re.search(r"^(?:CORAM|BEFORE|BENCH)\s*[:\-]+\s*(.+)$", line, re.I)
+        if coram_match and coram_match.group(1).strip():
+            return coram_match.group(1).strip()
+
+    honble_lines = []
+    for line in cleaned_lines[:20]:
+        if "HON'BLE" in line.upper() and len(line) <= 180:
+            honble_lines.append(line)
+
+    if honble_lines:
+        return " | ".join(honble_lines[:3])
+
+    return None
+
 
 def normalize_decision_date(raw_date: str) -> str:
     """Normalize extracted decision dates to ISO format when possible."""
@@ -101,8 +249,8 @@ def normalize_decision_date(raw_date: str) -> str:
     return cleaned
 
 def extract_header_metadata(text: str):
-    lines = text.split("\n")[:100]  # Increased search range
-    header = " ".join(lines).upper()
+    lines = text.split("\n")[:100]
+    header = "\n".join(lines[:HEADER_LINE_SCAN_LIMIT])
 
     metadata = {
         "court": "UNKNOWN",
@@ -112,26 +260,10 @@ def extract_header_metadata(text: str):
         "jurisdiction": "India"
     }
 
-    # Extract court
-    for pattern in COURT_PATTERNS:
-        match = re.search(pattern, header)
-        if match:
-            metadata["court"] = match.group(0).strip().title()
-            court_upper = metadata["court"].upper()
-            if "SUPREME" in court_upper:
-                metadata["court_level"] = "SC"
-            elif "HIGH" in court_upper:
-                metadata["court_level"] = "HC"
-            elif any(x in court_upper for x in ["TRIBUNAL", "COMMISSION", "COURT"]):
-                metadata["court_level"] = "TRIBUNAL/LOWER"
-            break
+    metadata["court"], metadata["court_level"] = extract_court_metadata(lines)
 
     # Extract case number
-    for pattern in CASE_NO_PATTERNS:
-        match = re.search(pattern, header, re.I)
-        if match:
-            metadata["case_number"] = match.group(0).strip()
-            break
+    metadata["case_number"] = extract_case_number(lines)
 
     # Extract decision date
     for pattern in DATE_PATTERNS:
@@ -140,34 +272,14 @@ def extract_header_metadata(text: str):
             metadata["decision_date"] = normalize_decision_date(match.group(1))
             break
 
-    # Extract petitioner/respondent
-    for pattern in PETITIONER_RESPONDENT_PATTERNS:
-        match = re.search(pattern, header)
-        if match:
-            if 'v' in match.group(0).lower() or 'versus' in match.group(0).lower():
-                # Pattern with "v." or "versus"
-                parts = re.split(r'\s+(?:v[s]?\.?|versus)\s+', match.group(0), flags=re.I)
-                if len(parts) >= 2:
-                    metadata["petitioner"] = parts[0].strip()
-                    metadata["respondent"] = parts[1].strip()
-                    break
-            else:
-                # Pattern with "Petitioner:" or "Appellant:"
-                metadata["petitioner"] = match.group(1).strip()
+    petitioner, respondent = extract_parties(lines)
+    if petitioner:
+        metadata["petitioner"] = petitioner
+    if respondent:
+        metadata["respondent"] = respondent
 
-    # If petitioner found but not respondent, try to find respondent separately
-    if "petitioner" in metadata and "respondent" not in metadata:
-        for pattern in RESPONDENT_PATTERNS:
-            match = re.search(pattern, header)
-            if match:
-                metadata["respondent"] = match.group(1).strip()
-                break
-
-    # Extract bench composition
-    for pattern in BENCH_PATTERNS:
-        match = re.search(pattern, header, re.I)
-        if match:
-            metadata["bench"] = match.group(1).strip()
-            break
+    bench = extract_bench(lines)
+    if bench:
+        metadata["bench"] = bench
 
     return metadata

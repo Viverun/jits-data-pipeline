@@ -66,8 +66,9 @@ This dataset is **not** intended to provide legal advice.
 | **Citations Extracted** | 4,233 | Self-citations excluded |
 | **Sections Extracted** | 2,402 | Across 9+ statutory acts |
 | **Statutory Acts Detected** | 9+ | IPC, CrPC, Evidence Act, Dowry Act, POCSO, BNS, BNSS, NDPS, SC/ST |
-| **Similarity Edges** | 90,924 | Deterministic graph edges after clean rerun |
-| **Refined Clusters** | 25 | High-precision similarity clusters |
+| **Similarity Edges** | 90,924 | Across 846 judgments |
+| **Refined Clusters** | 23 | Domain-pure, high-strength only |
+| **Court Coverage** | SC, HC, TR | Supreme Court, 20+ High Courts, CAT |
 | **Domain Distribution** | criminal 356; service 191; mixed 179; civil 119; unknown 1 | Post-fix v1.4 rerun |
 | **Processing Quality** | 0 errors | 100% success rate on current batch |
 
@@ -76,6 +77,8 @@ This dataset is **not** intended to provide legal advice.
 - ✅ **Complete section extraction**: Hyphenated sections (498-A, 304-B) now captured
 - ✅ **Section-act context**: All sections linked to correct parent act
 - ✅ **Temporal transition guardrails**: Pre-`2024-07-01` judgments do not receive inferred BNS mappings
+- ✅ **Canonical court codes**: HC/SC/TR levels with real court identifiers (ALL, DEL, BOM...)
+- ✅ **Tribunal separation**: CAT records correctly typed as TR, not HC
 - ✅ **Comprehensive testing**: Validated extraction modules
 
 ---
@@ -112,11 +115,20 @@ legal-ai pipeline && legal-ai audit --type quality
 - Each dataset version corresponds deterministically to a specific
   pipeline commit
 
-> **Note on Dataset Size:** Earlier experimental pipeline runs processed up to 908 judgments. The current release (v1.4) contains **846 production-ready judgments** after stricter validation, self-citation exclusion, and quality filtering were applied.
+> **Note on Dataset Size:** Earlier experimental pipeline runs processed up to 908 judgments. The current release (v1.5) contains **846 production-ready judgments** after stricter validation, self-citation exclusion, and quality filtering were applied.
 
 ### Changelog
 
-#### v1.4
+#### v1.5 (2026-03-19)
+
+**Breaking**: 744 judgment IDs changed from v1.4.
+
+- Court codes corrected across all IDs.
+- Tribunal records (CAT, AFT) separated from High Court records.
+- Metadata court extraction tightened; overmatched court phrases removed.
+- 23 refined clusters (was 25), with 90,924 similarity edges unchanged.
+
+#### v1.4 (2026-03-19)
 
 - Regenerated all 846 records from the rebuilt raw text corpus and reran the full deterministic pipeline end-to-end.
 - Fixed similarity signal extraction so statutory section overlap is populated from actual transition/section fields.
@@ -207,7 +219,7 @@ The complete data processing pipeline, schemas, and audit tools are available at
 If you use this dataset, please cite:
 
 ```
-Viverun (2026). JITS Legal Dataset (v1.4). Hugging Face.
+Viverun (2026). JITS Legal Dataset (v1.5). Hugging Face.
 ```
 
 ---

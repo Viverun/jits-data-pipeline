@@ -1,28 +1,28 @@
 [
   {
     "cluster_id": "CLUSTER-0001",
-    "centroid": "IN-HC-HIG-2024-CR-80DAA9",
+    "centroid": "IN-HC-ALL-2024-CR-80DAA9",
     "judgments": [
-      "IN-HC-HIG-2023-CR-37A9FD",
-      "IN-HC-HIG-2023-CR-4317C7",
-      "IN-HC-HIG-2024-CR-1EE464",
-      "IN-HC-HIG-2024-CR-514181",
-      "IN-HC-HIG-2024-CR-60D560",
-      "IN-HC-HIG-2024-CR-62493E",
-      "IN-HC-HIG-2024-CR-759F66",
-      "IN-HC-HIG-2024-CR-80DAA9",
-      "IN-HC-HIG-2024-CR-98960B",
-      "IN-HC-HIG-2024-CR-D33685",
-      "IN-HC-HIG-2024-CR-E762F6",
-      "IN-HC-HIG-2024-CR-EBEE98",
-      "IN-HC-HIG-2024-CR-F34BF0",
-      "IN-HC-HIG-2025-CR-930E19",
-      "IN-HC-HIG-2025-CR-96114B",
-      "IN-HC-HIG-2025-CR-98ED4E",
-      "IN-HC-HIG-2025-CR-C7CB29",
-      "IN-HC-HIG-2025-CR-CEDAB9",
-      "IN-HC-HIG-2025-CR-D62C65",
-      "IN-HC-HIG-2025-CR-D78A96"
+      "IN-HC-ALL-2023-CR-37A9FD",
+      "IN-HC-ALL-2023-CR-4317C7",
+      "IN-HC-ALL-2024-CR-1EE464",
+      "IN-HC-ALL-2024-CR-514181",
+      "IN-HC-ALL-2024-CR-60D560",
+      "IN-HC-ALL-2024-CR-62493E",
+      "IN-HC-ALL-2024-CR-759F66",
+      "IN-HC-ALL-2024-CR-80DAA9",
+      "IN-HC-ALL-2024-CR-98960B",
+      "IN-HC-ALL-2024-CR-D33685",
+      "IN-HC-ALL-2024-CR-E762F6",
+      "IN-HC-ALL-2024-CR-F34BF0",
+      "IN-HC-ALL-2025-CR-930E19",
+      "IN-HC-ALL-2025-CR-96114B",
+      "IN-HC-ALL-2025-CR-98ED4E",
+      "IN-HC-ALL-2025-CR-C7CB29",
+      "IN-HC-ALL-2025-CR-CEDAB9",
+      "IN-HC-ALL-2025-CR-D62C65",
+      "IN-HC-ALL-2025-CR-D78A96",
+      "IN-HC-KAR-2024-CR-EBEE98"
     ],
     "count": 20,
     "basis": {
@@ -64,17 +64,17 @@
   },
   {
     "cluster_id": "CLUSTER-0002",
-    "centroid": "IN-HC-HIG-2025-CR-529F1C",
+    "centroid": "IN-HC-ALL-2025-CR-C0D3C4",
     "judgments": [
-      "IN-HC-HIG-2025-CR-06F4A2",
-      "IN-HC-HIG-2025-CR-1132F4",
-      "IN-HC-HIG-2025-CR-529F1C",
-      "IN-HC-HIG-2025-CR-5822E4",
-      "IN-HC-HIG-2025-CR-7C364D",
-      "IN-HC-HIG-2025-CR-8413F6",
-      "IN-HC-HIG-2025-CR-870F9D",
-      "IN-HC-HIG-2025-CR-C0D3C4",
-      "IN-HC-HIG-2025-CR-DA057C"
+      "IN-HC-ALL-2025-CR-06F4A2",
+      "IN-HC-ALL-2025-CR-1132F4",
+      "IN-HC-ALL-2025-CR-529F1C",
+      "IN-HC-ALL-2025-CR-5822E4",
+      "IN-HC-ALL-2025-CR-7C364D",
+      "IN-HC-ALL-2025-CR-8413F6",
+      "IN-HC-ALL-2025-CR-870F9D",
+      "IN-HC-ALL-2025-CR-C0D3C4",
+      "IN-HC-ALL-2025-CR-DA057C"
     ],
     "count": 9,
     "basis": {
@@ -102,14 +102,14 @@
     "cluster_id": "CLUSTER-0003",
     "centroid": "IN-HC-MAD-2019-MX-13B75D",
     "judgments": [
-      "IN-HC-HIG-2019-MX-D405F6",
+      "IN-HC-MAD-2017-MX-369C4B",
+      "IN-HC-MAD-2018-MX-43B67D",
       "IN-HC-MAD-2018-MX-4BD1A6",
+      "IN-HC-MAD-2018-MX-59C1A1",
+      "IN-HC-MAD-2018-MX-9068EB",
       "IN-HC-MAD-2019-MX-13B75D",
-      "IN-HC-MAD-2019-MX-FCB5DF",
-      "IN-SC-SUP-2017-MX-369C4B",
-      "IN-SC-SUP-2018-MX-43B67D",
-      "IN-SC-SUP-2018-MX-59C1A1",
-      "IN-SC-SUP-2018-MX-9068EB"
+      "IN-HC-MAD-2019-MX-D405F6",
+      "IN-HC-MAD-2019-MX-FCB5DF"
     ],
     "count": 8,
     "basis": {
@@ -144,23 +144,22 @@
         "in\nState of Karnataka v. Umadevi\n(",
         "in\nState of Rajasthan & Ors. v. Daya Lal & Ors.\n,",
         "in\nUnion of India v. Godfrey Philips India Ltd.\n(",
-        "in Union of India v. Godfrey\nPhilips India Ltd. (",
-        "in Union of India v. Godfrey Philips India Ltd. ("
+        "in Union of India v. Godfrey\nPhilips India Ltd. ("
       ]
     },
     "confidence": "high"
   },
   {
     "cluster_id": "CLUSTER-0004",
-    "centroid": "IN-HC-HIG-2024-MX-7A1246",
+    "centroid": "IN-HC-BOM-2024-MX-E42C3B",
     "judgments": [
-      "IN-HC-HIG-2024-MX-34C860",
-      "IN-HC-HIG-2024-MX-3ED339",
-      "IN-HC-HIG-2024-MX-7A1246",
-      "IN-HC-HIG-2024-MX-81C548",
-      "IN-HC-HIG-2024-MX-9266E1",
-      "IN-HC-HIG-2024-MX-E229D6",
-      "IN-HC-HIG-2024-MX-E42C3B"
+      "IN-HC-BOM-2024-MX-34C860",
+      "IN-HC-BOM-2024-MX-3ED339",
+      "IN-HC-BOM-2024-MX-7A1246",
+      "IN-HC-BOM-2024-MX-81C548",
+      "IN-HC-BOM-2024-MX-9266E1",
+      "IN-HC-BOM-2024-MX-E229D6",
+      "IN-HC-BOM-2024-MX-E42C3B"
     ],
     "count": 7,
     "basis": {
@@ -208,7 +207,7 @@
     "centroid": "IN-HC-MAD-2018-MX-C5B32F",
     "judgments": [
       "IN-HC-MAD-2018-MX-C5B32F",
-      "IN-SC-SUP-2018-MX-DCE1AD"
+      "IN-HC-MAD-2018-MX-DCE1AD"
     ],
     "count": 2,
     "basis": {
@@ -234,11 +233,11 @@
   },
   {
     "cluster_id": "CLUSTER-0006",
-    "centroid": "IN-HC-HIG-2024-CR-68DC79",
+    "centroid": "IN-HC-ALL-2024-CR-68DC79",
     "judgments": [
-      "IN-HC-HIG-2024-CR-68DC79",
-      "IN-HC-HIG-2024-CR-887CE9",
-      "IN-HC-HIG-2025-CR-3B1CE4"
+      "IN-HC-ALL-2024-CR-68DC79",
+      "IN-HC-ALL-2024-CR-887CE9",
+      "IN-HC-AND-2025-CR-3B1CE4"
     ],
     "count": 3,
     "basis": {
@@ -278,11 +277,11 @@
   },
   {
     "cluster_id": "CLUSTER-0007",
-    "centroid": "IN-HC-HIG-2023-CR-3ED71B",
+    "centroid": "IN-HC-CHA-2023-CR-3ED71B",
     "judgments": [
-      "IN-HC-HIG-2023-CR-3ED71B",
-      "IN-HC-HIG-2023-CR-BA063C",
-      "IN-HC-HIG-2023-CR-FF17D8"
+      "IN-HC-CHA-2023-CR-3ED71B",
+      "IN-HC-CHA-2023-CR-BA063C",
+      "IN-HC-CHA-2023-CR-FF17D8"
     ],
     "count": 3,
     "basis": {
@@ -343,198 +342,198 @@
   },
   {
     "cluster_id": "CLUSTER-0009",
-    "centroid": "IN-HC-HIG-2018-MX-3C8C0B",
+    "centroid": "IN-HC-ALL-2021-MX-0F257A",
     "judgments": [
-      "IN-HC-HIG-2018-MX-3C8C0B",
-      "IN-HC-HIG-2019-CR-53A61D"
+      "IN-HC-ALL-2021-MX-0F257A",
+      "IN-HC-BOM-2008-MX-C6C068"
     ],
     "count": 2,
     "basis": {
       "issues": [
-        "arbitration",
-        "bail",
+        "quashing",
         "sentencing"
       ],
       "sections": [
-        "CRPC 313",
-        "CRPC 437-A",
-        "IPC 147",
-        "IPC 148",
+        "CRPC 320",
+        "CRPC 482",
+        "DOWRY PROHIBITION ACT 4",
         "IPC 302",
-        "IPC 307"
+        "IPC 307",
+        "IPC 320",
+        "IPC 326",
+        "IPC 420",
+        "IPC 498A"
       ],
-      "citations": [
-        "AIR 1955 SC 274",
-        "AIR 1955 SC 419"
-      ]
+      "citations": []
     },
     "confidence": "high"
   },
   {
     "cluster_id": "CLUSTER-0010",
-    "centroid": "IN-HC-HIG-2025-CR-DCCC51",
+    "centroid": "IN-HC-PAT-2025-CR-5CF7F4",
     "judgments": [
-      "IN-HC-HIG-2025-CR-C72C2A",
-      "IN-HC-HIG-2025-CR-DCCC51"
+      "IN-HC-PAT-2025-CR-5CF7F4",
+      "IN-HC-PAT-2025-CR-78E6B4"
     ],
     "count": 2,
     "basis": {
       "issues": [
-        "bail",
         "sentencing"
       ],
       "sections": [
-        "BNS 108",
-        "BNS 80",
-        "BNS 86",
-        "EVIDENCE ACT 113B",
-        "IPC 304-B",
-        "IPC 304B",
-        "IPC 306",
-        "IPC 498-A"
+        "BNS 100",
+        "BNS 101",
+        "BNS 103",
+        "BNS 104",
+        "CRPC 313",
+        "CRPC 428",
+        "IPC 299",
+        "IPC 300",
+        "IPC 302",
+        "IPC 304",
+        "IPC 341"
       ],
       "citations": [
-        "in Mahipatray Rawal v. State of Gujarat\n,"
+        "in\nImran Khan versus State of Madhya\n\nPradesh\nreported in 1994"
       ]
     },
     "confidence": "high"
   },
   {
     "cluster_id": "CLUSTER-0011",
-    "centroid": "IN-HC-HIG-2024-CR-DF6E32",
+    "centroid": "IN-HC-KAR-2023-CV-A55D1A",
     "judgments": [
-      "IN-HC-HIG-2024-CR-2E4E77",
-      "IN-HC-HIG-2024-CR-DF6E32"
+      "IN-HC-KAR-2023-CV-55156B",
+      "IN-HC-KAR-2023-CV-A55D1A"
     ],
     "count": 2,
     "basis": {
       "issues": [
-        "sentencing"
+        "specific_performance"
       ],
-      "sections": [
-        "BNS 103",
-        "BNS 109",
-        "BNS 22",
-        "CRPC 207",
-        "CRPC 313",
-        "CRPC 354(3)",
-        "CRPC 366",
-        "CRPC 43",
-        "EVIDENCE ACT 105",
-        "EVIDENCE ACT 6",
-        "IPC 105",
-        "IPC 1872",
-        "IPC 1973",
-        "IPC 235(2)",
-        "IPC 302",
-        "IPC 303",
-        "IPC 307",
-        "IPC 449",
-        "IPC 84"
-      ],
+      "sections": [],
       "citations": [
-        "AIR 2012 SC 1357",
-        "In Shankar Kishanrao khade vs. State of Mahrashtra (",
-        "in Shiva Kumar alias\nShivamurthy v. State of\nKarnataka\n("
+        "AIR 1931 Cal 67",
+        "AIR 1954 SC 75",
+        "AIR 1964 Bom\n6",
+        "AIR 1965 SC 1405",
+        "AIR 1971 SC 1238",
+        "AIR 1979\nSC 1241",
+        "AIR 1986 Del 275",
+        "AIR 1996 SC 2814",
+        "In\nRamesh Chandra Chandiok v. Lal Sabharwal\n,"
       ]
     },
     "confidence": "high"
   },
   {
     "cluster_id": "CLUSTER-0012",
-    "centroid": "IN-HC-HIG-2020-CR-B7E973",
+    "centroid": "IN-HC-MAD-2025-CR-C196C4",
     "judgments": [
-      "IN-HC-HIG-2020-CR-30C98A",
-      "IN-HC-HIG-2020-CR-B7E973"
+      "IN-HC-MAD-2025-CR-C196C4",
+      "IN-HC-MAD-2025-MX-7EE5EC"
     ],
     "count": 2,
     "basis": {
       "issues": [
-        "arbitration",
-        "bail",
-        "quashing"
+        "quashing",
+        "sentencing"
       ],
       "sections": [
-        "CRPC 320",
+        "BNS 316",
+        "BNS 318",
+        "BNS 336",
+        "BNS 338",
+        "BNS 340",
+        "BNS 61",
         "CRPC 482",
-        "IPC 120-B",
-        "IPC 174-A",
-        "IPC 307",
-        "IPC 320",
-        "IPC 406",
+        "IPC 409",
         "IPC 420",
         "IPC 467",
         "IPC 468",
-        "IPC 482"
+        "IPC 471"
       ],
       "citations": [
-        "AIR 1999 SC 2554",
-        "In\nGian Singh vs. State of Punjab and another\n2012",
-        "in\nNarinder Singh and others vs. State of Punjab and another\n,"
+        "1977 2 SCC 699",
+        "1990 (2) SCC 437",
+        "1999 6 SCC\n146",
+        "2007 (5) SCC\n350",
+        "2009 (6) SCC 364",
+        "2014 (5) SCC 364"
       ]
     },
     "confidence": "high"
   },
   {
     "cluster_id": "CLUSTER-0013",
-    "centroid": "IN-SC-SUP-2025-CR-EC77F7",
+    "centroid": "IN-HC-KAR-2015-MX-A3A32C",
     "judgments": [
-      "IN-HC-HIG-2025-CR-B40382",
-      "IN-SC-SUP-2025-CR-EC77F7"
+      "IN-HC-KAR-2015-MX-A3A32C",
+      "IN-SC-SC-2017-CR-16C9D9"
     ],
     "count": 2,
     "basis": {
       "issues": [
-        "bail",
-        "sentencing"
+        "disciplinary_proceedings"
       ],
       "sections": [
-        "BNS 80",
-        "BNS 86",
-        "DOWRY PROHIBITION ACT 304B",
-        "DOWRY PROHIBITION ACT 498A",
-        "EVIDENCE ACT 113B",
-        "EVIDENCE ACT 114",
-        "IPC 304B",
-        "IPC 498A"
+        "CRPC 17",
+        "CRPC 173(8)",
+        "CRPC 200",
+        "CRPC 313",
+        "CRPC 4(2)",
+        "EVIDENCE ACT 60",
+        "IPC 109",
+        "IPC 120-B",
+        "IPC 13(1)(E)",
+        "IPC 13(2)"
       ],
-      "citations": []
+      "citations": [
+        "AIR 1963 SC 255",
+        "AIR 1977 SC 769"
+      ]
     },
     "confidence": "high"
   },
   {
     "cluster_id": "CLUSTER-0014",
-    "centroid": "IN-SC-SUP-2024-CR-D184A2",
+    "centroid": "IN-HC-GUJ-2021-SV-7D3414",
     "judgments": [
-      "IN-SC-SUP-2003-CR-711322",
-      "IN-SC-SUP-2024-CR-D184A2"
+      "IN-HC-GUJ-2021-SV-7D3414",
+      "IN-HC-GUJ-2021-SV-E6F202"
     ],
     "count": 2,
     "basis": {
       "issues": [
-        "sentencing"
+        "seniority_promotion",
+        "specific_performance"
       ],
-      "sections": [
-        "DOWRY PROHIBITION ACT 498A",
-        "EVIDENCE ACT 113B",
-        "EVIDENCE ACT 4",
-        "IPC 302",
-        "IPC 304-B",
-        "IPC 304B",
-        "IPC 306",
-        "IPC 498-A",
-        "IPC 498A"
-      ],
-      "citations": []
+      "sections": [],
+      "citations": [
+        "1995 (2) SCC 745",
+        "1996 (3) SCC 253",
+        "2007 (8)\nSCC 785",
+        "2007 (8) SCC 100",
+        "2008 (4) SCC 619",
+        "2009 (3) SCC 227",
+        "2011 (8) SCC 441",
+        "AIR\n\n2010 SC 2613",
+        "AIR 1997 SC 303",
+        "AIR 1999 SC 2894",
+        "AIR 2008 SC 5",
+        "In\nAnil Kumar Gupta and others vs. State of U.P. and\n\nothers\nreported in 1995",
+        "In\nIndra Sawhney vs. Union of India\nreported in 1992",
+        "In\nSunaina Tripathi vs. State of U.P.\nreported in 2012"
+      ]
     },
     "confidence": "high"
   },
   {
     "cluster_id": "CLUSTER-0015",
-    "centroid": "IN-SC-SUP-2018-MX-AF7478",
+    "centroid": "IN-HC-MAD-2018-MX-DA5683",
     "judgments": [
-      "IN-SC-SUP-2018-MX-AF7478",
-      "IN-SC-SUP-2018-MX-DA5683"
+      "IN-HC-MAD-2018-MX-AF7478",
+      "IN-HC-MAD-2018-MX-DA5683"
     ],
     "count": 2,
     "basis": {
@@ -578,37 +577,39 @@
   },
   {
     "cluster_id": "CLUSTER-0016",
-    "centroid": "IN-HC-HIG-2023-CV-55156B",
+    "centroid": "IN-HC-DEL-2025-CR-C72C2A",
     "judgments": [
-      "IN-HC-HIG-2023-CV-55156B",
-      "IN-HC-HIG-2023-CV-A55D1A"
+      "IN-HC-DEL-2025-CR-C72C2A",
+      "IN-HC-DEL-2025-CR-DCCC51"
     ],
     "count": 2,
     "basis": {
       "issues": [
-        "specific_performance"
+        "bail",
+        "sentencing"
       ],
-      "sections": [],
+      "sections": [
+        "BNS 108",
+        "BNS 80",
+        "BNS 86",
+        "EVIDENCE ACT 113B",
+        "IPC 304-B",
+        "IPC 304B",
+        "IPC 306",
+        "IPC 498-A"
+      ],
       "citations": [
-        "AIR 1931 Cal 67",
-        "AIR 1954 SC 75",
-        "AIR 1964 Bom\n6",
-        "AIR 1965 SC 1405",
-        "AIR 1971 SC 1238",
-        "AIR 1979\nSC 1241",
-        "AIR 1986 Del 275",
-        "AIR 1996 SC 2814",
-        "In\nRamesh Chandra Chandiok v. Lal Sabharwal\n,"
+        "in Mahipatray Rawal v. State of Gujarat\n,"
       ]
     },
     "confidence": "high"
   },
   {
     "cluster_id": "CLUSTER-0017",
-    "centroid": "IN-HC-HIG-2023-CR-AA6B98",
+    "centroid": "IN-HC-KAR-2023-CR-AA6B98",
     "judgments": [
-      "IN-HC-HIG-2023-CR-67EF51",
-      "IN-HC-HIG-2023-CR-AA6B98"
+      "IN-HC-KAR-2023-CR-67EF51",
+      "IN-HC-KAR-2023-CR-AA6B98"
     ],
     "count": 2,
     "basis": {
@@ -633,26 +634,89 @@
   },
   {
     "cluster_id": "CLUSTER-0018",
-    "centroid": "IN-HC-BOM-2008-MX-C6C068",
+    "centroid": "IN-HC-ALL-2020-CR-B7E973",
     "judgments": [
-      "IN-HC-BOM-2008-MX-C6C068",
-      "IN-HC-HIG-2021-MX-0F257A"
+      "IN-HC-ALL-2020-CR-30C98A",
+      "IN-HC-ALL-2020-CR-B7E973"
     ],
     "count": 2,
     "basis": {
       "issues": [
-        "quashing",
-        "sentencing"
+        "arbitration",
+        "bail",
+        "quashing"
       ],
       "sections": [
         "CRPC 320",
         "CRPC 482",
-        "DOWRY PROHIBITION ACT 4",
-        "IPC 302",
+        "IPC 120-B",
+        "IPC 174-A",
         "IPC 307",
         "IPC 320",
-        "IPC 326",
+        "IPC 406",
         "IPC 420",
+        "IPC 467",
+        "IPC 468",
+        "IPC 482"
+      ],
+      "citations": [
+        "AIR 1999 SC 2554",
+        "In\nGian Singh vs. State of Punjab and another\n2012",
+        "in\nNarinder Singh and others vs. State of Punjab and another\n,"
+      ]
+    },
+    "confidence": "high"
+  },
+  {
+    "cluster_id": "CLUSTER-0019",
+    "centroid": "IN-HC-DEL-2018-MX-3C8C0B",
+    "judgments": [
+      "IN-HC-DEL-2018-MX-3C8C0B",
+      "IN-HC-DEL-2019-CR-53A61D"
+    ],
+    "count": 2,
+    "basis": {
+      "issues": [
+        "arbitration",
+        "bail",
+        "sentencing"
+      ],
+      "sections": [
+        "CRPC 313",
+        "CRPC 437-A",
+        "IPC 147",
+        "IPC 148",
+        "IPC 302",
+        "IPC 307"
+      ],
+      "citations": [
+        "AIR 1955 SC 274",
+        "AIR 1955 SC 419"
+      ]
+    },
+    "confidence": "high"
+  },
+  {
+    "cluster_id": "CLUSTER-0020",
+    "centroid": "IN-SC-SC-2007-CR-711322",
+    "judgments": [
+      "IN-SC-SC-2007-CR-711322",
+      "IN-SC-SC-2024-CR-D184A2"
+    ],
+    "count": 2,
+    "basis": {
+      "issues": [
+        "sentencing"
+      ],
+      "sections": [
+        "DOWRY PROHIBITION ACT 498A",
+        "EVIDENCE ACT 113B",
+        "EVIDENCE ACT 4",
+        "IPC 302",
+        "IPC 304-B",
+        "IPC 304B",
+        "IPC 306",
+        "IPC 498-A",
         "IPC 498A"
       ],
       "citations": []
@@ -660,109 +724,79 @@
     "confidence": "high"
   },
   {
-    "cluster_id": "CLUSTER-0019",
-    "centroid": "IN-HC-HIG-2025-CR-5CF7F4",
+    "cluster_id": "CLUSTER-0021",
+    "centroid": "IN-SC-SC-2025-CR-EC77F7",
     "judgments": [
-      "IN-HC-HIG-2025-CR-5CF7F4",
-      "IN-HC-HIG-2025-CR-78E6B4"
+      "IN-HC-DEL-2025-CR-B40382",
+      "IN-SC-SC-2025-CR-EC77F7"
     ],
     "count": 2,
     "basis": {
       "issues": [
+        "bail",
         "sentencing"
-      ],
-      "sections": [
-        "BNS 100",
-        "BNS 101",
-        "BNS 103",
-        "BNS 104",
-        "CRPC 313",
-        "CRPC 428",
-        "IPC 299",
-        "IPC 300",
-        "IPC 302",
-        "IPC 304",
-        "IPC 341"
-      ],
-      "citations": [
-        "in\nImran Khan versus State of Madhya\n\nPradesh\nreported in 1994"
-      ]
-    },
-    "confidence": "high"
-  },
-  {
-    "cluster_id": "CLUSTER-0020",
-    "centroid": "IN-HC-HIG-2025-CR-EAFA6F",
-    "judgments": [
-      "IN-HC-HIG-2025-CR-AB9EB4",
-      "IN-HC-HIG-2025-CR-EAFA6F"
-    ],
-    "count": 2,
-    "basis": {
-      "issues": [
-        "bail"
       ],
       "sections": [
         "BNS 80",
         "BNS 86",
-        "CRPC 439",
+        "DOWRY PROHIBITION ACT 304B",
         "DOWRY PROHIBITION ACT 498A",
+        "EVIDENCE ACT 113B",
+        "EVIDENCE ACT 114",
         "IPC 304B",
         "IPC 498A"
       ],
-      "citations": [
-        "2015 (3) SCC 220",
-        "In\nAshok Dhankad v. State of NCT of Delhi & Another\n2025",
-        "In\nGurcharan Singh v. State (",
-        "in State of U.P. v. Amarmani Tripathi ("
-      ]
-    },
-    "confidence": "high"
-  },
-  {
-    "cluster_id": "CLUSTER-0021",
-    "centroid": "IN-HC-HIG-2025-CR-C196C4",
-    "judgments": [
-      "IN-HC-HIG-2025-CR-C196C4",
-      "IN-HC-HIG-2025-MX-7EE5EC"
-    ],
-    "count": 2,
-    "basis": {
-      "issues": [
-        "quashing",
-        "sentencing"
-      ],
-      "sections": [
-        "BNS 316",
-        "BNS 318",
-        "BNS 336",
-        "BNS 338",
-        "BNS 340",
-        "BNS 61",
-        "CRPC 482",
-        "IPC 409",
-        "IPC 420",
-        "IPC 467",
-        "IPC 468",
-        "IPC 471"
-      ],
-      "citations": [
-        "1977 2 SCC 699",
-        "1990 (2) SCC 437",
-        "1999 6 SCC\n146",
-        "2007 (5) SCC\n350",
-        "2009 (6) SCC 364",
-        "2014 (5) SCC 364"
-      ]
+      "citations": []
     },
     "confidence": "high"
   },
   {
     "cluster_id": "CLUSTER-0022",
-    "centroid": "IN-HC-HIG-2015-CR-673438",
+    "centroid": "IN-HC-RAJ-2024-CR-DF6E32",
     "judgments": [
-      "IN-HC-HIG-2015-CR-673438",
-      "IN-HC-HIG-2017-CR-1CD662"
+      "IN-HC-RAJ-2024-CR-2E4E77",
+      "IN-HC-RAJ-2024-CR-DF6E32"
+    ],
+    "count": 2,
+    "basis": {
+      "issues": [
+        "sentencing"
+      ],
+      "sections": [
+        "BNS 103",
+        "BNS 109",
+        "BNS 22",
+        "CRPC 207",
+        "CRPC 313",
+        "CRPC 354(3)",
+        "CRPC 366",
+        "CRPC 43",
+        "EVIDENCE ACT 105",
+        "EVIDENCE ACT 6",
+        "IPC 105",
+        "IPC 1872",
+        "IPC 1973",
+        "IPC 235(2)",
+        "IPC 302",
+        "IPC 303",
+        "IPC 307",
+        "IPC 449",
+        "IPC 84"
+      ],
+      "citations": [
+        "AIR 2012 SC 1357",
+        "In Shankar Kishanrao khade vs. State of Mahrashtra (",
+        "in Shiva Kumar alias\nShivamurthy v. State of\nKarnataka\n("
+      ]
+    },
+    "confidence": "high"
+  },
+  {
+    "cluster_id": "CLUSTER-0023",
+    "centroid": "IN-HC-HIM-2015-CR-673438",
+    "judgments": [
+      "IN-HC-HIM-2015-CR-673438",
+      "IN-HC-HIM-2017-CR-1CD662"
     ],
     "count": 2,
     "basis": {
@@ -782,99 +816,6 @@
       "citations": [
         "in\nGian Singh v. State of Punjab\n(",
         "in\nGian Singh versus State of Punjab and\n\nanother\n("
-      ]
-    },
-    "confidence": "high"
-  },
-  {
-    "cluster_id": "CLUSTER-0023",
-    "centroid": "IN-HC-HIG-2025-CR-5ADF02",
-    "judgments": [
-      "IN-HC-HIG-2025-CR-5ADF02",
-      "IN-HC-HIG-2025-CR-F98373"
-    ],
-    "count": 2,
-    "basis": {
-      "issues": [
-        "bail"
-      ],
-      "sections": [
-        "BNS 191",
-        "BNS 80",
-        "BNS 86",
-        "CRPC 439",
-        "IPC 304B",
-        "IPC 498A"
-      ],
-      "citations": [
-        "In\nGurcharan Singh v. State (",
-        "In\nMahipal v. Rajesh Kumar\n,",
-        "In\nPrahlad Singh Bhati vs. NCT of Delhi and Ors\n(",
-        "In State of U.P. v. Amarmani Tripathi ("
-      ]
-    },
-    "confidence": "high"
-  },
-  {
-    "cluster_id": "CLUSTER-0024",
-    "centroid": "IN-HC-HIG-2021-SV-7D3414",
-    "judgments": [
-      "IN-HC-HIG-2021-SV-7D3414",
-      "IN-HC-HIG-2021-SV-E6F202"
-    ],
-    "count": 2,
-    "basis": {
-      "issues": [
-        "seniority_promotion",
-        "specific_performance"
-      ],
-      "sections": [],
-      "citations": [
-        "1995 (2) SCC 745",
-        "1996 (3) SCC 253",
-        "2007 (8)\nSCC 785",
-        "2007 (8) SCC 100",
-        "2008 (4) SCC 619",
-        "2009 (3) SCC 227",
-        "2011 (8) SCC 441",
-        "AIR\n\n2010 SC 2613",
-        "AIR 1997 SC 303",
-        "AIR 1999 SC 2894",
-        "AIR 2008 SC 5",
-        "In\nAnil Kumar Gupta and others vs. State of U.P. and\n\nothers\nreported in 1995",
-        "In\nIndra Sawhney vs. Union of India\nreported in 1992",
-        "In\nSunaina Tripathi vs. State of U.P.\nreported in 2012"
-      ]
-    },
-    "confidence": "high"
-  },
-  {
-    "cluster_id": "CLUSTER-0025",
-    "centroid": "IN-SC-SUP-2017-CR-16C9D9",
-    "judgments": [
-      "IN-HC-HIG-1988-MX-A3A32C",
-      "IN-SC-SUP-2017-CR-16C9D9"
-    ],
-    "count": 2,
-    "basis": {
-      "issues": [
-        "disciplinary_proceedings"
-      ],
-      "sections": [
-        "CRPC 17",
-        "CRPC 173(8)",
-        "CRPC 200",
-        "CRPC 313",
-        "CRPC 4(2)",
-        "EVIDENCE ACT 60",
-        "IPC 109",
-        "IPC 120-B",
-        "IPC 13(1)(E)",
-        "IPC 13(2)"
-      ],
-      "citations": [
-        "AIR 1963 SC 255",
-        "AIR 1977 SC 769"
       ]
     },
     "confidence": "high"
