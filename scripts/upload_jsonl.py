@@ -5,7 +5,7 @@ import sys
 from huggingface_hub import HfApi
 from huggingface_hub.errors import HfHubHTTPError
 
-REPO_ID = "Viverun/jits-data-pipeline"
+REPO_ID = os.environ.get("HF_DATASET_REPO_ID", "Viverun/jits-legal-dataset")
 FILE_PATH = "train.jsonl"
 PATH_IN_REPO = "train.jsonl"  # Root of the dataset
 PLACEHOLDER_TOKENS = {"your_token_here", "hf_your_token_here"}
