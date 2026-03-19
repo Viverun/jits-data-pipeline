@@ -64,7 +64,7 @@ This dataset is **not** intended to provide legal advice.
 | **Total Judgments** | 846 | Available in `train.jsonl` |
 | **Processed Files** | 846 | 100% processed and validated |
 | **Citations Extracted** | 4,233 | Self-citations excluded |
-| **Sections Extracted** | 2,433+ | Across 9+ statutory acts |
+| **Sections Extracted** | 2,402 | Across 9+ statutory acts |
 | **Statutory Acts Detected** | 9+ | IPC, CrPC, Evidence Act, Dowry Act, POCSO, BNS, BNSS, NDPS, SC/ST |
 | **Processing Quality** | 0 errors | 100% success rate on current batch |
 
@@ -72,7 +72,7 @@ This dataset is **not** intended to provide legal advice.
 - ✅ **Self-citation exclusion**: No false positive citations
 - ✅ **Complete section extraction**: Hyphenated sections (498-A, 304-B) now captured
 - ✅ **Section-act context**: All sections linked to correct parent act
-- ✅ **100% transition coverage**: All extracted IPC sections mapped to BNS
+- ✅ **Temporal transition guardrails**: Pre-`2024-07-01` judgments do not receive inferred BNS mappings
 - ✅ **Comprehensive testing**: Validated extraction modules
 
 ---
@@ -109,7 +109,19 @@ legal-ai pipeline && legal-ai audit --type quality
 - Each dataset version corresponds deterministically to a specific
   pipeline commit
 
-> **Note on Dataset Size:** Earlier experimental pipeline runs processed up to 908 judgments. The current release (v1.3) contains **846 production-ready judgments** after stricter validation, self-citation exclusion, and quality filtering were applied.
+> **Note on Dataset Size:** Earlier experimental pipeline runs processed up to 908 judgments. The current release (v1.4) contains **846 production-ready judgments** after stricter validation, self-citation exclusion, and quality filtering were applied.
+
+### Changelog
+
+#### v1.4
+
+- Regenerated all 846 records from the rebuilt raw text corpus and reran the full deterministic pipeline end-to-end.
+- Fixed similarity signal extraction so statutory section overlap is populated from actual transition/section fields.
+- Normalized decision dates and enforced temporal safeguards so judgments dated before `2024-07-01` do not receive inferred BNS mappings.
+- Switched the pipeline to the strengthened zero-ML classifier with explicit service-domain handling and removed the prior writ-petition overclassification path.
+- Wrote `statutory_transitions` consistently at the record top level in consolidated outputs.
+- Corrected analytics compatibility for v2 extraction fields and removed the duplicate `audit_landmarks` method definition.
+- **v1.4 breaking change**: `397` judgment IDs changed because domain classification was corrected. IDs containing `-CV-`, `-CR-`, or `-SV-` segments may differ from v1.3. If you stored v1.3 IDs externally, re-map using the `judgment_id` field in the new export.
 
 Core quality metrics are computed using audit logic in:
 `legal_ai_toolkit/analytics/audit.py::DataAuditor.audit_quality()`
@@ -190,7 +202,7 @@ The complete data processing pipeline, schemas, and audit tools are available at
 If you use this dataset, please cite:
 
 ```
-Viverun (2026). JITS Legal Dataset (v1.3). Hugging Face.
+Viverun (2026). JITS Legal Dataset (v1.4). Hugging Face.
 ```
 
 ---

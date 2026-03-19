@@ -18,7 +18,11 @@ def show_overview(judgments, clusters):
     total_judgments = len(judgments)
     total_clusters = len(clusters)
 
-    landmark_count = sum(1 for j in judgments if j.get('annotations', {}).get('matched_landmarks'))
+    landmark_count = sum(
+        1 for j in judgments
+        if j.get('extractions', {}).get('landmarks', {}).get('total', 0) > 0
+        or j.get('annotations', {}).get('matched_landmarks')
+    )
     domain_counts = Counter(j.get('classification', {}).get('domain', 'unknown') for j in judgments)
 
     # Calculate metadata accuracy
@@ -75,9 +79,12 @@ def show_transitions(judgments):
         print_header()
         print(f"\nAUDITING: {selected_case['judgment_id']}")
 
-        transitions = selected_case.get('statutory_transitions', {})
-        ipc_detected = transitions.get('ipc_detected', [])
-        bns_mapped = transitions.get('bns_mapped', [])
+        transitions = selected_case.get('statutory_transitions', [])
+        if isinstance(transitions, dict):
+            transitions = transitions.get('transitions', [])
+
+        ipc_detected = [t.get('ipc') for t in transitions if t.get('ipc')]
+        bns_mapped = [t for t in transitions if t.get('bns')]
 
         print("\n🔴 DETECTED IPC SECTIONS:")
         print(", ".join(ipc_detected) if ipc_detected else "None")
@@ -86,7 +93,11 @@ def show_transitions(judgments):
         bns_table = PrettyTable()
         bns_table.field_names = ["BNS Section", "From IPC", "Change Type"]
         for mapping in bns_mapped:
-            bns_table.add_row([mapping['bns'], mapping['ipc'], mapping['change_type']])
+            bns_table.add_row([
+                mapping.get('bns', 'N/A'),
+                mapping.get('ipc', 'N/A'),
+                mapping.get('source', 'unknown')
+            ])
         print(bns_table)
     else:
         print("Case not found.")

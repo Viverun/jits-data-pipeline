@@ -19,42 +19,56 @@ class ReportGenerator:
             return
 
         # Load data
-        with open(self.cluster_file) as f:
+        with open(self.cluster_file, "r", encoding="utf-8") as f:
             clusters = json.load(f)
+        if not isinstance(clusters, list):
+            print(f"[ERROR] Invalid cluster file format (expected list): {self.cluster_file}")
+            return
 
         judgments = list(self.processed_dir.glob("*.json"))
 
         # Calculate statistics
         total_cases = len(judgments)
         total_clusters = len(clusters)
-        cases_in_clusters = sum(c['count'] for c in clusters)
+        cases_in_clusters = sum(cluster.get("count", 0) for cluster in clusters if isinstance(cluster, dict))
 
         # Domain distribution
         domain_counts = Counter()
         landmark_count = 0
 
         for jfile in judgments:
-            with open(jfile) as f:
+            with open(jfile, "r", encoding="utf-8") as f:
                 data = json.load(f)
                 domain = data.get('classification', {}).get('domain', 'unknown')
                 domain_counts[domain] += 1
 
-                if data.get('annotations', {}).get('matched_landmarks'):
+                extractions = data.get("extractions", {})
+                has_v2_landmarks = extractions.get("landmarks", {}).get("total", 0) > 0
+                has_legacy_landmarks = bool(data.get("annotations", {}).get("matched_landmarks"))
+                if has_v2_landmarks or has_legacy_landmarks:
                     landmark_count += 1
 
         # High-Priority Batch Candidates
         top_candidates = []
         for cluster in clusters[:15]:
-            individual_time = cluster['count'] * 2
-            batch_time = cluster['count'] * 0.4
+            if not isinstance(cluster, dict):
+                continue
+
+            cluster_size = cluster.get("count", 0)
+            individual_time = cluster_size * 2
+            batch_time = cluster_size * 0.4
             savings = individual_time - batch_time
 
             top_candidates.append({
-                "cluster_id": cluster['cluster_id'],
-                "size": cluster['count'],
+                "cluster_id": cluster.get("cluster_id", "unknown"),
+                "size": cluster_size,
                 "primary_issue": cluster.get('primary_issue', 'mixed'),
                 "estimated_savings_hours": round(savings, 1)
             })
+
+        coverage_pct = 0.0
+        if total_cases > 0:
+            coverage_pct = round((cases_in_clusters / total_cases) * 100, 1)
 
         # Final Report Data
         report = {
@@ -62,7 +76,7 @@ class ReportGenerator:
                 "total_judgments_analyzed": total_cases,
                 "total_high_precision_clusters": total_clusters,
                 "total_cases_optimized": cases_in_clusters,
-                "optimization_coverage": f"{round((cases_in_clusters/total_cases)*100, 1)}%",
+                "optimization_coverage": f"{coverage_pct}%",
                 "landmark_precedents_matched": landmark_count
             },
             "domain_distribution": dict(domain_counts),

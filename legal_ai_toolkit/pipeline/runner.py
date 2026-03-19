@@ -3,8 +3,13 @@ import json
 import logging
 import re
 from pathlib import Path
-from tqdm import tqdm
 from datetime import datetime
+
+try:
+    from tqdm import tqdm
+except ImportError:
+    def tqdm(iterable, *args, **kwargs):
+        return iterable
 
 class BaseStep:
     def __init__(self, input_dir, output_dir, remove_processed=False):
@@ -147,4 +152,3 @@ class BaseStep:
         cleaned = re.sub(r'[<>:"|?*]', "_", cleaned)
         cleaned = re.sub(r"\s+", "-", cleaned)
         return cleaned or "unnamed"
-

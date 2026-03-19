@@ -140,35 +140,25 @@ class DataAuditor:
         for file in files:
             with open(file, "r", encoding="utf-8") as f:
                 data = json.load(f)
-                # v2.0 structure: extractions.citations.matched_landmarks
-                citations_data = data.get("extractions", {}).get("citations", {})
-                landmarks = citations_data.get("matched_landmarks", [])
-                for lm in landmarks:
-                    landmark_counts[lm.get("short_name", lm.get("name", "Unknown"))] += 1
 
-        print("\nTop Cited Landmarks:")
-        for name, count in landmark_counts.most_common(10):
-            print(f"  - {name}: {count} citations")
-        return landmark_counts
-
-    def audit_landmarks(self):
-        landmark_counts = Counter()
-        files = list(self.processed_dir.glob("*.json"))
-
-        for file in files:
-            with open(file, "r", encoding="utf-8") as f:
-                data = json.load(f)
-                # Check v2.0 structure: extractions.citations.matched_landmarks
+                # v2.0 structure
                 extractions = data.get("extractions", {})
-                citations = extractions.get("citations", {})
-                landmarks = citations.get("matched_landmarks", [])
+                landmarks = extractions.get("landmarks", {}).get("details", [])
+                if not landmarks:
+                    landmarks = extractions.get("citations", {}).get("matched_landmarks", [])
 
-                # Fallback to old structure if v2.0 not found
+                # Fallback to legacy structure
                 if not landmarks:
                     landmarks = data.get("annotations", {}).get("matched_landmarks", [])
 
                 for lm in landmarks:
-                    landmark_counts[lm.get("short_name", "Unknown")] += 1
+                    landmark_name = (
+                        lm.get("short_name")
+                        or lm.get("name")
+                        or lm.get("precedent_id")
+                        or "Unknown"
+                    )
+                    landmark_counts[landmark_name] += 1
 
         print("\nTop Cited Landmarks:")
         if landmark_counts:
@@ -177,6 +167,72 @@ class DataAuditor:
         else:
             print("  No landmark citations found.")
         return landmark_counts
+
+    def check_unmapped_ipc(self):
+        """
+        Audit IPC references that do not have a mapped BNS section.
+        Supports both v2.0 consolidated outputs and legacy transition structure.
+        """
+        files = list(self.processed_dir.glob("*.json"))
+        if not files:
+            print("No processed judgments found.")
+            return {}
+
+        unmapped_ipc_counts = Counter()
+        source_counts = Counter()
+        cases_with_unmapped = 0
+
+        for file in files:
+            with open(file, "r", encoding="utf-8") as f:
+                data = json.load(f)
+
+            transitions = data.get("extractions", {}).get("transitions", {}).get("details", [])
+            if not transitions:
+                top_level_transitions = data.get("statutory_transitions", {})
+                if isinstance(top_level_transitions, list):
+                    transitions = top_level_transitions
+                else:
+                    transitions = top_level_transitions.get("transitions", [])
+
+            has_unmapped_in_case = False
+            for transition in transitions:
+                ipc_section = str(transition.get("ipc", "")).strip().upper() or "UNKNOWN"
+                bns_section = transition.get("bns", transition.get("bnss"))
+
+                if not bns_section:
+                    unmapped_ipc_counts[ipc_section] += 1
+                    source_counts[transition.get("source", "unknown")] += 1
+                    has_unmapped_in_case = True
+
+            if has_unmapped_in_case:
+                cases_with_unmapped += 1
+
+        total_unmapped = sum(unmapped_ipc_counts.values())
+
+        print("\nUnmapped IPC Audit")
+        print("=" * 40)
+        print(f"Total Cases Scanned: {len(files)}")
+        print(f"Cases With Unmapped IPC: {cases_with_unmapped}")
+        print(f"Total Unmapped References: {total_unmapped}")
+
+        if total_unmapped == 0:
+            print("\nNo unmapped IPC sections found.")
+        else:
+            print("\nTop Unmapped IPC Sections:")
+            for ipc, count in unmapped_ipc_counts.most_common(20):
+                print(f"  - IPC {ipc}: {count} references")
+
+            print("\nSource Breakdown:")
+            for source, count in source_counts.most_common():
+                print(f"  - {source}: {count}")
+
+        return {
+            "cases_scanned": len(files),
+            "cases_with_unmapped": cases_with_unmapped,
+            "total_unmapped_references": total_unmapped,
+            "unmapped_ipc_counts": dict(unmapped_ipc_counts),
+            "source_breakdown": dict(source_counts),
+        }
 
     def analyze_edges(self):
         if not self.edge_file or not self.edge_file.exists():
@@ -334,12 +390,33 @@ class DataAuditor:
                 case2 = json.load(f2)
 
             # Analyze coherence: shared IPCs or shared issues
-            ipc1 = {m.get("ipc") for m in case1.get("statutory_transitions", {}).get("mapped", [])}
-            ipc2 = {m.get("ipc") for m in case2.get("statutory_transitions", {}).get("mapped", [])}
+            transitions1 = case1.get("statutory_transitions")
+            if isinstance(transitions1, list):
+                ipc1 = {m.get("ipc") for m in transitions1 if m.get("ipc")}
+            else:
+                ipc1 = {m.get("ipc") for m in case1.get("statutory_transitions", {}).get("transitions", []) if m.get("ipc")}
+
+            transitions2 = case2.get("statutory_transitions")
+            if isinstance(transitions2, list):
+                ipc2 = {m.get("ipc") for m in transitions2 if m.get("ipc")}
+            else:
+                ipc2 = {m.get("ipc") for m in case2.get("statutory_transitions", {}).get("transitions", []) if m.get("ipc")}
 
             shared_sections = ipc1 & ipc2
-            shared_issues = set(case1.get("annotations", {}).get("issues", [])) & \
-                            set(case2.get("annotations", {}).get("issues", []))
+            issues1 = case1.get("annotations", {}).get("issues", {})
+            issues2 = case2.get("annotations", {}).get("issues", {})
+
+            if isinstance(issues1, dict):
+                issues1 = set(issues1.keys())
+            else:
+                issues1 = set(issues1)
+
+            if isinstance(issues2, dict):
+                issues2 = set(issues2.keys())
+            else:
+                issues2 = set(issues2)
+
+            shared_issues = issues1 & issues2
 
             is_coherent = len(shared_sections) > 0 or len(shared_issues) > 0
             if is_coherent: coherent_count += 1

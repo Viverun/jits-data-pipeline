@@ -1,9 +1,4 @@
 import argparse
-from .pipeline.orchestrator import PipelineOrchestrator
-from .analytics.reporting import ReportGenerator
-from .analytics.audit import DataAuditor
-from .utils.demo import ShowcasePreparer
-from .cli_dashboard import main as run_dashboard
 
 def main():
     parser = argparse.ArgumentParser(description="Legal AI Toolkit CLI")
@@ -40,15 +35,18 @@ def main():
     args = parser.parse_args()
 
     if args.command == "pipeline":
+        from .pipeline.orchestrator import PipelineOrchestrator
         orchestrator = PipelineOrchestrator(raw_dir=args.raw_dir)
         if args.step:
             orchestrator.run_step(args.step, workers=args.workers)
         else:
             orchestrator.run_full_pipeline(workers=args.workers)
     elif args.command == "report":
+        from .analytics.reporting import ReportGenerator
         generator = ReportGenerator(args.cluster_file, args.processed_dir, args.output_dir)
         generator.generate()
     elif args.command == "audit":
+        from .analytics.audit import DataAuditor
         auditor = DataAuditor(args.processed_dir, cluster_file=args.cluster_file, edge_file=args.edge_file)
         if args.type == "quality":
             auditor.audit_quality()
@@ -67,9 +65,11 @@ def main():
         elif args.type == "integrity":
             auditor.validate_referential_integrity()
     elif args.command == "showcase":
+        from .utils.demo import ShowcasePreparer
         preparer = ShowcasePreparer(args.cluster_file, args.processed_dir, args.output_dir)
         preparer.prepare()
     elif args.command == "dashboard":
+        from .cli_dashboard import main as run_dashboard
         run_dashboard()
     else:
         parser.print_help()

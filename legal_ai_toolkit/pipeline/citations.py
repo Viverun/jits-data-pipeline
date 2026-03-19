@@ -58,7 +58,11 @@ class CitationExtractionStep(BaseStep):
             issues = list(data["annotations"]["issues"].keys())
             sections = []
             if "statutory_transitions" in data:
-                sections = data["statutory_transitions"].get("ipc_detected", [])
+                sections = [
+                    transition.get("ipc")
+                    for transition in data["statutory_transitions"].get("transitions", [])
+                    if transition.get("ipc")
+                ]
 
             relevant_precedents = PrecedentDatabase.find_relevant_precedents(issues, sections)
             data["annotations"]["suggested_precedents"] = relevant_precedents[:5]  # Top 5

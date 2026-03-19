@@ -131,6 +131,7 @@ class ConsolidationStep(BaseStep):
             "by_source": dict(transition_counts),
             "details": transitions
         }
+        unified["statutory_transitions"] = transitions
 
         # Include classification if available
         if 'classification' in data:
@@ -148,5 +149,4 @@ class ConsolidationStep(BaseStep):
         super().run()
 
         print(f"[Consolidation] ✅ Created unified JSON files in {self.output_dir}")
-
 

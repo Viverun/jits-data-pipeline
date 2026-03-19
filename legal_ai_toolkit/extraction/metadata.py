@@ -1,5 +1,6 @@
 #metadata.py
 import re
+from datetime import datetime
 
 COURT_PATTERNS = [
     r"SUPREME COURT OF INDIA",
@@ -60,6 +61,45 @@ BENCH_PATTERNS = [
     r'BENCH\s*:\s*(.+?)(?:\n\n|$)',
 ]
 
+DATE_FORMATS = (
+    "%Y-%m-%d",
+    "%d %B, %Y",
+    "%d %B %Y",
+    "%d %b, %Y",
+    "%d %b %Y",
+    "%d/%m/%Y",
+    "%d-%m-%Y",
+    "%d.%m.%Y",
+    "%d/%m/%y",
+    "%d-%m-%y",
+    "%d.%m.%y",
+    "%B %d, %Y",
+    "%b %d, %Y",
+)
+
+
+def normalize_decision_date(raw_date: str) -> str:
+    """Normalize extracted decision dates to ISO format when possible."""
+    if not raw_date:
+        return "UNKNOWN"
+
+    cleaned = raw_date.strip()
+    if not cleaned or cleaned.upper() == "UNKNOWN":
+        return "UNKNOWN"
+
+    cleaned = re.sub(r'(\d)(st|nd|rd|th)\b', r'\1', cleaned, flags=re.I)
+    cleaned = re.sub(r"\s+", " ", cleaned).strip(" ,")
+    normalized_candidates = [cleaned, cleaned.title()]
+
+    for candidate in normalized_candidates:
+        for fmt in DATE_FORMATS:
+            try:
+                return datetime.strptime(candidate, fmt).strftime("%Y-%m-%d")
+            except ValueError:
+                continue
+
+    return cleaned
+
 def extract_header_metadata(text: str):
     lines = text.split("\n")[:100]  # Increased search range
     header = " ".join(lines).upper()
@@ -97,7 +137,7 @@ def extract_header_metadata(text: str):
     for pattern in DATE_PATTERNS:
         match = re.search(pattern, header, re.I)
         if match:
-            metadata["decision_date"] = match.group(1).strip()
+            metadata["decision_date"] = normalize_decision_date(match.group(1))
             break
 
     # Extract petitioner/respondent
@@ -131,4 +171,3 @@ def extract_header_metadata(text: str):
             break
 
     return metadata
-

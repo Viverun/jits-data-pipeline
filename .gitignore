@@ -52,8 +52,8 @@ Thumbs.db
 # Processed Judgments (Hugging Face)
 legal_ai_toolkit/data/judgments/*.json
 # Whitelist 3 samples for GitHub
-!legal_ai_toolkit/data/judgments/IN-HC-ALL-2006-CV-121D60.json
-!legal_ai_toolkit/data/judgments/IN-HC-ALL-2006-CV-E0B4E7.json
+!legal_ai_toolkit/data/judgments/IN-HC-ALL-2006-SV-121D60.json
+!legal_ai_toolkit/data/judgments/IN-HC-ALL-2006-MX-E0B4E7.json
 !legal_ai_toolkit/data/judgments/IN-HC-ALL-2007-CR-25B3AC.json
 
 # Raw Data (Hugging Face)

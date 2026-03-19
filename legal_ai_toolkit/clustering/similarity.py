@@ -10,29 +10,78 @@ UNIVERSAL_SECTIONS = {
     "IPC 1", "IPC 2", "IPC 3", "IPC 4", "IPC 5", "IPC 6", "IPC 7", "IPC 8", "IPC 9", "IPC 10",
     "IPC 34", "IPC 120B", "IPC 149"
 }
+_ALL_SIGNALS = {}
+
+
+def _init_similarity_pool(all_signals_dict):
+    global _ALL_SIGNALS
+    _ALL_SIGNALS = all_signals_dict
+
+
+def _normalize_issue_names(issue_data):
+    if isinstance(issue_data, dict):
+        return list(issue_data.keys())
+    if isinstance(issue_data, list):
+        return list(issue_data)
+    return []
+
+
+def _normalize_section_signal(act, section):
+    if not act or not section:
+        return None
+    return f"{str(act).upper()} {str(section).upper()}"
+
+
+def _extract_section_signals(data):
+    section_signals = set()
+
+    for act_key, section_nums in data.get("extracted_sections", {}).items():
+        act = str(act_key).replace("_", " ")
+        for section in section_nums:
+            normalized = _normalize_section_signal(act, section)
+            if normalized:
+                section_signals.add(normalized)
+
+    transitions = data.get("statutory_transitions", {}).get("transitions", [])
+    if not transitions:
+        transitions = data.get("extractions", {}).get("transitions", {}).get("details", [])
+
+    for transition in transitions:
+        ipc = transition.get("ipc")
+        bns = transition.get("bns")
+        if ipc:
+            section_signals.add(f"IPC {str(ipc).upper()}")
+        if bns:
+            section_signals.add(f"BNS {str(bns).upper()}")
+
+    extraction_sections = data.get("extractions", {}).get("sections", {}).get("details", [])
+    for section in extraction_sections:
+        normalized = _normalize_section_signal(section.get("act"), section.get("section"))
+        if normalized:
+            section_signals.add(normalized)
+
+    return list(section_signals)
 
 def extract_signals(data):
     """Extracts core similarity signals from a judgment's annotations."""
     # Handle both old 'id' field and new 'judgment_id' field
     judgment_id = data.get("judgment_id") or data.get("id", "UNKNOWN")
 
+    annotation_issues = _normalize_issue_names(data.get("annotations", {}).get("issues", {}))
+    extraction_issues = _normalize_issue_names(data.get("extractions", {}).get("issues", {}).get("details", {}))
+    citations = data.get("annotations", {}).get("citations", [])
+    if not citations:
+        citations = data.get("extractions", {}).get("citations", {}).get("details", [])
+
     signals = {
         "judgment_id": judgment_id,
-        "issues": list(data.get("annotations", {}).get("issues", {}).keys()),
-        "sections": [],
+        "issues": annotation_issues or extraction_issues,
+        "sections": _extract_section_signals(data),
         "citations": [],
         "domain": data.get("classification", {}).get("domain", "unknown")
     }
 
-    # Extract sections from statutory transitions
-    transitions = data.get("statutory_transitions", {})
-    if transitions:
-        signals["sections"].extend(transitions.get("ipc_detected", []))
-        for m in transitions.get("bns_mapped", []):
-            signals["sections"].append(m["bns"])
-
     # Extract citations
-    citations = data.get("annotations", {}).get("citations", [])
     for c in citations:
         if "raw" in c:
             signals["citations"].append(c["raw"])
@@ -46,7 +95,8 @@ def extract_signals(data):
 
 def calculate_similarity_batch(args):
     """Process a batch of pairs in parallel"""
-    pair_batch, all_signals_dict = args
+    pair_batch = args
+    all_signals_dict = _ALL_SIGNALS
     edges = []
 
     for sig1_id, sig2_id in pair_batch:
@@ -126,16 +176,18 @@ class SimilarityProcessor:
         pairs = list(combinations(jid_list, 2))
         print(f"Total potential pairs: {len(pairs)}")
 
-        batches = [
-            (pairs[i : i + batch_size], all_signals)
-            for i in range(0, len(pairs), batch_size)
-        ]
+        batches = [pairs[i : i + batch_size] for i in range(0, len(pairs), batch_size)]
 
         print(f"Calculating similarity on {len(batches)} batches using {workers} workers...")
         all_edges = []
-        with Pool(workers) as pool:
-            for result in pool.imap_unordered(calculate_similarity_batch, batches):
-                all_edges.extend(result)
+        if workers <= 1:
+            _init_similarity_pool(all_signals)
+            for batch in batches:
+                all_edges.extend(calculate_similarity_batch(batch))
+        else:
+            with Pool(workers, initializer=_init_similarity_pool, initargs=(all_signals,)) as pool:
+                for result in pool.imap_unordered(calculate_similarity_batch, batches):
+                    all_edges.extend(result)
 
         print(f"Generated {len(all_edges)} edges. Saving to {self.edge_file}...")
         with open(self.edge_file, "w", encoding="utf-8") as out:

@@ -1,5 +1,14 @@
 import hashlib
 
+
+DOMAIN_CODES = {
+    "criminal": "CR",
+    "civil": "CV",
+    "service": "SV",
+    "mixed": "MX",
+    "unknown": "UN",
+}
+
 def generate_judgment_id(
     court_level: str,
     court_code: str,
@@ -14,7 +23,7 @@ def generate_judgment_id(
 
     court_level = court_level.upper()
     court_code = court_code.upper()
-    domain = "CR" if domain.lower() == "criminal" else "CV"
+    domain = DOMAIN_CODES.get(domain.lower(), "UN")
 
     if seq is None:
         # Deterministic hash-based fallback

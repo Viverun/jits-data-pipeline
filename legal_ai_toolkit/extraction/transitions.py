@@ -37,6 +37,21 @@ class TransitionExtractor:
         # "BNS 123 (formerly IPC 498-A)"
         r'BNS\s+(\d+[A-Z\-]*)\s*(?:\(|,|;|\.)\s*(?:earlier|formerly|previously)\s+(?:IPC|Indian Penal Code)\s+(\d+[A-Z\-]*)',
     ]
+    SUPPORTED_DATE_FORMATS = (
+        "%Y-%m-%d",
+        "%d %B, %Y",
+        "%d %B %Y",
+        "%d %b, %Y",
+        "%d %b %Y",
+        "%d/%m/%Y",
+        "%d-%m-%Y",
+        "%d.%m.%Y",
+        "%d/%m/%y",
+        "%d-%m-%y",
+        "%d.%m.%y",
+        "%B %d, %Y",
+        "%b %d, %Y",
+    )
 
     @classmethod
     def extract(cls, text: str, judgment_date: Optional[str] = None) -> List[Dict]:
@@ -53,7 +68,8 @@ class TransitionExtractor:
         transitions = []
 
         # --- TEMPORAL GUARDRAIL ---
-        is_pre_bns = cls._is_pre_bns_judgment(judgment_date)
+        parsed_judgment_date = cls._parse_judgment_date(judgment_date)
+        is_pre_bns = cls._is_pre_bns_judgment(parsed_judgment_date)
 
         # --- 1. EXTRACT EXPLICIT TRANSITION PAIRS ---
         explicit_transitions = cls._extract_explicit_pairs(text, is_pre_bns)
@@ -61,28 +77,40 @@ class TransitionExtractor:
 
         # --- 2. INFER TRANSITIONS FROM STANDALONE IPC SECTIONS ---
         # Only infer for post-BNS judgments
-        if not is_pre_bns:
+        if parsed_judgment_date and not is_pre_bns:
             inferred_transitions = cls._infer_from_ipc_sections(text)
             transitions.extend(inferred_transitions)
         else:
-            # For pre-BNS judgments, just record IPC sections as background
-            background_sections = cls._record_pre_bns_sections(text)
+            # For pre-BNS or date-unresolved judgments, record IPC sections as background only.
+            background_sections = cls._record_pre_bns_sections(text, date_was_unresolved=parsed_judgment_date is None)
             transitions.extend(background_sections)
 
         # --- 3. DEDUPLICATE ---
         return cls._deduplicate(transitions)
 
     @classmethod
-    def _is_pre_bns_judgment(cls, judgment_date: Optional[str]) -> bool:
+    def _parse_judgment_date(cls, judgment_date: Optional[str]) -> Optional[datetime]:
+        """Parse judgment dates from ISO and legacy formats."""
+        if not judgment_date or str(judgment_date).upper() == "UNKNOWN":
+            return None
+
+        cleaned = re.sub(r'(\d)(st|nd|rd|th)\b', r'\1', str(judgment_date).strip(), flags=re.I)
+        cleaned = re.sub(r"\s+", " ", cleaned).strip(" ,")
+
+        for candidate in (cleaned, cleaned.title()):
+            for fmt in cls.SUPPORTED_DATE_FORMATS:
+                try:
+                    return datetime.strptime(candidate, fmt)
+                except ValueError:
+                    continue
+        return None
+
+    @classmethod
+    def _is_pre_bns_judgment(cls, judgment_date: Optional[datetime]) -> bool:
         """Check if judgment is before BNS enactment."""
         if not judgment_date:
-            return False
-
-        try:
-            jd = datetime.strptime(judgment_date, "%Y-%m-%d")
-            return jd < cls.BNS_ENACTMENT_DATE
-        except ValueError:
-            return False
+            return True
+        return judgment_date < cls.BNS_ENACTMENT_DATE
 
     @classmethod
     def _extract_explicit_pairs(cls, text: str, is_pre_bns: bool) -> List[Dict]:
@@ -147,8 +175,8 @@ class TransitionExtractor:
         return transitions
 
     @classmethod
-    def _record_pre_bns_sections(cls, text: str) -> List[Dict]:
-        """Record IPC sections from pre-BNS judgments as background only."""
+    def _record_pre_bns_sections(cls, text: str, date_was_unresolved: bool = False) -> List[Dict]:
+        """Record IPC sections from pre-BNS or unresolved-date judgments as background only."""
         transitions = []
 
         # Use our new SectionExtractor
@@ -163,11 +191,15 @@ class TransitionExtractor:
             transitions.append({
                 "ipc": ipc,
                 "bns": None,
-                "source": "pre_bns_background",
+                "source": "date_unresolved_background" if date_was_unresolved else "pre_bns_background",
                 "validated": False,
                 "risk": "none",
                 "confidence": "low",
-                "note": "Pre-BNS judgment. IPC section recorded as background only."
+                "note": (
+                    "Judgment date could not be resolved confidently. IPC section recorded as background only."
+                    if date_was_unresolved
+                    else "Pre-BNS judgment. IPC section recorded as background only."
+                )
             })
 
         return transitions

@@ -38,13 +38,13 @@ class SectionExtractor:
             r'Indian Evidence Act',
             r'Evidence Act'
         ],
-        "BNS": [
-            r'B\.?N\.?S\.?',
-            r'Bhartiya Nyaya Sanhita'
-        ],
         "BNSS": [
             r'B\.?N\.?S\.?S\.?',
             r'Bhartiya Nagarik Suraksha Sanhita'
+        ],
+        "BNS": [
+            r'B\.?N\.?S\.?(?!\.?S)',
+            r'Bhartiya Nyaya Sanhita'
         ],
         "Dowry Prohibition Act": [
             r'Dowry Prohibition Act',
