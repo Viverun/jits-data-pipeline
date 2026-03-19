@@ -2,13 +2,23 @@
 import os
 import sys
 
-from huggingface_hub import HfApi
+from huggingface_hub import CommitOperationAdd, HfApi
 from huggingface_hub.errors import HfHubHTTPError
 
 REPO_ID = os.environ.get("HF_DATASET_REPO_ID", "Viverun/jits-legal-dataset")
-FILE_PATH = "train.jsonl"
-PATH_IN_REPO = "train.jsonl"  # Root of the dataset
+RELEASE_ASSETS = [
+    ("train.jsonl", "train.jsonl"),
+    ("DATASET_CARD.md", "README.md"),
+]
 PLACEHOLDER_TOKENS = {"your_token_here", "hf_your_token_here"}
+COMMIT_MESSAGE = (
+    "v1.4: Fix classification, transition temporal guardrails, and similarity signals\n\n"
+    "- domain distribution corrected (criminal: 356, service: 191, mixed: 179, civil: 119)\n"
+    "- 0 spurious BNS mappings on pre-July-2024 judgments\n"
+    "- 307/307 IPC-bearing cases now have section signals in similarity graph\n"
+    "- 90,924 similarity edges, 25 refined clusters\n"
+    "- breaking: 397 judgment_ids changed due to domain correction"
+)
 
 
 def get_api():
@@ -27,22 +37,18 @@ def get_api():
 
 def upload():
     api = get_api()
-    print(f"Uploading {FILE_PATH} to {REPO_ID}...")
+    print(f"Uploading release assets to {REPO_ID}...")
     try:
         api.create_repo(repo_id=REPO_ID, repo_type="dataset", exist_ok=True)
-        api.upload_file(
-            path_or_fileobj=FILE_PATH,
-            path_in_repo=PATH_IN_REPO,
+        operations = [
+            CommitOperationAdd(path_in_repo=dest, path_or_fileobj=src)
+            for src, dest in RELEASE_ASSETS
+        ]
+        api.create_commit(
             repo_id=REPO_ID,
             repo_type="dataset",
-            commit_message=(
-                "v1.4: Fix classification, transition temporal guardrails, and similarity signals\n\n"
-                "- domain distribution corrected (criminal: 356, service: 191, mixed: 179, civil: 119)\n"
-                "- 0 spurious BNS mappings on pre-July-2024 judgments\n"
-                "- 307/307 IPC-bearing cases now have section signals in similarity graph\n"
-                "- 90,924 similarity edges, 25 refined clusters\n"
-                "- breaking: 397 judgment_ids changed due to domain correction"
-            )
+            operations=operations,
+            commit_message=COMMIT_MESSAGE,
         )
         print("Upload successful!")
     except HfHubHTTPError as e:

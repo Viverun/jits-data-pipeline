@@ -66,6 +66,9 @@ This dataset is **not** intended to provide legal advice.
 | **Citations Extracted** | 4,233 | Self-citations excluded |
 | **Sections Extracted** | 2,402 | Across 9+ statutory acts |
 | **Statutory Acts Detected** | 9+ | IPC, CrPC, Evidence Act, Dowry Act, POCSO, BNS, BNSS, NDPS, SC/ST |
+| **Similarity Edges** | 90,924 | Deterministic graph edges after clean rerun |
+| **Refined Clusters** | 25 | High-precision similarity clusters |
+| **Domain Distribution** | criminal 356; service 191; mixed 179; civil 119; unknown 1 | Post-fix v1.4 rerun |
 | **Processing Quality** | 0 errors | 100% success rate on current batch |
 
 ### Quality Improvements
@@ -135,10 +138,10 @@ Each record contains:
 - `judgment_id`: Stable unique identifier
 - `text`: Full judgment text
 - `metadata`: Court, date, case identifiers
+- `extractions`: Structured citations, sections, issues, landmarks, and transition summaries
 - `classification`: Rule-based domain classification
-- `annotations`: Issues, citations, landmarks
 - `statutory_transitions`: IPC / CrPC → BNS / BNSS mappings
-- `similarity`: Deterministic similarity signals and edges
+- `provenance`: Pipeline versioning and processing metadata
 
 ## Schema Overview
 
@@ -159,30 +162,32 @@ Here is a simplified example of a single record:
 
 ```json
 {
-  "judgment_id": "IN-HC-ALL-2006-CV-E0B4E7",
+  "judgment_id": "IN-HC-ALL-2007-CR-25B3AC",
   "text": "Allahabad High Court...",
   "metadata": {
     "court": "Allahabad High Court",
-    "date": "2006-11-03",
-    "bench": ["V.M. Sahai", "Sabhajeet Yadav"]
+    "court_level": "HC",
+    "decision_date": "2007-12-11",
+    "case_number": "CRIMINAL MISC. BAIL APPLICATION NO. 7936",
+    "jurisdiction": "India"
   },
   "classification": {
-    "domain": "service",
+    "domain": "criminal",
     "confidence": "high",
     "signals": {
-      "service": ["seniority", "pension", "Article 16"]
+      "criminal": ["CrPC", "IPC", "accused", "bail", "fir"]
     }
   },
   "statutory_transitions": [
     {
-      "ipc": "302",
-      "bns": "103",
-      "source": "inferred"
+      "ipc": "498-A",
+      "bns": null,
+      "source": "pre_bns_background"
     }
   ],
   "provenance": {
-    "version": "2.0",
-    "processed_date": "2026-01-18T18:40:35"
+    "pipeline_version": "2.0",
+    "processed_date": "2026-03-19T19:35:17"
   }
 }
 ```
