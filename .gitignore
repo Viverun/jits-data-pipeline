@@ -71,3 +71,12 @@ VERSION_HISTORY.md
 
 # Large release artifact (published on Hugging Face)
 train.jsonl
+
+# Generated checkpoints/manifests
+download_checkpoint*.json
+download_manifest*.jsonl
+
+# Generated backup snapshots
+annotations/similarity_backup_*/
+interim_backup_*/
+legal_ai_toolkit/data/judgments_backup_*/
