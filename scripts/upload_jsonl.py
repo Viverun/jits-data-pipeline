@@ -4,7 +4,7 @@ import sys
 
 from huggingface_hub import CommitOperationAdd, HfApi
 from huggingface_hub.errors import HfHubHTTPError
-from normalize_dataset import DEFAULT_INPUT_DIR, DEFAULT_OUTPUT_FILE, export_jsonl
+from normalize_dataset import DEFAULT_INPUT_DIR, DEFAULT_OUTPUT_FILE, export_jsonl, validate_release_quality
 
 REPO_ID = os.environ.get("HF_DATASET_REPO_ID", "Viverun/jits-legal-dataset")
 RELEASE_ASSETS = [
@@ -52,11 +52,16 @@ def prepare_release_assets(include_unknown_cases: bool, exclude_unknown_domain: 
     if skipped:
         summary = ", ".join(f"{reason}={count}" for reason, count in sorted(skipped.items()))
         print(f"Skipped records: {summary}")
+    validate_release_quality(output_file)
+    print("Release gate passed: no unknown-year (0000) IDs found.")
 
 
 def upload(include_unknown_cases: bool = False, exclude_unknown_domain: bool = False, skip_export: bool = False):
     if not skip_export:
         prepare_release_assets(include_unknown_cases, exclude_unknown_domain)
+    else:
+        validate_release_quality(DEFAULT_OUTPUT_FILE)
+        print("Release gate passed on existing train.jsonl: no unknown-year (0000) IDs found.")
 
     api = get_api()
     print(f"Uploading release assets to {REPO_ID}...")

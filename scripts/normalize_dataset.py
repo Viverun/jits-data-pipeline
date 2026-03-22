@@ -50,6 +50,8 @@ def should_export_record(
     if exclude_unknown_cases:
         if judgment_id.startswith("IN-UNKNOWN-UNK-"):
             return False, "unknown_id"
+        if "-0000-" in judgment_id:
+            return False, "unknown_year_id"
         if is_unknown(metadata.get("court")) or is_unknown(metadata.get("court_level")):
             return False, "unknown_court"
 
@@ -136,6 +138,26 @@ def export_jsonl(
     return count, skipped
 
 
+def validate_release_quality(output_file: Path):
+    unknown_year_ids = []
+    with Path(output_file).open("r", encoding="utf-8") as f:
+        for line_no, line in enumerate(f, start=1):
+            line = line.strip()
+            if not line:
+                continue
+            record = json.loads(line)
+            judgment_id = normalize_string(record.get("judgment_id")).strip()
+            if "-0000-" in judgment_id:
+                unknown_year_ids.append((line_no, judgment_id))
+
+    if unknown_year_ids:
+        preview = ", ".join(judgment_id for _, judgment_id in unknown_year_ids[:5])
+        raise ValueError(
+            "Release gate failed: found judgment IDs with year 0000 in export: "
+            f"{len(unknown_year_ids)} records (examples: {preview})"
+        )
+
+
 def main():
     parser = argparse.ArgumentParser(description="Export current processed judgments to train.jsonl")
     parser.add_argument("--input-dir", default=DEFAULT_INPUT_DIR)
@@ -161,6 +183,7 @@ def main():
         exclude_unknown_cases=not args.include_unknown_cases,
         exclude_unknown_domain=args.exclude_unknown_domain,
     )
+    validate_release_quality(output_file)
     print(f"Successfully wrote {count} records to {output_file}")
     if skipped:
         summary = ", ".join(f"{reason}={count}" for reason, count in sorted(skipped.items()))
