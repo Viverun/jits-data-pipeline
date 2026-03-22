@@ -983,6 +983,8 @@ def _extract_bare_header_case_tag(text: str):
 
 
 def _extract_high_court_embedded_case_tag(text: str):
+    # Keep this extractor bounded: broad alternations on very long OCR text can backtrack heavily.
+    text = text[:2500]
     high_court_pattern = re.compile(
         r"\b(?:(?:the\s+)?high court(?: of judicature)?(?: at| of)?\s+[A-Z][A-Za-z.& ]+(?:\s+at\s+[A-Z][A-Za-z.& ]+)?|"
         r"[A-Z][A-Za-z.& ]+\s+high court)\b",
@@ -1065,6 +1067,7 @@ def _extract_madras_portal_case_tag(text: str):
 
 
 def _extract_special_case_number(text: str):
+    text = text[:2500]
     for extractor in (
         _extract_neutral_citation_case_tag,
         _extract_patna_embedded_case_tag,
@@ -1098,11 +1101,26 @@ def _extract_case_number_match(text: str, patterns=None):
     return None
 
 
+def _looks_like_case_number_candidate(text: str) -> bool:
+    if not text:
+        return False
+
+    lowered = text.lower()
+    if len(lowered) > 420:
+        return False
+
+    # Fast lexical gate before running expensive regex families.
+    if re.search(r"\b(?:no\.?|nos\.?|case|petition|appeal|revision|wp|w\.p\.?|cwp|crl|cr\.?|mcrc|slp|lpa|ma|cma|fao|mfa|misc|oa|op)\b", lowered):
+        return True
+
+    return bool(re.search(r"/\d{2,4}\b|\bof\s+(?:19|20)\d{2}\b", lowered))
+
+
 def extract_case_number(lines, header_text: str = ""):
     cleaned_lines = [_clean_header_line(line) for line in lines if line.strip()]
 
     if header_text:
-        special_case = _extract_special_case_number(header_text[:4000])
+        special_case = _extract_special_case_number(header_text[:2500])
         if special_case:
             return special_case
 
@@ -1115,7 +1133,11 @@ def extract_case_number(lines, header_text: str = ""):
 
     for pattern in LINE_CASE_NO_PATTERNS:
         for candidate in line_candidates:
-            extracted = _extract_case_number_match(candidate, patterns=[pattern])
+            if re.search(r"^\W*(?:respondents?|petitioners?|appellants?)\b", candidate, re.I):
+                continue
+            if not _looks_like_case_number_candidate(candidate):
+                continue
+            extracted = _extract_case_number_match(candidate[:300], patterns=[pattern])
             if extracted:
                 return extracted
 
@@ -1127,12 +1149,16 @@ def extract_case_number(lines, header_text: str = ""):
 
     for pattern in CASE_NO_PATTERNS:
         for candidate in line_candidates:
-            extracted = _extract_case_number_match(candidate, patterns=[pattern])
+            if re.search(r"^\W*(?:respondents?|petitioners?|appellants?)\b", candidate, re.I):
+                continue
+            if not _looks_like_case_number_candidate(candidate):
+                continue
+            extracted = _extract_case_number_match(candidate[:420], patterns=[pattern])
             if extracted:
                 return extracted
 
     if header_text:
-        extracted = _extract_case_number_match(header_text[:6000])
+        extracted = _extract_case_number_match(header_text[:900])
         if extracted:
             return extracted
 
@@ -1141,7 +1167,7 @@ def extract_case_number(lines, header_text: str = ""):
             _extract_bare_header_case_tag,
             _extract_bombay_uploader_slug_case_tag,
         ):
-            extracted = fallback_extractor(header_text[:6000])
+            extracted = fallback_extractor(header_text[:2500])
             if extracted:
                 return extracted
 
