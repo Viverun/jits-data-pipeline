@@ -45,6 +45,7 @@ class BaseStep:
         successful = 0
         renamed_count = 0
         processed_files = []  # Track files to delete
+        written_outputs = set()
 
         for file in tqdm(files):
             try:
@@ -76,6 +77,7 @@ class BaseStep:
                         json.dump(processed_data, out, indent=2, ensure_ascii=False)
                     successful += 1
                     processed_files.append(file)  # Track for deletion
+                    written_outputs.add(out_path.resolve())
                 else:
                     failed_files.append((file.name, "process_item returned None"))
                     self.logger.warning(f"Skipped {file.name}: process_item returned None")
@@ -88,6 +90,11 @@ class BaseStep:
         if self.remove_processed and processed_files:
             self._remove_files(processed_files)
 
+        # Prune any stale JSON artifacts from prior runs so downstream stages
+        # only see the outputs created from the current input set.
+        if self.output_dir != self.input_dir:
+            self._prune_stale_outputs(written_outputs)
+
         # Report summary
         print(f"\n[OK] Successfully processed: {successful}/{len(files)}")
         if renamed_count > 0:
@@ -98,7 +105,9 @@ class BaseStep:
 
     def _write_error_log(self, failed_files):
         """Write error log to output directory."""
-        error_log_path = self.output_dir / f"errors_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+        error_dir = self.output_dir / "_errors"
+        error_dir.mkdir(parents=True, exist_ok=True)
+        error_log_path = error_dir / f"errors_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
         error_data = {
             "timestamp": datetime.now().isoformat(),
             "step": self.__class__.__name__,
@@ -111,6 +120,25 @@ class BaseStep:
         with open(error_log_path, "w", encoding="utf-8") as f:
             json.dump(error_data, f, indent=2, ensure_ascii=False)
         print(f"📝 Error log written to: {error_log_path}")
+
+    def _prune_stale_outputs(self, written_outputs):
+        """Delete top-level JSON files not regenerated during this run."""
+        stale_files = []
+
+        for path in self.output_dir.glob("*.json"):
+            if path.resolve() not in written_outputs:
+                stale_files.append(path)
+
+        removed_count = 0
+        for path in stale_files:
+            try:
+                path.unlink()
+                removed_count += 1
+            except Exception as e:
+                self.logger.error(f"Failed to remove stale output {path.name}: {str(e)}")
+
+        if removed_count > 0:
+            print(f"[PRUNED] Removed stale outputs: {removed_count}")
 
     def _remove_files(self, files):
         """Remove processed files from the input directory."""

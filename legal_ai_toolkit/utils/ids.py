@@ -51,6 +51,7 @@ COURT_CODE_MAP = {
     "industrial court": "IND",
     "labour court": "LAB",
     "family court": "FAM",
+    "motor accident claims tribunal": "MAC",
 }
 
 COURT_STOPWORDS = {
@@ -134,6 +135,10 @@ def generate_judgment_id(
     court_level = court_level.upper()
     court_code = court_code.upper()
     domain = DOMAIN_CODES.get(domain.lower(), "UN")
+    try:
+        year_part = f"{int(year):04d}" if int(year) >= 0 else "0000"
+    except (TypeError, ValueError):
+        year_part = "0000"
 
     if seq is None:
         # Deterministic hash-based fallback
@@ -142,4 +147,4 @@ def generate_judgment_id(
     else:
         seq_part = f"{seq:06d}"
 
-    return f"IN-{court_level}-{court_code}-{year}-{domain}-{seq_part}"
+    return f"IN-{court_level}-{court_code}-{year_part}-{domain}-{seq_part}"

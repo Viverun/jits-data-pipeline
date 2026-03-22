@@ -13,7 +13,7 @@ tags:
 language:
   - en
 size_categories:
-  - n<1K
+  - 1K<n<10K
 ---
 
 # JITS Legal Dataset
@@ -29,14 +29,15 @@ A production-ready, deterministic pipeline for processing Indian legal judgments
 
 > **Disclaimer:** This dataset is independently created for research and engineering use. It is *not* an official government or judicial release and does not constitute legal advice.
 
-The JITS Legal Dataset contains **846 Supreme Court and High Court judgments**
+The JITS Legal Dataset currently contains **3008 processed judgments** in the full corpus,
+with **2377 rows** in the current public `train.jsonl` release export,
 processed into machine-readable JSON with:
 
 - **Clean text extraction** with artifact removal (Phase 1)
 - **Citation extraction** with self-citation exclusion (Phase 2)
 - **Multi-act section extraction** supporting 9+ statutory acts (Phase 3)
 - **IPC→BNS transition mapping** with temporal validation (Phase 4)
-- **Comprehensive processing** of 846 judgments (Phase 5)
+- **Comprehensive processing** of 3008 judgments (current full-corpus build)
 
 All outputs are reproducible, auditable, and traceable to explicit rules.
 
@@ -61,16 +62,18 @@ This dataset is **not** intended to provide legal advice.
 
 | Metric | Value | Notes |
 |--------|-------|-------|
-| **Total Judgments** | 846 | Available in `train.jsonl` |
-| **Processed Files** | 846 | 100% processed and validated |
-| **Citations Extracted** | 4,233 | Self-citations excluded |
-| **Sections Extracted** | 2,402 | Across 9+ statutory acts |
-| **Statutory Acts Detected** | 9+ | IPC, CrPC, Evidence Act, Dowry Act, POCSO, BNS, BNSS, NDPS, SC/ST |
-| **Similarity Edges** | 90,924 | Across 846 judgments |
-| **Refined Clusters** | 23 | Domain-pure, high-strength only |
-| **Court Coverage** | SC, HC, TR | Supreme Court, 20+ High Courts, CAT |
-| **Domain Distribution** | criminal 356; service 191; mixed 179; civil 119; unknown 1 | Post-fix v1.4 rerun |
-| **Processing Quality** | 0 errors | 100% success rate on current batch |
+| **Full Corpus (Processed Judgments)** | 3008 | Consolidated deterministic corpus |
+| **Release Export Rows (`train.jsonl`)** | 2377 | UNKNOWN-court IDs excluded |
+| **Metadata Completeness** | 66.3% (1995/3008) | Completeness across court/date/case_number |
+| **Missing Court (Full Corpus)** | 631 | Remaining UNKNOWN-court records |
+| **Missing Decision Date (Full Corpus)** | 709 | Full-corpus missing dates |
+| **Missing Case Number (Full Corpus)** | 998 | Full-corpus missing case numbers |
+| **Unknown-Year IDs (Full Corpus)** | 321 | IDs with unresolved year |
+| **Release Missing Dates** | 382 | Missing dates in exported `train.jsonl` |
+| **Release Missing Case Numbers** | 635 | Missing case numbers in exported `train.jsonl` |
+| **Non-ISO Dates** | 0 | Date normalization verified |
+| **Duplicate IDs** | 0 | Uniqueness verified |
+| **Referential Integrity Errors** | 0 | Referential checks passed |
 
 ### Quality Improvements
 - ✅ **Self-citation exclusion**: No false positive citations
@@ -115,9 +118,20 @@ legal-ai pipeline && legal-ai audit --type quality
 - Each dataset version corresponds deterministically to a specific
   pipeline commit
 
-> **Note on Dataset Size:** Earlier experimental pipeline runs processed up to 908 judgments. The current release (v1.5) contains **846 production-ready judgments** after stricter validation, self-citation exclusion, and quality filtering were applied.
+> **Note on Dataset Size:** Earlier snapshots in this repository may show lower counts. The current deterministic corpus build contains **3008** processed judgments, while the current release export contains **2377** rows after UNKNOWN-court exclusion.
 
 ### Changelog
+
+#### v1.6 (2026-03-22)
+
+- Rebuilt corpus through `consolidate` and regenerated `train.jsonl`.
+- Added deeper-header fallback recovery in metadata extraction.
+- Added Delhi QR/order-portal detection, Orissa signed-location recovery, and Andhra Amaravati proceedings-sheet recovery.
+- Added safer embedded high-court caption matching.
+- Broadened case-tag support (`MA`, `First Appeal`, `C.Misc.`, `CR. WJC`).
+- Full-corpus quality: `66.3%` metadata completeness (`1995/3008`), missing court `631`, unknown-year IDs `321`, non-ISO dates `0`, duplicate IDs `0`, referential integrity errors `0`.
+- Release quality (`train.jsonl`): `2377` rows, unknown-ID cases excluded `631`, missing dates `382`, missing case numbers `635`, non-ISO dates `0`.
+- Verification green: metadata tests `63/63`, normalize-dataset tests `3/3`, pipeline-runner tests `2/2`.
 
 #### v1.5 (2026-03-19)
 
@@ -219,7 +233,7 @@ The complete data processing pipeline, schemas, and audit tools are available at
 If you use this dataset, please cite:
 
 ```
-Viverun (2026). JITS Legal Dataset (v1.5). Hugging Face.
+Viverun (2026). JITS Legal Dataset (v1.6). Hugging Face.
 ```
 
 ---

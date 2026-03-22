@@ -68,3 +68,6 @@ MIGRATION_GUIDE_V2.md
 MANIFEST.in
 PROJECT_INDEX.md
 VERSION_HISTORY.md
+
+# Large release artifact (published on Hugging Face)
+train.jsonl

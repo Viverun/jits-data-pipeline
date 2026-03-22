@@ -32,6 +32,19 @@ def main():
     # Dashboard command
     subparsers.add_parser("dashboard", help="Launch the CLI dashboard")
 
+    # Download command
+    download_parser = subparsers.add_parser("download", help="Download additional judgments using the resumable Indian Kanoon crawler")
+    download_parser.add_argument("--output-dir", default="legal_ai_toolkit/data/raw/judgments", help="Directory to store raw judgment .txt files")
+    download_parser.add_argument("--checkpoint-file", default="download_checkpoint.json", help="Checkpoint JSON for resumable crawling")
+    download_parser.add_argument("--manifest-file", default="download_manifest.jsonl", help="JSONL manifest of downloaded source documents")
+    download_parser.add_argument("--target-total", type=int, default=3200, help="Stop once the raw corpus reaches this many .txt files")
+    download_parser.add_argument("--per-query", type=int, default=40, help="Maximum search results to fetch per query")
+    download_parser.add_argument("--max-queries", type=int, default=0, help="Optional cap on how many queries to attempt this run")
+    download_parser.add_argument("--query-file", default=None, help="Optional JSON/JSONL/plaintext query file")
+    download_parser.add_argument("--query-profile", choices=["default", "deep"], default="default", help="Built-in query catalog to use when --query-file is not provided")
+    download_parser.add_argument("--shuffle", action="store_true", help="Shuffle the default query plan")
+    download_parser.add_argument("--dry-run", action="store_true", help="Print the planned queries without downloading")
+
     args = parser.parse_args()
 
     if args.command == "pipeline":
@@ -71,6 +84,68 @@ def main():
     elif args.command == "dashboard":
         from .cli_dashboard import main as run_dashboard
         run_dashboard()
+    elif args.command == "download":
+        from .extraction import IndianKanoonDownloader, build_expansion_queries, load_queries_from_file
+
+        queries = (
+            load_queries_from_file(args.query_file)
+            if args.query_file
+            else build_expansion_queries(shuffle=args.shuffle, profile=args.query_profile)
+        )
+        if args.max_queries and args.max_queries > 0:
+            queries = queries[:args.max_queries]
+
+        if args.dry_run:
+            print(f"Planned queries: {len(queries)}")
+            for item in queries[:25]:
+                print(f"- [{item['category']}] {item['query']}")
+            if len(queries) > 25:
+                print(f"... and {len(queries) - 25} more")
+            return
+
+        downloader = IndianKanoonDownloader(
+            output_dir=args.output_dir,
+            checkpoint_file=args.checkpoint_file,
+            manifest_file=args.manifest_file,
+        )
+
+        remaining_queries = [item for item in queries if item["query"] not in downloader.completed_queries]
+
+        starting_count = downloader.count_saved_files()
+        print(f"Starting raw corpus size: {starting_count}")
+        print(f"Target raw corpus size: {args.target_total}")
+        print(f"Planned queries in catalog: {len(queries)}")
+        print(f"Remaining queries after checkpoint: {len(remaining_queries)}")
+        if args.query_file:
+            print(f"Query catalog source: {args.query_file}")
+        else:
+            print(f"Query catalog profile: {args.query_profile}")
+
+        if not remaining_queries:
+            print("Query catalog exhausted for the current checkpoint. Use a new query profile, a query file, or a fresh checkpoint.")
+            return
+
+        for item in remaining_queries:
+            current_total = downloader.count_saved_files()
+            if current_total >= args.target_total:
+                print(f"Reached target corpus size: {current_total}")
+                break
+
+            downloader.search_and_download(
+                item["query"],
+                item["category"],
+                max_results=args.per_query,
+            )
+
+        final_total = downloader.count_saved_files()
+        print("\nDownload run complete!")
+        print(f"  Raw files: {final_total}")
+        print(f"  Newly added this run: {final_total - starting_count}")
+        print(f"  Total downloaded docs tracked: {downloader.progress.get('total_downloaded', 0)}")
+        print(f"  Duplicate doc IDs skipped: {downloader.progress.get('duplicate_doc_ids', 0)}")
+        print(f"  Duplicate texts skipped: {downloader.progress.get('duplicate_texts', 0)}")
+        print(f"  Short-content skips: {downloader.progress.get('short_content', 0)}")
+        print(f"  Failed downloads: {downloader.progress.get('failed_downloads', 0)}")
     else:
         parser.print_help()
 

@@ -9,7 +9,7 @@ A production-ready, deterministic pipeline for processing Indian legal judgments
 
 > **Disclaimer:** This dataset is independently created for research and engineering use. It is not an official government or judicial release and does not constitute legal advice.
 
-This repository contains the deterministic pipeline used to generate the JITS Legal Dataset. The current public release contains **846** processed judgments with:
+This repository contains the deterministic pipeline used to generate the JITS Legal Dataset. The current corpus build contains **3008** processed judgments, with **2377** release-ready rows exported in `train.jsonl`, with:
 
 - clean text extraction and normalization
 - rule-based metadata extraction and domain classification
@@ -24,25 +24,28 @@ All outputs are reproducible, auditable, and traceable to explicit rules.
 
 - **GitHub repository:** pipeline code, audit logic, schemas, scripts, and reproducible processed outputs
 - **Canonical public dataset:** [Hugging Face - Viverun/jits-legal-dataset](https://huggingface.co/datasets/Viverun/jits-legal-dataset)
-- **Primary release artifact:** `train.jsonl`
+- **Primary release artifact:** `train.jsonl` (published on Hugging Face)
 
 The metrics below are computed from the current exported `train.jsonl` and processed JSON corpus in this repository.
 
 ## Current Release
 
-Current GitHub release state: **v1.5**
+Current GitHub release state: **v1.6**
 
 | Metric | Value | Notes |
 |--------|-------|-------|
-| **Total Judgments** | 846 | Canonical export in `train.jsonl` |
-| **Citations Extracted** | 4,065 | Self-citations excluded |
-| **Sections Extracted** | 2,402 | Across 9 statutory acts |
-| **Transitions Recorded** | 1,041 | Includes pre-BNS background entries and post-BNS inferences |
-| **Similarity Edges** | 90,924 | Deterministic graph across 846 judgments |
-| **Refined Clusters** | 23 | High-strength, domain-pure clusters |
-| **Court Coverage** | SC, HC, TR | Supreme Court, High Courts, and tribunals |
-| **Domain Distribution** | criminal 356; service 191; mixed 179; civil 119; unknown 1 | Current classified corpus |
-| **Court Level Distribution** | HC 685; SC 134; TR 11; UNKNOWN 16 | After metadata cleanup |
+| **Full Corpus (Processed Judgments)** | 3008 | Consolidated deterministic corpus |
+| **Metadata Completeness** | 66.3% (1995/3008) | Completeness across court/date/case_number |
+| **Missing Court** | 631 | Remaining UNKNOWN-court records |
+| **Missing Decision Date** | 709 | Full-corpus missing dates |
+| **Missing Case Number** | 998 | Full-corpus missing case numbers |
+| **Unknown-Year IDs** | 321 | IDs with unresolved year |
+| **Non-ISO Dates** | 0 | ISO normalization validated |
+| **Duplicate IDs** | 0 | ID uniqueness validated |
+| **Referential Integrity Errors** | 0 | Cross-record integrity validated |
+| **Release Export Rows (`train.jsonl`)** | 2377 | UNKNOWN-court IDs excluded; artifact published on Hugging Face |
+| **Release Missing Dates** | 382 | Rows still eligible for release |
+| **Release Missing Case Numbers** | 635 | Rows still eligible for release |
 
 ### Release Quality Improvements
 
@@ -115,7 +118,7 @@ jits-data-pipeline/
 │   └── utils/            # IDs, mappings, helpers
 ├── annotations/          # Similarity artifacts and clusters
 ├── scripts/              # Export, rebuild, and upload helpers
-├── train.jsonl           # Canonical public export
+├── train.jsonl           # Generated local export (published on Hugging Face)
 ├── DATASET_CARD.md       # Hugging Face dataset card source
 └── README.md             # Repository overview
 ```
@@ -138,6 +141,17 @@ python3 scripts/normalize_dataset.py
 ```
 
 ## Release Notes
+
+### v1.6 (2026-03-22)
+
+- corpus rebuilt through `consolidate` and `train.jsonl` regenerated
+- full corpus now at `3008` processed judgments
+- release export now at `2377` rows after UNKNOWN-court exclusion
+- missing/unknown court reduced to `631` from `646` in the prior clean build
+- metadata extractor improved with deeper-header fallback and safer embedded-caption matching
+- Delhi QR/order-portal, Orissa signed-location, and Andhra proceedings-sheet recoveries added
+- case-number support widened (`MA`, `First Appeal`, `C.Misc.`, `CR. WJC`)
+- verification green: metadata tests `63/63`, normalize-dataset tests `3/3`, pipeline-runner tests `2/2`
 
 ### v1.5 (2026-03-19)
 
@@ -176,7 +190,7 @@ If you use this dataset or pipeline, please cite:
 Or:
 
 ```text
-Viverun (2026). JITS Legal Dataset (v1.5). Hugging Face.
+Viverun (2026). JITS Legal Dataset (v1.6). Hugging Face.
 ```
 
 ## License

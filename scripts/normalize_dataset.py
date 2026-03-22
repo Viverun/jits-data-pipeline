@@ -2,6 +2,7 @@ import argparse
 import json
 from datetime import datetime
 from pathlib import Path
+from collections import Counter
 
 
 DEFAULT_INPUT_DIR = "legal_ai_toolkit/data/judgments"
@@ -29,6 +30,33 @@ def normalize_decision_date(value):
         return datetime.strptime(text, "%Y-%m-%d").strftime("%Y-%m-%d")
     except ValueError:
         return None
+
+
+def is_unknown(value) -> bool:
+    text = normalize_string(value).strip()
+    return not text or text.upper() == "UNKNOWN"
+
+
+def should_export_record(
+    data,
+    *,
+    exclude_unknown_cases: bool = True,
+    exclude_unknown_domain: bool = False,
+):
+    metadata = normalize_dict(data.get("metadata"))
+    classification = normalize_dict(data.get("classification"))
+    judgment_id = normalize_string(data.get("judgment_id")).strip()
+
+    if exclude_unknown_cases:
+        if judgment_id.startswith("IN-UNKNOWN-UNK-"):
+            return False, "unknown_id"
+        if is_unknown(metadata.get("court")) or is_unknown(metadata.get("court_level")):
+            return False, "unknown_court"
+
+    if exclude_unknown_domain and is_unknown(classification.get("domain")):
+        return False, "unknown_domain"
+
+    return True, None
 
 
 def normalize_record(data):
@@ -78,32 +106,65 @@ def normalize_record(data):
     }
 
 
-def export_jsonl(input_dir: Path, output_file: Path) -> int:
+def export_jsonl(
+    input_dir: Path,
+    output_file: Path,
+    *,
+    exclude_unknown_cases: bool = True,
+    exclude_unknown_domain: bool = False,
+):
     files = sorted(input_dir.glob("*.json"))
     if not files:
         raise FileNotFoundError(f"No processed JSON files found in {input_dir}")
 
     count = 0
+    skipped = Counter()
     with output_file.open("w", encoding="utf-8") as out_f:
         for file_path in files:
             data = json.loads(file_path.read_text(encoding="utf-8"))
+            include, reason = should_export_record(
+                data,
+                exclude_unknown_cases=exclude_unknown_cases,
+                exclude_unknown_domain=exclude_unknown_domain,
+            )
+            if not include:
+                skipped[reason] += 1
+                continue
             out_f.write(json.dumps(normalize_record(data), ensure_ascii=False) + "\n")
             count += 1
 
-    return count
+    return count, skipped
 
 
 def main():
     parser = argparse.ArgumentParser(description="Export current processed judgments to train.jsonl")
     parser.add_argument("--input-dir", default=DEFAULT_INPUT_DIR)
     parser.add_argument("--output-file", default=DEFAULT_OUTPUT_FILE)
+    parser.add_argument(
+        "--include-unknown-cases",
+        action="store_true",
+        help="Include records with UNKNOWN court / IN-UNKNOWN-UNK identifiers in the export.",
+    )
+    parser.add_argument(
+        "--exclude-unknown-domain",
+        action="store_true",
+        help="Exclude records whose classified domain is UNKNOWN.",
+    )
     args = parser.parse_args()
 
     input_dir = Path(args.input_dir)
     output_file = Path(args.output_file)
 
-    count = export_jsonl(input_dir, output_file)
+    count, skipped = export_jsonl(
+        input_dir,
+        output_file,
+        exclude_unknown_cases=not args.include_unknown_cases,
+        exclude_unknown_domain=args.exclude_unknown_domain,
+    )
     print(f"Successfully wrote {count} records to {output_file}")
+    if skipped:
+        summary = ", ".join(f"{reason}={count}" for reason, count in sorted(skipped.items()))
+        print(f"Skipped records: {summary}")
 
 
 if __name__ == "__main__":

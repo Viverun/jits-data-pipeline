@@ -1,7 +1,7 @@
 import os
 import json
 import re
-from datetime import datetime
+import hashlib
 from pathlib import Path
 from multiprocessing import Pool, cpu_count
 
@@ -18,8 +18,20 @@ def paragraphize(text: str):
         paras.append({"para_id": i, "text": p})
     return paras
 
+
+def build_temporary_judgment_id(relative_path: str, clean_text: str) -> str:
+    """
+    Build a deterministic ingestion-time ID.
+
+    We include the source-relative path as well as the normalized text so
+    judgments with near-identical headers do not overwrite one another during
+    ingestion.
+    """
+    temp_hash = hashlib.sha1(f"{relative_path}\0{clean_text}".encode("utf-8")).hexdigest()[:12].upper()
+    return f"TEMP_{temp_hash}"
+
 def process_single_file(args):
-    file_path, output_dir = args
+    file_path, input_dir, output_dir = args
 
     try:
         with open(file_path, "r", encoding="utf-8") as f:
@@ -27,26 +39,29 @@ def process_single_file(args):
 
         clean_text = normalize_text(raw_text)
         paragraphs = paragraphize(clean_text)
+        relative_path = str(Path(file_path).relative_to(input_dir).as_posix())
 
         metadata = {
             "court": "UNKNOWN",
             "court_level": "UNKNOWN",
             "jurisdiction": "India",
-            "year": datetime.now().year
+            "year": "UNKNOWN",
         }
 
         # Generate TEMPORARY ID during ingestion
         # This will be regenerated in MetadataExtractionStep with proper metadata
-        import hashlib
-        temp_hash = hashlib.sha1(clean_text[:500].encode("utf-8")).hexdigest()[:12].upper()
-        temp_id = f"TEMP_{temp_hash}"
+        temp_id = build_temporary_judgment_id(relative_path, clean_text)
 
         data = {
             "judgment_id": temp_id,
             "metadata": metadata,
             "text": clean_text,
             "paragraphs": paragraphs,
-            "annotations": {}
+            "annotations": {},
+            "provenance": {
+                "source_file": relative_path,
+                "ingestion_step": "ingestion",
+            },
         }
 
         out_path = Path(output_dir) / f"{temp_id}.json"
@@ -74,7 +89,7 @@ class IngestionProcessor:
             return
 
         print(f"Ingesting {len(files)} files with {workers} workers...")
-        args = [(f, self.output_dir) for f in files]
+        args = [(f, self.input_dir, self.output_dir) for f in files]
 
         with Pool(workers) as pool:
             results = pool.map(process_single_file, args)

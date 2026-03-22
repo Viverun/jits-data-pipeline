@@ -1,9 +1,10 @@
-
+import argparse
 import os
 import sys
 
 from huggingface_hub import CommitOperationAdd, HfApi
 from huggingface_hub.errors import HfHubHTTPError
+from normalize_dataset import DEFAULT_INPUT_DIR, DEFAULT_OUTPUT_FILE, export_jsonl
 
 REPO_ID = os.environ.get("HF_DATASET_REPO_ID", "Viverun/jits-legal-dataset")
 RELEASE_ASSETS = [
@@ -38,7 +39,25 @@ def get_api():
 
     return HfApi(token=token)
 
-def upload():
+
+def prepare_release_assets(include_unknown_cases: bool, exclude_unknown_domain: bool):
+    output_file = DEFAULT_OUTPUT_FILE
+    count, skipped = export_jsonl(
+        input_dir=DEFAULT_INPUT_DIR,
+        output_file=output_file,
+        exclude_unknown_cases=not include_unknown_cases,
+        exclude_unknown_domain=exclude_unknown_domain,
+    )
+    print(f"Prepared {output_file} with {count} records.")
+    if skipped:
+        summary = ", ".join(f"{reason}={count}" for reason, count in sorted(skipped.items()))
+        print(f"Skipped records: {summary}")
+
+
+def upload(include_unknown_cases: bool = False, exclude_unknown_domain: bool = False, skip_export: bool = False):
+    if not skip_export:
+        prepare_release_assets(include_unknown_cases, exclude_unknown_domain)
+
     api = get_api()
     print(f"Uploading release assets to {REPO_ID}...")
     try:
@@ -71,5 +90,32 @@ def upload():
         print(f"Upload failed: {e}")
         sys.exit(1)
 
+
+def main():
+    parser = argparse.ArgumentParser(description="Upload the public dataset release to Hugging Face.")
+    parser.add_argument(
+        "--include-unknown-cases",
+        action="store_true",
+        help="Include UNKNOWN-court / IN-UNKNOWN-UNK records in the uploaded train.jsonl.",
+    )
+    parser.add_argument(
+        "--exclude-unknown-domain",
+        action="store_true",
+        help="Exclude records whose classified domain is UNKNOWN from the uploaded train.jsonl.",
+    )
+    parser.add_argument(
+        "--skip-export",
+        action="store_true",
+        help="Upload the existing train.jsonl as-is without regenerating it first.",
+    )
+    args = parser.parse_args()
+
+    upload(
+        include_unknown_cases=args.include_unknown_cases,
+        exclude_unknown_domain=args.exclude_unknown_domain,
+        skip_export=args.skip_export,
+    )
+
+
 if __name__ == "__main__":
-    upload()
+    main()
