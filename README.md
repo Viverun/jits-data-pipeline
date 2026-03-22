@@ -9,7 +9,7 @@ A production-ready, deterministic pipeline for processing Indian legal judgments
 
 > **Disclaimer:** This dataset is independently created for research and engineering use. It is not an official government or judicial release and does not constitute legal advice.
 
-This repository contains the deterministic pipeline used to generate the JITS Legal Dataset. The current corpus build contains **3008** processed judgments, with **2377** release-ready rows exported in `train.jsonl`, with:
+This repository contains the deterministic pipeline used to generate the JITS Legal Dataset. The current corpus build contains **3008** processed judgments, with **2181** release-ready rows exported in `train.jsonl`, with:
 
 - clean text extraction and normalization
 - rule-based metadata extraction and domain classification
@@ -30,22 +30,24 @@ The metrics below are computed from the current exported `train.jsonl` and proce
 
 ## Current Release
 
-Current GitHub release state: **v1.6**
+Current GitHub release state: **v1.7**
 
 | Metric | Value | Notes |
 |--------|-------|-------|
 | **Full Corpus (Processed Judgments)** | 3008 | Consolidated deterministic corpus |
-| **Metadata Completeness** | 66.3% (1995/3008) | Completeness across court/date/case_number |
-| **Missing Court** | 631 | Remaining UNKNOWN-court records |
-| **Missing Decision Date** | 709 | Full-corpus missing dates |
-| **Missing Case Number** | 998 | Full-corpus missing case numbers |
-| **Unknown-Year IDs** | 321 | IDs with unresolved year |
+| **Metadata Completeness** | 67.4% (2027/3008) | Completeness across court/date/case_number |
+| **Missing Court** | 753 | Remaining UNKNOWN-court records |
+| **Missing Decision Date** | 527 | Full-corpus missing dates |
+| **Missing Case Number** | 1108 | Full-corpus missing case numbers |
+| **Unknown-Year IDs** | 238 | IDs with unresolved year in full corpus |
 | **Non-ISO Dates** | 0 | ISO normalization validated |
 | **Duplicate IDs** | 0 | ID uniqueness validated |
 | **Referential Integrity Errors** | 0 | Cross-record integrity validated |
-| **Release Export Rows (`train.jsonl`)** | 2377 | UNKNOWN-court IDs excluded; artifact published on Hugging Face |
-| **Release Missing Dates** | 382 | Rows still eligible for release |
-| **Release Missing Case Numbers** | 635 | Rows still eligible for release |
+| **Release Export Rows (`train.jsonl`)** | 2181 | UNKNOWN-court and unknown-year IDs excluded; artifact published on Hugging Face |
+| **Release Missing Dates** | 154 | Rows still eligible for release |
+| **Release Missing Case Numbers** | 607 | Rows still eligible for release |
+| **Similarity Edges** | 802,552 | Rebuilt deterministic graph |
+| **Refined Clusters** | 77 | Post-rebuild domain-pure clusters |
 
 ### Release Quality Improvements
 
@@ -153,6 +155,16 @@ python3 scripts/normalize_dataset.py
 - case-number support widened (`MA`, `First Appeal`, `C.Misc.`, `CR. WJC`)
 - verification green: metadata tests `63/63`, normalize-dataset tests `3/3`, pipeline-runner tests `2/2`
 
+### v1.7 (2026-03-22)
+
+- added strict release gate to block `0000` year IDs in export and upload
+- deepened decision-date fallback and year recovery in metadata and ID regeneration
+- fixed metadata case-number regex backtracking stalls (previously stuck around `42%`)
+- reran pipeline from metadata through consolidate, then rebuilt similarity and cluster artifacts
+- referential integrity restored to `0` errors after similarity/cluster rebuild
+- full corpus now reports `238` unknown-year IDs (down from `321`)
+- release export now `2181` rows with `0` unknown-year IDs
+
 ### v1.5 (2026-03-19)
 
 **Breaking:** `744` judgment IDs changed from `v1.4`.
@@ -182,7 +194,7 @@ If you use this dataset or pipeline, please cite:
   title = {JITS Legal Dataset},
   year = {2026},
   publisher = {Hugging Face},
-  version = {1.5},
+  version = {1.7},
   url = {https://huggingface.co/datasets/Viverun/jits-legal-dataset}
 }
 ```
@@ -190,7 +202,7 @@ If you use this dataset or pipeline, please cite:
 Or:
 
 ```text
-Viverun (2026). JITS Legal Dataset (v1.6). Hugging Face.
+Viverun (2026). JITS Legal Dataset (v1.7). Hugging Face.
 ```
 
 ## License
