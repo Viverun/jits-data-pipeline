@@ -14,9 +14,9 @@ processed/judgments/*
 # Intelligence Layer
 # Ignore individual signal dumps (too many files)
 annotations/similarity/signals/*
-# Keep the core graph and clusters
-!annotations/similarity/edges.jsonl
+# Keep clusters in GitHub; publish full edges via external artifact storage
 !annotations/similarity/clusters.json
+annotations/similarity/edges.jsonl
 
 # Logs and temporary files
 logs/*.log
