@@ -1228,7 +1228,7 @@ def normalize_decision_date(raw_date: str) -> str:
     return cleaned
 
 
-def _iter_priority_lines(lines):
+def _iter_priority_lines(lines, head_limit: int = 40, tail_limit: int = 20):
     cleaned_lines = [_clean_header_line(line) for line in lines if line.strip()]
     if not cleaned_lines:
         return []
@@ -1236,7 +1236,7 @@ def _iter_priority_lines(lines):
     priority_lines = []
     seen = set()
 
-    for line in cleaned_lines[:40] + cleaned_lines[-20:]:
+    for line in cleaned_lines[:head_limit] + cleaned_lines[-tail_limit:]:
         if line and line not in seen:
             seen.add(line)
             priority_lines.append(line)
@@ -1252,7 +1252,7 @@ def _extract_first_date(patterns, text: str):
     return None
 
 
-def extract_decision_date(lines, header_text: str) -> str:
+def extract_decision_date(lines, header_text: str, fallback_text: str = "") -> str:
     for line in _iter_priority_lines(lines):
         raw_date = _extract_first_date(EXPLICIT_DATE_PATTERNS, line)
         if raw_date:
@@ -1266,6 +1266,25 @@ def extract_decision_date(lines, header_text: str) -> str:
         raw_date = _extract_first_date(FALLBACK_LINE_DATE_PATTERNS, line)
         if raw_date:
             return normalize_decision_date(raw_date)
+
+    # Unknown-year survivors often have date cues deeper in the first pages.
+    if fallback_text:
+        fallback_header = fallback_text[:UNKNOWN_HEADER_CHAR_SCAN_LIMIT]
+        fallback_lines = fallback_header.split("\n")[:UNKNOWN_HEADER_LINE_SCAN_LIMIT]
+
+        for line in _iter_priority_lines(fallback_lines, head_limit=120, tail_limit=60):
+            raw_date = _extract_first_date(EXPLICIT_DATE_PATTERNS, line)
+            if raw_date:
+                return normalize_decision_date(raw_date)
+
+        raw_date = _extract_first_date(EXPLICIT_DATE_PATTERNS, fallback_header)
+        if raw_date:
+            return normalize_decision_date(raw_date)
+
+        for line in _iter_priority_lines(fallback_lines, head_limit=120, tail_limit=60):
+            raw_date = _extract_first_date(FALLBACK_LINE_DATE_PATTERNS, line)
+            if raw_date:
+                return normalize_decision_date(raw_date)
 
     return "UNKNOWN"
 
@@ -1296,7 +1315,7 @@ def extract_header_metadata(text: str):
     # Extract case number
     metadata["case_number"] = extract_case_number(lines, header)
 
-    metadata["decision_date"] = extract_decision_date(lines, header)
+    metadata["decision_date"] = extract_decision_date(lines, header, fallback_text=text)
 
     petitioner, respondent = extract_parties(lines)
     if petitioner:

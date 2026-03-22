@@ -26,6 +26,7 @@ YEAR_HINT_PATTERNS = [
     r"\bSigning Date\s*[:\-]?\s*([0-9]{1,2}[./-][0-9]{1,2}[./-][0-9]{2,4})",
     r"\bDate\s*[:\-]?\s*((?:19|20)\d{2}[./-][0-9]{1,2}[./-][0-9]{1,2})",
     r"\bDate\s*[:\-]?\s*([0-9]{1,2}[-/](?:[A-Za-z]{3,9}|[0-9]{1,2})[-/][0-9]{4})",
+    r"(?:Order|Judgment)\s+dated\s*[:\-]?\s*([0-9]{1,2}[./-][0-9]{1,2}[./-][0-9]{2,4})",
     r"JUDGMENT\s+DATED\s*[:\-]?\s*([0-9]{1,2}[./-][0-9]{1,2}[./-][0-9]{2,4})",
     r"\(Uploaded on\s+([0-9]{1,2}[./-][0-9]{1,2}[./-][0-9]{2,4})",
     r"\(Downloaded on\s+([0-9]{1,2}[./-][0-9]{1,2}[./-][0-9]{2,4})",
@@ -54,16 +55,23 @@ class IDRegenerationStep(BaseStep):
         return None
 
     def _infer_year_from_text(self, text):
-        header_text = text[:12000]
-        for pattern in YEAR_HINT_PATTERNS:
-            match = re.search(pattern, header_text, re.I)
-            if not match:
-                continue
+        head_text = text[:12000]
+        tail_text = text[-12000:] if len(text) > 12000 else ""
 
-            for group in match.groups():
-                year = self._extract_year_from_date(group)
-                if year is not None:
-                    return year
+        search_windows = [head_text]
+        if tail_text and tail_text != head_text:
+            search_windows.append(tail_text)
+
+        for window in search_windows:
+            for pattern in YEAR_HINT_PATTERNS:
+                match = re.search(pattern, window, re.I)
+                if not match:
+                    continue
+
+                for group in match.groups():
+                    year = self._extract_year_from_date(group)
+                    if year is not None:
+                        return year
 
         return 0
 
