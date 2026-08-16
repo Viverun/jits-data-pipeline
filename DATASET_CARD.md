@@ -77,6 +77,36 @@ This dataset is **not** intended to provide legal advice.
 | **Duplicate IDs** | 0 | Uniqueness verified |
 | **Referential Integrity Errors** | 0 | Referential checks passed |
 
+### Metadata Completeness (v1.9 definition)
+
+Completeness is reported **per field** rather than as a single all-three-present
+conjunction, and a `case_number` must contain a digit to count. Both figures are
+published so the change is auditable:
+
+| Field | Coverage | Notes |
+|-------|----------|-------|
+| `court` | 99.3% | 2200/2215 |
+| `decision_date` | 91.9% | 2036/2215 |
+| `case_number` | 71.0% | 1573/2215, digit-validated |
+| **Mean field completeness** | **87.4%** | headline metric |
+| All-three-present (strict) | 64.6% | previous definition, retained for comparison |
+
+Measured on the `2215`-row release export, not the `3008`-judgment full corpus.
+The full-corpus row in the metrics table above remains the `v1.8` figure under
+the old definition and will be restated at the next corpus rebuild.
+
+The conjunction could not separate an extraction failure from a field that is
+absent at source: roughly `420` records were served without a cause-title header,
+so no parser can recover a case number from them. Per-field coverage also shows
+where the gap actually is — `99.3%` on court against `71.0%` on case number.
+
+> **Known issue in the published `v1.8` export:** `51` records (3.2% of populated
+> values) carry `case_number` values that are not case numbers — person names
+> (`Manoj`, `MANOMOHAN`), label fragments (`CASE NO`), and sentence fragments.
+> Under `re.I` the shared number class matched letters, so `Manoj` parsed as
+> `Ma` + `no` + number `j`. Fixed in `v1.9`; the currently published export still
+> contains them until the next rebuild.
+
 ### Quality Improvements
 - ✅ **Self-citation exclusion**: No false positive citations
 - ✅ **Complete section extraction**: Hyphenated sections (498-A, 304-B) now captured
@@ -144,6 +174,17 @@ published `train.jsonl`, remain exactly as generated for `v1.8`.
   against the prior implementation on real corpus text.
 - Added `pyproject.toml`, `uv.lock`, and a Python `3.10` pin; the repository
   previously had no build configuration, so `pip install -e .` could not succeed.
+- **Completeness is now reported per field**, not as a single all-three-present
+  conjunction, and a `case_number` must contain a digit to count. Mean field
+  completeness `87.4%`; the strict all-three figure (`64.6%`) is still published
+  alongside it. See *Metadata Completeness* above for why the definition changed.
+- Fixed `case_number` extraction emitting non-case-numbers. `51` published values
+  (3.2%) were person names, label fragments, or prose — under `re.I` the shared
+  number class matched letters, so `Manoj` parsed as `Ma` + `no` + number `j`.
+- Widened case-number coverage: trailing full stops on cause titles, the
+  `PREFIX-NNNN-YYYY` registry form (`CRM-M-8611-2022`), and `CRL.M.P.` / `CS DJ`.
+- Verified by replaying extraction over all `2215` records: `35` recovered,
+  `0` lost, `48` garbage values removed.
 - Verification green: full suite `87/87`.
 
 #### v1.8 (2026-03-23)

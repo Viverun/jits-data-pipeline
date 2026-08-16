@@ -51,6 +51,38 @@ metrics below describe the `v1.8` release.
 | **Similarity Edges** | 802,552 | Rebuilt deterministic graph |
 | **Refined Clusters** | 77 | Post-rebuild domain-pure clusters |
 
+### Metadata Completeness
+
+From `v1.9` completeness is reported **per field** rather than as a single
+all-three-present conjunction, and every `case_number` must contain a digit to
+count. Both figures are published so the change is auditable:
+
+| Field | Coverage | Notes |
+|-------|----------|-------|
+| `court` | 99.3% | 2200/2215 |
+| `decision_date` | 91.9% | 2036/2215 |
+| `case_number` | 71.0% | 1573/2215, digit-validated |
+| **Mean field completeness** | **87.4%** | headline metric |
+| All-three-present (strict) | 64.6% | previous definition, retained for comparison |
+
+Measured on the `2215`-row release export, not the `3008`-judgment full corpus —
+the full-corpus figures in the table above are still the `v1.8` numbers under the
+old definition and will be restated at the next corpus rebuild.
+
+Why the definition changed: the conjunction could not distinguish an extraction
+failure from a field that is absent at source. Roughly `420` records were served
+without a cause-title header at all, so no parser can recover a case number from
+them, yet the strict metric charged the pipeline for it indefinitely. Per-field
+coverage also shows *where* the gap is — the profile is very uneven, from `99.3%`
+on court to `71.0%` on case number, which a single number hides.
+
+> **Known issue in the published `v1.8` export:** `51` records (3.2% of populated
+> values) carry `case_number` values that are not case numbers — person names
+> (`Manoj`, `MANOMOHAN`), label fragments (`CASE NO`), and sentence fragments.
+> Under `re.I` the shared number class matched letters, so `Manoj` parsed as
+> `Ma` + `no` + number `j`. Fixed in `v1.9`; the published export still contains
+> them until the next rebuild.
+
 ### Release Quality Improvements
 
 - canonical court codes in all regenerated IDs
@@ -175,6 +207,17 @@ and the published Hugging Face artifact remain at `v1.8`.
 - added `pyproject.toml`, `uv.lock`, and a `.python-version` pin of `3.10`. the repo
   previously carried no build configuration, so the documented `pip install -e .`
   could not succeed
+- **completeness redefined**: reported per field rather than as a single
+  all-three-present conjunction, and a `case_number` must contain a digit to
+  count. mean field completeness `87.4%`, strict all-three `64.6%` still
+  published alongside it
+- fixed `case_number` extraction emitting non-case-numbers — `51` published
+  values (3.2%) were person names, label fragments, or prose, because the shared
+  number class matched letters under `re.I` (`Manoj` = `Ma` + `no` + number `j`)
+- widened case-number coverage: trailing full stops on cause titles, the
+  `PREFIX-NNNN-YYYY` registry form (`CRM-M-8611-2022`), and `CRL.M.P.` / `CS DJ`
+- verified by replaying extraction over all `2215` records: `35` recovered,
+  `0` lost, `48` garbage values removed
 - verification green: full suite `87/87`
 
 ### v1.6 (2026-03-22)
