@@ -33,7 +33,11 @@ class BaseStep:
             print(f"[ERROR] Input directory not found: {self.input_dir}")
             return
 
-        files = list(self.input_dir.glob("*.json"))
+        # Sorted so the run order does not depend on readdir order. Steps that
+        # regenerate IDs can map two inputs onto one output name, and the last
+        # writer wins - with an arbitrary order, which judgment survives a
+        # collision changes between runs on the same corpus.
+        files = sorted(self.input_dir.glob("*.json"))
         if not files:
             self.logger.warning(f"No .json files found in {self.input_dir}")
             print(f"[WARNING] No .json files found in {self.input_dir}")

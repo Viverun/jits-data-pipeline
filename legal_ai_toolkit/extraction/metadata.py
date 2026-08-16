@@ -76,7 +76,16 @@ LINE_CASE_NO_PATTERNS = [
     r"C\.?W\.?P\.?|CRLMC|CRL\.?\s*PETN\.?|CRL\.?\s*O\.?\s*P\.?|Crl\.R\.C(?:\(MD\))?|Crl\.R\.P\.?|"
     r"C\.M\.A\.?|M\.?\s*A\.?|MACP|MAC\s+Petition|MAC\.?\s*APPL\.?|MFA|FAO|LPA|SLP|O\.A\.?|A\.S\.|S\.A\.|"
     r"C\.A\.|CRL\.?\s*A\.?|CRL\.?\s*M\.?\s*C\.?|C\/FA|Arb\.?\s*O\.?\s*P\.?(?:\([^)]+\))?)\s*(?:No\.?\s*)?[A-Z0-9./()-]+(?:\s*(?:of|/)\s*(?:19|20)\d{2})?(?:\s*\([^)]+\))?)\s*$",
-    r"^\s*((?:W\.?\s*P\.?|WP|Cr\.?\s*M\.?\s*P\.?|M\.?\s*Cr\.?\s*C\.?|MCRC|H\.?\s*C\.?\s*P\.?(?:\([A-Z.]+\))?|HCP(?:\([A-Z.]+\))?|Bail\s*Appl\.?|Bail\s*Application|Cr\.?\s*A\.?|Crl\.?\s*O\.?\s*P\.?(?:\([A-Z.]+\))?)\s*Nos?\.?\s*[A-Z0-9./(), &\[\]-]+(?:\s*(?:to|and|&|,)\s*[A-Z0-9./(), &\[\]-]+)*(?:/\d{2,4}|\s+of\s+\d{2,4})(?:\[[A-Z0-9]+\])?(?:\s*\([^)]+\))?)\s*$",
+    # The multi-number tail that used to follow the character class here -
+    # (?:\s*(?:to|and|&|,)\s*[A-Z0-9./(), &\[\]-]+)* - was redundant and
+    # quadratic-to-exponential: its separators (space, "," and "&", plus the
+    # letters of "to"/"and" under IGNORECASE) are all inside the class already,
+    # so the same text could be partitioned in exponentially many ways and every
+    # one of them was retried whenever the overall match failed. Candidates
+    # reach this pattern via _clean_header_line, which collapses runs of
+    # whitespace to a single space, so the class covers every separator the
+    # group could have matched and dropping it accepts exactly the same lines.
+    r"^\s*((?:W\.?\s*P\.?|WP|Cr\.?\s*M\.?\s*P\.?|M\.?\s*Cr\.?\s*C\.?|MCRC|H\.?\s*C\.?\s*P\.?(?:\([A-Z.]+\))?|HCP(?:\([A-Z.]+\))?|Bail\s*Appl\.?|Bail\s*Application|Cr\.?\s*A\.?|Crl\.?\s*O\.?\s*P\.?(?:\([A-Z.]+\))?)\s*Nos?\.?\s*[A-Z0-9./(), &\[\]-]+(?:/\d{2,4}|\s+of\s+\d{2,4})(?:\[[A-Z0-9]+\])?(?:\s*\([^)]+\))?)\s*$",
     r"^\s*((?:First\s+Appeal|Second\s+Appeal|Special\s+Civil\s+Application|C\.?\s*Misc\.?|CR\.?\s*WJC)\s*No\.?\s*[A-Z0-9./()-]+(?:\s*(?:to|and|&|,)\s*[A-Z0-9./()-]+)*(?:/\d{2,4}|\s+of\s+\d{2,4})(?:\(\d+\))?)\s*$",
 ]
 
@@ -355,15 +364,42 @@ def _iter_court_candidates(lines):
                     yield segment
 
 
+def _build_high_court_location_matchers():
+    """Compile the location rules once instead of on every candidate segment.
+
+    This runs against every header segment of every judgment - tens of segments
+    each - so rebuilding sixty pattern strings per call dominated metadata
+    extraction.
+    """
+    matchers = []
+    for keyword, court_name, court_level in HIGH_COURT_LOCATION_RULES:
+        location_pattern = re.escape(keyword).replace(r"\ ", r"\s+")
+        matchers.append((
+            keyword,
+            re.compile(rf"\b{location_pattern}\s+high court\b"),
+            re.compile(rf"\bhigh court(?: of judicature)?(?: at| of)?\s+{location_pattern}\b"),
+            court_name,
+            court_level,
+        ))
+    return matchers
+
+
+HIGH_COURT_LOCATION_MATCHERS = _build_high_court_location_matchers()
+
+
 def _match_high_court_location_rule(normalized_text: str):
     if "high court" not in normalized_text:
         return None
 
-    for keyword, court_name, court_level in HIGH_COURT_LOCATION_RULES:
-        location_pattern = re.escape(keyword).replace(r"\ ", r"\s+")
-        if re.search(rf"\b{location_pattern}\s+high court\b", normalized_text):
+    for keyword, before_re, after_re, court_name, court_level in HIGH_COURT_LOCATION_MATCHERS:
+        # Both patterns require the keyword literally, and the search text has
+        # already been lowercased and whitespace-collapsed, so a keyword that
+        # is not present as a substring cannot match either pattern.
+        if keyword not in normalized_text:
+            continue
+        if before_re.search(normalized_text):
             return court_name, court_level
-        if re.search(rf"\bhigh court(?: of judicature)?(?: at| of)?\s+{location_pattern}\b", normalized_text):
+        if after_re.search(normalized_text):
             return court_name, court_level
 
     return None

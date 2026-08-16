@@ -21,7 +21,7 @@ size_categories:
 A production-ready, deterministic pipeline for processing Indian legal judgments into structured, high-quality legal datasets — with comprehensive extraction, self-citation exclusion, and multi-act statutory section detection.
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-yellow.svg)](https://github.com/Viverun/jits-data-pipeline/blob/main/LICENSE)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/)
 
 ---
 
@@ -35,7 +35,7 @@ processed into machine-readable JSON with:
 
 - **Clean text extraction** with artifact removal (Phase 1)
 - **Citation extraction** with self-citation exclusion (Phase 2)
-- **Multi-act section extraction** supporting 9+ statutory acts (Phase 3)
+- **Multi-act section extraction** supporting 19 statutory acts (Phase 3)
 - **IPC→BNS transition mapping** with temporal validation (Phase 4)
 - **Comprehensive processing** of 3008 judgments (current full-corpus build)
 
@@ -111,7 +111,8 @@ To reproduce the dataset generation locally:
 ```bash
 git clone https://github.com/Viverun/jits-data-pipeline.git
 cd jits-data-pipeline
-pip install -e .
+uv sync
+source .venv/bin/activate
 legal-ai pipeline && legal-ai audit --type quality
 ```
 
@@ -123,6 +124,27 @@ legal-ai pipeline && legal-ai audit --type quality
 > **Note on Dataset Size:** Earlier snapshots in this repository may show lower counts. The current deterministic corpus build contains **3008** processed judgments, while the current release export contains **2181** rows after UNKNOWN-court and unknown-year exclusion.
 
 ### Changelog
+
+#### v1.8 (2026-08-16) — pipeline only
+
+The corpus is **not** rebuilt in this release. All dataset metrics above, and the
+published `train.jsonl`, remain exactly as generated for `v1.7`.
+
+- Made similarity edge generation, centroid selection, and cluster refinement
+  independent of set iteration order, and sorted pipeline file iteration so ID
+  collisions resolve identically every run. Artifacts are now byte-identical across
+  `PYTHONHASHSEED` values; previously refined-cluster membership could differ between
+  runs on identical inputs.
+- Widened statutory section extraction from `9` acts to `19` (adds NI Act, CPC,
+  Arbitration, MV Act, Companies Act, IBC, PC Act, Income Tax, Hindu Marriage,
+  SARFAESI). On a `2,215`-judgment sample rebuild this lifted section coverage from
+  `50.7%` to `66.0%` of cases — the shipped corpus will pick this up at the next rebuild.
+- Removed regex backtracking in case-number header parsing and added act-presence
+  gating plus pattern caching to section extraction, each verified output-identical
+  against the prior implementation on real corpus text.
+- Added `pyproject.toml`, `uv.lock`, and a Python `3.10` pin; the repository
+  previously had no build configuration, so `pip install -e .` could not succeed.
+- Verification green: full suite `87/87`.
 
 #### v1.7 (2026-03-22)
 

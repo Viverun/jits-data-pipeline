@@ -1,7 +1,7 @@
 import os
 import json
+from collections import defaultdict
 from pathlib import Path
-from itertools import combinations
 from multiprocessing import Pool, cpu_count
 
 # Universal filters
@@ -11,11 +11,48 @@ UNIVERSAL_SECTIONS = {
     "IPC 34", "IPC 120B", "IPC 149"
 }
 _ALL_SIGNALS = {}
+_SIGNAL_SETS = {}
 
 
 def _init_similarity_pool(all_signals_dict):
-    global _ALL_SIGNALS
+    global _ALL_SIGNALS, _SIGNAL_SETS
     _ALL_SIGNALS = all_signals_dict
+    # Built once per worker. The scoring loop used to call set() on both sides
+    # of every pair, which is O(n^2) set constructions over the same few lists.
+    _SIGNAL_SETS = {
+        jid: (
+            frozenset(sig["issues"]),
+            frozenset(sig["sections"]),
+            frozenset(sig["citations"]),
+        )
+        for jid, sig in all_signals_dict.items()
+    }
+
+
+def _build_candidate_pairs(all_signals):
+    """Return pairs sharing at least one signal, via an inverted index.
+
+    Enumerating every combination is O(n^2) - 4.5M pairs at 3k judgments - and
+    the overwhelming majority share nothing at all. Posting lists yield exactly
+    the pairs that can produce an edge, so the scoring loop only sees real
+    candidates.
+    """
+    postings = defaultdict(list)
+    for jid in sorted(all_signals):
+        signals = all_signals[jid]
+        for category in ("issues", "sections", "citations"):
+            for value in signals[category]:
+                postings[(category, value)].append(jid)
+
+    candidates = set()
+    for jids in postings.values():
+        if len(jids) < 2:
+            continue
+        for index, left in enumerate(jids):
+            for right in jids[index + 1:]:
+                candidates.add((left, right))
+
+    return sorted(candidates)
 
 
 def _normalize_issue_names(issue_data):
@@ -86,10 +123,12 @@ def extract_signals(data):
         if "raw" in c:
             signals["citations"].append(c["raw"])
 
-    # Deduplicate and filter
-    signals["sections"] = list(set(signals["sections"]) - UNIVERSAL_SECTIONS)
-    signals["citations"] = list(set(signals["citations"]))
-    signals["issues"] = list(set(signals["issues"]) - UNIVERSAL_ISSUES)
+    # Deduplicate and filter. Sorting keeps signal files byte-identical across
+    # runs: set iteration order varies per process because Python randomizes
+    # string hashing (PYTHONHASHSEED).
+    signals["sections"] = sorted(set(signals["sections"]) - UNIVERSAL_SECTIONS)
+    signals["citations"] = sorted(set(signals["citations"]))
+    signals["issues"] = sorted(set(signals["issues"]) - UNIVERSAL_ISSUES)
 
     return signals
 
@@ -107,16 +146,13 @@ def calculate_similarity_batch(args):
         if sig1["domain"] != sig2["domain"] and sig1["domain"] != "mixed" and sig2["domain"] != "mixed":
             continue
 
-        # OPTIMIZATION: Quick overlap check BEFORE detailed comparison
-        # Skip expensive set operations if there's no potential overlap
-        if not (set(sig1["issues"]) & set(sig2["issues"]) or
-                set(sig1["sections"]) & set(sig2["sections"]) or
-                set(sig1["citations"]) & set(sig2["citations"])):
-            continue  # No overlap at all, skip this pair
+        # Candidates already share at least one signal, so no pre-check here.
+        issues1, sections1, citations1 = _SIGNAL_SETS[sig1_id]
+        issues2, sections2, citations2 = _SIGNAL_SETS[sig2_id]
 
-        shared_issues = list(set(sig1["issues"]) & set(sig2["issues"]))
-        shared_sections = list(set(sig1["sections"]) & set(sig2["sections"]))
-        shared_citations = list(set(sig1["citations"]) & set(sig2["citations"]))
+        shared_issues = sorted(issues1 & issues2)
+        shared_sections = sorted(sections1 & sections2)
+        shared_citations = sorted(citations1 & citations2)
 
 
         # Calculate weight
@@ -156,7 +192,8 @@ class SimilarityProcessor:
         if workers is None:
             workers = max(1, cpu_count() - 1)
 
-        files = list(self.input_dir.glob("*.json"))
+        # Sorted so the pair enumeration below does not depend on readdir order.
+        files = sorted(self.input_dir.glob("*.json"))
         all_signals = {}
 
         print(f"Extracting signals from {len(files)} judgments...")
@@ -172,9 +209,9 @@ class SimilarityProcessor:
             with open(self.signal_dir / f"{jid}.json", "w", encoding="utf-8") as out:
                 json.dump(sig, out, indent=2)
 
-        jid_list = list(all_signals.keys())
-        pairs = list(combinations(jid_list, 2))
-        print(f"Total potential pairs: {len(pairs)}")
+        total_possible = len(all_signals) * (len(all_signals) - 1) // 2
+        pairs = _build_candidate_pairs(all_signals)
+        print(f"Candidate pairs: {len(pairs)} (of {total_possible} possible)")
 
         batches = [pairs[i : i + batch_size] for i in range(0, len(pairs), batch_size)]
 
@@ -188,6 +225,12 @@ class SimilarityProcessor:
             with Pool(workers, initializer=_init_similarity_pool, initargs=(all_signals,)) as pool:
                 for result in pool.imap_unordered(calculate_similarity_batch, batches):
                     all_edges.extend(result)
+
+        # imap_unordered returns batches as workers finish them, so the edge
+        # order depends on scheduling. Sort before writing: downstream centroid
+        # clustering is order-sensitive and would otherwise pick different
+        # centroids from one run to the next.
+        all_edges.sort(key=lambda edge: (edge["from"], edge["to"]))
 
         print(f"Generated {len(all_edges)} edges. Saving to {self.edge_file}...")
         with open(self.edge_file, "w", encoding="utf-8") as out:

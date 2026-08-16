@@ -27,18 +27,20 @@ def refine_mega_clusters(clusters, signal_dir, max_cluster_size=30):
                         sig = json.load(f)
                         judgment_issues[jid] = sig.get('issues', [])
 
-            # Group by primary issue (most frequent)
+            # Group by primary issue. Sorting picks the same issue every run;
+            # signal files written before the ordering fix may still carry
+            # arbitrarily ordered issue lists.
             issue_groups = defaultdict(list)
             for jid, issues in judgment_issues.items():
                 if issues:
-                    primary_issue = issues[0]  # First issue as primary
+                    primary_issue = sorted(issues)[0]
                     issue_groups[primary_issue].append(jid)
                 else:
                     issue_groups['misc'].append(jid)
 
             # Create sub-clusters
             sub_id = 1
-            for issue, jids in issue_groups.items():
+            for issue, jids in sorted(issue_groups.items()):
                 if len(jids) >= 2:  # Only create cluster if 2+ cases
                     sub_cluster = {
                         "cluster_id": f"{cluster['cluster_id']}-SUB{sub_id:02d}",
@@ -63,9 +65,10 @@ def filter_by_domain_purity(clusters, signal_dir):
     signal_dir = Path(signal_dir)
 
     for cluster in clusters:
-        # Load domain info from signals
+        # Load domain info from signals. Every member is checked: sampling only
+        # the first few lets a cluster that goes mixed further down pass as pure.
         domains = []
-        for jid in cluster['judgments'][:10]:  # Sample first 10
+        for jid in cluster['judgments']:
             signal_file = signal_dir / f"{jid}.json"
             if signal_file.exists():
                 with open(signal_file) as f:
@@ -74,6 +77,11 @@ def filter_by_domain_purity(clusters, signal_dir):
 
         # Check domain purity
         unique_domains = set(d for d in domains if d != 'unknown')
+        if not unique_domains:
+            # No usable domain evidence - do not claim purity we cannot support.
+            print(f"[FILTERED] {cluster['cluster_id']} - no domain evidence for any member")
+            continue
+
         if len(unique_domains) == 1 or 'mixed' in unique_domains:
             # Pure domain or explicitly mixed
             cluster['domain_purity'] = "high"
@@ -112,8 +120,8 @@ class ClusterRefiner:
         filtered = filter_by_domain_purity(refined, self.signal_dir)
         print(f"Filtered to {len(filtered)} domain-pure clusters.")
 
-        # Sort by size (descending)
-        filtered.sort(key=lambda x: x['count'], reverse=True)
+        # Sort by size (descending), tie-broken by cluster ID
+        filtered.sort(key=lambda x: (-x['count'], x['cluster_id']))
 
         # Save refined clusters
         os.makedirs(self.refined_file.parent, exist_ok=True)

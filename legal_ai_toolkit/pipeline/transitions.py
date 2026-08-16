@@ -36,9 +36,12 @@ class TransitionStep(BaseStep):
             act_key = act.lower().replace(" ", "_")
             data["extracted_sections"][act_key] = section_nums
 
-        # Extract IPC→BNS transitions using improved TransitionExtractor
+        # Extract IPC→BNS transitions, reusing the sections already extracted
+        # above rather than scanning the full text a second time.
         judgment_date = data.get("metadata", {}).get("decision_date")
-        transitions = TransitionExtractor.extract(text, judgment_date=judgment_date)
+        transitions = TransitionExtractor.extract(
+            text, judgment_date=judgment_date, sections=all_sections
+        )
 
         # Store transitions
         data["statutory_transitions"] = {

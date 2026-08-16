@@ -54,18 +54,24 @@ class TransitionExtractor:
     )
 
     @classmethod
-    def extract(cls, text: str, judgment_date: Optional[str] = None) -> List[Dict]:
+    def extract(cls, text: str, judgment_date: Optional[str] = None,
+                sections: Optional[List[Dict]] = None) -> List[Dict]:
         """
         Extract IPC→BNS transitions from judgment text.
 
         Args:
             text: Judgment text to analyze
             judgment_date: Date in YYYY-MM-DD format (for temporal validation)
+            sections: Pre-extracted sections. Callers that already ran
+                SectionExtractor should pass them; scanning the full text a
+                second time is the dominant cost of this step.
 
         Returns:
             List of transition dictionaries with validation metadata
         """
         transitions = []
+        if sections is None:
+            sections = SectionExtractor.extract(text)
 
         # --- TEMPORAL GUARDRAIL ---
         parsed_judgment_date = cls._parse_judgment_date(judgment_date)
@@ -78,11 +84,13 @@ class TransitionExtractor:
         # --- 2. INFER TRANSITIONS FROM STANDALONE IPC SECTIONS ---
         # Only infer for post-BNS judgments
         if parsed_judgment_date and not is_pre_bns:
-            inferred_transitions = cls._infer_from_ipc_sections(text)
+            inferred_transitions = cls._infer_from_ipc_sections(sections)
             transitions.extend(inferred_transitions)
         else:
             # For pre-BNS or date-unresolved judgments, record IPC sections as background only.
-            background_sections = cls._record_pre_bns_sections(text, date_was_unresolved=parsed_judgment_date is None)
+            background_sections = cls._record_pre_bns_sections(
+                sections, date_was_unresolved=parsed_judgment_date is None
+            )
             transitions.extend(background_sections)
 
         # --- 3. DEDUPLICATE ---
@@ -144,12 +152,9 @@ class TransitionExtractor:
         return transitions
 
     @classmethod
-    def _infer_from_ipc_sections(cls, text: str) -> List[Dict]:
-        """Infer BNS sections from standalone IPC mentions using SectionExtractor."""
+    def _infer_from_ipc_sections(cls, sections: List[Dict]) -> List[Dict]:
+        """Infer BNS sections from standalone IPC mentions."""
         transitions = []
-
-        # Use our new SectionExtractor
-        sections = SectionExtractor.extract(text)
 
         # Filter for IPC sections only
         ipc_sections = [s for s in sections if s.get("act") == "IPC"]
@@ -175,12 +180,9 @@ class TransitionExtractor:
         return transitions
 
     @classmethod
-    def _record_pre_bns_sections(cls, text: str, date_was_unresolved: bool = False) -> List[Dict]:
+    def _record_pre_bns_sections(cls, sections: List[Dict], date_was_unresolved: bool = False) -> List[Dict]:
         """Record IPC sections from pre-BNS or unresolved-date judgments as background only."""
         transitions = []
-
-        # Use our new SectionExtractor
-        sections = SectionExtractor.extract(text)
 
         # Filter for IPC sections
         ipc_sections = [s for s in sections if s.get("act") == "IPC"]

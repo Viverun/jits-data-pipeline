@@ -61,8 +61,52 @@ class SectionExtractor:
         "POCSO Act": [
             r'P\.?O\.?C\.?S\.?O\.? Act',
             r'Protection of Children from Sexual Offences Act'
+        ],
+        "NI Act": [
+            r'N\.?\s?I\.?\s*Act\b',
+            r'Negotiable Instruments Act'
+        ],
+        "PC Act": [
+            r'P\.?\s?C\.?\s*Act\b',
+            r'Prevention of Corruption Act'
+        ],
+        "MV Act": [
+            r'M\.?\s?V\.?\s*Act\b',
+            r'Motor Vehicles Act'
+        ],
+        "CPC": [
+            r'C\.?P\.?C\.?(?![A-Za-z])',
+            r'Code of Civil Procedure',
+            r'Civil Procedure Code'
+        ],
+        "Arbitration Act": [
+            r'Arbitration (?:and|&) Conciliation Act',
+            r'Arbitration Act'
+        ],
+        "Hindu Marriage Act": [
+            r'Hindu Marriage Act',
+            r'H\.?M\.? Act\b'
+        ],
+        "Companies Act": [
+            r'Companies Act'
+        ],
+        "Income Tax Act": [
+            r'Income[\- ]?tax Act',
+            r'I\.?T\.? Act\b'
+        ],
+        "SARFAESI Act": [
+            r'SARFAESI Act',
+            r'Securitisation and Reconstruction of Financial Assets'
+        ],
+        "IBC": [
+            r'I\.?B\.?C\.?(?![A-Za-z])',
+            r'Insolvency and Bankruptcy Code'
         ]
     }
+
+    # How a section reference can be introduced. Indian judgments abbreviate
+    # heavily: "u/s 302 IPC", "S. 138 N.I. Act", "Secs. 420, 468 IPC".
+    SECTION_PREFIX = r'(?:Sections?|Secs?\.|Ss?\.|u/ss?\.?)'
 
     # Section number patterns (handles various formats)
     SECTION_NUMBER_PATTERNS = [
@@ -71,6 +115,32 @@ class SectionExtractor:
         r'\d+/\d+',  # 3/4 (as in Dowry Act)
         r'\d+'  # Simple numbers
     ]
+
+    _COMPILED_PATTERNS: Dict[str, tuple] = {}
+
+    @classmethod
+    def _compiled_for(cls, act_pattern: str) -> tuple:
+        """Return (act-only regex, full section regex) for an act, compiled once.
+
+        The full regex is the expensive one: its prefix alternation matches at
+        many positions and each attempt can walk 120 characters looking for the
+        act name. The act-only regex is near-literal and cheap, so it is used to
+        skip acts the judgment never mentions - and a judgment cites two or
+        three of these, not nineteen. Skipping cannot change the result: the
+        full pattern requires the act name, so where that is absent it cannot
+        match either.
+        """
+        cached = cls._COMPILED_PATTERNS.get(act_pattern)
+        if cached is None:
+            cached = (
+                re.compile(act_pattern, re.IGNORECASE),
+                re.compile(
+                    rf'{cls.SECTION_PREFIX}\s*([^.]{{1,120}}?)\s+{act_pattern}',
+                    re.IGNORECASE,
+                ),
+            )
+            cls._COMPILED_PATTERNS[act_pattern] = cached
+        return cached
 
     @classmethod
     def extract(cls, text: str) -> List[Dict]:
@@ -89,14 +159,22 @@ class SectionExtractor:
         # Extract sections for each act
         for act_name, act_patterns in cls.ACT_PATTERNS.items():
             for act_pattern in act_patterns:
-                # Pattern: "Section(s) <numbers> <Act>"
+                # Pattern: "<prefix> <numbers> <Act>"
                 # Examples: "Sections 498-A, 304-B I.P.C."
                 #           "Section 313 Cr.P.C."
+                #           "u/s 138 N.I. Act"
+                #
+                # Only the literal dot is excluded, as act abbreviations end
+                # one ("...304-B I.P.C."). Newlines must stay matchable because
+                # section lists routinely wrap mid-list in this OCR'd text -
+                # excluding them costs ~15% of IPC hits. The length bound keeps
+                # the engine from backtracking across a whole judgment.
+                act_re, pattern_re = cls._compiled_for(act_pattern)
 
-                # Multiple sections pattern - capture everything between "Section(s)" and the act name
-                pattern = rf'Sections?\s+([^.]+?)\s+{act_pattern}'
+                if not act_re.search(text):
+                    continue
 
-                for match in re.finditer(pattern, text, re.IGNORECASE):
+                for match in pattern_re.finditer(text):
                     section_text = match.group(1).strip()
                     act_ref = match.group(0)
 
@@ -121,31 +199,6 @@ class SectionExtractor:
                         sections.append(section)
                         seen.add(section_key)
 
-                # Also catch standalone "under Section X" patterns
-                pattern2 = rf'under\s+Sections?\s+([^.]+?)\s+{act_pattern}'
-
-                for match in re.finditer(pattern2, text, re.IGNORECASE):
-                    section_text = match.group(1).strip()
-                    individual_sections = cls._parse_section_list(section_text)
-
-                    for section_num in individual_sections:
-                        section_key = f"{act_name}_{section_num}"
-
-                        if section_key in seen:
-                            continue
-
-                        section = {
-                            "type": "statutory_section",
-                            "act": act_name,
-                            "section": section_num,
-                            "raw": match.group(0),
-                            "start_pos": match.start(),
-                            "end_pos": match.end()
-                        }
-
-                        sections.append(section)
-                        seen.add(section_key)
-
         return sections
 
     @staticmethod
@@ -159,8 +212,10 @@ class SectionExtractor:
         Returns:
             List of individual section numbers
         """
-        # Split by comma, 'and', '&'
-        separators = r'\s*,\s*|\s+and\s+|\s+&\s+'
+        # Split by comma, 'and', '&', and range connectors. Range endpoints are
+        # kept as-is; intermediate sections are NOT invented, since "302 to 304"
+        # does not mean every section between was actually invoked.
+        separators = r'\s*,\s*|\s+and\s+|\s+&\s+|\s+to\s+'
         parts = re.split(separators, section_text, flags=re.IGNORECASE)
         
         sections = []

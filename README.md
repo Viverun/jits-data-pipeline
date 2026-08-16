@@ -3,7 +3,7 @@
 A production-ready, deterministic pipeline for processing Indian legal judgments into structured, high-quality legal datasets, with comprehensive extraction, self-citation exclusion, statutory section detection, court normalization, and similarity analysis.
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-yellow.svg)](LICENSE)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/)
 
 ## Overview
 
@@ -30,7 +30,9 @@ The metrics below are computed from the current exported `train.jsonl` and proce
 
 ## Current Release
 
-Current GitHub release state: **v1.7**
+Current GitHub release state: **v1.8** (pipeline). The published dataset artifact is
+still **v1.7** — `v1.8` changes the pipeline only and does not rebuild the corpus, so
+the metrics below are unchanged.
 
 | Metric | Value | Notes |
 |--------|-------|-------|
@@ -65,8 +67,11 @@ Current GitHub release state: **v1.7**
 ```bash
 git clone https://github.com/Viverun/jits-data-pipeline.git
 cd jits-data-pipeline
-pip install -e .
+uv sync
+source .venv/bin/activate
 ```
+
+This project is pinned to Python 3.10 (`.python-version`) for compatibility with the pinned `torch`/`tokenizers` versions; `uv` will download that interpreter automatically if it isn't already installed. Add `--extra dev` to also install the dev/test tooling from `requirements-dev.txt`. Activating the environment puts `legal-ai` on `PATH` directly (no `uv run` prefix needed); alternatively, prefix each command below with `uv run` without activating.
 
 ### Run The Pipeline
 
@@ -143,6 +148,34 @@ python3 scripts/normalize_dataset.py
 ```
 
 ## Release Notes
+
+### v1.8 (2026-08-16)
+
+Pipeline-only release. No corpus rebuild ships here, so the dataset metrics above
+and the published Hugging Face artifact remain at `v1.7`.
+
+- **determinism fixes.** similarity edge generation, cluster centroid selection, and
+  cluster refinement no longer depend on set iteration order, and pipeline file
+  iteration is sorted so ID collisions resolve the same way every run. verified
+  byte-identical artifacts across `PYTHONHASHSEED` values; previously refined-cluster
+  *membership* varied between runs on identical inputs
+- removed nested-quantifier backtracking from the case-number header pattern
+  (identical matches over `16,638` real header lines)
+- section extractor gains an act-presence gate and a compiled-pattern cache
+  (identical output over `2,217` judgments)
+- high-court location rules precompiled behind a substring gate
+  (identical output over `163,252` header segments)
+- similarity candidate pairs built from an inverted index instead of all-pairs
+  enumeration; on a `2,215`-judgment corpus this evaluated `539,590` of `2,452,005`
+  possible pairs with the edge set preserved
+- statutory section extraction widened from `9` acts to `19`, adding NI Act, CPC,
+  Arbitration, MV Act, Companies Act, IBC, PC Act, Income Tax, Hindu Marriage, and
+  SARFAESI. on a `2,215`-judgment sample rebuild this raised section coverage from
+  `50.7%` to `66.0%` of cases; the shipped corpus is unchanged until the next rebuild
+- added `pyproject.toml`, `uv.lock`, and a `.python-version` pin of `3.10`. the repo
+  previously carried no build configuration, so the documented `pip install -e .`
+  could not succeed
+- verification green: full suite `87/87`
 
 ### v1.6 (2026-03-22)
 

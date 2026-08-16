@@ -32,7 +32,10 @@ def find_clusters_centroid(edges):
             edge_data[tuple(sorted((u, v)))] = edge.get("signals", {})
 
     node_degrees = {node: len(neighbors) for node, neighbors in adj.items()}
-    sorted_nodes = sorted(node_degrees.keys(), key=lambda x: node_degrees[x], reverse=True)
+    # Ties are broken by judgment ID. Without it, equal-degree nodes keep the
+    # order they were inserted from the edge file, so a different edge ordering
+    # would elect a different centroid and change cluster membership.
+    sorted_nodes = sorted(node_degrees.keys(), key=lambda x: (-node_degrees[x], x))
 
     clusters = []
     assigned = set()
@@ -45,7 +48,7 @@ def find_clusters_centroid(edges):
         assigned.add(centroid)
 
         neighbors = adj[centroid]
-        sorted_neighbors = sorted(neighbors.keys(), key=lambda x: neighbors[x], reverse=True)
+        sorted_neighbors = sorted(neighbors.keys(), key=lambda x: (-neighbors[x], x))
 
         for n in sorted_neighbors:
             if n not in assigned:
