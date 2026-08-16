@@ -64,14 +64,32 @@ CASE_NO_PATTERNS = [
     r"\b((?:W\.?\s*P\.?(?:\(\s*[A-Z.]+\s*\))?|W\.?\s*A\.?(?:\(\s*[A-Z.]+\s*\))?|C\.?\s*M\.?\s*A\.?(?:\(\s*[A-Z.]+\s*\))?)\s*Nos?\.?\s*[A-Z0-9./()-]+(?:\s*(?:to|and|&|,)\s*[A-Z0-9./()-]+)+(?:\s+of\s+\d{4}))",
     r"\b((?:W\.?\s*P\.?\s*\(\s*[A-Z.]+\s*\)|W\.?\s*P\s*\([A-Z.]+\)|O\.?\s*P\.?\s*\(\s*[A-Z.]+\s*\))\s*(?:No\.?\s*)?[0-9]+/[0-9]{4}(?:\s*\([^)]+\))?)",
     r"\b((?:Cr\.?\s*M\.?\s*P\.?|M\.?\s*Cr\.?\s*C\.?|MCRC|H\.?\s*C\.?\s*P\.?(?:\([A-Z.]+\))?|HCP(?:\([A-Z.]+\))?|Bail\s*Appl\.?|Bail\s*Application|Cr\.?\s*A\.?|Crl\.?\s*O\.?\s*P\.?(?:\([A-Z.]+\))?)\s*Nos?\.?\s*[A-Z0-9./(), &\[\]-]+(?:\s*(?:to|and|&|,)\s*[A-Z0-9./(), &\[\]-]+)*(?:/\d{2,4}|\s+of\s+\d{2,4})(?:\[[A-Z0-9]+\])?(?:\s*\([^)]+\))?)",
-    r"\b((?:C\.?W\.?P\.?|CRLMC|CRL\.?\s*PETN\.?|CRL\.?\s*O\.?\s*P\.?|Crl\.R\.C(?:\(MD\))?|Crl\.R\.P\.?|C\.M\.A\.?|M\.?\s*A\.?|MACP|MAC\s+Petition|MFA|FAO|LPA|SLP|O\.A\.?|A\.S\.|S\.A\.|C\.A\.|CRL\.?\s*A\.?|CRL\.?\s*M\.?\s*C\.?|Arb\.?\s*O\.?\s*P\.?(?:\([^)]+\))?)\s*No\.?\s*[A-Z0-9./()-]+(?:\s*(?:of|/)\s*(?:19|20)\d{2})?(?:\s*\([^)]+\))?)",
+    r"\b((?:C\.?W\.?P\.?|CRLMC|CRL\.?\s*PETN\.?|CRL\.?\s*O\.?\s*P\.?|Crl\.R\.C(?:\(MD\))?|Crl\.R\.P\.?|C\.M\.A\.?|M\.?\s*A\.?|MACP|MAC\s+Petition|MFA|FAO|LPA|SLP|O\.A\.?|A\.S\.|S\.A\.|C\.A\.|CRL\.?\s*A\.?|CRL\.?\s*M\.?\s*C\.?|CRL\.?\s*M\.?\s*P\.?|CS\s*DJ|Arb\.?\s*O\.?\s*P\.?(?:\([^)]+\))?)\s*No\.?\s*[A-Z0-9./()-]+(?:\s*(?:of|/)\s*(?:19|20)\d{2})?(?:\s*\([^)]+\))?)",
     r"\b((?:First\s+Appeal|Second\s+Appeal|Special\s+Civil\s+Application|C\.?\s*Misc\.?|CR\.?\s*WJC)\s*No\.?\s*[A-Z0-9./()-]+(?:\s*(?:to|and|&|,)\s*[A-Z0-9./()-]+)*(?:/\d{2,4}|\s+of\s+\d{2,4})(?:\(\d+\))?)",
     r"\b((?:Civil|Criminal)\s+(?:Writ\s+Petition|Appeal|Revision)\s+No\.?\s*[A-Z0-9./()-]+(?:\s+of\s+\d{4})?(?:\s*\([^)]+\))?)",
     r"\b((?:Case|Claim\s+Case|Petition)\s+No\.?\s*[A-Z0-9./()-]+(?:\s+of\s+\d{4})?)",
+    # Hyphenated cause numbers carry no "No." token at all - Punjab & Haryana and
+    # Madhya Pradesh number cases as PREFIX-NNNN-YYYY ("CRM-M-8611-2022 (O&M)"),
+    # which every No.-anchored pattern misses. The year is pinned to 19xx/20xx so
+    # it cannot match ordinary hyphenated text.
+    #
+    # Deliberately the LAST pattern of the last list. Every LINE_CASE_NO_PATTERN
+    # runs before every pattern here, so placing this among them - even last -
+    # still outranked the specific No.-anchored forms and swapped correct values
+    # for an unrelated case cited elsewhere in the same judgment
+    # ("M.Cr.C. No.26279/2020" became "MCRC-47525-2020"). Here it is reached only
+    # when nothing else matched, which is exactly the recovery case it is for.
+    r"^\s*((?:[A-Z]{2,6}(?:-[A-Z]{1,4})*)-\d{1,6}-(?:19|20)\d{2}(?:\s*\([^)]+\))?)[.,]?\s*$",
 ]
 
 LINE_CASE_NO_PATTERNS = [
-    r"^\s*((?:Case\s*[:\-]+\s*)?(?:[A-Z][A-Z0-9 .()&/-]{2,90})\s+No\.?\s*[-:]?\s*[A-Z0-9./()-]+(?:\s+of\s+\d{4})?(?:\s*\([^)]+\))?)\s*$",
+    # Trailing punctuation is tolerated but deliberately left outside the capture
+    # group: cause titles are routinely typed with a full stop ("Cr.MMO No.152 of
+    # 2015."), and the bare \s*$ anchor rejected the whole line for that one
+    # character. Only [.,] is allowed - a trailing colon must keep failing, or a
+    # bare label line ("CASE NO:") matches and captures "CASE NO" in preference
+    # to the real cause number further down the header.
+    r"^\s*((?:Case\s*[:\-]+\s*)?(?:[A-Z][A-Z0-9 .()&/-]{2,90})\s+No\.?\s*[-:]?\s*[A-Z0-9./()-]+(?:\s+of\s+\d{4})?(?:\s*\([^)]+\))?)[.,]?\s*$",
     r"^\s*((?:W\.?\s*P\.?\s*\(\s*[A-Z.]+\s*\)|W\.?\s*P\s*\([A-Z.]+\)|O\.?\s*P\.?\s*\(\s*[A-Z.]+\s*\)|"
     r"C\.?W\.?P\.?|CRLMC|CRL\.?\s*PETN\.?|CRL\.?\s*O\.?\s*P\.?|Crl\.R\.C(?:\(MD\))?|Crl\.R\.P\.?|"
     r"C\.M\.A\.?|M\.?\s*A\.?|MACP|MAC\s+Petition|MAC\.?\s*APPL\.?|MFA|FAO|LPA|SLP|O\.A\.?|A\.S\.|S\.A\.|"
@@ -1132,6 +1150,13 @@ def _extract_case_number_match(text: str, patterns=None):
             if re.match(r"^\s*Case\s+No\.?\s*", candidate, re.I) and re.search(r"\b(?:police station|p\.?\s*s\.?)\b", prefix, re.I):
                 continue
             if _is_bad_case_number_candidate(candidate):
+                continue
+            # A case number without a digit is not a case number. The number
+            # classes here are [A-Z0-9...] under re.I, so "Nos" parses as the
+            # token "No" followed by a one-character number "s", and a bare
+            # label line yields "CASE NO". Both are rejected here rather than in
+            # each pattern, since every pattern shares the same exposure.
+            if not re.search(r"\d", candidate):
                 continue
             return _normalize_case_number(candidate)
     return None
