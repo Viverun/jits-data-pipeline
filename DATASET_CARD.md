@@ -30,7 +30,7 @@ A production-ready, deterministic pipeline for processing Indian legal judgments
 > **Disclaimer:** This dataset is independently created for research and engineering use. It is *not* an official government or judicial release and does not constitute legal advice.
 
 The JITS Legal Dataset currently contains **3008 processed judgments** in the full corpus,
-with **2181 rows** in the current public `train.jsonl` release export,
+with **2215 rows** in the current public `train.jsonl` release export,
 processed into machine-readable JSON with:
 
 - **Clean text extraction** with artifact removal (Phase 1)
@@ -63,14 +63,14 @@ This dataset is **not** intended to provide legal advice.
 | Metric | Value | Notes |
 |--------|-------|-------|
 | **Full Corpus (Processed Judgments)** | 3008 | Consolidated deterministic corpus |
-| **Release Export Rows (`train.jsonl`)** | 2181 | UNKNOWN-court and unknown-year IDs excluded |
-| **Metadata Completeness** | 67.4% (2027/3008) | Completeness across court/date/case_number |
-| **Missing Court (Full Corpus)** | 753 | Remaining UNKNOWN-court records |
-| **Missing Decision Date (Full Corpus)** | 527 | Full-corpus missing dates |
-| **Missing Case Number (Full Corpus)** | 1108 | Full-corpus missing case numbers |
-| **Unknown-Year IDs (Full Corpus)** | 238 | IDs with unresolved year |
-| **Release Missing Dates** | 154 | Missing dates in exported `train.jsonl` |
-| **Release Missing Case Numbers** | 607 | Missing case numbers in exported `train.jsonl` |
+| **Release Export Rows (`train.jsonl`)** | 2215 | UNKNOWN-court and unknown-year IDs excluded |
+| **Metadata Completeness** | 69.0% (2077/3008) | Completeness across court/date/case_number |
+| **Missing Court (Full Corpus)** | 738 | Remaining UNKNOWN-court records |
+| **Missing Decision Date (Full Corpus)** | 384 | Full-corpus missing dates |
+| **Missing Case Number (Full Corpus)** | 1068 | Full-corpus missing case numbers |
+| **Unknown-Year IDs (Full Corpus)** | 165 | IDs with unresolved year |
+| **Release Missing Dates** | 138 | Missing dates in exported `train.jsonl` |
+| **Release Missing Case Numbers** | 597 | Missing case numbers in exported `train.jsonl` |
 | **Similarity Edges** | 802,552 | Rebuilt deterministic graph |
 | **Refined Clusters** | 77 | Post-rebuild domain-pure clusters |
 | **Non-ISO Dates** | 0 | Date normalization verified |
@@ -121,14 +121,14 @@ legal-ai pipeline && legal-ai audit --type quality
 - Each dataset version corresponds deterministically to a specific
   pipeline commit
 
-> **Note on Dataset Size:** Earlier snapshots in this repository may show lower counts. The current deterministic corpus build contains **3008** processed judgments, while the current release export contains **2181** rows after UNKNOWN-court and unknown-year exclusion.
+> **Note on Dataset Size:** Earlier snapshots in this repository may show lower counts. The current deterministic corpus build contains **3008** processed judgments, while the current release export contains **2215** rows after UNKNOWN-court and unknown-year exclusion.
 
 ### Changelog
 
-#### v1.8 (2026-08-16) — pipeline only
+#### v1.9 (2026-08-16) — pipeline only
 
 The corpus is **not** rebuilt in this release. All dataset metrics above, and the
-published `train.jsonl`, remain exactly as generated for `v1.7`.
+published `train.jsonl`, remain exactly as generated for `v1.8`.
 
 - Made similarity edge generation, centroid selection, and cluster refinement
   independent of set iteration order, and sorted pipeline file iteration so ID
@@ -145,6 +145,14 @@ published `train.jsonl`, remain exactly as generated for `v1.7`.
 - Added `pyproject.toml`, `uv.lock`, and a Python `3.10` pin; the repository
   previously had no build configuration, so `pip install -e .` could not succeed.
 - Verification green: full suite `87/87`.
+
+#### v1.8 (2026-03-23)
+
+- Added targeted CWP court fallback (`Haryana` marker with Himachal exclusion) when court is `UNKNOWN`.
+- Re-ran pipeline through `consolidate` and regenerated `train.jsonl`.
+- Full-corpus quality now: metadata `69.0%` (`2077/3008`), missing court `738`, missing date `384`, missing case number `1068`, unknown-year IDs `165`, non-ISO dates `0`, duplicate IDs `0`.
+- Release quality now: `2215` rows, missing dates `138`, missing case numbers `597`, unknown-year IDs excluded from export.
+- Verification green: metadata tests `63/63`.
 
 #### v1.7 (2026-03-22)
 
@@ -268,7 +276,7 @@ The complete data processing pipeline, schemas, and audit tools are available at
 If you use this dataset, please cite:
 
 ```
-Viverun (2026). JITS Legal Dataset (v1.7). Hugging Face.
+Viverun (2026). JITS Legal Dataset (v1.8). Hugging Face.
 ```
 
 ---

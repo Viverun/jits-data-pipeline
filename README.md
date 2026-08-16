@@ -9,7 +9,7 @@ A production-ready, deterministic pipeline for processing Indian legal judgments
 
 > **Disclaimer:** This dataset is independently created for research and engineering use. It is not an official government or judicial release and does not constitute legal advice.
 
-This repository contains the deterministic pipeline used to generate the JITS Legal Dataset. The current corpus build contains **3008** processed judgments, with **2181** release-ready rows exported in `train.jsonl`, with:
+This repository contains the deterministic pipeline used to generate the JITS Legal Dataset. The current corpus build contains **3008** processed judgments, with **2215** release-ready rows exported in `train.jsonl`, with:
 
 - clean text extraction and normalization
 - rule-based metadata extraction and domain classification
@@ -30,24 +30,24 @@ The metrics below are computed from the current exported `train.jsonl` and proce
 
 ## Current Release
 
-Current GitHub release state: **v1.8** (pipeline). The published dataset artifact is
-still **v1.7** — `v1.8` changes the pipeline only and does not rebuild the corpus, so
-the metrics below are unchanged.
+Current GitHub release state: **v1.9** (pipeline). The published dataset artifact is
+**v1.8** — `v1.9` changes the pipeline only and does not rebuild the corpus, so the
+metrics below describe the `v1.8` release.
 
 | Metric | Value | Notes |
 |--------|-------|-------|
 | **Full Corpus (Processed Judgments)** | 3008 | Consolidated deterministic corpus |
-| **Metadata Completeness** | 67.4% (2027/3008) | Completeness across court/date/case_number |
-| **Missing Court** | 753 | Remaining UNKNOWN-court records |
-| **Missing Decision Date** | 527 | Full-corpus missing dates |
-| **Missing Case Number** | 1108 | Full-corpus missing case numbers |
-| **Unknown-Year IDs** | 238 | IDs with unresolved year in full corpus |
+| **Metadata Completeness** | 69.0% (2077/3008) | Completeness across court/date/case_number |
+| **Missing Court** | 738 | Remaining UNKNOWN-court records |
+| **Missing Decision Date** | 384 | Full-corpus missing dates |
+| **Missing Case Number** | 1068 | Full-corpus missing case numbers |
+| **Unknown-Year IDs** | 165 | IDs with unresolved year in full corpus |
 | **Non-ISO Dates** | 0 | ISO normalization validated |
 | **Duplicate IDs** | 0 | ID uniqueness validated |
 | **Referential Integrity Errors** | 0 | Cross-record integrity validated |
-| **Release Export Rows (`train.jsonl`)** | 2181 | UNKNOWN-court and unknown-year IDs excluded; artifact published on Hugging Face |
-| **Release Missing Dates** | 154 | Rows still eligible for release |
-| **Release Missing Case Numbers** | 607 | Rows still eligible for release |
+| **Release Export Rows (`train.jsonl`)** | 2215 | UNKNOWN-court and unknown-year IDs excluded; artifact published on Hugging Face |
+| **Release Missing Dates** | 138 | Rows still eligible for release |
+| **Release Missing Case Numbers** | 597 | Rows still eligible for release |
 | **Similarity Edges** | 802,552 | Rebuilt deterministic graph |
 | **Refined Clusters** | 77 | Post-rebuild domain-pure clusters |
 
@@ -149,10 +149,10 @@ python3 scripts/normalize_dataset.py
 
 ## Release Notes
 
-### v1.8 (2026-08-16)
+### v1.9 (2026-08-16)
 
 Pipeline-only release. No corpus rebuild ships here, so the dataset metrics above
-and the published Hugging Face artifact remain at `v1.7`.
+and the published Hugging Face artifact remain at `v1.8`.
 
 - **determinism fixes.** similarity edge generation, cluster centroid selection, and
   cluster refinement no longer depend on set iteration order, and pipeline file
@@ -187,6 +187,14 @@ and the published Hugging Face artifact remain at `v1.7`.
 - Delhi QR/order-portal, Orissa signed-location, and Andhra proceedings-sheet recoveries added
 - case-number support widened (`MA`, `First Appeal`, `C.Misc.`, `CR. WJC`)
 - verification green: metadata tests `63/63`, normalize-dataset tests `3/3`, pipeline-runner tests `2/2`
+
+### v1.8 (2026-03-23)
+
+- added targeted CWP court fallback (`Haryana` marker with Himachal exclusion) when court is `UNKNOWN`
+- re-ran pipeline through `consolidate` and regenerated `train.jsonl`
+- full-corpus quality now: metadata completeness `69.0%` (`2077/3008`), missing court `738`, missing date `384`, missing case number `1068`, unknown-year IDs `165`
+- release export now `2215` rows, missing dates `138`, missing case numbers `597`
+- verification green: metadata tests `63/63`
 
 ### v1.7 (2026-03-22)
 
@@ -227,7 +235,7 @@ If you use this dataset or pipeline, please cite:
   title = {JITS Legal Dataset},
   year = {2026},
   publisher = {Hugging Face},
-  version = {1.7},
+  version = {1.8},
   url = {https://huggingface.co/datasets/Viverun/jits-legal-dataset}
 }
 ```
@@ -235,7 +243,7 @@ If you use this dataset or pipeline, please cite:
 Or:
 
 ```text
-Viverun (2026). JITS Legal Dataset (v1.7). Hugging Face.
+Viverun (2026). JITS Legal Dataset (v1.8). Hugging Face.
 ```
 
 ## License
