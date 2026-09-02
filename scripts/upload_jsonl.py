@@ -2,6 +2,8 @@ import argparse
 import os
 import sys
 
+from pathlib import Path
+
 from huggingface_hub import CommitOperationAdd, HfApi
 from huggingface_hub.errors import HfHubHTTPError
 from normalize_dataset import DEFAULT_INPUT_DIR, DEFAULT_OUTPUT_FILE, export_jsonl, validate_release_quality
@@ -13,15 +15,18 @@ RELEASE_ASSETS = [
 ]
 PLACEHOLDER_TOKENS = {"your_token_here", "hf_your_token_here"}
 COMMIT_MESSAGE = (
-    "v1.5: Court codes corrected, tribunal IDs added, metadata extraction tightened\n\n"
-    "- 744 judgment IDs changed versus v1.4 (court codes and tribunal classification)\n"
-    "- HIG/BLE/SUP legacy codes eliminated - all IDs now use canonical court codes\n"
-    "- Tribunal records now correctly typed: IN-TR-CAT-* instead of IN-HC-BLE-*\n"
-    "- Tighter line-based header parsing eliminates overmatched court strings\n"
-    "- Court distribution: SC: 134, ALL: 116, DEL: 87, CAT: 9\n"
-    "- Level distribution: HC: 685, SC: 134, TR: 11, UNKNOWN: 16\n"
-    "- 23 refined clusters (was 25), 90,924 similarity edges\n"
-    "- breaking: 744 judgment_ids changed from v1.4"
+    "v1.10: full corpus rebuild - 2,446 new judgments, two ReDoS fixes, case_number cleanup\n\n"
+    "- processed a 2,502-document backlog that had been downloaded but never run\n"
+    "  through the pipeline; 56 were exact-text duplicates of already-published\n"
+    "  judgments and were skipped, 2,446 genuinely new judgments merged in\n"
+    "- full corpus: 3008 -> 4661 judgments; train.jsonl: 2215 -> 3324 rows\n"
+    "- fixed two catastrophic-backtracking regressions in extract_case_number that\n"
+    "  could hang the pipeline indefinitely on ordinary judgment text\n"
+    "- replayed extraction (these fixes plus the already-landed-but-never-applied\n"
+    "  v1.9 case_number digit-validation fix) across the full corpus: 50\n"
+    "  case_number values corrected corpus-wide, no other field changed\n"
+    "- similarity edges/clusters not rebuilt this release - still describe only\n"
+    "  the pre-v1.10 2,215-judgment corpus (known issue, see README)"
 )
 
 
@@ -43,8 +48,8 @@ def get_api():
 def prepare_release_assets(include_unknown_cases: bool, exclude_unknown_domain: bool):
     output_file = DEFAULT_OUTPUT_FILE
     count, skipped = export_jsonl(
-        input_dir=DEFAULT_INPUT_DIR,
-        output_file=output_file,
+        input_dir=Path(DEFAULT_INPUT_DIR),
+        output_file=Path(output_file),
         exclude_unknown_cases=not include_unknown_cases,
         exclude_unknown_domain=exclude_unknown_domain,
     )
