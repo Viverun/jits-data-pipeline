@@ -16,6 +16,34 @@ def _judgment(issues, sections):
     }
 
 
+def test_extract_signals_reads_consolidated_record_shape():
+    """extract_signals must work on final consolidated judgment JSON, not just
+    the pre-consolidation intermediate shape used above.
+
+    Consolidated records nest sections under extractions.sections.by_act (no
+    top-level "extracted_sections") and write statutory_transitions as a bare
+    list rather than {"transitions": [...]}. Neither had a fallback, so
+    running similarity directly against data/judgments/*.json silently
+    produced zero section signals for the whole corpus, and crashed outright
+    on any record carrying transitions.
+    """
+    consolidated = {
+        "judgment_id": "IN-HC-DEL-2023-CR-ABCDEF",
+        "classification": {"domain": "criminal"},
+        "extractions": {
+            "sections": {"by_act": {"IPC": ["302", "406"]}},
+            "citations": {"details": []},
+            "issues": {"details": {}},
+            "transitions": {"details": []},
+        },
+        "statutory_transitions": [{"ipc": "302", "bns": "103"}],
+    }
+
+    signals = extract_signals(consolidated)
+
+    assert signals["sections"] == ["BNS 103", "IPC 302", "IPC 406"]
+
+
 def _high_edge(source, target, weight=12):
     return {
         "from": source,

@@ -72,14 +72,25 @@ def _normalize_section_signal(act, section):
 def _extract_section_signals(data):
     section_signals = set()
 
-    for act_key, section_nums in data.get("extracted_sections", {}).items():
+    sections_by_act = data.get("extracted_sections", {})
+    if not sections_by_act:
+        # Consolidated (post-v2.0) records don't carry "extracted_sections" -
+        # the same data lives at extractions.sections.by_act instead. Without
+        # this fallback, running similarity directly against final judgment
+        # JSON silently drops every section signal for the whole corpus.
+        sections_by_act = data.get("extractions", {}).get("sections", {}).get("by_act", {})
+
+    for act_key, section_nums in sections_by_act.items():
         act = str(act_key).replace("_", " ")
         for section in section_nums:
             normalized = _normalize_section_signal(act, section)
             if normalized:
                 section_signals.add(normalized)
 
-    transitions = data.get("statutory_transitions", {}).get("transitions", [])
+    raw_transitions = data.get("statutory_transitions", [])
+    # Pre-consolidation records nest it as {"transitions": [...]}; consolidated
+    # (post-v2.0) records write it as a bare list at the top level instead.
+    transitions = raw_transitions.get("transitions", []) if isinstance(raw_transitions, dict) else raw_transitions
     if not transitions:
         transitions = data.get("extractions", {}).get("transitions", {}).get("details", [])
 
