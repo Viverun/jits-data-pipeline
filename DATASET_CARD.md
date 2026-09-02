@@ -14,6 +14,11 @@ language:
   - en
 size_categories:
   - 1K<n<10K
+configs:
+  - config_name: default
+    data_files:
+      - split: train
+        path: train.jsonl
 ---
 
 # JITS Legal Dataset
