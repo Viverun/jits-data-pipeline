@@ -30,26 +30,25 @@ The metrics below are computed from the current exported `train.jsonl` and proce
 
 ## Current Release
 
-Current release state: **v1.10** (pipeline and dataset). This is a full corpus
-rebuild: it processes a 2,502-document backlog that had never gone through the
-pipeline, applies two newly discovered extraction fixes to the whole corpus, and
-regenerates `train.jsonl`.
+Current release state: **v1.11** (pipeline and dataset). Same 4,661-document
+corpus as `v1.10`, but 1,216 documents that came back from the downloader with
+no recoverable header have been re-fetched and corrected, raising the release
+export from 3,324 to 4,451 rows.
 
 | Metric | Value | Notes |
 |--------|-------|-------|
-| **Full Corpus (Processed Judgments)** | 4661 | Consolidated deterministic corpus (was 3008 in `v1.8`) |
-| **Metadata Accuracy** | 64.5% (3008/4661) | Court + date + case_number all present |
-| **Missing Court** | 1231 | Remaining UNKNOWN-court records |
-| **Missing Decision Date** | 905 | Full-corpus missing dates |
-| **Missing Case Number** | 1779 | Full-corpus missing case numbers |
-| **Unknown-Year IDs** | 339 | IDs with unresolved year in full corpus |
+| **Full Corpus (Processed Judgments)** | 4661 | Same document count as `v1.10`; 1,216 corrected in place |
+| **Metadata Accuracy** | 88.7% (4134/4661) | Court + date + case_number all present |
+| **Missing Court** | 103 | Was 1231 in `v1.10` |
+| **Missing Decision Date** | 437 | Was 905 in `v1.10` |
+| **Missing Case Number** | 1541 | Was 1779 in `v1.10` |
 | **Duplicate IDs** | 0 | ID uniqueness validated |
-| **Referential Integrity Errors** | 23 | Pre-existing: `clusters_refined.json` references 23 judgment IDs absent from the corpus, predating this release; see Known Issues |
-| **Release Export Rows (`train.jsonl`)** | 3324 | UNKNOWN-court and unknown-year IDs excluded (was 2215 in `v1.8`) |
-| **Release Missing Dates** | 316 | Rows still eligible for release |
-| **Release Missing Case Numbers** | 981 | Rows still eligible for release |
-| **Similarity Edges** | 802,552 | **Not rebuilt this release** — still reflects only the pre-`v1.10` 2,215-judgment corpus |
-| **Refined Clusters** | 77 | **Not rebuilt this release** — same caveat |
+| **Referential Integrity Errors** | 36 | Pre-existing category (see Known Issues): re-IDing the 1,216 corrected documents added more stale cluster references, same root cause as `v1.10`'s 23 |
+| **Release Export Rows (`train.jsonl`)** | 4451 | UNKNOWN-court and unknown-year IDs excluded (was 3324 in `v1.10`, 2215 in `v1.8`) |
+| **Release Missing Dates** | 317 | Rows still eligible for release |
+| **Release Missing Case Numbers** | 1367 | Rows still eligible for release |
+| **Similarity Edges** | 802,552 | **Still not rebuilt** — reflects only the pre-`v1.10` 2,215-judgment corpus |
+| **Refined Clusters** | 77 | **Still not rebuilt** — same caveat |
 
 ### Metadata Completeness
 
@@ -58,20 +57,46 @@ conjunction, and every `case_number` must contain a digit to count:
 
 | Field | Coverage | Notes |
 |-------|----------|-------|
-| `court` | 100.0% | 3324/3324 (the release filter excludes unknown-court records) |
-| `decision_date` | 90.5% | 3008/3324 |
-| `case_number` | 70.5% | 2343/3324, digit-validated |
-| **Mean field completeness** | **87.0%** | headline metric |
-| All-three-present (strict) | 62.7% | previous definition, retained for comparison |
+| `court` | 100.0% | 4451/4451 (the release filter excludes unknown-court records) |
+| `decision_date` | 92.9% | 4134/4451 |
+| `case_number` | 69.3% | 3084/4451, digit-validated |
+| **Mean field completeness** | **87.4%** | headline metric |
+| All-three-present (strict) | 63.3% | previous definition, retained for comparison |
 
-Measured on the `3324`-row release export, not the `4661`-judgment full corpus.
+Measured on the `4451`-row release export, not the `4661`-judgment full corpus.
 
-> **Resolved in `v1.10`:** the `v1.9` notes below describe a `case_number`
-> quality fix (letters matching the shared number class under `re.I`) that had
-> landed in code but not yet been applied to the published corpus. This release
-> replays extraction over every record and applies it, plus two more extraction
-> fixes found while processing the backlog (see below). `50` `case_number`
-> values were corrected corpus-wide; no other metadata field changed.
+### v1.11: Downloader Header-Loss Bug
+
+`v1.10` shipped 1,231 unknown-court records, every one of them from the
+2,502-document backlog (the pre-existing corpus had ~0). Sampling 20 of them
+showed the raw `.txt` files themselves started mid-document, with no cause
+title at all - and any "High Court" mention nearby was a citation to another
+court's precedent, not the originating court, so a smarter regex could not
+safely recover it.
+
+The actual cause was in the downloader, not extraction: Indian Kanoon renders
+the court name, case title, author, and bench as `<h2>`/`<h3>` headings, the
+opening cause-title block as a bare `<pre>`, and some judgment paragraphs as
+`<blockquote>`. `extract_clean_text()` only kept direct-child `<p>`/`<div>`
+tags, so all of that - not just the header - was silently dropped on every
+page that used this layout.
+
+Fixed by widening the allowlist to `["p", "div", "h1", "h2", "h3", "h4",
+"pre", "blockquote"]` (regression tests added: `test_downloader.py`). Verified
+on a live sample page that the fix recovers the correct court, case number,
+decision date, and parties.
+
+Backfilled the existing corpus rather than waiting for a future download run:
+1,216 of the 1,231 unknown-court records had a `source_url` in
+`download_manifest.jsonl` (the other 15 predate the manifest and could not be
+re-fetched). Re-fetched all 1,216 (paced, resumable, 12 transient DNS
+failures retried to completion), replaced the truncated raw text in place,
+and reprocessed them through the full pipeline. `1,128` (93%) now have a
+resolved court; `88` remain unknown even with the full page content,
+presumably a different page layout. Total full-corpus document count is
+unchanged at `4661` - this only replaces the content and regenerates the
+IDs of the 1,216 corrected records (a breaking ID change for those specific
+records, same as any other extraction correction in this project's history).
 
 ### v1.10 Extraction Fixes
 
@@ -98,13 +123,18 @@ zero further hangs and zero unintended changes to `court`, `decision_date`,
 
 ### Known Issues
 
-- **23 orphaned cluster references** (pre-existing, not introduced by `v1.10`):
+- **36 orphaned cluster references** (pre-existing, not introduced by `v1.11`):
   `annotations/similarity/clusters_refined.json` references judgment IDs that
-  are not present in the corpus. Predates this release.
+  are not present in the corpus. `v1.10` had 23; correcting the 1,216
+  documents in `v1.11` regenerated their IDs and added more, same root cause.
 - **Similarity graph and clusters are stale.** `edges.jsonl` and
   `clusters_refined.json` were built from the `2,215`-judgment `v1.8` corpus
-  and have not been rebuilt over the `2,446` judgments added in `v1.10`. They
-  do not yet reflect the current corpus.
+  and have not been rebuilt over the `2,446` judgments added in `v1.10` or the
+  1,216 corrected in `v1.11`. They do not yet reflect the current corpus.
+- **103 records still have no resolvable court**: 15 predate
+  `download_manifest.jsonl` and have no `source_url` to re-fetch; 88 came back
+  from a full, corrected re-fetch with still no identifiable header (a
+  different page layout, presumably).
 - **56 exact-duplicate raw documents were skipped**, not merged: the backlog
   contained 56 judgments whose full text was byte-identical to an
   already-published record (the same case downloaded twice under different
@@ -207,6 +237,31 @@ python3 scripts/normalize_dataset.py
 ```
 
 ## Release Notes
+
+### v1.11 (2026-09-02)
+
+Fixes the root cause of `v1.10`'s 1,231 unknown-court records rather than
+accepting them as unrecoverable.
+
+- found the actual cause: the downloader's `extract_clean_text()` kept only
+  direct-child `<p>`/`<div>` tags, silently dropping the `<h2>`/`<h3>`
+  headings Indian Kanoon uses for court name/case title/author/bench, the
+  `<pre>` cause-title block, and `<blockquote>` judgment paragraphs
+- fixed the tag allowlist; verified against a live sample page that court,
+  case number, decision date, and parties are now all recovered correctly;
+  regression tests added (`tests/test_downloader.py`)
+- re-fetched all `1,216` backlog documents that had a `source_url` in
+  `download_manifest.jsonl` (paced, resumable; 15 of the original 1,231
+  predate the manifest and could not be re-fetched), replaced their
+  truncated raw text, and reprocessed them through the full pipeline
+- `1,128` of `1,216` (93%) now have a resolved court; `88` remain unknown
+  even with full page content
+- full corpus document count unchanged at `4661`; `train.jsonl` grows
+  `3324` → `4451` rows
+- similarity edges/clusters still not rebuilt; orphaned cluster references
+  grew `23` → `36` from the ID changes (same pre-existing category, not a
+  new defect)
+- verification green: full suite `91/91`
 
 ### v1.10 (2026-09-02)
 

@@ -132,8 +132,14 @@ class IndianKanoonDownloader:
         text = re.sub(r"\s+\d+\s+(?=,|\]|Cited)", " ", text)
         text = re.sub(r"\s+", " ", text)
 
+        # Indian Kanoon renders the court name, case title, author, and bench as
+        # h2/h3 headings, the opening cause-title block as a bare <pre>, and some
+        # judgment paragraphs as <blockquote> - the previous ["p", "div"] allowlist
+        # silently dropped all of them, which is why a large fraction of a fresh
+        # download batch came back with no recoverable court/header at all despite
+        # the source page having one.
         paragraphs = []
-        for child in element.find_all(["p", "div"], recursive=False):
+        for child in element.find_all(["p", "div", "h1", "h2", "h3", "h4", "pre", "blockquote"], recursive=False):
             para_text = child.get_text(separator=" ", strip=True)
             para_text = re.sub(r"\s+", " ", para_text).strip()
             if para_text and len(para_text) > 10:
