@@ -9,7 +9,7 @@ A production-ready, deterministic pipeline for processing Indian legal judgments
 
 > **Disclaimer:** This dataset is independently created for research and engineering use. It is not an official government or judicial release and does not constitute legal advice.
 
-This repository contains the deterministic pipeline used to generate the JITS Legal Dataset. The current corpus build contains **4661** processed judgments, with **3324** release-ready rows exported in `train.jsonl`, with:
+This repository contains the deterministic pipeline used to generate the JITS Legal Dataset. The current corpus build contains **7005** processed judgments, with **6686** release-ready rows exported in `train.jsonl`, with:
 
 - clean text extraction and normalization
 - rule-based metadata extraction and domain classification
@@ -30,23 +30,23 @@ The metrics below are computed from the current exported `train.jsonl` and proce
 
 ## Current Release
 
-Current release state: **v1.11** (pipeline and dataset). Same 4,661-document
-corpus as `v1.10`, but 1,216 documents that came back from the downloader with
-no recoverable header have been re-fetched and corrected, raising the release
-export from 3,324 to 4,451 rows.
+Current release state: **v1.12** (pipeline and dataset). Adds a fresh
+2,344-document download batch on top of `v1.11`, collected with the fixed
+downloader from `v1.11` — so this batch's unknown-court rate is ~9%, not the
+~49% `v1.10`'s backlog had.
 
 | Metric | Value | Notes |
 |--------|-------|-------|
-| **Full Corpus (Processed Judgments)** | 4661 | Same document count as `v1.10`; 1,216 corrected in place |
-| **Metadata Accuracy** | 88.7% (4134/4661) | Court + date + case_number all present |
-| **Missing Court** | 103 | Was 1231 in `v1.10` |
-| **Missing Decision Date** | 437 | Was 905 in `v1.10` |
-| **Missing Case Number** | 1541 | Was 1779 in `v1.10` |
+| **Full Corpus (Processed Judgments)** | 7005 | Was 4661 in `v1.11` |
+| **Metadata Accuracy** | 90.9% (6371/7005) | Court + date + case_number all present |
+| **Missing Court** | 207 | Was 103 in `v1.11`; +104 from the new batch (~9% of 2,344) |
+| **Missing Decision Date** | 444 | Was 437 in `v1.11` |
+| **Missing Case Number** | 2331 | Was 1541 in `v1.11` |
 | **Duplicate IDs** | 0 | ID uniqueness validated |
-| **Referential Integrity Errors** | 36 | Pre-existing category (see Known Issues): re-IDing the 1,216 corrected documents added more stale cluster references, same root cause as `v1.10`'s 23 |
-| **Release Export Rows (`train.jsonl`)** | 4451 | UNKNOWN-court and unknown-year IDs excluded (was 3324 in `v1.10`, 2215 in `v1.8`) |
+| **Referential Integrity Errors** | 36 | Unchanged from `v1.11` (pre-existing category, see Known Issues) |
+| **Release Export Rows (`train.jsonl`)** | 6686 | UNKNOWN-court and unknown-year IDs excluded (was 4451 in `v1.11`) |
 | **Release Missing Dates** | 317 | Rows still eligible for release |
-| **Release Missing Case Numbers** | 1367 | Rows still eligible for release |
+| **Release Missing Case Numbers** | 2080 | Rows still eligible for release |
 | **Similarity Edges** | 802,552 | **Still not rebuilt** — reflects only the pre-`v1.10` 2,215-judgment corpus |
 | **Refined Clusters** | 77 | **Still not rebuilt** — same caveat |
 
@@ -57,13 +57,29 @@ conjunction, and every `case_number` must contain a digit to count:
 
 | Field | Coverage | Notes |
 |-------|----------|-------|
-| `court` | 100.0% | 4451/4451 (the release filter excludes unknown-court records) |
-| `decision_date` | 92.9% | 4134/4451 |
-| `case_number` | 69.3% | 3084/4451, digit-validated |
-| **Mean field completeness** | **87.4%** | headline metric |
-| All-three-present (strict) | 63.3% | previous definition, retained for comparison |
+| `court` | 100.0% | 6686/6686 (the release filter excludes unknown-court records) |
+| `decision_date` | 95.3% | 6369/6686 |
+| `case_number` | 68.9% | 4606/6686, digit-validated |
+| **Mean field completeness** | **88.0%** | headline metric |
+| All-three-present (strict) | 64.9% | previous definition, retained for comparison |
 
-Measured on the `4451`-row release export, not the `4661`-judgment full corpus.
+Measured on the `6686`-row release export, not the `7005`-judgment full corpus.
+
+### v1.12: New Download Batch
+
+A further 2,344-document batch downloaded with the `v1.11`-fixed downloader
+(deep query profile, single-threaded, paced). Processed through the full
+pipeline with zero errors and zero exact-text duplicates against the existing
+corpus (cross-download deduplication already filters those out before a raw
+file is even saved). 207 of the 2,344 (~9%) still came back with no
+resolvable court — consistent with the ~7-9% "genuinely missing header" floor
+observed in `v1.11`'s re-fetch results, not a regression.
+
+A parallel-worker attempt to speed up this batch's download (running several
+downloader instances concurrently) was tried and abandoned: indiankanoon.org's
+rate limiting is IP-based and triggers almost immediately on concurrent
+bursts, whereas a single sequential stream at the same per-request pace runs
+for hours with no 429s at all. Concurrency was not the right lever here.
 
 ### v1.11: Downloader Header-Loss Bug
 
@@ -237,6 +253,26 @@ python3 scripts/normalize_dataset.py
 ```
 
 ## Release Notes
+
+### v1.12 (2026-09-02)
+
+Corpus growth only - no code changes beyond what shipped in `v1.11`.
+
+- downloaded a further 2,344-document batch with the `v1.11`-fixed
+  downloader (deep query profile, single-threaded, paced 2-3s search /
+  4-7s download)
+- tried running 8 concurrent downloader workers to speed this up; all 8
+  hit indiankanoon.org's rate limiter almost immediately with zero net
+  progress, while the same pace on a single sequential stream ran for
+  hours with no 429s - reverted to single-threaded, no code changes kept
+  from the attempt
+- processed the batch through the full pipeline: `2,344/2,344`, zero
+  errors, zero exact-text duplicates against the existing corpus
+- `207` of `2,344` (~9%) still came back with no resolvable court -
+  consistent with `v1.11`'s observed "genuinely missing header" floor,
+  not a regression
+- full corpus `4661` → `7005`; `train.jsonl` `4451` → `6686` rows
+- verification green: full suite `91/91`
 
 ### v1.11 (2026-09-02)
 
