@@ -41,6 +41,8 @@ processed into machine-readable JSON with:
 
 All outputs are reproducible, auditable, and traceable to explicit rules.
 
+**Attribution:** Judgment texts were sourced from [Indian Kanoon](https://indiankanoon.org/), an independent legal search engine; this project is not affiliated with or endorsed by Indian Kanoon.
+
 ---
 
 ## Intended Use
@@ -62,84 +64,23 @@ This dataset is **not** intended to provide legal advice.
 
 | Metric | Value | Notes |
 |--------|-------|-------|
-| **Full Corpus (Processed Judgments)** | 7005 | Was 4661 in `v1.11` |
-| **Release Export Rows (`train.jsonl`)** | 6686 | UNKNOWN-court and unknown-year IDs excluded (was 4451 in `v1.11`) |
+| **Full Corpus (Processed Judgments)** | 7005 | |
+| **Release Export Rows (`train.jsonl`)** | 6686 | UNKNOWN-court and unknown-year IDs excluded |
 | **Metadata Accuracy** | 90.9% (6371/7005) | Court + date + case_number all present |
-| **Missing Court (Full Corpus)** | 207 | Was 103 in `v1.11`; +104 from a fresh 2,344-document batch |
-| **Missing Decision Date (Full Corpus)** | 444 | Was 437 in `v1.11` |
-| **Missing Case Number (Full Corpus)** | 2331 | Was 1541 in `v1.11` |
-| **Release Missing Dates** | 317 | Missing dates in exported `train.jsonl` |
-| **Release Missing Case Numbers** | 2080 | Missing case numbers in exported `train.jsonl` |
-| **Similarity Edges** | 802,552 | **Still not rebuilt** — describes only the pre-`v1.10` 2,215-judgment corpus |
-| **Refined Clusters** | 77 | **Still not rebuilt** — same caveat |
+| **Missing Court / Date / Case Number** | 207 / 444 / 2331 | Full-corpus counts |
 | **Duplicate IDs** | 0 | Uniqueness verified |
-| **Referential Integrity Errors** | 36 | Unchanged from `v1.11` — pre-existing category, see Known Issues |
+| **Referential Integrity Errors** | 36 | Pre-existing orphaned cluster references — see Known Issues |
+| **Similarity Edges / Refined Clusters** | 802,552 / 77 | **Not rebuilt since `v1.8`** — describe only the original 2,215-judgment corpus |
 
-### Metadata Completeness (v1.12)
+**Release-export field completeness:** court 100.0%, decision_date 95.3%, case_number 68.9% (digit-validated) — mean 88.0%, strict all-three-present 64.9%. The conjunction can't distinguish an extraction failure from a field genuinely absent at source (many records lack a cause-title header entirely).
 
-Completeness is reported **per field** rather than as a single all-three-present
-conjunction, and a `case_number` must contain a digit to count:
+### Known Issues
+- Similarity edges/clusters are stale (built from the `v1.8` 2,215-judgment corpus, never rebuilt since).
+- `clusters_refined.json` has 36 references to judgment IDs no longer in the corpus (accumulated across releases as IDs were corrected).
+- 207 records have no resolvable court — mostly missing headers at the source that even the fixed downloader can't recover.
+- A handful of exact-duplicate downloads (same case, different source filename) are detected and excluded automatically rather than merged.
 
-| Field | Coverage | Notes |
-|-------|----------|-------|
-| `court` | 100.0% | 6686/6686 (the release filter excludes unknown-court records) |
-| `decision_date` | 95.3% | 6369/6686 |
-| `case_number` | 68.9% | 4606/6686, digit-validated |
-| **Mean field completeness** | **88.0%** | headline metric |
-| All-three-present (strict) | 64.9% | previous definition, retained for comparison |
-
-Measured on the `6686`-row release export, not the `7005`-judgment full corpus.
-
-The conjunction could not separate an extraction failure from a field that is
-absent at source: some records are served without a cause-title header, so no
-parser can recover a case number from them. Per-field coverage also shows
-where the gap actually is — `100.0%` on court against `68.9%` on case number.
-
-> **v1.12: a further 2,344-document batch**, downloaded with the `v1.11`-fixed
-> downloader and processed with zero pipeline errors and zero duplicates. Only
-> ~9% (207) came back with no resolvable court, versus `v1.10`'s ~49% —
-> confirming the downloader fix holds up on new data. See the GitHub
-> repository's `README.md` release notes for the parallel-download attempt
-> that was tried and reverted (site rate-limits are IP-based, not
-> per-connection).
-
-> **v1.11: root cause of `v1.10`'s unknown-court records found and fixed.**
-> All 1,231 unknown-court records in `v1.10` came from a fresh download batch;
-> the downloader's HTML extraction kept only direct-child `<p>`/`<div>` tags
-> and silently dropped the `<h2>`/`<h3>` headings, `<pre>` cause-title block,
-> and `<blockquote>` paragraphs Indian Kanoon uses on many pages. Fixed the
-> extraction, re-fetched the 1,216 affected documents that still had a
-> recorded source URL, and reprocessed them: 1,128 (93%) now have a resolved
-> court. See the GitHub repository's `README.md` release notes for detail.
-
-> **Resolved in `v1.10`:** the `v1.9` case_number quality fix below (letters
-> matching the shared number class under `re.I`) had landed in code but was
-> never applied to the published corpus. `v1.10` replays extraction over every
-> record and applies it, plus two more catastrophic-backtracking extraction
-> bugs found while processing a 2,502-document backlog — ordinary judgment
-> text mentioning a High Court could hang the pipeline indefinitely. `50`
-> `case_number` values were corrected corpus-wide; no other metadata field
-> changed.
-
-> **Known issue in `v1.8`/`v1.9` (superseded above):** `51` records (3.2% of
-> populated values) carried `case_number` values that were not case numbers —
-> person names (`Manoj`, `MANOMOHAN`), label fragments (`CASE NO`), and
-> sentence fragments. Under `re.I` the shared number class matched letters, so
-> `Manoj` parsed as `Ma` + `no` + number `j`. Kept here for history; resolved
-> in `v1.10` as described above.
-
-### Known Issues (v1.12)
-- Similarity edges and refined clusters were **not** rebuilt for `v1.10` or
-  `v1.11` and only describe the pre-`v1.10` 2,215-judgment corpus.
-- `clusters_refined.json` has 36 orphaned references to judgment IDs no
-  longer present in the corpus (23 predate `v1.10`; correcting 1,216
-  documents in `v1.11` regenerated their IDs and added more of the same kind).
-- 103 records still have no resolvable court: 15 predate
-  `download_manifest.jsonl` and could not be re-fetched; 88 came back from a
-  full, corrected re-fetch with still no identifiable header.
-- 56 documents from the backlog processed for `v1.10` were exact-text
-  duplicates of already-published judgments (same case, different source
-  filename) and were left out of the corpus rather than merged.
+See the GitHub repository's `README.md` for the full per-version changelog.
 
 ### Quality Improvements
 - ✅ **Self-citation exclusion**: No false positive citations
@@ -186,89 +127,6 @@ legal-ai pipeline && legal-ai audit --type quality
   pipeline commit
 
 > **Note on Dataset Size:** Earlier snapshots in this repository may show lower counts. The current deterministic corpus build contains **3008** processed judgments, while the current release export contains **2215** rows after UNKNOWN-court and unknown-year exclusion.
-
-### Changelog
-
-#### v1.9 (2026-08-16) — pipeline only
-
-The corpus is **not** rebuilt in this release. All dataset metrics above, and the
-published `train.jsonl`, remain exactly as generated for `v1.8`.
-
-- Made similarity edge generation, centroid selection, and cluster refinement
-  independent of set iteration order, and sorted pipeline file iteration so ID
-  collisions resolve identically every run. Artifacts are now byte-identical across
-  `PYTHONHASHSEED` values; previously refined-cluster membership could differ between
-  runs on identical inputs.
-- Widened statutory section extraction from `9` acts to `19` (adds NI Act, CPC,
-  Arbitration, MV Act, Companies Act, IBC, PC Act, Income Tax, Hindu Marriage,
-  SARFAESI). On a `2,215`-judgment sample rebuild this lifted section coverage from
-  `50.7%` to `66.0%` of cases — the shipped corpus will pick this up at the next rebuild.
-- Removed regex backtracking in case-number header parsing and added act-presence
-  gating plus pattern caching to section extraction, each verified output-identical
-  against the prior implementation on real corpus text.
-- Added `pyproject.toml`, `uv.lock`, and a Python `3.10` pin; the repository
-  previously had no build configuration, so `pip install -e .` could not succeed.
-- **Completeness is now reported per field**, not as a single all-three-present
-  conjunction, and a `case_number` must contain a digit to count. Mean field
-  completeness `87.4%`; the strict all-three figure (`64.6%`) is still published
-  alongside it. See *Metadata Completeness* above for why the definition changed.
-- Fixed `case_number` extraction emitting non-case-numbers. `51` published values
-  (3.2%) were person names, label fragments, or prose — under `re.I` the shared
-  number class matched letters, so `Manoj` parsed as `Ma` + `no` + number `j`.
-- Widened case-number coverage: trailing full stops on cause titles, the
-  `PREFIX-NNNN-YYYY` registry form (`CRM-M-8611-2022`), and `CRL.M.P.` / `CS DJ`.
-- Verified by replaying extraction over all `2215` records: `35` recovered,
-  `0` lost, `48` garbage values removed.
-- Verification green: full suite `87/87`.
-
-#### v1.8 (2026-03-23)
-
-- Added targeted CWP court fallback (`Haryana` marker with Himachal exclusion) when court is `UNKNOWN`.
-- Re-ran pipeline through `consolidate` and regenerated `train.jsonl`.
-- Full-corpus quality now: metadata `69.0%` (`2077/3008`), missing court `738`, missing date `384`, missing case number `1068`, unknown-year IDs `165`, non-ISO dates `0`, duplicate IDs `0`.
-- Release quality now: `2215` rows, missing dates `138`, missing case numbers `597`, unknown-year IDs excluded from export.
-- Verification green: metadata tests `63/63`.
-
-#### v1.7 (2026-03-22)
-
-- Added strict release gate to block unknown-year (`0000`) IDs in export/upload.
-- Deepened decision-date fallback and year recovery in metadata/ID regeneration.
-- Fixed metadata case-number regex backtracking stalls and restored stable throughput.
-- Re-ran pipeline from metadata through consolidate.
-- Rebuilt similarity graph (`802,552` edges) and refined clusters (`77`).
-- Referential integrity re-validated with `0` errors after graph rebuild.
-- Full-corpus quality now: metadata completeness `67.4%` (`2027/3008`), missing court `753`, missing date `527`, missing case number `1108`, unknown-year IDs `238`, non-ISO dates `0`, duplicate IDs `0`.
-- Release quality now: `2181` rows, missing dates `154`, missing case numbers `607`, unknown-year IDs `0`, non-ISO dates `0`.
-
-#### v1.6 (2026-03-22)
-
-- Rebuilt corpus through `consolidate` and regenerated `train.jsonl`.
-- Added deeper-header fallback recovery in metadata extraction.
-- Added Delhi QR/order-portal detection, Orissa signed-location recovery, and Andhra Amaravati proceedings-sheet recovery.
-- Added safer embedded high-court caption matching.
-- Broadened case-tag support (`MA`, `First Appeal`, `C.Misc.`, `CR. WJC`).
-- Full-corpus quality: `66.3%` metadata completeness (`1995/3008`), missing court `631`, unknown-year IDs `321`, non-ISO dates `0`, duplicate IDs `0`, referential integrity errors `0`.
-- Release quality (`train.jsonl`): `2377` rows, unknown-ID cases excluded `631`, missing dates `382`, missing case numbers `635`, non-ISO dates `0`.
-- Verification green: metadata tests `63/63`, normalize-dataset tests `3/3`, pipeline-runner tests `2/2`.
-
-#### v1.5 (2026-03-19)
-
-**Breaking**: 744 judgment IDs changed from v1.4.
-
-- Court codes corrected across all IDs.
-- Tribunal records (CAT, AFT) separated from High Court records.
-- Metadata court extraction tightened; overmatched court phrases removed.
-- 23 refined clusters (was 25), with 90,924 similarity edges unchanged.
-
-#### v1.4 (2026-03-19)
-
-- Regenerated all 846 records from the rebuilt raw text corpus and reran the full deterministic pipeline end-to-end.
-- Fixed similarity signal extraction so statutory section overlap is populated from actual transition/section fields.
-- Normalized decision dates and enforced temporal safeguards so judgments dated before `2024-07-01` do not receive inferred BNS mappings.
-- Switched the pipeline to the strengthened zero-ML classifier with explicit service-domain handling and removed the prior writ-petition overclassification path.
-- Wrote `statutory_transitions` consistently at the record top level in consolidated outputs.
-- Corrected analytics compatibility for v2 extraction fields and removed the duplicate `audit_landmarks` method definition.
-- **v1.4 breaking change**: `397` judgment IDs changed because domain classification was corrected. IDs containing `-CV-`, `-CR-`, or `-SV-` segments may differ from v1.3. If you stored v1.3 IDs externally, re-map using the `judgment_id` field in the new export.
 
 Core quality metrics are computed using audit logic in:
 `legal_ai_toolkit/analytics/audit.py::DataAuditor.audit_quality()`
