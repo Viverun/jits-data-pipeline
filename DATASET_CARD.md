@@ -23,7 +23,7 @@ configs:
 
 # JITS Legal Dataset
 
-A production-ready, deterministic pipeline for processing Indian legal judgments into structured, high-quality legal datasets — with comprehensive extraction, self-citation exclusion, and multi-act statutory section detection.
+**The only major open Indian legal dataset with citation-graph extraction, statutory section tagging, and IPC/CrPC→BNS/BNSS transition mapping** — verified against the schemas of every comparable alternative, including [KanoonGPT/indian-case-laws](https://huggingface.co/datasets/KanoonGPT/indian-case-laws) (17.1M rows, checked directly: no citation graph, no section tags, no BNS/BNSS mapping), ILDC, InLegalBERT's pretraining corpus, and IL-TUR — all of which provide raw text and/or task labels, not structured legal extraction.
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-yellow.svg)](https://github.com/Viverun/jits-data-pipeline/blob/main/LICENSE)
 [![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/)
@@ -35,14 +35,15 @@ A production-ready, deterministic pipeline for processing Indian legal judgments
 > **Disclaimer:** This dataset is independently created for research and engineering use. It is *not* an official government or judicial release and does not constitute legal advice.
 
 The JITS Legal Dataset currently contains **7005 processed judgments** in the full corpus,
-with **6686 rows** in the current public `train.jsonl` release export,
-processed into machine-readable JSON with:
+with **6686 rows** in the current public `train.jsonl` release export.
 
-- **Clean text extraction** with artifact removal (Phase 1)
-- **Citation extraction** with self-citation exclusion (Phase 2)
-- **Multi-act section extraction** supporting 19 statutory acts (Phase 3)
-- **IPC→BNS transition mapping** with temporal validation (Phase 4)
-- **Comprehensive processing** of 7005 judgments (current full-corpus build)
+### What Makes This Different
+
+- **Citation-graph extraction with self-citation exclusion** — an actual graph of what each judgment cites, not a raw text dump, with a judgment's references to itself filtered out so citation counts aren't inflated.
+- **Multi-act statutory section tagging** across 19 acts (IPC, CrPC, Evidence Act, and more) — every invoked section linked to its parent act.
+- **IPC/CrPC → BNS/BNSS transition mapping** — India's 2023–24 criminal-code overhaul mapped per judgment, with temporal guardrails so pre-`2024-07-01` judgments never get an inferred BNS mapping they can't have.
+- **Zero-ML, fully deterministic pipeline** — every field traces to an explicit, auditable rule. Nothing here is a model's guess, and re-running the pipeline on the same input reproduces the same output.
+- **Court/domain classification and similarity clustering** on top of the above, all reproducible from source.
 
 All outputs are reproducible, auditable, and traceable to explicit rules.
 

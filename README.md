@@ -1,6 +1,6 @@
 # JITS Legal Dataset
 
-A production-ready, deterministic pipeline for processing Indian legal judgments into structured, high-quality legal datasets, with comprehensive extraction, self-citation exclusion, statutory section detection, court normalization, and similarity analysis.
+**The only major open Indian legal dataset with citation-graph extraction, statutory section tagging, and IPC/CrPC→BNS/BNSS transition mapping** — verified against the schemas of every comparable alternative, including [KanoonGPT/indian-case-laws](https://huggingface.co/datasets/KanoonGPT/indian-case-laws) (17.1M rows, checked directly: no citation graph, no section tags, no BNS/BNSS mapping), ILDC, InLegalBERT's pretraining corpus, and IL-TUR — all of which provide raw text and/or task labels, not structured legal extraction.
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-yellow.svg)](LICENSE)
 [![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/)
@@ -9,14 +9,15 @@ A production-ready, deterministic pipeline for processing Indian legal judgments
 
 > **Disclaimer:** This dataset is independently created for research and engineering use. It is not an official government or judicial release and does not constitute legal advice.
 
-This repository contains the deterministic pipeline used to generate the JITS Legal Dataset. The current corpus build contains **7005** processed judgments, with **6686** release-ready rows exported in `train.jsonl`, with:
+This repository contains the deterministic pipeline used to generate the JITS Legal Dataset. The current corpus build contains **7005** processed judgments, with **6686** release-ready rows exported in `train.jsonl`.
 
-- clean text extraction and normalization
-- rule-based metadata extraction and domain classification
-- citation extraction with self-citation exclusion
-- multi-act statutory section extraction
-- IPC/CrPC to BNS/BNSS transition handling with temporal guardrails
-- deterministic similarity graph construction and cluster refinement
+### What Makes This Different
+
+- **Citation-graph extraction with self-citation exclusion** — not a raw text dump: an actual graph of what each judgment cites, with a judgment's references to itself filtered out so citation counts aren't inflated.
+- **Multi-act statutory section tagging** — every invoked section (IPC, CrPC, Evidence Act, and 16 more) linked to its parent act, not left buried in prose.
+- **IPC/CrPC → BNS/BNSS transition mapping** — India's 2023–24 criminal-code overhaul mapped per judgment, with temporal guardrails so pre-`2024-07-01` judgments never get an inferred BNS mapping they can't have.
+- **Zero-ML, fully deterministic pipeline** — every field traces to an explicit, auditable rule. Re-run the pipeline on the same input and get byte-identical output; nothing here is a model's guess.
+- **Court/domain classification and similarity clustering** on top of the above, all reproducible from source.
 
 All outputs are reproducible, auditable, and traceable to explicit rules.
 
