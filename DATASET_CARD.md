@@ -29,15 +29,15 @@ A production-ready, deterministic pipeline for processing Indian legal judgments
 
 > **Disclaimer:** This dataset is independently created for research and engineering use. It is *not* an official government or judicial release and does not constitute legal advice.
 
-The JITS Legal Dataset currently contains **3008 processed judgments** in the full corpus,
-with **2215 rows** in the current public `train.jsonl` release export,
+The JITS Legal Dataset currently contains **4661 processed judgments** in the full corpus,
+with **3324 rows** in the current public `train.jsonl` release export,
 processed into machine-readable JSON with:
 
 - **Clean text extraction** with artifact removal (Phase 1)
 - **Citation extraction** with self-citation exclusion (Phase 2)
 - **Multi-act section extraction** supporting 19 statutory acts (Phase 3)
 - **IPC→BNS transition mapping** with temporal validation (Phase 4)
-- **Comprehensive processing** of 3008 judgments (current full-corpus build)
+- **Comprehensive processing** of 4661 judgments (current full-corpus build)
 
 All outputs are reproducible, auditable, and traceable to explicit rules.
 
@@ -62,50 +62,65 @@ This dataset is **not** intended to provide legal advice.
 
 | Metric | Value | Notes |
 |--------|-------|-------|
-| **Full Corpus (Processed Judgments)** | 3008 | Consolidated deterministic corpus |
-| **Release Export Rows (`train.jsonl`)** | 2215 | UNKNOWN-court and unknown-year IDs excluded |
-| **Metadata Completeness** | 69.0% (2077/3008) | Completeness across court/date/case_number |
-| **Missing Court (Full Corpus)** | 738 | Remaining UNKNOWN-court records |
-| **Missing Decision Date (Full Corpus)** | 384 | Full-corpus missing dates |
-| **Missing Case Number (Full Corpus)** | 1068 | Full-corpus missing case numbers |
-| **Unknown-Year IDs (Full Corpus)** | 165 | IDs with unresolved year |
-| **Release Missing Dates** | 138 | Missing dates in exported `train.jsonl` |
-| **Release Missing Case Numbers** | 597 | Missing case numbers in exported `train.jsonl` |
-| **Similarity Edges** | 802,552 | Rebuilt deterministic graph |
-| **Refined Clusters** | 77 | Post-rebuild domain-pure clusters |
-| **Non-ISO Dates** | 0 | Date normalization verified |
+| **Full Corpus (Processed Judgments)** | 4661 | Consolidated deterministic corpus (was 3008 in `v1.8`) |
+| **Release Export Rows (`train.jsonl`)** | 3324 | UNKNOWN-court and unknown-year IDs excluded (was 2215 in `v1.8`) |
+| **Metadata Accuracy** | 64.5% (3008/4661) | Court + date + case_number all present |
+| **Missing Court (Full Corpus)** | 1231 | Remaining UNKNOWN-court records |
+| **Missing Decision Date (Full Corpus)** | 905 | Full-corpus missing dates |
+| **Missing Case Number (Full Corpus)** | 1779 | Full-corpus missing case numbers |
+| **Unknown-Year IDs (Full Corpus)** | 339 | IDs with unresolved year |
+| **Release Missing Dates** | 316 | Missing dates in exported `train.jsonl` |
+| **Release Missing Case Numbers** | 981 | Missing case numbers in exported `train.jsonl` |
+| **Similarity Edges** | 802,552 | **Not rebuilt in `v1.10`** — still describes only the pre-`v1.10` 2,215-judgment corpus |
+| **Refined Clusters** | 77 | **Not rebuilt in `v1.10`** — same caveat |
 | **Duplicate IDs** | 0 | Uniqueness verified |
-| **Referential Integrity Errors** | 0 | Referential checks passed |
+| **Referential Integrity Errors** | 23 | Pre-existing orphaned cluster references, predates `v1.10` — see Known Issues |
 
-### Metadata Completeness (v1.9 definition)
+### Metadata Completeness (v1.10)
 
 Completeness is reported **per field** rather than as a single all-three-present
-conjunction, and a `case_number` must contain a digit to count. Both figures are
-published so the change is auditable:
+conjunction, and a `case_number` must contain a digit to count:
 
 | Field | Coverage | Notes |
 |-------|----------|-------|
-| `court` | 99.3% | 2200/2215 |
-| `decision_date` | 91.9% | 2036/2215 |
-| `case_number` | 71.0% | 1573/2215, digit-validated |
-| **Mean field completeness** | **87.4%** | headline metric |
-| All-three-present (strict) | 64.6% | previous definition, retained for comparison |
+| `court` | 100.0% | 3324/3324 (the release filter excludes unknown-court records) |
+| `decision_date` | 90.5% | 3008/3324 |
+| `case_number` | 70.5% | 2343/3324, digit-validated |
+| **Mean field completeness** | **87.0%** | headline metric |
+| All-three-present (strict) | 62.7% | previous definition, retained for comparison |
 
-Measured on the `2215`-row release export, not the `3008`-judgment full corpus.
-The full-corpus row in the metrics table above remains the `v1.8` figure under
-the old definition and will be restated at the next corpus rebuild.
+Measured on the `3324`-row release export, not the `4661`-judgment full corpus.
 
 The conjunction could not separate an extraction failure from a field that is
-absent at source: roughly `420` records were served without a cause-title header,
-so no parser can recover a case number from them. Per-field coverage also shows
-where the gap actually is — `99.3%` on court against `71.0%` on case number.
+absent at source: some records are served without a cause-title header, so no
+parser can recover a case number from them. Per-field coverage also shows
+where the gap actually is — `100.0%` on court against `70.5%` on case number.
 
-> **Known issue in the published `v1.8` export:** `51` records (3.2% of populated
-> values) carry `case_number` values that are not case numbers — person names
-> (`Manoj`, `MANOMOHAN`), label fragments (`CASE NO`), and sentence fragments.
-> Under `re.I` the shared number class matched letters, so `Manoj` parsed as
-> `Ma` + `no` + number `j`. Fixed in `v1.9`; the currently published export still
-> contains them until the next rebuild.
+> **Resolved in `v1.10`:** the `v1.9` case_number quality fix below (letters
+> matching the shared number class under `re.I`) had landed in code but was
+> never applied to the published corpus. `v1.10` replays extraction over every
+> record and applies it, plus two more catastrophic-backtracking extraction
+> bugs found while processing a 2,502-document backlog — ordinary judgment
+> text mentioning a High Court could hang the pipeline indefinitely. `50`
+> `case_number` values were corrected corpus-wide; no other metadata field
+> changed. See the GitHub repository's `README.md` release notes for detail.
+
+> **Known issue in `v1.8`/`v1.9` (superseded above):** `51` records (3.2% of
+> populated values) carried `case_number` values that were not case numbers —
+> person names (`Manoj`, `MANOMOHAN`), label fragments (`CASE NO`), and
+> sentence fragments. Under `re.I` the shared number class matched letters, so
+> `Manoj` parsed as `Ma` + `no` + number `j`. Kept here for history; resolved
+> in `v1.10` as described above.
+
+### Known Issues (v1.10)
+- Similarity edges and refined clusters were **not** rebuilt for `v1.10` and
+  only describe the pre-`v1.10` 2,215-judgment corpus, not the 2,446 judgments
+  added in this release.
+- `clusters_refined.json` has 23 pre-existing references to judgment IDs no
+  longer present in the corpus; predates `v1.10`.
+- 56 documents from the backlog processed for `v1.10` were exact-text
+  duplicates of already-published judgments (same case, different source
+  filename) and were left out of the corpus rather than merged.
 
 ### Quality Improvements
 - ✅ **Self-citation exclusion**: No false positive citations

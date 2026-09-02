@@ -63,7 +63,14 @@ CASE_NO_PATTERNS = [
     r"\b((?:OMP(?:\s*\([^)]+\))?|A\.?\s*P\.?)\s*No\.?\s*[A-Z0-9./()-]+(?:\s+of\s+\d{4})?)",
     r"\b((?:W\.?\s*P\.?(?:\(\s*[A-Z.]+\s*\))?|W\.?\s*A\.?(?:\(\s*[A-Z.]+\s*\))?|C\.?\s*M\.?\s*A\.?(?:\(\s*[A-Z.]+\s*\))?)\s*Nos?\.?\s*[A-Z0-9./()-]+(?:\s*(?:to|and|&|,)\s*[A-Z0-9./()-]+)+(?:\s+of\s+\d{4}))",
     r"\b((?:W\.?\s*P\.?\s*\(\s*[A-Z.]+\s*\)|W\.?\s*P\s*\([A-Z.]+\)|O\.?\s*P\.?\s*\(\s*[A-Z.]+\s*\))\s*(?:No\.?\s*)?[0-9]+/[0-9]{4}(?:\s*\([^)]+\))?)",
-    r"\b((?:Cr\.?\s*M\.?\s*P\.?|M\.?\s*Cr\.?\s*C\.?|MCRC|H\.?\s*C\.?\s*P\.?(?:\([A-Z.]+\))?|HCP(?:\([A-Z.]+\))?|Bail\s*Appl\.?|Bail\s*Application|Cr\.?\s*A\.?|Crl\.?\s*O\.?\s*P\.?(?:\([A-Z.]+\))?)\s*Nos?\.?\s*[A-Z0-9./(), &\[\]-]+(?:\s*(?:to|and|&|,)\s*[A-Z0-9./(), &\[\]-]+)*(?:/\d{2,4}|\s+of\s+\d{2,4})(?:\[[A-Z0-9]+\])?(?:\s*\([^)]+\))?)",
+    # The trailing (?:\s*(?:to|and|&|,)\s*[A-Z0-9./(), &\[\]-]+)* group here was
+    # dropped for the same reason it was dropped from its LINE_CASE_NO_PATTERNS
+    # sibling below: its separators are already inside the preceding character
+    # class, so the same text partitions exponentially many ways whenever the
+    # mandatory suffix fails to match - catastrophic backtracking on ordinary
+    # paragraph text that happens to contain a "Cr."/"MCRC"/etc token with no
+    # real case number following it. The class alone accepts identical input.
+    r"\b((?:Cr\.?\s*M\.?\s*P\.?|M\.?\s*Cr\.?\s*C\.?|MCRC|H\.?\s*C\.?\s*P\.?(?:\([A-Z.]+\))?|HCP(?:\([A-Z.]+\))?|Bail\s*Appl\.?|Bail\s*Application|Cr\.?\s*A\.?|Crl\.?\s*O\.?\s*P\.?(?:\([A-Z.]+\))?)\s*Nos?\.?\s*[A-Z0-9./(), &\[\]-]+(?:/\d{2,4}|\s+of\s+\d{2,4})(?:\[[A-Z0-9]+\])?(?:\s*\([^)]+\))?)",
     r"\b((?:C\.?W\.?P\.?|CRLMC|CRL\.?\s*PETN\.?|CRL\.?\s*O\.?\s*P\.?|Crl\.R\.C(?:\(MD\))?|Crl\.R\.P\.?|C\.M\.A\.?|M\.?\s*A\.?|MACP|MAC\s+Petition|MFA|FAO|LPA|SLP|O\.A\.?|A\.S\.|S\.A\.|C\.A\.|CRL\.?\s*A\.?|CRL\.?\s*M\.?\s*C\.?|CRL\.?\s*M\.?\s*P\.?|CS\s*DJ|Arb\.?\s*O\.?\s*P\.?(?:\([^)]+\))?)\s*No\.?\s*[A-Z0-9./()-]+(?:\s*(?:of|/)\s*(?:19|20)\d{2})?(?:\s*\([^)]+\))?)",
     r"\b((?:First\s+Appeal|Second\s+Appeal|Special\s+Civil\s+Application|C\.?\s*Misc\.?|CR\.?\s*WJC)\s*No\.?\s*[A-Z0-9./()-]+(?:\s*(?:to|and|&|,)\s*[A-Z0-9./()-]+)*(?:/\d{2,4}|\s+of\s+\d{2,4})(?:\(\d+\))?)",
     r"\b((?:Civil|Criminal)\s+(?:Writ\s+Petition|Appeal|Revision)\s+No\.?\s*[A-Z0-9./()-]+(?:\s+of\s+\d{4})?(?:\s*\([^)]+\))?)",
@@ -1064,11 +1071,14 @@ def _extract_high_court_embedded_case_tag(text: str):
             if extracted:
                 return extracted
 
+    # Same redundant/vulnerable trailing group as CASE_NO_PATTERNS above - the
+    # separators it matches are already inside the preceding character class,
+    # so keeping it just gives the engine exponentially many ways to fail.
     match = re.search(
         r"\b(?:(?:the\s+)?high court(?: of judicature)?(?: at| of)?\s+[A-Z][A-Za-z.& ]+|[A-Z][A-Za-z.& ]+\s+high court)\s+"
         r"((?:CWJC|W\.?\s*P\.?|WP|M\.?\s*Cr\.?\s*C\.?|MCRC|Cr\.?\s*M\.?\s*P\.?|Crl\.?\s*O\.?\s*P\.?(?:\([A-Z.]+\))?|"
         r"Cr\.?\s*A\.?|H\.?\s*C\.?\s*P\.?(?:\([A-Z.]+\))?|HCP(?:\([A-Z.]+\))?)\s*Nos?\.?\s*[A-Z0-9./(), &\[\]-]+"
-        r"(?:\s*(?:to|and|&|,)\s*[A-Z0-9./(), &\[\]-]+)*(?:/\d{2,4}|\s+of\s+\d{2,4})(?:\[[A-Z0-9]+\])?)",
+        r"(?:/\d{2,4}|\s+of\s+\d{2,4})(?:\[[A-Z0-9]+\])?)",
         text,
         re.I,
     )
