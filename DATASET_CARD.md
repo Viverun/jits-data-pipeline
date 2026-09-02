@@ -23,7 +23,7 @@ configs:
 
 # JITS Legal Dataset
 
-**The only major open Indian legal dataset with citation-graph extraction, statutory section tagging, and IPC/CrPC→BNS/BNSS transition mapping** — verified against the schemas of every comparable alternative, including [KanoonGPT/indian-case-laws](https://huggingface.co/datasets/KanoonGPT/indian-case-laws) (17.1M rows, checked directly: no citation graph, no section tags, no BNS/BNSS mapping), ILDC, InLegalBERT's pretraining corpus, and IL-TUR — all of which provide raw text and/or task labels, not structured legal extraction.
+**The only major open Indian legal dataset with citation-graph extraction, statutory section tagging, and IPC/CrPC→BNS/BNSS transition mapping** — verified against the schemas of every comparable open dataset in this space (including one at 17.1M rows), which provide raw text and/or task labels but not structured legal extraction.
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-yellow.svg)](https://github.com/Viverun/jits-data-pipeline/blob/main/LICENSE)
 [![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/)
