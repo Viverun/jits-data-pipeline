@@ -34,8 +34,8 @@ configs:
 
 > **Disclaimer:** This dataset is independently created for research and engineering use. It is *not* an official government or judicial release and does not constitute legal advice.
 
-The JITS Legal Dataset currently contains **7005 processed judgments** in the full corpus,
-with **6686 rows** in the current public `train.jsonl` release export.
+The JITS Legal Dataset currently contains **10029 processed judgments** in the full corpus,
+with **9517 rows** in the current public `train.jsonl` release export.
 
 ### What Makes This Different
 
@@ -70,20 +70,18 @@ This dataset is **not** intended to provide legal advice.
 
 | Metric | Value | Notes |
 |--------|-------|-------|
-| **Full Corpus (Processed Judgments)** | 7005 | |
-| **Release Export Rows (`train.jsonl`)** | 6686 | UNKNOWN-court and unknown-year IDs excluded |
-| **Metadata Accuracy** | 90.9% (6371/7005) | Court + date + case_number all present |
-| **Missing Court / Date / Case Number** | 207 / 444 / 2331 | Full-corpus counts |
+| **Full Corpus (Processed Judgments)** | 10029 | |
+| **Release Export Rows (`train.jsonl`)** | 9517 | UNKNOWN-court and unknown-year IDs excluded |
+| **Metadata Accuracy** | 91.7% (9195/10029) | Court + date + case_number all present |
+| **Missing Court / Date / Case Number** | 396 / 459 / 3236 | Full-corpus counts |
 | **Duplicate IDs** | 0 | Uniqueness verified |
-| **Referential Integrity Errors** | 36 | Pre-existing orphaned cluster references — see Known Issues |
-| **Similarity Edges / Refined Clusters** | 802,552 / 77 | **Not rebuilt since `v1.8`** — describe only the original 2,215-judgment corpus |
+| **Referential Integrity Errors** | 0 | Rebuilt from scratch against the current corpus |
+| **Similarity Edges / Refined Clusters** | 9,106,864 / 380 | **Freshly rebuilt** against the full 10,029-judgment corpus |
 
-**Release-export field completeness:** court 100.0%, decision_date 95.3%, case_number 68.9% (digit-validated) — mean 88.0%, strict all-three-present 64.9%. The conjunction can't distinguish an extraction failure from a field genuinely absent at source (many records lack a cause-title header entirely).
+**Release-export field completeness:** court 100.0%, decision_date 96.6%, case_number 69.7% (digit-validated) — mean 88.8%, strict all-three-present 66.8%. The conjunction can't distinguish an extraction failure from a field genuinely absent at source (many records lack a cause-title header entirely).
 
 ### Known Issues
-- Similarity edges/clusters are stale (built from the `v1.8` 2,215-judgment corpus, never rebuilt since).
-- `clusters_refined.json` has 36 references to judgment IDs no longer in the corpus (accumulated across releases as IDs were corrected).
-- 207 records have no resolvable court — mostly missing headers at the source that even the fixed downloader can't recover.
+- 396 records have no resolvable court — mostly missing headers at the source that even the fixed downloader can't recover.
 - A handful of exact-duplicate downloads (same case, different source filename) are detected and excluded automatically rather than merged.
 
 See the GitHub repository's `README.md` for the full per-version changelog.
