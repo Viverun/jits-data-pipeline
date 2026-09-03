@@ -1,3 +1,8 @@
+import tempfile
+from pathlib import Path
+from unittest.mock import patch
+
+import requests
 from bs4 import BeautifulSoup
 
 from legal_ai_toolkit.extraction.downloader import IndianKanoonDownloader
@@ -51,3 +56,32 @@ def test_extract_clean_text_strips_cite_tags_and_cite_counts():
     assert "Cites" not in text
     assert "Some Precedent" not in text
     assert "the appeal fails" in text
+
+
+def test_network_failure_does_not_mark_query_completed():
+    """A DNS/connection failure during search must leave the query pending,
+    not mark it completed with zero results.
+
+    Previously search() swallowed every exception and search_and_download()
+    always added the query to completed_queries regardless of outcome. A
+    sustained network outage burned through an entire ~3,200-query remaining
+    catalog in minutes, recording all of them as "done" with nothing actually
+    searched - only discovered by grepping the run log for failure lines and
+    manually reconstructing which queries needed retrying.
+    """
+    with tempfile.TemporaryDirectory() as tmp:
+        tmp_path = Path(tmp)
+        downloader = IndianKanoonDownloader(
+            output_dir=str(tmp_path / "raw"),
+            checkpoint_file=str(tmp_path / "checkpoint.json"),
+            manifest_file=str(tmp_path / "manifest.jsonl"),
+        )
+
+        with patch(
+            "legal_ai_toolkit.extraction.downloader.requests.get",
+            side_effect=requests.exceptions.ConnectionError("Failed to resolve indiankanoon.org"),
+        ):
+            result = downloader.search_and_download("Delhi High Court bail 2020", "test", max_results=10)
+
+        assert result == 0
+        assert "Delhi High Court bail 2020" not in downloader.completed_queries

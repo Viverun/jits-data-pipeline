@@ -195,6 +195,14 @@ class IndianKanoonDownloader:
                         doc_links.append(href)
 
                 self._sleep(self.search_pause)
+            except requests.exceptions.RequestException as e:
+                # Network-level failure (DNS, connection reset, timeout) - not
+                # "this query has zero results". Propagate so the caller does
+                # not mark the query completed, or an outage burns through the
+                # whole remaining catalog in minutes while recording every
+                # query as done with nothing actually searched.
+                logger.error("Search failed for query=%s page=%s: %s", query, page, e)
+                raise
             except Exception as e:
                 logger.error("Search failed for query=%s page=%s: %s", query, page, e)
                 break
@@ -271,7 +279,14 @@ class IndianKanoonDownloader:
             return 0
 
         logger.info("Query [%s]: %s (target=%s)", category, query, max_results)
-        doc_links = self.search(query, max_results=max_results)
+        try:
+            doc_links = self.search(query, max_results=max_results)
+        except requests.exceptions.RequestException:
+            # Leave the query off completed_queries so a later run - once the
+            # network issue has passed - retries it instead of silently
+            # treating a failed search as "found nothing".
+            logger.warning("Query left pending after search error: %s", query)
+            return 0
 
         downloaded = 0
         for link in doc_links:
