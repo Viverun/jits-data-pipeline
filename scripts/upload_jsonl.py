@@ -17,18 +17,15 @@ RELEASE_ASSETS = [
 ]
 PLACEHOLDER_TOKENS = {"your_token_here", "hf_your_token_here"}
 COMMIT_MESSAGE = (
-    "v1.10: full corpus rebuild - 2,446 new judgments, two ReDoS fixes, case_number cleanup\n\n"
-    "- processed a 2,502-document backlog that had been downloaded but never run\n"
-    "  through the pipeline; 56 were exact-text duplicates of already-published\n"
-    "  judgments and were skipped, 2,446 genuinely new judgments merged in\n"
-    "- full corpus: 3008 -> 4661 judgments; train.jsonl: 2215 -> 3324 rows\n"
-    "- fixed two catastrophic-backtracking regressions in extract_case_number that\n"
-    "  could hang the pipeline indefinitely on ordinary judgment text\n"
-    "- replayed extraction (these fixes plus the already-landed-but-never-applied\n"
-    "  v1.9 case_number digit-validation fix) across the full corpus: 50\n"
-    "  case_number values corrected corpus-wide, no other field changed\n"
-    "- similarity edges/clusters not rebuilt this release - still describe only\n"
-    "  the pre-v1.10 2,215-judgment corpus (known issue, see README)"
+    "v1.14.1: HF-safe uniform structs - fix parquet DatasetGenerationError\n\n"
+    "- statutory_transitions and extractions.transitions.details now emit a\n"
+    "  canonical 10-field struct from all producers (fixes Couldn't cast\n"
+    "  struct<...,requires_judicial_confirmation,context_snippet> error)\n"
+    "- metadata.bench always list[str]; citations/landmarks details uniform structs\n"
+    "- train.jsonl: 14037 rows re-exported from 14678-judgment corpus, validated\n"
+    "  with scripts/validate_hf_schema.py\n"
+    "- add jits-legal-dataset.py explicit HF Features script so parquet\n"
+    "  conversion no longer depends on first-chunk type inference"
 )
 
 
