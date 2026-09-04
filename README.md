@@ -9,7 +9,7 @@
 
 > **Disclaimer:** This dataset is independently created for research and engineering use. It is not an official government or judicial release and does not constitute legal advice.
 
-This repository contains the deterministic pipeline used to generate the JITS Legal Dataset. The current corpus build contains **10029** processed judgments, with **9517** release-ready rows exported in `train.jsonl`.
+This repository contains the deterministic pipeline used to generate the JITS Legal Dataset. The current corpus build contains **14678** processed judgments, with **14037** release-ready rows exported in `train.jsonl`.
 
 ### What Makes This Different
 
@@ -33,25 +33,24 @@ The metrics below are computed from the current exported `train.jsonl` and proce
 
 ## Current Release
 
-Current release: **v1.13** (pipeline and dataset).
+Current release: **v1.14** (pipeline and dataset).
 
 | Metric | Value | Notes |
 |--------|-------|-------|
-| **Full Corpus (Processed Judgments)** | 10029 | |
-| **Release Export Rows (`train.jsonl`)** | 9517 | UNKNOWN-court and unknown-year IDs excluded |
-| **Metadata Accuracy** | 91.7% (9195/10029) | Court + date + case_number all present |
-| **Missing Court / Date / Case Number** | 396 / 459 / 3236 | Full-corpus counts |
+| **Full Corpus (Processed Judgments)** | 14678 | |
+| **Release Export Rows (`train.jsonl`)** | 14037 | UNKNOWN-court and unknown-year IDs excluded |
+| **Metadata Accuracy** | 93.3% (13699/14678) | Court + date + case_number all present |
+| **Missing Court / Date / Case Number** | 525 / 476 / 4669 | Full-corpus counts |
 | **Duplicate IDs** | 0 | |
 | **Referential Integrity Errors** | 0 | Rebuilt from scratch against the current corpus |
-| **Similarity Edges / Refined Clusters** | 9,106,864 / 380 | **Freshly rebuilt** against the full 10,029-judgment corpus |
+| **Similarity Edges / Refined Clusters** | 18,969,008 / 547 | **Freshly rebuilt** against the full 14,678-judgment corpus |
 
-**Release-export field completeness:** court 100.0%, decision_date 96.6%, case_number 69.7% (digit-validated) — mean 88.8%, strict all-three-present 66.8%.
+**Release-export field completeness:** court 100.0%, decision_date 97.6%, case_number 69.8% (digit-validated) — mean 89.1%, strict all-three-present 67.7%.
 
 ### Known Issues
 
-- 396 records have no resolvable court — mostly missing headers at the source that even the fixed downloader can't recover.
+- 525 records have no resolvable court — mostly missing headers at the source that even the fixed downloader can't recover.
 - A handful of exact-duplicate downloads (same case, different source filename) are detected and excluded automatically rather than merged.
-- A sustained network outage during acquisition once caused ~3,200 queries to be marked complete without actually searching (fixed: network failures now leave a query pending for retry instead).
 
 ## Quick Start
 
@@ -144,6 +143,7 @@ python3 scripts/normalize_dataset.py
 
 | Version | Date | Summary |
 |---------|------|---------|
+| **v1.14** | 2026-09-04 | +4,649 documents (corpus 10029→14678, `train.jsonl` 9517→14037) — completes the acquisition run started in v1.10. Rebuilt similarity/clusters again against the full corpus (18.97M edges, 547 clusters); the rebuild's `CentroidClusteter` step loaded the entire edge file into a list before filtering, which OOM-killed the process at ~19M edges on a 14 GB machine — fixed to stream and filter the file directly instead of materializing it, with a regression test. |
 | **v1.13** | 2026-09-03 | +3,024 documents (corpus 7005→10029, `train.jsonl` 6686→9517). Fixed two latent bugs in similarity signal extraction (silently dropped all statutory-section signals, crashed on transitions) found while making the rebuild possible; fixed the downloader to leave a query pending on network failure instead of falsely marking it done (a DNS outage had burned through ~3,200 queries silently). Similarity graph and clusters rebuilt from scratch against the full corpus: 9.1M edges, 380 refined clusters, referential integrity errors 36→0. |
 | **v1.12** | 2026-09-02 | +2,344 documents via the fixed downloader (zero errors/duplicates, ~9% unknown-court vs v1.10's ~49%). Corpus 4661→7005, `train.jsonl` 4451→6686. Tried 8 parallel download workers to speed this up — reverted immediately, indiankanoon.org rate-limits by IP and blocks concurrent bursts within seconds. |
 | **v1.11** | 2026-09-02 | Found and fixed the real cause of v1.10's unknown-court records: the downloader silently dropped `<h2>/<h3>/<pre>/<blockquote>` tags, discarding court name, title, and cause-title text on many pages. Re-fetched and reprocessed the 1,216 affected documents; 1,128 (93%) recovered. `train.jsonl` 3324→4451. |

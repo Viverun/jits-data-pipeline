@@ -85,19 +85,28 @@ class CentroidClusteter:
         self.cluster_file = Path(cluster_file)
         os.makedirs(self.cluster_file.parent, exist_ok=True)
 
+    def _iter_edges(self, counter):
+        with open(self.edge_file, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if line:
+                    counter[0] += 1
+                    yield json.loads(line)
+
     def run(self):
         if not self.edge_file.exists():
             print(f"[ERROR] Edge file not found: {self.edge_file}")
             return
 
-        edges = []
-        with open(self.edge_file, "r", encoding="utf-8") as f:
-            for line in f:
-                if line.strip():
-                    edges.append(json.loads(line))
-
-        print(f"Loaded {len(edges)} similarity edges.")
-        cluster_nodes_list, edge_data = find_clusters_centroid(edges)
+        # find_clusters_centroid only keeps edges above its high-strength
+        # threshold - materializing every raw edge into a list first (as this
+        # used to do) holds the entire file in memory for nothing, which OOM
+        # killed a 14-GB machine on an ~19M-edge corpus. Streaming the file
+        # straight into the filter keeps peak memory to the edges that
+        # actually survive.
+        total = [0]
+        cluster_nodes_list, edge_data = find_clusters_centroid(self._iter_edges(total))
+        print(f"Loaded {total[0]} similarity edges.")
 
         final_clusters = []
         for i, nodes in enumerate(cluster_nodes_list, start=1):

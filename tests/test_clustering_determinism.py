@@ -2,7 +2,7 @@ import json
 import tempfile
 from pathlib import Path
 
-from legal_ai_toolkit.clustering.centroid import find_clusters_centroid
+from legal_ai_toolkit.clustering.centroid import CentroidClusteter, find_clusters_centroid
 from legal_ai_toolkit.clustering.refinement import refine_mega_clusters
 from legal_ai_toolkit.clustering.similarity import extract_signals
 
@@ -113,3 +113,33 @@ def test_mega_cluster_refinement_is_invariant_to_issue_order():
     assert [(c["cluster_id"], c["primary_issue"], c["count"]) for c in forward] == [
         (c["cluster_id"], c["primary_issue"], c["count"]) for c in reverse
     ]
+
+
+def test_centroid_clusterer_streams_edge_file_without_materializing_a_list():
+    """CentroidClusteter.run() used to read the entire edge file into a
+    Python list before filtering, even though find_clusters_centroid only
+    keeps edges above its high-strength threshold. On an ~19M-edge corpus
+    this held the whole file in memory for nothing and got the process
+    OOM-killed on a 14 GB machine. _iter_edges must yield lazily, not return
+    a list, so run() streams straight into the filter instead.
+    """
+    with tempfile.TemporaryDirectory() as tmpdir:
+        tmp_path = Path(tmpdir)
+        edge_file = tmp_path / "edges.jsonl"
+        cluster_file = tmp_path / "clusters.json"
+
+        edges = [_high_edge("J000", "J001"), _high_edge("J001", "J002")]
+        with open(edge_file, "w", encoding="utf-8") as f:
+            for edge in edges:
+                f.write(json.dumps(edge) + "\n")
+
+        clusterer = CentroidClusteter(edge_file, cluster_file)
+        iterator = clusterer._iter_edges([0])
+        assert not isinstance(iterator, list)
+
+        clusterer.run()
+
+        clusters = json.loads(cluster_file.read_text())
+
+    assert len(clusters) == 1
+    assert clusters[0]["judgments"] == ["J000", "J001", "J002"]
