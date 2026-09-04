@@ -94,7 +94,9 @@ class TransitionExtractor:
             transitions.extend(background_sections)
 
         # --- 3. DEDUPLICATE ---
-        return cls._deduplicate(transitions)
+        # Normalize defensively so every returned object has identical keys.
+        deduped = cls._deduplicate(transitions)
+        return [cls.normalize_transition(t) for t in deduped]
 
     @classmethod
     def _parse_judgment_date(cls, judgment_date: Optional[str]) -> Optional[datetime]:
@@ -120,6 +122,41 @@ class TransitionExtractor:
             return True
         return judgment_date < cls.BNS_ENACTMENT_DATE
 
+    # Canonical uniform schema for every transition object.
+    # All producers must emit exactly these keys so that train.jsonl has a
+    # stable struct type and HF datasets parquet conversion does not fail
+    # with "Couldn't cast array of type struct<...>".
+    TRANSITION_FIELDS = (
+        "ipc",
+        "bns",
+        "source",
+        "validated",
+        "risk",
+        "confidence",
+        "note",
+        "context_snippet",
+        "requires_judicial_confirmation",
+        "temporal_warning",
+    )
+
+    @classmethod
+    def normalize_transition(cls, item: Dict) -> Dict:
+        """Coerce any legacy transition dict to the canonical uniform schema."""
+        if not isinstance(item, dict):
+            return {k: None for k in cls.TRANSITION_FIELDS}
+        return {
+            "ipc": item.get("ipc"),
+            "bns": item.get("bns"),
+            "source": item.get("source"),
+            "validated": bool(item.get("validated", False)),
+            "risk": item.get("risk"),
+            "confidence": item.get("confidence"),
+            "note": item.get("note"),
+            "context_snippet": item.get("context_snippet"),
+            "requires_judicial_confirmation": bool(item.get("requires_judicial_confirmation", False)),
+            "temporal_warning": item.get("temporal_warning"),
+        }
+
     @classmethod
     def _extract_explicit_pairs(cls, text: str, is_pre_bns: bool) -> List[Dict]:
         """Extract explicitly mentioned IPC→BNS transition pairs."""
@@ -141,11 +178,14 @@ class TransitionExtractor:
                     "validated": is_validated,
                     "risk": official.get("risk", "unknown") if official else "unknown",
                     "confidence": "high",
-                    "context_snippet": match.group(0)[:150]
+                    "note": None,
+                    "context_snippet": match.group(0)[:150],
+                    "requires_judicial_confirmation": False,
+                    "temporal_warning": (
+                        "BNS mentioned in pre-enactment judgment. Verify applicability."
+                        if is_pre_bns else None
+                    ),
                 }
-
-                if is_pre_bns:
-                    transition["temporal_warning"] = "BNS mentioned in pre-enactment judgment. Verify applicability."
 
                 transitions.append(transition)
 
@@ -173,8 +213,10 @@ class TransitionExtractor:
                     "validated": False,  # Inferred, not explicitly stated
                     "risk": official.get("risk", "medium"),
                     "confidence": "low",
+                    "note": f"Inferred from standalone IPC {ipc} mention. Not validated by judgment text.",
+                    "context_snippet": None,
                     "requires_judicial_confirmation": True,
-                    "note": f"Inferred from standalone IPC {ipc} mention. Not validated by judgment text."
+                    "temporal_warning": None,
                 })
 
         return transitions
@@ -201,7 +243,10 @@ class TransitionExtractor:
                     "Judgment date could not be resolved confidently. IPC section recorded as background only."
                     if date_was_unresolved
                     else "Pre-BNS judgment. IPC section recorded as background only."
-                )
+                ),
+                "context_snippet": None,
+                "requires_judicial_confirmation": False,
+                "temporal_warning": None,
             })
 
         return transitions

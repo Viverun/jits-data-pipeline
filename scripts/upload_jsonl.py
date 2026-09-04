@@ -12,6 +12,8 @@ REPO_ID = os.environ.get("HF_DATASET_REPO_ID", "Viverun/jits-legal-dataset")
 RELEASE_ASSETS = [
     ("train.jsonl", "train.jsonl"),
     ("DATASET_CARD.md", "README.md"),
+    ("jits-legal-dataset.py", "jits-legal-dataset.py"),
+    ("scripts/validate_hf_schema.py", "validate_hf_schema.py"),
 ]
 PLACEHOLDER_TOKENS = {"your_token_here", "hf_your_token_here"}
 COMMIT_MESSAGE = (

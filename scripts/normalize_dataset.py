@@ -21,6 +21,220 @@ def normalize_dict(value):
     return value if isinstance(value, dict) else {}
 
 
+def normalize_bench(value):
+    """Always return bench as list[str] for HF Arrow stability.
+
+    Legacy corpus mixes str (present) with [] (missing). HF infers a
+    conflicting str vs list type and parquet conversion fails.
+    """
+    if value is None:
+        return []
+    if isinstance(value, list):
+        out = []
+        for item in value:
+            if item is None:
+                continue
+            text = str(item).strip()
+            if text and text.upper() != "UNKNOWN":
+                out.append(text)
+        return out
+    text = str(value).strip()
+    if not text or text.upper() == "UNKNOWN":
+        return []
+    # extract_bench() joins multiple judges with " | "
+    if " | " in text:
+        return [part.strip() for part in text.split(" | ") if part.strip()]
+    return [text]
+
+
+TRANSITION_FIELDS = (
+    "ipc",
+    "bns",
+    "source",
+    "validated",
+    "risk",
+    "confidence",
+    "note",
+    "context_snippet",
+    "requires_judicial_confirmation",
+    "temporal_warning",
+)
+
+
+def normalize_transition(item):
+    """Coerce any transition dict to the canonical 10-field struct.
+
+    Fixes HF error: Couldn't cast struct<ipc,bns,...requires_judicial_confirmation,
+    context_snippet> to {ipc,bns:null,...} caused by three producers emitting
+    different key sets.
+    """
+    if not isinstance(item, dict):
+        return {k: None for k in TRANSITION_FIELDS}
+    return {
+        "ipc": item.get("ipc"),
+        "bns": item.get("bns"),
+        "source": item.get("source"),
+        "validated": bool(item.get("validated", False)),
+        "risk": item.get("risk"),
+        "confidence": item.get("confidence"),
+        "note": item.get("note"),
+        "context_snippet": item.get("context_snippet"),
+        "requires_judicial_confirmation": bool(item.get("requires_judicial_confirmation", False)),
+        "temporal_warning": item.get("temporal_warning"),
+    }
+
+
+def normalize_transitions_block(value):
+    block = normalize_dict(value)
+    details = block.get("details", [])
+    if not isinstance(details, list):
+        details = []
+    norm_details = [normalize_transition(d) for d in details if isinstance(d, dict)]
+    by_source = {}
+    for d in norm_details:
+        src = d.get("source") or "unknown"
+        by_source[src] = by_source.get(src, 0) + 1
+    return {
+        "total": len(norm_details),
+        "by_source": by_source,
+        "details": norm_details,
+    }
+
+
+CITATION_FIELDS = (
+    "type",
+    "reporter",
+    "year",
+    "page",
+    "volume",
+    "court",
+    "petitioner",
+    "respondent",
+    "case_name",
+    "raw",
+    "start_pos",
+    "end_pos",
+    "is_landmark",
+    "precedent_id",
+)
+
+
+def _as_int_or_none(value):
+    try:
+        if value is None or value == "":
+            return None
+        return int(value)
+    except (TypeError, ValueError):
+        return None
+
+
+def normalize_citation(item):
+    if not isinstance(item, dict):
+        return {k: None for k in CITATION_FIELDS}
+    return {
+        "type": item.get("type"),
+        "reporter": item.get("reporter"),
+        "year": item.get("year"),
+        "page": item.get("page"),
+        "volume": item.get("volume"),
+        "court": item.get("court"),
+        "petitioner": item.get("petitioner"),
+        "respondent": item.get("respondent"),
+        "case_name": item.get("case_name"),
+        "raw": item.get("raw"),
+        "start_pos": _as_int_or_none(item.get("start_pos")),
+        "end_pos": _as_int_or_none(item.get("end_pos")),
+        "is_landmark": bool(item.get("is_landmark", False)),
+        "precedent_id": item.get("precedent_id"),
+    }
+
+
+def normalize_citations_block(value):
+    block = normalize_dict(value)
+    details = block.get("details", [])
+    if not isinstance(details, list):
+        details = []
+    norm_details = [normalize_citation(d) for d in details if isinstance(d, dict)]
+    by_type = {}
+    for d in norm_details:
+        t = d.get("type") or "unknown"
+        by_type[t] = by_type.get(t, 0) + 1
+    return {
+        "total": len(norm_details),
+        "by_type": by_type,
+        "details": norm_details,
+    }
+
+
+def normalize_landmark(item):
+    if not isinstance(item, dict):
+        return {
+            "precedent_id": None,
+            "full_citation": None,
+            "short_name": None,
+            "aliases": [],
+            "year": None,
+            "court": None,
+            "bench_strength": None,
+            "legal_principle": None,
+            "issues": [],
+            "keywords": [],
+            "provisions": [],
+            "binding_authority": None,
+            "overrules": [],
+            "status": None,
+            "matched_by": None,
+        }
+    aliases = item.get("aliases", [])
+    if not isinstance(aliases, list):
+        aliases = []
+    overrules = item.get("overrules", [])
+    if not isinstance(overrules, list):
+        overrules = [overrules] if overrules else []
+    return {
+        "precedent_id": item.get("precedent_id"),
+        "full_citation": item.get("full_citation"),
+        "short_name": item.get("short_name"),
+        "aliases": [str(x) for x in aliases if x is not None],
+        "year": _as_int_or_none(item.get("year")),
+        "court": item.get("court"),
+        "bench_strength": _as_int_or_none(item.get("bench_strength")),
+        "legal_principle": item.get("legal_principle"),
+        "issues": normalize_list(item.get("issues")),
+        "keywords": normalize_list(item.get("keywords")),
+        "provisions": normalize_list(item.get("provisions")),
+        "binding_authority": item.get("binding_authority"),
+        "overrules": [str(x) for x in overrules if x is not None],
+        "status": item.get("status"),
+        "matched_by": item.get("matched_by"),
+    }
+
+
+def normalize_landmarks_block(value):
+    block = normalize_dict(value)
+    details = block.get("details", [])
+    if not isinstance(details, list):
+        details = []
+    norm_details = [normalize_landmark(d) for d in details if isinstance(d, dict)]
+    by_id = {}
+    for d in norm_details:
+        pid = d.get("precedent_id") or "unknown"
+        by_id[pid] = by_id.get(pid, 0) + 1
+    return {
+        "total": len(norm_details),
+        "by_id": by_id,
+        "details": norm_details,
+    }
+
+
+def normalize_list(value):
+    return value if isinstance(value, list) else []
+
+
+def normalize_dict(value):
+    return value if isinstance(value, dict) else {}
+
+
 def normalize_decision_date(value):
     text = normalize_string(value).strip()
     if not text or text.upper() == "UNKNOWN":
@@ -73,6 +287,21 @@ def normalize_record(data):
     else:
         statutory_transitions = normalize_list(statutory_transitions)
 
+    # Uniform structs: every object in these lists has identical keys so that
+    # HF datasets Arrow conversion can cast the whole column.
+    statutory_transitions = [
+        normalize_transition(t) for t in statutory_transitions if isinstance(t, dict)
+    ]
+    transitions_block = normalize_transitions_block(extractions.get("transitions"))
+    # Keep top-level and nested details in sync (consolidation duplicates them).
+    transitions_block["details"] = statutory_transitions
+    transitions_block["total"] = len(statutory_transitions)
+    by_source = {}
+    for d in statutory_transitions:
+        src = d.get("source") or "unknown"
+        by_source[src] = by_source.get(src, 0) + 1
+    transitions_block["by_source"] = by_source
+
     return {
         "judgment_id": normalize_string(data.get("judgment_id")),
         "text": normalize_string(data.get("text")),
@@ -84,7 +313,7 @@ def normalize_record(data):
             "jurisdiction": normalize_string(metadata.get("jurisdiction")),
             "petitioner": normalize_string(metadata.get("petitioner")),
             "respondent": normalize_string(metadata.get("respondent")),
-            "bench": metadata.get("bench", []),
+            "bench": normalize_bench(metadata.get("bench", [])),
         },
         "classification": {
             "domain": normalize_string(classification.get("domain")),
@@ -93,10 +322,10 @@ def normalize_record(data):
             "reasoning": normalize_list(classification.get("reasoning")),
         },
         "extractions": {
-            "citations": normalize_dict(extractions.get("citations")),
+            "citations": normalize_citations_block(extractions.get("citations")),
             "sections": normalize_dict(extractions.get("sections")),
-            "transitions": normalize_dict(extractions.get("transitions")),
-            "landmarks": normalize_dict(extractions.get("landmarks")),
+            "transitions": transitions_block,
+            "landmarks": normalize_landmarks_block(extractions.get("landmarks")),
             "issues": normalize_dict(extractions.get("issues")),
         },
         "statutory_transitions": statutory_transitions,
