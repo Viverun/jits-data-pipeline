@@ -99,6 +99,52 @@ def test_export_jsonl_skips_unknown_cases_by_default():
     assert json.loads(lines[0])["judgment_id"] == "IN-HC-DEL-2024-CV-ABCDE1"
 
 
+def test_normalize_transition_never_emits_bare_none_for_string_fields():
+    """HF's JSON loader infers a column's type from an early chunk. If every
+    sampled value for an optional field happens to be None, it locks in
+    Arrow's null type, and a real string appearing later in the file then
+    fails to cast ("Couldn't cast array of type string to null") - this
+    happened for real with `bns`, which is null for every transition except
+    the rare explicit-mapping case. Every string field must use the ""
+    sentinel instead of bare None so the column is consistently string-typed
+    regardless of which rows happen to land in the sample.
+    """
+    module = _load_normalize_dataset_module()
+
+    result = module.normalize_transition({"ipc": "302", "validated": True})
+
+    for key in ("ipc", "bns", "source", "risk", "confidence", "note", "context_snippet", "temporal_warning"):
+        assert result[key] is not None, f"{key} must not be bare None"
+    assert result["ipc"] == "302"
+    assert result["bns"] == ""
+
+
+def test_normalize_citation_never_emits_bare_none_for_string_fields():
+    module = _load_normalize_dataset_module()
+
+    result = module.normalize_citation({"type": "case_citation"})
+
+    string_fields = (
+        "type", "reporter", "year", "page", "volume", "court",
+        "petitioner", "respondent", "case_name", "raw", "precedent_id",
+    )
+    for key in string_fields:
+        assert result[key] is not None, f"{key} must not be bare None"
+
+
+def test_normalize_landmark_never_emits_bare_none_for_string_fields():
+    module = _load_normalize_dataset_module()
+
+    result = module.normalize_landmark({"precedent_id": "AIR-1973-SC-1461"})
+
+    string_fields = (
+        "precedent_id", "full_citation", "short_name", "court",
+        "legal_principle", "binding_authority", "status", "matched_by",
+    )
+    for key in string_fields:
+        assert result[key] is not None, f"{key} must not be bare None"
+
+
 def test_validate_release_quality_fails_for_unknown_year_ids():
     module = _load_normalize_dataset_module()
     bad_record = {

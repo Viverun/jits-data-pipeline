@@ -141,20 +141,36 @@ class TransitionExtractor:
 
     @classmethod
     def normalize_transition(cls, item: Dict) -> Dict:
-        """Coerce any legacy transition dict to the canonical uniform schema."""
+        """Coerce any legacy transition dict to the canonical uniform schema.
+
+        String fields use "" rather than bare None for a missing value. HF's
+        JSON loader infers a column's type from an early sample chunk; if
+        every sampled value for a field is None, it locks in Arrow's null
+        type, and a real string appearing later in the corpus then fails to
+        cast. `bns` is null for every transition except the rare
+        explicit-mapping case, which is exactly what tripped this.
+        """
         if not isinstance(item, dict):
-            return {k: None for k in cls.TRANSITION_FIELDS}
+            return {
+                k: (False if k in ("validated", "requires_judicial_confirmation") else "")
+                for k in cls.TRANSITION_FIELDS
+            }
+
+        def s(key):
+            value = item.get(key)
+            return "" if value is None else str(value)
+
         return {
-            "ipc": item.get("ipc"),
-            "bns": item.get("bns"),
-            "source": item.get("source"),
+            "ipc": s("ipc"),
+            "bns": s("bns"),
+            "source": s("source"),
             "validated": bool(item.get("validated", False)),
-            "risk": item.get("risk"),
-            "confidence": item.get("confidence"),
-            "note": item.get("note"),
-            "context_snippet": item.get("context_snippet"),
+            "risk": s("risk"),
+            "confidence": s("confidence"),
+            "note": s("note"),
+            "context_snippet": s("context_snippet"),
             "requires_judicial_confirmation": bool(item.get("requires_judicial_confirmation", False)),
-            "temporal_warning": item.get("temporal_warning"),
+            "temporal_warning": s("temporal_warning"),
         }
 
     @classmethod

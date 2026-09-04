@@ -12,20 +12,19 @@ REPO_ID = os.environ.get("HF_DATASET_REPO_ID", "Viverun/jits-legal-dataset")
 RELEASE_ASSETS = [
     ("train.jsonl", "train.jsonl"),
     ("DATASET_CARD.md", "README.md"),
-    ("jits-legal-dataset.py", "jits-legal-dataset.py"),
-    ("scripts/validate_hf_schema.py", "validate_hf_schema.py"),
 ]
 PLACEHOLDER_TOKENS = {"your_token_here", "hf_your_token_here"}
 COMMIT_MESSAGE = (
-    "v1.14.1: HF-safe uniform structs - fix parquet DatasetGenerationError\n\n"
-    "- statutory_transitions and extractions.transitions.details now emit a\n"
-    "  canonical 10-field struct from all producers (fixes Couldn't cast\n"
-    "  struct<...,requires_judicial_confirmation,context_snippet> error)\n"
-    "- metadata.bench always list[str]; citations/landmarks details uniform structs\n"
-    "- train.jsonl: 14037 rows re-exported from 14678-judgment corpus, validated\n"
-    "  with scripts/validate_hf_schema.py\n"
-    "- add jits-legal-dataset.py explicit HF Features script so parquet\n"
-    "  conversion no longer depends on first-chunk type inference"
+    "v1.14.2: remove unsupported dataset loading script\n\n"
+    "- HF's datasets library no longer supports repo-hosted loading scripts\n"
+    "  at all; publishing jits-legal-dataset.py broke config-name resolution\n"
+    "  outright (RuntimeError: \"Dataset scripts are no longer supported\"),\n"
+    "  which is strictly worse than the parquet cast error it was meant to fix\n"
+    "- the real fix was already in normalize_dataset.py: struct fields\n"
+    "  (transitions/citations/landmarks/bench) are normalized to a uniform\n"
+    "  schema at export time, so plain JSON->Parquet auto-conversion casts\n"
+    "  cleanly without any loading script\n"
+    "- removes jits-legal-dataset.py and validate_hf_schema.py from the repo"
 )
 
 

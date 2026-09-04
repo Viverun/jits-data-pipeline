@@ -67,20 +67,28 @@ def normalize_transition(item):
     Fixes HF error: Couldn't cast struct<ipc,bns,...requires_judicial_confirmation,
     context_snippet> to {ipc,bns:null,...} caused by three producers emitting
     different key sets.
+
+    Every string field uses normalize_string()'s "" sentinel rather than bare
+    None. HF's JSON loader infers a column's type from an early chunk; if
+    every value it samples for a field happens to be None, it locks in Arrow's
+    null type, and any real string appearing later in the file then fails to
+    cast ("Couldn't cast array of type string to null") - exactly what
+    happened here, since bns is null for every transition except the rare
+    explicit-mapping case, and none of those landed in the sampled chunk.
     """
     if not isinstance(item, dict):
-        return {k: None for k in TRANSITION_FIELDS}
+        return {k: (False if k in ("validated", "requires_judicial_confirmation") else "") for k in TRANSITION_FIELDS}
     return {
-        "ipc": item.get("ipc"),
-        "bns": item.get("bns"),
-        "source": item.get("source"),
+        "ipc": normalize_string(item.get("ipc")),
+        "bns": normalize_string(item.get("bns")),
+        "source": normalize_string(item.get("source")),
         "validated": bool(item.get("validated", False)),
-        "risk": item.get("risk"),
-        "confidence": item.get("confidence"),
-        "note": item.get("note"),
-        "context_snippet": item.get("context_snippet"),
+        "risk": normalize_string(item.get("risk")),
+        "confidence": normalize_string(item.get("confidence")),
+        "note": normalize_string(item.get("note")),
+        "context_snippet": normalize_string(item.get("context_snippet")),
         "requires_judicial_confirmation": bool(item.get("requires_judicial_confirmation", False)),
-        "temporal_warning": item.get("temporal_warning"),
+        "temporal_warning": normalize_string(item.get("temporal_warning")),
     }
 
 
@@ -129,23 +137,29 @@ def _as_int_or_none(value):
 
 
 def normalize_citation(item):
+    # Same "" sentinel as normalize_transition, for the same reason: every
+    # optional string field must never be bare None, or an early all-null
+    # sample chunk locks in Arrow's null type for that column.
     if not isinstance(item, dict):
-        return {k: None for k in CITATION_FIELDS}
+        return {
+            k: (False if k == "is_landmark" else None if k in ("start_pos", "end_pos") else "")
+            for k in CITATION_FIELDS
+        }
     return {
-        "type": item.get("type"),
-        "reporter": item.get("reporter"),
-        "year": item.get("year"),
-        "page": item.get("page"),
-        "volume": item.get("volume"),
-        "court": item.get("court"),
-        "petitioner": item.get("petitioner"),
-        "respondent": item.get("respondent"),
-        "case_name": item.get("case_name"),
-        "raw": item.get("raw"),
+        "type": normalize_string(item.get("type")),
+        "reporter": normalize_string(item.get("reporter")),
+        "year": normalize_string(item.get("year")),
+        "page": normalize_string(item.get("page")),
+        "volume": normalize_string(item.get("volume")),
+        "court": normalize_string(item.get("court")),
+        "petitioner": normalize_string(item.get("petitioner")),
+        "respondent": normalize_string(item.get("respondent")),
+        "case_name": normalize_string(item.get("case_name")),
+        "raw": normalize_string(item.get("raw")),
         "start_pos": _as_int_or_none(item.get("start_pos")),
         "end_pos": _as_int_or_none(item.get("end_pos")),
         "is_landmark": bool(item.get("is_landmark", False)),
-        "precedent_id": item.get("precedent_id"),
+        "precedent_id": normalize_string(item.get("precedent_id")),
     }
 
 
@@ -167,23 +181,24 @@ def normalize_citations_block(value):
 
 
 def normalize_landmark(item):
+    # Same "" sentinel as normalize_transition/normalize_citation.
     if not isinstance(item, dict):
         return {
-            "precedent_id": None,
-            "full_citation": None,
-            "short_name": None,
+            "precedent_id": "",
+            "full_citation": "",
+            "short_name": "",
             "aliases": [],
             "year": None,
-            "court": None,
+            "court": "",
             "bench_strength": None,
-            "legal_principle": None,
+            "legal_principle": "",
             "issues": [],
             "keywords": [],
             "provisions": [],
-            "binding_authority": None,
+            "binding_authority": "",
             "overrules": [],
-            "status": None,
-            "matched_by": None,
+            "status": "",
+            "matched_by": "",
         }
     aliases = item.get("aliases", [])
     if not isinstance(aliases, list):
@@ -192,21 +207,21 @@ def normalize_landmark(item):
     if not isinstance(overrules, list):
         overrules = [overrules] if overrules else []
     return {
-        "precedent_id": item.get("precedent_id"),
-        "full_citation": item.get("full_citation"),
-        "short_name": item.get("short_name"),
+        "precedent_id": normalize_string(item.get("precedent_id")),
+        "full_citation": normalize_string(item.get("full_citation")),
+        "short_name": normalize_string(item.get("short_name")),
         "aliases": [str(x) for x in aliases if x is not None],
         "year": _as_int_or_none(item.get("year")),
-        "court": item.get("court"),
+        "court": normalize_string(item.get("court")),
         "bench_strength": _as_int_or_none(item.get("bench_strength")),
-        "legal_principle": item.get("legal_principle"),
+        "legal_principle": normalize_string(item.get("legal_principle")),
         "issues": normalize_list(item.get("issues")),
         "keywords": normalize_list(item.get("keywords")),
         "provisions": normalize_list(item.get("provisions")),
-        "binding_authority": item.get("binding_authority"),
+        "binding_authority": normalize_string(item.get("binding_authority")),
         "overrules": [str(x) for x in overrules if x is not None],
-        "status": item.get("status"),
-        "matched_by": item.get("matched_by"),
+        "status": normalize_string(item.get("status")),
+        "matched_by": normalize_string(item.get("matched_by")),
     }
 
 
